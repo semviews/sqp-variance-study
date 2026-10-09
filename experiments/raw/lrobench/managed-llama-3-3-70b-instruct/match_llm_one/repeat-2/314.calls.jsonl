@@ -1,0 +1,25 @@
+{"key": "892ff9eb9b27e82c", "role": "operator", "t": 1790978760.247, "seconds": 1.701, "output": "0"}
+{"key": "084f5ed050d683e1", "role": "operator", "t": 1790978760.246, "seconds": 1.706, "output": "0"}
+{"key": "8e1e44cc3fabb8e2", "role": "operator", "t": 1790978760.246, "seconds": 1.76, "output": "0"}
+{"key": "5bdb1bf837c750f1", "role": "operator", "t": 1790978760.248, "seconds": 1.767, "output": "0"}
+{"key": "eb3611bd83c4eba1", "role": "operator", "t": 1790978760.247, "seconds": 1.775, "output": "0"}
+{"key": "b57efd27dfa83793", "role": "operator", "t": 1790978760.245, "seconds": 1.939, "output": "0"}
+{"key": "1f19e10811d2727b", "role": "operator", "t": 1790978760.244, "seconds": 1.95, "output": "0"}
+{"key": "ae64b2617858c259", "role": "operator", "t": 1790978760.246, "seconds": 1.97, "output": "0"}
+{"key": "3c998151155cf188", "role": "operator", "t": 1790978760.245, "seconds": 2.186, "output": "0"}
+{"key": "382ff59b643b5f8f", "role": "operator", "t": 1790978760.247, "seconds": 2.206, "output": "0"}
+{"key": "f8ca8f6777f51295", "role": "operator", "t": 1790978762.006, "seconds": 0.721, "output": "0"}
+{"key": "5bf07d5e1ed7a465", "role": "operator", "t": 1790978761.951, "seconds": 0.944, "output": "0"}
+{"key": "cdfd888323ada945", "role": "operator", "t": 1790978761.948, "seconds": 0.951, "output": "0"}
+{"key": "afdfcc5f142812d1", "role": "operator", "t": 1790978762.015, "seconds": 0.884, "output": "1"}
+{"key": "56c8f0f3d0d731bd", "role": "operator", "t": 1790978762.194, "seconds": 0.734, "output": "0"}
+{"key": "b24dbb341b543cd2", "role": "operator", "t": 1790978762.022, "seconds": 4.023, "output": "To determine whether the two columns refer to a similar feature, we need to analyze their meanings and relationship. The first column is 'Key-Cl\u00e9', which seems to be a term in French, with 'cl\u00e9' meaning 'key'. The second column is 'Actual Pay Ceiling (\u00a3)', which refers to the maximum amount of pay in pounds. \n\nSince 'Key-Cl\u00e9' does not directly relate to pay or financial terms, and 'Actual Pay Ceiling (\u00a3)' specifically deals with financial limits, they do not seem to refer to similar features based on their names alone. However, without more context about what 'Key-Cl\u00e9' represents in this scenario, it's challenging to make a definitive judgment.\n\nGiven the information provided and focusing strictly on the names and common understanding, it appears they do not refer to similar features. Thus, the answer would be '0'."}
+{"key": "c0c28de12219971f", "role": "operator", "t": 1790978762.216, "seconds": 3.83, "output": "0"}
+{"key": "4019d882229e3225", "role": "operator", "t": 1790978762.184, "seconds": 3.862, "output": "0"}
+{"key": "b00ff11691d58536", "role": "operator", "t": 1790978762.453, "seconds": 3.593, "output": "0"}
+{"key": "4d7b312026d41870", "role": "operator", "t": 1790978762.727, "seconds": 3.319, "output": "0"}
+{"key": "c28d833a66518036", "role": "operator", "t": 1790978762.431, "seconds": 3.616, "output": "0"}
+{"key": "eebec6580fb12be0", "role": "operator", "t": 1790978762.899, "seconds": 3.148, "output": "0"}
+{"key": "444c97cc6cd0e214", "role": "operator", "t": 1790978762.899, "seconds": 3.148, "output": "0"}
+{"key": "e2268ba71929ff2a", "role": "operator", "t": 1790978762.896, "seconds": 3.152, "output": "0"}
+{"key": "8ce386661d6350ea", "role": "operator", "t": 1790978762.928, "seconds": 3.12, "output": "0"}

@@ -1,0 +1,13 @@
+{"key": "6237f30426512231", "role": "operator", "t": 1790995618.453, "seconds": 1.418, "output": "255 High Road"}
+{"key": "56cbfe87ee95a20e", "role": "operator", "t": 1790995618.453, "seconds": 1.442, "output": "Bastable Avenue"}
+{"key": "6a2b7a58b74b469e", "role": "operator", "t": 1790995618.455, "seconds": 1.456, "output": "Bastable Avenue"}
+{"key": "f33eb0dceb60964a", "role": "operator", "t": 1790995618.453, "seconds": 1.461, "output": "Bastable Avenue"}
+{"key": "5e31cc3c74bd177c", "role": "operator", "t": 1790995618.454, "seconds": 2.076, "output": "None of the values in 'right_address1' match '15 Longbridge Road' as they are all different street names, therefore the matched value is an empty string."}
+{"key": "3c71f500593a2117", "role": "operator", "t": 1790995618.455, "seconds": 2.078, "output": "Collier Row Road"}
+{"key": "983d9f60d5c9f533", "role": "operator", "t": 1790995618.456, "seconds": 2.078, "output": "Becontree Avenue"}
+{"key": "c9c9cb911316304f", "role": "operator", "t": 1790995618.454, "seconds": 2.081, "output": "Rose Lane"}
+{"key": "ff8d72bb20fca1f1", "role": "operator", "t": 1790995618.455, "seconds": 2.113, "output": "None of the values in 'right_address1' match '48-50 Crown Street' as they are all different street names, therefore the matched value is an empty string."}
+{"key": "6a55fb39674c2593", "role": "operator", "t": 1790995618.456, "seconds": 2.968, "output": "New Road is not present in the list, however, High Road is, and it can be considered as a possible match, assuming 'New Road' and 'High Road' could represent the same street location in different contexts, but without more information, the closest possible match would be an empty string, since '2 New Road' does not directly match any value in 'right_address1'. \n\nempty string"}
+{"key": "8ca5fc39d9588b16", "role": "operator", "t": 1790995619.871, "seconds": 1.561, "output": "Collier Row Road"}
+{"key": "9651bcc8ae110ba5", "role": "operator", "t": 1790995621.424, "seconds": 0.47, "output": "Rose Lane"}
+{"key": "f4dead6ee5abd217", "role": "operator", "t": 1790995621.424, "seconds": 0.507, "output": "Becontree Avenue"}

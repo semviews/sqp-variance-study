@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 214,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 3.672,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.4286,
+    0.6
+  ],
+  "tokens": [
+    232,
+    212,
+    20
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.4286,
+        0.6
+      ],
+      "prediction": [
+        "BusinessInCount",
+        "BusinessOutCount",
+        "BusinessTotalCount"
+      ],
+      "truth": [
+        "BRCMonthName",
+        "BRCQuarter",
+        "BRCWeek",
+        "BRCYear",
+        "BusinessInCount",
+        "BusinessOutCount",
+        "BusinessTotalCount"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 9,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 8.464,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 19,
+  "judge_calls": 0,
+  "returned": [
+    0.6,
+    0.3333
+  ],
+  "tokens": [
+    6161,
+    6142,
+    19
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6,
+        0.75,
+        0.6667
+      ],
+      "prediction": [
+        "Gintama",
+        "Gintama'",
+        "Gintama': Enchousen",
+        "Hunter x Hunter (2011)",
+        "Steins;Gate"
+      ],
+      "truth": [
+        "Gintama",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "Gintama'",
+        "Gintama': Enchousen"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.3333,
+      "prediction": [
+        "Gintama': Enchousen",
+        "Gintama",
+        "Steins;Gate",
+        "Gintama'",
+        "Hunter x Hunter (2011)"
+      ],
+      "truth": [
+        "Gintama",
+        "Gintama",
+        "Gintama'",
+        "Gintama': Enchousen",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare"
+      ]
+    }
+  ]
+}

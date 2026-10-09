@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 110,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 14.446,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.2857,
+    0.8,
+    0.4211
+  ],
+  "tokens": [
+    4420,
+    3773,
+    647
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2857,
+        0.8,
+        0.4211
+      ],
+      "prediction": [
+        "['COMMERCE AND INSURANCE'\n 'Office of the Superintendent of Financial Institutions']",
+        "['CONSERVATION' 'Auditor General']",
+        "['CORRECTIONS' 'Auditor General']",
+        "['ECONOMIC DEVELOPMENT'\n 'Office of the Superintendent of Financial Institutions']",
+        "['JUDICIARY' 'Auditor General']",
+        "['LEGISLATURE' 'Auditor General']",
+        "['OFFICE OF ATTORNEY GENERAL' 'Auditor General']",
+        "['OFFICE OF GOVERNOR' 'Auditor General']",
+        "['OFFICE OF SECRETARY OF STATE' 'Auditor General']",
+        "['OFFICE OF STATE AUDITOR' 'Auditor General']",
+        "['OFFICE OF STATE TREASURER' 'Finance Department']",
+        "['PUBLIC SAFETY' 'Auditor General']",
+        "['REVENUE' 'Finance Department']",
+        "['TRANSPORTATION' 'Office of the Superintendent of Financial Institutions']"
+      ],
+      "truth": [
+        "['COMMERCE AND INSURANCE'\n 'Office of the Superintendent of Financial Institutions']",
+        "['COMMERCE AND INSURANCE' 'Financial Consumer Agency of Canada']",
+        "['OFFICE OF STATE AUDITOR' 'Auditor General']",
+        "['OFFICE OF STATE TREASURER' 'Finance Department']",
+        "['REVENUE' 'Finance Department']"
+      ]
+    }
+  ]
+}

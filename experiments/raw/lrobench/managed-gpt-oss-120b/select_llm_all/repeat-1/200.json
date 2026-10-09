@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 200,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 2.861,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    217,
+    193,
+    24
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "AvgScrMath",
+        "AvgScrRead",
+        "AvgScrWrite",
+        "NumGE1500",
+        "NumTstTakr"
+      ],
+      "truth": [
+        "AvgScrMath",
+        "AvgScrRead",
+        "AvgScrWrite",
+        "NumGE1500",
+        "NumTstTakr"
+      ]
+    }
+  ]
+}

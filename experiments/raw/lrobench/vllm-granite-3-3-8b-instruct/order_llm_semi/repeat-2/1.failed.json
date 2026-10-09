@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 1,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 2.943,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 41, in pipeline_order1\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '56010000\" is not a valid score between 0 and 100. The task requires returning a score as a string within that range. Based on the population of England, which is approximately 56.5 million, and considering the scale from 0 (least populous) to 100 (most populous among comparable countries), a reasonable score would be around 70, reflecting a relatively high population among European countries.\\n\\nTherefore, the output is:\\n\\n\"70'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '56010000\" is not a valid score between 0 and 100. The task requires returning a score as a string within that range. Based on the population of England, which is approximately 56.5 million, and assuming a scale where 100 represents the highest population among countries, England\\'s population is relatively high but not the absolute highest. Considering global population rankings, a reasonable score reflecting its population relative to other countr",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: could not convert string to float: '56010000\" is not a valid score between 0 and 100. The task requires returning a score as a string within that range. \\n\\nTo evaluate the population of England, we consider its actual population. As of the latest estimates, England\\'s population is approximately 56.5 million. To convert this into a score between 0 and 100, we can use a relative comparison to the largest populations in the world.\\n\\nFor context, the world\\'s most populous country, Ch",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

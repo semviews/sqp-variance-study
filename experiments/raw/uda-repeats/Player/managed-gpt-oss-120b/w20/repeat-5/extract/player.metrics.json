@@ -1,0 +1,29 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "player",
+  "attributes": [
+    "age",
+    "birth_date",
+    "college",
+    "draft_pick",
+    "draft_year",
+    "fiba_world_cup",
+    "mvp_awards",
+    "name",
+    "nationality",
+    "nba_championships",
+    "olympic_gold_medals",
+    "position",
+    "team"
+  ],
+  "model": "openai/managed-gpt-oss-120b",
+  "workers": 20,
+  "repeat": 5,
+  "calls": 1835,
+  "documents": 141,
+  "transient_retries": 2,
+  "failed_calls": 478,
+  "seconds": 428.437,
+  "prompt_tokens": 11008396
+}

@@ -1,0 +1,48 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 307,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 7.861,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 8,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    1090,
+    1082,
+    8
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        1.0,
+        0.6667
+      ],
+      "prediction": [
+        "League",
+        "Match",
+        "Team",
+        "Team_Attributes"
+      ],
+      "truth": [
+        "Match",
+        "Team"
+      ]
+    }
+  ]
+}

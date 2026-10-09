@@ -1,0 +1,2 @@
+{"key": "b19fa0b07a5f51e9", "role": "operator", "t": 1790968786.157, "seconds": 2.803, "output": "[\n  {\"index\":\"56\", \"cluster_name\": \"China\", \"cluster_label\": \"1\"}\n]"}
+{"key": "48cbbc4ab80a5f63", "role": "operator", "t": 1790968788.96, "seconds": 1.352, "output": "{\"function\": \"assign_cluster\", \"args\": [{\"index\": 57, \"sport_name\": \"Taekwondo\"}, {\"1\": \"China\"}]}"}

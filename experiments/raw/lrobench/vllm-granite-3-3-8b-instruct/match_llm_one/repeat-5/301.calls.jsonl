@@ -1,0 +1,25 @@
+{"key": "579952ca084e5987", "role": "operator", "t": 1790984725.311, "seconds": 1.2, "output": "0"}
+{"key": "ae90d7a1ba4059e5", "role": "operator", "t": 1790984725.31, "seconds": 1.22, "output": "0"}
+{"key": "ce695ba85add1993", "role": "operator", "t": 1790984725.313, "seconds": 1.222, "output": "0"}
+{"key": "46445c7add50abb0", "role": "operator", "t": 1790984725.311, "seconds": 1.233, "output": "0"}
+{"key": "edfaf61bf1398e6c", "role": "operator", "t": 1790984725.31, "seconds": 1.237, "output": "1"}
+{"key": "65bfea86dc952772", "role": "operator", "t": 1790984725.312, "seconds": 1.237, "output": "0"}
+{"key": "deece0d79b43b920", "role": "operator", "t": 1790984725.309, "seconds": 1.244, "output": "0"}
+{"key": "4da53916be68d19d", "role": "operator", "t": 1790984725.312, "seconds": 1.243, "output": "0"}
+{"key": "aa3fbeae7153a1bb", "role": "operator", "t": 1790984725.311, "seconds": 1.252, "output": "0"}
+{"key": "41a1648c21bc6f09", "role": "operator", "t": 1790984725.313, "seconds": 1.251, "output": "0"}
+{"key": "b15d5c689aaa1784", "role": "operator", "t": 1790984726.511, "seconds": 0.362, "output": "0"}
+{"key": "5cd2908bea3d91bb", "role": "operator", "t": 1790984726.53, "seconds": 0.367, "output": "0"}
+{"key": "6146243666a37406", "role": "operator", "t": 1790984726.544, "seconds": 0.456, "output": "0"}
+{"key": "00b30dc40dd5cd03", "role": "operator", "t": 1790984726.544, "seconds": 0.457, "output": "0"}
+{"key": "e879d18fda265ed6", "role": "operator", "t": 1790984726.555, "seconds": 0.456, "output": "0"}
+{"key": "b6de1d00cf54efbc", "role": "operator", "t": 1790984726.553, "seconds": 0.459, "output": "0"}
+{"key": "ea0064b92f8a44ef", "role": "operator", "t": 1790984726.553, "seconds": 0.459, "output": "0"}
+{"key": "5098fd14bbbc934f", "role": "operator", "t": 1790984726.563, "seconds": 1.607, "output": "To determine whether the two inputs, `NAME` and `Geom`, satisfy the condition \"The two columns refer to the same feature,\" I would need to know the actual content of these inputs. However, since the inputs are not provided in your message, I cannot perform the evaluation.\n\nPlease provide the values for `NAME` and `Geom`, and I will then assess whether they refer to the same feature and return the appropriate integer (`0` for no, `1` for yes) as specified."}
+{"key": "075fbed06dbd7bc4", "role": "operator", "t": 1790984726.564, "seconds": 1.607, "output": "0"}
+{"key": "927e7a7ce43b31c9", "role": "operator", "t": 1790984726.553, "seconds": 1.619, "output": "0"}
+{"key": "c4d97640ac12c919", "role": "operator", "t": 1790984726.873, "seconds": 1.306, "output": "0"}
+{"key": "cc9091dc464aba92", "role": "operator", "t": 1790984726.897, "seconds": 1.283, "output": "0"}
+{"key": "8acf274ac799b176", "role": "operator", "t": 1790984727.0, "seconds": 1.18, "output": "0"}
+{"key": "7f4d7cf8a688722b", "role": "operator", "t": 1790984727.002, "seconds": 1.179, "output": "0"}
+{"key": "6c877c05748ce0d3", "role": "operator", "t": 1790984727.011, "seconds": 1.17, "output": "0"}

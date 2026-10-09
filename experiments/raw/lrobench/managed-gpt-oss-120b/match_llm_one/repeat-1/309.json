@@ -1,0 +1,58 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 27.986,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 152,
+  "judge_calls": 0,
+  "returned": [
+    0.3,
+    0.5,
+    0.375
+  ],
+  "tokens": [
+    14546,
+    14394,
+    152
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3,
+        0.5,
+        0.375
+      ],
+      "prediction": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geo Local Area' 'Geom']",
+        "['Geom' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['JURISDICTION' 'Geo Local Area']",
+        "['MERGED_ADDRESS' 'Street']",
+        "['STEWARD_OR_MANAGING_ORGANIZATION' 'BUSINESSOPERATOR']",
+        "['STREET_NAME' 'Street']",
+        "['STREET_NUMBER' 'StreetNumber']",
+        "['WEBSITE' 'DetailURL']"
+      ],
+      "truth": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'BUSINESSOPERATOR']",
+        "['STREET_NAME' 'StreetNumber']",
+        "['STREET_NUMBER' 'Street']",
+        "['WEBSITE' 'DetailURL']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 16.73,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: \"None of [Index(['left_website', 'right_website'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: \"None of [Index(['left_website', 'right_website'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    1511,
+    573,
+    938
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['Arts Depot ' 'St Joan of Arc Community Centre']",
+        "['Battersea Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['Bernie Grant Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['Chats Palace ' 'St Joan of Arc Community Centre']",
+        "['Dugdale  ' 'St Joan of Arc Community Centre']",
+        "['Fairfield Halls ' 'St Joan of Arc Community Centre']",
+        "['Harrow Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['ICA' 'St Joan of Arc Community Centre']",
+        "['Irish Cultural Centre ' 'St Joan of Arc Community Centre']",
+        "['JW3' 'St Joan of Arc Community Centre']",
+        "['Jacksons Lane ' 'St Joan of Arc Community Centre']",
+        "['OSO Arts Centre' 'St Joan of Arc Community Centre']",
+        "['Redbridge Drama Centre ' 'St Joan of Arc Community Centre']",
+        "['Rich Mix ' 'St Joan of Arc Community Centre']",
+        "['Riverside Studios ' 'St Joan of Arc Community Centre']",
+        "['Southbank Centre ' 'St Joan of Arc Community Centre']",
+        "['Stratford Circus Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['The Albany ' 'St Joan of Arc Community Centre']",
+        "['The Arts Centre Houndslow ' 'St Joan of Arc Community Centre']",
+        "['The Barbican ' 'St Joan of Arc Community Centre']",
+        "['The Landmark Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['The Library at Willesdon Green' 'St Joan of Arc Community Centre']",
+        "['The Tabernacle' 'St Joan of Arc Community Centre']",
+        "['Watermans Arts Centre' 'St Joan of Arc Community Centre']"
+      ],
+      "truth": [
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ]
+    }
+  ]
+}

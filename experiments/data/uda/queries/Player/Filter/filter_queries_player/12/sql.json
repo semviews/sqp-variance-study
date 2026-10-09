@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 12: 2 (player) */ SELECT olympic_gold_medals, position, birth_date FROM player WHERE olympic_gold_medals < 1 AND draft_pick = 24",
+  "player": {
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    },
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  }
+}

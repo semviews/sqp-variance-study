@@ -1,0 +1,18 @@
+{"key": "f834d7fbc8c9cec7", "role": "operator", "t": 1790974703.103, "seconds": 1.471, "output": "[\n  {\"sport_name\": \"Badminton\", \"year\": 1992}\n]"}
+{"key": "74a56e0cae087a31", "role": "operator", "t": 1790974703.1, "seconds": 1.503, "output": "[\n  {\"sport_name\": \"Alpine Skiing\", \"year\": 1936}\n]"}
+{"key": "42c8db8e0d38c2de", "role": "operator", "t": 1790974703.101, "seconds": 1.504, "output": "[\n  {\"sport_name\": \"Archery\", \"year\": 1900}\n]"}
+{"key": "75cda647a54a52c6", "role": "operator", "t": 1790974703.105, "seconds": 1.52, "output": "[\n  {\"sport_name\": \"Basketball\", \"year\": 1936}\n]"}
+{"key": "03ec147c3410c599", "role": "operator", "t": 1790974703.105, "seconds": 1.637, "output": "[\n  {\n    \"sport_name\": \"Basque Pelota\",\n    \"year\": 1920\n  }\n]"}
+{"key": "c20d7fd69918e71b", "role": "operator", "t": 1790974703.101, "seconds": 1.644, "output": "[\n  {\n    \"sport_name\": \"Art Competitions\",\n    \"year\": 1912\n  }\n]"}
+{"key": "09a6b53f0e42baf3", "role": "operator", "t": 1790974703.1, "seconds": 1.648, "output": "[\n  {\"sport_name\": \"Alpinism\", \"year\": 1924}\n]"}
+{"key": "7a396877c05febe7", "role": "operator", "t": 1790974703.104, "seconds": 1.647, "output": "[\n  {\"sport_name\": \"Baseball\", \"year\": 1992}\n]"}
+{"key": "326689d362dd0374", "role": "operator", "t": 1790974703.099, "seconds": 2.969, "output": "The sport \"Aeronautics\" was not an official Olympic sport. However, for the purpose of this task, we consider the closest related sport, \"Air sports,\" which was demonstrated at the 1900 Paris Olympics. Therefore, we impute the year of its first Olympic inclusion as 1900.\n\n```json\n[\n  {\"sport_name\": \"Aeronautics\", \"year\": 1900}\n]\n```"}
+{"key": "3bd1f2eda305b7aa", "role": "operator", "t": 1790974703.102, "seconds": 2.971, "output": "[\n  {\"sport_name\": \"Athletics\", \"year\": 1896}\n]"}
+{"key": "42a15b2d4342a6e8", "role": "operator", "t": 1790974704.574, "seconds": 1.502, "output": "[\n  {\n    \"sport_name\": \"Beach Volleyball\",\n    \"year\": 1996\n  }\n]"}
+{"key": "f201004124a0a5f1", "role": "operator", "t": 1790974704.751, "seconds": 1.327, "output": "[\n  {\"sport_name\": \"Bobsleigh\", \"year\": 1924}\n]"}
+{"key": "2d7c5e53790a6b94", "role": "operator", "t": 1790974704.751, "seconds": 1.329, "output": "[\n  {\"sport_name\": \"Biathlon\", \"year\": 1960}\n]"}
+{"key": "54143996529fcefe", "role": "operator", "t": 1790974704.751, "seconds": 1.331, "output": "[\n  {\n    \"sport_name\": \"Croquet\",\n    \"year\": 1900\n  }\n]"}
+{"key": "14759b7f60a96827", "role": "operator", "t": 1790974704.751, "seconds": 1.333, "output": "[\n  {\"sport_name\": \"Cricket\", \"year\": 1900}\n]"}
+{"key": "6d103a256e883734", "role": "operator", "t": 1790974704.751, "seconds": 1.335, "output": "[\n  {\n    \"sport_name\": \"Cross Country Skiing\",\n    \"year\": 1924\n  }\n]"}
+{"key": "a84cbbe57c10d79f", "role": "operator", "t": 1790974704.751, "seconds": 1.336, "output": "[\n  {\"sport_name\": \"Canoeing\", \"year\": 1936}\n]"}
+{"key": "4888d8b90b694306", "role": "operator", "t": 1790974704.751, "seconds": 1.338, "output": "[\n  {\"sport_name\": \"Boxing\", \"year\": 1904}\n]"}

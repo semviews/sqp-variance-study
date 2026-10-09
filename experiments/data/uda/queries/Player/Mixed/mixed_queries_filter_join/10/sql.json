@@ -1,0 +1,27 @@
+{
+  "sql": "/* Query 10: filter5_join2 (player, team, city, manager) */ SELECT player.position, manager.age, team.championship, city.city_name FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name WHERE player.olympic_gold_medals = 0 OR player.position <> 'Backcourt' OR city.gdp = '252200'",
+  "player": {
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  },
+  "manager": {
+    "age": {
+      "value_type": "int",
+      "description": "age is the age of the team owner, a integer (e.g. 45)."
+    }
+  },
+  "team": {
+    "championship": {
+      "value_type": "int",
+      "description": "championships is the number of this team getting championships (e.g. 5)."
+    }
+  },
+  "city": {
+    "city_name": {
+      "value_type": "str",
+      "description": "city_name is the name of the city (e.g. Boston)"
+    }
+  }
+}

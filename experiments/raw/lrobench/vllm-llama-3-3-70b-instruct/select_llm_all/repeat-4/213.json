@@ -1,0 +1,60 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 213,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 2.828,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.6364,
+    1.0,
+    0.7778
+  ],
+  "tokens": [
+    380,
+    304,
+    76
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6364,
+        1.0,
+        0.7778
+      ],
+      "prediction": [
+        "Appraisal date",
+        "Available No. of Ext.",
+        "Available extension details",
+        "End date",
+        "Initial contract period (months)",
+        "Review date",
+        "Start date",
+        "Taken Extension details",
+        "Taken No. of Ext.",
+        "Total contract period (months)",
+        "Total option to extend (months)"
+      ],
+      "truth": [
+        "Available No. of Ext.",
+        "Available extension details",
+        "Initial contract period (months)",
+        "Taken Extension details",
+        "Taken No. of Ext.",
+        "Total contract period (months)",
+        "Total option to extend (months)"
+      ]
+    }
+  ]
+}

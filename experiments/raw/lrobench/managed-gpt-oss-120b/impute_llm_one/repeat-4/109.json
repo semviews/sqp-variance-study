@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 109,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 7.313,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 6,
+  "judge_calls": 6,
+  "returned": [
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    2330,
+    1864,
+    466
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.0,
+      "prediction": [
+        "1230 Poplar Ave",
+        "1234 Oak Street",
+        "Not Provided",
+        "901-555-2680",
+        "901-555-1234",
+        "901-555-1234"
+      ],
+      "truth": [
+        "749 E Mckellar Ave",
+        "3522 Mimosa Ave",
+        "2877 Laredo St",
+        "(901) 774-6569",
+        "(901) 789-7564",
+        "(901) 384-0984"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.0,
+      "prediction": [
+        "1230 Poplar Ave",
+        "1234 Oak Street",
+        "Not Provided",
+        "901-555-2680",
+        "901-555-1234",
+        "901-555-1234"
+      ],
+      "truth": [
+        "749 E Mckellar Ave",
+        "3522 Mimosa Ave",
+        "2877 Laredo St",
+        "(901) 774-6569",
+        "(901) 789-7564",
+        "(901) 384-0984"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"key": "bb43ffcb24b24e01", "role": "operator", "t": 1790960012.821, "seconds": 1.972, "output": "${rank_table(json_table, 'contactLastName', 'ascending', 4)}"}

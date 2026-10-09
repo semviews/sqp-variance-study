@@ -1,0 +1,70 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 23,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 5.366,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: 'index'",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: 'index'",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0
+  ],
+  "tokens": [
+    949,
+    747,
+    202
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "Mediterranean Sea",
+        "Red Sea",
+        "Sulawesi Sea"
+      ],
+      "truth": [
+        "Caribbean Sea",
+        "Indian Ocean",
+        "Pacific Ocean"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0,
+      "prediction": [
+        "Sulawesi Sea",
+        "Mediterranean Sea",
+        "Red Sea"
+      ],
+      "truth": [
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Caribbean Sea"
+      ]
+    }
+  ]
+}

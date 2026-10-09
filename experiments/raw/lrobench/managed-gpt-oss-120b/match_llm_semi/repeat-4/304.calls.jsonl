@@ -1,0 +1,12 @@
+{"key": "915c414959988b7c", "role": "operator", "t": 1790985782.144, "seconds": 1.97, "output": "YearOfInstallation"}
+{"key": "b7de0624ed9d1416", "role": "operator", "t": 1790985784.114, "seconds": 1.709, "output": "SiteName"}
+{"key": "86a231a19ebd776b", "role": "operator", "t": 1790985785.823, "seconds": 0.995, "output": "URL"}
+{"key": "ac9787fcb79c817a", "role": "operator", "t": 1790985786.819, "seconds": 1.06, "output": "Type"}
+{"key": "bea38fd5efdba2a7", "role": "operator", "t": 1790985787.878, "seconds": 1.94, "output": "Type"}
+{"key": "f1486b0b9a884c17", "role": "operator", "t": 1790985789.818, "seconds": 1.469, "output": "SiteAddress"}
+{"key": "ba8f3ea4ae5367ab", "role": "operator", "t": 1790985791.288, "seconds": 1.455, "output": "GeoLocalArea"}
+{"key": "cfb62b463f43dd28", "role": "operator", "t": 1790985792.742, "seconds": 1.16, "output": "Ownership"}
+{"key": "39de93b433b8a6e3", "role": "operator", "t": 1790985793.902, "seconds": 1.699, "output": ""}
+{"key": "3b8a295bc7f039eb", "role": "operator", "t": 1790985795.601, "seconds": 1.45, "output": ""}
+{"key": "3c1a0e4f0076fd28", "role": "operator", "t": 1790985797.05, "seconds": 2.668, "output": "Status"}
+{"key": "2234702caa842d25", "role": "operator", "t": 1790985799.718, "seconds": 1.156, "output": "Geom"}

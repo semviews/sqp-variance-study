@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "draft_pick": {
+      "precision": 0.8321167883211679,
+      "recall": 0.8507462686567164,
+      "f1": 0.8413284132841329
+    },
+    "age": {
+      "precision": 0.2773722627737226,
+      "recall": 0.2835820895522388,
+      "f1": 0.28044280442804426
+    },
+    "position": {
+      "precision": 0.48175182481751827,
+      "recall": 0.4925373134328358,
+      "f1": 0.48708487084870855
+    }
+  },
+  "macro_precision": 0.5304136253041363,
+  "macro_recall": 0.5422885572139303,
+  "macro_f1": 0.5362853628536285,
+  "rows": {
+    "len_gold": 134,
+    "len_pred": 137,
+    "matched_rows": 134
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "draft_pick",
+    "age",
+    "position"
+  ],
+  "skipped_columns": []
+}

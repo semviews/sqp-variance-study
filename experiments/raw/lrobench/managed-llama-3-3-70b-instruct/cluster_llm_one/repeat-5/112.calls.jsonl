@@ -1,0 +1,2 @@
+{"key": "bd05402e756c66b6", "role": "operator", "t": 1790978605.544, "seconds": 1.86, "output": "[\n  {\"index\":\"13\", \"cluster_name\": \"Developing\", \"cluster_label\": \"1\"}\n]"}
+{"key": "959ec5ee22fdd3b0", "role": "operator", "t": 1790978607.404, "seconds": 2.219, "output": "{\"function_name\": \"assign_cluster\", \"args\": [{\"index\": 23, \"Name\": \"Brazil\"}, {\"1\": \"Developing\"}]}"}

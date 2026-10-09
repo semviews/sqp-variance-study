@@ -1,0 +1,13 @@
+{"key": "d29c7b5fe1d12357", "role": "operator", "t": 1790970942.174, "seconds": 4.172, "output": "[{\"ward_no\": [\"1\", \"basic_info\"]}]"}
+{"key": "7c42eedfe1022e7e", "role": "operator", "t": 1790970946.346, "seconds": 1.815, "output": "[\n  { \"alderman_first_name\": [\"1\", \"basic_info\"] }\n]"}
+{"key": "84167dced077eadc", "role": "operator", "t": 1790970948.161, "seconds": 2.058, "output": "[\n  { \"alderman_last_name\": [\"1\", \"basic_info\"] }\n]"}
+{"key": "613ac6b2a94d1e2c", "role": "operator", "t": 1790970950.219, "seconds": 2.085, "output": "[{\"alderman_name_suffix\": [\"1\", \"basic_info\"]}]"}
+{"key": "7c7f42e282f27207", "role": "operator", "t": 1790970952.304, "seconds": 4.759, "output": "[\n  { \"ward_office_address\": [\"2\", \"contact_info\"] }\n]"}
+{"key": "8488982f8b66bae2", "role": "operator", "t": 1790970957.064, "seconds": 4.466, "output": "[\n  { \"ward_office_zip\": [\"2\", \"contact_info\"] }\n]"}
+{"key": "165073963d52d73c", "role": "operator", "t": 1790970961.53, "seconds": 4.652, "output": "[\n  { \"ward_email\": [\"2\", \"contact_info\"] }\n]"}
+{"key": "ecfa8389b230c163", "role": "operator", "t": 1790970966.181, "seconds": 2.523, "output": "[\n  { \"ward_office_phone\": [\"2\", \"contact_info\"] }\n]"}
+{"key": "9a834f5e7515f9db", "role": "operator", "t": 1790970968.705, "seconds": 1.796, "output": "[\n  { \"ward_office_fax\": [\"2\", \"contact_info\"] }\n]"}
+{"key": "3945d3e3a0f9c8d0", "role": "operator", "t": 1790970970.501, "seconds": 3.379, "output": "[{\"city_hall_office_room\": [\"1\", \"basic_info\"]}]"}
+{"key": "a64a6e69b5d03399", "role": "operator", "t": 1790970973.88, "seconds": 1.987, "output": "[\n  { \"city_hall_office_phone\": [\"2\", \"contact_info\"] }\n]"}
+{"key": "f644dbd436fd60c0", "role": "operator", "t": 1790970975.867, "seconds": 2.115, "output": "[\n  { \"city_hall_office_fax\": [\"2\", \"contact_info\"] }\n]"}
+{"key": "a56d8abd09faaf97", "role": "operator", "t": 1790970977.983, "seconds": 1.593, "output": "[{\"Population\": [\"3\", \"other_info\"]}]"}

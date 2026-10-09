@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 13,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 603.096,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 304, in pipeline_order13\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the \\'Song_Name\\' column, I need to use external knowledge. The song \"Sexxx Dreams\" by Lady Gaga peaked at number 17 on the US Billboard Hot 100 chart and stayed on the chart for 13 weeks. Based on this information, I will assign a score.\\n\\n\\nI will use a tool to get the score.'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the \\'Song_Name\\' column, I need to use external knowledge. Let me look up the Billboard chart performance of \"Sexxx Dreams\".'",
+      "operator_calls": 5
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To provide an accurate score, I need to know the performance of the song \"Jewels N\\' Drugs (feat. T.I., Too $hort & Twista)\" on the Billboard chart. Since I don\\'t have have access to real-time or specific data about the song\\'s performance, I will rely on general knowledge. The song \"Jewels N\\' Drugs\" is by Lady Gaga, featuring T.I., Too $hort, and Twista, from her third studio album, Artpop (2013). Given its features and the artist\\'s popularity,",
+      "operator_calls": 9
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 8,
+  "judge_calls": 0
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 303,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 59.921,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1297, in pipeline_match303\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: '```python\\ndef check_condition(date, governorate):\\n    # Assuming date and governorate are strings or JSON tuples\\n    if isinstance(date, str) and isinstance(governorate, str):\\n        # If both a\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '```python\\ndef check_condition(date, governorate):\\n    # Assuming date and governorate are strings or JSON tuples\\n    if isinstance(date, str) and isinstance(governorate, str):\\n        # If both a",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '```python\\ndef check_condition(date, governorate):\\n    # Assuming date and governorate are strings or JSON tuples\\n    if isinstance(date, str) and isinstance(governorate, str):\\n        # If both a",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0
+}

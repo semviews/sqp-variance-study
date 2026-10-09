@@ -1,0 +1,50 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 308,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 18.57,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 6,
+  "judge_calls": 0,
+  "returned": [
+    0.4,
+    0.6667,
+    0.5
+  ],
+  "tokens": [
+    827,
+    818,
+    9
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4,
+        0.6667,
+        0.5
+      ],
+      "prediction": [
+        "['AVG_NUM_WORDS' 'ArtistID']",
+        "['AVG_NUM_WORDS_NO_STOPWORDS' 'ArtistID']",
+        "['Author_ID' 'ArtistID']",
+        "['MEIBI' 'Biography']",
+        "['NAME' 'FirstName']"
+      ],
+      "truth": [
+        "['Author_ID' 'ArtistID']",
+        "['NAME' 'FirstName']",
+        "['NAME' 'LastName']"
+      ]
+    }
+  ]
+}

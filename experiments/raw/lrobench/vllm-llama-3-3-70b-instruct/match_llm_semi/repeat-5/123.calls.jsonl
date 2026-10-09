@@ -1,0 +1,23 @@
+{"key": "3bf93e491e087924", "role": "operator", "t": 1790996186.897, "seconds": 1.265, "output": "NYC"}
+{"key": "d21c0f0232a11309", "role": "operator", "t": 1790996186.895, "seconds": 1.269, "output": "San Francisco"}
+{"key": "9c6e921a7ec4acf7", "role": "operator", "t": 1790996186.896, "seconds": 1.518, "output": "San Francisco"}
+{"key": "819fa632e15498b8", "role": "operator", "t": 1790996186.895, "seconds": 2.738, "output": "None of the available values in 'right_city' are in the same state as Las Vegas, which is Nevada, so the matched value is an empty string."}
+{"key": "032a7a11ef605c2b", "role": "operator", "t": 1790996186.898, "seconds": 2.739, "output": "Boston"}
+{"key": "0ff2eae9884fcea9", "role": "operator", "t": 1790996186.896, "seconds": 2.742, "output": "NYC"}
+{"key": "c76bbede04b8404c", "role": "operator", "t": 1790996186.898, "seconds": 2.741, "output": "Boston"}
+{"key": "8f6d2736a05e7b38", "role": "operator", "t": 1790996186.899, "seconds": 2.741, "output": "Boston"}
+{"key": "e5bfbb89f067d098", "role": "operator", "t": 1790996186.897, "seconds": 2.744, "output": "San Francisco"}
+{"key": "53ff18c31d31af9e", "role": "operator", "t": 1790996186.899, "seconds": 2.743, "output": "Boston"}
+{"key": "198cf1a16b079809", "role": "operator", "t": 1790996188.165, "seconds": 1.477, "output": "San Francisco"}
+{"key": "459874a0fbc0d808", "role": "operator", "t": 1790996188.162, "seconds": 1.481, "output": "San Francisco"}
+{"key": "91d9a355b1501fc5", "role": "operator", "t": 1790996188.414, "seconds": 1.229, "output": "San Francisco"}
+{"key": "ba6b064edc675f9c", "role": "operator", "t": 1790996189.644, "seconds": 1.136, "output": "San Francisco"}
+{"key": "91748322e98d6348", "role": "operator", "t": 1790996189.644, "seconds": 1.137, "output": "Boston"}
+{"key": "8c66e05706053188", "role": "operator", "t": 1790996189.644, "seconds": 1.139, "output": "NYC"}
+{"key": "789ed90dd677534a", "role": "operator", "t": 1790996189.644, "seconds": 1.14, "output": "San Francisco"}
+{"key": "1421757c0e861590", "role": "operator", "t": 1790996189.644, "seconds": 1.141, "output": "Boston"}
+{"key": "78d71cf0d79a2fc3", "role": "operator", "t": 1790996189.633, "seconds": 1.153, "output": "NYC"}
+{"key": "1b567d76a53b920d", "role": "operator", "t": 1790996189.644, "seconds": 1.143, "output": "NYC"}
+{"key": "94b3daff562359de", "role": "operator", "t": 1790996189.644, "seconds": 1.144, "output": "Boston"}
+{"key": "2f4aadb6a9d2d31b", "role": "operator", "t": 1790996189.644, "seconds": 1.185, "output": "Sydney"}
+{"key": "00dfdda5f13552c0", "role": "operator", "t": 1790996189.644, "seconds": 1.363, "output": "San Francisco"}

@@ -1,0 +1,11 @@
+{"key": "fd7098c54d37553f", "role": "operator", "t": 1790964145.897, "seconds": 15.228, "output": ""}
+{"key": "4f8b78eb12e36e68", "role": "operator", "t": 1790964145.899, "seconds": 15.231, "output": "{\"type\": \"Point\", \"coordinates\": [-123.123447, 49.280618]}"}
+{"key": "443f7438111f86b5", "role": "operator", "t": 1790964145.901, "seconds": 20.73, "output": "{\"type\": \"Point\", \"coordinates\": [-123.123447, 49.280618]}"}
+{"key": "dd480064cc2959cd", "role": "operator", "t": 1790964145.9, "seconds": 38.581, "output": "{\"type\": \"Point\", \"coordinates\": [-123.123447, 49.280618]}"}
+{"key": "dd073dfa457ae14f", "role": "operator", "t": 1790964145.9, "seconds": 39.41, "output": ""}
+{"key": "c01a66675f64f482", "role": "operator", "t": 1790964145.899, "seconds": 39.974, "output": "{\"type\": \"Point\", \"coordinates\": [-123.123447, 49.280618]}"}
+{"key": "b7d2d097329935c9", "role": "operator", "t": 1790964145.901, "seconds": 40.441, "output": ""}
+{"key": "b2302f5761d38338", "role": "operator", "t": 1790964145.898, "seconds": 40.91, "output": "{\"type\": \"Point\", \"coordinates\": [-123.123447, 49.280618]}"}
+{"key": "951cb97baac53612", "role": "operator", "t": 1790964145.899, "seconds": 41.564, "output": "{\"type\": \"Point\", \"coordinates\": [-123.252618, 49.269046]}"}
+{"key": "4f8d7fff91f7b1e7", "role": "operator", "t": 1790964145.898, "seconds": 41.566, "output": "{\"type\": \"Point\", \"coordinates\": [-123.250955, 49.261089]}"}
+{"key": "699ba1ceff7e8683", "role": "operator", "t": 1790964161.13, "seconds": 37.558, "output": ""}

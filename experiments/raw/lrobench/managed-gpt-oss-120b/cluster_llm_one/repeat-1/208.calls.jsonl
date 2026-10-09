@@ -1,0 +1,11 @@
+{"key": "9719d6c56e3e8837", "role": "operator", "t": 1790961886.225, "seconds": 3.167, "output": "[\n  {\"cds\": [\"0\", \"id_info\"]}\n]"}
+{"key": "8b80a1819682d7fb", "role": "operator", "t": 1790961889.392, "seconds": 2.413, "output": "[{\"rtype\": [\"1\", \"type_info\"]}]"}
+{"key": "a39ace312b5ab762", "role": "operator", "t": 1790961891.805, "seconds": 1.764, "output": "[{\"sname\": [\"2\", \"name_info\"]}]"}
+{"key": "dbe725750d5dac73", "role": "operator", "t": 1790961893.568, "seconds": 1.856, "output": "[\n  { \"dname\": [\"2\", \"name_info\"] }\n]"}
+{"key": "8114cf00384d4c9d", "role": "operator", "t": 1790961895.424, "seconds": 2.069, "output": "[{\"cname\": [\"2\", \"name_info\"]}]"}
+{"key": "90a97ef6d0511cc8", "role": "operator", "t": 1790961897.494, "seconds": 1.859, "output": "[\n  {\"enroll12\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "36cf01de2d23c3f9", "role": "operator", "t": 1790961899.353, "seconds": 1.743, "output": "[\n  { \"NumTstTakr\": [\"1\", \"type_info\"] }\n]"}
+{"key": "c2143a4ece0c3b09", "role": "operator", "t": 1790961901.096, "seconds": 2.057, "output": "[\n  { \"AvgScrRead\": [\"3\", \"edu_info\"] }\n]"}
+{"key": "f3b4fd1020c57396", "role": "operator", "t": 1790961903.153, "seconds": 1.709, "output": "[\n  { \"AvgScrMath\": [\"3\", \"edu_info\"] }\n]"}
+{"key": "f43f118d5dc005a6", "role": "operator", "t": 1790961904.862, "seconds": 2.19, "output": "[{\"AvgScrWrite\": [\"4\", \"score_info\"]}]"}
+{"key": "3aae4ec5c736f963", "role": "operator", "t": 1790961907.052, "seconds": 4.36, "output": "[\n  { \"NumGE1500\": [\"4\", \"score_info\"] }\n]"}

@@ -1,0 +1,29 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "player",
+  "attributes": [
+    "age",
+    "birth_date",
+    "college",
+    "draft_pick",
+    "draft_year",
+    "fiba_world_cup",
+    "mvp_awards",
+    "name",
+    "nationality",
+    "nba_championships",
+    "olympic_gold_medals",
+    "position",
+    "team"
+  ],
+  "model": "openai/vllm-granite-3-3-8b-instruct",
+  "workers": 20,
+  "repeat": 2,
+  "calls": 1833,
+  "documents": 141,
+  "transient_retries": 0,
+  "failed_calls": 0,
+  "seconds": 616.536,
+  "prompt_tokens": 10948894
+}

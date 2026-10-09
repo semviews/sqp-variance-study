@@ -1,0 +1,426 @@
+{
+ "claims": [
+  {
+   "claim": "Filter, rows: ONE $>$ ALL",
+   "operator": "select",
+   "better": "llm_one",
+   "worse": "llm_all",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 30,
+     "mean": -0.010770000000000007,
+     "ci": [
+      -0.050753999999999994,
+      0.02641866666666665
+     ],
+     "executions": 5,
+     "agree": 1,
+     "verdict": "unstable"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 2,
+     "verdict": "too few"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 26,
+     "mean": -0.01007307692307691,
+     "ci": [
+      -0.05314461538461538,
+      0.03338461538461542
+     ],
+     "executions": 5,
+     "agree": 0,
+     "verdict": "unstable"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 19,
+     "mean": 0.14367894736842107,
+     "ci": [
+      0.07127052631578946,
+      0.23318842105263157
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    }
+   }
+  },
+  {
+   "claim": "Filter, columns, tables: ALL $>$ ONE",
+   "operator": "select",
+   "better": "llm_all",
+   "worse": "llm_one",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 30,
+     "mean": 0.2628913333333333,
+     "ci": [
+      0.14893666666666663,
+      0.38741133333333333
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 20,
+     "mean": 0.17217900000000003,
+     "ci": [
+      0.10311100000000004,
+      0.244233
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 29,
+     "mean": 0.23841103448275866,
+     "ci": [
+      0.1444972413793104,
+      0.34640689655172413
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 19,
+     "mean": 0.17131684210526316,
+     "ci": [
+      0.0341157894736842,
+      0.32009578947368417
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    }
+   }
+  },
+  {
+   "claim": "Match, rows: SEMI $\\geq$ ALL",
+   "operator": "match",
+   "better": "llm_semi",
+   "worse": "llm_all",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 12,
+     "mean": 0.004329999999999973,
+     "ci": [
+      -0.0017416666666666785,
+      0.012499999999999947
+     ],
+     "executions": 5,
+     "agree": 4,
+     "verdict": "unstable"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 0,
+     "verdict": "too few"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 15,
+     "mean": 0.009171999999999994,
+     "ci": [
+      -0.09400400000000002,
+      0.12406933333333334
+     ],
+     "executions": 5,
+     "agree": 3,
+     "verdict": "unstable"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 14,
+     "mean": 0.02303,
+     "ci": [
+      -0.08108857142857143,
+      0.14145142857142853
+     ],
+     "executions": 5,
+     "agree": 4,
+     "verdict": "unstable"
+    }
+   }
+  },
+  {
+   "claim": "Match, cells, columns: ALL $>$ SEMI",
+   "operator": "match",
+   "better": "llm_all",
+   "worse": "llm_semi",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 45,
+     "mean": 0.09029288888888887,
+     "ci": [
+      0.030465777777777783,
+      0.1524342222222222
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 27,
+     "mean": -0.004139259259259277,
+     "ci": [
+      -0.1272525925925926,
+      0.12738074074074074
+     ],
+     "executions": 5,
+     "agree": 1,
+     "verdict": "unstable"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 44,
+     "mean": 0.03919954545454545,
+     "ci": [
+      -0.030982272727272723,
+      0.11073954545454545
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "unstable"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 28,
+     "mean": 0.1247607142857143,
+     "ci": [
+      0.02740857142857144,
+      0.22620357142857145
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    }
+   }
+  },
+  {
+   "claim": "Impute, columns: ONE $>$ ALL",
+   "operator": "impute",
+   "better": "llm_one",
+   "worse": "llm_all",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 22,
+     "mean": -0.057634545454545445,
+     "ci": [
+      -0.15851363636363633,
+      0.026612727272727277
+     ],
+     "executions": 5,
+     "agree": 0,
+     "verdict": "unstable"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 0,
+     "verdict": "too few"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 20,
+     "mean": -0.013956999999999994,
+     "ci": [
+      -0.149202,
+      0.11764800000000002
+     ],
+     "executions": 5,
+     "agree": 0,
+     "verdict": "unstable"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 14,
+     "mean": 0.07729714285714284,
+     "ci": [
+      -0.006857142857142863,
+      0.2116685714285714
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "unstable"
+    }
+   }
+  },
+  {
+   "claim": "Impute, cells, rows: ALL $>$ ONE",
+   "operator": "impute",
+   "better": "llm_all",
+   "worse": "llm_one",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 38,
+     "mean": 0.1364357894736842,
+     "ci": [
+      0.040702631578947365,
+      0.2429815789473684
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 1,
+     "verdict": "too few"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 37,
+     "mean": 0.11448702702702702,
+     "ci": [
+      0.00038270270270269986,
+      0.23178486486486483
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 17,
+     "mean": 0.10430352941176473,
+     "ci": [
+      -0.009805882352941178,
+      0.2440882352941177
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "unstable"
+    }
+   }
+  },
+  {
+   "claim": "Cluster: ALL $>$ ONE",
+   "operator": "cluster",
+   "better": "llm_all",
+   "worse": "llm_one",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 60,
+     "mean": 0.10123166666666666,
+     "ci": [
+      0.04728733333333333,
+      0.15865166666666666
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 30,
+     "mean": 0.108462,
+     "ci": [
+      0.014529333333333332,
+      0.20893533333333333
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 59,
+     "mean": 0.05102440677966102,
+     "ci": [
+      -0.011990847457627116,
+      0.1186
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "unstable"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 24,
+     "mean": 0.0745575,
+     "ci": [
+      -0.1001625,
+      0.24322999999999997
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "unstable"
+    }
+   }
+  },
+  {
+   "claim": "Order: ALL $>$ SEMI",
+   "operator": "order",
+   "better": "llm_all",
+   "worse": "llm_semi",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 30,
+     "mean": 0.21045266666666668,
+     "ci": [
+      0.10381933333333332,
+      0.32564
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "every execution"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 0,
+     "verdict": "too few"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 18,
+     "mean": 0.11175000000000002,
+     "ci": [
+      -0.09259444444444445,
+      0.33095555555555556
+     ],
+     "executions": 5,
+     "agree": 5,
+     "verdict": "unstable"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 2,
+     "verdict": "too few"
+    }
+   }
+  },
+  {
+   "claim": "Order: ALL $>$ ONE (heap)",
+   "operator": "order",
+   "better": "llm_all",
+   "worse": "llm_one-heap",
+   "results": {
+    "managed-gpt-oss-120b": {
+     "queries": 30,
+     "mean": 0.030454,
+     "ci": [
+      -0.055072666666666666,
+      0.14122600000000002
+     ],
+     "executions": 5,
+     "agree": 4,
+     "verdict": "unstable"
+    },
+    "managed-llama-3-3-70b-instruct": {
+     "queries": 0,
+     "verdict": "too few"
+    },
+    "vllm-llama-3-3-70b-instruct": {
+     "queries": 26,
+     "mean": -0.08705076923076924,
+     "ci": [
+      -0.23686615384615387,
+      0.04743692307692308
+     ],
+     "executions": 5,
+     "agree": 0,
+     "verdict": "unstable"
+    },
+    "vllm-granite-3-3-8b-instruct": {
+     "queries": 2,
+     "verdict": "too few"
+    }
+   }
+  }
+ ],
+ "macros": {
+  "claimCount": 9,
+  "claimTests": 28,
+  "claimEvery": 12,
+  "claimMeanOnly": 0,
+  "claimUnstable": 16,
+  "claimReversed": 0,
+  "claimSplit": 6,
+  "claimHoldAll": 1
+ }
+}

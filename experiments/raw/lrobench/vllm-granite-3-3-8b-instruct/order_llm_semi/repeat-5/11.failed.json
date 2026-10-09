@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 11,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 3.94,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 262, in pipeline_order11\n    sea = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'The Baltic Sea is one of the largest brackish inland seas in the world, with an area of approximately 147,000 square kilometers (about 56,800 square miles). Given that this area is relatively large compared to many other seas and oceans, it warrants a high score for the \\'The area of the sea.\\' metric.\\n\\nScore: \"85'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'The Barents Sea is a marginal sea of the Arctic Ocean, located north of Norway and Russia. It covers an area of approximately 160,000 square kilometers (about 62,000 square miles). Given that this is a relatively large sea area compared to many others, a score reflecting its substantial size would be appropriate.\\n\\nScore: \"80'",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'The Barents Sea is one of the smaller seas in the world, with an area of approximately 160,000 square kilometers (about 62,000 square miles). Compared to larger seas and oceans, this area is relatively modest. Therefore, assigning a score based on the size of the sea, where higher scores indicate larger areas, the Barents Sea would receive a moderate score.\\n\\nConsidering the range of sea sizes globally, a score of 45 out of 100 seems appropriate, ",
+      "operator_calls": 13
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0
+}

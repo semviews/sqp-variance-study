@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 39,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 28.149,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 94,
+  "judge_calls": 0,
+  "returned": [
+    [
+      57
+    ],
+    [
+      769
+    ],
+    [
+      8181
+    ],
+    [
+      9538
+    ]
+  ],
+  "tokens": 24089,
+  "metrics": [],
+  "prediction": [
+    [
+      57
+    ],
+    [
+      769
+    ],
+    [
+      8181
+    ],
+    [
+      9538
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

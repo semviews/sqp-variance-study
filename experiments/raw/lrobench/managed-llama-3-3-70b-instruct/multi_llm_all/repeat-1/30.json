@@ -1,0 +1,101 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 30,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 17.129,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 25,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Chicago, IL, USA - Dfa",
+      2
+    ],
+    [
+      "Detroit, MI, USA - Dfa",
+      1
+    ],
+    [
+      "Fall River, MA, USA - Dfb",
+      1
+    ],
+    [
+      "Lodi, CA, USA - Csa",
+      1
+    ],
+    [
+      "New Orleans, LA, USA - Cfa",
+      1
+    ],
+    [
+      "New Ulm, MN, USA - Dfa",
+      1
+    ],
+    [
+      "Portland, OR, USA - Csb",
+      1
+    ],
+    [
+      "San Francisco, CA, USA - Csb",
+      1
+    ],
+    [
+      "St. Louis, MO, USA - Cfa",
+      2
+    ]
+  ],
+  "tokens": 7539,
+  "metrics": [],
+  "prediction": [
+    [
+      "Chicago, IL, USA - Dfa",
+      2
+    ],
+    [
+      "Detroit, MI, USA - Dfa",
+      1
+    ],
+    [
+      "Fall River, MA, USA - Dfb",
+      1
+    ],
+    [
+      "Lodi, CA, USA - Csa",
+      1
+    ],
+    [
+      "New Orleans, LA, USA - Cfa",
+      1
+    ],
+    [
+      "New Ulm, MN, USA - Dfa",
+      1
+    ],
+    [
+      "Portland, OR, USA - Csb",
+      1
+    ],
+    [
+      "San Francisco, CA, USA - Csb",
+      1
+    ],
+    [
+      "St. Louis, MO, USA - Cfa",
+      2
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

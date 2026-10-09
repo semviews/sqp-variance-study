@@ -1,0 +1,67 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 200,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 5.873,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To solve this, we need to establish a connection between the column name 'cname' and the SAT test. The SAT, or Scholastic Aptitude Test, is a standardized test widely used for college admissions in t",
+      "operator_calls": 5
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To solve this, we need to establish a connection between the column name 'cname' and the SAT test. The SAT, or Scholastic Aptitude Test, is a standardized test widely used for college admissions in t",
+      "operator_calls": 5
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    0.4545,
+    1.0,
+    0.625
+  ],
+  "tokens": [
+    1490,
+    1479,
+    11
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4545,
+        1.0,
+        0.625
+      ],
+      "prediction": [
+        "AvgScrMath",
+        "AvgScrRead",
+        "AvgScrWrite",
+        "NumGE1500",
+        "NumTstTakr",
+        "cds",
+        "cname",
+        "dname",
+        "enroll12",
+        "rtype",
+        "sname"
+      ],
+      "truth": [
+        "AvgScrMath",
+        "AvgScrRead",
+        "AvgScrWrite",
+        "NumGE1500",
+        "NumTstTakr"
+      ]
+    }
+  ]
+}

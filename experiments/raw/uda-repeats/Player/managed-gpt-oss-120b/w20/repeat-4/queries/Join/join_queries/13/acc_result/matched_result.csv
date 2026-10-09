@@ -1,0 +1,67 @@
+city.population,player.position,city.city_name,team.founded_year,player.name,player.id,team.id,city.id
+,Backcourt,San Francisco,1946,Chavano Rainer Hield,100,10,11
+"3,820,914 || 3,792,621",Backcourt,Los Angeles,1946,D'Angelo Russell,101,14,6
+,Frontcourt,Philadelphia,1946,Joel Hans Embiid,102,23,12
+,Backcourt || Frontcourt,Philadelphia,1946,Paul Clifton Anthony George,103,23,12
+1304379 || 1299544,Backcourt,Dallas,1980,Kyrie Andrew Irving,104,7,4
+675647 || 691531,Frontcourt,Boston,1946,Jayson Christopher Tatum,105,2,2
+,Frontcourt,Philadelphia,1946,Caleb Martin,106,23,12
+,Frontcourt,San Francisco,1946,Andrew Christian Wiggins,107,10,11
+,,Philadelphia,1946,Max Berning Fiedler,108,23,12
+524943 || 466488,Frontcourt,Sacramento,1923,William Derek Grimm,11,26,22
+675647 || 691531,Frontcourt || Backcourt,Boston,1946,Jaylen Marselles Brown,110,2,2
+"1,434,625 || 2,600,000 (metropolitan area, 2020 census)",Frontcourt,San Antonio,1967,Victor Wembanyama,111,27,5
+675647 || 691531,Backcourt,Boston,1946,Jrue Randall Holiday,112,2,2
+"3,820,914 || 3,792,621",Backcourt,Los Angeles,1946,Austin Tyler Reaves,113,14,6
+442241,Frontcourt,Miami,1988,Kevin Wesley Love,114,16,8
+"577,222",Frontcourt,Milwaukee,1968,Giannis Antetokounmpo || Giannis Sina Ugo Antetokounmpo,115,17,28
+,Backcourt,San Francisco,1946,Wardell Stephen Curry II,116,10,11
+675647 || 691531,Frontcourt,Boston,1946,Alfred Joel Horford Reynoso,117,2,2
+442241,Backcourt,Miami,1988,Tyler Christopher Herro,118,16,8
+442241,Backcourt,Miami,1988,Duncan McBryde Robinson,119,16,8
+"3,820,914 || 3,792,621",Frontcourt,Los Angeles,1946,Anthony Marshon Davis Jr.,12,14,6
+,Frontcourt || Backcourt,San Francisco,1946,Kyle Forman Anderson,120,10,11
+639111,Backcourt,Detroit,1937,Cade Parker Cunningham,121,9,23
+"3,820,914 || 3,792,621",Frontcourt,Los Angeles,1946,LeBron Raymone James Sr.,122,14,6
+442241,Frontcourt,Miami,1988,Jimmy Butler III,123,16,8
+,Frontcourt,San Francisco,1946,Kevon Grant Looney,124,10,11
+2746388,Backcourt,Chicago,1966,Zachary Thomas LaVine,125,5,14
+639111,Backcourt,Detroit,1937,Jaden Edward Dhananjay Ivey,126,9,23
+,Backcourt,Philadelphia,1946,Kyle Terrell Lowry,127,23,12
+,Backcourt,"Washington, D.C.",1961,Michael Jeffrey Jordan,128,30,19
+1662607 || 1608139,Backcourt,Phoenix,1968,Devin Armani Booker,129,24,18
+,Frontcourt,San Francisco,1946,Draymond Jamal Green,130,10,11
+"1,434,625 || 2,600,000 (metropolitan area, 2020 census)",Frontcourt,San Antonio,1967,Zach Collins,131,27,5
+,Frontcourt,San Francisco,1946,Jonathan Malangu Kuminga,132,10,11
+2746388,Backcourt,Chicago,1966,Lonzo Anderson Ball,133,5,14
+442241,Frontcourt,Miami,1988,Jaime Jaquez Jr.,134,16,8
+639111,Frontcourt,Detroit,1937,Ausar XLNC Thompson,135,9,23
+675647 || 691531,Frontcourt,Boston,1946,Shaquille Rashaun O'Neal,137,2,2
+"3,820,914 || 3,792,621",Backcourt,Los Angeles,1946,Kobe Bean Bryant,138,14,6
+"1,434,625 || 2,600,000 (metropolitan area, 2020 census)",Backcourt,San Antonio,1967,Christopher Emmanuel Paul,139,27,5
+"1,434,625 || 2,600,000 (metropolitan area, 2020 census)",Frontcourt,San Antonio,1967,Harrison Bryce Jordan Barnes,140,27,5
+442241,Frontcourt,Miami,1988,Edrice Femi Adebayo,141,16,8
+"3,820,914 || 3,792,621",Frontcourt,Los Angeles,1946,Jay Fletcher Vincent,2,14,6
+"3,820,914 || 3,792,621",Backcourt,Los Angeles,1946,Earvin Johnson Jr.,28,14,6
+675647 || 691531,,Boston,1946,Stanley M. Noszka,29,2,2
+639111,Backcourt,Detroit,1937,Isiah Lord Thomas III,30,9,23
+652503,,Portland,1970,Daniel Edward Anderson,31,25,10
+2746388,Backcourt,Chicago,1966,Kelvin Trent Tucker,33,5,14
+1662607 || 1608139,Backcourt,Phoenix,1968,Miles Julian Simon,35,24,18
+"577,222",Backcourt,Milwaukee,1968,Guy William Rodgers,36,17,28
+"1,434,625 || 2,600,000 (metropolitan area, 2020 census)",Frontcourt,San Antonio,1967,Timothy Theodore Duncan,38,27,5
+"372,624",Frontcourt,Cleveland,1970,Derrick Joseph Chievous,44,6,20
+"887,642 || 880,621",Frontcourt,Indianapolis,1967,Rik Smits,45,12,3
+"429,954 || 521,718",Backcourt,Minneapolis,1989,Anthony Edwards,46,18,7
+639111,Frontcourt,Detroit,1937,Harry Junior Gallatin,47,9,23
+307573,Backcourt,Orlando,1989,William Mark Price,5,22,15
+1662607 || 1608139,Frontcourt,Phoenix,1968,Kevin Wayne Durant,54,24,18
+"3,820,914 || 3,792,621",Frontcourt,Los Angeles,1970,Aaron Williams,55,13,6
+,Frontcourt,Toronto,1995,Nathaniel Thomas Huffman,56,28,17
+652503,Frontcourt,Portland,1970,Jabari Dominic Walker,77,25,10
+"577,222",Backcourt,Milwaukee,1968,Demerick Montae Strickland,8,17,28
+,Frontcourt,San Francisco,1946,Kermit Alan Washington,84,10,11
+675647 || 691531,,Boston,1946,Garfield Smith,90,2,2
+1304379 || 1299544,Frontcourt,Dallas,1980,"DaMon William ""Monti"" Davis",95,7,4
+,Frontcourt,San Francisco,1946,Trayce Jackson-Davis,98,10,11
+,Frontcourt,Philadelphia,1946,Andre Jamal Drummond,99,23,12

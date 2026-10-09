@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "fiba_world_cup": {
+      "precision": 0.23809523809523808,
+      "recall": 0.14018691588785046,
+      "f1": 0.17647058823529413
+    },
+    "nba_championships": {
+      "precision": 0.9682539682539683,
+      "recall": 0.5700934579439252,
+      "f1": 0.7176470588235294
+    },
+    "birth_date": {
+      "precision": 0.9682539682539683,
+      "recall": 0.5700934579439252,
+      "f1": 0.7176470588235294
+    }
+  },
+  "macro_precision": 0.7248677248677248,
+  "macro_recall": 0.4267912772585669,
+  "macro_f1": 0.5372549019607843,
+  "rows": {
+    "len_gold": 107,
+    "len_pred": 63,
+    "matched_rows": 61
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "fiba_world_cup",
+    "nba_championships",
+    "birth_date"
+  ],
+  "skipped_columns": []
+}

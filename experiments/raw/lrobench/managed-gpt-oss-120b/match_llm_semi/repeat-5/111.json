@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 111,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 7.437,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.1667,
+    1.0,
+    0.2857
+  ],
+  "tokens": [
+    3312,
+    3293,
+    19
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1667,
+        1.0,
+        0.2857
+      ],
+      "prediction": [
+        "['AGRICULTURE' 'Natural Resources Department']",
+        "['CONSERVATION' 'Natural Resources Department']",
+        "['ECONOMIC DEVELOPMENT' 'Natural Resources Department']",
+        "['NATURAL RESOURCES' 'Natural Resources Department']",
+        "['PUBLIC SAFETY' 'Canadian Nuclear Safety Commission']",
+        "['TRANSPORTATION' 'National Energy Board']"
+      ],
+      "truth": [
+        "['NATURAL RESOURCES' 'Natural Resources Department']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 19,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 6.143,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.7556
+  ],
+  "tokens": [
+    2194,
+    2184,
+    10
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Bangladesh",
+        "Brazil",
+        "China",
+        "India",
+        "Indonesia",
+        "Japan",
+        "Nigeria",
+        "Pakistan",
+        "Russia",
+        "United States"
+      ],
+      "truth": [
+        "Bangladesh",
+        "Brazil",
+        "China",
+        "India",
+        "Indonesia",
+        "Japan",
+        "Nigeria",
+        "Pakistan",
+        "Russia",
+        "United States"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.7556,
+      "prediction": [
+        "Russia",
+        "Japan",
+        "Brazil",
+        "United States",
+        "China",
+        "Indonesia",
+        "Nigeria",
+        "Bangladesh",
+        "India",
+        "Pakistan"
+      ],
+      "truth": [
+        "Indonesia",
+        "Russia",
+        "Japan",
+        "United States",
+        "China",
+        "Brazil",
+        "India",
+        "Pakistan",
+        "Nigeria",
+        "Bangladesh"
+      ]
+    }
+  ]
+}

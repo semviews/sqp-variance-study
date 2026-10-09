@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 105,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 4.404,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    843,
+    790,
+    53
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['Fuji Speedway']",
+        "['Korean International Circuit']",
+        "['Okayama International Circuit']",
+        "['Shanghai International Circuit']",
+        "['Suzuka Circuit']"
+      ],
+      "truth": [
+        "['Fuji Speedway']",
+        "['Korean International Circuit']",
+        "['Okayama International Circuit']",
+        "['Shanghai International Circuit']",
+        "['Suzuka Circuit']"
+      ]
+    }
+  ]
+}

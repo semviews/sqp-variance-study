@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 105,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 29.56,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.7143,
+    1.0,
+    0.8333
+  ],
+  "tokens": [
+    863,
+    790,
+    73
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.7143,
+        1.0,
+        0.8333
+      ],
+      "prediction": [
+        "['Fuji Speedway']",
+        "['Korean International Circuit']",
+        "['Marina Bay Street Circuit']",
+        "['Okayama International Circuit']",
+        "['Sepang International Circuit']",
+        "['Shanghai International Circuit']",
+        "['Suzuka Circuit']"
+      ],
+      "truth": [
+        "['Fuji Speedway']",
+        "['Korean International Circuit']",
+        "['Okayama International Circuit']",
+        "['Shanghai International Circuit']",
+        "['Suzuka Circuit']"
+      ]
+    }
+  ]
+}

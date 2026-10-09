@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 27,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 4.018,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 607, in pipeline_order27\n    tags = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To calculate the score, I will use a tool to get the length of the string \"bayesian\" and then scale it to a value between 0 and 100.'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, I will use a tool to determine the length of the string in the \\'TagName\\' column and then scale it to a value between 0 and 100. I will assume that the maximum possible length of a tag name is 50 characters, which will be used to calculate the score.\\n\\n\\nTool call: calculate_string_length({\"index\": 19, \"TagName\": \"time-series\"})'",
+      "operator_calls": 9
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, I will use a tool to get the length of the string \"distributions\" and then calculate a score based on that length.'",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0
+}

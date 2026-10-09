@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 13,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 8.283,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 304, in pipeline_order13\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"Venus\", I need to use external knowledge. \"Venus\" is a song by Shocking Blue, released in 1969, and it reached number one on the Billboard Hot 100 chart. It stayed on the chart for 14 weeks. Given this information, I can infer that the song had a high rank and a moderate duration on the Billboard chart. \\n\\n{ \\n  \"type\": \"function\", \\n  \"name\": \"evaluate_billboard_metric\", \\n  \"parameters\": { \\n    \"song_name\": \"Venus\", \\n    \"highest_rank\": 1, \\n    \"duration_in_weeks\": 14 \\n  } \\n}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"Venus\", I need to use external knowledge. \"Venus\" is a song by Shocking Blue, released in 1969, and it reached number one on the Billboard Hot 100 chart. It stayed on the chart for 14 weeks. Another song with the same name, by Bananarama, released in 1986, also reached number one on the Billboard Hot 100 chart and stayed for 14 weeks. Given th",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"Venus\", I need to use external knowledge. \"Venus\" is a song by Shocking Blue, released in 1969, and it reached number one on the Billboard Hot 100 chart. It stayed on the chart for 12 weeks. Another song with the same name by Bananarama, released in 1986, also reached number one on the Billboard Hot 100 chart and stayed for 10 weeks. Given thi",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

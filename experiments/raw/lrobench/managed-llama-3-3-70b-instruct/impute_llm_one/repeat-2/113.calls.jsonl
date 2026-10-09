@@ -1,0 +1,6 @@
+{"key": "81c2b0e98b1f543a", "role": "operator", "t": 1790974568.329, "seconds": 3.848, "output": "{\"city_id\": 698, \"city_name\": \"Oklahoma City\", \"state\": \"Oklahoma\", \"population\": 506132, \"area\": 607.0}"}
+{"key": "cd9a1245cb21b7e4", "role": "operator", "t": 1790974568.325, "seconds": 3.855, "output": "{\"city_id\": 667, \"city_name\": \"San Jose\", \"state\": \"California\", \"population\": 894943, \"area\": 174.9}"}
+{"key": "035e39685cd5208f", "role": "operator", "t": 1790974568.327, "seconds": 3.856, "output": "{\"city_id\": 695, \"city_name\": \"Nashville\", \"state\": \"Tennessee\", \"population\": 545524, \"area\": 473.3}"}
+{"key": "e65488b24e1291c7", "role": "operator", "t": 1790974568.329, "seconds": 3.858, "output": "{\"city_id\": 697, \"city_name\": \"Houston\", \"state\": \"Texas\", \"population\": 1953631, \"area\": 579.5}"}
+{"key": "ef3ebb82fc489506", "role": "operator", "t": 1790974568.326, "seconds": 3.863, "output": "{\"city_id\": 694, \"city_name\": \"Los Angeles\", \"state\": \"California\", \"population\": 3694820, \"area\": 469.1}"}
+{"key": "b8eb454aa4fec7bc", "role": "operator", "t": 1790974568.328, "seconds": 3.865, "output": "{\"city_id\": 696, \"city_name\": \"Phoenix\", \"state\": \"Arizona\", \"population\": 1321045, \"area\": 474.9}"}

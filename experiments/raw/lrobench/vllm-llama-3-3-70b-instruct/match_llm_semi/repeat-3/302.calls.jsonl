@@ -1,0 +1,5 @@
+{"key": "f1486b0b9a884c17", "role": "operator", "t": 1790983582.204, "seconds": 2.568, "output": "SiteAddress"}
+{"key": "59fd699a513d5d73", "role": "operator", "t": 1790983584.772, "seconds": 1.04, "output": "Artists"}
+{"key": "0efba2d99a25e419", "role": "operator", "t": 1790983585.812, "seconds": 0.668, "output": "URL"}
+{"key": "2234702caa842d25", "role": "operator", "t": 1790983586.48, "seconds": 0.605, "output": "Geom"}
+{"key": "dd54742a95fb1d84", "role": "operator", "t": 1790983587.085, "seconds": 0.682, "output": "GeoLocalArea"}

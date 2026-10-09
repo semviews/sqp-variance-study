@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "nationality": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "max_age": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "macro_precision": 0.0,
+  "macro_recall": 0.0,
+  "macro_f1": 0.0,
+  "rows": {
+    "len_gold": 23,
+    "len_pred": 24,
+    "matched_rows": 0
+  },
+  "warnings": [],
+  "used_keys": [
+    "nationality"
+  ],
+  "evaluated_columns": [
+    "nationality",
+    "max_age"
+  ],
+  "skipped_columns": []
+}

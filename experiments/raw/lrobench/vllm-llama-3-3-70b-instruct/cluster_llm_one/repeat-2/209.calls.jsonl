@@ -1,0 +1,19 @@
+{"key": "70af94df17372549", "role": "operator", "t": 1790970025.663, "seconds": 1.616, "output": "[\n  { \"MAPID\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "989bd280b228d61d", "role": "operator", "t": 1790970027.28, "seconds": 0.843, "output": "[\n  { \"YEAR_CREATED\": [\"2\", \"other_info\"]}\n]"}
+{"key": "932fa0e32b0d5a41", "role": "operator", "t": 1790970028.123, "seconds": 0.754, "output": "[\n  { \"NAME\": [\"3\", \"tree_info\"]}\n]"}
+{"key": "a677b0911a22f4f6", "role": "operator", "t": 1790970028.877, "seconds": 2.236, "output": "[\n  { \"STREET_NUMBER\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "f5a27ffea07df072", "role": "operator", "t": 1790970031.113, "seconds": 0.902, "output": "[\n  { \"STREET_DIRECTION\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "3151f24bbe1d1342", "role": "operator", "t": 1790970032.015, "seconds": 0.838, "output": "[\n  { \"STREET_NAME\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "2c908a62c414dd03", "role": "operator", "t": 1790970032.853, "seconds": 0.895, "output": "[\n  { \"STREET_TYPE\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "a54c62b7489bb915", "role": "operator", "t": 1790970033.748, "seconds": 0.845, "output": "[\n  { \"MERGED_ADDRESS\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "79910d01ff9be7f9", "role": "operator", "t": 1790970034.593, "seconds": 0.888, "output": "[\n  { \"NUMBER_OF_PLOTS\": [\"4\", \"other_info\"]}\n]"}
+{"key": "87c4c6ca1546efb3", "role": "operator", "t": 1790970035.48, "seconds": 1.273, "output": "[\n  { \"NUMBER_OF_FOOD_TREES\": [\"3\", \"tree_info\"]}\n]"}
+{"key": "fb16745e577a95be", "role": "operator", "t": 1790970036.753, "seconds": 0.859, "output": "[\n  { \"NOTES\": [\"5\", \"other_info\"]}\n]"}
+{"key": "a3c8ef3f715e8050", "role": "operator", "t": 1790970037.612, "seconds": 0.899, "output": "[\n  { \"FOOD_TREE_VARIETIES\": [\"3\", \"tree_info\"]}\n]"}
+{"key": "90fdad2b508c9317", "role": "operator", "t": 1790970038.512, "seconds": 0.916, "output": "[\n  { \"OTHER_FOOD_ASSETS\": [\"2\", \"other_info\"]}\n]"}
+{"key": "7c4b7d7518ced2da", "role": "operator", "t": 1790970039.428, "seconds": 0.939, "output": "[\n  { \"JURISDICTION\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "e92febbb65e0e0be", "role": "operator", "t": 1790970040.368, "seconds": 1.372, "output": "[\n  { \"STEWARD_OR_MANAGING_ORGANIZATION\": [\"6\", \"contact_info\"]}\n]"}
+{"key": "4b0e040dea5e93c0", "role": "operator", "t": 1790970041.74, "seconds": 0.94, "output": "[\n  { \"PUBLIC_E_MAIL\": [\"6\", \"contact_info\"]}\n]"}
+{"key": "669e2dbffca90d88", "role": "operator", "t": 1790970042.68, "seconds": 0.793, "output": "[\n  { \"WEBSITE\": [\"7\", \"other_info\"]}\n]"}
+{"key": "8be58083fd5a0f09", "role": "operator", "t": 1790970043.472, "seconds": 0.791, "output": "[\n  { \"Geo Local Area\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "b8c222c7db4c6383", "role": "operator", "t": 1790970044.264, "seconds": 0.756, "output": "[\n  { \"Geom\": [\"1\", \"geo_info\"]}\n]"}

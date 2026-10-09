@@ -1,0 +1,15 @@
+{
+  "sql": "/* Query 2: agg1_join2 (player, team, city, manager) */ SELECT manager.nationality, MIN(city.population) AS min_city_population FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name GROUP BY manager.nationality",
+  "manager": {
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality is the nationality of the team owner (e.g. American)."
+    }
+  },
+  "city": {
+    "population": {
+      "value_type": "int",
+      "description": "population is the population of the city (e.g. 7000000)."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 4.73,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    5452,
+    4965,
+    487
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['Arts Depot ' 'St Joan of Arc Community Centre']",
+        "['Battersea Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['Bernie Grant Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['Chats Palace ' 'Andover Estate Community Centre']",
+        "['Dugdale  ' 'St Joan of Arc Community Centre']",
+        "['Fairfield Halls ' 'St Joan of Arc Community Centre']",
+        "['Harrow Arts Centre ' 'Hilldrop Community Centre']",
+        "['ICA' 'Andover Estate Community Centre']",
+        "['Irish Cultural Centre ' 'St Joan of Arc Community Centre']",
+        "['JW3' 'Andover Estate Community Centre']",
+        "['Jacksons Lane ' 'St Joan of Arc Community Centre']",
+        "['OSO Arts Centre' 'Andover Estate Community Centre']",
+        "['Poplar Union ' 'St Joan of Arc Community Centre']",
+        "['Redbridge Drama Centre ' 'St Joan of Arc Community Centre']",
+        "['Rich Mix ' 'Andover Estate Community Centre']",
+        "['Southbank Centre ' 'St Joan of Arc Community Centre']",
+        "['Stratford Circus Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['The Albany ' 'Andover Estate Community Centre']",
+        "['The Arts Centre Houndslow ' 'St Joan of Arc Community Centre']",
+        "['The Barbican ' 'Andover Estate Community Centre']",
+        "['The Landmark Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['The Library at Willesdon Green' 'St Joan of Arc Community Centre']",
+        "['The Tabernacle' 'St Joan of Arc Community Centre']",
+        "['Watermans Arts Centre' 'Andover Estate Community Centre']"
+      ],
+      "truth": [
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ]
+    }
+  ]
+}

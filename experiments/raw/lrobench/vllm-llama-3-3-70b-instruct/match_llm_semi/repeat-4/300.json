@@ -1,0 +1,56 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 300,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 6.996,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0,
+  "returned": [
+    0.0833,
+    0.5,
+    0.1429
+  ],
+  "tokens": [
+    1546,
+    1516,
+    30
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0833,
+        0.5,
+        0.1429
+      ],
+      "prediction": [
+        "['ACTIVE_SPACE' 'Geom']",
+        "['ADDRESS' 'AT_STREET']",
+        "['CULTURAL_SPACE_NAME' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['LOCAL_AREA' 'Geo Local Area']",
+        "['NUMBER_OF_SEATS' 'AT_STREET']",
+        "['OWNERSHIP' 'AT_STREET']",
+        "['PRIMARY_USE' 'AT_STREET']",
+        "['SQUARE_FEET' 'Geo Local Area']",
+        "['TYPE' 'AT_STREET']",
+        "['WEBSITE' 'AT_STREET']",
+        "['YEAR' 'YEAR']"
+      ],
+      "truth": [
+        "['Geo Local Area' 'LOCAL_AREA']",
+        "['Geom' 'Geom']"
+      ]
+    }
+  ]
+}

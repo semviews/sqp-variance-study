@@ -1,0 +1,55 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 214,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 4.871,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    0.4286,
+    0.4615
+  ],
+  "tokens": [
+    247,
+    212,
+    35
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        0.4286,
+        0.4615
+      ],
+      "prediction": [
+        "BusinessInCount",
+        "BusinessOutCount",
+        "BusinessTotalCount",
+        "LocationGroup",
+        "LocationName",
+        "Sitename"
+      ],
+      "truth": [
+        "BRCMonthName",
+        "BRCQuarter",
+        "BRCWeek",
+        "BRCYear",
+        "BusinessInCount",
+        "BusinessOutCount",
+        "BusinessTotalCount"
+      ]
+    }
+  ]
+}

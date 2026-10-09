@@ -1,0 +1,21 @@
+{"key": "281af8c0443ceae1", "role": "operator", "t": 1790975730.395, "seconds": 1.875, "output": "Hammersmith Broadway"}
+{"key": "01af961fcc8edfee", "role": "operator", "t": 1790975730.394, "seconds": 1.879, "output": "Grange"}
+{"key": "aa59dfb5a57cd182", "role": "operator", "t": 1790975730.394, "seconds": 6.988, "output": "East Acton is adjacent to Shepherd's Bush and Hammersmith, but since those are not in the list, the next closest match would be in the same borough, which is not available, however, one of the closest adjacent wards to East Acton is Acton Central and then to the north is Ealing Common and then to the north of that is Ealing Broadway and then to the north of that is Hanger Lane and then to the east of that is Perivale and then to the east of that is Alperton and then to the east of that is Wembley Central and then to the east of that is Preston and then to the east of that is Kenton and then to the east of that is Harrow and then to the east of that is Headstone and then to the east of that is Pinner and then to the east of that is Hatch End and then to the south of that is Queensbury and then to the south of that is Tokyngton and then to the south of that is Willesden Green \nWillesden Green"}
+{"key": "ddef31b464fff4cb", "role": "operator", "t": 1790975730.394, "seconds": 6.996, "output": "Stanley is not found in the list of available values, however, based on the UK ward names, a possible match for Stanley could be in the area of \"Stanley\" in the London Borough of Hammersmith and Fulham or other areas, one of the adjacent wards to Stanley in the UK could be \"Hammersmith Broadway\""}
+{"key": "e60a71a6191b64ca", "role": "operator", "t": 1790975730.395, "seconds": 6.997, "output": "Noel Park is adjacent to Tottenham Green and other wards but based on the available options Tottenham Green is the closest match"}
+{"key": "9d8fd2896e6260ce", "role": "operator", "t": 1790975730.393, "seconds": 7.0, "output": "East Putney"}
+{"key": "da4fdd363c0ff0e8", "role": "operator", "t": 1790975730.393, "seconds": 7.001, "output": "Shaftesbury"}
+{"key": "9985ea528574d5f7", "role": "operator", "t": 1790975730.396, "seconds": 6.999, "output": "Redcliffe is adjacent to Shaftesbury"}
+{"key": "e507fd5122668136", "role": "operator", "t": 1790975730.393, "seconds": 7.002, "output": "New Cross"}
+{"key": "3854f49e68db372c", "role": "operator", "t": 1790975730.396, "seconds": 6.999, "output": "West Hampstead"}
+{"key": "7fab109b69db97af", "role": "operator", "t": 1790975732.27, "seconds": 5.13, "output": "West Hampstead"}
+{"key": "9a41703b04304ae8", "role": "operator", "t": 1790975737.396, "seconds": 23.587, "output": "Holborn and Covent Garden"}
+{"key": "7487f7bc5e09354b", "role": "operator", "t": 1790975737.396, "seconds": 25.813, "output": "Streatham Hill"}
+{"key": "7ae86a9ba246fef4", "role": "operator", "t": 1790975737.396, "seconds": 25.816, "output": "West Hampstead"}
+{"key": "8aa70e267ad9834e", "role": "operator", "t": 1790975737.396, "seconds": 25.817, "output": "St. James's"}
+{"key": "c67d145c5ee1870e", "role": "operator", "t": 1790975737.396, "seconds": 25.817, "output": "Fairfield"}
+{"key": "774f43e125783934", "role": "operator", "t": 1790975737.396, "seconds": 25.818, "output": "Barnehurst"}
+{"key": "d5d17641c5438b9f", "role": "operator", "t": 1790975737.396, "seconds": 25.819, "output": "Copers Cope is adjacent to Churchfields"}
+{"key": "87404616fa965243", "role": "operator", "t": 1790975737.396, "seconds": 25.82, "output": "Hatch End"}
+{"key": "43b9b85948a918c1", "role": "operator", "t": 1790975737.396, "seconds": 25.821, "output": "St. James's"}
+{"key": "9aa73a6eea6a825d", "role": "operator", "t": 1790975737.399, "seconds": 25.818, "output": "Woodhouse"}

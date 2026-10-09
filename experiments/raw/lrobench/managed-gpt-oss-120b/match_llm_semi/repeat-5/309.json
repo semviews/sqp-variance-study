@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 35.001,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 19,
+  "judge_calls": 0,
+  "returned": [
+    0.2727,
+    0.5,
+    0.3529
+  ],
+  "tokens": [
+    2656,
+    2631,
+    25
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2727,
+        0.5,
+        0.3529
+      ],
+      "prediction": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['JURISDICTION' 'Geo Local Area']",
+        "['MERGED_ADDRESS' 'Street']",
+        "['NUMBER_OF_FOOD_TREES' 'TotalUnits']",
+        "['NUMBER_OF_PLOTS' 'TotalUnits']",
+        "['OTHER_FOOD_ASSETS' 'TOTALOUTSTANDING']",
+        "['STEWARD_OR_MANAGING_ORGANIZATION' 'BUSINESSOPERATOR']",
+        "['STREET_NAME' 'Street']",
+        "['STREET_NUMBER' 'StreetNumber']",
+        "['WEBSITE' 'DetailURL']"
+      ],
+      "truth": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'BUSINESSOPERATOR']",
+        "['STREET_NAME' 'StreetNumber']",
+        "['STREET_NUMBER' 'Street']",
+        "['WEBSITE' 'DetailURL']"
+      ]
+    }
+  ]
+}

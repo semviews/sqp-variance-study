@@ -1,0 +1,10 @@
+{"key": "fb3088cf2491418d", "role": "operator", "t": 1790984947.021, "seconds": 1.256, "output": "logistic"}
+{"key": "da32579986ef8950", "role": "operator", "t": 1790984947.021, "seconds": 1.257, "output": "r"}
+{"key": "f4171fe86702b633", "role": "operator", "t": 1790984947.021, "seconds": 1.273, "output": "machine-learning"}
+{"key": "6b7d7018b9b8636d", "role": "operator", "t": 1790984947.022, "seconds": 1.275, "output": "regression"}
+{"key": "a37ea20102099a3a", "role": "operator", "t": 1790984947.022, "seconds": 1.277, "output": "machine-learning"}
+{"key": "fba4c24327168cb9", "role": "operator", "t": 1790984947.024, "seconds": 1.276, "output": "regression"}
+{"key": "c3603240070f1a59", "role": "operator", "t": 1790984947.023, "seconds": 1.278, "output": "self-study"}
+{"key": "2da72d282c9d1977", "role": "operator", "t": 1790984947.024, "seconds": 1.277, "output": "r"}
+{"key": "a4fbe7f8addf746a", "role": "operator", "t": 1790984947.023, "seconds": 1.505, "output": "regression"}
+{"key": "56e83a350da653e4", "role": "operator", "t": 1790984947.024, "seconds": 1.506, "output": "r"}

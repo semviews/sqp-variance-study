@@ -1,0 +1,9 @@
+{
+  "sql": "/* Query 9: filter5_agg1_join1 (player, team) */ SELECT player.nationality, COUNT(player.nationality) AS count_player_nationality FROM player JOIN team ON player.team = team.team_name WHERE player.nationality = 'British' OR player.birth_date = '1972/3/6' OR player.age >= 42 GROUP BY player.nationality",
+  "player": {
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    }
+  }
+}

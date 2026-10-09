@@ -1,0 +1,66 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 310,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 21.346,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.8462,
+    1.0,
+    0.9167
+  ],
+  "tokens": [
+    1001,
+    931,
+    70
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8462,
+        1.0,
+        0.9167
+      ],
+      "prediction": [
+        "geo_estuary",
+        "geo_island",
+        "geo_lake",
+        "geo_river",
+        "geo_sea",
+        "geo_source",
+        "island",
+        "islandIn",
+        "lake",
+        "located",
+        "mergesWith",
+        "river",
+        "sea"
+      ],
+      "truth": [
+        "geo_estuary",
+        "geo_lake",
+        "geo_river",
+        "geo_sea",
+        "geo_source",
+        "islandIn",
+        "lake",
+        "located",
+        "mergesWith",
+        "river",
+        "sea"
+      ]
+    }
+  ]
+}

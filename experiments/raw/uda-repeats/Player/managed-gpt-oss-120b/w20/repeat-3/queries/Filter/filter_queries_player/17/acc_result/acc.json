@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "college": {
+      "precision": 0.5416666666666666,
+      "recall": 0.45614035087719296,
+      "f1": 0.4952380952380952
+    },
+    "draft_pick": {
+      "precision": 0.9583333333333334,
+      "recall": 0.8070175438596491,
+      "f1": 0.8761904761904762
+    },
+    "fiba_world_cup": {
+      "precision": 0.16666666666666666,
+      "recall": 0.14035087719298245,
+      "f1": 0.1523809523809524
+    }
+  },
+  "macro_precision": 0.5555555555555556,
+  "macro_recall": 0.4678362573099415,
+  "macro_f1": 0.5079365079365079,
+  "rows": {
+    "len_gold": 57,
+    "len_pred": 48,
+    "matched_rows": 47
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "college",
+    "draft_pick",
+    "fiba_world_cup"
+  ],
+  "skipped_columns": []
+}

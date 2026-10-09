@@ -1,0 +1,38 @@
+player.fiba_world_cup,player.name,team.team_name,team.ownership,city.state_name,player.id,team.id,city.id
+1.0,Buddy Hield,Golden State Warriors,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,California,100,10,11
+1.0,D'Angelo Russell,Los Angeles Lakers,"ownership: Jeanie Buss || Jerry Buss (deceased, ownership transferred to his six children via trust) || Jack Kent Cooke (until 1979) || Bob Short (until 1965)",California,101,14,6
+1.0,Kyrie Irving,Dallas Mavericks,ownership is Mark Cuban || Ross Perot Jr. (historical),Texas,104,7,4
+1.0,Jayson Christopher Tatum,Boston Celtics,Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca,Massachusetts,105,2,2
+1.0,Andrew Christian Wiggins,Golden State Warriors,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,California,107,10,11
+,William Derek Grimm,Sacramento Kings,ownership || Vivek Ranadivé || Joe Dumars (Interim Executive Vice President of Basketball Operations) || Dyal Capital (5% stake),California,11,26,22
+1.0,Jaylen Brown,Boston Celtics,Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca,Massachusetts,110,2,2
+0.0,Victor Wembanyama,San Antonio Spurs,**Ownership:** Red McCombs || Angelo Drossos || John Schaefer || Peter M. Holt,Texas,111,27,5
+1.0,Jrue Holiday,Boston Celtics,Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca,Massachusetts,112,2,2
+1.0,Austin Reaves,Los Angeles Lakers,"ownership: Jeanie Buss || Jerry Buss (deceased, ownership transferred to his six children via trust) || Jack Kent Cooke (until 1979) || Bob Short (until 1965)",California,113,14,6
+1.0,Kevin Love,Miami Heat,Ownership: Micky Arison ||,Florida,114,16,8
+1.0,Giannis Sina Ugo Antetokounmpo,Milwaukee Bucks,Herb Kohl || Wes Edens || Marc Lasry,Wisconsin,115,17,28
+2.0,Stephen Curry,Golden State Warriors,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,California,116,10,11
+1.0,Al Horford,Boston Celtics,Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca,Massachusetts,117,2,2
+1.0,Tyler Christopher Herro,Miami Heat,Ownership: Micky Arison ||,Florida,118,16,8
+0.0,Duncan Robinson,Miami Heat,Ownership: Micky Arison ||,Florida,119,16,8
+1.0,Anthony Davis,Los Angeles Lakers,"ownership: Jeanie Buss || Jerry Buss (deceased, ownership transferred to his six children via trust) || Jack Kent Cooke (until 1979) || Bob Short (until 1965)",California,12,14,6
+1.0,Kyle Anderson,Golden State Warriors,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,California,120,10,11
+1.0,LeBron James,Los Angeles Lakers,"ownership: Jeanie Buss || Jerry Buss (deceased, ownership transferred to his six children via trust) || Jack Kent Cooke (until 1979) || Bob Short (until 1965)",California,122,14,6
+1.0,Jimmy Butler,Miami Heat,Ownership: Micky Arison ||,Florida,123,16,8
+1.0,Kevon Grant Looney,Golden State Warriors,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,California,124,10,11
+0.0,Devin Booker,Phoenix Suns,Robert Sarver || Mat Ishbia,Arizona,129,24,18
+1.0,Draymond Green,Golden State Warriors,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,California,130,10,11
+0.0,Zach Collins,San Antonio Spurs,**Ownership:** Red McCombs || Angelo Drossos || John Schaefer || Peter M. Holt,Texas,131,27,5
+0.0,Jonathan Malangu Kuminga,Golden State Warriors,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,California,132,10,11
+1.0,Jaime Jaquez Jr.,Miami Heat,Ownership: Micky Arison ||,Florida,134,16,8
+1.0,Chris Paul,San Antonio Spurs,**Ownership:** Red McCombs || Angelo Drossos || John Schaefer || Peter M. Holt,Texas,139,27,5
+1.0,Harrison Barnes,San Antonio Spurs,**Ownership:** Red McCombs || Angelo Drossos || John Schaefer || Peter M. Holt,Texas,140,27,5
+1.0,"Edrice Femi ""Bam"" Adebayo",Miami Heat,Ownership: Micky Arison ||,Florida,141,16,8
+2.0,Tim Duncan,San Antonio Spurs,**Ownership:** Red McCombs || Angelo Drossos || John Schaefer || Peter M. Holt,Texas,38,27,5
+1.0,Rik Smits,Indiana Pacers,Herb Simon ||,Indiana,45,12,3
+1.0,Anthony Edwards,Minnesota Timberwolves,Glen Taylor,Minnesota,46,18,7
+1.0,Kevin Durant,Phoenix Suns,Robert Sarver || Mat Ishbia,Arizona,54,24,18
+,Lamar Brandon Stevens,Memphis Grizzlies,Robert Pera ||,Tennessee,63,15,24
+,Gregory Clinton Foster,Indiana Pacers,Herb Simon ||,Indiana,70,12,3
+,Eric Johnson Jones,Utah Jazz,ownership is || Ryan Smith ||,Utah,96,29,16
+0.0,Trayce Jackson-Davis,Golden State Warriors,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,California,98,10,11

@@ -1,0 +1,7 @@
+{"key": "8fb7990d00320e8c", "role": "operator", "t": 1790982102.808, "seconds": 1.442, "output": "[\n  {\"name\": \"Bambi\", \"director\": \"Walt Disney\"}\n]"}
+{"key": "76a0b317bdb791b0", "role": "operator", "t": 1790982102.81, "seconds": 1.505, "output": "[\n  {\"name\": \"Atlantis: The Lost Empire\", \"director\": \"John Musker\"}\n]"}
+{"key": "6e9aa0d5298363af", "role": "operator", "t": 1790982102.809, "seconds": 1.513, "output": "[\n  {\"name\": \"Robin Hood\", \"director\": \"Kevin Reynolds\"}\n]"}
+{"key": "9f4cf0cf797c85b6", "role": "operator", "t": 1790982102.81, "seconds": 1.566, "output": "[\n  {\"name\": \"The Many Adventures of Winnie the Pooh\", \"director\": \"Ben Sharpsteen\"}\n]"}
+{"key": "211ea5bfc49761f9", "role": "operator", "t": 1790982102.809, "seconds": 1.574, "output": "[\n  {\"name\": \"The Jungle Book\", \"director\": \"Robert Sanders\"}\n]"}
+{"key": "f57f9fba5e18c726", "role": "operator", "t": 1790982104.383, "seconds": 0.656, "output": "{\"name\": \"The Princess and the Frog\", \"director\": \"Ron Clements\"}"}
+{"key": "64b17aadb3dfe465", "role": "operator", "t": 1790982104.383, "seconds": 0.66, "output": "[\n  {\"name\": \"Frozen\", \"director\": \"Jennifer Lee\"}\n]"}

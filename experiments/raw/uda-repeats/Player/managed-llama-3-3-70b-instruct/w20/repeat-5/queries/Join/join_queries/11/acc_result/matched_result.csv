@@ -1,0 +1,49 @@
+player.fiba_world_cup,player.name,team.team_name,team.ownership,city.state_name,player.id,team.id,city.id
+0.0,"Chavano Rainer ""Buddy"" Hield",Golden State Warriors,Joe Lacob || Peter Guber,California,100,10,11
+0.0,D'Angelo Russell,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Bob Short || Jack Kent Cooke || Benjamin Berger || Morris Chalfen,California,101,14,6
+1.0,Joel Embiid,Philadelphia 76ers,Harris Blitzer Sports & Entertainment (HBSE),Pennsylvania,102,23,12
+1.0,Paul George,Philadelphia 76ers,Harris Blitzer Sports & Entertainment (HBSE),Pennsylvania,103,23,12
+1.0,Kyrie Andrew Irving,Dallas Mavericks,Mark Cuban || Miriam Adelson || Patrick Dumont || Mary Stanton,Texas,104,7,4
+0.0,Jayson Christopher Tatum,Boston Celtics,Boston Basketball Partners L.L.C.,Massachusetts,105,2,2
+0.0,Andrew Christian Wiggins,Golden State Warriors,Joe Lacob || Peter Guber,California,107,10,11
+,Max Berning Fiedler,Philadelphia 76ers,Harris Blitzer Sports & Entertainment (HBSE),Pennsylvania,108,23,12
+,William Derek Grimm,Sacramento Kings,Vivek Ranadivé || Raj Bhathal,California,11,26,22
+1.0,Jaylen Marselles Brown,Boston Celtics,Boston Basketball Partners L.L.C.,Massachusetts,110,2,2
+1.0,Victor Wembanyama,San Antonio Spurs,Peter M. Holt || 22 investors,Texas,111,27,5
+1.0,Jrue Randall Holiday,Boston Celtics,Boston Basketball Partners L.L.C.,Massachusetts,112,2,2
+1.0,Austin Tyler Reaves,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Bob Short || Jack Kent Cooke || Benjamin Berger || Morris Chalfen,California,113,14,6
+1.0,Kevin Wesley Love || LeBron James || Kevin Love || Kyrie Irving || Russell Westbrook || Dwight Howard || Deron Williams || Klay Thompson || Stephen Curry || Stan Love || Wes Unseld || O. J. Mayo || Andrew Wiggins || Anthony Bennett || Thaddeus Young || Luc Mbah a Moute || Alexey Shved || Yao Ming || Kelly Olynyk || Moses Malone || Hakeem Olajuwon || Elvin Hayes || Wilt Chamberlain || Brian Cardinal || Jason Collins || Antoine Walker || Marko Jarić || Greg Buckner || Al Jefferson || Oleksiy Pecherov || Luis Scola || Carl Landry || Kyle Singler || Rashad McCants || Zydrunas Ilgauskas || Tristan Thompson || Andre Drummond,Miami Heat,Micky Arison,Florida,114,16,8
+0.0,Giannis Sina Ugo Antetokounmpo,Milwaukee Bucks,Herb Kohl || Wes Edens || Marc Lasry,Wisconsin,115,17,28
+2.0,Stephen Curry,Golden State Warriors,Joe Lacob || Peter Guber,California,116,10,11
+1.0,Alfred Joel Horford Reynoso,Boston Celtics,Boston Basketball Partners L.L.C.,Massachusetts,117,2,2
+,Tyler Christopher Herro,Miami Heat,Micky Arison,Florida,118,16,8
+1.0,Duncan McBryde Robinson,Miami Heat,Micky Arison,Florida,119,16,8
+1.0,Anthony Marshon Davis Jr.,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Bob Short || Jack Kent Cooke || Benjamin Berger || Morris Chalfen,California,12,14,6
+1.0,Cade Parker Cunningham,Detroit Pistons,Tom Gores,Michigan,121,9,23
+1.0,LeBron James,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Bob Short || Jack Kent Cooke || Benjamin Berger || Morris Chalfen,California,122,14,6
+1.0,Jimmy Butler III,Miami Heat,Micky Arison,Florida,123,16,8
+1.0,Kevon Grant Looney,Golden State Warriors,Joe Lacob || Peter Guber,California,124,10,11
+0.0,Zachary Thomas LaVine,Chicago Bulls,Jerry Reinsdorf,Illinois,125,5,14
+1.0,Jaden Edward Dhananjay Ivey,Detroit Pistons,Tom Gores,Michigan,126,9,23
+1.0,Kyle Terrell Lowry,Philadelphia 76ers,Harris Blitzer Sports & Entertainment (HBSE),Pennsylvania,127,23,12
+1.0,Devin Armani Booker,Phoenix Suns,Mat Ishbia || Justin Ishbia,Arizona,129,24,18
+1.0,Draymond Jamal Green,Golden State Warriors,Joe Lacob || Peter Guber,California,130,10,11
+,Jonathan Malangu Kuminga,Golden State Warriors,Joe Lacob || Peter Guber,California,132,10,11
+,Jaime Jaquez Jr.,Miami Heat,Micky Arison,Florida,134,16,8
+,Ausar Thompson || Amen Thompson || LeBron James,Detroit Pistons,Tom Gores,Michigan,135,9,23
+1.0,Shaquille O'Neal,Boston Celtics,Boston Basketball Partners L.L.C.,Massachusetts,137,2,2
+1.0,Kobe Bean Bryant,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Bob Short || Jack Kent Cooke || Benjamin Berger || Morris Chalfen,California,138,14,6
+1.0,Christopher Emmanuel Paul,San Antonio Spurs,Peter M. Holt || 22 investors,Texas,139,27,5
+0.0,"Edrice Femi ""Bam"" Adebayo",Miami Heat,Micky Arison,Florida,141,16,8
+,Jarrett Matthew Jack,Detroit Pistons,Tom Gores,Michigan,24,9,23
+1.0,"Earvin ""Magic"" Johnson Jr.",Los Angeles Lakers,Jeanie Buss || Jerry Buss || Bob Short || Jack Kent Cooke || Benjamin Berger || Morris Chalfen,California,28,14,6
+1.0,Isiah Lord Thomas III,Detroit Pistons,Tom Gores,Michigan,30,9,23
+,Daniel Edward Anderson,Portland Trail Blazers,Paul Allen || Jody Allen,Oregon,31,25,10
+1.0,Tim Duncan,San Antonio Spurs,Peter M. Holt || 22 investors,Texas,38,27,5
+0.0,Rik Smits,Indiana Pacers,Herb Simon,Indiana,45,12,3
+1.0,Anthony Edwards,Minnesota Timberwolves,Glen Taylor || Marc Lore || Alex Rodriguez,Minnesota,46,18,7
+1.0,Kevin Durant,Phoenix Suns,Mat Ishbia || Justin Ishbia,Arizona,54,24,18
+,Jabari Dominic Walker || Samaki Walker || Dibaji Walker,Portland Trail Blazers,Paul Allen || Jody Allen,Oregon,77,25,10
+,Garfield Smith,Boston Celtics,Boston Basketball Partners L.L.C.,Massachusetts,90,2,2
+,Eric Johnson Jones || Vinnie Johnson,Utah Jazz,Ryan Smith || Dwyane Wade,Utah,96,29,16
+-18.0,Trayce Jackson-Davis,Golden State Warriors,Joe Lacob || Peter Guber,California,98,10,11

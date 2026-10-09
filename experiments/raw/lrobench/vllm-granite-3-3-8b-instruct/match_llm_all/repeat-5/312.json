@@ -1,0 +1,47 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 312,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 1.969,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.6667,
+    0.8
+  ],
+  "tokens": [
+    349,
+    291,
+    58
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.6667,
+        0.8
+      ],
+      "prediction": [
+        "['Fiscal Year' '\u00c3\\x83\u00c2\u00af\u00c3\\x82\u00c2\u00bb\u00c3\\x82\u00c2\u00bfFSCL_YR']",
+        "['Payments Total' 'AGRG_PYMT_AMT']"
+      ],
+      "truth": [
+        "['Agency Name' 'DEPT_EN_DESC']",
+        "['Fiscal Year' '\u00c3\\x83\u00c2\u00af\u00c3\\x82\u00c2\u00bb\u00c3\\x82\u00c2\u00bfFSCL_YR']",
+        "['Payments Total' 'AGRG_PYMT_AMT']"
+      ]
+    }
+  ]
+}

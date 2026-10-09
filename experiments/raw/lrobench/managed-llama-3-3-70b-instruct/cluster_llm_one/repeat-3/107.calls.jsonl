@@ -1,0 +1,2 @@
+{"key": "adaef60b002c2a34", "role": "operator", "t": 1790972124.764, "seconds": 1.861, "output": "[{\"index\":\"0\", \"cluster_name\": \"D\", \"cluster_label\": \"0\"}]"}
+{"key": "26ada8d8f9576c31", "role": "operator", "t": 1790972126.625, "seconds": 1.749, "output": "{\"type\": \"function\", \"name\": \"assign_cluster\", \"parameters\": {\"row\": {\"type\": \"object\", \"value\": {\"index\": 1, \"firstName\": \"Mary\"}}, \"existing_clusters\": {\"type\": \"object\", \"value\": {\"0\": \"D\"}}}}"}

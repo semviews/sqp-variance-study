@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 12,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 7.323,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 283, in pipeline_order12\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine which song, \"Welcome To New York\" or \"Blank Space,\" has a higher \"The highest rank and the duration in weeks on the Billboard chart\" metric, we need to refer to their respective chart pe\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine the comparison between \"Welcome To New York\" and \"Out of the Woods\" based on their highest rank and duration on the Billboard chart, I will use external knowledge about these songs:\\n\\n1",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine which song, \"Welcome To New York\" or \"Blank Space,\" has a higher \"The highest rank and the duration in weeks on the Billboard chart\" metric, we need to consider their respective performa",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

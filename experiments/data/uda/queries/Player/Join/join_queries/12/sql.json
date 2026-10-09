@@ -1,0 +1,29 @@
+{
+  "sql": "/* Query 2: multi_table_join (player, team, city) */ SELECT city.state_name, player.name, player.college, team.founded_year, team.team_name FROM player JOIN team ON player.team = team.team_name JOIN city ON team.location = city.city_name",
+  "city": {
+    "state_name": {
+      "value_type": "str",
+      "description": "state_name is the name of the state the city is located in (e.g. California)."
+    }
+  },
+  "player": {
+    "college": {
+      "value_type": "str",
+      "description": "the college the player attended, if applicable (e.g., Duke University)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    }
+  },
+  "team": {
+    "founded_year": {
+      "value_type": "int",
+      "description": "founded_year is the year of this team team founded (e.g. 1947)."
+    },
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  }
+}

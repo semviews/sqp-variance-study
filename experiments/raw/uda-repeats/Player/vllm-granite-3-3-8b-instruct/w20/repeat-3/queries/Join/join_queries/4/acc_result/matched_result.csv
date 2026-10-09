@@ -1,0 +1,54 @@
+player.nationality,player.age,team.location,team.team_name,player.id,team.id
+Bahamas,32,San Francisco,Golden State Warriors,100,10
+USA,28,Los Angeles,Los Angeles Lakers,101,14
+USA || France || Cameroon,31,Philadelphia ||,Philadelphia 76ers,102,23
+USA,34,Philadelphia ||,Philadelphia 76ers,103,23
+USA || Australia,31,Dallas,Dallas Mavericks,104,7
+USA,31,Boston,Boston Celtics,105,2
+USA,29,Philadelphia ||,Philadelphia 76ers,106,23
+Canada,30,San Francisco,Golden State Warriors,107,10
+USA,23,Philadelphia ||,Philadelphia 76ers,108,23
+USA,50,Sacramento,Sacramento Kings,11,26
+USA,29,Boston,Boston Celtics,110,2
+France,20,San Antonio,San Antonio Spurs,111,27
+USA,34,Boston,Boston Celtics,112,2
+USA || Germany,25,Los Angeles,Los Angeles Lakers,113,14
+USA,36,Miami,Miami Heat,114,16
+Greece || Nigeria,30,Milwaukee,Milwaukee Bucks,115,17
+USA,31,San Francisco,Golden State Warriors,116,10
+Dominican Republic,38,Boston,Boston Celtics,117,2
+USA,24,Miami,Miami Heat,118,16
+USA,31,Miami,Miami Heat,119,16
+USA,2025,Los Angeles,Los Angeles Lakers,12,14
+USA || China,31,San Francisco,Golden State Warriors,120,10
+USA,22,Detroit ||,Detroit Pistons,121,9
+USA,30,Los Angeles,Los Angeles Lakers,122,14
+USA,35,Miami,Miami Heat,123,16
+USA,29,San Francisco,Golden State Warriors,124,10
+USA,28,Chicago ||,Chicago Bulls,125,5
+USA,21,Detroit ||,Detroit Pistons,126,9
+USA,38,Philadelphia ||,Philadelphia 76ers,127,23
+USA,28,Phoenix,Phoenix Suns,129,24
+USA,31,San Francisco,Golden State Warriors,130,10
+USA,26,San Antonio,San Antonio Spurs,131,27
+DR Congo || USA,23,San Francisco,Golden State Warriors,132,10
+USA,27,Chicago ||,Chicago Bulls,133,5
+USA || Mexico,22,Miami,Miami Heat,134,16
+USA,20,Detroit ||,Detroit Pistons,135,9
+USA,31,San Antonio,San Antonio Spurs,139,27
+USA,31,San Antonio,San Antonio Spurs,140,27
+USA || Nigeria,27,Miami,Miami Heat,141,16
+USA,41,Detroit ||,Detroit Pistons,24,9
+USA,34,Detroit ||,Detroit Pistons,30,9
+USA,74,Portland,Portland Trail Blazers,31,25
+USA,31,San Antonio,San Antonio Spurs,38,27
+Netherlands,57,Indianapolis,Indiana Pacers,45,12
+USA,23,Minneapolis,Minnesota Timberwolves,46,18
+USA,31,Phoenix,Phoenix Suns,54,24
+USA,40,Toronto,Toronto Raptors,56,28
+USA,26,Memphis,Memphis Grizzlies,63,15
+USA,56,Indianapolis,Indiana Pacers,70,12
+USA,23,Portland,Portland Trail Blazers,77,25
+USA || Spain,59,Salt Lake City,Utah Jazz,96,29
+USA,23,San Francisco,Golden State Warriors,98,10
+USA,31,Philadelphia ||,Philadelphia 76ers,99,23

@@ -1,0 +1,10 @@
+{"key": "9890f31563f76cf5", "role": "operator", "t": 1790991861.393, "seconds": 1.925, "output": "[{\"city_name\": \"Salt Lake City\", \"country\": \"USA\"}]"}
+{"key": "9d8cf69187030c68", "role": "operator", "t": 1790991861.393, "seconds": 2.04, "output": "{\"city_name\": \"Helsinki\", \"country\": \"Finland\"}"}
+{"key": "cdf48804e85dc545", "role": "operator", "t": 1790991861.391, "seconds": 2.048, "output": "[{\"city_name\": \"Paris\", \"country\": \"France\"}]"}
+{"key": "71365bbf672f4bb5", "role": "operator", "t": 1790991861.39, "seconds": 2.071, "output": "{\"city_name\": \"Antwerpen\", \"country\": \"Belgium\"}"}
+{"key": "5548fef3a066f2a1", "role": "operator", "t": 1790991861.39, "seconds": 2.075, "output": "{\"city_name\": \"London\", \"country\": \"United Kingdom\"}"}
+{"key": "4d804189abe02a6d", "role": "operator", "t": 1790991861.391, "seconds": 2.075, "output": "[{\"city_name\": \"Albertville\", \"country\": \"France\"}]"}
+{"key": "9765faa015d53fa0", "role": "operator", "t": 1790991861.392, "seconds": 2.076, "output": "{\"city_name\": \"Los Angeles\", \"country\": \"USA\"}"}
+{"key": "8b48e8783fe2e78f", "role": "operator", "t": 1790991861.391, "seconds": 2.078, "output": "{\"city_name\": \"Calgary\", \"country\": \"Canada\"}"}
+{"key": "7bde6c0bb67ee558", "role": "operator", "t": 1790991861.389, "seconds": 2.116, "output": "[{\"city_name\": \"Barcelona\", \"country\": \"Spain\"}]"}
+{"key": "3289123c7de194a7", "role": "operator", "t": 1790991861.392, "seconds": 2.304, "output": "{\"city_name\": \"Lillehammer\", \"country\": \"Norway\"}"}

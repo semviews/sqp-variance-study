@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 14,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 8.116,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 325, in pipeline_order14\n    product = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '{\"type\": \"function\", \"name\": \"evaluate_vehicle_volume\", \"parameters\": {\"item\": {\"type\": \"object\", \"value\": {\"index\": 4, \"productLine\": \"Trains\"}}}}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The vehicle volume\\' metric of the \\'productLine\\' column, I need to use external knowledge. Based on general knowledge, \"Vintage Cars\" typically have a lower vehicle volume compared to other product lines like \"Trucks\" or \"SUVs\" because they are often produced in limited quantities and are usually smaller in size. However, without a specific reference or scale to compare different product lines directly, I must rely on a general ",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The vehicle volume\\' metric of the \\'productLine\\' column, I need to use external knowledge. Based on general knowledge, \"Classic Cars\" typically have lower production volumes compared to other product lines like mass-market vehicles. However, without specific data on production volumes for \"Classic Cars,\" I must rely on general assumptions. Classic cars are often produced in limited quantities, which suggests a lower vehicle volu",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

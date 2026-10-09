@@ -1,0 +1,64 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 106,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 2.957,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0,
+  "returned": [
+    0.4667,
+    1.0,
+    0.6364
+  ],
+  "tokens": [
+    1889,
+    1776,
+    113
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4667,
+        1.0,
+        0.6364
+      ],
+      "prediction": [
+        "['1290' 'Texas']",
+        "['1592' 'Arizona']",
+        "['1724' 'Ohio']",
+        "['2001' 'California']",
+        "['2434' 'Ohio']",
+        "['2496' 'California']",
+        "['2799' 'Texas']",
+        "['314' 'Illinois']",
+        "['3320' 'California']",
+        "['3447' 'California']",
+        "['4415' 'California']",
+        "['4426' 'California']",
+        "['721' 'Florida']",
+        "['931' 'California']",
+        "['954' 'California']"
+      ],
+      "truth": [
+        "['1724' 'Ohio']",
+        "['2001' 'California']",
+        "['2434' 'Ohio']",
+        "['2799' 'Texas']",
+        "['3320' 'California']",
+        "['3447' 'California']",
+        "['721' 'Florida']"
+      ]
+    }
+  ]
+}

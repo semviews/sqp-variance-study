@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 12,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 5.923,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 283, in pipeline_order12\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"All You Had To Do Was Stay\", I need to use external knowledge. The song \"All You Had To Do Was Stay\" is by Taylor Swift, from her album \"1989\". According to Billboard, \"All You Had To Do Was Stay\" peaked at number 37 on the US Billboard Hot 100 chart and stayed on the chart for 3 weeks, but as part of the album \"1989\", the album itself had significant chart success. However, for the specific song, the peak and duration are not as high as some of Taylor Swift\\'s other songs. \\n\\nGiven this information, I would score it a 40. \\n\\n40'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To provide an accurate score, I need to look up the Billboard chart performance of the song \"Out of the Woods\".'",
+      "operator_calls": 8
+    },
+    {
+      "error": "ValueError: could not convert string to float: \"To evaluate the metric, I need to use external knowledge about the song's performance on the Billboard chart.\"",
+      "operator_calls": 3
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

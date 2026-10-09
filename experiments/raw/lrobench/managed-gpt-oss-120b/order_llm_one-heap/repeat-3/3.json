@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 3,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 16.912,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 9,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    2193,
+    2184,
+    9
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Boston",
+        "NYC",
+        "San Francisco"
+      ],
+      "truth": [
+        "Boston",
+        "NYC",
+        "San Francisco"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "San Francisco",
+        "NYC",
+        "Boston"
+      ],
+      "truth": [
+        "San Francisco",
+        "NYC",
+        "Boston"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 113,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 70.423,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 300,
+  "judge_calls": 0,
+  "returned": [
+    0.3333,
+    1.0,
+    0.5
+  ],
+  "tokens": [
+    67627,
+    51960,
+    15667
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3333,
+        1.0,
+        0.5
+      ],
+      "prediction": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Name of Official' 'Beverley Warmington']",
+        "['Name of Official' 'Darren Welch']",
+        "['Name of Official' 'Joy Hutcheon']",
+        "['Name of Official' 'Mark Bryson-Richardson']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ],
+      "truth": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ]
+    }
+  ]
+}

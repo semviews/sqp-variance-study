@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 306,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 19.63,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.2,
+    0.2
+  ],
+  "tokens": [
+    234,
+    187,
+    47
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.2,
+      "prediction": [
+        "Elemental",
+        "2023",
+        "Ember",
+        "None",
+        "None"
+      ],
+      "truth": [
+        "Elemental",
+        "16-Jun-23",
+        "Ember Lumen",
+        "Water Element",
+        "Steal the Show"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.2,
+      "prediction": [
+        "Elemental",
+        "2023",
+        "Ember",
+        "None",
+        "None"
+      ],
+      "truth": [
+        "Elemental",
+        "16-Jun-23",
+        "Ember Lumen",
+        "Water Element",
+        "Steal the Show"
+      ]
+    }
+  ]
+}

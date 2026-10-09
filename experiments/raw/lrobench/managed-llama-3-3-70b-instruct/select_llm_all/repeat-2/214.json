@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 214,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 1.963,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.75,
+    0.4286,
+    0.5455
+  ],
+  "tokens": [
+    237,
+    212,
+    25
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.75,
+        0.4286,
+        0.5455
+      ],
+      "prediction": [
+        "BusinessInCount",
+        "BusinessOutCount",
+        "BusinessTotalCount",
+        "Sitename"
+      ],
+      "truth": [
+        "BRCMonthName",
+        "BRCQuarter",
+        "BRCWeek",
+        "BRCYear",
+        "BusinessInCount",
+        "BusinessOutCount",
+        "BusinessTotalCount"
+      ]
+    }
+  ]
+}

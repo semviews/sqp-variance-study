@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 114,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 366.341,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0,
+  "returned": [
+    0.4,
+    1.0,
+    0.5714
+  ],
+  "tokens": [
+    23509,
+    2158,
+    21351
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4,
+        1.0,
+        0.5714
+      ],
+      "prediction": [
+        "['109 Bastable Avenue / Charlton Crescent' 'Bastable Avenue']",
+        "['270/272 Heathway' 'Bastable Avenue']",
+        "['Billet Road / Rose Lane' 'Rose Lane']",
+        "['Highbridge Road' '255 High Road']",
+        "['Wood Lane' 'Rose Lane']"
+      ],
+      "truth": [
+        "['109 Bastable Avenue / Charlton Crescent' 'Bastable Avenue']",
+        "['Billet Road / Rose Lane' 'Rose Lane']"
+      ]
+    }
+  ]
+}

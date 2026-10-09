@@ -1,0 +1,5 @@
+{"key": "2c3263d4de4d0781", "role": "operator", "t": 1790991813.968, "seconds": 2.085, "output": "{\"name\": \"N\u00fcrburgring\", \"location\": \"N\u00fcrburg\", \"alt\": 470}"}
+{"key": "596a6a280d70265d", "role": "operator", "t": 1790991813.97, "seconds": 2.086, "output": "{\"name\": \"Zolder\", \"location\": \"Heusden-Zolder\", \"alt\": 30}"}
+{"key": "6204f8a77fa46bbb", "role": "operator", "t": 1790991813.967, "seconds": 2.158, "output": "{\"name\": \"Silverstone Circuit\", \"location\": \"Silverstone\", \"alt\": 102}"}
+{"key": "29b0c562157b766a", "role": "operator", "t": 1790991813.968, "seconds": 2.349, "output": "{\"name\": \"Donington Park\", \"location\": \"Castle Donington\", \"alt\": 91}"}
+{"key": "0ec87e84d5bfbffe", "role": "operator", "t": 1790991813.971, "seconds": 2.352, "output": "{\"name\": \"Aintree\", \"location\": \"Liverpool\", \"alt\": \"55\"}"}

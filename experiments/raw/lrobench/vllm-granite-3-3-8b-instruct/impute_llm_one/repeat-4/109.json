@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 109,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 6.226,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 6,
+  "judge_calls": 6,
+  "returned": [
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    2328,
+    1864,
+    464
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.0,
+      "prediction": [
+        "123 Driver St",
+        "123 Main St",
+        "123 Driver St",
+        "901-555-0123",
+        "901-555-0123",
+        "901-555-0123"
+      ],
+      "truth": [
+        "749 E Mckellar Ave",
+        "3522 Mimosa Ave",
+        "2877 Laredo St",
+        "(901) 774-6569",
+        "(901) 789-7564",
+        "(901) 384-0984"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.0,
+      "prediction": [
+        "123 Driver St",
+        "123 Main St",
+        "123 Driver St",
+        "901-555-0123",
+        "901-555-0123",
+        "901-555-0123"
+      ],
+      "truth": [
+        "749 E Mckellar Ave",
+        "3522 Mimosa Ave",
+        "2877 Laredo St",
+        "(901) 774-6569",
+        "(901) 789-7564",
+        "(901) 384-0984"
+      ]
+    }
+  ]
+}

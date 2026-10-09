@@ -1,0 +1,12 @@
+{"key": "514216d6f15e6a6b", "role": "operator", "t": 1790996689.519, "seconds": 2.8, "output": "{Geom}"}
+{"key": "3ceda2a294402f67", "role": "operator", "t": 1790996692.319, "seconds": 1.699, "output": "AT_STREET"}
+{"key": "d2d065a24fb08246", "role": "operator", "t": 1790996694.018, "seconds": 0.844, "output": "{AT_STREET}"}
+{"key": "9a74c06664b66563", "role": "operator", "t": 1790996694.862, "seconds": 0.704, "output": "AT_STREET"}
+{"key": "b65fe396e0722293", "role": "operator", "t": 1790996695.566, "seconds": 0.811, "output": "AT_STREET"}
+{"key": "80099ac0b6c46a07", "role": "operator", "t": 1790996696.377, "seconds": 0.731, "output": "AT_STREET"}
+{"key": "63d139770cd426ef", "role": "operator", "t": 1790996697.108, "seconds": 1.121, "output": "Geo Local Area"}
+{"key": "93e9d78f2e4edac3", "role": "operator", "t": 1790996698.229, "seconds": 0.704, "output": "{AT_STREET}"}
+{"key": "30e2d98a3ddaecc1", "role": "operator", "t": 1790996698.933, "seconds": 1.191, "output": "Geom"}
+{"key": "c719171647919386", "role": "operator", "t": 1790996700.125, "seconds": 0.818, "output": "AT_STREET"}
+{"key": "83baffe25488de9f", "role": "operator", "t": 1790996700.943, "seconds": 1.704, "output": "{Geom}"}
+{"key": "7358248c6d8805a4", "role": "operator", "t": 1790996702.647, "seconds": 0.746, "output": "Geom"}

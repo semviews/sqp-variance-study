@@ -1,0 +1,20 @@
+{"key": "79390cf5b02a6f9e", "role": "operator", "t": 1790983127.809, "seconds": 3.513, "output": "Paul McIntyre is the value to be matched, the first name is Paul, the available values in 'right_Name' with the first name 'Paul' are [\"Paul McIntyre\"], since the condition is that the two staff have the same first name but are not the same person, and there is only one 'Paul' in the list, no match exists, an empty string is returned \n\"\""}
+{"key": "17f159d0125e9c2f", "role": "operator", "t": 1790983127.805, "seconds": 3.52, "output": "Hannah Nixon"}
+{"key": "3290e3f8ac8c8adb", "role": "operator", "t": 1790983127.807, "seconds": 3.522, "output": "Rachel Fletcher"}
+{"key": "e00c39ccc3ed2060", "role": "operator", "t": 1790983127.81, "seconds": 3.52, "output": "Martin Crouch"}
+{"key": "c3b2c3ff190381bd", "role": "operator", "t": 1790983127.809, "seconds": 3.522, "output": "Colin Sausman"}
+{"key": "0d8ea26017459045", "role": "operator", "t": 1790983127.806, "seconds": 3.526, "output": "Elizabeth Hillman"}
+{"key": "07cbd7b6c4cd0334", "role": "operator", "t": 1790983127.808, "seconds": 3.524, "output": "Stephanie McGregor"}
+{"key": "21b32fb56ef607eb", "role": "operator", "t": 1790983127.806, "seconds": 3.527, "output": "Curt Silver"}
+{"key": "a3b8b5624feb45e0", "role": "operator", "t": 1790983127.807, "seconds": 3.527, "output": "David Pimm"}
+{"key": "e45fae4b68e10d5d", "role": "operator", "t": 1790983127.808, "seconds": 3.526, "output": "NaN"}
+{"key": "028d648c881b8ef6", "role": "operator", "t": 1790983131.325, "seconds": 0.832, "output": "Maxine Frerk"}
+{"key": "fdb2a0fdf3608087", "role": "operator", "t": 1790983131.325, "seconds": 0.834, "output": "Ian Marlee"}
+{"key": "d0056417bd582a10", "role": "operator", "t": 1790983131.334, "seconds": 0.827, "output": "David Ashbourne"}
+{"key": "4683250f5ef9795f", "role": "operator", "t": 1790983131.334, "seconds": 0.835, "output": "Stuart Cook"}
+{"key": "094bba8069a25c85", "role": "operator", "t": 1790983131.334, "seconds": 0.837, "output": "Robert Hull"}
+{"key": "27cc71ad1c8760c0", "role": "operator", "t": 1790983131.334, "seconds": 0.838, "output": "Roy Field"}
+{"key": "9dd2ce5bbb4bdcf2", "role": "operator", "t": 1790983131.334, "seconds": 0.838, "output": "Andrew Wright"}
+{"key": "221d34685d891e06", "role": "operator", "t": 1790983131.334, "seconds": 0.839, "output": "Steve Smith"}
+{"key": "a3e681d0e18b791a", "role": "operator", "t": 1790983131.334, "seconds": 0.968, "output": "Alistair Buchanan"}
+{"key": "e0d83b9a1a09a606", "role": "operator", "t": 1790983131.334, "seconds": 1.586, "output": "No matched value exists for the given condition since there is only one Sarah in the list, so the result is an empty string."}

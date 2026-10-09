@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 107,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 3.592,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 266, in pipeline_match107\n    merged_df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine whether the 'left_team_long_name' team belongs to the 'right_name' country, we need to check if 'Portsmouth' is in 'Portugal' or related to it. \\n\\n0\"\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether 'Portsmouth' belongs to 'Scotland', we should consider the geographical location of Portsmouth. Portsmouth is a city located in England, United Kingdom. Since Scotland is a diffe",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether 'Portsmouth' belongs to 'Germany', we should consider that 'Portsmouth' is a city in England, not Germany. Therefore, the condition is not satisfied.\\n\\n0\"",
+      "operator_calls": 9
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

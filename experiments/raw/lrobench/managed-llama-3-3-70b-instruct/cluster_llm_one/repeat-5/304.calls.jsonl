@@ -1,0 +1,14 @@
+{"key": "2463d7cf766e2076", "role": "operator", "t": 1790979621.445, "seconds": 1.987, "output": "[ \n  { \"circuits\": [\"3\", \"other info\"]}\n]"}
+{"key": "3b4a2b6190684eae", "role": "operator", "t": 1790979623.432, "seconds": 1.018, "output": "[{\"status\": [\"4\", \"person-related info\"]}]"}
+{"key": "4ed166ba6c1259dd", "role": "operator", "t": 1790979624.45, "seconds": 0.87, "output": "[{\"drivers\": [\"5\", \"other info\"]}]"}
+{"key": "f9c4ccf270e5d308", "role": "operator", "t": 1790979625.321, "seconds": 1.036, "output": "[ \n  { \"driverStandings\": [\"6\", \"race-related info\"]}\n]"}
+{"key": "3bf3625039eb4af9", "role": "operator", "t": 1790979626.357, "seconds": 0.915, "output": "[{\"races\": [\"6\", \"race-related info\"]}]"}
+{"key": "3db64edab27abe1c", "role": "operator", "t": 1790979627.272, "seconds": 1.182, "output": "[\n  { \"constructors\": [\"7\", \"other info\"]}\n]"}
+{"key": "e05243d3c3261a8f", "role": "operator", "t": 1790979628.454, "seconds": 1.062, "output": "[\n  { \"constructorResults\": [\"8\", \"other info\"]}\n]"}
+{"key": "4a7a78d0bd194463", "role": "operator", "t": 1790979629.516, "seconds": 1.068, "output": "[\n  { \"lapTimes\": [\"6\", \"race-related info\"]}\n]"}
+{"key": "ff54c0cdc10b1452", "role": "operator", "t": 1790979630.585, "seconds": 1.103, "output": "[ \n  { \"qualifying\": [\"9\", \"race-related info\"]}\n]"}
+{"key": "6ab79f518fd18029", "role": "operator", "t": 1790979631.688, "seconds": 1.057, "output": "[\n  { \"sqlite_sequence\": [\"10\", \"other info\"]}\n]"}
+{"key": "7b5607700044c7dd", "role": "operator", "t": 1790979632.745, "seconds": 1.084, "output": "[\n  { \"pitStops\": [\"11\", \"race-related info\"]}\n]"}
+{"key": "3804086ee81242d3", "role": "operator", "t": 1790979633.829, "seconds": 1.108, "output": "[ \n  { \"seasons\": [\"12\", \"other info\"]}\n]"}
+{"key": "8b30249d1ab98582", "role": "operator", "t": 1790979634.937, "seconds": 0.976, "output": "[\n  { \"constructorStandings\": [\"13\", \"race-related info\"]}\n]"}
+{"key": "c9a9ba9367d80db7", "role": "operator", "t": 1790979635.914, "seconds": 0.93, "output": "[{\"results\": [\"14\", \"other info\"]}]"}

@@ -1,0 +1,42 @@
+{"key": "7ab02a3bde5ca234", "role": "operator", "t": 1790960744.085, "seconds": 2.367, "output": "[{\"index\":\"0\",\"cluster_name\":\"Europe\",\"cluster_label\":\"0\"}]"}
+{"key": "64ee07ac72c7c62f", "role": "operator", "t": 1790960746.451, "seconds": 1.275, "output": "[\n  {\"index\":\"1\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "fb2b5a02117c6140", "role": "operator", "t": 1790960747.726, "seconds": 1.493, "output": "[\n  {\"index\":\"2\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "a8cee4499bce53ec", "role": "operator", "t": 1790960749.218, "seconds": 1.348, "output": "[\n  {\"index\":\"3\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "7a6683b28ac4dc05", "role": "operator", "t": 1790960750.567, "seconds": 1.301, "output": "[{\"index\":\"4\", \"cluster_name\":\"North America\", \"cluster_label\":\"1\"}]"}
+{"key": "9d352b55fe9c39a3", "role": "operator", "t": 1790960751.868, "seconds": 1.147, "output": "[\n  {\"index\":\"5\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "47ab31b8a12575eb", "role": "operator", "t": 1790960753.014, "seconds": 2.173, "output": "[\n  {\"index\":\"6\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "038b469a5b9c17d4", "role": "operator", "t": 1790960755.188, "seconds": 2.248, "output": "[\n  {\"index\":\"7\", \"cluster_name\": \"North America\", \"cluster_label\": \"1\"}\n]"}
+{"key": "198d6c81620df7cf", "role": "operator", "t": 1790960757.436, "seconds": 1.403, "output": "[\n  {\"index\":\"8\", \"cluster_name\":\"North America\", \"cluster_label\":\"1\"}\n]"}
+{"key": "a4ca769a7f35f0d1", "role": "operator", "t": 1790960758.839, "seconds": 1.521, "output": "[\n  {\"index\":\"9\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "360be4da27ea2548", "role": "operator", "t": 1790960760.36, "seconds": 5.64, "output": "[\n  {\"index\":\"10\", \"cluster_name\":\"North America\", \"cluster_label\":\"1\"}\n]"}
+{"key": "3d23af367589fdfe", "role": "operator", "t": 1790960766.001, "seconds": 2.006, "output": "[\n  {\"index\":\"11\", \"cluster_name\":\"Oceania\", \"cluster_label\":\"2\"}\n]"}
+{"key": "c9b1f7af7650f8e6", "role": "operator", "t": 1790960768.007, "seconds": 1.815, "output": "[\n  {\"index\":\"12\", \"cluster_name\":\"North America\", \"cluster_label\":\"1\"}\n]"}
+{"key": "d16425715e554706", "role": "operator", "t": 1790960769.822, "seconds": 2.066, "output": "[\n  {\"index\":\"13\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "0c4de885493dc646", "role": "operator", "t": 1790960771.888, "seconds": 1.688, "output": "[\n  {\"index\":\"14\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "4a97988bcd89ac0f", "role": "operator", "t": 1790960773.576, "seconds": 1.969, "output": "[\n  {\"index\":\"15\", \"cluster_name\":\"Asia\", \"cluster_label\":\"3\"}\n]"}
+{"key": "5a8979f161f07e80", "role": "operator", "t": 1790960775.545, "seconds": 1.688, "output": "[\n  {\"index\":\"16\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "5bb0cf204865806a", "role": "operator", "t": 1790960777.233, "seconds": 1.352, "output": "[\n  {\"index\":\"17\", \"cluster_name\":\"Asia\", \"cluster_label\":\"3\"}\n]"}
+{"key": "a39b9345f5703665", "role": "operator", "t": 1790960778.585, "seconds": 1.675, "output": "[\n  {\"index\":\"18\", \"cluster_name\":\"South America\", \"cluster_label\":\"4\"}\n]"}
+{"key": "92e11238fe1e2f99", "role": "operator", "t": 1790960780.261, "seconds": 1.947, "output": "[\n  {\"index\":\"19\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "558bf0e6c6e4729f", "role": "operator", "t": 1790960782.208, "seconds": 2.082, "output": "[\n  {\"index\":\"20\", \"cluster_name\":\"North America\",\"cluster_label\":\"1\"}\n]"}
+{"key": "1624fbe53cf83cb7", "role": "operator", "t": 1790960784.29, "seconds": 1.807, "output": "[\n  {\"index\":\"21\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "bca233665d963bff", "role": "operator", "t": 1790960786.097, "seconds": 1.775, "output": "[\n  {\"index\":\"22\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "baafbddbd0e812e9", "role": "operator", "t": 1790960787.872, "seconds": 1.904, "output": "[\n  {\"index\":\"23\", \"cluster_name\":\"North America\", \"cluster_label\":\"1\"}\n]"}
+{"key": "e47f93c287d73826", "role": "operator", "t": 1790960789.776, "seconds": 1.772, "output": "[\n  {\"index\":\"24\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "bd73c2091a16cca2", "role": "operator", "t": 1790960791.548, "seconds": 1.71, "output": "[\n  {\"index\":\"25\", \"cluster_name\":\"Asia\", \"cluster_label\":\"3\"}\n]"}
+{"key": "cbca34fbc70e988e", "role": "operator", "t": 1790960793.258, "seconds": 1.369, "output": "[\n  {\"index\":\"26\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "c6687741dca09e76", "role": "operator", "t": 1790960794.627, "seconds": 1.882, "output": "[\n  {\"index\":\"27\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "7e1f264f92c1a527", "role": "operator", "t": 1790960796.509, "seconds": 1.919, "output": "[\n  {\"index\":\"28\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "69e5bec0ad412754", "role": "operator", "t": 1790960798.428, "seconds": 2.354, "output": "[\n  {\"index\":\"29\", \"cluster_name\":\"Oceania\", \"cluster_label\":\"2\"}\n]"}
+{"key": "5f46d6dbc3489cdb", "role": "operator", "t": 1790960800.782, "seconds": 1.531, "output": "[\n  {\"index\":\"30\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "3283b20a577f1866", "role": "operator", "t": 1790960802.313, "seconds": 1.557, "output": "[\n  {\"index\":\"31\", \"cluster_name\": \"Europe\", \"cluster_label\": \"0\"}\n]"}
+{"key": "63e2288028fa2740", "role": "operator", "t": 1790960803.871, "seconds": 5.579, "output": "[\n  {\"index\":\"32\", \"cluster_name\":\"North America\",\"cluster_label\":\"1\"}\n]"}
+{"key": "aa635fbc89cd0422", "role": "operator", "t": 1790960809.449, "seconds": 1.545, "output": "[\n  {\"index\":\"33\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "1e6243ad68e2747e", "role": "operator", "t": 1790960810.995, "seconds": 1.456, "output": "[\n  {\"index\":\"34\", \"cluster_name\":\"Asia\", \"cluster_label\":\"3\"}\n]"}
+{"key": "dcbe20890c84664a", "role": "operator", "t": 1790960812.451, "seconds": 1.479, "output": "[\n  {\"index\":\"35\", \"cluster_name\":\"North America\",\"cluster_label\":\"1\"}\n]"}
+{"key": "8a82873b82fa0724", "role": "operator", "t": 1790960813.929, "seconds": 2.412, "output": "[\n  {\"index\":\"36\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "2e438f942cc691cd", "role": "operator", "t": 1790960816.341, "seconds": 1.651, "output": "[\n  {\"index\":\"37\", \"cluster_name\":\"Asia\", \"cluster_label\":\"3\"}\n]"}
+{"key": "a76d8639ccd4a208", "role": "operator", "t": 1790960817.992, "seconds": 1.632, "output": "[\n  {\"index\":\"38\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "85e195678c97e8f7", "role": "operator", "t": 1790960819.624, "seconds": 1.733, "output": "[\n  {\"index\":\"39\", \"cluster_name\":\"North America\",\"cluster_label\":\"1\"}\n]"}
+{"key": "56a26106e3618719", "role": "operator", "t": 1790960821.358, "seconds": 2.423, "output": "[\n  {\"index\":\"40\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}
+{"key": "778c24e694bb57fd", "role": "operator", "t": 1790960823.781, "seconds": 1.735, "output": "[\n  {\"index\":\"41\", \"cluster_name\":\"Europe\", \"cluster_label\":\"0\"}\n]"}

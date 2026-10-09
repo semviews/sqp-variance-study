@@ -1,0 +1,17 @@
+{"key": "698d893d21e7994e", "role": "operator", "t": 1790984938.907, "seconds": 1.7, "output": "Australia is not in the provided list of countries, therefore, there is no match for 'Australian Grand Prix' in the 'right_country' column based on the given condition. \n\nEmpty string."}
+{"key": "4c8c741b142ec5b1", "role": "operator", "t": 1790984938.907, "seconds": 1.7, "output": "Belgium"}
+{"key": "6e7333a43ea5588c", "role": "operator", "t": 1790984938.907, "seconds": 1.7, "output": "Germany"}
+{"key": "6217d738dd56069e", "role": "operator", "t": 1790984938.91, "seconds": 1.698, "output": "Germany"}
+{"key": "54585d5f75d95f79", "role": "operator", "t": 1790984938.909, "seconds": 1.7, "output": "Belgium"}
+{"key": "42e5ab29a24f9c9c", "role": "operator", "t": 1790984938.908, "seconds": 1.702, "output": "United Kingdom"}
+{"key": "28b13e9e7fdfa15b", "role": "operator", "t": 1790984938.909, "seconds": 1.701, "output": "Germany"}
+{"key": "18631050463a325d", "role": "operator", "t": 1790984938.908, "seconds": 1.702, "output": "Belgium"}
+{"key": "91948e5364cdbc96", "role": "operator", "t": 1790984938.91, "seconds": 1.7, "output": "Belgium"}
+{"key": "6d5f2a8358ba5c7a", "role": "operator", "t": 1790984938.909, "seconds": 1.702, "output": "UK"}
+{"key": "66c2bd770c360137", "role": "operator", "t": 1790984940.606, "seconds": 0.494, "output": "UK"}
+{"key": "2c61b5b805747ca4", "role": "operator", "t": 1790984940.612, "seconds": 0.491, "output": "Belgium"}
+{"key": "04f9f73b16d8cfbb", "role": "operator", "t": 1790984940.611, "seconds": 0.492, "output": "Belgium"}
+{"key": "0468f64a9b6fca7a", "role": "operator", "t": 1790984940.612, "seconds": 0.492, "output": "Belgium"}
+{"key": "8802f42a74213f3e", "role": "operator", "t": 1790984940.612, "seconds": 0.493, "output": "United Kingdom"}
+{"key": "8c1b6cd7d41c128b", "role": "operator", "t": 1790984940.612, "seconds": 0.866, "output": "Japan is not in the provided list of countries, so there is no match for the 'Japanese Grand Prix' in the 'right_country' column. Therefore, the result is:\n\n```"}
+{"key": "310b7273ddaade10", "role": "operator", "t": 1790984940.612, "seconds": 0.867, "output": "Belgium"}

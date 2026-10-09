@@ -1,0 +1,18 @@
+{"key": "3bcff065e62f078f", "role": "operator", "t": 1790976470.068, "seconds": 1.221, "output": "1"}
+{"key": "3c26cf57cb11b176", "role": "operator", "t": 1790976471.289, "seconds": 0.468, "output": "0"}
+{"key": "41518db70e0b7b87", "role": "operator", "t": 1790976471.757, "seconds": 0.445, "output": "1"}
+{"key": "1723b95604387147", "role": "operator", "t": 1790976472.202, "seconds": 0.458, "output": "0"}
+{"key": "bc4a78b3caeb59d4", "role": "operator", "t": 1790976472.66, "seconds": 0.465, "output": "0"}
+{"key": "ba5f819e2631c6df", "role": "operator", "t": 1790976473.126, "seconds": 0.499, "output": "0"}
+{"key": "a3984a2a357f94b0", "role": "operator", "t": 1790976473.625, "seconds": 0.621, "output": "0"}
+{"key": "4b4a2f9fb3a19bb0", "role": "operator", "t": 1790976474.245, "seconds": 0.463, "output": "0"}
+{"key": "541ae4527969aab8", "role": "operator", "t": 1790976474.708, "seconds": 0.508, "output": "0"}
+{"key": "e511547ace5f9b23", "role": "operator", "t": 1790976475.216, "seconds": 0.472, "output": "0"}
+{"key": "4f030ddfb8367512", "role": "operator", "t": 1790976475.688, "seconds": 0.463, "output": "0"}
+{"key": "26b3e1479ccb69d5", "role": "operator", "t": 1790976476.151, "seconds": 0.455, "output": "1"}
+{"key": "a340b9aa383efe9e", "role": "operator", "t": 1790976476.606, "seconds": 0.615, "output": "1"}
+{"key": "f0db279ece3a3564", "role": "operator", "t": 1790976477.221, "seconds": 0.625, "output": "0"}
+{"key": "08c9c01ccf8bc850", "role": "operator", "t": 1790976477.846, "seconds": 0.437, "output": "1"}
+{"key": "f0adf71bbfca2afe", "role": "operator", "t": 1790976478.283, "seconds": 0.428, "output": "1"}
+{"key": "8c9f1cc7048aa065", "role": "operator", "t": 1790976478.711, "seconds": 0.445, "output": "1"}
+{"key": "a4a9a2bd7cddf0b9", "role": "operator", "t": 1790976479.156, "seconds": 1.898, "output": "Micro-Star International was founded in 1986 and Lenovo was founded in 1984. Since 1986 is greater than 1984, Item 1 has a higher 'The founding time of the brand' metric value than Item 2.\n\n1"}

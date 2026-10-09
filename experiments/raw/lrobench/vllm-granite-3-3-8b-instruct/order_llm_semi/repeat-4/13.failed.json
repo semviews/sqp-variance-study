@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 13,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 9.677,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 304, in pipeline_order13\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To assign a score for the metric \"The highest rank and the duration in weeks on the Billboard chart\" for the song \"Aura,\" we need to consider both the peak position on the Billboard chart and how long the song remained on the chart.\\n\\n1. **Peak Position**: \"Aura\" is a song by the electronic music producer Porter Robinson. It reached number 1 on the Billboard Hot Dance Club Songs chart. This is a very high rank, indicating strong performance.\\n\\n2. **Duration on the Chart**: \"Aura\" was on the Billboard Hot Dance Club Songs chart for a significant period, typically around 10 to 12 weeks, which is considered a substantial stay for a dance track.\\n\\nGiven these factors\u2014achieving the top position and maintaining a notable duration on the chart\u2014indicates a high metric value for \"The highest rank and the duration in weeks on the Billboard chart.\"\\n\\nTherefore, a score reflecting this high performance would be close to the maximum value within the range of 0 to 100.\\n\\n**Score: 95**\\n\\nOutput: \"95'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To assign a score between 0 and 100 for the metric \"The highest rank and the duration in weeks on the Billboard chart\" based on the song name \"Sexxx Dreams,\" we need to consider the following:\\n\\n1. **Billboard Chart Performance**: The song \"Sexxx Dreams\" is by the artist Lil Nas X. Known for its viral success and cultural impact, it achieved a high peak on the Billboard Hot 100 chart and remained on the chart for a significant number of weeks.\\n\\n",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To assign a score between 0 and 100 for the metric \"The highest rank and the duration in weeks on the Billboard chart\" based on the song name \"Donatella,\" we need to consider the following:\\n\\n1. **Highest Rank**: Typically, a song that reaches a high position on the Billboard chart (e.g., top 10, top 5, or number 1) would receive a higher score. Without specific data on \"Donatella,\" we must rely on general knowledge or typical outcomes for songs w",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

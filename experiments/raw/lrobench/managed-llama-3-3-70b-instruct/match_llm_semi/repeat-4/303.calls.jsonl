@@ -1,0 +1,8 @@
+{"key": "0de8e3e390af3189", "role": "operator", "t": 1790996713.877, "seconds": 2.037, "output": "Population"}
+{"key": "e32000e016008dd1", "role": "operator", "t": 1790996715.914, "seconds": 0.694, "output": "Year"}
+{"key": "1c546ad5b23583db", "role": "operator", "t": 1790996716.608, "seconds": 0.731, "output": "Governorate"}
+{"key": "2c5791e32a0a3e9a", "role": "operator", "t": 1790996717.339, "seconds": 0.873, "output": "Governorate"}
+{"key": "65b1ebcc44677a6f", "role": "operator", "t": 1790996718.212, "seconds": 0.688, "output": "Governorate"}
+{"key": "ef749d4c9effb7d1", "role": "operator", "t": 1790996718.9, "seconds": 0.686, "output": "Gender"}
+{"key": "d9ab59b301a93cd9", "role": "operator", "t": 1790996719.586, "seconds": 1.151, "output": "Gender"}
+{"key": "37e8454da75515dc", "role": "operator", "t": 1790996720.737, "seconds": 1.517, "output": "Population"}

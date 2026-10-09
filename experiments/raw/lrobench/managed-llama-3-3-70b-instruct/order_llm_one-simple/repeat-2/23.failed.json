@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 23,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 6.713,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 518, in pipeline_order23\n    sea = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To answer this question, I need to compare the species diversity of the Andaman Sea and the Arctic Ocean. The Andaman Sea is known for its rich biodiversity, with many species of fish, coral, and oth\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To compare the species diversity of the Andaman Sea and the Barents Sea, we need to look at the biodiversity of each. The Andaman Sea, located in the Indian Ocean, is known for its rich marine biodiv",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To compare the species diversity of the Andaman Sea and the Bering Sea, we need to consider the biodiversity of each. The Andaman Sea is known for its rich marine biodiversity, with coral reefs and a",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0
+}

@@ -1,0 +1,55 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 118,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 46.213,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 258,
+  "judge_calls": 0,
+  "returned": [
+    0.8571,
+    1.0,
+    0.9231
+  ],
+  "tokens": [
+    26096,
+    25838,
+    258
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8571,
+        1.0,
+        0.9231
+      ],
+      "prediction": [
+        "['Banff National Park of Canada' 'Canada']",
+        "['Elk Island National Park of Canada' 'Canada']",
+        "['Glacier National Park of Canada' 'Canada']",
+        "['Jasper National Park of Canada' 'Canada']",
+        "['Jasper National Park of Canada' 'Costa Rica']",
+        "['Kootenay National Park of Canada' 'Canada']",
+        "['Riding Mountain National Park of Canada' 'Canada']"
+      ],
+      "truth": [
+        "['Banff National Park of Canada' 'Canada']",
+        "['Elk Island National Park of Canada' 'Canada']",
+        "['Glacier National Park of Canada' 'Canada']",
+        "['Jasper National Park of Canada' 'Canada']",
+        "['Kootenay National Park of Canada' 'Canada']",
+        "['Riding Mountain National Park of Canada' 'Canada']"
+      ]
+    }
+  ]
+}

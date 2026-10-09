@@ -1,0 +1,60 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 214,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 19.771,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 9,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    32316,
+    27716,
+    4600
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['a-1340' 'b-1161']",
+        "['a-1711' 'b-1495']",
+        "['a-2161' 'b-1906']",
+        "['a-2248' 'b-1982']",
+        "['a-350' 'b-338']",
+        "['a-571' 'b-536']",
+        "['a-692' 'b-645']",
+        "['a-735' 'b-687']",
+        "['a-970' 'b-904']"
+      ],
+      "truth": [
+        "['a-1340' 'b-1161']",
+        "['a-1711' 'b-1495']",
+        "['a-2161' 'b-1906']",
+        "['a-2248' 'b-1982']",
+        "['a-350' 'b-338']",
+        "['a-571' 'b-536']",
+        "['a-692' 'b-645']",
+        "['a-735' 'b-687']",
+        "['a-970' 'b-904']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 310,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 7.225,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 8,
+  "returned": [
+    0.125,
+    0.125
+  ],
+  "tokens": [
+    286,
+    201,
+    85
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.125,
+      "prediction": [
+        "Tai Lake",
+        "1,578 km\u00b2",
+        "24 m",
+        "2 m",
+        "Lake",
+        "Qiantang River",
+        "120.1583\u00b0 E",
+        "30.0317\u00b0 N"
+      ],
+      "truth": [
+        "Tai Lake",
+        "2338",
+        "4.8",
+        "3.3",
+        "freshwater",
+        "Tiao River and Jing River",
+        "120.2167",
+        "31.1667"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.125,
+      "prediction": [
+        "Tai Lake",
+        "1,578 km\u00b2",
+        "24 m",
+        "2 m",
+        "Lake",
+        "Qiantang River",
+        "120.1583\u00b0 E",
+        "30.0317\u00b0 N"
+      ],
+      "truth": [
+        "Tai Lake",
+        "2338",
+        "4.8",
+        "3.3",
+        "freshwater",
+        "Tiao River and Jing River",
+        "120.2167",
+        "31.1667"
+      ]
+    }
+  ]
+}

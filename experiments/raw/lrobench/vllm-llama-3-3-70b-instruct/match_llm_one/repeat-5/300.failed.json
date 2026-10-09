@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 300,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 10.566,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1232, in pipeline_match300\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: '```python\\nimport json\\n\\ndef check_condition(CULTURAL_SPACE_NAME, ON_STREET):\\n    # Check if inputs are JSON tuples\\n    try:\\n        CULTURAL_SPACE_NAME = json.loads(CULTURAL_SPACE_NAME)\\n       \n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '```python\\nimport json\\n\\ndef check_condition(YEAR, ON_STREET):\\n    try:\\n        year_json = json.loads(YEAR)\\n        on_street_json = json.loads(ON_STREET)\\n        \\n        if set(year_json.key",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '```python\\nimport json\\n\\ndef check_condition(CULTURAL_SPACE_NAME, ON_STREET):\\n    # Check if inputs are JSON tuples\\n    try:\\n        CULTURAL_SPACE_NAME = json.loads(CULTURAL_SPACE_NAME)\\n",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

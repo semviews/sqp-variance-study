@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 5,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 10.06,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 130, in pipeline_order5\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'release year of the movie\\' metric for \"Robin Hood\", I need to use a tool that can provide information about movie release years.'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score, I need to use a tool to get the release year of the movie \"Robin Hood\".'",
+      "operator_calls": 6
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score, I need to use a tool to get the release year of the movie \"The Sword in the Stone\".'",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 6,
+  "judge_calls": 0
+}

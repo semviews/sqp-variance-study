@@ -1,0 +1,25 @@
+{
+  "scenario": "movie",
+  "model": "openai/vllm-granite-3-3-8b-instruct",
+  "setting": "w20_lp_exact_join40",
+  "policy": "exact",
+  "repeat": 3,
+  "query_id": 6,
+  "status": "success",
+  "error": null,
+  "execution_time": 367.8981440067291,
+  "token_usage": 725445,
+  "model_calls": 1600,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": null,
+  "shuffle_seed": null,
+  "attempt": 1,
+  "data_dir": "experiments/data/movie-join40",
+  "data": {
+    "Movies.csv": "aac26cb7cdbc771a",
+    "Reviews.csv": "7ca12497d49cada2"
+  }
+}

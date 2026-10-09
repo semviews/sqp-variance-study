@@ -1,0 +1,66 @@
+{
+ "rules": [
+  {
+   "rule": "Full output (map, set, join)",
+   "decides": "all $n$ items",
+   "prediction": "closed",
+   "cells": 24,
+   "within": 23,
+   "mean_error": 0.026466561233669767
+  },
+  {
+   "rule": "\\texttt{LIMIT} $k$",
+   "decides": "prefix up to the $k$-th match",
+   "prediction": "simulated",
+   "cells": 24,
+   "within": 22,
+   "mean_error": 0.021620370370370373
+  },
+  {
+   "rule": "\\texttt{COUNT}, ratio, counts",
+   "decides": "spread of the count",
+   "prediction": "simulated",
+   "cells": 18,
+   "within": 18,
+   "mean_error": 0.019854938271604936
+  },
+  {
+   "rule": "\\texttt{AVG}",
+   "decides": "spread of the mean",
+   "prediction": "simulated",
+   "cells": 6,
+   "within": 6,
+   "mean_error": 0.06841666666666668
+  },
+  {
+   "rule": "Rank by group mean",
+   "decides": "groups near a tie",
+   "prediction": "simulated",
+   "cells": 6,
+   "within": 6,
+   "mean_error": 0.012416666666666664
+  },
+  {
+   "rule": "SQL over extractions",
+   "decides": "values the SQL reads",
+   "prediction": "closed",
+   "cells": 369,
+   "within": 202,
+   "mean_error": null
+  }
+ ],
+ "macros": {
+  "expoCellsA": 24,
+  "expoWithinA": 23,
+  "expoCellsB": 24,
+  "expoWithinB": 22,
+  "expoCellsC": 18,
+  "expoWithinC": 18,
+  "expoCellsD": 6,
+  "expoWithinD": 6,
+  "expoCellsE": 6,
+  "expoWithinE": 6,
+  "expoCellsF": 369,
+  "expoWithinF": 202
+ }
+}

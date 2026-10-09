@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 306,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 11.162,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 6,
+  "judge_calls": 0,
+  "returned": [
+    0.8333,
+    1.0,
+    0.9091
+  ],
+  "tokens": [
+    724,
+    718,
+    6
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8333,
+        1.0,
+        0.9091
+      ],
+      "prediction": [
+        "['Amazon_Price' 'Price']",
+        "['Brand' 'Brand']",
+        "['Features' 'Features']",
+        "['ID' 'ID']",
+        "['Name' 'Name']",
+        "['Original_Price' 'Price']"
+      ],
+      "truth": [
+        "['Amazon_Price' 'Price']",
+        "['Brand' 'Brand']",
+        "['Features' 'Features']",
+        "['ID' 'ID']",
+        "['Original_Price' 'Price']"
+      ]
+    }
+  ]
+}

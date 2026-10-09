@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 27,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 42.531,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 607, in pipeline_order27\n    tags = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: '2\\n\\n(Note: The instruction explicitly requests to return only a single character, but the task description seems to have a formatting error. The correct output based on the comparison of string leng\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '2\\n\\n(Note: The instruction explicitly requests to return only a single character, 1 or 0. However, the task description mentions returning \"ONLY a single character 1 or 0 without any additional text",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '2\\n\\n(Note: The instruction was to return only a single character, but the correct answer is 0 because \"distributions\" has a longer string length than \"bayesian\". I will adhere to the instruction and",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0
+}

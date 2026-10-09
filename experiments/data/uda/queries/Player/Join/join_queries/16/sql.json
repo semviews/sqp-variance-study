@@ -1,0 +1,23 @@
+{
+  "sql": "/* Query 6: multi_table_join (player, team, manager) */ SELECT player.college, manager.name, player.position, team.championships, player.fiba_world_cup FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name",
+  "player": {
+    "college": {
+      "value_type": "str",
+      "description": "the college the player attended, if applicable (e.g., Duke University)."
+    },
+    "fiba_world_cup": {
+      "value_type": "int",
+      "description": "number of FIBA World Cup titles the player has won (e.g., 1)."
+    },
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  },
+  "manager": {
+    "name": {
+      "value_type": "str",
+      "description": "name is the full name of the team owner (e.g. Jeanie Buss)."
+    }
+  }
+}

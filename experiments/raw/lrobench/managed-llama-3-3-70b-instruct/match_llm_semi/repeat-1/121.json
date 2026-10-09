@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 121,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 8.897,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    0.7,
+    1.0,
+    0.8235
+  ],
+  "tokens": [
+    15637,
+    14937,
+    700
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.7,
+        1.0,
+        0.8235
+      ],
+      "prediction": [
+        "['Csc' 'CSC COMPUTER SCIENCES LTD']",
+        "['NHS Litigation Authority' 'NHS LITIGATION AUTHORITY']",
+        "['Nhs Blood And Transplant' 'NHS BLOOD & TRANSPLANT']",
+        "['Nhs Business Services Authority' 'NHS SUPPLY CHAIN']",
+        "['Nhs Supply Chain' 'NHS SUPPLY CHAIN']",
+        "['Novartis Pharmaceuticals Uk Ltd' 'NOVARTIS PHARMACEUTICALS UK LTD']",
+        "['Philips Healthcare' 'PHILIPS HEALTHCARE']",
+        "['Roche Diagnostics Limited' 'ROCHE PRODUCTS LTD']",
+        "['Swft Clinical Services Ltd' 'CARE UK CLINICAL SERVICES LTD']",
+        "['Topcon (Great Britain) Ltd' 'TOPSCAN (UK) LTD']"
+      ],
+      "truth": [
+        "['Csc' 'CSC COMPUTER SCIENCES LTD']",
+        "['NHS Litigation Authority' 'NHS LITIGATION AUTHORITY']",
+        "['Nhs Blood And Transplant' 'NHS BLOOD & TRANSPLANT']",
+        "['Nhs Supply Chain' 'NHS SUPPLY CHAIN']",
+        "['Novartis Pharmaceuticals Uk Ltd' 'NOVARTIS PHARMACEUTICALS UK LTD']",
+        "['Philips Healthcare' 'PHILIPS HEALTHCARE']",
+        "['Roche Diagnostics Limited' 'ROCHE PRODUCTS LTD']"
+      ]
+    }
+  ]
+}

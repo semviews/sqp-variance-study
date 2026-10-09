@@ -1,0 +1,85 @@
+player.fiba_world_cup,player.name,team.team_name,team.ownership,city.state_name,player.id,team.id,city.id
+,Antonius Cleveland,Dallas Mavericks,Don Carter || H. Ross Perot Jr. || Mark Cuban || Miriam Adelson || Patrick Dumont,Texas,1,7,4
+,Jay Fletcher Vincent,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Philip Anschutz || Magic Johnson || Ben Berger || Morris Chalfen || Bob Short || Jack Kent Cooke,California,2,14,6
+1.0,William Mark Price,Orlando Magic,Richard DeVos || Bob Vander Weide,Florida,5,22,15
+,Donta Hall,Orlando Magic,Richard DeVos || Bob Vander Weide,Florida,7,22,15
+,Demerick Montae Strickland,Milwaukee Bucks,Herb Kohl || Wes Edens || Marc Lasry || Jamie Dinan,Wisconsin,8,17,28
+1.0,Anthony Marshon Davis Jr.,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Philip Anschutz || Magic Johnson || Ben Berger || Morris Chalfen || Bob Short || Jack Kent Cooke,California,12,14,6
+,Askia Rahman Jones || Wali Jones,Minnesota Timberwolves,Glen Taylor,Minnesota,14,18,7
+,Mychel Thompson,Cleveland Cavaliers,Ted Stepien || George Gund || Gordon Gund || Dan Gilbert,Ohio,16,6,20
+,Marvin Roberts,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Philip Anschutz || Magic Johnson || Ben Berger || Morris Chalfen || Bob Short || Jack Kent Cooke,California,17,14,6
+,Gerald Madkins Jr.,Golden State Warriors,Peter Guber || Joe Lacob,California,19,10,11
+,Anthony Avent,Los Angeles Clippers,John Y. Brown Jr. || Irv Levin || Donald Sterling || Steve Ballmer,California,22,13,9
+,Rick Hughes,Dallas Mavericks,Don Carter || H. Ross Perot Jr. || Mark Cuban || Miriam Adelson || Patrick Dumont,Texas,25,7,4
+,Lavoy Allen,Indiana Pacers,Herb Simon,Indiana,26,12,3
+,"Earvin ""Magic"" Johnson Jr.",Los Angeles Lakers,Jeanie Buss || Jerry Buss || Philip Anschutz || Magic Johnson || Ben Berger || Morris Chalfen || Bob Short || Jack Kent Cooke,California,28,14,6
+,Stanley M. Noszka,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,29,2,2
+,Isiah Lord Thomas III,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,30,9,23
+,Daniel Edward Anderson,Portland Trail Blazers,Larry Weinberg || Paul Allen || Jody Allen,Oregon,31,25,10
+,Kelvin Trent Tucker,Chicago Bulls,Dick Klein || Wirtz family || Jerry Reinsdorf,Illinois,33,5,14
+,Dwayne Kenneth Schintzius,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,34,2,2
+,Guy William Rodgers,Milwaukee Bucks,Herb Kohl || Wes Edens || Marc Lasry || Jamie Dinan,Wisconsin,36,17,28
+,Timothy Theodore Duncan,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,38,27,5
+,Tony Lorenzo Delk,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,41,9,23
+,Derrick Joseph Chievous,Cleveland Cavaliers,Ted Stepien || George Gund || Gordon Gund || Dan Gilbert,Ohio,44,6,20
+,Rik Smits,Indiana Pacers,Herb Simon,Indiana,45,12,3
+,Anthony Edwards,Minnesota Timberwolves,Glen Taylor,Minnesota,46,18,7
+,Harry Junior Gallatin,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,47,9,23
+,Aaron Williams,Los Angeles Clippers,John Y. Brown Jr. || Irv Levin || Donald Sterling || Steve Ballmer,California,55,13,9
+,Nathaniel Thomas Huffman,Toronto Raptors,John Bitove || Allan Slaight || Maple Leaf Sports & Entertainment (MLSE),,56,28,17
+,William Bedford,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,58,27,5
+1.0,Steven Delano Smith,Miami Heat,Micky Arison,Florida,59,16,8
+1.0,Stephen Douglas Kerr,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,69,27,5
+,Gregory Clinton Foster,Toronto Raptors,John Bitove || Allan Slaight || Maple Leaf Sports & Entertainment (MLSE),,70,28,17
+,William Severlyn Hewitt,Chicago Bulls,Dick Klein || Wirtz family || Jerry Reinsdorf,Illinois,71,5,14
+,Dino Rađa,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,73,2,2
+,Konstantinos Papanikolaou,Denver Nuggets,Bill Ringsby || Frank Goldberg || Bud Fischer || Red McCombs || Sidney Shlenker || COMSAT || Bill Laurie || Nancy Laurie || Donald Sturm || Stan Kroenke,Colorado,75,8,1
+,Jabari Dominic Walker,Portland Trail Blazers,Larry Weinberg || Paul Allen || Jody Allen,Oregon,77,25,10
+,Devontae Calvin Cacok,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,78,27,5
+,Thomas James Copa,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,83,27,5
+,Kermit Alan Washington,Golden State Warriors,Peter Guber || Joe Lacob,California,84,10,11
+,Donyell Lamar Marshall,Philadelphia 76ers,,Pennsylvania,85,23,12
+,John Harding Lucas II,Milwaukee Bucks,Herb Kohl || Wes Edens || Marc Lasry || Jamie Dinan,Wisconsin,88,17,28
+,Garfield Smith,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,90,2,2
+,Michael Carter-Williams,Orlando Magic,Richard DeVos || Bob Vander Weide,Florida,92,22,15
+,"DaMon William ""Monti"" Davis",Dallas Mavericks,Don Carter || H. Ross Perot Jr. || Mark Cuban || Miriam Adelson || Patrick Dumont,Texas,95,7,4
+,Trayce Jackson-Davis,Golden State Warriors,Peter Guber || Joe Lacob,California,98,10,11
+1.0,Andre Jamal Drummond,Philadelphia 76ers,,Pennsylvania,99,23,12
+,Chavano Rainer Hield,Golden State Warriors,Peter Guber || Joe Lacob,California,100,10,11
+,D'Angelo Russell,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Philip Anschutz || Magic Johnson || Ben Berger || Morris Chalfen || Bob Short || Jack Kent Cooke,California,101,14,6
+,Joel Hans Embiid,Philadelphia 76ers,,Pennsylvania,102,23,12
+,Paul Clifton Anthony George,Philadelphia 76ers,,Pennsylvania,103,23,12
+1.0,Kyrie Andrew Irving,Dallas Mavericks,Don Carter || H. Ross Perot Jr. || Mark Cuban || Miriam Adelson || Patrick Dumont,Texas,104,7,4
+,Jayson Christopher Tatum,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,105,2,2
+,Caleb Martin,Philadelphia 76ers,,Pennsylvania,106,23,12
+,Andrew Christian Wiggins,Golden State Warriors,Peter Guber || Joe Lacob,California,107,10,11
+,Max Berning Fiedler,Philadelphia 76ers,,Pennsylvania,108,23,12
+,Jaylen Marselles Brown,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,110,2,2
+,Victor Wembanyama,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,111,27,5
+,Jrue Randall Holiday,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,112,2,2
+,Austin Tyler Reaves,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Philip Anschutz || Magic Johnson || Ben Berger || Morris Chalfen || Bob Short || Jack Kent Cooke,California,113,14,6
+1.0,Kevin Wesley Love,Miami Heat,Micky Arison,Florida,114,16,8
+,Giannis Antetokounmpo || Giannis Sina Ugo Antetokounmpo,Milwaukee Bucks,Herb Kohl || Wes Edens || Marc Lasry || Jamie Dinan,Wisconsin,115,17,28
+2.0,Wardell Stephen Curry II,Golden State Warriors,Peter Guber || Joe Lacob,California,116,10,11
+,Alfred Joel Horford Reynoso,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,117,2,2
+,Tyler Christopher Herro,Miami Heat,Micky Arison,Florida,118,16,8
+,Duncan McBryde Robinson,Miami Heat,Micky Arison,Florida,119,16,8
+,Kyle Forman Anderson,Golden State Warriors,Peter Guber || Joe Lacob,California,120,10,11
+,Cade Parker Cunningham,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,121,9,23
+,LeBron Raymone James Sr.,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Philip Anschutz || Magic Johnson || Ben Berger || Morris Chalfen || Bob Short || Jack Kent Cooke,California,122,14,6
+,Jimmy Butler III,Miami Heat,Micky Arison,Florida,123,16,8
+,Kevon Grant Looney,Golden State Warriors,Peter Guber || Joe Lacob,California,124,10,11
+,Zachary Thomas LaVine,Chicago Bulls,Dick Klein || Wirtz family || Jerry Reinsdorf,Illinois,125,5,14
+,Jaden Edward Dhananjay Ivey,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,126,9,23
+,Kyle Terrell Lowry,Philadelphia 76ers,,Pennsylvania,127,23,12
+,Draymond Jamal Green,Golden State Warriors,Peter Guber || Joe Lacob,California,130,10,11
+,Zach Collins,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,131,27,5
+,Jonathan Malangu Kuminga,Golden State Warriors,Peter Guber || Joe Lacob,California,132,10,11
+,Lonzo Anderson Ball,Chicago Bulls,Dick Klein || Wirtz family || Jerry Reinsdorf,Illinois,133,5,14
+,Jaime Jaquez Jr.,Miami Heat,Micky Arison,Florida,134,16,8
+,Ausar XLNC Thompson,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,135,9,23
+1.0,Shaquille Rashaun O'Neal,Boston Celtics,Walter A. Brown || Irv Levin || John Y. Brown Jr. || Harry Mangurian || Paul Gaston || Boston Basketball Partners L.L.C. (H. Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca),Massachusetts,137,2,2
+,Kobe Bryant,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Philip Anschutz || Magic Johnson || Ben Berger || Morris Chalfen || Bob Short || Jack Kent Cooke,California,138,14,6
+1.0,Christopher Emmanuel Paul,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,139,27,5
+,Harrison Bryce Jordan Barnes,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,140,27,5
+,Edrice Femi Adebayo,Miami Heat,Micky Arison,Florida,141,16,8

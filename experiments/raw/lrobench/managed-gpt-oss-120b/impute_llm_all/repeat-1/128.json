@@ -1,0 +1,85 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 28.97,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 10,
+  "returned": [
+    0.6,
+    0.6
+  ],
+  "tokens": [
+    2644,
+    1414,
+    1230
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.6,
+      "prediction": [
+        "Firrelli",
+        "King",
+        "Kato",
+        "Nishi",
+        "Gerard",
+        "Patricia",
+        "John",
+        "William",
+        "Bob",
+        "David"
+      ],
+      "truth": [
+        "Firrelli",
+        "King",
+        "Kato",
+        "Nishi",
+        "Gerard",
+        "Pamela",
+        "Julie",
+        "William",
+        "Barry",
+        "Diane"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.6,
+      "prediction": [
+        "Firrelli",
+        "King",
+        "Kato",
+        "Nishi",
+        "Gerard",
+        "Patricia",
+        "John",
+        "William",
+        "Bob",
+        "David"
+      ],
+      "truth": [
+        "Firrelli",
+        "King",
+        "Kato",
+        "Nishi",
+        "Gerard",
+        "Pamela",
+        "Julie",
+        "William",
+        "Barry",
+        "Diane"
+      ]
+    }
+  ]
+}

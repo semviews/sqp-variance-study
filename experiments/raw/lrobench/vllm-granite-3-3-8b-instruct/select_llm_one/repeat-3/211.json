@@ -1,0 +1,66 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 211,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 53.087,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    0.6154,
+    0.7273,
+    0.6667
+  ],
+  "tokens": [
+    4091,
+    4060,
+    31
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6154,
+        0.7273,
+        0.6667
+      ],
+      "prediction": [
+        "A",
+        "GTG",
+        "GWG",
+        "PPG",
+        "Post+/-",
+        "PostPPG",
+        "PostPts",
+        "PostSHG",
+        "PostSOG",
+        "Pts",
+        "SHA",
+        "SHG",
+        "SOG"
+      ],
+      "truth": [
+        "G",
+        "GTG",
+        "GWG",
+        "PPG",
+        "PostG",
+        "PostGWG",
+        "PostPPG",
+        "PostSHG",
+        "PostSOG",
+        "SHG",
+        "SOG"
+      ]
+    }
+  ]
+}

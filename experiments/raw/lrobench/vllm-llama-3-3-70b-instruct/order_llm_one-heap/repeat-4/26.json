@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 26,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 7.257,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.3
+  ],
+  "tokens": [
+    2642,
+    2631,
+    11
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Caspian Sea",
+        "Lake Huron",
+        "Lake Michigan",
+        "Lake Superior",
+        "Lake Victoria"
+      ],
+      "truth": [
+        "Caspian Sea",
+        "Lake Huron",
+        "Lake Michigan",
+        "Lake Superior",
+        "Lake Victoria"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.3,
+      "prediction": [
+        "Lake Victoria",
+        "Caspian Sea",
+        "Lake Michigan",
+        "Lake Superior",
+        "Lake Huron"
+      ],
+      "truth": [
+        "Lake Michigan",
+        "Lake Superior",
+        "Lake Huron",
+        "Caspian Sea",
+        "Lake Victoria"
+      ]
+    }
+  ]
+}

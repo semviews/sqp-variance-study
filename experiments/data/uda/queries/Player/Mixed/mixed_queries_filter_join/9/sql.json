@@ -1,0 +1,23 @@
+{
+  "sql": "/* Query 9: filter5_join1 (player, team) */ SELECT player.name, player.position, team.championship, team.founded_year FROM player JOIN team ON player.team = team.team_name WHERE player.name = 'Kobe Bean Bryant' OR player.fiba_world_cup >= 0 OR team.championship <> 3",
+  "player": {
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    },
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  },
+  "team": {
+    "championship": {
+      "value_type": "int",
+      "description": "championships is the number of this team getting championships (e.g. 5)."
+    },
+    "founded_year": {
+      "value_type": "int",
+      "description": "founded_year is the year of this team team founded (e.g. 1947)."
+    }
+  }
+}

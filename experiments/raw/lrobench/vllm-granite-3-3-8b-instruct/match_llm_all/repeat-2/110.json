@@ -1,0 +1,46 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 110,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 2.412,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    524,
+    445,
+    79
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [],
+      "truth": [
+        "['COMMERCE AND INSURANCE'\n 'Office of the Superintendent of Financial Institutions']",
+        "['COMMERCE AND INSURANCE' 'Financial Consumer Agency of Canada']",
+        "['OFFICE OF STATE AUDITOR' 'Auditor General']",
+        "['OFFICE OF STATE TREASURER' 'Finance Department']",
+        "['REVENUE' 'Finance Department']"
+      ]
+    }
+  ]
+}

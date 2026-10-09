@@ -1,0 +1,12 @@
+{"key": "a853732063a847ec", "role": "operator", "t": 1790979112.042, "seconds": 1.898, "output": "[{\"CustomerID\": [\"1\", \"basic_info\"]}]"}
+{"key": "466af2bcfcc4e10d", "role": "operator", "t": 1790979113.94, "seconds": 1.238, "output": "[{\"First\": [\"1\", \"basic_info\"]}]"}
+{"key": "3de2761f9902acff", "role": "operator", "t": 1790979115.178, "seconds": 1.047, "output": "[{\"Last\": [\"2\", \"contact_info\"]}]"}
+{"key": "1c1617a89ef500f8", "role": "operator", "t": 1790979116.225, "seconds": 1.073, "output": "[{\"StreetAddress\": [\"2\", \"contact_info\"]}]"}
+{"key": "2cacbb6c025519dc", "role": "operator", "t": 1790979117.298, "seconds": 0.919, "output": "[{\"City\": [\"1\", \"basic_info\"]}]"}
+{"key": "491b32d018efb92d", "role": "operator", "t": 1790979118.216, "seconds": 1.151, "output": "[{\"State\": [\"3\", \"consuming_info\"]}]"}
+{"key": "fa1387f827812261", "role": "operator", "t": 1790979119.368, "seconds": 0.912, "output": "[{\"ZipCode\": [\"2\", \"contact_info\"]}]"}
+{"key": "ab23de23c7d3d05c", "role": "operator", "t": 1790979120.28, "seconds": 1.023, "output": "[{\"Email\": [\"2\", \"contact_info\"]}]"}
+{"key": "cdd388c6aafc32ff", "role": "operator", "t": 1790979121.303, "seconds": 1.083, "output": "[{\"PhoneNumber\": [\"2\", \"contact_info\"]}]"}
+{"key": "3fa0e0fcb0f8cbac", "role": "operator", "t": 1790979122.386, "seconds": 1.182, "output": "[{\"FirstPurchaseDate\": [\"3\", \"consuming_info\"]}]"}
+{"key": "d7122dbeed8b3428", "role": "operator", "t": 1790979123.569, "seconds": 1.184, "output": "[ \n  { \"SubscribedToEmailList\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "9312aa61f0384e3d", "role": "operator", "t": 1790979124.753, "seconds": 1.102, "output": "[{\"Gender\": [\"1\", \"basic_info\"]}]"}

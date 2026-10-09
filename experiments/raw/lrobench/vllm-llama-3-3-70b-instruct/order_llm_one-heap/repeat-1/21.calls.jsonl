@@ -1,0 +1,18 @@
+{"key": "3bcff065e62f078f", "role": "operator", "t": 1790962447.24, "seconds": 1.318, "output": "1"}
+{"key": "3c26cf57cb11b176", "role": "operator", "t": 1790962448.558, "seconds": 0.572, "output": "0"}
+{"key": "41518db70e0b7b87", "role": "operator", "t": 1790962449.13, "seconds": 0.561, "output": "1"}
+{"key": "1723b95604387147", "role": "operator", "t": 1790962449.691, "seconds": 0.58, "output": "0"}
+{"key": "bc4a78b3caeb59d4", "role": "operator", "t": 1790962450.271, "seconds": 0.514, "output": "0"}
+{"key": "ba5f819e2631c6df", "role": "operator", "t": 1790962450.785, "seconds": 0.458, "output": "0"}
+{"key": "a3984a2a357f94b0", "role": "operator", "t": 1790962451.243, "seconds": 0.482, "output": "0"}
+{"key": "4b4a2f9fb3a19bb0", "role": "operator", "t": 1790962451.725, "seconds": 0.515, "output": "0"}
+{"key": "541ae4527969aab8", "role": "operator", "t": 1790962452.24, "seconds": 0.496, "output": "0"}
+{"key": "e511547ace5f9b23", "role": "operator", "t": 1790962452.735, "seconds": 0.556, "output": "0"}
+{"key": "4f030ddfb8367512", "role": "operator", "t": 1790962453.292, "seconds": 1.017, "output": "0"}
+{"key": "26b3e1479ccb69d5", "role": "operator", "t": 1790962454.309, "seconds": 1.32, "output": "1"}
+{"key": "a340b9aa383efe9e", "role": "operator", "t": 1790962455.629, "seconds": 0.638, "output": "1"}
+{"key": "f0db279ece3a3564", "role": "operator", "t": 1790962456.267, "seconds": 0.54, "output": "0"}
+{"key": "08c9c01ccf8bc850", "role": "operator", "t": 1790962456.807, "seconds": 0.589, "output": "1"}
+{"key": "f0adf71bbfca2afe", "role": "operator", "t": 1790962457.396, "seconds": 0.865, "output": "1"}
+{"key": "8c9f1cc7048aa065", "role": "operator", "t": 1790962458.261, "seconds": 42.976, "output": "1"}
+{"key": "a4a9a2bd7cddf0b9", "role": "operator", "t": 1790962501.237, "seconds": 2.278, "output": "Micro-Star International was founded in 1986 and Lenovo was founded in 1984. Since 1986 is greater than 1984, Item 1 has a higher 'The founding time of the brand' metric value than Item 2.\n\n1"}

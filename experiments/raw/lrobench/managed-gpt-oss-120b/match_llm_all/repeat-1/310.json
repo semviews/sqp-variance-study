@@ -1,0 +1,47 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 310,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 33.584,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.3333,
+    0.5,
+    0.4
+  ],
+  "tokens": [
+    354,
+    282,
+    72
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3333,
+        0.5,
+        0.4
+      ],
+      "prediction": [
+        "['Agency Name' 'MINE']",
+        "['Category Description' 'DEPT_EN_DESC']",
+        "['Fiscal Year' '\u00c3\\x83\u00c2\u00af\u00c3\\x82\u00c2\u00bb\u00c3\\x82\u00c2\u00bfFSCL_YR']"
+      ],
+      "truth": [
+        "['Agency Name' 'DEPT_EN_DESC']",
+        "['Fiscal Year' '\u00c3\\x83\u00c2\u00af\u00c3\\x82\u00c2\u00bb\u00c3\\x82\u00c2\u00bfFSCL_YR']"
+      ]
+    }
+  ]
+}

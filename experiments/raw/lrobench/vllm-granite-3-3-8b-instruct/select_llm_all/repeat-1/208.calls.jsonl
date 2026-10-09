@@ -1,0 +1,1 @@
+{"key": "1fb5661c19c3e647", "role": "operator", "t": 1790946606.204, "seconds": 2.802, "output": "[\n  \"ward_office_address\",\n  \"ward_office_zip\",\n  \"ward_email\",\n  \"ward_office_phone\",\n  \"ward_office_fax\",\n  \"city_hall_office_room\",\n  \"city_hall_office_phone\",\n  \"city_hall_office_fax\"\n]"}

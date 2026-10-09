@@ -1,0 +1,19 @@
+{
+  "scenario": "movie",
+  "model": "openai/managed-mistral-small-3-1-24b-2503",
+  "setting": "w20",
+  "policy": "approximate",
+  "repeat": 4,
+  "query_id": 8,
+  "status": "success",
+  "error": null,
+  "execution_time": 5.645220041275024,
+  "token_usage": 14524,
+  "model_calls": 120,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": null,
+  "shuffle_seed": null
+}

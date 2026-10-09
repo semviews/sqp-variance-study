@@ -1,0 +1,60 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 208,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 2.819,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.6364,
+    1.0,
+    0.7778
+  ],
+  "tokens": [
+    306,
+    218,
+    88
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6364,
+        1.0,
+        0.7778
+      ],
+      "prediction": [
+        "alderman_first_name",
+        "alderman_last_name",
+        "alderman_name_suffix",
+        "city_hall_office_fax",
+        "city_hall_office_phone",
+        "city_hall_office_room",
+        "ward_email",
+        "ward_office_address",
+        "ward_office_fax",
+        "ward_office_phone",
+        "ward_office_zip"
+      ],
+      "truth": [
+        "city_hall_office_fax",
+        "city_hall_office_phone",
+        "ward_email",
+        "ward_office_address",
+        "ward_office_fax",
+        "ward_office_phone",
+        "ward_office_zip"
+      ]
+    }
+  ]
+}

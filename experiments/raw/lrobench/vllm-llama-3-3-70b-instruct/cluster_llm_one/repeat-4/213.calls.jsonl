@@ -1,0 +1,13 @@
+{"key": "ed34ae47a36fe56f", "role": "operator", "t": 1790979797.68, "seconds": 2.09, "output": "[\n  { \"film_id\": [\"1\", \"other_info\"]}\n]"}
+{"key": "be693344c833f8c1", "role": "operator", "t": 1790979799.77, "seconds": 0.847, "output": "[\n  { \"title\": [\"1\", \"other_info\"]}\n]"}
+{"key": "e093c4d00aaa92a7", "role": "operator", "t": 1790979800.616, "seconds": 1.764, "output": "[\n  { \"description\": [\"2\", \"content_info\"]}\n]"}
+{"key": "10604dd20344aa8e", "role": "operator", "t": 1790979802.38, "seconds": 1.011, "output": "[\n  { \"release_year\": [\"3\", \"time_info\"]}\n]"}
+{"key": "272862b7a2c45936", "role": "operator", "t": 1790979803.391, "seconds": 1.41, "output": "[\n  { \"language_id\": [\"4\", \"other_info\"]}\n]"}
+{"key": "c3d5c3915c00373c", "role": "operator", "t": 1790979804.801, "seconds": 1.224, "output": "[\n  { \"original_language_id\": [\"2\", \"content_info\"]}\n]"}
+{"key": "e314342705a5beb1", "role": "operator", "t": 1790979806.025, "seconds": 1.554, "output": "[\n  { \"rental_duration\": [\"5\", \"rental_info\"]}\n]"}
+{"key": "dda685b5dbeb21d9", "role": "operator", "t": 1790979807.579, "seconds": 1.423, "output": "[\n  { \"rental_rate\": [\"5\", \"rental_info\"]}\n]"}
+{"key": "88d5c991c18f4ed9", "role": "operator", "t": 1790979809.002, "seconds": 1.044, "output": "[\n  { \"length\": [\"2\", \"content_info\"]}\n]"}
+{"key": "2628da106609b62b", "role": "operator", "t": 1790979810.047, "seconds": 1.387, "output": "[\n  { \"replacement_cost\": [\"5\", \"rental_info\"]}\n]"}
+{"key": "bc0ae8969bc2bd11", "role": "operator", "t": 1790979811.434, "seconds": 1.21, "output": "[\n  { \"rating\": [\"2\", \"content_info\"]}\n]"}
+{"key": "98339d88bd967201", "role": "operator", "t": 1790979812.644, "seconds": 0.981, "output": "[\n  { \"special_features\": [\"6\", \"other_info\"]}\n]"}
+{"key": "c5b9c47184d7e75e", "role": "operator", "t": 1790979813.625, "seconds": 28.931, "output": "[\n  { \"last_update\": [\"3\", \"time_info\"]}\n]"}

@@ -1,0 +1,19 @@
+{
+  "scenario": "movie",
+  "model": "openai/vllm-llama-3-3-70b-instruct",
+  "setting": "w20_lp",
+  "policy": "approximate",
+  "repeat": 2,
+  "query_id": 1,
+  "status": "success",
+  "error": null,
+  "execution_time": 471.3283050060272,
+  "token_usage": 304540,
+  "model_calls": 2000,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": null,
+  "shuffle_seed": null
+}

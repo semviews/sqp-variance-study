@@ -1,0 +1,66 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 108,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 11.724,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.9167,
+    0.9167,
+    0.9167
+  ],
+  "tokens": [
+    1030,
+    435,
+    595
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.9167,
+        0.9167,
+        0.9167
+      ],
+      "prediction": [
+        "['Fin Fang Foom' 'Marvel Comics']",
+        "['Galactus' 'Marvel Comics']",
+        "['Giganta' 'DC Comics']",
+        "['Groot' 'Marvel Comics']",
+        "['King Kong' 'Universal Studios']",
+        "['MODOK' 'Marvel Comics']",
+        "['Onslaught' 'Marvel Comics']",
+        "['Sasquatch' 'Marvel Comics']",
+        "['Surtur' 'Marvel Comics']",
+        "['Utgard-Loki' 'Marvel Comics']",
+        "['Wolfsbane' 'Marvel Comics']",
+        "['Ymir' 'Marvel Comics']"
+      ],
+      "truth": [
+        "['Bloodwraith' 'Marvel Comics']",
+        "['Fin Fang Foom' 'Marvel Comics']",
+        "['Galactus' 'Marvel Comics']",
+        "['Giganta' 'DC Comics']",
+        "['Groot' 'Marvel Comics']",
+        "['MODOK' 'Marvel Comics']",
+        "['Onslaught' 'Marvel Comics']",
+        "['Sasquatch' 'Marvel Comics']",
+        "['Surtur' 'Marvel Comics']",
+        "['Utgard-Loki' 'Marvel Comics']",
+        "['Wolfsbane' 'Marvel Comics']",
+        "['Ymir' 'Marvel Comics']"
+      ]
+    }
+  ]
+}

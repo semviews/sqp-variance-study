@@ -1,0 +1,1066 @@
+{
+  "model": "openai/managed-gpt-oss-120b",
+  "query": 1,
+  "seed": 11,
+  "requests_built": 2000,
+  "requests_matching_recorded_keys": 1864,
+  "recorded_executions": 20,
+  "flipped_available": 102,
+  "kwargs": {
+    "temperature": 0.0,
+    "max_tokens": 8192,
+    "logprobs": false
+  },
+  "items": [
+    {
+      "key": "0b1cc9dbcc672ab8",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abIt might not be what I wanted it to be, but I can't deny I was entertained.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "16e4546c6829eb6e",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "false",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abIt is this part of the story, the human side, to narrow it down to our marginal planet, that holds the movie together for its three-hour run time.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "173328e395c7525b",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "true",
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "true",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abThriller fans looking for a bit of brainless biff will lap it up.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "299ed6ada1549373",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "false",
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abIt's a cultural phenomenon.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "333b84bd5eaf3527",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "false",
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abIf the previous film was a bubbly champagne cocktail of a superhero movie, its sequel is something flatter and more concussive-akin to a series of vodka shots. Bottom line though, as long Paul Rudd is invited, it's still a party.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "34cedc4bf8962cd9",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "false",
+        "false",
+        "true",
+        "true",
+        "false",
+        "true",
+        "false",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abA Marvel film giving off the repeated vibe that in some other space and time, Pixar might have made it.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "5129fb8630fa9d11",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abA film that succeeds somewhat by not trying to be anything it's not.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "93e368d7f41b2925",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "true",
+        "true",
+        "true",
+        "false",
+        "false",
+        "false",
+        "true",
+        "false",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abParasite exudes cultural specificity, with deep cuts to Korean headlines and reality TV shows.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "96be59f7a76f26dd",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "true",
+        "true",
+        "true",
+        "true",
+        "false",
+        "false",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abIf the first Guardians of the Galaxy is about bizarre heroes developing chemistry, then the sequel is a showcase for them as individuals.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "970419fb16906c5c",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abCaptain Marvel, like many MCU movies, sometimes labors under the weight of having to tell its own story while still connecting to the larger, ongoing saga, but it has no issues with justifying its main character.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "a72b24d5ffbce4fc",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "true",
+        "true",
+        "false",
+        "true",
+        "false",
+        "false",
+        "true",
+        "false",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00ab\u201cThe Batman\u201d is impressively made. The acting is first rate, and the chemistry between Pattinson and Kravitz is magnetic. It\u2019s meant to be an important statement. It\u2019s just not a lot of, you know, fun.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "ae0ca21ddb80d75d",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00ab\"Jojo Rabbit\" is uncomfortable in ways that work and ways that don't, but its heart is assured.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "b1030650f31c037d",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "false",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abWW84 shines brightest when Gadot and Pine are on-screen together.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "bc7c703a7910a169",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abThe movie suffers a little from uneven pacing and occasionally lost my focus here and there but it is a worthy addition to the canon.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "c5b04f9b45f6eb0e",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "true",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abI'm curious, just a bit, about what goes on in the mind of Roland Emmerich. Does he know that he makes some of the best comedies ever written?\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "c88040166c10007e",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "true",
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abWith his third kidnapping caper, Taken 3, Liam Neeson takes self-parody to new lows and the result is hysterically, enjoyably bad.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "cc9b04c706e0b8e3",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "true",
+        "true",
+        "true",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abI don't know if the music will still be sung in 20 or 30 years. I do know that dance schools all around the world are going to see a rush of enrolments.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "d753ebb0b00655e2",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "false",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abNolan has given us the cinematic equivalent of the British stiff upper lip.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "f75a934a630d92a4",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "true",
+        "false",
+        "true",
+        "true",
+        "true",
+        "false",
+        "true",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abIt doesn't take itself too seriously, but it also holds whatever irreverent, anarchic impulses it might possess in careful check.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "ffab505124a7a10f",
+      "flipped_in_campaign": true,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abThe zippy, brutal action sequences are gripping, the violence sometimes shocking.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "03df23c4d46a0094",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abDelivering the definitive take on the Worlds Greatest Detective, The Batman is a sweeping, cinematic masterpiece thats both DCs best film and one of the most captivating, relentless, and unforgettable comic book movies ever made.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "08ae58ff56eb2d17",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abA Star is Born features great performances all around, but the star that is truly born here is Bradley Cooper as a director.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "0a8e3d5f942ae5ab",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abThose of us who have had our fill of this genre will still enjoy the message it sends, with great character development and interaction connecting us to the characters and creating a strong female lead.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "12177d7cef757f2e",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00ab'Captain America: Civil War' Is Great Fun, Even As It Alternates Between Shameless Fan Service Bits And Subversive Narrative Choices.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "134ac968efd93260",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abHow Han Solo meets Chewbacca is one of the highlights of this thoroughly enjoyable, action packed adventure in which friendships are forged, hearts are broken; and plans change.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "31ce89855b63dd9f",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abSomehow Cruise's foray back into the danger zone will be remembered more than the original, setting a new standard in the era of reboots.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "3c5be7bcd5ad514e",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abTaken 3 isn't a good movie. Against all logic, it isn't a bad movie, either. Instead, it's so casual and indifferent to itself it lapses into something altogether appalling.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "4c9e70488be01b1c",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abWith this reimagining, Universal Pictures has done several things right.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "7b2d66c1bd8fc21a",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abNolan again continues his proud tradition of eschewing computer-generated shots in favour of actual ships, planes and men. The result is a film that will look authentic, bloody, honest and real for as long there are people to watch it.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "8af80cd4a7d07cda",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abA film as much about aging and end-of-life regret as it is the mob.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "a0beadaea4e514f1",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abA visually stunning, well-produced Spectacle, but it's overlong, anticlimactic and often dull.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "b5c7c26ab6124b9c",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abEndgame's true feat is how it flawlessly subverts our expectations without feeling like betrayal.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "b7b87069f05da490",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abThis movie is a disaster. At least it would be if it didn't fall into the \"so bad it's good\" category.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "bca22daa9af13d1a",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abQuentin Tarantino's supposed love story to Hollywood's Golden Age feels more like a tribute to himself, becoming flatly uninteresting despite great performances by a star-studded cast\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "beb8f041e623f0f1",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abPeele expects us to react to disturbing energetic fields and intermittent power outages that never cause uneasiness&#46; More audacity was expected from him&#46; Do I recommend it&#63; The answer is in the title&#46;\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "c6a6f0b95aa4d9f7",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00ab\"Force\" brings fun back to \"Star Wars.\"\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "c7cc01f40c46a210",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abThese are complex dynamics. It's a reason why Dune has been so tough to crack in this medium. I think Villeneuve has done it.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "e1aff86d209cd529",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abRepellent and pitiful at the same time, Phoenix is absolutely riveting.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "ec8dd04e2861be04",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abDirectors Anthony and Joe Russo have somehow crafted a coherent and exhilarating epic that incorporates all your favorite superheroes (and many of their loved ones) in one emotionally resonant package.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    },
+    {
+      "key": "f886879eab708f42",
+      "flipped_in_campaign": false,
+      "campaign_outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "The user will provide a claim and some relevant context.\n    Your job is to determine whether the claim is true for the given context.\n     Use the following format to provide your answer:\n            Answer: <Your answer here. The answer should be either True or False>\n            "
+        },
+        {
+          "role": "user",
+          "content": "Context:\n[Reviewtext]: \u00abRare among the recent fairy tale adaptions (from Mirror Mirror to the dreadful Red Riding Hood) the invigorating Snow White and the Huntsman actually breathes new life into an old story.\u00bb\n\n\nClaim: Determine if the following movie review is clearly positive. Review: \"Reviewtext\"."
+        }
+      ]
+    }
+  ]
+}

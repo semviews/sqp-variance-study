@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 205,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 8.522,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 659, in pipeline_select205\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine whether the \\'Album_Name\\' column satisfies the condition of being a temporal reference, we need to analyze its content for any indication of time, such as years, dates, or words that im\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the \\'Album_Name\\' column might be a temporal reference, we need to analyze its values for any indication of time, such as years, dates, or words suggesting a specific period (e.",
+      "operator_calls": 2
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the \\'Album_Name\\' column satisfies the condition of being a temporal reference, we need to analyze its content for any indication of time, such as years, dates, or words that im",
+      "operator_calls": 2
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 2,
+  "judge_calls": 0
+}

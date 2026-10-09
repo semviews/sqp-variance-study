@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "player.nationality": {
+      "precision": 0.16666666666666666,
+      "recall": 0.16666666666666666,
+      "f1": 0.16666666666666666
+    },
+    "count_player_nationality": {
+      "precision": 0.16666666666666666,
+      "recall": 0.16666666666666666,
+      "f1": 0.16666666666666666
+    }
+  },
+  "macro_precision": 0.16666666666666666,
+  "macro_recall": 0.16666666666666666,
+  "macro_f1": 0.16666666666666666,
+  "rows": {
+    "len_gold": 6,
+    "len_pred": 6,
+    "matched_rows": 1
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.nationality"
+  ],
+  "evaluated_columns": [
+    "player.nationality",
+    "count_player_nationality"
+  ],
+  "skipped_columns": []
+}

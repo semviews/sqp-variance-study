@@ -1,0 +1,66 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 101,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 12.004,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 260,
+  "judge_calls": 0,
+  "returned": [
+    0.6429,
+    0.9,
+    0.75
+  ],
+  "tokens": [
+    25220,
+    24960,
+    260
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6429,
+        0.9,
+        0.75
+      ],
+      "prediction": [
+        "['11-Dec-09' '2008']",
+        "['11-Dec-09' '2009']",
+        "['2-Nov-12' '2012']",
+        "['21-Nov-08' '2007']",
+        "['21-Nov-08' '2008']",
+        "['23-Nov-16' '2015']",
+        "['23-Nov-16' '2016']",
+        "['24-Nov-10' '2009']",
+        "['24-Nov-10' '2010']",
+        "['27-Nov-13' '2013']",
+        "['30-Mar-07' '2006']",
+        "['30-Mar-07' '2007']",
+        "['4-Mar-16' '2016']",
+        "['7-Nov-14' '2014']"
+      ],
+      "truth": [
+        "['11-Dec-09' '2009']",
+        "['15-Jul-11' '2011']",
+        "['2-Nov-12' '2012']",
+        "['21-Nov-08' '2008']",
+        "['23-Nov-16' '2016']",
+        "['24-Nov-10' '2010']",
+        "['27-Nov-13' '2013']",
+        "['30-Mar-07' '2007']",
+        "['4-Mar-16' '2016']",
+        "['7-Nov-14' '2014']"
+      ]
+    }
+  ]
+}

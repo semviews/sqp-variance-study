@@ -1,0 +1,30 @@
+area,city_name,gdp,id
+400.739,Denver,,1
+232.1,Boston,,2
+950.0,Indianapolis,184400,3
+999.3,Dallas,,4
+1205.4,San Antonio,121000,5
+1302.0,Los Angeles,1000000,6
+152.8,Minneapolis,||,7
+,Miami,344900 || 257000,8
+24.0,Inglewood,,9
+375.78,Portland,,10
+121.0,San Francisco,,11
+369.62,Philadelphia,,12
+910.0,New Orleans,,13
+,Chicago,689000 || 670500,14
+,Orlando,,15
+286.0,Salt Lake City,GDP:,16
+630.2,Toronto,,17
+1341.0,Phoenix,243000 || 362000,18
+177.0,"Washington, D.C.",,19
+213.6,Cleveland,,20
+1659.0,Houston,633000,21
+259.0,Sacramento,,22
+370.03,Detroit,,23
+839.2,Memphis,,24
+808.1,Charlotte,,25
+1213.37,New York City,1053000,26
+1606.7,Oklahoma City,43100 || 61100 || 73800,27
+250.71,Milwaukee,102000,28
+347.1,Atlanta,473000,29

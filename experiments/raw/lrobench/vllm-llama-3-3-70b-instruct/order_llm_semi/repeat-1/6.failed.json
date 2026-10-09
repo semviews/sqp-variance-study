@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 6,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 13.483,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 153, in pipeline_order6\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Saveley\", we can compare it to the entire alphabet. Since \"Saveley\" starts with \"S\", which is closer to the end of the alphabet, it will receive a lower score compared to names starting with letters like \"A\" or \"B\". However, it\\'s still above names starting with letters like \"T\", \"U\", \"V\", etc.\\n\\nThe alphabet has 26 letters. \"S\" is the 19th letter. To calculate the score, we can use the position of \"S\" in the alphabet and scale it to a 0-100 range. \\n\\nThe formula could be: Score = (Position of the first letter of the last name / Total number of letters in the alphabet) * 100\\n\\nFor \"S\", the calculation would be: Score = (19 / 26) * 100\\n\\nCalculating this gives: Score = 73.07\\n\\nRounding to the nearest whole number for simplicity, the score would be approximately 73. \\n\\n73'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Freyre\", we consider its position in the alphabet. Since \\'F\\' is the 6th letter in the English alphabet, which has 26 letters, we can calculate the score as follows:\\n\\nScore = (Position of \\'F\\' / Total number of letters) * 100\\nScore = (6 / 26) * 100\\nScore = 23.07\\n\\nRounding this to the nearest whole number for simplicity, the score would be approximately 23. However, considering the instruc",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Nelson\", we consider its position in the alphabet. Since there are 26 letters in the alphabet, we can calculate the score as follows:\\n\\nThe letter \"N\" is the 14th letter of the alphabet. To calculate the score, we can use the formula: (position of the letter / total number of letters) * 100.\\n\\nSo, the score would be: (14 / 26) * 100 = 53.85\\n\\nRounding this value to the nearest whole number, we",
+      "operator_calls": 5
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

@@ -1,0 +1,13 @@
+{
+  "sql": "/* Query 3: filter2_agg1_join1 (player, team) */ SELECT player.team, AVG(player.mvp_awards) AS avg_player_mvp_awards FROM player JOIN team ON player.team = team.team_name WHERE player.college = 'Michigan State University' AND player.age <= 62 GROUP BY player.team",
+  "player": {
+    "mvp_awards": {
+      "value_type": "int",
+      "description": "number of NBA MVP awards the player has won; use 0 if none (e.g., 2)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

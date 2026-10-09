@@ -1,0 +1,31 @@
+{"key": "cc123567ce10d410", "role": "operator", "t": 1790966299.449, "seconds": 3.213, "output": "[\n  { \"playerID\": [\"0\", \"identification\"] }\n]"}
+{"key": "3f402915f5f6455e", "role": "operator", "t": 1790966302.662, "seconds": 2.102, "output": "[{\"coachID\": [\"0\", \"identification\"]}]"}
+{"key": "7f3538d30de33440", "role": "operator", "t": 1790966304.765, "seconds": 2.026, "output": "[{\"hofID\": [\"0\", \"identification\"]}]"}
+{"key": "2a3f1199ef927617", "role": "operator", "t": 1790966306.791, "seconds": 1.253, "output": "[\n  { \"firstName\": [\"0\", \"identification\"] }\n]"}
+{"key": "cf4f26df723dca6f", "role": "operator", "t": 1790966308.043, "seconds": 2.049, "output": "[\n  { \"lastName\": [\"0\", \"identification\"] }\n]"}
+{"key": "52f50d0636a8d43c", "role": "operator", "t": 1790966310.092, "seconds": 2.075, "output": "[\n  { \"nameNote\": [\"0\", \"identification\"] }\n]"}
+{"key": "ee737c078a12e0f7", "role": "operator", "t": 1790966312.168, "seconds": 1.495, "output": "[\n  { \"nameGiven\": [\"0\", \"identification\"] }\n]"}
+{"key": "bdf764712d1445a0", "role": "operator", "t": 1790966313.663, "seconds": 1.877, "output": "[\n  { \"nameNick\": [\"0\", \"identification\"] }\n]"}
+{"key": "656140132eb3b22d", "role": "operator", "t": 1790966315.54, "seconds": 2.318, "output": "[{\"height\": [\"1\", \"physical\"]}]"}
+{"key": "d4958b662d62b5c7", "role": "operator", "t": 1790966317.858, "seconds": 1.619, "output": "[\n  { \"weight\": [\"1\", \"physical\"] }\n]"}
+{"key": "5496be854dce7439", "role": "operator", "t": 1790966319.477, "seconds": 2.102, "output": "[\n  { \"shootCatch\": [\"1\", \"physical\"] }\n]"}
+{"key": "870713eeb3d31aec", "role": "operator", "t": 1790966321.579, "seconds": 3.127, "output": "[\n  { \"legendsID\": [\"0\", \"identification\"] }\n]"}
+{"key": "620502241ac40f0f", "role": "operator", "t": 1790966324.706, "seconds": 2.137, "output": "[{\"ihdbID\": [\"0\", \"identification\"]}]"}
+{"key": "985c3973b99e69f0", "role": "operator", "t": 1790966326.844, "seconds": 2.07, "output": "[\n  { \"hrefID\": [\"0\", \"identification\"] }\n]"}
+{"key": "9145cb924f8a35b3", "role": "operator", "t": 1790966328.913, "seconds": 1.899, "output": "[{\"firstNHL\": [\"2\", \"career\"]}]"}
+{"key": "c544bbe7db504f94", "role": "operator", "t": 1790966330.812, "seconds": 2.571, "output": "[\n  { \"lastNHL\": [\"2\", \"career_info\"] }\n]"}
+{"key": "173f47b10454d847", "role": "operator", "t": 1790966333.383, "seconds": 4.313, "output": "[\n  { \"firstWHA\": [\"3\", \"birth\"] }\n]"}
+{"key": "e999035a2883f3ab", "role": "operator", "t": 1790966337.696, "seconds": 4.828, "output": "[\n  { \"lastWHA\": [\"2\", \"career_info\"] }\n]"}
+{"key": "aacb11a9fe27c3d7", "role": "operator", "t": 1790966342.524, "seconds": 2.418, "output": "[{\"pos\": [\"2\", \"career\"]}]"}
+{"key": "7d5f12ca6ed0f22e", "role": "operator", "t": 1790966344.943, "seconds": 2.134, "output": "[\n  { \"birthYear\": [\"3\", \"birth_info\"] }\n]"}
+{"key": "722e6bf05f0cf3f4", "role": "operator", "t": 1790966347.076, "seconds": 2.243, "output": "[\n  { \"birthMon\": [\"3\", \"birth_info\"] }\n]"}
+{"key": "b7299511c5772dcf", "role": "operator", "t": 1790966349.319, "seconds": 2.508, "output": "[\n  { \"birthDay\": [\"3\", \"birth_info\"] }\n]"}
+{"key": "fbb2f867f64dd5b5", "role": "operator", "t": 1790966351.828, "seconds": 2.555, "output": "[{\"birthCountry\": [\"3\", \"birth_info\"]}]"}
+{"key": "9225a4c15f149c91", "role": "operator", "t": 1790966354.383, "seconds": 1.951, "output": "[{\"birthState\": [\"3\", \"birth_info\"]}]"}
+{"key": "967dfd3ab278bcc7", "role": "operator", "t": 1790966356.334, "seconds": 2.509, "output": "[\n  { \"birthCity\": [\"3\", \"birth_info\"] }\n]"}
+{"key": "e341babe1e077083", "role": "operator", "t": 1790966358.843, "seconds": 2.039, "output": "[\n  { \"deathYear\": [\"4\", \"death\"] }\n]"}
+{"key": "83a8b007d456a5ea", "role": "operator", "t": 1790966360.881, "seconds": 1.825, "output": "[{\"deathMon\": [\"4\", \"death\"]}]"}
+{"key": "152c1b64894c7c49", "role": "operator", "t": 1790966362.706, "seconds": 1.777, "output": "[{\"deathDay\": [\"4\", \"death_info\"]}]"}
+{"key": "3cbda7f36d8efa86", "role": "operator", "t": 1790966364.483, "seconds": 1.722, "output": "[\n  { \"deathCountry\": [\"4\", \"death\"] }\n]"}
+{"key": "56d9e9cd6e89f9bb", "role": "operator", "t": 1790966366.206, "seconds": 2.935, "output": "[\n  { \"deathState\": [\"4\", \"death\"] }\n]"}
+{"key": "fd4674130e102612", "role": "operator", "t": 1790966369.141, "seconds": 1.787, "output": "[{\"deathCity\":[\"4\",\"death\"]}]"}

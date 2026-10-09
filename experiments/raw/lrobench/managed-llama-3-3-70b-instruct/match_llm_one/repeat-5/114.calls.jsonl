@@ -1,0 +1,23 @@
+{"key": "ef3ec9cf07d79454", "role": "operator", "t": 1791000868.026, "seconds": 1.594, "output": "0"}
+{"key": "2c8f360897739b9d", "role": "operator", "t": 1791000868.025, "seconds": 1.609, "output": "0"}
+{"key": "4ab3f32b17a192f7", "role": "operator", "t": 1791000868.028, "seconds": 1.618, "output": "0"}
+{"key": "72ee1a6534dcf42b", "role": "operator", "t": 1791000868.025, "seconds": 1.64, "output": "0"}
+{"key": "3c6aa0263db49a23", "role": "operator", "t": 1791000868.029, "seconds": 1.66, "output": "0"}
+{"key": "17579fa37c3777f5", "role": "operator", "t": 1791000868.027, "seconds": 1.742, "output": "0"}
+{"key": "1e4371c68c623cd0", "role": "operator", "t": 1791000868.027, "seconds": 1.772, "output": "0"}
+{"key": "b767944978e95868", "role": "operator", "t": 1791000868.027, "seconds": 2.171, "output": "0"}
+{"key": "c0ab425afebba4a9", "role": "operator", "t": 1791000869.636, "seconds": 0.651, "output": "0"}
+{"key": "d8cc472dfd06b9bf", "role": "operator", "t": 1791000868.03, "seconds": 2.294, "output": "0"}
+{"key": "b37cd171a23ea696", "role": "operator", "t": 1791000869.621, "seconds": 0.732, "output": "0"}
+{"key": "2139fa1362a8470a", "role": "operator", "t": 1791000869.665, "seconds": 0.691, "output": "0"}
+{"key": "e8e57e7a494de438", "role": "operator", "t": 1791000869.646, "seconds": 0.747, "output": "0"}
+{"key": "6d18220008bdb496", "role": "operator", "t": 1791000869.689, "seconds": 1.852, "output": "To determine whether the two addresses represent the same street location, we need to check if 'Bastable Avenue' is present in '109 Bastable Avenue / Charlton Crescent'. \n\nSince 'Bastable Avenue' is a part of '109 Bastable Avenue / Charlton Crescent', the condition is satisfied.\n\n1"}
+{"key": "0d2ecaf3041269c3", "role": "operator", "t": 1791000869.768, "seconds": 1.776, "output": "0"}
+{"key": "c1dd2cd20239eb3b", "role": "operator", "t": 1791000868.029, "seconds": 3.517, "output": "0"}
+{"key": "5b81f21792907b46", "role": "operator", "t": 1791000869.799, "seconds": 1.747, "output": "0"}
+{"key": "959e2bb10b9b3390", "role": "operator", "t": 1791000870.199, "seconds": 1.349, "output": "0"}
+{"key": "2d16cedb36793f29", "role": "operator", "t": 1791000870.287, "seconds": 1.261, "output": "0"}
+{"key": "e4aabbdc0a638ded", "role": "operator", "t": 1791000870.324, "seconds": 1.224, "output": "0"}
+{"key": "bba85a53284753b6", "role": "operator", "t": 1791000870.356, "seconds": 1.193, "output": "0"}
+{"key": "8f9add59ca9f2d38", "role": "operator", "t": 1791000870.393, "seconds": 1.156, "output": "0"}
+{"key": "7b8eb684badbc99a", "role": "operator", "t": 1791000870.353, "seconds": 1.197, "output": "0"}

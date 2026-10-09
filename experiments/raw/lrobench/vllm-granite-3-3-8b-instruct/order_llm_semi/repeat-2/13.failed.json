@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 13,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 7.315,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 304, in pipeline_order13\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \"The highest rank and the duration in weeks on the Billboard chart\" metric for the song \"Jewels N\\' Drugs (feat. T.I., Too $hort & Twista)\", I will consider the following factors:\\n\\n1. **Billboard Chart Performance**: The song was released by Kanye West featuring T.I., Too $hort, and Twista. It peaked at number 2 on the Billboard Hot 100 chart, which is a strong performance. \\n\\n2. **Duration on the Chart**: The song remained on the Billboard Hot 100 for a significant number of weeks, typically around 20-25 weeks, which is considered a moderate to long stay for a mainstream pop/hip-hop track.\\n\\nGiven these points, the song achieved a high peak position (2nd) and maintained a respectable duration on the chart. This aligns well with the criteria of having a high highest rank and a substantial duration in weeks.\\n\\nBased on this evaluation, I assign a score of **85** to reflect the strong chart performance and duration.\\n\\n**85**'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To assign a score between 0 and 100 for the metric \"The highest rank and the duration in weeks on the Billboard chart\" for the song \"Aura,\" we need to consider the following:\\n\\n1. **Highest Rank**: The better (lower) the rank, the higher the score. A song that peaks at a high position (e.g., #1) would receive a higher score than one that peaks lower (e.g., #100).\\n\\n2. **Duration in Weeks**: The longer a song remains on the chart, the higher the s",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To assign a score between 0 and 100 for the metric \"The highest rank and the duration in weeks on the Billboard chart\" for the song \"Aura,\" we need to consider the following:\\n\\n1. **Highest Rank**: The better (lower) the rank, the higher the score. A song that peaks at a high position (e.g., #1) would receive a higher score than one that peaks lower (e.g., #100).\\n\\n2. **Duration in Weeks**: The longer a song remains on the chart, the higher the s",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

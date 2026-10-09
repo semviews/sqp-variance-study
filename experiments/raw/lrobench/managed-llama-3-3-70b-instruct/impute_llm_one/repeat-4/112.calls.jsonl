@@ -1,0 +1,4 @@
+{"key": "c948ba684209b8a6", "role": "operator", "t": 1790986118.145, "seconds": 2.966, "output": "{\"Name\": \"Ukraine\", \"Code\": \"UA\", \"Capital\": \"Kyiv\", \"Province\": \"Kyyivska\", \"Area\": 603700.0, \"Population\": 50864009}"}
+{"key": "88727cda655d3810", "role": "operator", "t": 1790986118.146, "seconds": 3.305, "output": "{\"Name\": \"Vietnam\", \"Code\": \"VN\", \"Capital\": \"Hanoi\", \"Province\": \"Vietnam\", \"Area\": 329560.0, \"Population\": 73976973}"}
+{"key": "44572d679e025e97", "role": "operator", "t": 1790986118.147, "seconds": 3.311, "output": "{\"Name\": \"Nigeria\", \"Code\": \"WAN\", \"Capital\": \"Abuja\", \"Province\": \"Nigeria\", \"Area\": 923770.0, \"Population\": 103912489}"}
+{"key": "1724328e9ad874fe", "role": "operator", "t": 1790986118.145, "seconds": 3.316, "output": "{\"Name\": \"India\", \"Code\": \"IND\", \"Capital\": \"New Delhi\", \"Province\": \"Delhi\", \"Area\": 3287590.0, \"Population\": 952107694}"}

@@ -1,0 +1,56 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 311,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 9.94,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 64,
+  "judge_calls": 0,
+  "returned": [
+    0.625,
+    0.8333,
+    0.7143
+  ],
+  "tokens": [
+    6080,
+    6016,
+    64
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.625,
+        0.8333,
+        0.7143
+      ],
+      "prediction": [
+        "['AMOUNT (\u00c3\\x82\u00c2\u00a3)' 'Amount']",
+        "['DATE PAID' 'Date']",
+        "['DIRECTORATE' 'Department Family']",
+        "['EFFECTIVE DATE' 'Date']",
+        "['ORGANISATION NAME' 'Supplier']",
+        "['PURPOSE' 'Expense Type']",
+        "['SUPPLIER NAME' 'Supplier']",
+        "['TRANSACTION NO.' 'Transaction Number']"
+      ],
+      "truth": [
+        "['AMOUNT (\u00c3\\x82\u00c2\u00a3)' 'Amount']",
+        "['DATE PAID' 'Date']",
+        "['EFFECTIVE DATE' 'Date']",
+        "['ORGANISATION NAME' 'Department Family']",
+        "['SUPPLIER NAME' 'Supplier']",
+        "['TRANSACTION NO.' 'Transaction Number']"
+      ]
+    }
+  ]
+}

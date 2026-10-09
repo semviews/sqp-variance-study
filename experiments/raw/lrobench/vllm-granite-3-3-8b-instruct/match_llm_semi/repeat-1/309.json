@@ -1,0 +1,67 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 40.265,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 19,
+  "judge_calls": 0,
+  "returned": [
+    0.1053,
+    0.3333,
+    0.16
+  ],
+  "tokens": [
+    4084,
+    2631,
+    1453
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1053,
+        0.3333,
+        0.16
+      ],
+      "prediction": [
+        "['FOOD_TREE_VARIETIES' 'FOOD_TREE_VARIETIES']",
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['JURISDICTION'\n 'To match the column \\'JURISDICTION\\' in Table Left with the corresponding column from Table Right based on the condition that \"The two columns refer to the similar feature,\" we need to identify which column in Table Right best represents a jurisdictional or geographic area.\\n\\nGiven the optional columns in Table Right:\\n- {BUSINESSOPERATOR}\\n- {DetailURL}\\n- {StreetNumber}\\n- {Street}\\n- {TOTALOUTSTANDING}\\n- {TotalUnits}\\n- {Geom}\\n- {Geo Local Area}\\n\\nThe column that most closely aligns with a jurisdictional or geographic feature is **{Geo Local Area}**, as it likely denotes a local geographic area or jurisdiction.\\n\\nTherefore, the matched column is:\\n\\nGeo Local Area']",
+        "['MAPID'\n 'To determine the matched column between the `MAPID` column in Table Left and the optional columns in Table Right, we need to identify which column in Table Right refers to a similar feature as `MAPID`. Given the description \"The two columns refer to the similar feature,\" we look for a column that likely represents a unique identifier or a mapping feature.\\n\\nThe optional columns in Table Right are:\\n- {BUSINESSOPERATOR}\\n- {DetailURL}\\n- {StreetNumber}\\n- {Street}\\n- {TOTALOUTSTANDING}\\n- {TotalUnits}\\n- {Geom}\\n- {Geo Local Area}\\n\\nAmong these, `{Geom}` is the most plausible candidate for a column that refers to a similar feature as `MAPID`, as `MAPID` typically stands for a mapping identifier, and `{Geom}` likely represents geometric data or a spatial reference, which aligns with the idea of a mapping feature.\\n\\nTherefore, the matched column is:\\n\\nGeom']",
+        "['MERGED_ADDRESS'\n 'To determine the matched column from Table Right that corresponds to the \\'MERGED_ADDRESS\\' column in Table Left, we need to identify which of the optional columns in Table Right most closely represents a similar feature to an address. \\n\\nGiven the optional columns in Table Right:\\n- {BUSINESSOPERATOR}\\n- {DetailURL}\\n- {StreetNumber}\\n- {Street}\\n- {TOTALOUTSTANDING}\\n- {TotalUnits}\\n- {Geom}\\n- {Geo Local Area}\\n\\nThe columns that directly relate to an address are:\\n- {StreetNumber}\\n- {Street}\\n\\nSince \\'MERGED_ADDRESS\\' likely combines both a street number and a street name, the most comprehensive match would be the combination of these two columns. However, since we are instructed to return only one column, we choose the column that captures the primary address component, which is typically the street name itself.\\n\\nTherefore, the matched column that best satisfies the condition \"The two columns refer to the similar feature\" is:\\n\\nStreet']",
+        "['NAME'\n \"To determine the matched column between the 'NAME' column in Table Left and the optional columns in Table Right, we need to identify which column in Table Right refers to a similar feature as 'NAME'. \\n\\nGiven the optional columns in Table Right:\\n- {BUSINESSOPERATOR}\\n- {DetailURL}\\n- {StreetNumber}\\n- {Street}\\n- {TOTALOUTSTANDING}\\n- {TotalUnits}\\n- {Geom}\\n- {Geo Local Area}\\n\\nThe 'NAME' column in Table Left typically represents the name of an entity, such as a business, location, or item. Among the columns in Table Right, the most analogous feature to a 'NAME' would be **{Street}**, as it represents the name of a street, which is a type of entity name.\\n\\nTherefore, the matched column is:\\n\\nStreet\"]",
+        "['NOTES'\n \"To provide an accurate response, I need to know the specific content of the 'NOTES' column in Table Left and the contents of the columns in Table Right. Could you please provide the data or a description of the 'NOTES' column and the relevant columns in Table Right? This will allow me to match the similar feature as per your instruction.\"]",
+        "['NUMBER_OF_FOOD_TREES' 'NUMBER_OF_FOOD_TREES']",
+        "['NUMBER_OF_PLOTS'\n \"To determine the column in Table Right that matches the 'NUMBER_OF_PLOTS' column in Table Left, we need to identify which of the optional columns in Table Right refers to a similar feature, such as a count or quantity of plots.\\n\\nGiven the optional columns in Table Right:\\n- {BUSINESSOPERATOR}\\n- {DetailURL}\\n- {StreetNumber}\\n- {Street}\\n- {TOTALOUTSTANDING}\\n- {TotalUnits}\\n- {Geom}\\n- {Geo Local Area}\\n\\nThe column that most closely aligns with a count or quantity of plots is **{TotalUnits}**, as it likely represents the total number of units or plots in a given area.\\n\\nTherefore, the matched column is:\\n\\nTotalUnits\"]",
+        "['OTHER_FOOD_ASSETS' 'OTHER_FOOD_ASSETS']",
+        "['PUBLIC_E_MAIL' 'PUBLIC_E_MAIL']",
+        "['STEWARD_OR_MANAGING_ORGANIZATION'\n 'To determine the matched column between the \\'STEWARD_OR_MANAGING_ORGANIZATION\\' column in Table Left and the optional columns in Table Right, we need to identify which column in Table Right refers to a similar feature. The description \"The two columns refer to the similar feature\" suggests that the column in Table Right should represent an organization or entity responsible for managing or operating something, akin to a steward or managing organization.\\n\\nGiven the optional columns in Table Right:\\n- {BUSINESSOPERATOR}\\n- {DetailURL}\\n- {StreetNumber}\\n- {Street}\\n- {TOTALOUTSTANDING}\\n- {TotalUnits}\\n- {Geom}\\n- {Geo Local Area}\\n\\nThe column that most closely aligns with the concept of a \"steward\" or \"managing organization\" is **{BUSINESSOPERATOR}**, as it likely denotes the entity responsible for operating or managing a business or service, similar to a steward or managing organization.\\n\\nTherefore, the matched column is:\\n\\nBUSINESSOPERATOR']",
+        "['STREET_DIRECTION'\n 'To determine the matched column in Table Right that corresponds to the \\'STREET_DIRECTION\\' column in Table Left, we need to identify which of the optional columns in Table Right most closely aligns with the concept of a street direction (e.g., North, South, East, West).\\n\\nGiven the optional columns in Table Right:\\n- {BUSINESSOPERATOR}\\n- {DetailURL}\\n- {StreetNumber}\\n- {Street}\\n- {TOTALOUTSTANDING}\\n- {TotalUnits}\\n- {Geom}\\n- {Geo Local Area}\\n\\nThe column that most directly relates to a street direction is **{Street}**, as it typically contains the name of the street, which often includes directional indicators (e.g., \"North Main Street\", \"East 5th Avenue\").\\n\\nTherefore, the matched column is:\\n\\nStreet']",
+        "['STREET_NAME' 'Street']",
+        "['STREET_NUMBER' 'StreetNumber']",
+        "['STREET_TYPE' 'STREET']",
+        "['WEBSITE'\n 'To match the \\'WEBSITE\\' column in Table Left with the corresponding column in Table Right based on the condition that \"The two columns refer to the similar feature,\" we need to identify which column in Table Right most closely aligns with a website feature.\\n\\nGiven the optional columns in Table Right:\\n- {BUSINESSOPERATOR}\\n- {DetailURL}\\n- {StreetNumber}\\n- {Street}\\n- {TOTALOUTSTANDING}\\n- {TotalUnits}\\n- {Geom}\\n- {Geo Local Area}\\n\\nThe column that most closely resembles a website feature is **{DetailURL}**, as it typically contains a URL, which is directly related to a website.\\n\\nTherefore, the matched column is:\\n\\nDetailURL']",
+        "['YEAR_CREATED' 'YEAR_CREATED']"
+      ],
+      "truth": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'BUSINESSOPERATOR']",
+        "['STREET_NAME' 'StreetNumber']",
+        "['STREET_NUMBER' 'Street']",
+        "['WEBSITE' 'DetailURL']"
+      ]
+    }
+  ]
+}

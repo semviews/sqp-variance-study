@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "cluster",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 304,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 8.952,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/cluster_eval.py\", line 957, in pipeline_cluster304\n    ari_score, nmi_score = ari(truth, pred), nmi(truth, pred)\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 165, in wrapped\n    value = _original(first, second)\nValueError: Found input variables with inconsistent numbers of samples: [14, 15]\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: Found input variables with inconsistent numbers of samples: [14, 15]",
+      "operator_calls": 1
+    },
+    {
+      "error": "ValueError: Found input variables with inconsistent numbers of samples: [14, 15]",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

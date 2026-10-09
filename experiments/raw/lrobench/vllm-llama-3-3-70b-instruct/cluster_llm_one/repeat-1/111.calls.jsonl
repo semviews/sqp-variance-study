@@ -1,0 +1,5 @@
+{"key": "6620b4ecd2f7668d", "role": "operator", "t": 1790962746.698, "seconds": 2.169, "output": "[\n  {\"index\":\"0\", \"cluster_name\": \"suitable for children\", \"cluster_label\": \"0\"}\n]"}
+{"key": "59b86319654ae670", "role": "operator", "t": 1790962748.866, "seconds": 2.023, "output": "[\n  {\"index\":\"11\", \"cluster_name\": \"not suitable for children\", \"cluster_label\": \"1\"}\n]"}
+{"key": "37eac447b29be14a", "role": "operator", "t": 1790962750.889, "seconds": 1.134, "output": "[\n  {\"index\":\"37\", \"cluster_name\": \"suitable for children\", \"cluster_label\": \"0\"}\n]"}
+{"key": "4acaac8b519b9c9c", "role": "operator", "t": 1790962752.023, "seconds": 1.796, "output": "[\n  {\"index\":\"45\", \"cluster_name\": \"not suitable for children\", \"cluster_label\": \"1\"}\n]"}
+{"key": "b0ba62f1377fed8a", "role": "operator", "t": 1790962753.819, "seconds": 1.076, "output": "[\n  {\"index\":\"73\", \"cluster_name\": \"not suitable for children\", \"cluster_label\": \"1\"}\n]"}

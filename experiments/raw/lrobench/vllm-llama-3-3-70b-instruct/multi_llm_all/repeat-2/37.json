@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 37,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 111.755,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 40,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Fernando",
+      "Alonso"
+    ],
+    [
+      "Sebastian",
+      "Vettel"
+    ],
+    [
+      "Max",
+      "Verstappen"
+    ]
+  ],
+  "tokens": 10434,
+  "metrics": [],
+  "prediction": [
+    [
+      "Fernando",
+      "Alonso"
+    ],
+    [
+      "Sebastian",
+      "Vettel"
+    ],
+    [
+      "Max",
+      "Verstappen"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

@@ -1,0 +1,382 @@
+{
+ "models": {
+  "vllm-granite-3-3-8b-instruct": {
+   "dataset": "Player",
+   "repeats": 5,
+   "items": 2208,
+   "item_flips": 115,
+   "item_flip_rate": 0.052083333333333336,
+   "queries": 123,
+   "answers_differ": 84,
+   "quality_moves": 67,
+   "mean_f1_range": 0.021165692510709048,
+   "max_f1_range": 0.6666666666666666,
+   "attributes": {
+    "city.area": {
+     "flips": 3,
+     "items": 29
+    },
+    "city.city_name": {
+     "flips": 0,
+     "items": 29
+    },
+    "city.gdp": {
+     "flips": 11,
+     "items": 29
+    },
+    "city.population": {
+     "flips": 7,
+     "items": 29
+    },
+    "city.state_name": {
+     "flips": 0,
+     "items": 29
+    },
+    "manager.age": {
+     "flips": 1,
+     "items": 16
+    },
+    "manager.name": {
+     "flips": 1,
+     "items": 16
+    },
+    "manager.nationality": {
+     "flips": 1,
+     "items": 16
+    },
+    "manager.nba_team": {
+     "flips": 2,
+     "items": 16
+    },
+    "manager.own_year": {
+     "flips": 0,
+     "items": 16
+    },
+    "player.age": {
+     "flips": 13,
+     "items": 141
+    },
+    "player.birth_date": {
+     "flips": 2,
+     "items": 141
+    },
+    "player.college": {
+     "flips": 8,
+     "items": 141
+    },
+    "player.draft_pick": {
+     "flips": 5,
+     "items": 141
+    },
+    "player.draft_year": {
+     "flips": 2,
+     "items": 141
+    },
+    "player.fiba_world_cup": {
+     "flips": 6,
+     "items": 141
+    },
+    "player.mvp_awards": {
+     "flips": 4,
+     "items": 141
+    },
+    "player.name": {
+     "flips": 4,
+     "items": 141
+    },
+    "player.nationality": {
+     "flips": 2,
+     "items": 141
+    },
+    "player.nba_championships": {
+     "flips": 6,
+     "items": 141
+    },
+    "player.olympic_gold_medals": {
+     "flips": 8,
+     "items": 141
+    },
+    "player.position": {
+     "flips": 1,
+     "items": 141
+    },
+    "player.team": {
+     "flips": 8,
+     "items": 141
+    },
+    "team.championship": {
+     "flips": 0,
+     "items": 30
+    },
+    "team.founded_year": {
+     "flips": 0,
+     "items": 30
+    },
+    "team.location": {
+     "flips": 5,
+     "items": 30
+    },
+    "team.ownership": {
+     "flips": 12,
+     "items": 30
+    },
+    "team.team_name": {
+     "flips": 3,
+     "items": 30
+    }
+   }
+  },
+  "managed-gpt-oss-120b": {
+   "dataset": "Player",
+   "repeats": 5,
+   "items": 2208,
+   "item_flips": 165,
+   "item_flip_rate": 0.07472826086956522,
+   "queries": 123,
+   "answers_differ": 84,
+   "quality_moves": 78,
+   "mean_f1_range": 0.031448550859285676,
+   "max_f1_range": 0.16666666666666663,
+   "attributes": {
+    "city.area": {
+     "flips": 3,
+     "items": 29
+    },
+    "city.city_name": {
+     "flips": 1,
+     "items": 29
+    },
+    "city.gdp": {
+     "flips": 14,
+     "items": 29
+    },
+    "city.population": {
+     "flips": 24,
+     "items": 29
+    },
+    "city.state_name": {
+     "flips": 1,
+     "items": 29
+    },
+    "manager.age": {
+     "flips": 2,
+     "items": 16
+    },
+    "manager.name": {
+     "flips": 8,
+     "items": 16
+    },
+    "manager.nationality": {
+     "flips": 0,
+     "items": 16
+    },
+    "manager.nba_team": {
+     "flips": 1,
+     "items": 16
+    },
+    "manager.own_year": {
+     "flips": 2,
+     "items": 16
+    },
+    "player.age": {
+     "flips": 0,
+     "items": 141
+    },
+    "player.birth_date": {
+     "flips": 0,
+     "items": 141
+    },
+    "player.college": {
+     "flips": 18,
+     "items": 141
+    },
+    "player.draft_pick": {
+     "flips": 5,
+     "items": 141
+    },
+    "player.draft_year": {
+     "flips": 0,
+     "items": 141
+    },
+    "player.fiba_world_cup": {
+     "flips": 2,
+     "items": 141
+    },
+    "player.mvp_awards": {
+     "flips": 0,
+     "items": 141
+    },
+    "player.name": {
+     "flips": 10,
+     "items": 141
+    },
+    "player.nationality": {
+     "flips": 5,
+     "items": 141
+    },
+    "player.nba_championships": {
+     "flips": 2,
+     "items": 141
+    },
+    "player.olympic_gold_medals": {
+     "flips": 0,
+     "items": 141
+    },
+    "player.position": {
+     "flips": 9,
+     "items": 141
+    },
+    "player.team": {
+     "flips": 13,
+     "items": 141
+    },
+    "team.championship": {
+     "flips": 4,
+     "items": 30
+    },
+    "team.founded_year": {
+     "flips": 0,
+     "items": 30
+    },
+    "team.location": {
+     "flips": 3,
+     "items": 30
+    },
+    "team.ownership": {
+     "flips": 28,
+     "items": 30
+    },
+    "team.team_name": {
+     "flips": 10,
+     "items": 30
+    }
+   }
+  },
+  "managed-llama-3-3-70b-instruct": {
+   "dataset": "Player",
+   "repeats": 5,
+   "items": 2208,
+   "item_flips": 89,
+   "item_flip_rate": 0.04030797101449275,
+   "queries": 123,
+   "answers_differ": 83,
+   "quality_moves": 59,
+   "mean_f1_range": 0.010583887930735808,
+   "max_f1_range": 0.13809523809523805,
+   "attributes": {
+    "city.area": {
+     "flips": 0,
+     "items": 29
+    },
+    "city.city_name": {
+     "flips": 0,
+     "items": 29
+    },
+    "city.gdp": {
+     "flips": 10,
+     "items": 29
+    },
+    "city.population": {
+     "flips": 10,
+     "items": 29
+    },
+    "city.state_name": {
+     "flips": 0,
+     "items": 29
+    },
+    "manager.age": {
+     "flips": 0,
+     "items": 16
+    },
+    "manager.name": {
+     "flips": 0,
+     "items": 16
+    },
+    "manager.nationality": {
+     "flips": 4,
+     "items": 16
+    },
+    "manager.nba_team": {
+     "flips": 1,
+     "items": 16
+    },
+    "manager.own_year": {
+     "flips": 1,
+     "items": 16
+    },
+    "player.age": {
+     "flips": 1,
+     "items": 141
+    },
+    "player.birth_date": {
+     "flips": 0,
+     "items": 141
+    },
+    "player.college": {
+     "flips": 8,
+     "items": 141
+    },
+    "player.draft_pick": {
+     "flips": 1,
+     "items": 141
+    },
+    "player.draft_year": {
+     "flips": 0,
+     "items": 141
+    },
+    "player.fiba_world_cup": {
+     "flips": 2,
+     "items": 141
+    },
+    "player.mvp_awards": {
+     "flips": 0,
+     "items": 141
+    },
+    "player.name": {
+     "flips": 11,
+     "items": 141
+    },
+    "player.nationality": {
+     "flips": 7,
+     "items": 141
+    },
+    "player.nba_championships": {
+     "flips": 1,
+     "items": 141
+    },
+    "player.olympic_gold_medals": {
+     "flips": 1,
+     "items": 141
+    },
+    "player.position": {
+     "flips": 4,
+     "items": 141
+    },
+    "player.team": {
+     "flips": 12,
+     "items": 141
+    },
+    "team.championship": {
+     "flips": 0,
+     "items": 30
+    },
+    "team.founded_year": {
+     "flips": 0,
+     "items": 30
+    },
+    "team.location": {
+     "flips": 0,
+     "items": 30
+    },
+    "team.ownership": {
+     "flips": 12,
+     "items": 30
+    },
+    "team.team_name": {
+     "flips": 3,
+     "items": 30
+    }
+   }
+  }
+ }
+}

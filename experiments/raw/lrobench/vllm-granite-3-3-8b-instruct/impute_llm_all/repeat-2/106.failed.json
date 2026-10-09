@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 106,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 76.629,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/impute_eval.py\", line 148, in pipeline_impute106\n    return (df_em_acc(imputed_table, drop_log), df_agent_acc(imputed_table, drop_log)), op.get_tokens()\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 159, in wrapped\n    prediction, truth = _capture(first, second)\nKeyError: 'AvgScr'\n",
+  "failed_attempts": [
+    {
+      "error": "KeyError: 'AvgScr'",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: 'AvgScr'",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 0
+}

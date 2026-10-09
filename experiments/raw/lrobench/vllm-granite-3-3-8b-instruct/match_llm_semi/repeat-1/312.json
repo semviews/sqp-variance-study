@@ -1,0 +1,50 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 312,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 9.798,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0,
+  "returned": [
+    0.2,
+    0.3333,
+    0.25
+  ],
+  "tokens": [
+    1321,
+    945,
+    376
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2,
+        0.3333,
+        0.25
+      ],
+      "prediction": [
+        "['Agency Name'\n 'To match the \\'Agency Name\\' column in Table Left with the corresponding column in Table Right based on the condition \"The two columns refer to the similar feature,\" we need to identify which column in Table Right most closely aligns with the concept of an agency name.\\n\\nGiven the optional columns in Table Right:\\n- FSCL_YR\\n- MINC\\n- MINE\\n- DepartmentNumber-Num\u00e9ro-de-Minist\u00e8re\\n- DEPT_EN_DESC\\n- OBJ_CD\\n- OBJ_EN_NM\\n- ARGRG_PYMT_AMT\\n\\nThe column that most likely represents an agency name or a description of an agency is **DEPT_EN_DESC** (Department English Description). This column typically contains descriptive names of departments or agencies, making it the best match for \\'Agency Name\\' under the condition that the two columns refer to a similar feature.\\n\\nTherefore, the matched column is:\\n\\nDEPT_EN_DESC']",
+        "['Category Description'\n 'To provide an accurate response, I need the specific \\'Category Description\\' from Table Left and the content of Table Right to determine which column best matches the description based on the condition that \"The two columns refer to the similar feature.\" However, you have not provided the actual data or descriptions for either table.\\n\\nPlease provide the \\'Category Description\\' from Table Left and the relevant data from Table Right, including the optional column names you listed. Once I have this information, I can match the appropriate column and return the result as a pure string, or an empty string if no match is found.']",
+        "['Detail Description'\n 'To provide an accurate response, I need the content of the \\'Detail Description\\' column from Table Left and the relevant data from Table Right. Could you please provide the specific details or data from both tables? This will allow me to match the columns based on the condition that \"The two columns refer to the similar feature.\"']",
+        "['Fiscal Year' 'FSCL_YR']",
+        "['Payments Total' 'AGRG_PYMT_AMT']"
+      ],
+      "truth": [
+        "['Agency Name' 'DEPT_EN_DESC']",
+        "['Fiscal Year' '\u00c3\\x83\u00c2\u00af\u00c3\\x82\u00c2\u00bb\u00c3\\x82\u00c2\u00bfFSCL_YR']",
+        "['Payments Total' 'AGRG_PYMT_AMT']"
+      ]
+    }
+  ]
+}

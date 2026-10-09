@@ -1,0 +1,12 @@
+manager.name,team.founded_year,team.location,manager.age,player.nationality,player.id,team.id,manager.id
+Joseph Tsai,1967,Brooklyn,62,France,6,3,7
+Joseph Tsai,1967,Brooklyn,62,USA,23,3,7
+Micky Arison,1988,Miami,77,USA,59,16,15
+Joseph Tsai,1967,Brooklyn,62,USA,81,3,7
+Joseph Tsai,1967,Brooklyn,62,Germany,93,3,7
+Micky Arison,1988,Miami,77,USA,114,16,15
+Micky Arison,1988,Miami,77,USA,118,16,15
+Micky Arison,1988,Miami,77,USA,119,16,15
+Micky Arison,1988,Miami,77,USA,123,16,15
+Micky Arison,1988,Miami,77,USA || Mexico,134,16,15
+Micky Arison,1988,Miami,77,USA,141,16,15

@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 13: 3 (player) */ SELECT team, nationality, mvp_awards FROM player WHERE mvp_awards < 1 OR birth_date = '1995/10/2'",
+  "player": {
+    "mvp_awards": {
+      "value_type": "int",
+      "description": "number of NBA MVP awards the player has won; use 0 if none (e.g., 2)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

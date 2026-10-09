@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 3: 1 (player) */ SELECT mvp_awards, draft_pick, name FROM player WHERE mvp_awards >= 1",
+  "player": {
+    "draft_pick": {
+      "value_type": "int",
+      "description": "the pick number at which the player was selected in the NBA draft (e.g., 1)."
+    },
+    "mvp_awards": {
+      "value_type": "int",
+      "description": "number of NBA MVP awards the player has won; use 0 if none (e.g., 2)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    }
+  }
+}

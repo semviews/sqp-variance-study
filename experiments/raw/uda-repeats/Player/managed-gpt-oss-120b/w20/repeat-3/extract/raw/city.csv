@@ -1,0 +1,34 @@
+ID,area,city_name,gdp,population,state_name
+1,400.739,Denver,,"715,522",Colorado
+2,125 km² || 232.1 km²,Boston,,675647||691531,Massachusetts
+3,950||953,Indianapolis,184400,887642||880621,Indiana
+4,999.3,Dallas,,1304379||1299544,Texas
+5,"1,205.4 km²||1,193.8 km²||11.7 km²",San Antonio,121000,1434625||1327407||1200000||650000,Texas
+6,1302||1214||88,Los Angeles,,,California
+7,152.8,Minneapolis,,429954||521718,Minnesota
+8,,Miami,,442241,Florida
+9,24,Inglewood,,107762||109673,California
+10,375.78||345.58||30.20,Portland,,"652,503",Oregon
+11,121||600,San Francisco,252200,808988||873965,California
+12,369.62,Philadelphia,,,Pennsylvania
+13,910||440||470,New Orleans,GDP:,"383,997",Louisiana
+14,,Chicago,689000,,Illinois
+15,"
+
+",Orlando,,,Florida
+16,286,Salt Lake City,"
+
+","200,133||186,440||181,743",Utah
+17,630.2,Toronto,,,
+18,1341,Phoenix,,1662607||1608139||1445632,Arizona
+19,177||158.1||18.9,"Washington, D.C.",,,
+20,213.60||201.24||12.35,Cleveland,138300||176000,"372,624",Ohio
+21,"1,651 km²||1,552.9 km²||58 km²",Houston,,2314157||2312717||2304580||2100263||2396,Texas
+22,259,Sacramento,,524943||466488,California
+23,370.03||359.36||10.67,Detroit,,"639,111",Michigan
+24,839.2||816.0||23.2,Memphis,GDP:,633104||652078,Tennessee
+25,808.1||802.9||5.1,Charlotte,,874579||885708,North Carolina
+26,"1,213.37 km²||783.84 km²||429.53 km²",New York City,1053000,,New York
+27,1606.7||1556.9||49.8,Oklahoma City,43100 || 61100 || 73800,681054||579999,Oklahoma
+28,250.71||248.95||1.76,Milwaukee,102000,"577,222",Wisconsin
+29,347.1||344.9||2.2,Atlanta,473000,"510,823 || 498,715",Georgia

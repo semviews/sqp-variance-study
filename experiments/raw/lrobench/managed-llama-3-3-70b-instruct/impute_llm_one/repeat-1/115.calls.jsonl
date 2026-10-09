@@ -1,0 +1,4 @@
+{"key": "759d58c013972cee", "role": "operator", "t": 1790964980.706, "seconds": 2.675, "output": "{\"language_id\": 24, \"language_code\": \"nor\", \"language_name\": \"Norwegian\"}"}
+{"key": "0081272ff87124d2", "role": "operator", "t": 1790964980.705, "seconds": 2.683, "output": "{\"language_id\": 10, \"language_code\": \"ger\", \"language_name\": \"German\"}"}
+{"key": "196d6bb485ed4d35", "role": "operator", "t": 1790964980.707, "seconds": 2.795, "output": "{\"language_id\": 25, \"language_code\": \"tur\", \"language_name\": \"Turkish\"}"}
+{"key": "efb096f6611c1666", "role": "operator", "t": 1790964980.708, "seconds": 3.021, "output": "{\"language_id\": 27, \"language_code\": \"ale\", \"language_name\": \"Aleut\"}"}

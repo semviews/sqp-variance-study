@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 29,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 62.594,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 240,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0
+  ],
+  "tokens": [
+    57390,
+    57150,
+    240
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        0.6667,
+        0.6667
+      ],
+      "prediction": [
+        "correlation",
+        "machine-learning",
+        "time-series"
+      ],
+      "truth": [
+        "machine-learning",
+        "regression",
+        "time-series"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "time-series",
+        "machine-learning",
+        "correlation"
+      ],
+      "truth": [
+        "time-series",
+        "regression",
+        "machine-learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 4,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 8.977,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 42,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    11394,
+    11352,
+    42
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Hercules",
+        "Moana",
+        "The Princess and the Frog",
+        "Treasure Planet"
+      ],
+      "truth": [
+        "Hercules",
+        "Moana",
+        "The Princess and the Frog",
+        "Treasure Planet"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "Moana",
+        "The Princess and the Frog",
+        "Treasure Planet",
+        "Hercules"
+      ],
+      "truth": [
+        "Moana",
+        "The Princess and the Frog",
+        "Treasure Planet",
+        "Hercules"
+      ]
+    }
+  ]
+}

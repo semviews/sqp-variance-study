@@ -1,0 +1,29 @@
+{"key": "3b820db7a7bc323e", "role": "operator", "t": 1790973619.907, "seconds": 1.597, "output": "CDSCode"}
+{"key": "105482bf3e33e1aa", "role": "operator", "t": 1790973621.504, "seconds": 1.273, "output": "OpenDate"}
+{"key": "73c86cacadd4c0df", "role": "operator", "t": 1790973622.777, "seconds": 0.765, "output": "County"}
+{"key": "a4d980bf401d9010", "role": "operator", "t": 1790973623.542, "seconds": 0.817, "output": "CDSCode"}
+{"key": "ba42d186d4c7c5cd", "role": "operator", "t": 1790973624.359, "seconds": 0.753, "output": "CDSCode"}
+{"key": "7ba86b46d90ae36c", "role": "operator", "t": 1790973625.113, "seconds": 0.865, "output": "County"}
+{"key": "2128f25974204ca0", "role": "operator", "t": 1790973625.978, "seconds": 0.863, "output": "District"}
+{"key": "e98c234e610fa6e5", "role": "operator", "t": 1790973626.841, "seconds": 0.878, "output": "School"}
+{"key": "1580d16d2d13c93f", "role": "operator", "t": 1790973627.719, "seconds": 0.921, "output": "District"}
+{"key": "8ffa923787e72701", "role": "operator", "t": 1790973628.64, "seconds": 0.834, "output": "School"}
+{"key": "50ab7a97ca8f9c49", "role": "operator", "t": 1790973629.474, "seconds": 1.014, "output": "FundingType"}
+{"key": "5b8bf9f57274275b", "role": "operator", "t": 1790973630.489, "seconds": 0.85, "output": "StatusType"}
+{"key": "6e94939c682d098f", "role": "operator", "t": 1790973631.338, "seconds": 1.639, "output": "Charter"}
+{"key": "e5d667c0567b7446", "role": "operator", "t": 1790973632.977, "seconds": 0.983, "output": "CharterNum"}
+{"key": "169f59d1bc10195f", "role": "operator", "t": 1790973633.96, "seconds": 0.964, "output": "FundingType"}
+{"key": "3d89971064d1257a", "role": "operator", "t": 1790973634.924, "seconds": 0.785, "output": "NCESDist"}
+{"key": "628fe6066534ac15", "role": "operator", "t": 1790973635.709, "seconds": 0.896, "output": "Low Grade"}
+{"key": "b570b1bf95b370d1", "role": "operator", "t": 1790973636.606, "seconds": 0.985, "output": "GSoffered"}
+{"key": "0a46fc48ee1c1a1f", "role": "operator", "t": 1790973637.591, "seconds": 0.951, "output": "GSserved"}
+{"key": "dfe5d19467e3144e", "role": "operator", "t": 1790973638.541, "seconds": 1.132, "output": "GSserved"}
+{"key": "a8abecfed94724c8", "role": "operator", "t": 1790973639.674, "seconds": 1.137, "output": "Percent (%) Eligible Free (K-12)"}
+{"key": "0ab050d035ba3bb0", "role": "operator", "t": 1790973640.81, "seconds": 0.895, "output": "FRPM Count (K-12)"}
+{"key": "4917ca0ae8160712", "role": "operator", "t": 1790973641.705, "seconds": 1.114, "output": "Percent (%) Eligible FRPM (K-12)"}
+{"key": "c23d53c1045c662c", "role": "operator", "t": 1790973642.819, "seconds": 1.082, "output": "GSserved"}
+{"key": "7dc85cb6162fb804", "role": "operator", "t": 1790973643.901, "seconds": 0.859, "output": "GSserved"}
+{"key": "4cb1eaf1b3df4ea3", "role": "operator", "t": 1790973644.76, "seconds": 1.236, "output": "Percent Eligible for Free Lunch"}
+{"key": "f749fc72de9e91f6", "role": "operator", "t": 1790973645.996, "seconds": 1.009, "output": "FRPM Count (Ages 5-17)"}
+{"key": "d25b712d2ea5882a", "role": "operator", "t": 1790973647.005, "seconds": 1.194, "output": "Percent (%) Eligible FRPM (Ages 5-17)"}
+{"key": "187d93e68fedbfa9", "role": "operator", "t": 1790973648.2, "seconds": 0.931, "output": "StatusType"}

@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 9: 2 (player) */ SELECT draft_pick, nba_championships, team FROM player WHERE draft_pick < 24 AND draft_pick >= 10",
+  "player": {
+    "draft_pick": {
+      "value_type": "int",
+      "description": "the pick number at which the player was selected in the NBA draft (e.g., 1)."
+    },
+    "nba_championships": {
+      "value_type": "int",
+      "description": "number of NBA championships the player has won (e.g., 4)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

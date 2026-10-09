@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 5,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 7.382,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 42,
+  "judge_calls": 0,
+  "returned": [
+    0.75,
+    0.6667
+  ],
+  "tokens": [
+    11730,
+    11688,
+    42
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "prediction": [
+        "101 Dalmatians",
+        "Robin Hood",
+        "The Jungle Book",
+        "The Sword in the Stone"
+      ],
+      "truth": [
+        "101 Dalmatians",
+        "The Aristocats",
+        "The Jungle Book",
+        "The Sword in the Stone"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.6667,
+      "prediction": [
+        "101 Dalmatians",
+        "The Jungle Book",
+        "Robin Hood",
+        "The Sword in the Stone"
+      ],
+      "truth": [
+        "101 Dalmatians",
+        "The Sword in the Stone",
+        "The Jungle Book",
+        "The Aristocats"
+      ]
+    }
+  ]
+}

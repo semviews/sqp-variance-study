@@ -1,0 +1,10 @@
+{"key": "da32579986ef8950", "role": "operator", "t": 1790995078.059, "seconds": 1.657, "output": "r"}
+{"key": "6b7d7018b9b8636d", "role": "operator", "t": 1790995078.06, "seconds": 1.712, "output": "self-study"}
+{"key": "f4171fe86702b633", "role": "operator", "t": 1790995078.059, "seconds": 1.72, "output": "self-study"}
+{"key": "c3603240070f1a59", "role": "operator", "t": 1790995078.061, "seconds": 1.728, "output": "self-study"}
+{"key": "56e83a350da653e4", "role": "operator", "t": 1790995078.061, "seconds": 1.729, "output": "r"}
+{"key": "a4fbe7f8addf746a", "role": "operator", "t": 1790995078.061, "seconds": 1.731, "output": "distributions"}
+{"key": "fba4c24327168cb9", "role": "operator", "t": 1790995078.062, "seconds": 1.732, "output": "time-series"}
+{"key": "a37ea20102099a3a", "role": "operator", "t": 1790995078.06, "seconds": 1.735, "output": "machine-learning"}
+{"key": "fb3088cf2491418d", "role": "operator", "t": 1790995078.059, "seconds": 1.753, "output": "hypothesis-testing"}
+{"key": "2da72d282c9d1977", "role": "operator", "t": 1790995078.062, "seconds": 1.751, "output": "r"}

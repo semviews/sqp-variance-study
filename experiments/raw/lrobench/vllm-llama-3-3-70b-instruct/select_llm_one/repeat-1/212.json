@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 212,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 114.702,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 40,
+  "judge_calls": 0,
+  "returned": [
+    0.4286,
+    1.0,
+    0.6
+  ],
+  "tokens": [
+    5378,
+    5338,
+    40
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4286,
+        1.0,
+        0.6
+      ],
+      "prediction": [
+        "Custom fields (Field:Value)",
+        "Description",
+        "Estimated annual value",
+        "Estimated value",
+        "Lots",
+        "OJEU",
+        "VAT not recovered"
+      ],
+      "truth": [
+        "Estimated annual value",
+        "Estimated value",
+        "VAT not recovered"
+      ]
+    }
+  ]
+}

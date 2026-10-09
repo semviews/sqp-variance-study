@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "manager.nationality": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "min_player_olympic_gold_medals": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "macro_precision": 0.5,
+  "macro_recall": 0.5,
+  "macro_f1": 0.5,
+  "rows": {
+    "len_gold": 1,
+    "len_pred": 1,
+    "matched_rows": 1
+  },
+  "warnings": [],
+  "used_keys": [
+    "manager.nationality"
+  ],
+  "evaluated_columns": [
+    "manager.nationality",
+    "min_player_olympic_gold_medals"
+  ],
+  "skipped_columns": []
+}

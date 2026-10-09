@@ -1,0 +1,1 @@
+{"key": "2a40e75305d1c46c", "role": "operator", "t": 1790963197.829, "seconds": 2.228, "output": "[\n  {\"Table Left\": \"REGION_ID\", \"Table Right\": \"Governorate\"},\n  {\"Table Left\": \"SEX_ID\", \"Table Right\": \"Gender\"}\n]"}

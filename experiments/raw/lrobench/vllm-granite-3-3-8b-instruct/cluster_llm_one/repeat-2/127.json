@@ -1,0 +1,130 @@
+{
+  "benchmark": "lrobench",
+  "operator": "cluster",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 127,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 2,
+  "seconds": 18.374,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "TypeError: 'NoneType' object is not subscriptable",
+      "operator_calls": 9
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 20,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    9697,
+    8991,
+    706
+  ],
+  "metrics": [
+    {
+      "metric": "ari",
+      "value": 1.0,
+      "prediction": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        2
+      ],
+      "truth": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "metric": "nmi",
+      "value": 1.0,
+      "prediction": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        2
+      ],
+      "truth": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        2,
+        0,
+        2
+      ]
+    }
+  ]
+}

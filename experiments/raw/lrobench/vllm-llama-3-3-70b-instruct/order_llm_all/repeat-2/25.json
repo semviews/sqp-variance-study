@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 25,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 3.503,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    608,
+    561,
+    47
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Born This Way",
+        "Judas",
+        "The Edge of Glory"
+      ],
+      "truth": [
+        "Born This Way",
+        "Judas",
+        "The Edge of Glory"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.6667,
+      "prediction": [
+        "The Edge of Glory",
+        "Born This Way",
+        "Judas"
+      ],
+      "truth": [
+        "Born This Way",
+        "The Edge of Glory",
+        "Judas"
+      ]
+    }
+  ]
+}

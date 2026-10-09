@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 11.864,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1438, in pipeline_match309\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: '```python\\nimport json\\n\\ndef check_similar_feature(MAPID, Geom):\\n    # Assuming the input values are string representations of JSON tuples\\n    try:\\n        MAPID = json.loads(MAPID)\\n        Geom\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '```python\\ndef check_similarity(MAPID, BUSINESSOPERATOR):\\n    if isinstance(MAPID, str) and isinstance(BUSINESSOPERATOR, str):\\n        if MAPID == BUSINESSOPERATOR:\\n            return 1\\n        e",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '```python\\nimport json\\n\\ndef check_similarity(MAPID, DetailURL):\\n    # Assuming the condition is that both MAPID and DetailURL are not empty and are of the same type\\n    if isinstance(MAPID, str)",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

@@ -1,0 +1,1 @@
+{"key": "2a40e75305d1c46c", "role": "operator", "t": 1790946742.021, "seconds": 11.082, "output": "[\n  {\"Table Left\": \"DATE\", \"Table Right\": \"Year\"},\n  {\"Table Left\": \"REGION_NAME\", \"Table Right\": \"Governorate\"},\n  {\"Table Left\": \"SEX_NAME\", \"Table Right\": \"Gender\"},\n  {\"Table Left\": \"VALUE\", \"Table Right\": \"Population\"}\n]"}

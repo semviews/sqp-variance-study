@@ -1,0 +1,19 @@
+{
+  "sql": "/* Category 1 : binary_join */ /* Query 1: binary_join (player, team) */ SELECT team.championships, team.location, player.age, player.olympic_gold_medals FROM player JOIN team ON player.team = team.team_name",
+  "team": {
+    "location": {
+      "value_type": "str",
+      "description": "location is the lastest city the team team located (e.g. Los Angeles)."
+    }
+  },
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  }
+}

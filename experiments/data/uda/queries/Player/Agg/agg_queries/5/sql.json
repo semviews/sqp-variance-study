@@ -1,0 +1,9 @@
+{
+  "sql": "/* Query 5: aggregation (player) */ SELECT nationality, COUNT(*) AS count_all FROM player GROUP BY nationality",
+  "player": {
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    }
+  }
+}

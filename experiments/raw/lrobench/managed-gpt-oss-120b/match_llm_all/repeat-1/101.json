@@ -1,0 +1,62 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 101,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 17.626,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    565,
+    383,
+    182
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['11-Dec-09' '2009']",
+        "['15-Jul-11' '2011']",
+        "['2-Nov-12' '2012']",
+        "['21-Nov-08' '2008']",
+        "['23-Nov-16' '2016']",
+        "['24-Nov-10' '2010']",
+        "['27-Nov-13' '2013']",
+        "['30-Mar-07' '2007']",
+        "['4-Mar-16' '2016']",
+        "['7-Nov-14' '2014']"
+      ],
+      "truth": [
+        "['11-Dec-09' '2009']",
+        "['15-Jul-11' '2011']",
+        "['2-Nov-12' '2012']",
+        "['21-Nov-08' '2008']",
+        "['23-Nov-16' '2016']",
+        "['24-Nov-10' '2010']",
+        "['27-Nov-13' '2013']",
+        "['30-Mar-07' '2007']",
+        "['4-Mar-16' '2016']",
+        "['7-Nov-14' '2014']"
+      ]
+    }
+  ]
+}

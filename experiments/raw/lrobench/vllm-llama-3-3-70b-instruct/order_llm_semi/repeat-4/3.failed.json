@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 3,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 12.198,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 86, in pipeline_order3\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'The distance from Boston to Los Angeles is approximately 2,796 miles. The maximum distance from Los Angeles to any other city in the United States is roughly 2,870 miles (to Miami or New York), and the minimum distance is 0 miles. \\n\\nTo calculate the score, we can use the formula: \\nscore = (distance from city to Los Angeles / maximum distance from Los Angeles to any city) * 100\\n\\nPlugging in the numbers: \\nscore = (2796 / 2870) * 100 \u2248 97.4\\n\\nSince the score should be an integer, we round it to the nearest integer: \\nscore \u2248 97\\n\\n\"97'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'The distance from London to Los Angeles is approximately 5,474 miles. Considering the maximum distance from Los Angeles to any other city on Earth is around 10,896 miles (to Perth, Australia), and the minimum distance is 0 miles (within Los Angeles itself), we can calculate the score as follows:\\n\\nScore = (Distance from London to Los Angeles / Maximum possible distance) * 100\\nScore = (5,474 miles / 10,896 miles) * 100\\nScore = 50.24\\n\\nRounding t",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'The distance from San Francisco to Los Angeles is approximately 559 kilometers. For the purpose of scoring, we can consider the maximum distance in the United States from Los Angeles to be roughly around 4,000 kilometers (to the East Coast). Thus, the score can be calculated based on the proportion of the distance from San Francisco to Los Angeles relative to this maximum distance.\\n\\nTo calculate the score: (559 km / 4000 km) * 100 = 14\\n\\nSo, the",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

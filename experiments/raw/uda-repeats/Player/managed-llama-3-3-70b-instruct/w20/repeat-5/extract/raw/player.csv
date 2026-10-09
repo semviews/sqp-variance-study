@@ -1,0 +1,248 @@
+ID,age,birth_date,college,draft_pick,draft_year,fiba_world_cup,mvp_awards,name,nationality,nba_championships,olympic_gold_medals,position,team
+1,31,1994/2/2,Southeast Missouri State University,Undrafted,2017,There is no mention of FIBA World Cup titles in the provided context.,0,Antonius Cleveland,USA,0,"There are no Olympic gold medals mentioned in the context, so the answer is empty.",Frontcourt,Dallas Mavericks||Atlanta Hawks||Chicago Bulls
+2,65,1959/6/10,Michigan State University,54,1981,"assistant
+
+There is no mention of FIBA World Cup titles in the provided context.",0,Jay Fletcher Vincent || Sam Vincent || Magic Johnson,USA,0,-empty-,Frontcourt,Dallas Mavericks||Washington Bullets||Denver Nuggets||San Antonio Spurs||Philadelphia 76ers||Los Angeles Lakers
+3,31,1994/4/25,None,57,2015,There is no mention of FIBA World Cup titles won in the provided context.,0,Nikola Radičević,Serbian,-empty-,|| (no value mentioned),Backcourt,Denver Nuggets||Detroit Pistons||New York Knicks
+4,82,1922/9/9,University of Notre Dame,"None mentioned in the context, as the NBA draft is not mentioned.",None,||,0,Francis Hugh Curran Sr.,USA,0,-empty-,"Empty, as the context does not specify the player's primary position.",Rochester Royals
+5,61,1964/2/15,Georgia Tech,25,1986,1,0,William Mark Price || LeBron James || Josh Smith || Rajon Rondo || Brent Price || Brian Shaw || David Vaughn III || Shane Heal || Joe Ingles || Steve Kerr || Larry Bird,USA,0,2,Backcourt,Cleveland Cavaliers||Washington Bullets||Golden State Warriors||Orlando Magic
+6,30,1994/6/6,None,39,2016,"assistant
+
+No FIBA World Cup titles are mentioned in the context, so the answer is empty.",0,David Michineau,French,-empty-,-empty-,Backcourt,New Orleans Pelicans||Los Angeles Clippers||Sacramento Kings||Brooklyn Nets
+7,27,1997/8/7,Alabama,Undrafted,2019,"There is no mention of FIBA World Cup titles in the provided context, so the answer would be empty.",0,Donta Hall,USA || Azerbaijani,None,There are no Olympic gold medals mentioned in the context.,Frontcourt,Detroit Pistons||Brooklyn Nets||Toronto Raptors||Orlando Magic
+8,51,1973/11/25,University of Nebraska,"Undrafted, so the answer is empty.",1996,"assistant
+
+No FIBA World Cup information is mentioned in the context, so the answer is empty.",0,"Demerick Montae ""Erick"" Strickland",USA,"None mentioned, so empty:",(no value),Backcourt,Dallas Mavericks||New York Knicks||Vancouver Grizzlies||Boston Celtics||Indiana Pacers||Milwaukee Bucks
+9,81,1943/12/23,Texas Western College || Tennessee State,10,1967,"assistant
+
+No FIBA World Cup information is mentioned in the context, so the answer is empty.",0,David Lattin,USA,"None mentioned, so empty:",|| (no value mentioned),Frontcourt,San Francisco Warriors||Phoenix Suns
+10,74,1942/9/7,University of Connecticut,Not applicable (empty),"Not applicable (empty), as the context does not mention the year Toby Kimball was drafted.",-empty-,0,Thomas Kimball || Toby Kimball,USA,0,-empty-,Frontcourt,Boston Celtics||San Diego Rockets||Milwaukee Bucks||Kansas City Kings||Philadelphia 76ers||New Orleans Jazz
+11,50,1974/8/3,University of Missouri,"None was selected in the NBA draft, but 50th overall in the CBA draft. Since the instruction is about the NBA draft, the answer is: 
+
+empty",None (since the player was never drafted by an NBA team),"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,William Derek Grimm,USA,"assistant
+
+0",-empty-,Frontcourt,Sacramento Kings
+12,30,1993/3/11,Kentucky,1,2012,1,0,Anthony Marshon Davis Jr.,USA,1,3,Frontcourt,Los Angeles Lakers
+13,37,1987/10/5,University of North Carolina at Chapel Hill,8,2007,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Brandan Keith Wright,USA,1,There are no Olympic gold medals mentioned in the context.,Frontcourt,Golden State Warriors||New Jersey Nets||Dallas Mavericks||Boston Celtics||Phoenix Suns||Memphis Grizzlies||Houston Rockets
+14,53,1971/12/3,Kansas State University,Not applicable (undrafted or no draft information provided),1994,-empty-,0,Askia Rahman Jones,USA || Venezuela,"None mentioned, so empty:",-empty-,Backcourt,Minnesota Timberwolves
+15,34,1990/8/17,Arizona State || College of Southern Idaho,33,2013,"There is no mention of FIBA World Cup titles in the context, so the answer is empty.",0,Carrick Felix,USA,0,"There is no mention of Olympic gold medals in the provided context, so the answer would be empty.",Backcourt,Cleveland Cavaliers||Utah Jazz||Washington Wizards
+16,36,1988/6/1,Pepperdine University || Washington State University,"Mychel Thompson: 
+Klay Thompson: 11 
+Mychal Thompson: 1",1978||2009||2011,"None were mentioned in the context, so the answer is empty.",0,Mychel Thompson || Mychal Thompson || Klay Thompson,USA || Bahamas,0,None,Backcourt,Cleveland Cavaliers
+17,75,1950/1/29,"Utah State University || California State University, Los Angeles","Third round pick, exact number not specified",1971,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Marvin Roberts,USA,0,||,Frontcourt,Detroit Pistons||Denver Rockets||Carolina Cougars||Kentucky Colonels||Virginia Squires||Los Angeles Lakers
+18,65,1959/9/19,Pan American University,41,1981,"assistant
+
+No FIBA World Cup information is mentioned in the context, so the answer is empty.",0,"Kenneth ""Apple"" Green",USA,-empty-,-empty-,Frontcourt,New York Knicks||Denver Nuggets||Portland Trail Blazers
+19,55,1969/4/18,"University of California, Los Angeles (UCLA) || California State University, Stanislaus","assistant
+
+There is no draft pick mentioned in the context.",None,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Gerald Madkins Jr.,USA,"None mentioned in the context, so the answer is: 
+
+ empty",-empty-,Backcourt,Cleveland Cavaliers||Miami Heat||Golden State Warriors
+20,65,1930/11/1,Moberly Junior College || Southwest Missouri State University || Bradley,26,1954,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Donald Robert Anielak,USA,-empty-,-empty-,Frontcourt,New York Knicks
+21,79,1945/9/17,University of North Dakota,31,1967,0,1,Philip Douglas Jackson,USA,11,4,Frontcourt,New York Knicks||New Jersey Nets||Chicago Bulls||Los Angeles Lakers
+22,55,1969/10/18,Seton Hall University,15,1991,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Anthony Avent,USA,"None mentioned, so empty:",-empty-,Frontcourt,Milwaukee Bucks||Orlando Magic||Vancouver Grizzlies||Utah Jazz||Los Angeles Clippers
+23,33,1990/7/12,UCLA || New Mexico,Undrafted,2012,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Drew Edward Gordon || Aaron Gordon || Drew Gooden,USA,"None mentioned in the context, so the answer is empty.",There are no Olympic gold medals mentioned in the context for Drew Gordon.,Frontcourt,Philadelphia 76ers||Dallas Mavericks||Brooklyn Nets
+24,41,1983/10/28,Georgia Tech,22,2005,"There is no mention of FIBA World Cup titles in the provided context, so the answer would be empty.",0,Jarrett Matthew Jack,USA,0,None,Backcourt,Detroit Pistons
+25,51,1973/8/22,Thomas More College,Not drafted,"Not applicable, as the player was not drafted.","assistant
+
+No FIBA World Cup titles are mentioned in the context, so the answer is empty.",0,Rick Hughes,USA,"None mentioned, so empty.",||,Frontcourt,Phoenix Suns||Atlanta Hawks||Dallas Mavericks
+26,34,1989/2/4,Temple University,50,2011,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Lavoy Allen,USA,0,"There is no mention of Olympic gold medals in the provided context, so the answer would be empty.",Frontcourt,Philadelphia 76ers||Indiana Pacers
+27,86,1926/1/31,Duquesne,44,1950,,0,Edward Dahler Jr.,USA,-empty-,-empty-,Backcourt,Philadelphia Warriors
+28,69,1959/6/10,Michigan State University,1,1979,1,3,"Earvin ""Magic"" Johnson Jr.",USA,5,3,Backcourt,Los Angeles Lakers
+29,71,1920/9/19,None,"assistant
+
+There is no draft pick information in the context.",None,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Stanley M. Noszka,USA,0,-empty-,Backcourt || Frontcourt,Youngstown Bears||Pittsburgh Ironmen||Boston Celtics
+30,63,1961/4/30,Indiana University,2,1981,1,1,Isiah Lord Thomas III,USA,2,0,Backcourt,Detroit Pistons
+31,74,1951/1/1 || 1943,None,"Since the 2nd pick of the 6th round is beyond the 2 rounds mentioned, we can't directly apply the given rule. However, considering the instruction, we can calculate it as follows: 
+The first round has 30 picks (1-30) in the modern draft, but the total number of picks in the first 5 rounds would be 5 * 30 = 150 (assuming 30 teams and 5 rounds for simplicity, though the actual number might vary). 
+The 2nd pick of the 6th round would then be 150 (picks in first 5 rounds) + 2 = 152.
+However, given the provided context and the usual interpretation of such instructions, it seems more likely that we should consider the pick in a more general sense or according to the provided rules which don't directly apply to rounds beyond the second. Thus, without specific guidance on how to handle later rounds, the most straightforward interpretation based on the given instruction would be to leave it as is or consider it not directly applicable. 
+
+Given the information and the format requested, the answer would be more accurately represented by the round and pick number as described, but since we need a number:
+2 (of the 6th round) || 8 (of the ABA draft) 
+
+However, following the exact format and instruction for a numerical value and considering the main question seems to focus on the NBA draft pick:
+2 (of the 6th round) 
+
+But since the format asks for a numerical value and the instruction doesn't perfectly fit the given scenario, and considering we're looking for the pick number in a general sense:
+The 2nd pick of the 6th round doesn't directly translate using the provided rule, so we acknowledge the pick as described but understand the format requests a specific number which might not be directly derivable from the given information without assuming the total number of picks in previous rounds. 
+
+Thus, the direct answer based on the provided details and adhering strictly to the requested format, acknowledging the instruction might not perfectly apply, would be to consider the information given and the usual interpretation of draft picks. 
+
+The final answer is: 102",1974,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Daniel Edward Anderson,USA,"None mentioned, so empty:",-empty-,"Empty, as the context does not specify the player's primary position.",Portland Trail Blazers
+32,29,1995/12/15,Duke University,3,2015,0,0,Jahlil Obika Okafor,Nigerian||American,0,There is no mention of the number of Olympic gold medals Jahlil Okafor has won in the provided context.,Frontcourt,Philadelphia 76ers||Brooklyn Nets||New Orleans Pelicans||Detroit Pistons||Atlanta Hawks
+33,65,1959/12/20,University of Minnesota,6,1982,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Kelvin Trent Tucker,USA,1,-empty-,Backcourt,New York Knicks||San Antonio Spurs||Chicago Bulls
+34,43,1968/10/14,University of Florida,24,1990,empty,0,Dwayne Kenneth Schintzius,USA,0,None,Frontcourt,San Antonio Spurs||Sacramento Kings||New Jersey Nets||Indiana Pacers||Los Angeles Clippers||Boston Celtics
+35,49,1975/11/21,University of Arizona,None,"1998 is not mentioned, but it is implied that Miles Simon went undrafted, however the year is not specified in the text.",-empty-,0,Miles Julian Simon || Mike Bibby,American || Norwegian,0,"|| (empty, as there is no mention of Olympic gold medals in the context)",Backcourt,Orlando Magic||Phoenix Suns||Los Angeles Lakers
+36,65,1935/9/1,Temple University,Territorial pick,1958,-empty-,0,Guy William Rodgers,USA,0,empty,Backcourt,Warriors||Bulls||Royals||Bucks
+37,59,1965/9/12,University of Florida,"51 (since he was drafted in the 2nd round, but the exact pick number is not specified in the context)",1988,empty,0,Vernon Maxwell || Cedric Maxwell || Gary Payton || Pete Maravich || Clyde Drexler,USA,2,empty,Backcourt,Denver Nuggets||San Antonio Spurs||Houston Rockets||Seattle SuperSonics
+38,31,1976/4/25,Wake Forest University,1,1997,1,2,Tim Duncan,American,5,4,Frontcourt,San Antonio Spurs
+39,60,1964/5/14,St. John's University,14,1986,-empty-,0,Walter Berry,USA,"None are mentioned in the context, so the answer is: 
+
+||","No Olympic gold medals are mentioned in the context, so the answer is empty.",Frontcourt,Portland Trail Blazers||San Antonio Spurs||New Jersey Nets||Houston Rockets
+40,45,1930/8/29,Stanford University,Not applicable,1957,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,James Patrick Walsh,USA,0,1,Frontcourt,Philadelphia Warriors
+41,51,1974/1/28,University of Kentucky,16,1996,There is no mention of FIBA World Cup titles in the provided context.,0,Tony Lorenzo Delk,USA,0,"Empty, as there is no mention of Olympic gold medals in the context.",Backcourt,Charlotte Hornets||Golden State Warriors||Sacramento Kings||Phoenix Suns||Boston Celtics||Dallas Mavericks||Atlanta Hawks||Detroit Pistons
+42,81,1937/7/13,NYU,13,1959,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Calvin Ramsey,USA,0,||,Frontcourt,St. Louis Hawks||New York Knicks||Syracuse Nationals
+43,35,1930/2/17,None,Not mentioned,1953,||,0,Eugene Walter Dyker,USA,-empty-,||,Frontcourt,Milwaukee Hawks
+44,57,1967/7/3 || 1992,University of Missouri,16,1988,"assistant
+
+There is no mention of FIBA World Cup titles in the provided context.",0,Derrick Joseph Chievous,USA,-empty-,-empty-,Frontcourt,Houston Rockets||Cleveland Cavaliers
+45,58,1966/8/23,Marist College || Valparaiso University || Butler University,2,1988,0,0,Rik Smits,Dutch,0,None,Frontcourt,Indiana Pacers
+46,23,2001/8/5,University of Georgia,1,2020,1,0,Anthony Edwards,USA,0,1,Backcourt,Minnesota Timberwolves
+47,88,1927/4/26,Northeast Missouri State Teachers' College (now Truman State University) || University of Iowa,"20 || (4th round, no pick number given)",1947||1948||1949,"There is no mention of FIBA World Cup titles in the provided context, so the answer would be empty.",0,Harry Junior Gallatin,USA,0,None,Frontcourt,New York Knicks||Detroit Pistons
+48,83,1931/2/3,New York University,Not applicable (empty),1952,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,James J. Brasco,USA,-empty-,-empty-,"Empty, as the context does not specify the player's primary position.",Syracuse Nationals||Milwaukee Hawks
+49,75,1949/8/29,San Jose State University,8,1971,0,0,Darnell Hillman,USA,0,None,Frontcourt,Indiana Pacers||New York Nets||New Jersey Nets||Denver Nuggets||Kansas City Kings||Golden State Warriors
+50,73,1951/6/2,None,"There is no NBA draft pick mentioned in the context, as it appears to be about a hockey player, Larry Robinson. Therefore, the answer is:",(N/A - The context does not mention the NBA draft),"Empty, as the context does not mention FIBA World Cup titles.",0,"There is no NBA player mentioned in the context. The context is about a hockey player, Larry Clark Robinson.",Canadian,"Empty, as the context is about hockey, not the NBA.",None,"Neither, as the context refers to ice hockey, not basketball. However, based on the information provided, Larry Robinson played as a defenceman, which can be loosely translated to a position similar to 'Backcourt' in basketball, but since the sport is different, it's more accurate to say that the options provided don't apply directly.",None
+51,36,1989/2/7,University of Florida,45,2009,0,0,Nicholas William Calathes,Greek || USA,0,None,Backcourt,Memphis Grizzlies
+52,73,1952/3/11,Seattle University,169,1974,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Rod Derline,USA,"None are mentioned in the context, so the answer is empty.",-empty-,Backcourt,Seattle SuperSonics
+53,52,1972/10/4,Texas Christian University,10,1995,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Kurt Vincent Thomas,USA,0,There are no Olympic gold medals mentioned in the context.,Frontcourt,Miami Heat||Dallas Mavericks||New York Knicks||Phoenix Suns||Seattle SuperSonics||San Antonio Spurs||Milwaukee Bucks||Chicago Bulls||Portland Trail Blazers||New York Knicks
+54,35,1988/9/29,University of Texas at Austin,2,2007,1,1,Kevin Durant,USA,2,4,Frontcourt,Phoenix Suns
+55,53,1971/10/2,Xavier University,Undrafted,(undrafted),-empty-,0,Aaron Williams,USA,"None mentioned, so empty:",-empty-,Frontcourt,Utah Jazz||Milwaukee Bucks||Denver Nuggets||Vancouver Grizzlies||Seattle SuperSonics||Washington Wizards||New Jersey Nets||Toronto Raptors||New Orleans/Oklahoma City Hornets||Los Angeles Clippers
+56,40,1975/4/2,Lansing Community College || Central Michigan University,,None,"assistant
+
+No FIBA World Cup titles are mentioned in the context, so the answer is empty.",0,Nathaniel Thomas Huffman,USA || Israeli,"None mentioned, so empty:",-empty-,Frontcourt,Los Angeles Clippers||Toronto Raptors
+57,73,1950/6/13,Oregon State University,5,1972,,0,Freddie L. Boyd,USA,"None are mentioned, so the answer is:",||,Backcourt,Philadelphia 76ers||New Orleans Jazz
+58,61,1963/12/14,Memphis State University || University of Memphis,6,1986,"assistant
+
+There is no mention of FIBA World Cup titles in the context, so the answer is empty.",0,William Bedford,USA,2,-empty-,Frontcourt,Phoenix Suns||Detroit Pistons||San Antonio Spurs
+59,55,1969/3/31,Michigan State University,5,1991,1,0,Steven Delano Smith,USA,1,1,Backcourt,Miami Heat||Atlanta Hawks||Portland Trail Blazers||San Antonio Spurs||New Orleans Hornets||Charlotte Bobcats||Miami Heat
+60,53,1972/2/6,Michigan State University,8,1995,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Shawn Christopher Respert,USA,"None mentioned, so empty:","There are no Olympic gold medals mentioned in the context, so the answer is empty.",Backcourt,Portland Trail Blazers||Milwaukee Bucks||Toronto Raptors||Dallas Mavericks||Phoenix Suns||Los Angeles Lakers
+61,58,1966/7/11,DePaul University,19,1988,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Rodney Strickland,USA,0,There are no Olympic gold medals mentioned in the context for Rod Strickland.,Backcourt,New York Knicks||San Antonio Spurs||Portland Trail Blazers||Washington Bullets/Wizards||Miami Heat||Minnesota Timberwolves||Orlando Magic||Toronto Raptors||Houston Rockets
+62,89,1929/2/3,Bradley University,35,1951,||,0,Elmer H. Behnke,USA,"None are mentioned in the context, so the answer is:",-empty-,Empty,Milwaukee Hawks
+63,27,1997/7/9,Penn State University,Undrafted,2020,empty,0,Lamar Brandon Stevens,USA,"None mentioned in the context, so the answer is empty.",empty,Frontcourt,Cleveland Cavaliers||San Antonio Spurs||Boston Celtics||Memphis Grizzlies
+64,36,1988/7/14,Siena,Undrafted,2010,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Ronald Moore || John Salmons,USA,None,None,Backcourt,None
+65,41,1984/2/21,Michigan State University,46,2005,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Erazem Lorbek,Slovenian,None,None,Frontcourt,San Antonio Spurs
+66,92,1919/3/23,Loyola University,"assistant
+
+There is no draft pick mentioned in the context.",None,"assistant
+
+There is no mention of FIBA World Cup titles in the context, so the answer is empty.",0,"Marvin ""Mickey"" Rottner",USA,"None are mentioned in the context, so the answer is empty.",-empty-,Backcourt,Sheboygan Red Skins||Chicago Stags
+67,26,1998/7/31,University of Kentucky,45,2018,0,0,Hamidou Diallo,USA || Guinea,0,None,Backcourt,Oklahoma City Thunder||Detroit Pistons||Washington Wizards
+68,38,1986/8/31,Indiana University,29,2008,"There is no mention of FIBA World Cup titles in the provided context, so the answer would be empty.",0,"Dewayne ""D. J."" White, Jr.",USA,0,None,Frontcourt,Oklahoma City Thunder||Charlotte Bobcats||Boston Celtics||Brooklyn Nets||Chicago Bulls
+69,59,1965/9/27,University of Arizona,50,1988,1,1,Stephen Douglas Kerr,USA,5||4,5,Backcourt,Phoenix Suns||Cleveland Cavaliers||Orlando Magic||Chicago Bulls||San Antonio Spurs||Portland Trail Blazers||Golden State Warriors
+70,56,1968/10/3,UCLA || UTEP,35,1990,-empty-,0,Gregory Clinton Foster || Gary Payton || Tim Hardaway || Antonio Davis || Sam Bowie || Goga Bitadze,USA,1,-empty-,Frontcourt,Washington Bullets||Atlanta Hawks||Milwaukee Bucks||Chicago Bulls||Minnesota Timberwolves||Utah Jazz||Seattle SuperSonics||Los Angeles Lakers||Toronto Raptors||Philadelphia 76ers||Indiana Pacers||Atlanta Hawks
+71,80,1944/8/8,University of Southern California,Not applicable (empty),1968,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,William Severlyn Hewitt,USA,-empty-,-empty-,Frontcourt,Los Angeles Lakers||Detroit Pistons||Buffalo Braves||Chicago Bulls
+72,43,1981/3/23,University of North Carolina at Chapel Hill || Brown University,21,2001,-empty-,0,Joseph Xavier Forte,USA,0,-empty-,Backcourt,Boston Celtics||Seattle SuperSonics
+73,58,1967/4/24,None,40,1989,1,0,Dino Rađa,Croatian || Yugoslavian,0,0,Frontcourt,Boston Celtics
+74,65,1959/7/5,Oregon State University || Northern Arizona University,53,1981,,0,Mark Jeffrey Radford,USA,-empty-,-empty-,Backcourt,Seattle SuperSonics
+75,34,1990/7/31,None,48,2012,0,0,"Konstantinos ""Kostas"" Papanikolaou",Greek,0,None,Frontcourt || Backcourt,Denver Nuggets||Houston Rockets
+76,65,1959/7/3,"Empty, as there is no college mentioned in the context.","Not applicable, as the context does not mention the NBA draft pick.",1981,,0,Garrett David Witts,USA,-empty-,-empty-,"Empty, as position is not mentioned in the context.",Washington Bullets
+77,22,2002/7/30,Colorado,57,2022,"assistant
+
+There is no mention of FIBA World Cup titles in the provided context.",0,Jabari Dominic Walker || Samaki Walker || Dibaji Walker,USA,-empty-,"|| (empty, as there is no mention of Olympic gold medals in the context)",Frontcourt,Portland Trail Blazers
+78,27,1996/10/8,UNC Wilmington,Undrafted,2019,"There is no mention of FIBA World Cup titles in the provided context, so the answer would be empty.",0,Devontae Calvin Cacok,American||Haitian,0,There are no Olympic gold medals mentioned in the context.,Frontcourt,Los Angeles Lakers||Brooklyn Nets||San Antonio Spurs
+79,29,1995/10/2,UCF Knights || Florida Gulf Coast Eagles,Undrafted,2017||2018,"assistant
+
+No FIBA World Cup titles are mentioned in the context, so the answer is empty.",0,Brandon Goodwin,USA,0,empty,Backcourt,Memphis Grizzlies||Denver Nuggets||Atlanta Hawks||Cleveland Cavaliers
+80,91,1933/1/20,Notre Dame,Not mentioned,1954,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Richard Anthony Rosenthal,USA,"None mentioned, so empty:",-empty-,Frontcourt,Fort Wayne Pistons
+81,43,1980/3/20,University of Michigan,8,2000,"There is no mention of FIBA World Cup titles in the provided context, so the answer would be empty.",0,Aaron Jamal Crawford,USA,0,None,Backcourt,Chicago Bulls||New York Knicks||Golden State Warriors||Atlanta Hawks||Portland Trail Blazers||Los Angeles Clippers||Minnesota Timberwolves||Phoenix Suns||Brooklyn Nets
+82,36,1988/10/23,Indiana University || Xavier University,27,2010,There is no mention of FIBA World Cup titles won by the player in the provided context.,0,Jordan Lee Crawford,USA,None,"There are no Olympic gold medals mentioned in the context, so the answer is empty.",Backcourt,New Jersey Nets||Atlanta Hawks||Washington Wizards||Boston Celtics||Golden State Warriors||New Orleans Pelicans
+83,60,1964/10/30,Marquette University,"Not applicable, as the player was not selected in the NBA draft, but was chosen with the 44th pick in the 1987 CBA draft.",(No NBA draft year mentioned in the context),"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Thomas James Copa,USA,0,"assistant
+
+There is no mention of Olympic gold medals in the context.",Frontcourt,San Antonio Spurs||Houston Rockets
+84,73,1951/9/17,American University,5,1973,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Kermit Alan Washington || Rudy Tomjanovich || Kareem Abdul-Jabbar || Jerry West || Kevin Kunnert || Dave Cowens || Maurice Lucas || Kevin Duckworth || LeBron James,USA,0,There are no Olympic gold medals mentioned in the context for Kermit Washington.,Frontcourt,Los Angeles Lakers||Boston Celtics||San Diego Clippers||Portland Trail Blazers||Golden State Warriors
+85,51,1973/5/18,University of Connecticut,4,1994,empty,0,Donyell Lamar Marshall || LeBron James || Kobe Bryant || Karl Malone || John Stockton || Jalen Rose || Kendall Gill || Jay Williams || Eddy Curry || Tyson Chandler || Antonio Davis || Jerome Williams || Chris Jefferies || Lonny Baxter || Stephen Curry,USA,0,"Empty, as there is no mention of Olympic gold medals in the context.",Frontcourt,Minnesota Timberwolves||Golden State Warriors||Utah Jazz||Chicago Bulls||Toronto Raptors||Cleveland Cavaliers||Seattle SuperSonics||Philadelphia 76ers
+86,85,1930/1/14,University of Minnesota || University of Iowa,"(eighth round, exact pick number not specified)","(N/A - The context is about the NFL draft, not the NBA draft)","assistant
+
+There is no mention of FIBA World Cup in the context, as it appears to be about an American football player, not a basketball player.",0,Wayne Robinson,USA || Canadian,(none),-empty-,Linebacker,None
+87,77,1947/3/7,Cheyney University of Pennsylvania,"Not explicitly stated, but since it's the 8th round, we can estimate. Assuming a 10-team league with 2 rounds of 10 picks (20 picks per round) before the 8th round, and 10 picks per round: 
+20 picks/round * 7 rounds = 140 picks before the 8th round. 
+The first pick of the 8th round would be 141. However, the exact pick number is not provided.",1970,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Gregory Paul Fillmore,USA,"None mentioned, so empty:",-empty-,Frontcourt,New York Knicks
+88,71,1953/10/31,University of Maryland,1,1976,0,0,John Harding Lucas II,USA,0,0,Backcourt,Houston Rockets||Golden State Warriors||Washington Bullets||San Antonio Spurs||Milwaukee Bucks||Philadelphia 76ers||Cleveland Cavaliers||Los Angeles Clippers
+89,57,1929/11/16,Long Island || John Marshall College,Not applicable (empty),1952,,0,Richard Clifford Surhoff Jr.,USA,-empty-,-empty-,"Empty, as the context does not specify the player's primary position.",New York Knicks||Milwaukee Hawks
+90,79,1945/11/18,No college mentioned in the context.,10 + (3-1)*30 = 70,1968,,0,Garfield Smith,USA,0,-empty-,Frontcourt,Boston Celtics
+91,73,1925/3/5,Loyola University New Orleans || Canisius College || Cornell University,There is no draft pick mentioned in the context.,None,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Leroy Patrick Chollet,USA,0,There are no Olympic gold medals mentioned in the context.,Backcourt,Syracuse Nationals
+92,31,1991/10/10,Syracuse,11,2013,"There is no mention of FIBA World Cup titles in the provided context, so the answer is empty.",0,Michael Carter-Williams,USA,0,"There is no mention of Olympic gold medals in the provided context, so the answer is empty.",Backcourt,Philadelphia 76ers||Milwaukee Bucks||Chicago Bulls||Charlotte Hornets||Houston Rockets||Orlando Magic
+93,31,1993/9/15,None,17,2013,1,0,Dennis Schröder,German || Gambian,0,0,Backcourt,Brooklyn Nets
+94,78,1936/3/13,Kansas State University,"10th round, no specific pick number mentioned",1958,"|| (empty, as there is no mention of FIBA World Cup titles)",0,Jack Parr,USA,"None are mentioned in the context, so the answer is:",||,Frontcourt,Cincinnati Royals
+95,55,1958/7/26,Tennessee State University,21,1980,,0,"DaMon William ""Monti"" Davis",USA,-empty-,-empty-,Frontcourt,Philadelphia 76ers||Dallas Mavericks
+96,58,1966/2/7,None,None,Not applicable (empty),"assistant
+
+There is no information about FIBA World Cup titles in the provided context.",0,Eric Johnson Jones || Vinnie Johnson,USA || Spain,-empty-,-empty-,Backcourt,Utah Jazz
+97,60,1925/10/8,New York University,"assistant
+
+There is no draft pick mentioned in the context.",None,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Sidney Harold Tanenbaum,USA,"None mentioned, as the context refers to the Basketball Association of America (BAA) and not the NBA championships won.",-empty-,Backcourt||Frontcourt,New York Knicks||Baltimore Bullets
+98,23,2000/2/22,Indiana University,57,2023,"There is no mention of FIBA World Cup titles won by Trayce Jackson-Davis in the provided context. However, it is mentioned that he helped the United States under-18 basketball team win the gold medal at the 2018 FIBA Under-18 Americas Championship. 
+
+Since the question asks for FIBA World Cup titles, the answer would be empty as there is no relevant information.",0,Trayce Jackson-Davis,USA,0,1,Frontcourt,Golden State Warriors
+99,31,1993/8/10,University of Connecticut,9,2012,1,0,Andre Jamal Drummond,USA || Jamaica,0,1,Frontcourt,Philadelphia 76ers||Chicago Bulls||Brooklyn Nets||Cleveland Cavaliers||Los Angeles Lakers||Detroit Pistons
+100,31,1992/12/17,Oklahoma Sooners,6,2016,0,0,"Chavano Rainer ""Buddy"" Hield",Bahamian,0,0,Backcourt,Golden State Warriors
+101,28,1996/2/23,Ohio State University,2,2015,0,0,D'Angelo Russell,USA,0,0,Backcourt,Los Angeles Lakers
+102,29,1994/3/16,University of Kansas,3,2014,1,1,Joel Embiid,Cameroonian || American || French,0,1,Frontcourt,Philadelphia 76ers
+103,30,1990/5/2,Fresno State University,10,2010,1,1,Paul George,USA,0,4,Frontcourt,Philadelphia 76ers
+104,31,1992/3/23,Duke University,1,2011,1,1,Kyrie Andrew Irving,American || Australian,1,2,Backcourt,Dallas Mavericks
+105,29,1998/3/3,Duke University,3,2017,0,0,Jayson Christopher Tatum,USA,1,2,Frontcourt,Boston Celtics
+106,29,1995/9/28,NC State University || Nevada Wolf Pack,Undrafted,2019,There is no mention of FIBA World Cup titles won by Caleb Martin in the provided context.,0,Caleb Martin || Cody Martin || Christian Koloko || Jimmy Butler || Chandler Hutchison || Jordan Caroline,USA,0,None,Frontcourt,Philadelphia 76ers||Miami Heat||Charlotte Hornets
+107,29,1995/2/23,University of Kansas,1,2014,0,0,Andrew Christian Wiggins,Canadian || American,1,0,Frontcourt,Golden State Warriors
+108,24,2001/2/26,Rice University,Undrafted,2024,"assistant
+
+There is no mention of FIBA World Cup titles in the context.",0,Max Berning Fiedler,USA,-empty-,||,Frontcourt,Philadelphia 76ers
+109,27,1997/7/17,Indiana University,23,2017,There is no mention of FIBA World Cup titles won by the player in the provided context.,0,"Ogugua ""OG"" Anunoby Jr.",British || Nigerian,1,None,Frontcourt,New York Knicks
+110,28,1996/10/24,"University of California, Berkeley",3,2016,1,1,Jaylen Marselles Brown,USA,1,0,Backcourt || Frontcourt,Boston Celtics
+111,20,2004/1/4,None,1,2023,1,1,Victor Wembanyama,French,0,0,Frontcourt,San Antonio Spurs
+112,33,1990/6/12,UCLA,17,2009,1,0,Jrue Randall Holiday,USA,2,2,Backcourt,Boston Celtics
+113,25,1998/5/29,Wichita State University || University of Oklahoma || Arkansas State,Undrafted,2021,1,0,Austin Tyler Reaves,USA || Germany,0,None,Backcourt,Los Angeles Lakers
+114,38,1988/9/7,UCLA Bruins,5,2008,1,1,Kevin Wesley Love || LeBron James || Kevin Love || Kyrie Irving || Russell Westbrook || Dwight Howard || Deron Williams || Klay Thompson || Stephen Curry || Stan Love || Wes Unseld || O. J. Mayo || Andrew Wiggins || Anthony Bennett || Thaddeus Young || Luc Mbah a Moute || Alexey Shved || Yao Ming || Kelly Olynyk || Moses Malone || Hakeem Olajuwon || Elvin Hayes || Wilt Chamberlain || Brian Cardinal || Jason Collins || Antoine Walker || Marko Jarić || Greg Buckner || Al Jefferson || Oleksiy Pecherov || Luis Scola || Carl Landry || Kyle Singler || Rashad McCants || Zydrunas Ilgauskas || Tristan Thompson || Andre Drummond,USA,1,2,Frontcourt,Miami Heat
+115,29,1994/12/6,None,15,2013,0,2,Giannis Sina Ugo Antetokounmpo,Greek || Nigerian,1,0,Frontcourt,Milwaukee Bucks
+116,35,1988/3/14,Davidson College,7,2009,2,2,Stephen Curry,USA,4,1,Backcourt,Golden State Warriors
+117,38,1986/6/3,University of Florida,3,2007,1,0,Alfred Joel Horford Reynoso,Dominican Republic || USA,1,0,Frontcourt,Boston Celtics
+118,24,2000/1/20,University of Kentucky || University of Wisconsin–Madison,13,2019,There is no mention of FIBA World Cup titles won by Tyler Herro in the provided context.,0,Tyler Christopher Herro,USA,0,None,Backcourt,Miami Heat
+119,31,1994/4/22,Williams College || Michigan Wolverines,Undrafted ||,2018,1,0,Duncan McBryde Robinson,American || Hawaiian,0,None,Backcourt,Miami Heat
+120,30,1993/9/20,UCLA,30,2014,1,0,Kyle Anderson,USA || China,0,None,Frontcourt || Backcourt,Golden State Warriors||Memphis Grizzlies||San Antonio Spurs||Minnesota Timberwolves
+121,22,2001/9/25,Oklahoma State University,1,2021,1,0,Cade Parker Cunningham,USA,0,1,Backcourt,Detroit Pistons
+122,39,1984/2/30,None,1,2003,1,4,LeBron James,USA,4,3,Frontcourt,Los Angeles Lakers
+123,33,1989/9/14,Tyler Junior College || Marquette University,30,2011,1,1,Jimmy Butler III,USA,0,1,Backcourt,Miami Heat
+124,29,1996/2/6,UCLA || Schreiner University,30,2015,1,0,Kevon Grant Looney,USA,3,There is no mention of the player winning Olympic gold medals in the provided context.,Frontcourt,Golden State Warriors
+125,29,1995/3/10,UCLA,13,2014,0,0,Zachary Thomas LaVine,USA,0,1,Backcourt,Chicago Bulls
+126,23,2002/2/13,Purdue,5,2022,1,0,Jaden Edward Dhananjay Ivey,USA,None,None,Backcourt,Detroit Pistons
+127,38,1986/3/25,Villanova University,24,2006,1,0,Kyle Terrell Lowry,USA,1,1,Backcourt,Philadelphia 76ers
+128,61,1963/2/17,University of North Carolina at Chapel Hill,3,1984,1,5,Michael Jeffrey Jordan,USA,6,2 || 4,Backcourt,Chicago Bulls||Washington Wizards
+129,28,1996/10/30,Kentucky,13,2015,1,0,Devin Armani Booker,USA || Mexico,0,2,Backcourt,Phoenix Suns
+130,33,1990/3/4,Michigan State University,35,2012,1,0,Draymond Jamal Green,USA,4,2 || 3,Frontcourt,Golden State Warriors
+131,27,1997/11/19,Gonzaga University,10,2017,0,0,Zach Collins,USA,0,None,Frontcourt,San Antonio Spurs||Portland Trail Blazers||Sacramento Kings
+132,22,2002/10/6,Texas Tech || Auburn || Duke || Kentucky || UNLV,7,2021,No FIBA World Cup titles are mentioned in the context as being won by the player.,0,Jonathan Malangu Kuminga,Congolese,1,No Olympic gold medals are mentioned in the context for Jonathan Kuminga.,Frontcourt,Golden State Warriors
+133,28,1997/10/27,UCLA,2,2017,1,0,Lonzo Anderson Ball,USA,0,4,Backcourt,Chicago Bulls||Los Angeles Lakers||New Orleans Pelicans
+134,23,2001/2/18,UCLA || Concordia University || Ventura Community College || Northern Arizona University,18,2023,There is no mention of FIBA World Cup titles won by Jaime Jaquez Jr. in the provided context.,0,Jaime Jaquez Jr.,USA || Mexico,0,"No Olympic gold medals are mentioned for Jaime Jaquez Jr. in the context, but it is mentioned that he played for the Mexican national team in the 2019 Pan American Games.",Frontcourt,Miami Heat
+135,21,2003/1/30,None,5,2023,There is no mention of FIBA World Cup titles in the provided context.,0,Ausar Thompson || Amen Thompson || LeBron James,USA || Jamaican,0,None,Frontcourt,Detroit Pistons
+136,28,1996/8/31,Villanova University,33,2018,1,0,Jalen Marquis Brunson,USA,0,1,Backcourt,New York Knicks||Dallas Mavericks
+137,51,1972/3/6,Louisiana State University (LSU),1,1992,1,1,Shaquille O'Neal,USA,4,2 || 4,Frontcourt,Boston Celtics
+138,41,1978/8/23,None,13,1996,1,1,Kobe Bean Bryant,USA || Italy,5,2,Backcourt,Los Angeles Lakers
+139,39,1985/5/6,Wake Forest University,4,2005,1,0,Christopher Emmanuel Paul,USA,0,2 || 4,Backcourt,San Antonio Spurs
+140,33,1992/5/30,North Carolina,7,2012,1,1,Harrison Bryce Jordan Barnes,USA,1,1,Frontcourt,San Antonio Spurs||Sacramento Kings||Dallas Mavericks||Golden State Warriors
+141,27,1997/7/18,University of Kentucky,14,2017,0,0,"Edrice Femi ""Bam"" Adebayo",USA || Nigeria,0,2,Frontcourt,Miami Heat

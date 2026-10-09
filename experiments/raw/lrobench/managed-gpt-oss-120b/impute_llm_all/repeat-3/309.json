@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 7.015,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 8,
+  "returned": [
+    0.25,
+    0.625
+  ],
+  "tokens": [
+    280,
+    201,
+    79
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.25,
+      "prediction": [
+        "West Lake",
+        "6.5 km\u00b2",
+        "5 m",
+        "4 m",
+        "Freshwater",
+        "Qiantang River",
+        "120.1551",
+        "30.2440"
+      ],
+      "truth": [
+        "West Lake",
+        "6.5",
+        "2.8",
+        "7.0",
+        "freshwater",
+        "Qiantang River",
+        "120.1536",
+        "30.2414"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.625,
+      "prediction": [
+        "West Lake",
+        "6.5 km\u00b2",
+        "5 m",
+        "4 m",
+        "Freshwater",
+        "Qiantang River",
+        "120.1551",
+        "30.2440"
+      ],
+      "truth": [
+        "West Lake",
+        "6.5",
+        "2.8",
+        "7.0",
+        "freshwater",
+        "Qiantang River",
+        "120.1536",
+        "30.2414"
+      ]
+    }
+  ]
+}

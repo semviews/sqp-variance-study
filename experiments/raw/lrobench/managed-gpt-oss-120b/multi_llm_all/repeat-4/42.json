@@ -1,0 +1,47 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 42,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 10.556,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Joe\u00e2\u0080\u0099s Shanghai"
+    ],
+    [
+      "Totto Ramen"
+    ],
+    [
+      "Ippudo NY"
+    ]
+  ],
+  "tokens": 7068,
+  "metrics": [],
+  "prediction": [
+    [
+      "Joe\u00e2\u0080\u0099s Shanghai"
+    ],
+    [
+      "Totto Ramen"
+    ],
+    [
+      "Ippudo NY"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

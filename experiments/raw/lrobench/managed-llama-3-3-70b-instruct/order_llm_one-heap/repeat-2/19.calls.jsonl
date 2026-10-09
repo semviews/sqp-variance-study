@@ -1,0 +1,1 @@
+{"key": "c5f80661b48a6563", "role": "operator", "t": 1790969830.225, "seconds": 2.529, "output": "To compare the 'The length of the country's coastline' criteria, we need to use external knowledge about the coastline lengths of Bangladesh and Brazil. \n\n{GET_COASTLINE_LENGTH Name=\"Bangladesh\"}\n{GET_COASTLINE_LENGTH Name=\"Brazil\"}"}

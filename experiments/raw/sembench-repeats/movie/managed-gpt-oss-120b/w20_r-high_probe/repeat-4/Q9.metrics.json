@@ -1,0 +1,24 @@
+{
+  "scenario": "movie",
+  "model": "openai/managed-gpt-oss-120b",
+  "setting": "w20_r-high_probe",
+  "policy": "approximate",
+  "repeat": 4,
+  "query_id": 9,
+  "status": "success",
+  "error": null,
+  "execution_time": 59.08895301818848,
+  "token_usage": 166472,
+  "model_calls": 256,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": "high",
+  "shuffle_seed": null,
+  "attempt": 2,
+  "data": {
+    "sf_2000/Movies.csv": "aac26cb7cdbc771a",
+    "sf_2000/Reviews.csv": "df231cfb189c9e16"
+  }
+}

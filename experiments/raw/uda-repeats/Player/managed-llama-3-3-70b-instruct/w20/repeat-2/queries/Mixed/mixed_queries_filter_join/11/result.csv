@@ -1,0 +1,30 @@
+team.location,player.draft_year,team.ownership,player.name,player.id,team.id
+Boston,1992.0,"Boston Basketball Partners L.L.C. (H. Irving Grousbeck, Wycliffe Grousbeck, Steve Pagliuca)",Shaquille O'Neal,137,2
+Dallas,2011.0,Mark Cuban || Miriam Adelson || Patrick Dumont,Kyrie Andrew Irving,104,7
+Detroit,2022.0,Tom Gores,Jaden Edward Dhananjay Ivey,126,9
+San Francisco,2012.0,Joe Lacob || Peter Guber,Draymond Jamal Green,130,10
+Los Angeles,1996.0,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen,Kobe Bean Bryant,138,14
+Miami,2011.0,Micky Arison,Jimmy Butler III,123,16
+Minneapolis,2020.0,Glen Taylor || Marc Lore || Alex Rodriguez,Anthony Edwards,46,18
+Philadelphia,2006.0,Harris Blitzer Sports & Entertainment (HBSE) || Josh Harris || David Blitzer,Kyle Terrell Lowry,127,23
+Phoenix,2015.0,Mat Ishbia || Justin Ishbia,Devin Armani Booker,129,24
+San Antonio,2005.0,Peter M. Holt || 22 investors,Christopher Emmanuel Paul,139,27
+Boston,2007.0,"Boston Basketball Partners L.L.C. (H. Irving Grousbeck, Wycliffe Grousbeck, Steve Pagliuca)",Alfred Joel Horford Reynoso,117,2
+Detroit,2021.0,Tom Gores,Cade Parker Cunningham,121,9
+San Francisco,2015.0,Joe Lacob || Peter Guber,Kevon Grant Looney,124,10
+Los Angeles,2003.0,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen,LeBron James,122,14
+Miami,2018.0,Micky Arison,Duncan McBryde Robinson,119,16
+Philadelphia,2010.0,Harris Blitzer Sports & Entertainment (HBSE) || Josh Harris || David Blitzer,Paul George,103,23
+Phoenix,2007.0,Mat Ishbia || Justin Ishbia,Kevin Durant,54,24
+San Antonio,2023.0,Peter M. Holt || 22 investors,Victor Wembanyama,111,27
+Boston,2009.0,"Boston Basketball Partners L.L.C. (H. Irving Grousbeck, Wycliffe Grousbeck, Steve Pagliuca)",Jrue Randall Holiday,112,2
+Detroit,1981.0,Tom Gores,Isiah Lord Thomas III,30,9
+San Francisco,2009.0,Joe Lacob || Peter Guber,Stephen Curry,116,10
+Los Angeles,2021.0,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen,Austin Tyler Reaves,113,14
+Miami,2008.0,Micky Arison,Kevin Wesley Love,114,16
+Philadelphia,2014.0,Harris Blitzer Sports & Entertainment (HBSE) || Josh Harris || David Blitzer,Joel Embiid,102,23
+San Antonio,1997.0,Peter M. Holt || 22 investors,Tim Duncan,38,27
+Boston,2016.0,"Boston Basketball Partners L.L.C. (H. Irving Grousbeck, Wycliffe Grousbeck, Steve Pagliuca)",Jaylen Marselles Brown,110,2
+Los Angeles,1979.0,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen,"Earvin ""Magic"" Johnson Jr.",28,14
+Boston,1989.0,"Boston Basketball Partners L.L.C. (H. Irving Grousbeck, Wycliffe Grousbeck, Steve Pagliuca)",Dino Rađa,73,2
+Los Angeles,2012.0,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen,Anthony Marshon Davis Jr.,12,14

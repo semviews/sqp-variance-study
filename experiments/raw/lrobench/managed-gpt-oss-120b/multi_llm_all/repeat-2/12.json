@@ -1,0 +1,33 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 12,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 696.415,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 3212,
+  "judge_calls": 0,
+  "returned": [
+    "Maciej Pasternacki",
+    "Marcus Jones"
+  ],
+  "tokens": 704331,
+  "metrics": [],
+  "prediction": [
+    "Maciej Pasternacki",
+    "Marcus Jones"
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

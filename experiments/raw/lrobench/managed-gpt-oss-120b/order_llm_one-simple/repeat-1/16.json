@@ -1,0 +1,73 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 16,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 11.057,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 30,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    6760,
+    6730,
+    30
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "English",
+        "French",
+        "German",
+        "Italian",
+        "Japanese",
+        "Mandarin"
+      ],
+      "truth": [
+        "English",
+        "French",
+        "German",
+        "Italian",
+        "Japanese",
+        "Mandarin"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "English",
+        "Mandarin",
+        "French",
+        "Japanese",
+        "German",
+        "Italian"
+      ],
+      "truth": [
+        "English",
+        "Mandarin",
+        "French",
+        "Japanese",
+        "German",
+        "Italian"
+      ]
+    }
+  ]
+}

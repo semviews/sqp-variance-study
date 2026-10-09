@@ -1,0 +1,79 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 16,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 12.167,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 6,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Matthew Rycroft ",
+      "South Sudan",
+      "Africa"
+    ],
+    [
+      "Mark Bryson-Richardson",
+      "Paris, France",
+      "Europe"
+    ],
+    [
+      "Pete Vowles",
+      "London",
+      "Europe"
+    ],
+    [
+      "Matthew Rycroft ",
+      "South Sudan",
+      "Africa"
+    ],
+    [
+      "Richard Montgomery",
+      "Kathmandu/ Yangon/Manilla",
+      "Asia"
+    ]
+  ],
+  "tokens": 2292,
+  "metrics": [],
+  "prediction": [
+    [
+      "Matthew Rycroft ",
+      "South Sudan",
+      "Africa"
+    ],
+    [
+      "Mark Bryson-Richardson",
+      "Paris, France",
+      "Europe"
+    ],
+    [
+      "Pete Vowles",
+      "London",
+      "Europe"
+    ],
+    [
+      "Matthew Rycroft ",
+      "South Sudan",
+      "Africa"
+    ],
+    [
+      "Richard Montgomery",
+      "Kathmandu/ Yangon/Manilla",
+      "Asia"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

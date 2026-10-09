@@ -1,0 +1,30 @@
+area,city_name,gdp,id
+400.739,Denver,"The context provided does not contain a specific value for the gross domestic product (GDP) of Denver. Therefore, the answer is:",1
+145.09,city_name is Portland,"In the provided context, there is no specific mention of Portland's Gross Domestic Product (GDP). Therefore, the GDP value is not applicable.",10
+46.9,San Francisco,"In the provided context, the GDP of San Francisco is mentioned as $729 billion in 2022. To express this in the requested format (in millions), we convert the billion figure to millions:",11
+134.18,Philadelphia,"The context provides information about Philadelphia's economy, mentioning that the Philadelphia metropolitan area's gross metropolitan product (GMP) was estimated at US$479 billion in 2021. Since GMP is equivalent to GDP for a metropolitan area, the GDP of Philadelphia in millions of dollars is **479**.",12
+910.0,city_name: New Orleans,"The context provided does not contain any specific mention of the gross domestic product (GDP) of New Orleans. Therefore, the GDP value is not applicable in this case.",13
+89.64,Chicago,**GDP:** 670.5 || (in billions USD as of September 2017 estimates),14
+231.0,Orlando,"The context provided does not contain any specific information about the gross domestic product (GDP) of Orlando, Florida. Therefore, the GDP value is not applicable in this case.",15
+286.0,Salt Lake City,"The context provided does not include a specific value for the Gross Domestic Product (GDP) of Salt Lake City. Therefore, the answer is:",16
+630.0,city_name is Toronto.,"The context provided does not contain a specific mention of Toronto's Gross Domestic Product (GDP). Therefore, the GDP value for Toronto is not available from the given text.",17
+517.9,Phoenix,GDP: 243 ||,18
+177.0,"Washington, D.C.","The context provides information about Washington, D.C., including its history, geography, demographics, economy, and various other aspects. However, it does not explicitly state the Gross Domestic Product (GDP) of the city.",19
+125.0,Boston,"In the provided context, the gross domestic product (GDP) of Boston is not explicitly stated. However, it mentions that the Greater Boston metropolitan area has the sixth-largest economy in the country with a GDP of $363 billion. To convert this to millions, we divide by 1,000:",2
+82.47,Cleveland,"The context provides the GDP for the Greater Cleveland Metropolitan Statistical Area (MSA) as $138.3 billion in 2022. When expressed in millions, this is 138,300 million. Therefore, the GDP in the requested format is:",20
+640.4,Houston,The context provides the following information about the GDP of Houston:,21
+259.0,Sacramento,"The context provided does not include any specific information about the gross domestic product (GDP) of Sacramento, California. Therefore, the GDP value is not applicable in this case.",22
+138.75,Detroit,"The context provided does not contain any specific information about the gross domestic product (GDP) of Detroit. Therefore, the GDP value is not applicable in this case.",23
+839.2,Memphis,"The context provided does not contain any specific information about the gross domestic product (GDP) of Memphis, Tennessee. Therefore, the GDP value is not applicable in this case.",24
+808.1,Charlotte,"The context provided does not contain a specific mention of Charlotte, North Carolina's gross domestic product (GDP). Therefore, the GDP value is not available from the given information.",25
+1213.37,New York City,2.16 ||,26
+620.34,Oklahoma City,"The context provided does not contain a specific value for the gross domestic product (GDP) of Oklahoma City. Therefore, the answer is:",27
+250.71,Milwaukee,"The context provided does not explicitly state the Gross Domestic Product (GDP) of Milwaukee. However, it mentions that Milwaukee is categorized as a ""Gamma minus"" city by the Globalization and World Cities Research Network, with a regional GDP of over $102 billion in 2020. Since this GDP figure pertains to the broader metropolitan area rather than the city itself, and no specific city-level GDP is given, the answer is:",28
+347.1,Atlanta,**GDP:** 7.73 || 385 (in billions),29
+950.0,Indianapolis,"The context provided does not contain a direct mention of the city's GDP. However, it states that ""Indianapolis anchors the 29th largest metropolitan economy in the U.S., with a gross domestic product of US$184.4 billion in 2022.""",3
+385.8,Dallas,"The context provided does not contain a specific value for the gross domestic product (GDP) of Dallas. Therefore, the answer is:",4
+1205.4,San Antonio,"The context provided mentions that ""San Antonio has a diversified economy with a gross domestic product (GDP) of approximately $121 billion in 2018."" Therefore, the GDP of San Antonio in the context is:",5
+469.0,Los Angeles,The context provides the following information about the GDP of Los Angeles:,6
+152.8,Minneapolis,"The context provided does not contain a direct mention of Minneapolis's Gross Domestic Product (GDP). However, it does state that the Twin Cities metropolitan area's GDP was $323.9 billion in 2022 ($337 billion in 2023). Since Minneapolis is part of the Twin Cities metropolitan area, we can infer the city's contribution to this GDP, but the exact figure for Minneapolis alone is not specified in the text.",7
+384.4,Miami,"The context provides information about Miami, including its economy and gross domestic product (GDP). Specifically, it states:",8
+9.1,Inglewood,"The context provided does not contain any information about the gross domestic product (GDP) of Inglewood, California. Therefore, the answer is:",9

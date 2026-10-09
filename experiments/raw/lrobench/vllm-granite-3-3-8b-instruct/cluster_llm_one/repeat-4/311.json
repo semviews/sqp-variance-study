@@ -1,0 +1,109 @@
+{
+  "benchmark": "lrobench",
+  "operator": "cluster",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 311,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 16.19,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 16,
+  "judge_calls": 0,
+  "returned": [
+    0.0201,
+    0.4684
+  ],
+  "tokens": [
+    4878,
+    4632,
+    246
+  ],
+  "metrics": [
+    {
+      "metric": "ari",
+      "value": 0.0201,
+      "prediction": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        1,
+        4,
+        4,
+        4,
+        5,
+        1,
+        0,
+        5,
+        4,
+        2
+      ],
+      "truth": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        3,
+        1,
+        2,
+        2,
+        3,
+        2,
+        4,
+        4,
+        4,
+        4,
+        0
+      ]
+    },
+    {
+      "metric": "nmi",
+      "value": 0.4684,
+      "prediction": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        1,
+        4,
+        4,
+        4,
+        5,
+        1,
+        0,
+        5,
+        4,
+        2
+      ],
+      "truth": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        3,
+        1,
+        2,
+        2,
+        3,
+        2,
+        4,
+        4,
+        4,
+        4,
+        0
+      ]
+    }
+  ]
+}

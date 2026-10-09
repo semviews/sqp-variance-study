@@ -1,0 +1,32 @@
+ID,area,city_name,gdp,population,state_name
+1,400.739,Denver,,"715,522",Colorado
+2,232.1,Boston,,675647||691531,Massachusetts
+3,950||953,Indianapolis,184400,"887,642||880,621",Indiana
+4,999.3,Dallas,,1304379||1299544,Texas
+5,1205.4||1193.8||11.7,San Antonio,121000,"1,434,625||2,600,000 (metropolitan area, 2020 census)",Texas
+6,1302||1214,Los Angeles,1000000,"3,820,914||3,792,621",California
+7,152.8,Minneapolis,||,"429,954||521,718",Minnesota
+8,,Miami,344900||257000,442241,Florida
+9,24,Inglewood,,107762||109673||112482,California
+10,375.78||345.58||30.20,Portland,,652503,Oregon
+11,121||600,San Francisco,,,California
+12,369.62,Philadelphia,,,Pennsylvania
+13,910||440||470,New Orleans,,"383,997",Louisiana
+14,,Chicago,689000||670500,2746388,Illinois
+15,,Orlando,,307573,Florida
+16,286,Salt Lake City,GDP:,200133||186440,Utah
+17,630.2,Toronto,,,
+18,1341,Phoenix,243000||362000,1662607||1608139,Arizona
+19,177||158.1||18.9,"Washington, D.C.",,,
+20,213.60||201.24||12.35,Cleveland,,"372,624",Ohio
+21,1659||1651,Houston,633000,,Texas
+22,259,Sacramento,,524943||466488,California
+23,370.03||359.36||10.67,Detroit,,639111,Michigan
+24,839.2||816.0||23.2,Memphis,"
+
+",633104||652078,Tennessee
+25,808.1||802.9||5.1,Charlotte,,874579||885708,North Carolina
+26,1213.37||783.84||429.53,New York City,1053000,8258035||8804190,New York
+27,1606.7||1556.9||49.8,Oklahoma City,43100||61100||73800,579999||681054,Oklahoma
+28,250.71||248.95||1.76,Milwaukee,102000,"577,222",Wisconsin
+29,347.1||344.9,Atlanta,473000,"510,823||498,715",Georgia

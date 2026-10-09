@@ -1,0 +1,109 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 100,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 86.359,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 16,
+  "returned": [
+    0.75,
+    0.75
+  ],
+  "tokens": [
+    6068,
+    2734,
+    3334
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.75,
+      "prediction": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English",
+        "United States English",
+        "German",
+        "English",
+        "New Falcon Publications",
+        "Picador",
+        "Gollancz",
+        "Farrar, Straus and Giroux",
+        "National Geographic Children's Books",
+        "Samuel French Ltd",
+        "Penguin Books",
+        "Simon & Schuster Audio"
+      ],
+      "truth": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English",
+        "United States English",
+        "German",
+        "English",
+        "New Falcon Publications",
+        "Picador",
+        "Gollancz",
+        "HarperCollins Publishers",
+        "National Geographic",
+        "Samuel French Ltd",
+        "Rupa & Co",
+        "Pimsleur"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.75,
+      "prediction": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English",
+        "United States English",
+        "German",
+        "English",
+        "New Falcon Publications",
+        "Picador",
+        "Gollancz",
+        "Farrar, Straus and Giroux",
+        "National Geographic Children's Books",
+        "Samuel French Ltd",
+        "Penguin Books",
+        "Simon & Schuster Audio"
+      ],
+      "truth": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English",
+        "United States English",
+        "German",
+        "English",
+        "New Falcon Publications",
+        "Picador",
+        "Gollancz",
+        "HarperCollins Publishers",
+        "National Geographic",
+        "Samuel French Ltd",
+        "Rupa & Co",
+        "Pimsleur"
+      ]
+    }
+  ]
+}

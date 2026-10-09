@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 4: 2 (team) */ SELECT championship, founded_year, location FROM team WHERE location = 'Brooklyn' AND location = 'Memphis'",
+  "team": {
+    "championship": {
+      "value_type": "int",
+      "description": "championships is the number of this team getting championships (e.g. 5)."
+    },
+    "founded_year": {
+      "value_type": "int",
+      "description": "founded_year is the year of this team team founded (e.g. 1947)."
+    },
+    "location": {
+      "value_type": "str",
+      "description": "location is the lastest city the team team located (e.g. Los Angeles)."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{"key": "dda8f06166f9913f", "role": "operator", "t": 1790982006.71, "seconds": 1.881, "output": "[\n  {\"index\":\"0\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "ca6d033332119f95", "role": "operator", "t": 1790982008.592, "seconds": 1.031, "output": "[\n  {\"index\":\"1\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "3812113abeeaac18", "role": "operator", "t": 1790982009.623, "seconds": 1.049, "output": "[\n  {\"index\":\"2\", \"cluster_name\": \"Humid Subtropical\", \"cluster_label\": \"2\"}\n]"}
+{"key": "d0fb942e3fa6e275", "role": "operator", "t": 1790982010.672, "seconds": 1.041, "output": "[\n  {\"index\":\"3\", \"cluster_name\": \"Humid Subtropical\", \"cluster_label\": \"2\"}\n]"}
+{"key": "984b85b73fd26c80", "role": "operator", "t": 1790982011.713, "seconds": 1.06, "output": "[\n  {\"index\":\"4\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "3689fd39f674a300", "role": "operator", "t": 1790982012.774, "seconds": 0.887, "output": "[\n  {\"index\":\"5\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "b6839babad05df2e", "role": "operator", "t": 1790982013.661, "seconds": 1.039, "output": "[\n  {\"index\":\"6\", \"cluster_name\": \"Humid Subtropical\", \"cluster_label\": \"2\"}\n]"}
+{"key": "9db46b13833e9a2c", "role": "operator", "t": 1790982014.7, "seconds": 0.941, "output": "[\n  {\"index\":\"7\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "5965ccbf804cd229", "role": "operator", "t": 1790982015.641, "seconds": 0.986, "output": "[\n  {\"index\":\"8\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "100e7a155820e135", "role": "operator", "t": 1790982016.626, "seconds": 1.053, "output": "[\n  {\"index\":\"9\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "8e6c085704115057", "role": "operator", "t": 1790982017.679, "seconds": 0.955, "output": "[\n  {\"index\":\"10\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "bb62473017f6f1d1", "role": "operator", "t": 1790982018.635, "seconds": 1.228, "output": "[\n  {\"index\":\"11\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "6416690a37952002", "role": "operator", "t": 1790982019.863, "seconds": 1.02, "output": "[\n  {\"index\":\"12\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "d9094d582085ddcf", "role": "operator", "t": 1790982020.883, "seconds": 1.006, "output": "[\n  {\"index\":\"13\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "348998d3e2473402", "role": "operator", "t": 1790982021.889, "seconds": 1.036, "output": "[\n  {\"index\":\"14\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "1f6147d184ca7f28", "role": "operator", "t": 1790982022.925, "seconds": 1.042, "output": "[\n  {\"index\":\"15\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "8d82be68382a9d3b", "role": "operator", "t": 1790982023.967, "seconds": 0.94, "output": "[\n  {\"index\":\"16\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "c38550b7c50da3fa", "role": "operator", "t": 1790982024.907, "seconds": 0.963, "output": "[\n  {\"index\":\"17\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "703f5657f3eab59b", "role": "operator", "t": 1790982025.87, "seconds": 0.859, "output": "[\n  {\"index\":\"18\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "6cf6aedf9f171cd7", "role": "operator", "t": 1790982026.729, "seconds": 1.434, "output": "[\n  {\"index\":\"19\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "46e409307db847ea", "role": "operator", "t": 1790982028.163, "seconds": 0.956, "output": "[\n  {\"index\":\"21\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "b04ea49f7e861fc1", "role": "operator", "t": 1790982029.119, "seconds": 1.011, "output": "[\n  {\"index\":\"22\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}
+{"key": "85a9552f80abc0f9", "role": "operator", "t": 1790982030.13, "seconds": 0.985, "output": "[\n  {\"index\":\"23\", \"cluster_name\": \"Humid Continental\", \"cluster_label\": \"1\"}\n]"}

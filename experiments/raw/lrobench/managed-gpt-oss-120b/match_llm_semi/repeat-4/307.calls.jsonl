@@ -1,0 +1,5 @@
+{"key": "be224ce839d9d880", "role": "operator", "t": 1790985858.456, "seconds": 2.718, "output": "STREET"}
+{"key": "ad985d80d6d550cb", "role": "operator", "t": 1790985861.174, "seconds": 3.003, "output": "CLASSIFICATION"}
+{"key": "06df2f507aca5d6c", "role": "operator", "t": 1790985864.177, "seconds": 5.746, "output": "NAME"}
+{"key": "bca63c23ee6aa507", "role": "operator", "t": 1790985869.923, "seconds": 1.247, "output": ""}
+{"key": "b4f7ae0aaa1f2772", "role": "operator", "t": 1790985871.17, "seconds": 1.28, "output": "CITY"}

@@ -1,0 +1,5 @@
+{"key": "f1486b0b9a884c17", "role": "operator", "t": 1790970749.025, "seconds": 1.391, "output": "SiteAddress"}
+{"key": "59fd699a513d5d73", "role": "operator", "t": 1790970750.416, "seconds": 1.032, "output": "To provide an accurate response, I need to know the specific 'NAME' column from Table Left that you want to match against the columns listed in Table Right. Could you please provide the name of the column from Table Left that you are trying to match?"}
+{"key": "0efba2d99a25e419", "role": "operator", "t": 1790970751.448, "seconds": 0.39, "output": "URL"}
+{"key": "2234702caa842d25", "role": "operator", "t": 1790970751.839, "seconds": 0.409, "output": "Geom"}
+{"key": "dd54742a95fb1d84", "role": "operator", "t": 1790970752.247, "seconds": 0.483, "output": "GeoLocalArea"}

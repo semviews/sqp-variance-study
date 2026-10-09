@@ -1,0 +1,1 @@
+{"key": "2ca88bef781a408d", "role": "operator", "t": 1790966565.363, "seconds": 2.595, "output": "[\n  \"geo_sea\",\n  \"sea\",\n  \"geo_estuary\",\n  \"mergesWith\",\n  \"lake\",\n  \"isMember\",\n  \"geo_source\",\n  \"islandIn\",\n  \"locatedOn\",\n  \"located\",\n  \"river\",\n  \"geo_river\",\n  \"islandIn\",\n  \"continent\"\n]"}

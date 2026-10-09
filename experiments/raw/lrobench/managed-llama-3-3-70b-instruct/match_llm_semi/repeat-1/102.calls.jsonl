@@ -1,0 +1,23 @@
+{"key": "906ee449b5684370", "role": "operator", "t": 1790969090.264, "seconds": 1.903, "output": "{match_location(left_city=\"Nantes\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "54f588ad41d7c28f", "role": "operator", "t": 1790969090.265, "seconds": 1.91, "output": "{match_location(left_city=\"Madrid\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "b849b7b26a10aab3", "role": "operator", "t": 1790969090.267, "seconds": 1.909, "output": "EMEA"}
+{"key": "5ab38827b3af2560", "role": "operator", "t": 1790969090.267, "seconds": 2.131, "output": "{match_location(left_city=\"\u00c5rhus\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "1be22e9263bf8b07", "role": "operator", "t": 1790969090.265, "seconds": 2.135, "output": "EMEA"}
+{"key": "353ac6ca7fc6e858", "role": "operator", "t": 1790969090.266, "seconds": 2.14, "output": "{match_location|left_city=\"Lyon\"|right_territory=[\"NaN\",\"EMEA\",\"Japan\",\"APAC\"]}"}
+{"key": "e299c9e4515881bb", "role": "operator", "t": 1790969090.264, "seconds": 2.152, "output": "{tool.call.match_territory(left_city=\"San Rafael\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "fbd3b01348b35e94", "role": "operator", "t": 1790969090.266, "seconds": 2.205, "output": "{tool.call.match_territory(left_city=\"Singapore\", right_territory=[NaN, \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "2878579ae951f68d", "role": "operator", "t": 1790969090.264, "seconds": 2.285, "output": "{tool.call.match_territory(left_city=\"Melbourne\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "58d2b5ea4a508fef", "role": "operator", "t": 1790969090.266, "seconds": 2.968, "output": "{match_location|location_name:Allentown|territory_list:[NaN,EMEA,Japan,APAC]}"}
+{"key": "55610fb3544e688d", "role": "operator", "t": 1790969092.167, "seconds": 1.126, "output": "{match_location:{\"left_city\":\"San Diego\",\"right_territory\":[\"NaN\",\"EMEA\",\"Japan\",\"APAC\"]}}"}
+{"key": "95edea754f84540f", "role": "operator", "t": 1790969092.549, "seconds": 0.84, "output": "APAC"}
+{"key": "84b172cce3b22c15", "role": "operator", "t": 1790969092.549, "seconds": 1.304, "output": "{match_location(left_city=\"Cambridge\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "b07ac0b2bd01dcd7", "role": "operator", "t": 1790969092.549, "seconds": 1.31, "output": "{match_location(left_city=\"K\u00f6ln\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "cd1e2dc469e6723d", "role": "operator", "t": 1790969092.549, "seconds": 1.329, "output": "{match_location(left_city=\"Torino\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "7005faafefab0fe7", "role": "operator", "t": 1790969092.549, "seconds": 1.331, "output": "{match_location|location=Bergamo|options=EMEA,Japan,APAC}"}
+{"key": "4f759ce68033cc03", "role": "operator", "t": 1790969092.549, "seconds": 1.495, "output": "{tool:match_value, args: [\"San Francisco\", \"left_city\", \"right_territory\", [\"NaN\", \"EMEA\", \"Japan\", \"APAC\"]]}"}
+{"key": "8ce7d47935d0b24b", "role": "operator", "t": 1790969092.549, "seconds": 1.527, "output": "{match_location|location_name:Gen\u00e8ve|location_type:city|territory_type:region|available_values:[NaN,EMEA,Japan,APAC]}"}
+{"key": "a421170693c3bd42", "role": "operator", "t": 1790969092.549, "seconds": 1.534, "output": "{tool.call.match_territory(left_city=\"White Plains\", right_territory=[NaN, \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "6252aeb1211c21fd", "role": "operator", "t": 1790969093.235, "seconds": 1.262, "output": "{match_location(left_city=\"Nashua\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "a62fc7b065f249e3", "role": "operator", "t": 1790969093.293, "seconds": 1.327, "output": "{match_location(left_city=\"Reggio Emilia\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "88d4dd2bb247e2bc", "role": "operator", "t": 1790969093.389, "seconds": 1.691, "output": "EMEA"}
+{"key": "ff6ed0b2379ff205", "role": "operator", "t": 1790969093.853, "seconds": 2.128, "output": "{tool.call.match_territory(left_city=\"Auckland\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}

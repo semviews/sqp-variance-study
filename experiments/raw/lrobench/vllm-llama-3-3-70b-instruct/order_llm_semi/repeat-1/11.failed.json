@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 11,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 4.543,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 262, in pipeline_order11\n    sea = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'The Baltic Sea has a surface area of approximately 377,000 square kilometers. Considering the average area of the world\\'s seas, I would assign a score of 82 based on its relatively large size compared to other seas. \\n\\n\"82'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'The Black Sea has an area of approximately 436,400 square kilometers. Considering the areas of other major seas, I would assign a score relative to the largest seas. \\n\\n436,400 square kilometers is significant but not as large as some of the major seas like the Philippine Sea or the Coral Sea. However, it is larger than many other seas. Given this, a score of 60 seems reasonable, reflecting its moderate to large size compared to other seas around ",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'The Black Sea has an area of approximately 436,400 square kilometers. Considering the areas of other major seas, I would assign a score relative to the largest seas. \\n\\n436,400 square kilometers is significant but not as large as some of the major seas like the Philippine Sea or the Coral Sea. However, it is larger than many other seas. Given this, a score of 60 seems reasonable, reflecting its moderate to large size compared to other seas around ",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

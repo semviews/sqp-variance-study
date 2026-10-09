@@ -1,0 +1,124 @@
+{
+ "plans": {
+  "lotus": "per-row calls, or a sampled cascade on joins",
+  "bigquery": "fixed SQL plan, model called inside the service",
+  "palimpzest": "optimizer chooses physical operators",
+  "thalamusdb": "approximate processing over sampled rows"
+ },
+ "cascade_queries": [
+  [
+   "ecomm",
+   "Q7"
+  ],
+  [
+   "ecomm",
+   "Q9"
+  ],
+  [
+   "mmqa",
+   "Q2a"
+  ],
+  [
+   "mmqa",
+   "Q2b"
+  ],
+  [
+   "mmqa",
+   "Q7"
+  ],
+  [
+   "movie",
+   "Q5"
+  ],
+  [
+   "movie",
+   "Q6"
+  ],
+  [
+   "movie",
+   "Q7"
+  ]
+ ],
+ "summary": {
+  "bigquery": {
+   "cells": 27,
+   "moving": 8,
+   "share": 0.2962962962962963,
+   "ci": [
+    0.15852853317647564,
+    0.4848103338083759
+   ]
+  },
+  "deterministic": {
+   "cells": 50,
+   "moving": 12,
+   "share": 0.24,
+   "ci": [
+    0.14297252401872207,
+    0.3741294937519236
+   ]
+  },
+  "lotus": {
+   "cells": 27,
+   "moving": 7,
+   "share": 0.25925925925925924,
+   "ci": [
+    0.13170208422866778,
+    0.4467893040261568
+   ]
+  },
+  "palimpzest": {
+   "cells": 28,
+   "moving": 4,
+   "share": 0.14285714285714285,
+   "ci": [
+    0.056989129307017855,
+    0.31490173044877334
+   ]
+  },
+  "randomized": {
+   "cells": 51,
+   "moving": 9,
+   "share": 0.17647058823529413,
+   "ci": [
+    0.095722957258099,
+    0.30254405172778037
+   ]
+  },
+  "thalamusdb": {
+   "cells": 19,
+   "moving": 2,
+   "share": 0.10526315789473684,
+   "ci": [
+    0.029357941395096593,
+    0.313945504948417
+   ]
+  }
+ },
+ "macros": {
+  "pubPlanBigqueryCells": 27,
+  "pubPlanBigqueryMoving": 8,
+  "pubPlanBigqueryMovingPct": "30\\%",
+  "pubPlanBigqueryMovingCi": "[16, 48]\\%",
+  "pubPlanDeterministicCells": 50,
+  "pubPlanDeterministicMoving": 12,
+  "pubPlanDeterministicMovingPct": "24\\%",
+  "pubPlanDeterministicMovingCi": "[14, 37]\\%",
+  "pubPlanLotusCells": 27,
+  "pubPlanLotusMoving": 7,
+  "pubPlanLotusMovingPct": "26\\%",
+  "pubPlanLotusMovingCi": "[13, 45]\\%",
+  "pubPlanPalimpzestCells": 28,
+  "pubPlanPalimpzestMoving": 4,
+  "pubPlanPalimpzestMovingPct": "14\\%",
+  "pubPlanPalimpzestMovingCi": "[6, 31]\\%",
+  "pubPlanRandomizedCells": 51,
+  "pubPlanRandomizedMoving": 9,
+  "pubPlanRandomizedMovingPct": "18\\%",
+  "pubPlanRandomizedMovingCi": "[10, 30]\\%",
+  "pubPlanThalamusDbCells": 19,
+  "pubPlanThalamusDbMoving": 2,
+  "pubPlanThalamusDbMovingPct": "11\\%",
+  "pubPlanThalamusDbMovingCi": "[3, 31]\\%"
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "sql": "/* Query 5: filter5_agg1 (player) */ SELECT team, AVG(fiba_world_cup) AS avg_fiba_world_cup FROM player WHERE team = 'Boston Celtics' OR nba_championships <= 0 OR fiba_world_cup < 0 GROUP BY team",
+  "player": {
+    "fiba_world_cup": {
+      "value_type": "int",
+      "description": "number of FIBA World Cup titles the player has won (e.g., 1)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

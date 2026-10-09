@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or these logs, please cite the paper."
+title: "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing"
+authors:
+  - family-names: Hassanzadeh
+    given-names: Oktie
+  - family-names: Subramanian
+    given-names: Dharmashankar
+license: MIT
+repository-code: "https://github.com/semviews/sqp-variance-study"
+preferred-citation:
+  type: unpublished
+  title: "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing"
+  authors:
+    - family-names: Hassanzadeh
+      given-names: Oktie
+    - family-names: Subramanian
+      given-names: Dharmashankar
+  year: 2026
+  notes: "Under review"
+  url: "https://github.com/semviews/sqp-variance-study"

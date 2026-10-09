@@ -1,0 +1,1 @@
+{"key": "c9a9b9126ec652ae", "role": "operator", "t": 1790963195.042, "seconds": 2.777, "output": "[\n  {\"Table Left\": \"ADDRESS\", \"Table Right\": \"SiteAddress\"},\n  {\"Table Left\": \"Geom\", \"Table Right\": \"Geom\"},\n  {\"Table Left\": \"Geo Local Area\", \"Table Right\": \"GeoLocalArea\"},\n  {\"Table Left\": \"URLLINK\", \"Table Right\": \"URL\"}\n]"}

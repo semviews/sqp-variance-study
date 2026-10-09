@@ -1,0 +1,5 @@
+{"key": "6204f8a77fa46bbb", "role": "operator", "t": 1790975167.019, "seconds": 2.211, "output": "{\"name\": \"Silverstone Circuit\", \"location\": \"Silverstone\", \"alt\": 102}"}
+{"key": "2c3263d4de4d0781", "role": "operator", "t": 1790975167.02, "seconds": 2.228, "output": "{\"name\": \"N\u00fcrburgring\", \"location\": \"N\u00fcrburg\", \"alt\": 470}"}
+{"key": "b38374008a6179f5", "role": "operator", "t": 1790975167.019, "seconds": 2.318, "output": "{\"name\": \"Circuit de Spa-Francorchamps\", \"location\": \"Spa\", \"alt\": 422}"}
+{"key": "596a6a280d70265d", "role": "operator", "t": 1790975167.022, "seconds": 2.364, "output": "{\"name\": \"Zolder\", \"location\": \"Heusden-Zolder\", \"alt\": 30}"}
+{"key": "5b150d54c0aac3f8", "role": "operator", "t": 1790975167.023, "seconds": 2.47, "output": "{\"name\": \"Scandinavian Raceway\", \"location\": \"Anderstorp\", \"alt\": 143}"}

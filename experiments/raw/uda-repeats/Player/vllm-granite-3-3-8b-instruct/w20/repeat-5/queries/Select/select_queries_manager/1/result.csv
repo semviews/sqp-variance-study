@@ -1,0 +1,17 @@
+nba_team,name,own_year,id
+NBA_team is the Detroit Pistons.,Tom Gores,2011,1
+Cleveland Cavaliers || Cleveland Monsters,Dan Gilbert,2005,2
+Los Angeles Clippers,Steve Ballmer,2014,3
+Orlando Magic,Daniel G. DeVos,1991,4
+Dallas Mavericks,Mark Cuban,2010,5
+Houston Rockets,Tilman Joseph Fertitta,2017,6
+Brooklyn Nets || New York Liberty,Joseph Tsai || Clara Wu Tsai,2019,7
+Oklahoma City Thunder,Clayton Ike Bennett,2006,8
+Indiana Pacers || Indiana Fever,Herbert Simon || Porntip Bui Nakhirunkanok,1983,9
+Chicago Bulls || Chicago White Sox,Jerry Michael Reinsdorf,1985,10
+NBA_team: New Orleans Pelicans,Gayle Marie LaJaunie Bird Benson,2018,11
+Stan Kroenke owns the **Denver Nuggets** in the NBA.,Stanley Enos Kroenke || Ann Walton Kroenke,2000,12
+NBA_team is the Philadelphia 76ers.,Joshua Jordan Harris,2011,13
+NBA_team is the New York Knicks || New York Rangers,James Lawrence Dolan,1994,14
+NBA_team is Miami Heat.,"Micky Arison || (Note: The context specifies that Micky Arison is the owner of the Miami Heat, so the answer is Micky Arison. There are no other owners mentioned for the team in the provided context.)",1995,15
+Golden State Warriors || Golden State Valkyries,Joe Lacob,2010,16

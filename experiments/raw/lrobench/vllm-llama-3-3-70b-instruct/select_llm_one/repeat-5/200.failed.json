@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 200,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 21.709,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 585, in pipeline_select200\n    result = op.execute(impl_type = args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To solve this, we need to establish a connection between the column name 'cname' and the SAT test. The SAT, or Scholastic Aptitude Test, is a standardized test widely used for college admissions in t\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To solve this, we need to establish a connection between the column name 'cname' and the SAT test. The SAT, or Scholastic Aptitude Test, is a standardized test widely used for college admissions in t",
+      "operator_calls": 5
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To solve this, we need to establish a connection between the column name \\'cname\\' and the SAT test. The SAT, or Scholastic Aptitude Test, is a standardized test widely used for college admissions in",
+      "operator_calls": 5
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0
+}

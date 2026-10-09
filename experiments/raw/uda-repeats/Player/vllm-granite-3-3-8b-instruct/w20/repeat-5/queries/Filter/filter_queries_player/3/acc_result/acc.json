@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "mvp_awards": {
+      "precision": 0.38461538461538464,
+      "recall": 0.5882352941176471,
+      "f1": 0.46511627906976744
+    },
+    "draft_pick": {
+      "precision": 0.38461538461538464,
+      "recall": 0.5882352941176471,
+      "f1": 0.46511627906976744
+    },
+    "name": {
+      "precision": 0.19230769230769232,
+      "recall": 0.29411764705882354,
+      "f1": 0.23255813953488372
+    }
+  },
+  "macro_precision": 0.32051282051282054,
+  "macro_recall": 0.4901960784313726,
+  "macro_f1": 0.3875968992248062,
+  "rows": {
+    "len_gold": 17,
+    "len_pred": 26,
+    "matched_rows": 15
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "mvp_awards",
+    "draft_pick",
+    "name"
+  ],
+  "skipped_columns": []
+}

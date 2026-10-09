@@ -1,0 +1,17 @@
+nba_team,name,own_year,id
+NBA_team is the Detroit Pistons.,Tom Gores,2011,1
+Cleveland Cavaliers || Cleveland Monsters,Dan Gilbert,2005,2
+Los Angeles Clippers,Steve Ballmer,2014,3
+Orlando Magic,Daniel G. DeVos,1991,4
+Dallas Mavericks,Mark Cuban,2010,5
+Houston Rockets,Tilman Joseph Fertitta,2017,6
+Brooklyn Nets || New York Liberty,Joseph Tsai || Clara Wu Tsai,2019,7
+Oklahoma City Thunder,Clayton Ike Bennett,2006,8
+Indiana Pacers || Indiana Fever,Herbert Simon || Porntip Bui Nakhirunkanok,1983,9
+Chicago Bulls || Chicago White Sox,Jerry Michael Reinsdorf,1985,10
+NBA_team: New Orleans Pelicans,Gayle Marie LaJaunie Bird Benson,2018,11
+"**NBA_team:** Denver Nuggets || Colorado Avalanche (Note: The Avalanche is an NHL team, but it is included here as per the instruction to list all teams owned by Stan Kroenke in the context of the provided information.)",Stanley Enos Kroenke || Ann Walton Kroenke,2000,12
+NBA_team is the Philadelphia 76ers.,Joshua Jordan Harris,2011,13
+NBA_team is the New York Knicks || New York Rangers,James Lawrence Dolan,1994,14
+NBA_team is Miami Heat.,Micky Arison ||,1995,15
+Golden State Warriors || Golden State Valkyries,Joe Lacob,2010,16

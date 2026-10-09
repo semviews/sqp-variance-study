@@ -1,0 +1,235 @@
+{
+  "cells": [
+    {
+      "scenario": "movie",
+      "query": 1,
+      "disagreement": {
+        "single": 2.073333333333333,
+        "vote3": 1.4666666666666668,
+        "vote5": 1.15
+      },
+      "vote3_cost": 2.0215,
+      "minority": {
+        "1": 35,
+        "2": 24,
+        "3": 22,
+        "4": 20,
+        "5": 9
+      },
+      "minority_at_least_3": 0.4636363636363636,
+      "accuracy": {
+        "single": "",
+        "vote3": "",
+        "vote5": ""
+      }
+    },
+    {
+      "scenario": "movie",
+      "query": 2,
+      "disagreement": {
+        "single": 2.074074074074074,
+        "vote3": 1.1111111111111112,
+        "vote5": 0.8333333333333334
+      },
+      "vote3_cost": 2.025,
+      "minority": {
+        "1": 2,
+        "2": 3,
+        "3": 1,
+        "5": 1
+      },
+      "minority_at_least_3": 0.2857142857142857,
+      "accuracy": {
+        "single": "",
+        "vote3": "",
+        "vote5": ""
+      }
+    },
+    {
+      "scenario": "movie",
+      "query": 3,
+      "disagreement": {
+        "single": 1.2222222222222219,
+        "vote3": 0.5555555555555556,
+        "vote5": 0.8333333333333334
+      },
+      "vote3_cost": 2.0194444444444444,
+      "minority": {
+        "1": 5,
+        "3": 1
+      },
+      "minority_at_least_3": 0.16666666666666666,
+      "accuracy": {
+        "single": 0.9,
+        "vote3": 0.8972222222222223,
+        "vote5": 0.8958333333333334
+      }
+    },
+    {
+      "scenario": "movie",
+      "query": 4,
+      "disagreement": {
+        "single": 1.4259259259259256,
+        "vote3": 0.5555555555555556,
+        "vote5": 0.8333333333333334
+      },
+      "vote3_cost": 2.0166666666666666,
+      "minority": {
+        "1": 4,
+        "2": 1,
+        "5": 1
+      },
+      "minority_at_least_3": 0.16666666666666666,
+      "accuracy": {
+        "single": 0.9125,
+        "vote3": 0.9111111111111111,
+        "vote5": 0.9125
+      }
+    },
+    {
+      "scenario": "movie",
+      "query": 8,
+      "disagreement": {
+        "single": 1.5925925925925923,
+        "vote3": 1.1111111111111112,
+        "vote5": 0.0
+      },
+      "vote3_cost": 2.013888888888889,
+      "minority": {
+        "1": 1,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "minority_at_least_3": 0.4,
+      "accuracy": {
+        "single": 0.935,
+        "vote3": 0.9361111111111111,
+        "vote5": 0.9333333333333333
+      }
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "disagreement": {
+        "single": 9.86111111111111,
+        "vote3": 5.729166666666667,
+        "vote5": 5.46875
+      },
+      "vote3_cost": 2.1015625,
+      "minority": {
+        "1": 18,
+        "2": 13,
+        "3": 14,
+        "4": 8,
+        "5": 9,
+        "6": 1
+      },
+      "minority_at_least_3": 0.5079365079365079,
+      "accuracy": {
+        "single": 0.55625,
+        "vote3": 0.5690104166666666,
+        "vote5": 0.57421875
+      }
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "disagreement": {
+        "single": 8.687777777777777,
+        "vote3": 5.816666666666667,
+        "vote5": 4.95
+      },
+      "vote3_cost": 2.088,
+      "minority": {
+        "1": 127,
+        "2": 100,
+        "3": 82,
+        "4": 80,
+        "5": 44,
+        "6": 8
+      },
+      "minority_at_least_3": 0.4852607709750567,
+      "accuracy": {
+        "single": "",
+        "vote3": "",
+        "vote5": ""
+      }
+    },
+    {
+      "scenario": "medical",
+      "query": 1,
+      "disagreement": {
+        "single": 2.212962962962963,
+        "vote3": 1.388888888888889,
+        "vote5": 1.1666666666666667
+      },
+      "vote3_cost": 2.0208333333333335,
+      "minority": {
+        "1": 27,
+        "2": 14,
+        "3": 9,
+        "4": 11,
+        "5": 11
+      },
+      "minority_at_least_3": 0.4305555555555556,
+      "accuracy": {
+        "single": "",
+        "vote3": "",
+        "vote5": ""
+      }
+    },
+    {
+      "scenario": "medical",
+      "query": 4,
+      "disagreement": {
+        "single": 0.3907407407407407,
+        "vote3": 0.3888888888888889,
+        "vote5": 0.25
+      },
+      "vote3_cost": 2.004722222222222,
+      "minority": {
+        "1": 2,
+        "2": 3,
+        "4": 5,
+        "5": 1
+      },
+      "minority_at_least_3": 0.5454545454545454,
+      "accuracy": {
+        "single": "",
+        "vote3": "",
+        "vote5": ""
+      }
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "disagreement": {
+        "single": 12.783333333333333,
+        "vote3": 8.88888888888889,
+        "vote5": 8.416666666666666
+      },
+      "vote3_cost": 2.1280555555555556,
+      "minority": {
+        "1": 106,
+        "2": 76,
+        "3": 63,
+        "4": 44,
+        "5": 54,
+        "6": 20,
+        "7": 2
+      },
+      "minority_at_least_3": 0.5013698630136987,
+      "accuracy": {
+        "single": "",
+        "vote3": "",
+        "vote5": ""
+      }
+    }
+  ],
+  "mean_reduction_vote3": 0.36463255065792816,
+  "mean_reduction_vote5": 0.48275582540620005,
+  "minority_at_least_3_overall": 0.48158379373848986,
+  "max_vote3_cost": 2.1280555555555556,
+  "max_accuracy_change": 0.017968749999999978
+}

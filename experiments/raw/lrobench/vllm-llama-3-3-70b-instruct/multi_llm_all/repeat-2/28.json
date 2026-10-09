@@ -1,0 +1,35 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 28,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 70.931,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 281,
+  "judge_calls": 0,
+  "returned": [
+    "Autodromo Nazionale di Monza",
+    "Autodromo Enzo e Dino Ferrari",
+    "Red Bull Ring"
+  ],
+  "tokens": 64557,
+  "metrics": [],
+  "prediction": [
+    "Autodromo Nazionale di Monza",
+    "Autodromo Enzo e Dino Ferrari",
+    "Red Bull Ring"
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

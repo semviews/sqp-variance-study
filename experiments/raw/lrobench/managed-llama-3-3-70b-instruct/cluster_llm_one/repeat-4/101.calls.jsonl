@@ -1,0 +1,3 @@
+{"key": "9c877ec31d4e8e77", "role": "operator", "t": 1790975240.266, "seconds": 1.862, "output": "[\n  {\"index\":\"0\", \"cluster_name\": \"Asia\", \"cluster_label\": \"0\"}\n]"}
+{"key": "ba18b4985621333c", "role": "operator", "t": 1790975242.128, "seconds": 1.948, "output": "[{\"index\":\"1\", \"cluster_name\": \"Asia\", \"cluster_label\": \"0\"}]"}
+{"key": "92776cfb4934aade", "role": "operator", "t": 1790975244.076, "seconds": 1.501, "output": "{\"function\": \"assign_cluster\", \"params\": {\"row\": {\"index\": 2, \"name\": \"Circuit de Barcelona-Catalunya\"}, \"existing_clusters\": {\"0\": \"Asia\"}}}"}

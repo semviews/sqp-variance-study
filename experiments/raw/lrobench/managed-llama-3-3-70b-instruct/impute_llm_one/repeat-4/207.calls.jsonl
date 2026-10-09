@@ -1,0 +1,3 @@
+{"key": "6555654937b891e9", "role": "operator", "t": 1790986609.185, "seconds": 1.904, "output": "{\"Amount\": \"264\", \"Price\": \"5762.49\", \"UnitPrice\": \"21.78\"}"}
+{"key": "b5fc383d749d524d", "role": "operator", "t": 1790986609.188, "seconds": 2.087, "output": "${calculate_unit_price '{\"Amount\": \"65\", \"Price\": \"1486.38\", \"UnitPrice\": null}'}"}
+{"key": "2074a16118cc9c34", "role": "operator", "t": 1790986609.187, "seconds": 2.092, "output": "{\"Amount\": \"48\", \"Price\": \"1103.64\", \"UnitPrice\": \"23.0\"}"}

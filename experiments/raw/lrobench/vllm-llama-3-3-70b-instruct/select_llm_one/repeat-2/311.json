@@ -1,0 +1,48 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 311,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 43.8,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 22,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    0.6667,
+    0.6667
+  ],
+  "tokens": [
+    2924,
+    2902,
+    22
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        0.6667,
+        0.6667
+      ],
+      "prediction": [
+        "AwardsCoaches",
+        "Coaches",
+        "HOF"
+      ],
+      "truth": [
+        "AwardsCoaches",
+        "Coaches",
+        "Master"
+      ]
+    }
+  ]
+}

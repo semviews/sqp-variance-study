@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 311,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 7.436,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.2,
+    0.4
+  ],
+  "tokens": [
+    228,
+    187,
+    41
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.2,
+      "prediction": [
+        "1",
+        "Zheng Qinwen",
+        "Female",
+        "1.78 m",
+        "60 kg"
+      ],
+      "truth": [
+        "135572",
+        "Zheng Qinwen",
+        "F",
+        "178",
+        "70"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.4,
+      "prediction": [
+        "1",
+        "Zheng Qinwen",
+        "Female",
+        "1.78 m",
+        "60 kg"
+      ],
+      "truth": [
+        "135572",
+        "Zheng Qinwen",
+        "F",
+        "178",
+        "70"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 121,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 19.277,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    0.5833,
+    1.0,
+    0.7368
+  ],
+  "tokens": [
+    15140,
+    14937,
+    203
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5833,
+        1.0,
+        0.7368
+      ],
+      "prediction": [
+        "['Alloga Uk Ltd' 'ALCURA UK LTD']",
+        "['Csc' 'CSC COMPUTER SCIENCES LTD']",
+        "['Emis Health' 'EMERSON NETWORK POWER LTD']",
+        "['NHS Litigation Authority' 'NHS LITIGATION AUTHORITY']",
+        "['Nhs Blood And Transplant' 'NHS BLOOD & TRANSPLANT']",
+        "['Nhs Business Services Authority' 'NHS SUPPLY CHAIN']",
+        "['Nhs Supply Chain' 'NHS SUPPLY CHAIN']",
+        "['Novartis Pharmaceuticals Uk Ltd' 'NOVARTIS PHARMACEUTICALS UK LTD']",
+        "['Philips Healthcare' 'PHILIPS HEALTHCARE']",
+        "['Roche Diagnostics Limited' 'ROCHE PRODUCTS LTD']",
+        "['South Warwickshire Nhs Foundation Trust'\n 'ROYAL DEVON AND EXETER NHS FOUNDATION TRUST']",
+        "['St Helen & Knowsley Hospitals Nhs Trust' 'NHS SUPPLY CHAIN']"
+      ],
+      "truth": [
+        "['Csc' 'CSC COMPUTER SCIENCES LTD']",
+        "['NHS Litigation Authority' 'NHS LITIGATION AUTHORITY']",
+        "['Nhs Blood And Transplant' 'NHS BLOOD & TRANSPLANT']",
+        "['Nhs Supply Chain' 'NHS SUPPLY CHAIN']",
+        "['Novartis Pharmaceuticals Uk Ltd' 'NOVARTIS PHARMACEUTICALS UK LTD']",
+        "['Philips Healthcare' 'PHILIPS HEALTHCARE']",
+        "['Roche Diagnostics Limited' 'ROCHE PRODUCTS LTD']"
+      ]
+    }
+  ]
+}

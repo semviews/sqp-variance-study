@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 302,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 7.336,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1276, in pipeline_match302\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'Please provide the two values for\\u202fADDRESS\\u202fand\\u202fNeighbourhood.'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'import sys, json, re\\n\\ndef extract_values(text):\\n    text = text.strip()\\n    # Try JSON array or object with two keys\\n    try:\\n        data = json.loads(text)\\n        if isinstance(data, list)",
+      "operator_calls": 58
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'Please provide the ADDRESS and Neighbourhood values to evaluate.'",
+      "operator_calls": 16
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 18,
+  "judge_calls": 0
+}

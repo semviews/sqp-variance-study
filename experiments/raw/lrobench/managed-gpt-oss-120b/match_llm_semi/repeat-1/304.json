@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 304,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 21.34,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0,
+  "returned": [
+    0.7,
+    1.0,
+    0.8235
+  ],
+  "tokens": [
+    2012,
+    1996,
+    16
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.7,
+        1.0,
+        0.8235
+      ],
+      "prediction": [
+        "['ACTIVE_SPACE' 'Status']",
+        "['ADDRESS' 'SiteAddress']",
+        "['CULTURAL_SPACE_NAME' 'SiteName']",
+        "['Geom' 'Geom']",
+        "['LOCAL_AREA' 'GeoLocalArea']",
+        "['OWNERSHIP' 'Ownership']",
+        "['PRIMARY_USE' 'Type']",
+        "['TYPE' 'Type']",
+        "['WEBSITE' 'URL']",
+        "['YEAR' 'YearOfInstallation']"
+      ],
+      "truth": [
+        "['ADDRESS' 'SiteAddress']",
+        "['CULTURAL_SPACE_NAME' 'SiteName']",
+        "['Geom' 'Geom']",
+        "['LOCAL_AREA' 'GeoLocalArea']",
+        "['OWNERSHIP' 'Ownership']",
+        "['WEBSITE' 'URL']",
+        "['YEAR' 'YearOfInstallation']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 23,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 50.785,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 518, in pipeline_order23\n    sea = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"1\\n\\nThe Baltic Sea is generally considered to have lower species diversity compared to the Sea of Okhotsk, which is known for its rich marine biodiversity. Therefore, Item 2 (Sea of Okhotsk) has a h\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"1\\n\\nThe Baltic Sea is generally considered to have lower species diversity compared to the Sea of Okhotsk, which is known for its rich marine biodiversity. Therefore, Item 2 (Sea of Okhotsk) has a h",
+      "operator_calls": 174
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '1\\n\\n**Explanation of the reasoning process (for context, not part of the output):**\\n\\n1. **Identify the relevant criteria:** The task specifies comparing the \"The species diversity of the sea.\" met",
+      "operator_calls": 434
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 177,
+  "judge_calls": 0
+}

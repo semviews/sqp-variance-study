@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "cluster",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 305,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 5.255,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.1818,
+    0.53
+  ],
+  "tokens": [
+    750,
+    561,
+    189
+  ],
+  "metrics": [
+    {
+      "metric": "ari",
+      "value": 0.1818,
+      "prediction": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      "truth": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "metric": "nmi",
+      "value": 0.53,
+      "prediction": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      "truth": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        2
+      ]
+    }
+  ]
+}

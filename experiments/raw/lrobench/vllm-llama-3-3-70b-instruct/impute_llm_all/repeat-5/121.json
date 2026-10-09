@@ -1,0 +1,85 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 121,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 33.514,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 10,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    3105,
+    1627,
+    1478
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 1.0,
+      "prediction": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "Movie",
+        "Movie",
+        "Movie",
+        "Movie",
+        "Movie"
+      ],
+      "truth": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "Movie",
+        "Movie",
+        "Movie",
+        "Movie",
+        "Movie"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 1.0,
+      "prediction": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "Movie",
+        "Movie",
+        "Movie",
+        "Movie",
+        "Movie"
+      ],
+      "truth": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "Movie",
+        "Movie",
+        "Movie",
+        "Movie",
+        "Movie"
+      ]
+    }
+  ]
+}

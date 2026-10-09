@@ -1,0 +1,9 @@
+{
+  "sql": "/* Query 3: select (player) */ SELECT olympic_gold_medals FROM player",
+  "player": {
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  }
+}

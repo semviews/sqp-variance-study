@@ -1,0 +1,30 @@
+{"key": "f5fe4de4201957a8", "role": "operator", "t": 1790968567.013, "seconds": 1.989, "output": "[{\"index\":\"0\", \"cluster_name\": \"com\", \"cluster_label\": \"0\"}]"}
+{"key": "d416f45d0d1dddb1", "role": "operator", "t": 1790968569.002, "seconds": 1.169, "output": "[{\"index\":\"1\", \"cluster_name\": \"org\", \"cluster_label\": \"0\"}]"}
+{"key": "f2fa096b1b8a16c1", "role": "operator", "t": 1790968570.171, "seconds": 1.257, "output": "[{\"index\":\"2\", \"cluster_name\": \"org\", \"cluster_label\": \"0\"}]"}
+{"key": "28660497fbda43a1", "role": "operator", "t": 1790968571.427, "seconds": 1.183, "output": "[\n  {\"index\":\"3\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}\n]"}
+{"key": "e7fe986027bee106", "role": "operator", "t": 1790968572.61, "seconds": 1.304, "output": "[{\"index\":\"4\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "3234d3c18a6f6e5c", "role": "operator", "t": 1790968573.915, "seconds": 1.319, "output": "[{\"index\":\"5\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "d499ece8724564f6", "role": "operator", "t": 1790968575.234, "seconds": 1.328, "output": "[{\"index\":\"6\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "12dbef6cad4074bb", "role": "operator", "t": 1790968576.562, "seconds": 1.313, "output": "[{\"index\":\"7\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "e0ede15a79f69d3c", "role": "operator", "t": 1790968577.875, "seconds": 2.095, "output": "[{\"index\":\"8\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "024e9df7e291afa6", "role": "operator", "t": 1790968579.97, "seconds": 1.217, "output": "[{\"index\":\"9\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "6b28b7d0d351cdcf", "role": "operator", "t": 1790968581.187, "seconds": 1.077, "output": "[{\"index\":\"10\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "8a01c3c31e98c033", "role": "operator", "t": 1790968582.264, "seconds": 1.42, "output": "[{\"index\":\"11\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "02c575c5db8be814", "role": "operator", "t": 1790968583.684, "seconds": 1.277, "output": "[{\"index\":\"12\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "361d0c74a491482d", "role": "operator", "t": 1790968584.961, "seconds": 1.139, "output": "[{\"index\":\"13\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "dd67c88b1427353b", "role": "operator", "t": 1790968586.101, "seconds": 1.061, "output": "[{\"index\":\"14\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "29879f78a4b33f59", "role": "operator", "t": 1790968587.161, "seconds": 1.167, "output": "[{\"index\":\"15\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "7b83cf8960254db1", "role": "operator", "t": 1790968588.329, "seconds": 1.178, "output": "[{\"index\":\"16\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "bfea60104fe2cd70", "role": "operator", "t": 1790968589.507, "seconds": 1.043, "output": "[{\"index\":\"17\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "8cb75a74f68c6a1a", "role": "operator", "t": 1790968590.549, "seconds": 1.404, "output": "[{\"index\":\"18\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "7cd2b9fcdc1ea64a", "role": "operator", "t": 1790968591.954, "seconds": 0.995, "output": "[{\"index\":\"20\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "491d3965fa93c50a", "role": "operator", "t": 1790968592.949, "seconds": 1.026, "output": "[{\"index\":\"21\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "be8b121ea855ace0", "role": "operator", "t": 1790968593.974, "seconds": 0.99, "output": "[{\"index\":\"22\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "f528ba230bde1ffc", "role": "operator", "t": 1790968594.964, "seconds": 1.174, "output": "[{\"index\":\"23\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "c07735db76116b70", "role": "operator", "t": 1790968596.138, "seconds": 1.0, "output": "[{\"index\":\"25\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "33174d8cf4458ecd", "role": "operator", "t": 1790968597.138, "seconds": 1.01, "output": "[{\"index\":\"26\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "396322e8ff012b18", "role": "operator", "t": 1790968598.148, "seconds": 1.154, "output": "[{\"index\":\"27\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "15fd197eaa8a64d8", "role": "operator", "t": 1790968599.302, "seconds": 1.143, "output": "[{\"index\":\"28\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "f6c9d562b2b76ed0", "role": "operator", "t": 1790968600.446, "seconds": 1.377, "output": "[{\"index\":\"29\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "84cc9d2ee51e0a89", "role": "operator", "t": 1790968601.823, "seconds": 2.146, "output": "[{\"index\":\"31\", \"cluster_name\": \"org\", \"cluster_label\": \"1\"}]"}
+{"key": "4e31ed93a202aab6", "role": "operator", "t": 1790968603.969, "seconds": 2.743, "output": "{\"type\": \"function\", \"name\": \"assign_cluster\", \"parameters\": {\"row\": {\"type\": \"object\", \"value\": {\"index\": 33, \"ward_email\": \"ward34@cityofchicago.org\"}}, \"existing_clusters\": {\"type\": \"object\", \"value\": {\"0\": \"com\", \"1\": \"org\"}}}}"}

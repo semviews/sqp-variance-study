@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 27: 5 (player) */ SELECT nba_championships, name, olympic_gold_medals FROM player WHERE nba_championships = 0 OR team <> 'Brooklyn Nets' OR nationality = 'French' OR team <> 'Indiana Pacers'",
+  "player": {
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    },
+    "nba_championships": {
+      "value_type": "int",
+      "description": "number of NBA championships the player has won (e.g., 4)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 102,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 15.231,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.625,
+    0.75,
+    0.6818
+  ],
+  "tokens": [
+    803,
+    360,
+    443
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.625,
+        0.75,
+        0.6818
+      ],
+      "prediction": [
+        "['114' 'APAC']",
+        "['119' 'EMEA']",
+        "['124' 'APAC']",
+        "['131' 'APAC']",
+        "['141' 'EMEA']",
+        "['146' 'EMEA']",
+        "['148' 'APAC']",
+        "['151' 'APAC']",
+        "['157' 'APAC']",
+        "['187' 'EMEA']",
+        "['227' 'EMEA']",
+        "['239' 'APAC']",
+        "['249' 'EMEA']",
+        "['259' 'EMEA']",
+        "['276' 'APAC']",
+        "['278' 'EMEA']",
+        "['286' 'EMEA']",
+        "['298' 'EMEA']",
+        "['319' 'APAC']",
+        "['321' 'APAC']",
+        "['363' 'APAC']",
+        "['386' 'EMEA']",
+        "['448' 'EMEA']",
+        "['458' 'EMEA']"
+      ],
+      "truth": [
+        "['114' 'APAC']",
+        "['119' 'EMEA']",
+        "['141' 'EMEA']",
+        "['146' 'EMEA']",
+        "['148' 'APAC']",
+        "['157' 'NA']",
+        "['187' 'EMEA']",
+        "['227' 'EMEA']",
+        "['249' 'EMEA']",
+        "['259' 'EMEA']",
+        "['276' 'APAC']",
+        "['278' 'EMEA']",
+        "['286' 'NA']",
+        "['298' 'EMEA']",
+        "['319' 'NA']",
+        "['363' 'NA']",
+        "['386' 'EMEA']",
+        "['448' 'EMEA']",
+        "['458' 'EMEA']",
+        "['496' 'APAC']"
+      ]
+    }
+  ]
+}

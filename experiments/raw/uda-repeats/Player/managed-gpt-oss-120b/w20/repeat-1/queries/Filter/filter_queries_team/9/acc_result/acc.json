@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "championship": {
+      "precision": 0.8695652173913043,
+      "recall": 0.8695652173913043,
+      "f1": 0.8695652173913043
+    },
+    "founded_year": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "location": {
+      "precision": 0.8695652173913043,
+      "recall": 0.8695652173913043,
+      "f1": 0.8695652173913043
+    }
+  },
+  "macro_precision": 0.9130434782608695,
+  "macro_recall": 0.9130434782608695,
+  "macro_f1": 0.9130434782608695,
+  "rows": {
+    "len_gold": 23,
+    "len_pred": 23,
+    "matched_rows": 23
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "championship",
+    "founded_year",
+    "location"
+  ],
+  "skipped_columns": []
+}

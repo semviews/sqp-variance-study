@@ -1,0 +1,30 @@
+city.city_name,city.population,team.founded_year,team.location,team.id,city.id
+Atlanta,"510,823 || 6.3 million",1946,Atlanta,1,29
+San Francisco,808988 || 873965 || 9001024 || 9472000 || 4670000 || 136761 || 296505 || 46625 || 86233 || 6475 || 3476 || 73169,1946,San Francisco,10,11
+Houston,"2,314,157 || 2,100,263 || 2,312,717 || 2,325,502",1967,Houston,11,21
+Indianapolis,"887,642",1967,Indianapolis,12,3
+Los Angeles,"3,820,914 || 12.8 million || 18.3 million || 9.86 million",1970,Los Angeles,13,6
+Los Angeles,"3,820,914 || 12.8 million || 18.3 million || 9.86 million",1946,Los Angeles,14,6
+Memphis,"633,104",1995,Memphis,15,24
+Miami,"6.14 million || 442,241",1988,Miami,16,8
+Milwaukee,"577,222",1968,Milwaukee,17,28
+Minneapolis,"429,954",1989,Minneapolis,18,7
+New Orleans,"383,997",2002,New Orleans,19,13
+Boston,"675,647 || 4,919,179",1946,Boston,2,2
+New York City,"8,804,190 || 8,258,035",1946,New York City,20,26
+Oklahoma City,"681,054 || 1,396,445 || 1,469,124",1967,Oklahoma City,21,27
+Orlando,"307,573",1989,Orlando,22,15
+Philadelphia,"1,603,797",1946,Philadelphia,23,12
+Phoenix,"1,662,607 || 4,857,962 || 1,608,139 || 1,445,632 || 1,509,000 || 1,567,872",1968,Phoenix,24,18
+Portland,"652,503 || 2.5 million || 100,000 || 301,815 || 17,500 || 46,385",1970,Portland,25,10
+Sacramento,"524,943 || 2,680,831",1923,Sacramento,26,22
+San Antonio,"1,434,625 || 1,327,407 || 1,144,646 || 1,592,383 || 2,194,927 || 2,473,974",1967,San Antonio,27,5
+Toronto,"2,794,356 || 6,712,341",1995,Toronto,28,17
+Salt Lake City,"200,133 || 1,257,936 || 2,746,164",1974,Salt Lake City,29,16
+"Washington, D.C.",689545 || 705749 || 802178 || 9200000,1961,"Washington, D.C.",30,19
+Charlotte,"874,579",1988,Charlotte,4,25
+Chicago,"2,746,388 || 9.6 million",1966,Chicago,5,14
+Cleveland,"372,624",1970,Cleveland,6,20
+Dallas,"1,304,379",1980,Dallas,7,4
+Denver,"715,522",1967,Denver,8,1
+Detroit,"639,111",1937,Detroit,9,23

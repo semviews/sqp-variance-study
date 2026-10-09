@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 55,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 100.205,
+  "error": "Traceback (most recent call last):\n  File \"pandas/_libs/lib.pyx\", line 2407, in pandas._libs.lib.maybe_convert_numeric\nValueError: Unable to parse string \"703 * 170.0 / (71.0 * 71.0)\"\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/multi_eval.py\", line 2250, in pipeline_55\n    master[\"bmi\"] = pd.to_numeric(master[\"bmi\"])\n  File \"/home/user/code/LROBench/.venv/lib/python3.10/site-packages/pandas/core/tools/numeric.py\", line 235, in to_numeric\n    values, new_mask = lib.maybe_convert_numeric(  # type: ignore[call-overload]\nValueError: Unable to parse string \"703 * 170.0 / (71.0 * 71.0)\" at position 20\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: Unable to parse string \"703 * 180.0 / (72.0^2)\" at position 7",
+      "operator_calls": 268
+    },
+    {
+      "error": "ValueError: Unable to parse string \"180.0 / (72.0^2) = 180.0 / 5184.0 = 0.0347 * 703 = 24.41\" at position 12",
+      "operator_calls": 268
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 268,
+  "judge_calls": 0
+}

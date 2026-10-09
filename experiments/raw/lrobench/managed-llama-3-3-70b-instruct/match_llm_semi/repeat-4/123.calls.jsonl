@@ -1,0 +1,23 @@
+{"key": "0ff2eae9884fcea9", "role": "operator", "t": 1790994953.251, "seconds": 1.514, "output": "NYC"}
+{"key": "d21c0f0232a11309", "role": "operator", "t": 1790994953.251, "seconds": 1.586, "output": "San Francisco"}
+{"key": "9c6e921a7ec4acf7", "role": "operator", "t": 1790994953.251, "seconds": 1.602, "output": "San Francisco"}
+{"key": "c76bbede04b8404c", "role": "operator", "t": 1790994953.253, "seconds": 1.603, "output": "Boston"}
+{"key": "e5bfbb89f067d098", "role": "operator", "t": 1790994953.252, "seconds": 1.629, "output": "San Francisco"}
+{"key": "819fa632e15498b8", "role": "operator", "t": 1790994953.25, "seconds": 2.456, "output": "None of the provided values in 'right_city' match the condition of being in the same state as 'Las Vegas', since 'Las Vegas' is in Nevada and none of the listed cities are in Nevada, the matched value is an empty string."}
+{"key": "032a7a11ef605c2b", "role": "operator", "t": 1790994953.253, "seconds": 2.457, "output": "Boston"}
+{"key": "3bf93e491e087924", "role": "operator", "t": 1790994953.252, "seconds": 2.553, "output": "No matched value exists, NYC is the closest match as Allentown is in Pennsylvania and NYC is in New York, both are not the same state but are in nearby states, however since there is no city from Pennsylvania in the list, the function will return an empty string."}
+{"key": "53ff18c31d31af9e", "role": "operator", "t": 1790994953.254, "seconds": 2.557, "output": "Brickhaven is not a well known city, assuming it is in Massachusetts, the matched value would be Boston"}
+{"key": "8f6d2736a05e7b38", "role": "operator", "t": 1790994953.254, "seconds": 2.558, "output": "Boston"}
+{"key": "459874a0fbc0d808", "role": "operator", "t": 1790994954.765, "seconds": 1.047, "output": "San Francisco"}
+{"key": "91d9a355b1501fc5", "role": "operator", "t": 1790994954.853, "seconds": 0.96, "output": "San Francisco"}
+{"key": "198cf1a16b079809", "role": "operator", "t": 1790994954.837, "seconds": 1.482, "output": "No matched value exists for 'Glendale' as it is in California or other states but none of the options in 'right_city' are in the same state as Glendale, so the matched value is an empty string."}
+{"key": "1421757c0e861590", "role": "operator", "t": 1790994954.882, "seconds": 1.439, "output": "Boston"}
+{"key": "1b567d76a53b920d", "role": "operator", "t": 1790994955.706, "seconds": 0.749, "output": "NYC"}
+{"key": "78d71cf0d79a2fc3", "role": "operator", "t": 1790994954.856, "seconds": 1.768, "output": "NYC"}
+{"key": "ba6b064edc675f9c", "role": "operator", "t": 1790994956.321, "seconds": 0.721, "output": "San Francisco"}
+{"key": "2f4aadb6a9d2d31b", "role": "operator", "t": 1790994956.321, "seconds": 0.851, "output": "Sydney"}
+{"key": "94b3daff562359de", "role": "operator", "t": 1790994956.321, "seconds": 0.851, "output": "Boston"}
+{"key": "00dfdda5f13552c0", "role": "operator", "t": 1790994956.321, "seconds": 0.854, "output": "San Francisco"}
+{"key": "789ed90dd677534a", "role": "operator", "t": 1790994956.321, "seconds": 1.814, "output": "There is no city in the list that matches the condition of being in the same state as Burbank, since Burbank is in California and none of the listed cities are in California, so the matched value is an empty string."}
+{"key": "8c66e05706053188", "role": "operator", "t": 1790994956.321, "seconds": 1.816, "output": "NYC"}
+{"key": "91748322e98d6348", "role": "operator", "t": 1790994956.321, "seconds": 1.817, "output": "Boston"}

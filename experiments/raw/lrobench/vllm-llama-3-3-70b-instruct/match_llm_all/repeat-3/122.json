@@ -1,0 +1,63 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 122,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 9.983,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.1053,
+    1.0,
+    0.1905
+  ],
+  "tokens": [
+    778,
+    417,
+    361
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1053,
+        1.0,
+        0.1905
+      ],
+      "prediction": [
+        "['Alistair Buchanan' 'Alistair Buchanan']",
+        "['Andrew Wright' 'Andrew Wright']",
+        "['Colin Sausman' 'Colin Sausman']",
+        "['Curt Silver' 'Curt Silver']",
+        "['David Ashbourne' 'David Pimm']",
+        "['David Pimm' 'David Ashbourne']",
+        "['Elizabeth Hillman' 'Elizabeth Hillman']",
+        "['Hannah Nixon' 'Hannah Nixon']",
+        "['Ian Marlee' 'Ian Marlee']",
+        "['Martin Crouch' 'Martin Crouch']",
+        "['Maxine Frerk' 'Maxine Frerk']",
+        "['Paul McIntyre' 'Paul McIntyre']",
+        "['Rachel Fletcher' 'Rachel Fletcher']",
+        "['Robert Hull' 'Robert Hull']",
+        "['Roy Field' 'Roy Field']",
+        "['Sarah Harrison' 'Sarah Harrison']",
+        "['Stephanie McGregor' 'Stephanie McGregor']",
+        "['Steve Smith' 'Steve Smith']",
+        "['Stuart Cook' 'Stuart Cook']"
+      ],
+      "truth": [
+        "['David Ashbourne' 'David Pimm']",
+        "['David Pimm' 'David Ashbourne']"
+      ]
+    }
+  ]
+}

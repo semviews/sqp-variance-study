@@ -1,0 +1,1 @@
+{"key": "1579ca5a3c22bc6a", "role": "operator", "t": 1790983298.384, "seconds": 1.886, "output": "[\n  {\"Table Left\": \"Destination\", \"Table Right\": \"Destination\"},\n  {\"Table Left\": \"Mode of travel\", \"Table Right\": \"Mode of transport\"},\n  {\"Table Left\": \"Class of travel\", \"Table Right\": \"Class of travel\"}\n]"}

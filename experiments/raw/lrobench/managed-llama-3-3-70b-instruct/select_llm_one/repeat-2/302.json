@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 302,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 8.102,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0,
+  "returned": [
+    0.7143,
+    1.0,
+    0.8333
+  ],
+  "tokens": [
+    955,
+    948,
+    7
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.7143,
+        1.0,
+        0.8333
+      ],
+      "prediction": [
+        "Community_Area",
+        "Crime",
+        "District",
+        "FBI_Code",
+        "IUCR",
+        "Neighborhood",
+        "Ward"
+      ],
+      "truth": [
+        "Community_Area",
+        "Crime",
+        "District",
+        "Neighborhood",
+        "Ward"
+      ]
+    }
+  ]
+}

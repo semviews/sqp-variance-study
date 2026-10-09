@@ -1,0 +1,2 @@
+{"key": "05c3dbca9dc3c8ef", "role": "operator", "t": 1790947626.034, "seconds": 18.67, "output": "[\n  {\"index\":\"99\", \"cluster_name\": \"Europe\", \"cluster_label\": \"1\"}\n]"}
+{"key": "a25e62d3147b5bd0", "role": "operator", "t": 1790947644.704, "seconds": 2.124, "output": "{\"function\": \"assign_cluster\", \"params\": {\"row\": {\"index\": 116, \"Director\": \"Quentin Tarantino\"}, \"existing_clusters\": {\"1\": \"Europe\"}}}"}

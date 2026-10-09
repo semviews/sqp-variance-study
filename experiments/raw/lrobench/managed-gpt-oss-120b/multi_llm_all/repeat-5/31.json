@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 31,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 24.013,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 27,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Frenchy",
+      "Bordagaray"
+    ],
+    [
+      "Dion",
+      "James"
+    ],
+    [
+      "Michael",
+      "Roe"
+    ],
+    [
+      "Bob",
+      "Elliott"
+    ],
+    [
+      "Scott",
+      "Boras"
+    ]
+  ],
+  "tokens": 6869,
+  "metrics": [],
+  "prediction": [
+    [
+      "Frenchy",
+      "Bordagaray"
+    ],
+    [
+      "Dion",
+      "James"
+    ],
+    [
+      "Michael",
+      "Roe"
+    ],
+    [
+      "Bob",
+      "Elliott"
+    ],
+    [
+      "Scott",
+      "Boras"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

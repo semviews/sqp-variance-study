@@ -1,0 +1,13 @@
+{"key": "3c71f500593a2117", "role": "operator", "t": 1790974328.098, "seconds": 1.953, "output": "Collier Row Road"}
+{"key": "f33eb0dceb60964a", "role": "operator", "t": 1790974328.096, "seconds": 1.956, "output": "Bastable Avenue"}
+{"key": "6237f30426512231", "role": "operator", "t": 1790974328.096, "seconds": 1.957, "output": "255 High Road"}
+{"key": "5e31cc3c74bd177c", "role": "operator", "t": 1790974328.097, "seconds": 2.811, "output": "None of the values in 'right_address1' match '15 Longbridge Road' as they are all different street names, therefore the matched value is an empty string."}
+{"key": "c9c9cb911316304f", "role": "operator", "t": 1790974328.097, "seconds": 2.812, "output": "Rose Lane"}
+{"key": "56cbfe87ee95a20e", "role": "operator", "t": 1790974328.097, "seconds": 2.814, "output": "Becontree Avenue"}
+{"key": "ff8d72bb20fca1f1", "role": "operator", "t": 1790974328.099, "seconds": 2.951, "output": "None of the values in 'right_address1' match '48-50 Crown Street' as they are all different street locations, therefore the matched value is an empty string."}
+{"key": "983d9f60d5c9f533", "role": "operator", "t": 1790974328.099, "seconds": 2.952, "output": "Becontree Avenue"}
+{"key": "6a2b7a58b74b469e", "role": "operator", "t": 1790974328.098, "seconds": 2.954, "output": "Bastable Avenue"}
+{"key": "6a55fb39674c2593", "role": "operator", "t": 1790974328.099, "seconds": 3.453, "output": "New Road is not present in the list, however, High Road is, and it can be considered as a possible match, assuming 'New Road' and 'High Road' might represent the same street location in a different format or name variation, so the matched value would be 255 High Road"}
+{"key": "9651bcc8ae110ba5", "role": "operator", "t": 1790974330.053, "seconds": 1.5, "output": "Rose Lane"}
+{"key": "f4dead6ee5abd217", "role": "operator", "t": 1790974330.053, "seconds": 1.501, "output": "Becontree Avenue"}
+{"key": "8ca5fc39d9588b16", "role": "operator", "t": 1790974330.053, "seconds": 1.501, "output": "Collier Row Road"}

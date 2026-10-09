@@ -1,0 +1,6 @@
+{"key": "b1bb5182194cc773", "role": "operator", "t": 1790991253.121, "seconds": 1.899, "output": "{\"language_id\": 23, \"language_code\": \"swe\", \"language_name\": \"Swedish\"}"}
+{"key": "0081272ff87124d2", "role": "operator", "t": 1790991253.121, "seconds": 1.986, "output": "{\"language_id\": 10, \"language_code\": \"ger\", \"language_name\": \"German\"}"}
+{"key": "759d58c013972cee", "role": "operator", "t": 1790991253.121, "seconds": 1.998, "output": "{\"language_id\": 24, \"language_code\": \"nor\", \"language_name\": \"Norwegian\"}"}
+{"key": "805e7898cf6cfc97", "role": "operator", "t": 1790991253.122, "seconds": 2.109, "output": "{\"language_id\": 26, \"language_code\": \"gla\", \"language_name\": \"Scottish Gaelic\"}"}
+{"key": "efb096f6611c1666", "role": "operator", "t": 1790991253.123, "seconds": 2.114, "output": "{\"language_id\": 27, \"language_code\": \"ale\", \"language_name\": \"Aleut\"}"}
+{"key": "196d6bb485ed4d35", "role": "operator", "t": 1790991253.122, "seconds": 2.117, "output": "{\"language_id\": 25, \"language_code\": \"tur\", \"language_name\": \"Turkish\"}"}

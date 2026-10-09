@@ -1,0 +1,62 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 123,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 3.377,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the given language satisfies the condition, we need to establish whether Russian originates from an Asian country. Russia is a transcontinental country, spanning across both Euro",
+      "operator_calls": 27
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the given language satisfies the condition, we need to establish whether Russian originates from an Asian country. Russia is a transcontinental country, spanning across both Euro",
+      "operator_calls": 27
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 27,
+  "judge_calls": 0,
+  "returned": [
+    0.8333,
+    1.0,
+    0.9091
+  ],
+  "tokens": [
+    3841,
+    3814,
+    27
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8333,
+        1.0,
+        0.9091
+      ],
+      "prediction": [
+        "['Arabic']",
+        "['Chinese']",
+        "['Japanese']",
+        "['Malaysian']",
+        "['Russian']",
+        "['Turkish']"
+      ],
+      "truth": [
+        "['Arabic']",
+        "['Chinese']",
+        "['Japanese']",
+        "['Malaysian']",
+        "['Turkish']"
+      ]
+    }
+  ]
+}

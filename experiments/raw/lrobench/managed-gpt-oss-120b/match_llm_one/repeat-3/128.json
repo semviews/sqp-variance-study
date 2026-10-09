@@ -1,0 +1,60 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 2,
+  "seconds": 274.072,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: ''",
+      "operator_calls": 120
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 120,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    0.8,
+    0.6154
+  ],
+  "tokens": [
+    16242,
+    16122,
+    120
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        0.8,
+        0.6154
+      ],
+      "prediction": [
+        "['Battersea Arts Centre ' 'Hilldrop Community Centre']",
+        "['ICA' 'Hilldrop Community Centre']",
+        "['JW3' 'Hilldrop Community Centre']",
+        "['OSO Arts Centre' 'Hilldrop Community Centre']",
+        "['Rich Mix ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ],
+      "truth": [
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 210,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 18.592,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    0.7143,
+    1.0,
+    0.8333
+  ],
+  "tokens": [
+    4160,
+    4129,
+    31
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.7143,
+        1.0,
+        0.8333
+      ],
+      "prediction": [
+        "firstNHL",
+        "firstName",
+        "firstWHA",
+        "lastName",
+        "nameGiven",
+        "nameNick",
+        "nameNote"
+      ],
+      "truth": [
+        "firstName",
+        "lastName",
+        "nameGiven",
+        "nameNick",
+        "nameNote"
+      ]
+    }
+  ]
+}

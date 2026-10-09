@@ -1,0 +1,47 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 113,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 6.396,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 15,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0,
+    0.8
+  ],
+  "tokens": [
+    5362,
+    4299,
+    1063
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        1.0,
+        0.8
+      ],
+      "prediction": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Peter Storr' 'Pete Vowles']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ],
+      "truth": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ]
+    }
+  ]
+}

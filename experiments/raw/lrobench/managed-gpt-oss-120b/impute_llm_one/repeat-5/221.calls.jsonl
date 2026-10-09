@@ -1,0 +1,462 @@
+{"key": "a215bcbfd5c39eaa", "role": "operator", "t": 1790988985.548, "seconds": 2.035, "output": "[\n  {\"region_name\": \"Albania\", \"currency\": \"ALL\"}\n]"}
+{"key": "89b45044ebb77934", "role": "operator", "t": 1790988985.548, "seconds": 2.043, "output": "[\n  {\"region_name\": \"Netherlands Antilles\", \"currency\": \"ANG\"}\n]"}
+{"key": "5bad18f646f7b6bc", "role": "operator", "t": 1790988985.55, "seconds": 2.676, "output": "[\n  {\"region_name\": \"Antigua and Barbuda\", \"currency\": \"XCD\"}\n]"}
+{"key": "23ba61e70c18f186", "role": "operator", "t": 1790988985.551, "seconds": 2.705, "output": "[\n  {\"region_name\": \"Armenia\", \"currency\": \"AMD\"}\n]"}
+{"key": "b66544df23f35936", "role": "operator", "t": 1790988985.551, "seconds": 2.756, "output": "[\n  {\"region_name\": \"Argentina\", \"currency\": \"ARS\"}\n]"}
+{"key": "76368c5a22571797", "role": "operator", "t": 1790988985.549, "seconds": 2.931, "output": "[\n  {\"region_name\": \"Angola\", \"currency\": \"AOA\"}\n]"}
+{"key": "bb838c0950714e79", "role": "operator", "t": 1790988985.549, "seconds": 2.976, "output": "[\n  {\"region_name\": \"Algeria\", \"currency\": \"DZD\"}\n]"}
+{"key": "b610ad4b10cc417f", "role": "operator", "t": 1790988985.549, "seconds": 3.075, "output": "[\n  {\"region_name\": \"Andorra\", \"currency\": \"EUR\"}\n]"}
+{"key": "96a93752d98e9335", "role": "operator", "t": 1790988985.55, "seconds": 3.239, "output": "[\n  {\"region_name\": \"Australasia\", \"currency\": \"AUD\"}\n]"}
+{"key": "586ebaf2af943c9e", "role": "operator", "t": 1790988987.591, "seconds": 1.327, "output": "[\n  {\"region_name\": \"American Samoa\", \"currency\": \"USD\"}\n]"}
+{"key": "a7439b63ca6330a3", "role": "operator", "t": 1790988987.584, "seconds": 1.361, "output": "[\n  {\"region_name\": \"Aruba\", \"currency\": \"AWG\"}\n]"}
+{"key": "121a32d02ead8321", "role": "operator", "t": 1790988988.306, "seconds": 1.205, "output": "[\n  {\"region_name\": \"Azerbaijan\", \"currency\": \"AZN\"}\n]"}
+{"key": "08880e5ba4fd4526", "role": "operator", "t": 1790988988.226, "seconds": 1.332, "output": "[\n  {\"region_name\": \"Australia\", \"currency\": \"AUD\"}\n]"}
+{"key": "cc5c584b56ad8525", "role": "operator", "t": 1790988988.525, "seconds": 1.299, "output": "[\n  {\"region_name\": \"Bangladesh\", \"currency\": \"BDT\"}\n]"}
+{"key": "f9448ce173f4a7e4", "role": "operator", "t": 1790988988.481, "seconds": 1.428, "output": "[\n  {\"region_name\": \"Bahamas\", \"currency\": \"BSD\"}\n]"}
+{"key": "615037577f56887a", "role": "operator", "t": 1790988988.945, "seconds": 0.973, "output": "[\n  {\"region_name\": \"Benin\", \"currency\": \"XOF\"}\n]"}
+{"key": "ffd139c1bebc6409", "role": "operator", "t": 1790988985.547, "seconds": 5.052, "output": "[\n  {\"region_name\": \"Afghanistan\", \"currency\": \"AFN\"}\n]"}
+{"key": "0f0d3a6321e31a26", "role": "operator", "t": 1790988988.624, "seconds": 1.977, "output": "[\n  {\"region_name\": \"Barbados\", \"currency\": \"BBD\"}\n]"}
+{"key": "19533c8d1a7b2290", "role": "operator", "t": 1790988988.789, "seconds": 1.814, "output": "[\n  {\"region_name\": \"Burundi\", \"currency\": \"BIF\"}\n]"}
+{"key": "63c288d3f178c26b", "role": "operator", "t": 1790988988.917, "seconds": 1.687, "output": "[\n  {\"region_name\": \"Belgium\", \"currency\": \"EUR\"}\n]"}
+{"key": "464c4d419c53e6df", "role": "operator", "t": 1790988989.511, "seconds": 1.261, "output": "[\n  {\"region_name\": \"Bermuda\", \"currency\": \"BMD\"}\n]"}
+{"key": "06ecf2d16b97e9cd", "role": "operator", "t": 1790988989.558, "seconds": 1.415, "output": "[\n  {\"region_name\": \"Bhutan\", \"currency\": \"BTN\"}\n]"}
+{"key": "d45fe4cf9677d904", "role": "operator", "t": 1790988989.909, "seconds": 1.268, "output": "[\n  {\"region_name\": \"Belize\", \"currency\": \"BZD\"}\n]"}
+{"key": "1f79b779d528f26c", "role": "operator", "t": 1790988989.824, "seconds": 1.468, "output": "[\n  {\"region_name\": \"Bosnia and Herzegovina\", \"currency\": \"BAM\"}\n]"}
+{"key": "1ebe240f29cf67c2", "role": "operator", "t": 1790988990.604, "seconds": 1.612, "output": "[\n  {\"region_name\": \"Botswana\", \"currency\": \"BWP\"}\n]"}
+{"key": "4bc6ea2613bc4c24", "role": "operator", "t": 1790988989.919, "seconds": 2.394, "output": "[\n  {\"region_name\": \"Belarus\", \"currency\": \"BYN\"}\n]"}
+{"key": "4a2bb24a79d7d66f", "role": "operator", "t": 1790988990.604, "seconds": 1.718, "output": "[\n  {\"region_name\": \"Boliva\", \"currency\": \"BOB\"}\n]"}
+{"key": "574e98356b198217", "role": "operator", "t": 1790988990.604, "seconds": 1.738, "output": "[\n  {\"region_name\": \"Brazil\", \"currency\": \"BRL\"}\n]"}
+{"key": "d70aaf1fb5129da3", "role": "operator", "t": 1790988990.599, "seconds": 1.751, "output": "[\n  {\"region_name\": \"Bohemia\", \"currency\": \"CZK\"}\n]"}
+{"key": "414104d65370bcdf", "role": "operator", "t": 1790988988.306, "seconds": 4.434, "output": "[\n  {\"region_name\": \"Austria\", \"currency\": \"EUR\"}\n]"}
+{"key": "d874fc28b5740c8d", "role": "operator", "t": 1790988990.773, "seconds": 1.974, "output": "[\n  {\"region_name\": \"Bahrain\", \"currency\": \"BHD\"}\n]"}
+{"key": "c821deca65e10392", "role": "operator", "t": 1790988990.973, "seconds": 1.776, "output": "[\n  {\"region_name\": \"Brunei\", \"currency\": \"BND\"}\n]"}
+{"key": "91bf0031a4994587", "role": "operator", "t": 1790988991.177, "seconds": 1.573, "output": "[\n  {\"region_name\": \"Bulgaria\", \"currency\": \"BGN\"}\n]"}
+{"key": "9caa61e7784d8be2", "role": "operator", "t": 1790988991.293, "seconds": 1.611, "output": "[\n  {\"region_name\": \"Burkina Faso\", \"currency\": \"XOF\"}\n]"}
+{"key": "afd18cdbfe5504f7", "role": "operator", "t": 1790988992.323, "seconds": 1.274, "output": "[\n  {\"region_name\": \"Canada\", \"currency\": \"CAD\"}\n]"}
+{"key": "0d4c471709e50fa0", "role": "operator", "t": 1790988992.216, "seconds": 1.445, "output": "[\n  {\"region_name\": \"Central African Republic\", \"currency\": \"XAF\"}\n]"}
+{"key": "20f6a2f3a38cbe97", "role": "operator", "t": 1790988992.323, "seconds": 1.342, "output": "[\n  {\"region_name\": \"Cambodia\", \"currency\": \"KHR\"}\n]"}
+{"key": "c03715f61105c24b", "role": "operator", "t": 1790988992.75, "seconds": 1.085, "output": "[\n  {\"region_name\": \"Ivory Coast\", \"currency\": \"XOF\"}\n]"}
+{"key": "122c68175313481d", "role": "operator", "t": 1790988992.742, "seconds": 1.186, "output": "[\n  {\"region_name\": \"Republic of Congo\", \"currency\": \"XAF\"}\n]"}
+{"key": "2d2334aa4c5e8a11", "role": "operator", "t": 1790988992.742, "seconds": 1.193, "output": "[\n  {\"region_name\": \"Chad\", \"currency\": \"XAF\"}\n]"}
+{"key": "d9cebc08ca8615ba", "role": "operator", "t": 1790988992.742, "seconds": 1.222, "output": "[\n  {\"region_name\": \"Cayman Islands\", \"currency\": \"KYD\"}\n]"}
+{"key": "c144a360f7ac130f", "role": "operator", "t": 1790988992.75, "seconds": 1.303, "output": "[\n  {\"region_name\": \"Chile\", \"currency\": \"CLP\"}\n]"}
+{"key": "ce497834d8f88f9c", "role": "operator", "t": 1790988992.905, "seconds": 1.313, "output": "[\n  {\"region_name\": \"Cameroon\", \"currency\": \"XAF\"}\n]"}
+{"key": "62f087e4c1b4feaa", "role": "operator", "t": 1790988993.661, "seconds": 1.104, "output": "[\n  {\"region_name\": \"Democratic Republic of the Congo\", \"currency\": \"CDF\"}\n]"}
+{"key": "b7c3aea16b5517c7", "role": "operator", "t": 1790988993.835, "seconds": 1.281, "output": "[\n  {\"region_name\": \"Comoros\", \"currency\": \"KMF\"}\n]"}
+{"key": "278838f6ded79e1e", "role": "operator", "t": 1790988993.928, "seconds": 1.332, "output": "[\n  {\"region_name\": \"Cape Verde\", \"currency\": \"CVE\"}\n]"}
+{"key": "1d0e374f72edf500", "role": "operator", "t": 1790988993.964, "seconds": 1.34, "output": "[\n  {\"region_name\": \"Costa Rica\", \"currency\": \"CRC\"}\n]"}
+{"key": "5e89028839bff819", "role": "operator", "t": 1790988993.664, "seconds": 1.674, "output": "[\n  {\"region_name\": \"Colombia\", \"currency\": \"COP\"}\n]"}
+{"key": "a0899bf525fdddb2", "role": "operator", "t": 1790988994.053, "seconds": 1.34, "output": "[\n  {\"region_name\": \"Crete\", \"currency\": \"EUR\"}\n]"}
+{"key": "d5a6510ef4d79fd8", "role": "operator", "t": 1790988993.964, "seconds": 1.583, "output": "[\n  {\"region_name\": \"Croatia\", \"currency\": \"EUR\"}\n]"}
+{"key": "bf499ca6a5098a7f", "role": "operator", "t": 1790988993.661, "seconds": 1.983, "output": "[\n  {\"region_name\": \"Cook Islands\", \"currency\": \"NZD\"}\n]"}
+{"key": "2d0eb95d78c1a755", "role": "operator", "t": 1790988994.218, "seconds": 1.631, "output": "[\n  {\"region_name\": \"Cuba\", \"currency\": \"CUP\"}\n]"}
+{"key": "a3c862f80a5b1856", "role": "operator", "t": 1790988994.766, "seconds": 1.242, "output": "[\n  {\"region_name\": \"Cyprus\", \"currency\": \"EUR\"}\n]"}
+{"key": "4d970e34e714f399", "role": "operator", "t": 1790988995.116, "seconds": 1.126, "output": "[\n  {\"region_name\": \"Czech Republic\", \"currency\": \"CZK\"}\n]"}
+{"key": "29a6d52b9653f8f9", "role": "operator", "t": 1790988995.261, "seconds": 1.082, "output": "[\n  {\"region_name\": \"Denmark\", \"currency\": \"DKK\"}\n]"}
+{"key": "d65ed4ba3d311a1a", "role": "operator", "t": 1790988995.393, "seconds": 0.999, "output": "[\n  {\"region_name\": \"Dominican Republic\", \"currency\": \"DOP\"}\n]"}
+{"key": "77b7014fabaf4499", "role": "operator", "t": 1790988995.338, "seconds": 1.32, "output": "[\n  {\"region_name\": \"Dominica\", \"currency\": \"XCD\"}\n]"}
+{"key": "a844ee37ae365440", "role": "operator", "t": 1790988995.547, "seconds": 1.125, "output": "[\n  {\"region_name\": \"Ecuador\", \"currency\": \"USD\"}\n]"}
+{"key": "3b48545c3a50e817", "role": "operator", "t": 1790988995.644, "seconds": 1.21, "output": "[\n  {\"region_name\": \"Egypt\", \"currency\": \"EGP\"}\n]"}
+{"key": "ea179311ea4d4479", "role": "operator", "t": 1790988996.242, "seconds": 0.997, "output": "[\n  {\"region_name\": \"Spain\", \"currency\": \"EUR\"}\n]"}
+{"key": "379e6012546acacf", "role": "operator", "t": 1790988992.75, "seconds": 5.135, "output": "[\n  {\"region_name\": \"China\", \"currency\": \"CNY\"}\n]"}
+{"key": "b2bec24c40dd3ced", "role": "operator", "t": 1790988996.008, "seconds": 1.884, "output": "[\n  {\"region_name\": \"El Salvador\", \"currency\": \"USD\"}\n]"}
+{"key": "842125e10c8a3719", "role": "operator", "t": 1790988996.343, "seconds": 1.551, "output": "[\n  {\"region_name\": \"Estonia\", \"currency\": \"EUR\"}\n]"}
+{"key": "c0842af645b29b51", "role": "operator", "t": 1790988996.393, "seconds": 1.503, "output": "[\n  {\"region_name\": \"Ethiopia\", \"currency\": \"ETB\"}\n]"}
+{"key": "bbd2556e67a7d44b", "role": "operator", "t": 1790988996.672, "seconds": 1.225, "output": "[\n  {\"region_name\": \"Fiji\", \"currency\": \"FJD\"}\n]"}
+{"key": "e6cf3ae89cef8557", "role": "operator", "t": 1790988996.855, "seconds": 1.285, "output": "[\n  {\"region_name\": \"Finland\", \"currency\": \"EUR\"}\n]"}
+{"key": "4af9706d7102d6de", "role": "operator", "t": 1790988997.24, "seconds": 1.223, "output": "[\n  {\"region_name\": \"France\", \"currency\": \"EUR\"}\n]"}
+{"key": "37eebf2dc99235ea", "role": "operator", "t": 1790988996.659, "seconds": 2.155, "output": "[\n  {\"region_name\": \"Unified Team\", \"currency\": \"RUB\"}\n]"}
+{"key": "f316a6ab053828b9", "role": "operator", "t": 1790988997.897, "seconds": 1.225, "output": "[\n  {\"region_name\": \"Micronesia\", \"currency\": \"USD\"}\n]"}
+{"key": "046899398c073a1a", "role": "operator", "t": 1790988997.898, "seconds": 1.35, "output": "[\n  {\"region_name\": \"UK\", \"currency\": \"GBP\"}\n]"}
+{"key": "d100bd7432419fce", "role": "operator", "t": 1790988997.898, "seconds": 1.356, "output": "[\n  {\"region_name\": \"Gabon\", \"currency\": \"XAF\"}\n]"}
+{"key": "e1bd175217ec23f1", "role": "operator", "t": 1790988995.338, "seconds": 4.523, "output": "[\n  {\"region_name\": \"Djibouti\", \"currency\": \"DJF\"}\n]"}
+{"key": "e6d9b4c894499b19", "role": "operator", "t": 1790988998.141, "seconds": 1.729, "output": "[\n  {\"region_name\": \"Guinea-Bissau\", \"currency\": \"XOF\"}\n]"}
+{"key": "7aa8b0105336d82e", "role": "operator", "t": 1790988997.886, "seconds": 1.986, "output": "[\n  {\"region_name\": \"West Germany\", \"currency\": \"DEM\"}\n]"}
+{"key": "173cf6214ec9a8b6", "role": "operator", "t": 1790988998.814, "seconds": 1.533, "output": "[\n  {\"region_name\": \"Georgia\", \"currency\": \"GEL\"}\n]"}
+{"key": "60c47f1ebbb8508a", "role": "operator", "t": 1790988998.463, "seconds": 2.277, "output": "[\n  {\"region_name\": \"East Germany\", \"currency\": \"DDM\"}\n]"}
+{"key": "63f060621ee0b375", "role": "operator", "t": 1790988999.123, "seconds": 1.827, "output": "[\n  {\"region_name\": \"Equatorial Guinea\", \"currency\": \"XAF\"}\n]"}
+{"key": "4a043f1f7653ecc7", "role": "operator", "t": 1790988999.254, "seconds": 1.75, "output": "[\n  {\"region_name\": \"Germany\", \"currency\": \"EUR\"}\n]"}
+{"key": "1ae03f837327beae", "role": "operator", "t": 1790988995.849, "seconds": 5.656, "output": "[\n  {\"region_name\": \"Eritrea\", \"currency\": \"ERN\"}\n]"}
+{"key": "1ac87a09afa26dd0", "role": "operator", "t": 1790988999.254, "seconds": 2.256, "output": "[\n  {\"region_name\": \"Ghana\", \"currency\": \"GHS\"}\n]"}
+{"key": "8e0922c48abe5f8e", "role": "operator", "t": 1790988999.872, "seconds": 1.643, "output": "[\n  {\"region_name\": \"Grenada\", \"currency\": \"XCD\"}\n]"}
+{"key": "e8d7df2983b19c40", "role": "operator", "t": 1790988997.898, "seconds": 3.872, "output": "[\n  {\"region_name\": \"Gambia\", \"currency\": \"GMD\"}\n]"}
+{"key": "1205eb392fd9de8d", "role": "operator", "t": 1790988999.862, "seconds": 1.915, "output": "[\n  {\"region_name\": \"Greece\", \"currency\": \"EUR\"}\n]"}
+{"key": "9eeac179ca2583fa", "role": "operator", "t": 1790988999.872, "seconds": 1.95, "output": "[\n  {\"region_name\": \"Guatemala\", \"currency\": \"GTQ\"}\n]"}
+{"key": "c73885b1d745dde8", "role": "operator", "t": 1790989000.347, "seconds": 1.811, "output": "[\n  {\"region_name\": \"Guinea\", \"currency\": \"GNF\"}\n]"}
+{"key": "a7c8482dfdc4fabd", "role": "operator", "t": 1790989000.95, "seconds": 1.306, "output": "[\n  {\"region_name\": \"Guyana\", \"currency\": \"GYD\"}\n]"}
+{"key": "331104b74ae9cf3c", "role": "operator", "t": 1790989000.741, "seconds": 1.674, "output": "[\n  {\"region_name\": \"Guam\", \"currency\": \"USD\"}\n]"}
+{"key": "c46d32b1fa8953aa", "role": "operator", "t": 1790989001.51, "seconds": 1.302, "output": "[\n  {\"region_name\": \"Haiti\", \"currency\": \"HTG\"}\n]"}
+{"key": "1e46db712f051c72", "role": "operator", "t": 1790989001.511, "seconds": 1.37, "output": "[\n  {\"region_name\": \"Hong Kong\", \"currency\": \"HKD\"}\n]"}
+{"key": "8beac0003a7c045e", "role": "operator", "t": 1790989001.511, "seconds": 1.424, "output": "[\n  {\"region_name\": \"Honduras\", \"currency\": \"HNL\"}\n]"}
+{"key": "a3b2da220e842d12", "role": "operator", "t": 1790989001.77, "seconds": 1.256, "output": "[\n  {\"region_name\": \"Hungary\", \"currency\": \"HUF\"}\n]"}
+{"key": "ca37a823b25b224a", "role": "operator", "t": 1790989001.77, "seconds": 1.317, "output": "[\n  {\"region_name\": \"Indonesia\", \"currency\": \"IDR\"}\n]"}
+{"key": "4b5da48c00535cd8", "role": "operator", "t": 1790989001.822, "seconds": 1.402, "output": "[\n  {\"region_name\": \"India\", \"currency\": \"INR\"}\n]"}
+{"key": "19fb7bad8674f000", "role": "operator", "t": 1790989002.256, "seconds": 1.133, "output": "[\n  {\"region_name\": \"Ireland\", \"currency\": \"EUR\"}\n]"}
+{"key": "63101fea1283ba83", "role": "operator", "t": 1790989002.416, "seconds": 1.056, "output": "[\n  {\"region_name\": \"Iraq\", \"currency\": \"IQD\"}\n]"}
+{"key": "c32f02de70e3205f", "role": "operator", "t": 1790989002.158, "seconds": 1.343, "output": "[\n  {\"region_name\": \"Iran\", \"currency\": \"IRR\"}\n]"}
+{"key": "411e8bdff1d09cd2", "role": "operator", "t": 1790989002.813, "seconds": 1.117, "output": "[\n  {\"region_name\": \"Iceland\", \"currency\": \"ISK\"}\n]"}
+{"key": "1e25440b498a908f", "role": "operator", "t": 1790989002.935, "seconds": 1.374, "output": "[\n  {\"region_name\": \"Israel\", \"currency\": \"ILS\"}\n]"}
+{"key": "65271481a0d3cdb3", "role": "operator", "t": 1790989003.088, "seconds": 1.567, "output": "[\n  {\"region_name\": \"Virgin Islands, British\", \"currency\": \"USD\"}\n]"}
+{"key": "bf5c70d29ba9bdfe", "role": "operator", "t": 1790989003.472, "seconds": 1.264, "output": "[\n  {\"region_name\": \"Japan\", \"currency\": \"JPY\"}\n]"}
+{"key": "a83b3fac5746fa50", "role": "operator", "t": 1790989003.502, "seconds": 1.325, "output": "[\n  {\"region_name\": \"Kazakhstan\", \"currency\": \"KZT\"}\n]"}
+{"key": "535a64e1067f9ce5", "role": "operator", "t": 1790989003.026, "seconds": 1.804, "output": "[\n  {\"region_name\": \"Italy\", \"currency\": \"EUR\"}\n]"}
+{"key": "be575a2cafbf248b", "role": "operator", "t": 1790989003.389, "seconds": 1.491, "output": "[\n  {\"region_name\": \"Jordan\", \"currency\": \"JOD\"}\n]"}
+{"key": "c7fd4e88b51f846d", "role": "operator", "t": 1790989003.93, "seconds": 1.376, "output": "[\n  {\"region_name\": \"Kenya\", \"currency\": \"KES\"}\n]"}
+{"key": "ee89dd5523d15406", "role": "operator", "t": 1790989004.31, "seconds": 1.356, "output": "[\n  {\"region_name\": \"Kyrgyzstan\", \"currency\": \"KGS\"}\n]"}
+{"key": "11efbc21f52a51cc", "role": "operator", "t": 1790989001.822, "seconds": 4.36, "output": "[\n  {\"region_name\": \"Individual Olympic Athletes\", \"currency\": \"N/A\"}\n]"}
+{"key": "af7169b8493fc544", "role": "operator", "t": 1790989004.88, "seconds": 1.368, "output": "[\n  {\"region_name\": \"Kuwait\", \"currency\": \"KWD\"}\n]"}
+{"key": "59358e7dd6ef58d9", "role": "operator", "t": 1790989004.736, "seconds": 1.54, "output": "[\n  {\"region_name\": \"South Korea\", \"currency\": \"KRW\"}\n]"}
+{"key": "8e9dfeff6a431ab0", "role": "operator", "t": 1790989004.827, "seconds": 1.666, "output": "[\n  {\"region_name\": \"Kosovo\", \"currency\": \"EUR\"}\n]"}
+{"key": "9ede0310d93d8d0d", "role": "operator", "t": 1790989005.307, "seconds": 1.289, "output": "[\n  {\"region_name\": \"Laos\", \"currency\": \"LAK\"}\n]"}
+{"key": "26a4ee321cc033c7", "role": "operator", "t": 1790989003.225, "seconds": 4.066, "output": "[\n  {\"region_name\": \"Jamaica\", \"currency\": \"JMD\"}\n]"}
+{"key": "40f00c2b28b9769a", "role": "operator", "t": 1790989005.666, "seconds": 1.631, "output": "[\n  {\"region_name\": \"Latvia\", \"currency\": \"EUR\"}\n]"}
+{"key": "469c3af1f970c4c2", "role": "operator", "t": 1790989006.248, "seconds": 1.338, "output": "[\n  {\"region_name\": \"Liberia\", \"currency\": \"LRD\"}\n]"}
+{"key": "4f410f52c8ac5b2d", "role": "operator", "t": 1790989006.494, "seconds": 1.109, "output": "[\n  {\"region_name\": \"Lesotho\", \"currency\": \"LSL\"}\n]"}
+{"key": "5aea5dd6a2917d00", "role": "operator", "t": 1790989006.277, "seconds": 1.362, "output": "[\n  {\"region_name\": \"Saint Lucia\", \"currency\": \"XCD\"}\n]"}
+{"key": "9311f038b39f8f09", "role": "operator", "t": 1790989006.596, "seconds": 1.453, "output": "[\n  {\"region_name\": \"Lebanon\", \"currency\": \"LBP\"}\n]"}
+{"key": "ed916086bdbf2ea0", "role": "operator", "t": 1790989007.297, "seconds": 1.307, "output": "[\n  {\"region_name\": \"Lithuania\", \"currency\": \"EUR\"}\n]"}
+{"key": "889b0ef64a51f32d", "role": "operator", "t": 1790989007.587, "seconds": 1.228, "output": "[\n  {\"region_name\": \"Luxembourg\", \"currency\": \"EUR\"}\n]"}
+{"key": "e80ab3fb6e60e373", "role": "operator", "t": 1790989007.639, "seconds": 1.359, "output": "[\n  {\"region_name\": \"Madagascar\", \"currency\": \"MGA\"}\n]"}
+{"key": "2d6e7d934e7c99ed", "role": "operator", "t": 1790989007.639, "seconds": 1.506, "output": "[\n  {\"region_name\": \"Malaya\", \"currency\": \"MYR\"}\n]"}
+{"key": "31948abec949f247", "role": "operator", "t": 1790989007.291, "seconds": 2.164, "output": "[\n  {\"region_name\": \"Liechtenstein\", \"currency\": \"CHF\"}\n]"}
+{"key": "ee763c5806206414", "role": "operator", "t": 1790989008.604, "seconds": 1.225, "output": "[\n  {\"region_name\": \"Malaysia\", \"currency\": \"MYR\"}\n]"}
+{"key": "cf34e5c398cd5323", "role": "operator", "t": 1790989004.88, "seconds": 5.309, "output": "[\n  {\"region_name\": \"Saudi Arabia\", \"currency\": \"SAR\"}\n]"}
+{"key": "02bf0b85a4b07b8f", "role": "operator", "t": 1790989002.936, "seconds": 7.467, "output": "[\n  {\"region_name\": \"Virgin Islands\", \"currency\": \"USD\"}\n]"}
+{"key": "093636e66de3b18d", "role": "operator", "t": 1790989008.815, "seconds": 1.591, "output": "[\n  {\"region_name\": \"Malawi\", \"currency\": \"MWK\"}\n]"}
+{"key": "57b4b18abb73351c", "role": "operator", "t": 1790989008.999, "seconds": 1.749, "output": "[\n  {\"region_name\": \"Moldova\", \"currency\": \"MDL\"}\n]"}
+{"key": "cc1adec45b82e794", "role": "operator", "t": 1790989009.146, "seconds": 1.641, "output": "[\n  {\"region_name\": \"Maldives\", \"currency\": \"MVR\"}\n]"}
+{"key": "840c86f44b534bc3", "role": "operator", "t": 1790989009.456, "seconds": 1.616, "output": "[\n  {\"region_name\": \"Mexico\", \"currency\": \"MXN\"}\n]"}
+{"key": "600c817261281961", "role": "operator", "t": 1790989004.655, "seconds": 6.837, "output": "[\n  {\"region_name\": \"Kiribati\", \"currency\": \"AUD\"}\n]"}
+{"key": "faeb25aea699ea56", "role": "operator", "t": 1790989006.183, "seconds": 5.626, "output": "[\n  {\"region_name\": \"Libya\", \"currency\": \"LYD\"}\n]"}
+{"key": "1aceb1fe9e513b70", "role": "operator", "t": 1790989009.829, "seconds": 1.984, "output": "[\n  {\"region_name\": \"Mongolia\", \"currency\": \"MNT\"}\n]"}
+{"key": "7b711cd63ea9e02c", "role": "operator", "t": 1790989008.05, "seconds": 4.113, "output": "[\n  {\"region_name\": \"Morocco\", \"currency\": \"MAD\"}\n]"}
+{"key": "a97081368f94d6b2", "role": "operator", "t": 1790989010.407, "seconds": 1.763, "output": "[\n  {\"region_name\": \"Mali\", \"currency\": \"XOF\"}\n]"}
+{"key": "b015a47136af95a6", "role": "operator", "t": 1790989010.19, "seconds": 1.983, "output": "[\n  {\"region_name\": \"Marshall Islands\", \"currency\": \"USD\"}\n]"}
+{"key": "86d2bb46bd27cf4c", "role": "operator", "t": 1790989010.786, "seconds": 1.388, "output": "[\n  {\"region_name\": \"Montenegro\", \"currency\": \"EUR\"}\n]"}
+{"key": "1cf44c62126de54c", "role": "operator", "t": 1790989010.748, "seconds": 1.442, "output": "[\n  {\"region_name\": \"Malta\", \"currency\": \"EUR\"}\n]"}
+{"key": "390010ed6dac783a", "role": "operator", "t": 1790989010.406, "seconds": 1.883, "output": "[\n  {\"region_name\": \"Macedonia\", \"currency\": \"MKD\"}\n]"}
+{"key": "57c2763baf0902d7", "role": "operator", "t": 1790989011.072, "seconds": 1.294, "output": "[\n  {\"region_name\": \"Monaco\", \"currency\": \"EUR\"}\n]"}
+{"key": "44cf26b653743b4f", "role": "operator", "t": 1790989011.493, "seconds": 1.717, "output": "[\n  {\"region_name\": \"Mozambique\", \"currency\": \"MZN\"}\n]"}
+{"key": "ab7c3e5bc64b9797", "role": "operator", "t": 1790989011.814, "seconds": 1.402, "output": "[\n  {\"region_name\": \"Mauritius\", \"currency\": \"MUR\"}\n]"}
+{"key": "20e1f9b903f80d04", "role": "operator", "t": 1790989012.164, "seconds": 1.262, "output": "[\n  {\"region_name\": \"Myanmar\", \"currency\": \"MMK\"}\n]"}
+{"key": "b9cae677a1898edb", "role": "operator", "t": 1790989012.191, "seconds": 1.268, "output": "[\n  {\"region_name\": \"Netherlands\", \"currency\": \"EUR\"}\n]"}
+{"key": "a49107e9a07aa52b", "role": "operator", "t": 1790989011.814, "seconds": 1.72, "output": "[\n  {\"region_name\": \"Mauritania\", \"currency\": \"MRU\"}\n]"}
+{"key": "3b7f92a893c4ddfc", "role": "operator", "t": 1790989012.289, "seconds": 1.439, "output": "[\n  {\"region_name\": \"Nepal\", \"currency\": \"NPR\"}\n]"}
+{"key": "9259041a9a39c6f7", "role": "operator", "t": 1790989012.191, "seconds": 1.547, "output": "[\n  {\"region_name\": \"Nicaragua\", \"currency\": \"NIO\"}\n]"}
+{"key": "72858624b7459d21", "role": "operator", "t": 1790989012.366, "seconds": 1.424, "output": "[\n  {\"region_name\": \"Newfoundland\", \"currency\": \"CAD\"}\n]"}
+{"key": "021cafcbdd31c52d", "role": "operator", "t": 1790989012.191, "seconds": 1.604, "output": "[\n  {\"region_name\": \"Namibia\", \"currency\": \"NAD\"}\n]"}
+{"key": "b70ec6d81b113d83", "role": "operator", "t": 1790989012.191, "seconds": 2.217, "output": "[\n  {\"region_name\": \"North Borneo\", \"currency\": \"NBD\"}\n]"}
+{"key": "419bd11f186387b4", "role": "operator", "t": 1790989013.216, "seconds": 1.599, "output": "[\n  {\"region_name\": \"Niger\", \"currency\": \"XOF\"}\n]"}
+{"key": "913477d339724741", "role": "operator", "t": 1790989013.209, "seconds": 1.617, "output": "[\n  {\"region_name\": \"Nigeria\", \"currency\": \"NGN\"}\n]"}
+{"key": "4182c3d3504d24f7", "role": "operator", "t": 1790989013.426, "seconds": 1.582, "output": "[\n  {\"region_name\": \"Norway\", \"currency\": \"NOK\"}\n]"}
+{"key": "0ffc0fda695ca711", "role": "operator", "t": 1790989013.729, "seconds": 1.607, "output": "[\n  {\"region_name\": \"Oman\", \"currency\": \"OMR\"}\n]"}
+{"key": "2d8805c17abb9520", "role": "operator", "t": 1790989013.795, "seconds": 1.76, "output": "[\n  {\"region_name\": \"Pakistan\", \"currency\": \"PKR\"}\n]"}
+{"key": "d77988d29f6ab2e6", "role": "operator", "t": 1790989013.534, "seconds": 2.163, "output": "[\n  {\"region_name\": \"New Zealand\", \"currency\": \"NZD\"}\n]"}
+{"key": "552092012a0b1099", "role": "operator", "t": 1790989014.408, "seconds": 1.391, "output": "[\n  {\"region_name\": \"Peru\", \"currency\": \"PEN\"}\n]"}
+{"key": "b3b7e29eece82637", "role": "operator", "t": 1790989013.534, "seconds": 2.442, "output": "[\n  {\"region_name\": \"Nauru\", \"currency\": \"AUD\"}\n]"}
+{"key": "5b3f0dd43b9acb24", "role": "operator", "t": 1790989013.795, "seconds": 2.225, "output": "[\n  {\"region_name\": \"Paraguay\", \"currency\": \"PYG\"}\n]"}
+{"key": "cd30a70f54c53884", "role": "operator", "t": 1790989014.815, "seconds": 1.412, "output": "[\n  {\"region_name\": \"Philippines\", \"currency\": \"PHP\"}\n]"}
+{"key": "d40d165650af81e5", "role": "operator", "t": 1790989015.336, "seconds": 1.359, "output": "[\n  {\"region_name\": \"Papua New Guinea\", \"currency\": \"PGK\"}\n]"}
+{"key": "d747bb59f424c7c0", "role": "operator", "t": 1790989015.008, "seconds": 1.7, "output": "[\n  {\"region_name\": \"Palau\", \"currency\": \"USD\"}\n]"}
+{"key": "f8551a4f7826d02a", "role": "operator", "t": 1790989014.826, "seconds": 2.084, "output": "[\n  {\"region_name\": \"Palestine\", \"currency\": \"ILS\"}\n]"}
+{"key": "792c1df59d1d94db", "role": "operator", "t": 1790989015.799, "seconds": 1.283, "output": "[\n  {\"region_name\": \"North Korea\", \"currency\": \"KPW\"}\n]"}
+{"key": "f1c975e39831e52d", "role": "operator", "t": 1790989016.021, "seconds": 1.214, "output": "[\n  {\"region_name\": \"Qatar\", \"currency\": \"QAR\"}\n]"}
+{"key": "458d4dab0b51e656", "role": "operator", "t": 1790989015.976, "seconds": 1.309, "output": "[\n  {\"region_name\": \"Puerto Rico\", \"currency\": \"USD\"}\n]"}
+{"key": "7ab3a87990a8f8c9", "role": "operator", "t": 1790989015.555, "seconds": 1.871, "output": "[\n  {\"region_name\": \"Poland\", \"currency\": \"PLN\"}\n]"}
+{"key": "6b44594ed422b82d", "role": "operator", "t": 1790989015.698, "seconds": 1.985, "output": "[\n  {\"region_name\": \"Portugal\", \"currency\": \"EUR\"}\n]"}
+{"key": "b046e8de107da3ce", "role": "operator", "t": 1790989016.91, "seconds": 1.298, "output": "[\n  {\"region_name\": \"South Africa\", \"currency\": \"ZAR\"}\n]"}
+{"key": "c56ef15209aab4d5", "role": "operator", "t": 1790989017.083, "seconds": 1.247, "output": "[\n  {\"region_name\": \"Russia\", \"currency\": \"RUB\"}\n]"}
+{"key": "4ae94d5e587e31ba", "role": "operator", "t": 1790989016.708, "seconds": 1.722, "output": "[\n  {\"region_name\": \"Romania\", \"currency\": \"RON\"}\n]"}
+{"key": "ac0e0ec271d00d28", "role": "operator", "t": 1790989016.696, "seconds": 1.854, "output": "[\n  {\"region_name\": \"Refugee Olympic Team\", \"currency\": \"USD\"}\n]"}
+{"key": "fdb5536fbed57879", "role": "operator", "t": 1790989017.235, "seconds": 1.433, "output": "[\n  {\"region_name\": \"Rwanda\", \"currency\": \"RWF\"}\n]"}
+{"key": "ee24b53a9bc2a5db", "role": "operator", "t": 1790989016.227, "seconds": 2.876, "output": "[\n  {\"region_name\": \"Zimbabwe (Rhodesia)\", \"currency\": \"ZWD\"}\n]"}
+{"key": "87c492da5fa57b14", "role": "operator", "t": 1790989017.426, "seconds": 1.833, "output": "[\n  {\"region_name\": \"Samoa\", \"currency\": \"WST\"}\n]"}
+{"key": "2d2dfbb8afef3e40", "role": "operator", "t": 1790989017.286, "seconds": 2.129, "output": "[\n  {\"region_name\": \"Saar\", \"currency\": \"EUR\"}\n]"}
+{"key": "b984f560610f9aa8", "role": "operator", "t": 1790989018.33, "seconds": 1.228, "output": "[\n  {\"region_name\": \"Seychelles\", \"currency\": \"SCR\"}\n]"}
+{"key": "d33b417002cda4f1", "role": "operator", "t": 1790989018.209, "seconds": 2.927, "output": "[\n  {\"region_name\": \"Senwan\", \"currency\": \"XOF\"}\n]"}
+{"key": "6cff3774b069a5a5", "role": "operator", "t": 1790989018.43, "seconds": 2.711, "output": "[\n  {\"region_name\": \"Singapore\", \"currency\": \"SGD\"}\n]"}
+{"key": "945599a50eaf2d2d", "role": "operator", "t": 1790989017.683, "seconds": 3.46, "output": "[\n  {\"region_name\": \"Serbia and Montenegro\", \"currency\": \"RSD\"}\n]"}
+{"key": "608cf71a5c0b3ff6", "role": "operator", "t": 1790989018.55, "seconds": 2.594, "output": "[\n  {\"region_name\": \"Turks and Caicos Islands\", \"currency\": \"USD\"}\n]"}
+{"key": "71d6c45bf0652963", "role": "operator", "t": 1790989018.669, "seconds": 2.477, "output": "[\n  {\"region_name\": \"Sierra Leone\", \"currency\": \"SLL\"}\n]"}
+{"key": "5464a69250cd84ca", "role": "operator", "t": 1790989019.103, "seconds": 2.045, "output": "[\n  {\"region_name\": \"Slovenia\", \"currency\": \"EUR\"}\n]"}
+{"key": "66985583bbb0fdd5", "role": "operator", "t": 1790989019.415, "seconds": 1.734, "output": "[\n  {\"region_name\": \"Solomon Islands\", \"currency\": \"SBD\"}\n]"}
+{"key": "59df258aa4705b46", "role": "operator", "t": 1790989019.558, "seconds": 1.592, "output": "[\n  {\"region_name\": \"Somalia\", \"currency\": \"SOS\"}\n]"}
+{"key": "0a7d431555f717bd", "role": "operator", "t": 1790989019.26, "seconds": 2.794, "output": "[\n  {\"region_name\": \"San Marino\", \"currency\": \"EUR\"}\n]"}
+{"key": "a30f6c9d2820dba6", "role": "operator", "t": 1790989021.151, "seconds": 1.339, "output": "[\n  {\"region_name\": \"South Sudan\", \"currency\": \"SSP\"}\n]"}
+{"key": "46f36db570ecf662", "role": "operator", "t": 1790989021.151, "seconds": 1.398, "output": "[\n  {\"region_name\": \"Slovakia\", \"currency\": \"EUR\"}\n]"}
+{"key": "6b1ef6ba7b29d523", "role": "operator", "t": 1790989021.151, "seconds": 1.416, "output": "[\n  {\"region_name\": \"Sudan\", \"currency\": \"SDG\"}\n]"}
+{"key": "3585dcc6d4f28f6a", "role": "operator", "t": 1790989021.151, "seconds": 1.443, "output": "[\n  {\"region_name\": \"Switzerland\", \"currency\": \"CHF\"}\n]"}
+{"key": "dc230b77677368c3", "role": "operator", "t": 1790989021.136, "seconds": 1.581, "output": "[\n  {\"region_name\": \"Serbia\", \"currency\": \"RSD\"}\n]"}
+{"key": "17a56d48fa74c696", "role": "operator", "t": 1790989021.15, "seconds": 1.855, "output": "[\n  {\"region_name\": \"Sri Lanka\", \"currency\": \"LKR\"}\n]"}
+{"key": "f0a03cee21d72186", "role": "operator", "t": 1790989021.151, "seconds": 1.864, "output": "[\n  {\"region_name\": \"Sao Tome and Principe\", \"currency\": \"STN\"}\n]"}
+{"key": "98f626fb8a09c429", "role": "operator", "t": 1790989021.151, "seconds": 1.866, "output": "[\n  {\"region_name\": \"Suriname\", \"currency\": \"SRD\"}\n]"}
+{"key": "bada94fb68a71b23", "role": "operator", "t": 1790989022.055, "seconds": 1.102, "output": "[\n  {\"region_name\": \"Sweden\", \"currency\": \"SEK\"}\n]"}
+{"key": "f109f2b47e3ad926", "role": "operator", "t": 1790989022.489, "seconds": 1.276, "output": "[\n  {\"region_name\": \"Swaziland\", \"currency\": \"SZL\"}\n]"}
+{"key": "045cbdeaf4141c6b", "role": "operator", "t": 1790989022.567, "seconds": 1.456, "output": "[\n  {\"region_name\": \"Syria\", \"currency\": \"SYP\"}\n]"}
+{"key": "749c6ca0d4eb01fc", "role": "operator", "t": 1790989022.594, "seconds": 1.544, "output": "[\n  {\"region_name\": \"Czechoslovakia\", \"currency\": \"CSK\"}\n]"}
+{"key": "84fa17df34cedc80", "role": "operator", "t": 1790989022.567, "seconds": 1.637, "output": "[\n  {\"region_name\": \"Tanzania\", \"currency\": \"TZS\"}\n]"}
+{"key": "b66cfdb357da3911", "role": "operator", "t": 1790989022.717, "seconds": 1.492, "output": "[\n  {\"region_name\": \"Tonga\", \"currency\": \"TOP\"}\n]"}
+{"key": "24d49352f26cce8d", "role": "operator", "t": 1790989023.017, "seconds": 1.201, "output": "[\n  {\"region_name\": \"Turkmenistan\", \"currency\": \"TMT\"}\n]"}
+{"key": "ec47d0be6ec69bd1", "role": "operator", "t": 1790989023.015, "seconds": 1.333, "output": "[\n  {\"region_name\": \"Tajikistan\", \"currency\": \"TJS\"}\n]"}
+{"key": "9a3b48b4d3181947", "role": "operator", "t": 1790989023.157, "seconds": 1.363, "output": "[\n  {\"region_name\": \"Timor-Leste\", \"currency\": \"USD\"}\n]"}
+{"key": "64c6adfa57df3035", "role": "operator", "t": 1790989023.015, "seconds": 1.54, "output": "[\n  {\"region_name\": \"Thailand\", \"currency\": \"THB\"}\n]"}
+{"key": "3bb1a13dff21ab6e", "role": "operator", "t": 1790989023.765, "seconds": 1.576, "output": "[\n  {\"region_name\": \"Togo\", \"currency\": \"XOF\"}\n]"}
+{"key": "c2ee09d23d0a2585", "role": "operator", "t": 1790989024.138, "seconds": 1.417, "output": "[\n  {\"region_name\": \"Trinidad and Tobago\", \"currency\": \"TTD\"}\n]"}
+{"key": "20dda2ed50a7f506", "role": "operator", "t": 1790989024.023, "seconds": 1.664, "output": "[\n  {\"region_name\": \"Taiwan\", \"currency\": \"TWD\"}\n]"}
+{"key": "07544f492e08a5dd", "role": "operator", "t": 1790989024.348, "seconds": 1.346, "output": "[\n  {\"region_name\": \"United Arab Emirates\", \"currency\": \"AED\"}\n]"}
+{"key": "7bc1d542e9ecac9f", "role": "operator", "t": 1790989024.218, "seconds": 1.574, "output": "[\n  {\"region_name\": \"Tuvalu\", \"currency\": \"AUD\"}\n]"}
+{"key": "4d3e7171ae6aa174", "role": "operator", "t": 1790989024.209, "seconds": 1.747, "output": "[\n  {\"region_name\": \"Tunisia\", \"currency\": \"TND\"}\n]"}
+{"key": "0bf10c7b858cd286", "role": "operator", "t": 1790989024.555, "seconds": 1.406, "output": "[\n  {\"region_name\": \"Uganda\", \"currency\": \"UGX\"}\n]"}
+{"key": "63b05fddddafb0d4", "role": "operator", "t": 1790989024.555, "seconds": 1.821, "output": "[\n  {\"region_name\": \"United Arab Republic\", \"currency\": \"EGP\"}\n]"}
+{"key": "992445a835903dda", "role": "operator", "t": 1790989024.209, "seconds": 2.254, "output": "[\n  {\"region_name\": \"Turkey\", \"currency\": \"TRY\"}\n]"}
+{"key": "e2a2908a09d7e69f", "role": "operator", "t": 1790989025.792, "seconds": 1.169, "output": "[\n  {\"region_name\": \"Uruguay\", \"currency\": \"UYU\"}\n]"}
+{"key": "3b66edcdb2d3a487", "role": "operator", "t": 1790989025.792, "seconds": 1.418, "output": "[\n  {\"region_name\": \"USA\", \"currency\": \"USD\"}\n]"}
+{"key": "6a20f46a5dc18534", "role": "operator", "t": 1790989025.342, "seconds": 1.916, "output": "[\n  {\"region_name\": \"Ukraine\", \"currency\": \"UAH\"}\n]"}
+{"key": "aa2c5e005c0b9bde", "role": "operator", "t": 1790989025.956, "seconds": 1.308, "output": "[\n  {\"region_name\": \"Uzbekistan\", \"currency\": \"UZS\"}\n]"}
+{"key": "5ce5e71ee7118982", "role": "operator", "t": 1790989025.688, "seconds": 1.713, "output": "[\n  {\"region_name\": \"Soviet Union\", \"currency\": \"SUR\"}\n]"}
+{"key": "22359b31e224d793", "role": "operator", "t": 1790989025.962, "seconds": 1.794, "output": "[\n  {\"region_name\": \"Vanuatu\", \"currency\": \"VUV\"}\n]"}
+{"key": "4a222d2b3a8fcbf6", "role": "operator", "t": 1790989026.463, "seconds": 1.294, "output": "[\n  {\"region_name\": \"Vietnam\", \"currency\": \"VND\"}\n]"}
+{"key": "c1e3d94a87d69c44", "role": "operator", "t": 1790989025.556, "seconds": 2.626, "output": "[{\"region_name\":\"Unknown\",\"currency\":\"N/A\"}]"}
+{"key": "92ca02a582901d21", "role": "operator", "t": 1790989026.961, "seconds": 1.228, "output": "[\n  {\"region_name\": \"Saint Vincent\", \"currency\": \"XCD\"}\n]"}
+{"key": "d8d1de3bb2d3a66e", "role": "operator", "t": 1790989026.377, "seconds": 1.814, "output": "[\n  {\"region_name\": \"Venezuela\", \"currency\": \"VES\"}\n]"}
+{"key": "de154dd98dbcff6f", "role": "operator", "t": 1790989027.402, "seconds": 1.774, "output": "[\n  {\"region_name\": \"Yemen\", \"currency\": \"YER\"}\n]"}
+{"key": "b0e0cc763db3cfea", "role": "operator", "t": 1790989027.264, "seconds": 2.029, "output": "[\n  {\"region_name\": \"North Yemen\", \"currency\": \"YER\"}\n]"}
+{"key": "9dbe0bcd4775657e", "role": "operator", "t": 1790989027.21, "seconds": 2.221, "output": "[\n  {\"region_name\": \"Vietnam (pre)\", \"currency\": \"VND\"}\n]"}
+{"key": "1059990a970e357e", "role": "operator", "t": 1790989028.182, "seconds": 1.385, "output": "[\n  {\"region_name\": \"Zambia\", \"currency\": \"ZMW\"}\n]"}
+{"key": "abc2387ee2045d56", "role": "operator", "t": 1790989027.264, "seconds": 2.311, "output": "[\n  {\"region_name\": \"West Indies Federation\", \"currency\": \"BWI\"}\n]"}
+{"key": "6cff3774b069a5a5", "role": "operator", "t": 1790989028.191, "seconds": 1.638, "output": "[\n  {\"region_name\": \"Singapore\", \"currency\": \"SGD\"}\n]"}
+{"key": "51276b29082ee40d", "role": "operator", "t": 1790989027.755, "seconds": 2.088, "output": "[\n  {\"region_name\": \"South Yemen\", \"currency\": \"YD\"}\n]"}
+{"key": "ac55268bf8cbb98f", "role": "operator", "t": 1790989028.191, "seconds": 1.788, "output": "[\n  {\"region_name\": \"Zimbabwe\", \"currency\": \"ZWL\"}\n]"}
+{"key": "dfef4d2426897573", "role": "operator", "t": 1790989013.795, "seconds": 17.636, "output": "[\n  {\"region_name\": \"Panama\", \"currency\": \"USD\"}\n]"}
+{"key": "fd07665cb35497fe", "role": "operator", "t": 1790989027.757, "seconds": 11.2, "output": "[\n  {\"region_name\": \"Yugoslavia\", \"currency\": \"YUD\"}\n]"}
+{"key": "66277df258d2da4f", "role": "judge", "t": 1790989038.976, "seconds": 2.667, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('DZD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989038.979, "seconds": 2.667, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "4d1a9d16526ffb5b", "role": "judge", "t": 1790989038.966, "seconds": 2.704, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AFN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "b52b8446027689e5", "role": "judge", "t": 1790989038.982, "seconds": 2.691, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AOA'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1129a17bb93125a3", "role": "judge", "t": 1790989038.969, "seconds": 2.858, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ANG'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1cebee89abd112a6", "role": "judge", "t": 1790989038.989, "seconds": 2.858, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AUD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f8e8c278879cffa4", "role": "judge", "t": 1790989038.985, "seconds": 3.218, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XCD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "812431405f50bfd1", "role": "judge", "t": 1790989038.995, "seconds": 3.38, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AMD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e6b940c47d47c6dd", "role": "judge", "t": 1790989038.992, "seconds": 4.014, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ARS'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "722ca0710bcab070", "role": "judge", "t": 1790989041.85, "seconds": 2.016, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BSD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5f2d98751466caf6", "role": "judge", "t": 1790989041.843, "seconds": 2.03, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AZN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1cebee89abd112a6", "role": "judge", "t": 1790989041.835, "seconds": 2.048, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AUD'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989041.84, "seconds": 2.279, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ec098410d35909ce", "role": "judge", "t": 1790989042.211, "seconds": 1.924, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BDT'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989041.652, "seconds": 2.554, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "632319dd3df285b4", "role": "judge", "t": 1790989042.382, "seconds": 1.978, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BBD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "10076418d1d7bbce", "role": "judge", "t": 1790989041.649, "seconds": 3.156, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AWG'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7b18d080657835dd", "role": "judge", "t": 1790989043.014, "seconds": 2.02, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BIF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989043.877, "seconds": 1.72, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "964c4be45ad51a6e", "role": "judge", "t": 1790989043.88, "seconds": 1.84, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XOF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "3c71570afb3d045b", "role": "judge", "t": 1790989044.132, "seconds": 1.842, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BTN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "2edc4f4cb01be673", "role": "judge", "t": 1790989044.217, "seconds": 1.813, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BZD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1c4c1f40d5308162", "role": "judge", "t": 1790989044.127, "seconds": 1.91, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BMD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "0c6d91049acee159", "role": "judge", "t": 1790989044.214, "seconds": 1.977, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BAM'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "141f0fa75801c139", "role": "judge", "t": 1790989044.368, "seconds": 1.933, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BYN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "280ba716e96dd91f", "role": "judge", "t": 1790989044.812, "seconds": 1.763, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CZK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "251931ad46a98cc7", "role": "judge", "t": 1790989045.042, "seconds": 1.874, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BOB'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e5770859d4952a4a", "role": "judge", "t": 1790989045.602, "seconds": 2.062, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BWP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "02583e61328e20f5", "role": "judge", "t": 1790989045.728, "seconds": 1.949, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BRL'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "4c9a7c90975065ea", "role": "judge", "t": 1790989045.98, "seconds": 1.993, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BHD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "545942e96b1cbc86", "role": "judge", "t": 1790989046.042, "seconds": 1.942, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BND'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8ee78ab0ebb2f5ed", "role": "judge", "t": 1790989046.045, "seconds": 1.948, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('BGN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e44b0801a8bca26c", "role": "judge", "t": 1790989046.31, "seconds": 2.094, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XAF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e85d267e4af6dd76", "role": "judge", "t": 1790989046.583, "seconds": 1.832, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KHR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "964c4be45ad51a6e", "role": "judge", "t": 1790989046.199, "seconds": 2.564, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XOF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "06ff08fbcfab0710", "role": "judge", "t": 1790989046.924, "seconds": 2.3, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CAD'), so they convey the same meaning.\",\n    \"result\": 1\n  }\n]"}
+{"key": "ee502a502476ba91", "role": "judge", "t": 1790989047.671, "seconds": 1.965, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KYD'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "96a8344f7900f619", "role": "judge", "t": 1790989048.0, "seconds": 1.949, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CNY'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e44b0801a8bca26c", "role": "judge", "t": 1790989047.98, "seconds": 2.164, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XAF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "686d21bce2d39c45", "role": "judge", "t": 1790989047.996, "seconds": 2.154, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CLP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e44b0801a8bca26c", "role": "judge", "t": 1790989047.682, "seconds": 2.478, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XAF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "964c4be45ad51a6e", "role": "judge", "t": 1790989048.412, "seconds": 1.918, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XOF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e44b0801a8bca26c", "role": "judge", "t": 1790989048.418, "seconds": 1.989, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XAF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5734924faa24e627", "role": "judge", "t": 1790989048.771, "seconds": 2.217, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CDF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "3756fa95a9b2d81f", "role": "judge", "t": 1790989049.23, "seconds": 1.883, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('NZD'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "07d7fb570eff4316", "role": "judge", "t": 1790989049.956, "seconds": 2.035, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KMF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "85877ac6afab5f0d", "role": "judge", "t": 1790989050.154, "seconds": 2.148, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CVE'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989050.163, "seconds": 2.233, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "3af2e5222dec28e6", "role": "judge", "t": 1790989038.973, "seconds": 14.179, "output": "[\n  {\n    \"thinking\": \"Both strings are identical, same word, same meaning.\",\n    \"result\": 1\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989050.335, "seconds": 2.823, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9cf754198de40fa5", "role": "judge", "t": 1790989050.157, "seconds": 3.017, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CRC'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c592f42de322d1a6", "role": "judge", "t": 1790989049.643, "seconds": 3.533, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('COP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "97cbd0e094cec7ee", "role": "judge", "t": 1790989050.413, "seconds": 2.766, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CUP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989050.995, "seconds": 2.208, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "280ba716e96dd91f", "role": "judge", "t": 1790989051.121, "seconds": 2.448, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CZK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1b4e4f25f43d611c", "role": "judge", "t": 1790989051.999, "seconds": 1.981, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('DKK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f28aef980e31464f", "role": "judge", "t": 1790989052.309, "seconds": 2.15, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('DJF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e4d5ffcd263b6ec", "role": "judge", "t": 1790989053.212, "seconds": 1.826, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ERN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989053.171, "seconds": 1.899, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f8e8c278879cffa4", "role": "judge", "t": 1790989053.164, "seconds": 1.909, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XCD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9c39dd959bf64c6f", "role": "judge", "t": 1790989053.168, "seconds": 2.057, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('DOP'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989053.215, "seconds": 2.069, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989053.219, "seconds": 2.07, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9c86e792692e2833", "role": "judge", "t": 1790989053.206, "seconds": 2.187, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EGP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989053.572, "seconds": 1.971, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "346bcc5853ec9737", "role": "judge", "t": 1790989053.988, "seconds": 1.93, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ETB'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ad36019ab25cd140", "role": "judge", "t": 1790989054.464, "seconds": 2.11, "output": "[\n  {\n    \"thinking\": \"RUB denotes the Russian ruble, while SUR denotes the former Soviet ruble; they refer to distinct currencies, so the meanings differ.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989055.076, "seconds": 1.721, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989055.079, "seconds": 1.788, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "2313467b6c5d7752", "role": "judge", "t": 1790989055.231, "seconds": 1.795, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('DEM'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e44b0801a8bca26c", "role": "judge", "t": 1790989055.3, "seconds": 1.737, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XAF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989055.295, "seconds": 1.768, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7d3bd9e3eef0bea2", "role": "judge", "t": 1790989055.045, "seconds": 2.398, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('FJD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "36cd8f42212c8dc7", "role": "judge", "t": 1790989055.398, "seconds": 2.061, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('GMD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "70ba8201982d37ed", "role": "judge", "t": 1790989055.55, "seconds": 1.911, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('GBP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "964c4be45ad51a6e", "role": "judge", "t": 1790989055.925, "seconds": 2.0, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XOF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "6320fc986a34d5b0", "role": "judge", "t": 1790989056.804, "seconds": 2.237, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('GEL'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5cb3bacf25734153", "role": "judge", "t": 1790989057.449, "seconds": 1.873, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('GHS'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "53119bd54814af2d", "role": "judge", "t": 1790989057.467, "seconds": 1.903, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('GNF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "b7a92c063c867330", "role": "judge", "t": 1790989057.464, "seconds": 1.994, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('GTQ'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989057.452, "seconds": 2.012, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f8e8c278879cffa4", "role": "judge", "t": 1790989057.456, "seconds": 2.135, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XCD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "b2c6b51dc2d85e88", "role": "judge", "t": 1790989056.584, "seconds": 3.253, "output": "[\n  {\n    \"thinking\": \"The strings 'DDM' and 'M' are unrelated abbreviations/letters with no overlapping meaning; they are not synonyms or paraphrases.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989057.933, "seconds": 1.916, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e44b0801a8bca26c", "role": "judge", "t": 1790989056.875, "seconds": 4.133, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XAF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989057.034, "seconds": 4.396, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "884507961b2db2a4", "role": "judge", "t": 1790989059.047, "seconds": 2.389, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('GYD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "07105306ad7c6769", "role": "judge", "t": 1790989059.471, "seconds": 2.062, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('HNL'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1acbb7e647141286", "role": "judge", "t": 1790989059.475, "seconds": 2.116, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('HUF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "4cae478ee4d036da", "role": "judge", "t": 1790989059.597, "seconds": 2.345, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('IDR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "2627b66a8730b5d5", "role": "judge", "t": 1790989059.846, "seconds": 2.182, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('INR'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ada2ee8e9f1f9fa7", "role": "judge", "t": 1790989059.468, "seconds": 2.572, "output": "[\n  {\n    \"thinking\": \"Both strings are identical 'HKD', representing the same term, thus same meaning.\",\n    \"result\": 1\n  }\n]"}
+{"key": "4eaf95e69a7f78a8", "role": "judge", "t": 1790989059.853, "seconds": 2.55, "output": "[\n  {\n    \"thinking\": \"Both strings are identical 'N/A', indicating not applicable; thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e5d3bb19feaf0f6f", "role": "judge", "t": 1790989059.367, "seconds": 3.755, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('HTG'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c6f2e7c02d9bee5c", "role": "judge", "t": 1790989061.016, "seconds": 2.454, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('IRR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989061.439, "seconds": 2.213, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "58bf8a1a45843271", "role": "judge", "t": 1790989061.442, "seconds": 2.544, "output": "[\n  {\n    \"thinking\": \"Both strings are identical 'IQD', thus same meaning.\",\n    \"result\": 1\n  }\n]"}
+{"key": "5cd4c61f716c6549", "role": "judge", "t": 1790989061.598, "seconds": 2.61, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ISK'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989061.947, "seconds": 2.332, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989062.036, "seconds": 2.249, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989062.043, "seconds": 2.4, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7ae03d12fffbba54", "role": "judge", "t": 1790989061.601, "seconds": 4.161, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ILS'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "2d140edbff8b9ed6", "role": "judge", "t": 1790989063.13, "seconds": 2.645, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('JOD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9e3be63fb67b5af8", "role": "judge", "t": 1790989062.409, "seconds": 3.518, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('JMD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "aba5952a85ae5740", "role": "judge", "t": 1790989063.659, "seconds": 2.474, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KZT'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "b48c9beb280362d1", "role": "judge", "t": 1790989063.993, "seconds": 2.221, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KES'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "87c8a84e7e75f641", "role": "judge", "t": 1790989063.474, "seconds": 2.891, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('JPY'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ad9b89ad83cd0c50", "role": "judge", "t": 1790989064.298, "seconds": 2.194, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KRW'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1cebee89abd112a6", "role": "judge", "t": 1790989064.292, "seconds": 2.372, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AUD'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f32aa496f0527427", "role": "judge", "t": 1790989064.213, "seconds": 2.455, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KGS'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989064.451, "seconds": 2.248, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8939de38b0dbb702", "role": "judge", "t": 1790989065.77, "seconds": 2.326, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SAR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989066.14, "seconds": 1.966, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "aec2156447b4c493", "role": "judge", "t": 1790989065.936, "seconds": 2.173, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('LAK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "b97b07f61e4dc520", "role": "judge", "t": 1790989065.932, "seconds": 2.209, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KWD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "bd62ef5939a81d12", "role": "judge", "t": 1790989066.221, "seconds": 1.985, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('LYD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5fa98f3ef54f44cc", "role": "judge", "t": 1790989066.5, "seconds": 1.99, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('LRD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f8e8c278879cffa4", "role": "judge", "t": 1790989066.504, "seconds": 2.061, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XCD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "75abf52449db85b0", "role": "judge", "t": 1790989066.705, "seconds": 1.921, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('LSL'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "cde5023b395e74dd", "role": "judge", "t": 1790989066.712, "seconds": 2.049, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CHF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ffec6f7f134f420a", "role": "judge", "t": 1790989066.709, "seconds": 2.14, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('LBP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989068.103, "seconds": 1.728, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "bf21deea59d533e5", "role": "judge", "t": 1790989068.219, "seconds": 1.8, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MGA'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ca86cf2261108f5d", "role": "judge", "t": 1790989068.227, "seconds": 2.072, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MAD'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989068.214, "seconds": 2.095, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "3998501ae6f3bfa7", "role": "judge", "t": 1790989068.573, "seconds": 1.867, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MWK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "bfcc06d5de172de8", "role": "judge", "t": 1790989068.224, "seconds": 2.352, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MYR'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "36478360c3552ebb", "role": "judge", "t": 1790989068.774, "seconds": 2.038, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MVR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "0fb1bad52f99fbba", "role": "judge", "t": 1790989068.77, "seconds": 2.069, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MDL'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "4bedef6fd92e110d", "role": "judge", "t": 1790989068.859, "seconds": 2.237, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MXN'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "bfcc06d5de172de8", "role": "judge", "t": 1790989068.498, "seconds": 2.976, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MYR'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "43fe52060d1d9398", "role": "judge", "t": 1790989069.839, "seconds": 1.916, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MNT'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989070.026, "seconds": 1.824, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "594844e06f3073be", "role": "judge", "t": 1790989070.306, "seconds": 1.933, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MKD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989070.451, "seconds": 1.87, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989070.584, "seconds": 1.766, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "964c4be45ad51a6e", "role": "judge", "t": 1790989070.447, "seconds": 2.061, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XOF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "0d374e2c31095225", "role": "judge", "t": 1790989070.844, "seconds": 1.889, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MZN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989070.82, "seconds": 2.065, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "6d2c44c515f39144", "role": "judge", "t": 1790989071.103, "seconds": 2.018, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "0fef2e7fc6aefab8", "role": "judge", "t": 1790989071.763, "seconds": 2.229, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MMK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "612ee3e062af4fba", "role": "judge", "t": 1790989071.481, "seconds": 2.738, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('MRU'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989072.361, "seconds": 2.114, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "09b72edeb5e6f318", "role": "judge", "t": 1790989071.858, "seconds": 2.921, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('NAD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "28ae1f5006323245", "role": "judge", "t": 1790989072.515, "seconds": 2.275, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('NPR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f0ad2dd7cf535949", "role": "judge", "t": 1790989072.246, "seconds": 2.557, "output": "[\n  {\n    \"thinking\": \"NBD is commonly an abbreviation for 'no big deal', while MYR is a currency code for Malaysian Ringgit or an unrelated term; they do not share meaning.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "e0c84b20b009fbc3", "role": "judge", "t": 1790989072.892, "seconds": 2.069, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('NGN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "964c4be45ad51a6e", "role": "judge", "t": 1790989073.129, "seconds": 1.956, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XOF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "b6c3f4970077838d", "role": "judge", "t": 1790989074.0, "seconds": 1.841, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('NOK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "bec89bf0698d0147", "role": "judge", "t": 1790989072.357, "seconds": 4.535, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('NIO'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "06ff08fbcfab0710", "role": "judge", "t": 1790989072.743, "seconds": 4.498, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CAD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "3756fa95a9b2d81f", "role": "judge", "t": 1790989074.482, "seconds": 2.765, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('NZD'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "6844b730ae42df4b", "role": "judge", "t": 1790989074.787, "seconds": 2.465, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('OMR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1cebee89abd112a6", "role": "judge", "t": 1790989074.227, "seconds": 3.027, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AUD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "6f987f7e292dcb37", "role": "judge", "t": 1790989074.807, "seconds": 2.45, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('PKR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "e6c21dbeca471dcb", "role": "judge", "t": 1790989074.97, "seconds": 2.289, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('PYG'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "16da3fa51199b5de", "role": "judge", "t": 1790989075.094, "seconds": 2.168, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('PEN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9b0991e35fa6a653", "role": "judge", "t": 1790989074.81, "seconds": 2.483, "output": "[\n  {\n    \"thinking\": \"USD is the United States dollar, while PAB is the Panamanian balboa; they represent different currencies and are not synonymous.\",\n    \"result\": 0\n  }\n]"}
+{"key": "552c5cc10109c7e5", "role": "judge", "t": 1790989075.847, "seconds": 1.74, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('PHP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7ae03d12fffbba54", "role": "judge", "t": 1790989076.898, "seconds": 1.992, "output": "[\n  {\n    \"thinking\": \"Both strings are identical 'ILS', thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989077.285, "seconds": 1.78, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "06ef3fb5998ba7ee", "role": "judge", "t": 1790989077.272, "seconds": 1.806, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('PGK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "6f608b7286ee2a0a", "role": "judge", "t": 1790989077.275, "seconds": 1.852, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('PLN'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "a73b620dddd96995", "role": "judge", "t": 1790989077.289, "seconds": 1.845, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('QAR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989077.265, "seconds": 1.877, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "826ae6d77dcfb50b", "role": "judge", "t": 1790989077.282, "seconds": 1.895, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('KPW'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5f598eaa428881af", "role": "judge", "t": 1790989077.296, "seconds": 2.034, "output": "[\n  {\n    \"thinking\": \"Both are distinct three\u2011letter strings with no known synonymy or contextual overlap; they do not convey the same meaning.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989077.596, "seconds": 1.904, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989077.279, "seconds": 3.149, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "a59e498dcc288f65", "role": "judge", "t": 1790989079.074, "seconds": 1.863, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ZAR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5b2e0ccd2aa32263", "role": "judge", "t": 1790989079.186, "seconds": 2.006, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('RWF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "833bf8bb3b42d61c", "role": "judge", "t": 1790989079.183, "seconds": 2.206, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('RUB'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "964c4be45ad51a6e", "role": "judge", "t": 1790989079.338, "seconds": 2.225, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XOF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "bbbda566e2caa971", "role": "judge", "t": 1790989079.197, "seconds": 2.472, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('WST'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "005db9d776a65363", "role": "judge", "t": 1790989079.2, "seconds": 2.872, "output": "[\n  {\n    \"thinking\": \"Both are three\u2011letter strings but represent different concepts (e.g., RSD = Serbian dinar or relative standard deviation; YUM = package manager or expression of taste). No synonymy or paraphrase, not numeric.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "5fa80057339597a9", "role": "judge", "t": 1790989079.505, "seconds": 2.586, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SCR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989079.191, "seconds": 2.909, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "52ac5dca3f311db5", "role": "judge", "t": 1790989078.898, "seconds": 4.792, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('RON'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989080.944, "seconds": 2.759, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "592147b4e787b42b", "role": "judge", "t": 1790989080.433, "seconds": 3.273, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SGD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "85d14ed2704a5083", "role": "judge", "t": 1790989081.202, "seconds": 2.507, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SLL'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989081.398, "seconds": 2.313, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989081.567, "seconds": 2.251, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "92d95ce073ca865e", "role": "judge", "t": 1790989081.674, "seconds": 2.35, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SBD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "cf56f4ba302d24f4", "role": "judge", "t": 1790989082.094, "seconds": 2.106, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SOS'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "0a1a68a6405cde44", "role": "judge", "t": 1790989082.098, "seconds": 2.176, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('RSD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "18d6f86cd9bfdf94", "role": "judge", "t": 1790989083.693, "seconds": 1.939, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('LKR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "5e931cae7a2c853a", "role": "judge", "t": 1790989083.841, "seconds": 1.85, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EUR'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1352206f81956f7e", "role": "judge", "t": 1790989083.699, "seconds": 2.141, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SSP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "cde5023b395e74dd", "role": "judge", "t": 1790989083.832, "seconds": 2.016, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CHF'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ea6a6fb58c2f764d", "role": "judge", "t": 1790989084.032, "seconds": 1.818, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SEK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c487284fd5a28581", "role": "judge", "t": 1790989083.837, "seconds": 2.097, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SRD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ac2d7bd22c1a7363", "role": "judge", "t": 1790989083.828, "seconds": 2.171, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SDG'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "a7910f9e5d9fd5c6", "role": "judge", "t": 1790989084.204, "seconds": 1.982, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SZL'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9f792cac3c44007b", "role": "judge", "t": 1790989083.825, "seconds": 2.534, "output": "[\n  {\n    \"thinking\": \"Both strings are identical 'STN', thus they convey the same meaning.\",\n    \"result\": 1\n  }\n]"}
+{"key": "e025edc090523e56", "role": "judge", "t": 1790989084.281, "seconds": 2.101, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SYP'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "a978725b264996fe", "role": "judge", "t": 1790989085.854, "seconds": 1.738, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('TOP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "fd44db14efc29ffa", "role": "judge", "t": 1790989085.862, "seconds": 1.796, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('TJS'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "d3acdb13c24ced81", "role": "judge", "t": 1790989085.697, "seconds": 2.028, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('CSK'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "0578099a46e508a1", "role": "judge", "t": 1790989085.859, "seconds": 1.884, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('THB'), thus they have the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989086.011, "seconds": 1.817, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "964c4be45ad51a6e", "role": "judge", "t": 1790989086.194, "seconds": 1.701, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XOF'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c0bee45fc419b031", "role": "judge", "t": 1790989086.385, "seconds": 1.788, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('TTD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8018a58154d9ae6e", "role": "judge", "t": 1790989086.362, "seconds": 2.033, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('TWD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9d4326439e885e76", "role": "judge", "t": 1790989086.008, "seconds": 3.89, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('TMT'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8391408f1aa79da1", "role": "judge", "t": 1790989085.638, "seconds": 4.316, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('TZS'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8127c74a50994148", "role": "judge", "t": 1790989087.6, "seconds": 2.36, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('TND'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "dfee8bfc569f950f", "role": "judge", "t": 1790989087.757, "seconds": 2.314, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AED'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8c583c2346a3e178", "role": "judge", "t": 1790989087.75, "seconds": 2.328, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('TRY'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c37f73e8c928c175", "role": "judge", "t": 1790989087.904, "seconds": 2.294, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('UGX'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9c86e792692e2833", "role": "judge", "t": 1790989087.834, "seconds": 2.484, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('EGP'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1cebee89abd112a6", "role": "judge", "t": 1790989087.753, "seconds": 2.642, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('AUD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "73dcf940f942def0", "role": "judge", "t": 1790989088.179, "seconds": 2.226, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('UAH'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "9a197c7888c24d52", "role": "judge", "t": 1790989088.398, "seconds": 2.404, "output": "[\n  {\n    \"thinking\": \"N/A means 'not applicable' or 'not available', while XXX is a generic placeholder or unrelated term; they do not share meaning.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "5cb81c928413463a", "role": "judge", "t": 1790989090.101, "seconds": 1.888, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('VUV'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c9888a2a48ce365c", "role": "judge", "t": 1790989090.09, "seconds": 1.91, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('USD'), representing the same currency code, thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c6e4db8bd05c2de2", "role": "judge", "t": 1790989090.084, "seconds": 1.919, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('UYU'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "ad641e2d3955df6e", "role": "judge", "t": 1790989090.329, "seconds": 1.725, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('VES'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "89093510d5c8555e", "role": "judge", "t": 1790989090.096, "seconds": 2.051, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('UZS'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1ee40177c867ebcc", "role": "judge", "t": 1790989090.336, "seconds": 1.914, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('VND'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1e7298b61aa7932a", "role": "judge", "t": 1790989090.418, "seconds": 2.004, "output": "[\n  {\n    \"thinking\": \"VND is a currency code for Vietnamese Dong; 'P' is a single letter with no clear relation to VND, so meanings differ.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "f8e8c278879cffa4", "role": "judge", "t": 1790989090.412, "seconds": 2.033, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('XCD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "1368609e81a1515c", "role": "judge", "t": 1790989089.907, "seconds": 2.789, "output": "[\n  {\n    \"thinking\": \"SUR (e.g., French for 'south' or abbreviation) and RUB (verb 'to rub' or currency code) have different meanings with no synonymy or factual overlap.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "6d3ac473a2fee82f", "role": "judge", "t": 1790989090.81, "seconds": 2.084, "output": "[\n  {\n    \"thinking\": \"BWI is an airport code (Baltimore/Washington International) while XCD is a currency code (East Caribbean dollar); they have unrelated meanings.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "867ab0b79d84701f", "role": "judge", "t": 1790989091.996, "seconds": 1.753, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('YER'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7ac36b739f0c03fc", "role": "judge", "t": 1790989092.253, "seconds": 1.775, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ZWL'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "867ab0b79d84701f", "role": "judge", "t": 1790989092.155, "seconds": 1.954, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('YER'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "da843760696f4a3f", "role": "judge", "t": 1790989092.21, "seconds": 1.906, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('ZMW'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "38335bae9842f816", "role": "judge", "t": 1790989092.207, "seconds": 1.98, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('YUD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "592147b4e787b42b", "role": "judge", "t": 1790989092.431, "seconds": 1.976, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('SGD'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "0ffca677f2c31fca", "role": "judge", "t": 1790989092.203, "seconds": 2.656, "output": "[\n  {\n    \"thinking\": \"YD and YDD are different strings with no evident synonymy or paraphrasing; they do not share the same meaning.\",\n    \"result\": 0\n  }\n]"}

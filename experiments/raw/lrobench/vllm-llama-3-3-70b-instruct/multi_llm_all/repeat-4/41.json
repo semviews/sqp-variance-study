@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 41,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 27.808,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 79,
+  "judge_calls": 0,
+  "returned": 2.823529411764706,
+  "tokens": 22891,
+  "metrics": [],
+  "prediction": 2.823529411764706,
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

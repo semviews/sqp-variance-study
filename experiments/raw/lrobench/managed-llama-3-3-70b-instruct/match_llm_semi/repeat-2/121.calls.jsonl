@@ -1,0 +1,31 @@
+{"key": "9ab38de1d58b5ed2", "role": "operator", "t": 1790978991.29, "seconds": 2.059, "output": "CARE UK CLINICAL SERVICES LTD"}
+{"key": "bc8a19663ca14c29", "role": "operator", "t": 1790978991.29, "seconds": 2.062, "output": "No matched value exists, so the result is an empty string."}
+{"key": "c9e123fbd1965ee7", "role": "operator", "t": 1790978991.291, "seconds": 2.061, "output": "No matched value exists, return an empty string."}
+{"key": "b3be7d88df58407f", "role": "operator", "t": 1790978991.289, "seconds": 2.064, "output": "NHS SUPPLY CHAIN"}
+{"key": "475421cffea8836d", "role": "operator", "t": 1790978991.291, "seconds": 2.313, "output": "None of the values in the 'right_Supplier' column match 'Warwick Radiology Limited', so the matched value is"}
+{"key": "a125825108354816", "role": "operator", "t": 1790978991.292, "seconds": 2.317, "output": "None of the values in the 'right_Supplier' column match 'Warwick District Council', so the matched value is"}
+{"key": "141568723285df0b", "role": "operator", "t": 1790978991.29, "seconds": 2.346, "output": "No matched value exists, Medica Reporting Ltd (Medica Group) does not appear to be in the list of right_Supplier values."}
+{"key": "0b025de055b6e544", "role": "operator", "t": 1790978991.288, "seconds": 2.35, "output": "No matched value exists, return an empty string."}
+{"key": "d065ef2dba553e15", "role": "operator", "t": 1790978991.288, "seconds": 2.352, "output": "NHS SUPPLY CHAIN"}
+{"key": "234455549b1d4c0f", "role": "operator", "t": 1790978991.289, "seconds": 2.354, "output": "No matched value exists, return an empty string."}
+{"key": "3e8832285d5be724", "role": "operator", "t": 1790978993.349, "seconds": 5.563, "output": "Npower does not exist in the list of available 'right_Supplier' values, however a similar value 'CORONA ENERGY RETAIL 4 LTD' does not match and another similar value 'EDF ENERGY' does not match, but 'NPOWER' is a UK energy supplier that was acquired by 'EDF ENERGY' in 2019, and 'NPOWER' is also known to be part of the 'NHS SUPPLY CHAIN' but no direct match exists, a similar company 'NHS PROFESSIONALS LTD' and 'NHS BLOOD & TRANSPLANT' and 'NHS LITIGATION AUTHORITY' does not match, but 'NPOWER' is not in the list, 'NP' or 'N Power' or 'NPower' does not exist, but 'NPOWER' is known for providing gas and electricity, and 'CORONA ENERGY RETAIL 4 LTD' and 'EDF ENERGY' and 'SOUTH WEST WATER LTD' and 'VIRIDOR WASTE MANAGEMENT LTD' and 'SCRL LTD' are in the list of 'right_Supplier', 'NPOWER' is not in the list of 'right_Supplier', 'NPOWER' does not match any value in 'right_Supplier'."}
+{"key": "14aa6ec6ea22158a", "role": "operator", "t": 1790978993.643, "seconds": 5.274, "output": "No matched value exists, return an empty string."}
+{"key": "dac446aa13ada20d", "role": "operator", "t": 1790978993.643, "seconds": 5.275, "output": "NOVARTIS PHARMACEUTICALS UK LTD"}
+{"key": "eb4b15c00ef50ba9", "role": "operator", "t": 1790978993.643, "seconds": 5.278, "output": "No matched value exists for 'Medicspro Ltd' in the 'right_Supplier' column, the value does not exist in the list."}
+{"key": "f436e5eba1b08bdb", "role": "operator", "t": 1790978993.643, "seconds": 5.279, "output": "Synergy Health Managed Services Ltd"}
+{"key": "63c7d790a997c089", "role": "operator", "t": 1790978993.643, "seconds": 5.281, "output": "None of the values in 'right_Supplier' match 'Bayer Plc', so the matched value is"}
+{"key": "6e5b4b98e60c5e61", "role": "operator", "t": 1790978993.643, "seconds": 5.282, "output": "No matched value exists, return an empty string."}
+{"key": "1e6b6b74653c1d8b", "role": "operator", "t": 1790978993.643, "seconds": 5.283, "output": "ROCHE PRODUCTS LTD"}
+{"key": "8559892a3b0cb285", "role": "operator", "t": 1790978993.643, "seconds": 5.284, "output": "CSC COMPUTER SCIENCES LTD"}
+{"key": "2320baa74b38c701", "role": "operator", "t": 1790978993.643, "seconds": 5.285, "output": "No matched value exists, so the result is an empty string."}
+{"key": "d1e8e83c4db46113", "role": "operator", "t": 1790978998.928, "seconds": 1.642, "output": "No matched value exists, so the result is an empty string."}
+{"key": "c814e8eb19f339af", "role": "operator", "t": 1790978998.928, "seconds": 1.661, "output": "No matched value exists, so the output is an empty string."}
+{"key": "406fbfba133b7f81", "role": "operator", "t": 1790978998.912, "seconds": 2.187, "output": "None of the values in the 'right_Supplier' column match 'Emis Health', so the matched value is"}
+{"key": "fb9f5873c81cc53e", "role": "operator", "t": 1790978998.928, "seconds": 2.175, "output": "No matched value exists, so the result is an empty string."}
+{"key": "e9a175a270c5e228", "role": "operator", "t": 1790978998.928, "seconds": 2.177, "output": "PHILIPS HEALTHCARE"}
+{"key": "44fd97ecb2499374", "role": "operator", "t": 1790978998.928, "seconds": 2.295, "output": "None of the values in the 'right_Supplier' column match 'Ensure Uk Ltd', so the matched value is"}
+{"key": "a7bb3f3732eed8f8", "role": "operator", "t": 1790978998.928, "seconds": 4.616, "output": "NHS Coventry& Rugby Ccg does not exist in the list of available values in 'right_Supplier', however, some values contain 'NHS' which might refer to the same supplier, one of these values is \"NHS SUPPLY CHAIN\", but since 'Nhs Coventry& Rugby Ccg' is more specific to a location, another value \"NHS LITIGATION AUTHORITY\" and \"NHS PROFESSIONALS LTD\" and \"NHS BLOOD & TRANSPLANT\" might not be the same supplier, the most likely match would be none of the values in the list."}
+{"key": "1ddbe7cc7727b5b0", "role": "operator", "t": 1790978998.928, "seconds": 4.617, "output": "TOPSCAN (UK) LTD"}
+{"key": "436d55c219d7c13b", "role": "operator", "t": 1790978998.928, "seconds": 4.618, "output": "NHS LITIGATION AUTHORITY"}
+{"key": "f8a39359a208e3f5", "role": "operator", "t": 1790978998.928, "seconds": 4.619, "output": "NHS BLOOD & TRANSPLANT"}
+{"key": "b8a189dbd72d5324", "role": "operator", "t": 1790979000.57, "seconds": 2.979, "output": "No matched value exists, so the result is an empty string."}

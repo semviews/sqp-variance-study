@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venvs/
+.DS_Store
+
+# Benchmark checkout (see docs/REPRODUCE.md).
+/SemBench/
+
+# Regenerated tables, figures, and macros, and launcher logs.
+outputs/
+experiments/logs/

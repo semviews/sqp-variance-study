@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 20,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 6.424,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 455, in pipeline_order20\n    country = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'According to the World Bank, the 2020 GDP of Bangladesh was approximately $323 billion. Considering the global GDP rankings, Bangladesh had a relatively moderate GDP in 2020. Assigning a score based on this, I would give it a score of 23, considering the top countries have a GDP of over $10 trillion and the lowest have a GDP of less than $10 billion.\\n\\n23'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'According to the World Bank, Nigeria\\'s 2020 GDP was approximately $247 billion. Considering the global GDP rankings for 2020, Nigeria\\'s GDP would place it around the middle to lower end of the top 30 countries by GDP. Assigning a score based on this, with the highest GDP countries scoring close to 100 and the lowest scoring close to 0, Nigeria would likely score around 40, given its position and the vast differences in GDP among nations.\\n\\n\"40'",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'According to the World Bank, the 2020 GDP of Pakistan was approximately $276 billion. For comparison, the 2020 GDP of other countries were: USA ($22.67 trillion), China ($16.14 trillion), Japan ($5.15 trillion), Germany ($4.24 trillion), India ($2.76 trillion), France ($2.58 trillion), Brazil ($1.43 trillion), Italy ($1.97 trillion), Canada ($1.79 trillion). \\n\\nConsidering these values, Pakistan\\'s GDP is relatively low compared to other major eco",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

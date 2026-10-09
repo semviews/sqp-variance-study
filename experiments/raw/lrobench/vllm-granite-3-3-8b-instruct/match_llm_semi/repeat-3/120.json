@@ -1,0 +1,85 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 120,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 5.413,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 27,
+  "judge_calls": 0,
+  "returned": [
+    0.0256,
+    0.25,
+    0.0465
+  ],
+  "tokens": [
+    12983,
+    12390,
+    593
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0256,
+        0.25,
+        0.0465
+      ],
+      "prediction": [
+        "['Britannia' 'Orpheum Theatre']",
+        "['Carnegie Centre' 'St Andrews-Wesley United Church']",
+        "['Carnegie Centre' 'St. Andrews-Wesley United Church']",
+        "['Champlain Heights' 'St Andrews-Wesley United Church']",
+        "['Champlain Heights' 'St. Andrews-Wesley United Church']",
+        "['Coal Harbour' 'St Andrews-Wesley United Church']",
+        "['Coal Harbour' 'St. Andrews-Wesley United Church']",
+        "['Creekside' 'Orpheum Theatre']",
+        "['Douglas Park' 'Vogue Theatre']",
+        "['Dunbar' 'Queen Elizabeth Theatre']",
+        "['Evelyne Saller Centre' 'St Andrews-Wesley United Church']",
+        "['Evelyne Saller Centre' 'St. Andrews-Wesley United Church']",
+        "['False Creek' 'Chan Centre for The Performing Art - Concert Hall']",
+        "['False Creek' 'Chan Centre for The Performing Art, The- Concert Hall']",
+        "['Gathering Place Community Centre' 'Orpheum Theatre']",
+        "['Hastings' 'St Andrews-Wesley United Church']",
+        "['Hastings' 'St. Andrews-Wesley United Church']",
+        "['Hillcrest' 'Queen Elizabeth Theatre']",
+        "['Kensington' 'Orpheum Theatre']",
+        "['Kerrisdale' 'St Andrews-Wesley United Church']",
+        "['Kerrisdale' 'St. Andrews-Wesley United Church']",
+        "['Killarney' 'St Andrews-Wesley United Church']",
+        "['Killarney' 'St. Andrews-Wesley United Church']",
+        "['Kitsilano War Memorial' 'Queen Elizabeth Theatre']",
+        "['Marpole-Oakridge' 'St Andrews-Wesley United Church']",
+        "['Marpole-Oakridge' 'St. Andrews-Wesley United Church']",
+        "['Mount Pleasant' 'Orpheum Theatre']",
+        "['Ray-Cam Co-Operative Center' 'Orpheum Theatre']",
+        "['Renfrew Park' 'PNE Forum']",
+        "['Roundhouse' 'Vogue Theatre']",
+        "['Strathcona' 'Orpheum Theatre']",
+        "['Sunset' 'Queen Elizabeth Theatre']",
+        "['Thunderbird' 'St Andrews-Wesley United Church']",
+        "['Thunderbird' 'St. Andrews-Wesley United Church']",
+        "['Trout Lake' 'St Andrews-Wesley United Church']",
+        "['Trout Lake' 'St. Andrews-Wesley United Church']",
+        "['West End' 'St Andrews-Wesley United Church']",
+        "['West End' 'St. Andrews-Wesley United Church']",
+        "['West Point Grey' 'Orpheum Theatre']"
+      ],
+      "truth": [
+        "['Gathering Place Community Centre' 'Orpheum Theatre']",
+        "['Gathering Place Community Centre' 'Vogue Theatre']",
+        "['Hastings' 'PNE Amphitheatre']",
+        "['Hastings' 'PNE Forum']"
+      ]
+    }
+  ]
+}

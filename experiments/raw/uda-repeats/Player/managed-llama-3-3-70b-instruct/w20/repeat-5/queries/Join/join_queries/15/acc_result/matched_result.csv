@@ -1,0 +1,12 @@
+manager.name,team.founded_year,team.location,manager.age,player.nationality,player.id,team.id,manager.id
+Micky Arison,1988,Miami,64,USA,114,16,15
+Micky Arison,1988,Miami,64,USA,118,16,15
+Micky Arison,1988,Miami,64,American || Hawaiian,119,16,15
+Tom Gores,1937,Detroit,60,USA,121,9,1
+Micky Arison,1988,Miami,64,USA,123,16,15
+Tom Gores,1937,Detroit,60,USA,126,9,1
+Micky Arison,1988,Miami,64,USA || Mexico,134,16,15
+Tom Gores,1937,Detroit,60,USA || Jamaican,135,9,1
+Micky Arison,1988,Miami,64,USA || Nigeria,141,16,15
+Tom Gores,1937,Detroit,60,USA,24,9,1
+Tom Gores,1937,Detroit,60,USA,30,9,1

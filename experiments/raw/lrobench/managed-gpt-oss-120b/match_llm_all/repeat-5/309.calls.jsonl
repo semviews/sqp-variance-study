@@ -1,0 +1,1 @@
+{"key": "a15660bfd3a12f41", "role": "operator", "t": 1790987583.393, "seconds": 4.923, "output": "[\n  {\"Table Left\": \"STREET_NUMBER\", \"Table Right\": \"StreetNumber\"},\n  {\"Table Left\": \"Geo Local Area\", \"Table Right\": \"Geo Local Area\"},\n  {\"Table Left\": \"Geom\", \"Table Right\": \"Geom\"},\n  {\"Table Left\": \"STREET_NAME\", \"Table Right\": \"Street\"}\n]"}

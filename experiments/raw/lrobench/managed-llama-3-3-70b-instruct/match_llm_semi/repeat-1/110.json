@@ -1,0 +1,60 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 110,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 6.317,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.3077,
+    0.8,
+    0.4444
+  ],
+  "tokens": [
+    4363,
+    3773,
+    590
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3077,
+        0.8,
+        0.4444
+      ],
+      "prediction": [
+        "['COMMERCE AND INSURANCE' 'Financial Consumer Agency of Canada']",
+        "['CONSERVATION'\n 'Financial Transactions and Reports Analysis Centre of Canada']",
+        "['CORRECTIONS'\n 'Financial Transactions and Reports Analysis Centre of Canada']",
+        "['ECONOMIC DEVELOPMENT' 'Financial Consumer Agency of Canada']",
+        "['OFFICE OF ADMINISTRATION'\n 'Office of the Superintendent of Financial Institutions']",
+        "['OFFICE OF ATTORNEY GENERAL' 'Auditor General']",
+        "['OFFICE OF GOVERNOR'\n 'Office of the Superintendent of Financial Institutions']",
+        "['OFFICE OF LIEUTENANT GOVERNOR'\n 'Office of the Superintendent of Financial Institutions']",
+        "['OFFICE OF SECRETARY OF STATE'\n 'Office of the Superintendent of Financial Institutions']",
+        "['OFFICE OF STATE AUDITOR' 'Auditor General']",
+        "['OFFICE OF STATE TREASURER' 'Finance Department']",
+        "['REVENUE' 'Finance Department']",
+        "['TRANSPORTATION'\n 'Financial Transactions and Reports Analysis Centre of Canada']"
+      ],
+      "truth": [
+        "['COMMERCE AND INSURANCE'\n 'Office of the Superintendent of Financial Institutions']",
+        "['COMMERCE AND INSURANCE' 'Financial Consumer Agency of Canada']",
+        "['OFFICE OF STATE AUDITOR' 'Auditor General']",
+        "['OFFICE OF STATE TREASURER' 'Finance Department']",
+        "['REVENUE' 'Finance Department']"
+      ]
+    }
+  ]
+}

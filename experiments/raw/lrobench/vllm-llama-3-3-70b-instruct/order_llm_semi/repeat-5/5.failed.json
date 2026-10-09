@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 5,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 6.083,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 130, in pipeline_order5\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '1961 is the release year of the movie 101 Dalmatians, to evaluate this metric, we need to consider the age of the movie. Since the task is to assign a score between 0 and 100, we can use the following logic: older movies will have lower scores and newer movies will have higher scores. \\n101 Dalmatians was released in 1961, which is an old movie. Let\\'s assume a movie released in 2022 would get a score of 100 and a movie released in 1900 would get a score of 0. \\nWe can calculate the score using the formula: \\nscore = ((release_year - 1900) / (2022 - 1900)) * 100\\nscore = ((1961 - 1900) / (2022 - 1900)) * 100\\nscore = (61 / 122) * 100\\nscore = 50\\n\\nSo the score for the movie 101 Dalmatians would be 50\" -> 50'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: \"1961 is the release year of the movie 101 Dalmatians, to evaluate this we need a scale. Assuming the scale is from the earliest release year to the latest, and considering the movie release years range from 1900s to 2020s, we can assign a score. Since 1961 is relatively early but not the earliest, let's assign a moderate to high score. A score of 70 seems reasonable given this is not a very recent movie but is also not extremely old.\"",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: '1961 is the release year of the movie 101 Dalmatians, to evaluate this metric, we need to consider the age of the movie. Since the task is to assign a score between 0 and 100, we can use the following logic: older movies will have lower scores and newer movies will have higher scores. \\n101 Dalmatians was released in 1961, which is an old movie. Let\\'s assume a movie released in 2022 would get a score of 100 and a movie released in 1900 would get a",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

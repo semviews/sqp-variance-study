@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 2,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 38.834,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 63, in pipeline_order2\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine the latitude of each city:\\n\\n- **San Francisco** is located at approximately **37.7749\u00b0 N** latitude.\\n- **Paris** is located at approximately **48.8566\u00b0 N** latitude.\\n\\nSince 48.8566\u00b0\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To compare the latitude of the cities \"San Francisco\" and \"Sydney,\" we need to determine their respective latitudes:\\n\\n- **San Francisco, USA**: Approximately 37.7749\u00b0 N latitude.\\n- **Sydney, Austr",
+      "operator_calls": 15
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine the latitude of each city:\\n\\n- **San Francisco**: The latitude is approximately **37.7749\u00b0 N**.\\n- **NYC (New York City)**: The latitude is approximately **40.7128\u00b0 N**.\\n\\nComparing th",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

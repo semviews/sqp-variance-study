@@ -1,0 +1,17 @@
+{"key": "a88e9b447cf89f2d", "role": "operator", "t": 1790968726.651, "seconds": 2.128, "output": "[{\"index\":\"0\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}]"}
+{"key": "99f611a4c941c621", "role": "operator", "t": 1790968728.779, "seconds": 1.265, "output": "[\n  {\"index\":\"1\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}\n]"}
+{"key": "d05ac8129186106e", "role": "operator", "t": 1790968730.044, "seconds": 1.227, "output": "[{\"index\":\"2\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}]"}
+{"key": "43fe40aa920558f6", "role": "operator", "t": 1790968731.271, "seconds": 1.209, "output": "[{\"index\":\"3\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}]"}
+{"key": "135fa173e17caafd", "role": "operator", "t": 1790968732.48, "seconds": 1.244, "output": "[{\"index\":\"4\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}]"}
+{"key": "63ee8a98e75ab47f", "role": "operator", "t": 1790968733.724, "seconds": 1.27, "output": "[{\"index\":\"5\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}]"}
+{"key": "d2886885abaf08a9", "role": "operator", "t": 1790968734.994, "seconds": 1.128, "output": "[{\"index\":\"6\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}]"}
+{"key": "6c63e04deea48599", "role": "operator", "t": 1790968736.122, "seconds": 1.276, "output": "[{\"index\":\"7\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}]"}
+{"key": "2a5bb5b075555fc6", "role": "operator", "t": 1790968737.398, "seconds": 1.287, "output": "[\n  {\"index\":\"8\", \"cluster_name\": \"1990s\", \"cluster_label\": \"0\"}\n]"}
+{"key": "a3ab67f30fa84f99", "role": "operator", "t": 1790968738.685, "seconds": 1.063, "output": "[{\"index\":\"9\", \"cluster_name\": \"2000s\", \"cluster_label\": \"1\"}]"}
+{"key": "7af62bb7c99e983b", "role": "operator", "t": 1790968739.748, "seconds": 1.249, "output": "[{\"index\":\"10\", \"cluster_name\": \"2000s\", \"cluster_label\": \"1\"}]"}
+{"key": "2c61670dea65ffb4", "role": "operator", "t": 1790968740.997, "seconds": 1.127, "output": "[{\"index\":\"11\", \"cluster_name\": \"2000s\", \"cluster_label\": \"1\"}]"}
+{"key": "323aed66c31345b9", "role": "operator", "t": 1790968742.123, "seconds": 1.11, "output": "[{\"index\":\"12\", \"cluster_name\": \"2000s\", \"cluster_label\": \"1\"}]"}
+{"key": "e26e9741353b59fd", "role": "operator", "t": 1790968743.234, "seconds": 1.342, "output": "[{\"index\":\"13\", \"cluster_name\": \"2000s\", \"cluster_label\": \"1\"}]"}
+{"key": "6ee259432910a249", "role": "operator", "t": 1790968744.576, "seconds": 1.144, "output": "[{\"index\":\"14\", \"cluster_name\": \"2000s\", \"cluster_label\": \"1\"}]"}
+{"key": "10c0fd96ab9387dc", "role": "operator", "t": 1790968745.721, "seconds": 1.253, "output": "[\n  {\"index\":\"15\", \"cluster_name\": \"2000s\", \"cluster_label\": \"1\"}\n]"}
+{"key": "df26af4c0f0bb920", "role": "operator", "t": 1790968746.974, "seconds": 1.907, "output": "{\"type\": \"function\", \"name\": \"assign_cluster\", \"parameters\": {\"row\": {\"type\": \"object\", \"value\": {\"index\": 16, \"Year\": 2007}}, \"clusters\": {\"type\": \"object\", \"value\": {\"0\": \"1990s\", \"1\": \"2000s\"}}}}"}

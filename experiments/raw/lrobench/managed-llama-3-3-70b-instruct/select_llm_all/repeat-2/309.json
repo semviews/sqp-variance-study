@@ -1,0 +1,68 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 2.707,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.7333,
+    0.8462
+  ],
+  "tokens": [
+    996,
+    934,
+    62
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.7333,
+        0.8462
+      ],
+      "prediction": [
+        "continent",
+        "country",
+        "economy",
+        "ethnicGroup",
+        "isMember",
+        "language",
+        "organization",
+        "politics",
+        "population",
+        "religion",
+        "target"
+      ],
+      "truth": [
+        "borders",
+        "city",
+        "continent",
+        "country",
+        "economy",
+        "encompasses",
+        "ethnicGroup",
+        "isMember",
+        "language",
+        "organization",
+        "politics",
+        "population",
+        "province",
+        "religion",
+        "target"
+      ]
+    }
+  ]
+}

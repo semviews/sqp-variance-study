@@ -1,0 +1,42 @@
+{"key": "5b4c709fa056c7f7", "role": "operator", "t": 1790970621.187, "seconds": 3.34, "output": "[\n  {\"Date\": \"201302\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "e653d79651c59e9f", "role": "operator", "t": 1790970621.187, "seconds": 3.348, "output": "[\n  {\"Date\": \"201303\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "75ea2c9c4dbfcf5b", "role": "operator", "t": 1790970621.188, "seconds": 3.805, "output": "[\n  {\"Date\": \"201203\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "2fd9830a029bf128", "role": "operator", "t": 1790970621.186, "seconds": 3.815, "output": "[\n  {\"Date\": \"201207\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "02008a87cd5c50a9", "role": "operator", "t": 1790970621.19, "seconds": 3.813, "output": "[\n  {\"Date\": \"201307\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "3e1361add079d6c4", "role": "operator", "t": 1790970621.189, "seconds": 3.816, "output": "[\n  {\"Date\": \"201305\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "04ad68c26f1e3f6e", "role": "operator", "t": 1790970621.191, "seconds": 3.816, "output": "[\n  {\"Date\": \"201308\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "c038e97f0e1fc014", "role": "operator", "t": 1790970621.188, "seconds": 3.862, "output": "[\n  {\"Date\": \"201304\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "4903e22834c7cadb", "role": "operator", "t": 1790970621.188, "seconds": 3.979, "output": "[\n  {\"Date\": \"201205\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "b84485dd594620c0", "role": "operator", "t": 1790970621.19, "seconds": 4.298, "output": "[\n  {\"Date\": \"201306\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "1aa8e4c2b0946a9f", "role": "operator", "t": 1790970624.528, "seconds": 1.706, "output": "[\n  {\"Date\": \"201309\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "a9e16fb0735bf123", "role": "operator", "t": 1790970624.536, "seconds": 1.809, "output": "[\n  {\"Date\": \"201310\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "42bc8cec83f4e620", "role": "operator", "t": 1790970625.05, "seconds": 1.666, "output": "[\n  {\"Date\": \"201208\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "5562ce4ea07cd6a8", "role": "operator", "t": 1790970625.007, "seconds": 1.901, "output": "[\n  {\"Date\": \"201206\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "329eea9327fe9b3e", "role": "operator", "t": 1790970625.007, "seconds": 1.913, "output": "[\n  {\"Date\": \"201204\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "3e8446a11651429e", "role": "operator", "t": 1790970625.167, "seconds": 1.849, "output": "[\n  {\"Date\": \"201209\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "a9d6c225079e234b", "role": "operator", "t": 1790970625.007, "seconds": 2.251, "output": "[\n  {\"Date\": \"201201\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "b4857624873fe4a6", "role": "operator", "t": 1790970625.007, "seconds": 2.28, "output": "[\n  {\"Date\": \"201202\", \"YearAttr\": \"Leap Year\"}\n]"}
+{"key": "086aad8267dd018a", "role": "operator", "t": 1790970624.993, "seconds": 2.343, "output": "[\n  {\"Date\": \"201311\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "c25f02680add35ce", "role": "operator", "t": 1790970625.488, "seconds": 2.262, "output": "[\n  {\"Date\": \"201112\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "8514323d8b7a2221", "role": "operator", "t": 1790970626.234, "seconds": 1.783, "output": "[\n  {\"Date\": \"201301\", \"YearAttr\": \"Common Year\"}\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970628.029, "seconds": 2.544, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970628.055, "seconds": 2.572, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970628.051, "seconds": 2.772, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970628.04, "seconds": 2.807, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970628.037, "seconds": 2.835, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970628.048, "seconds": 2.874, "output": "[\n  {\n    \"thinking\": \"Both strings are identical, thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970628.025, "seconds": 3.073, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970628.044, "seconds": 3.852, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970628.033, "seconds": 3.87, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970628.022, "seconds": 3.884, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970630.577, "seconds": 2.474, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970630.831, "seconds": 2.446, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970630.835, "seconds": 2.654, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970631.108, "seconds": 2.542, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970631.115, "seconds": 2.539, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970631.111, "seconds": 2.711, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970631.9, "seconds": 2.265, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970631.119, "seconds": 3.185, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "7f4de21503bc20a0", "role": "judge", "t": 1790970631.909, "seconds": 2.628, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Leap Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970631.913, "seconds": 2.744, "output": "[\n  {\n    \"thinking\": \"Both strings are identical, thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "8f6d8b60ae8e9816", "role": "judge", "t": 1790970633.056, "seconds": 2.278, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Common Year'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}

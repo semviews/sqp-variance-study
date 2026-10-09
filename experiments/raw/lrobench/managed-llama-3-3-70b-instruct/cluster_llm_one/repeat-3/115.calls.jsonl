@@ -1,0 +1,2 @@
+{"key": "9a49cc3bb4b9dbb8", "role": "operator", "t": 1790972240.496, "seconds": 2.127, "output": "[{\"index\":\"5\", \"cluster_name\": \"outlook\", \"cluster_label\": \"1\"}]"}
+{"key": "b63b026738c289cb", "role": "operator", "t": 1790972242.623, "seconds": 1.527, "output": "{\"function\": \"assign_to_cluster\", \"args\": [\"{'index': 109, 'Email': 'smiths@mail.com'}\", \"{\\\"1\\\": \\\"outlook\\\"}\"]}"}

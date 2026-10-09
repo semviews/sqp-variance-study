@@ -1,0 +1,73 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 12.002,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.875,
+    0.9333,
+    0.9032
+  ],
+  "tokens": [
+    1010,
+    934,
+    76
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.875,
+        0.9333,
+        0.9032
+      ],
+      "prediction": [
+        "borders",
+        "city",
+        "country",
+        "economy",
+        "encompasses",
+        "ethnicGroup",
+        "isMember",
+        "language",
+        "located",
+        "locatedOn",
+        "organization",
+        "politics",
+        "population",
+        "province",
+        "religion",
+        "target"
+      ],
+      "truth": [
+        "borders",
+        "city",
+        "continent",
+        "country",
+        "economy",
+        "encompasses",
+        "ethnicGroup",
+        "isMember",
+        "language",
+        "organization",
+        "politics",
+        "population",
+        "province",
+        "religion",
+        "target"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 206,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 1.681,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.75,
+    0.8571
+  ],
+  "tokens": [
+    180,
+    173,
+    7
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.75,
+        0.8571
+      ],
+      "prediction": [
+        "Country",
+        "Name",
+        "Province"
+      ],
+      "truth": [
+        "Country",
+        "Name",
+        "Population",
+        "Province"
+      ]
+    }
+  ]
+}

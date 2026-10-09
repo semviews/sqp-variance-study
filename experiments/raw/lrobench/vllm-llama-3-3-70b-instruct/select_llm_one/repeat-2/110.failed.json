@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 110,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 40.541,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 233, in pipeline_select110\n    df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine if two states are geographically adjacent, we need to consider their shared borders. Montana and Colorado (CO) do share a border. \\n\\n1'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether Montana and Colorado are geographically adjacent, we need to consider their shared borders. Montana and Colorado do share a border. Therefore, the condition is satisfied.\\n\\n1'",
+      "operator_calls": 12
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine if two states are geographically adjacent, we need to consider their shared borders. Montana and Colorado (CO) do share a border. \\n\\n1'",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0
+}

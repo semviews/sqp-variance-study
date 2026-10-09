@@ -1,0 +1,1 @@
+{"key": "c0d94567b8c061ef", "role": "operator", "t": 1790974281.506, "seconds": 42.234, "output": "[\n  {\"index\":2, \"name\":\"France\"},\n  {\"index\":9, \"name\":\"Spain\"},\n  {\"index\":3, \"name\":\"Germany\"},\n  {\"index\":1, \"name\":\"England\"},\n  {\"index\":6, \"name\":\"Poland\"}\n]"}

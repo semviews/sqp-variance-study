@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 21,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 12.396,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 2,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Kattegat",
+      "Europe"
+    ],
+    [
+      "Sea of Azov",
+      "Europe"
+    ],
+    [
+      "The Channel",
+      "Europe"
+    ]
+  ],
+  "tokens": 1271,
+  "metrics": [],
+  "prediction": [
+    [
+      "Kattegat",
+      "Europe"
+    ],
+    [
+      "Sea of Azov",
+      "Europe"
+    ],
+    [
+      "The Channel",
+      "Europe"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

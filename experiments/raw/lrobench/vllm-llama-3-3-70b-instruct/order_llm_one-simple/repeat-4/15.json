@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 15,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 4.327,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 42,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    10050,
+    10008,
+    42
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Classic Cars",
+        "Motorcycles",
+        "Planes",
+        "Ships",
+        "Trains",
+        "Trucks and Buses",
+        "Vintage Cars"
+      ],
+      "truth": [
+        "Classic Cars",
+        "Motorcycles",
+        "Planes",
+        "Ships",
+        "Trains",
+        "Trucks and Buses",
+        "Vintage Cars"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.6667,
+      "prediction": [
+        "Planes",
+        "Trucks and Buses",
+        "Trains",
+        "Ships",
+        "Motorcycles",
+        "Classic Cars",
+        "Vintage Cars"
+      ],
+      "truth": [
+        "Planes",
+        "Trains",
+        "Motorcycles",
+        "Classic Cars",
+        "Vintage Cars",
+        "Trucks and Buses",
+        "Ships"
+      ]
+    }
+  ]
+}

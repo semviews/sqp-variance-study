@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 21,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 19.88,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 2,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Malakka Strait",
+      "Asia"
+    ],
+    [
+      "Kattegat",
+      "Europe"
+    ],
+    [
+      "Skagerrak",
+      "Europe"
+    ]
+  ],
+  "tokens": 1773,
+  "metrics": [],
+  "prediction": [
+    [
+      "Malakka Strait",
+      "Asia"
+    ],
+    [
+      "Kattegat",
+      "Europe"
+    ],
+    [
+      "Skagerrak",
+      "Europe"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "manager",
+  "attributes": [
+    "age",
+    "name",
+    "nationality",
+    "nba_team",
+    "own_year"
+  ],
+  "model": "openai/vllm-granite-3-3-8b-instruct",
+  "workers": 20,
+  "repeat": 3,
+  "calls": 80,
+  "documents": 16,
+  "transient_retries": 0,
+  "failed_calls": 0,
+  "seconds": 11.762,
+  "prompt_tokens": 201044
+}

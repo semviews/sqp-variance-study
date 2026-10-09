@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 32,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 47.673,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 153,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Germany",
+      1
+    ],
+    [
+      "India",
+      2
+    ],
+    [
+      "USA",
+      4
+    ]
+  ],
+  "tokens": 37838,
+  "metrics": [],
+  "prediction": [
+    [
+      "Germany",
+      1
+    ],
+    [
+      "India",
+      2
+    ],
+    [
+      "USA",
+      4
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

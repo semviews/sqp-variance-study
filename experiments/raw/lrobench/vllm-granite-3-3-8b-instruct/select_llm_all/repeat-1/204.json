@@ -1,0 +1,70 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 204,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 28.804,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: \"['LastEditorDate'] not in index\"",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: \"['LastEditorDate'] not in index\"",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.3571,
+    1.0,
+    0.5263
+  ],
+  "tokens": [
+    300,
+    220,
+    80
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3571,
+        1.0,
+        0.5263
+      ],
+      "prediction": [
+        "AnswerCount",
+        "ClosedDate",
+        "CommentCount",
+        "CommunityOwnedDate",
+        "CreaionDate",
+        "FavoriteCount",
+        "LasActivityDate",
+        "LastEditDate",
+        "LastEditorDisplayName",
+        "LastEditorUserId",
+        "OwnerDisplayName",
+        "ParentId",
+        "Tags",
+        "Title"
+      ],
+      "truth": [
+        "ClosedDate",
+        "CommunityOwnedDate",
+        "CreaionDate",
+        "LasActivityDate",
+        "LastEditDate"
+      ]
+    }
+  ]
+}

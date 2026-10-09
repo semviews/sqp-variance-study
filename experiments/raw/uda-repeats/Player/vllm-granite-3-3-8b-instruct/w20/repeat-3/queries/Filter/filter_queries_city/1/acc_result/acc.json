@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "state_name": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "area": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "city_name": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "macro_precision": 0.6666666666666666,
+  "macro_recall": 0.6666666666666666,
+  "macro_f1": 0.6666666666666666,
+  "rows": {
+    "len_gold": 1,
+    "len_pred": 1,
+    "matched_rows": 1
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "state_name",
+    "area",
+    "city_name"
+  ],
+  "skipped_columns": []
+}

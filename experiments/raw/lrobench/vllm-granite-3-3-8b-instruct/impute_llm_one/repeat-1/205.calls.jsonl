@@ -1,0 +1,22 @@
+{"key": "51b2eabfdfeee279", "role": "operator", "t": 1790964302.232, "seconds": 2.608, "output": "[\n  {\"height\": \"177.8\", \"weight\": \"157\", \"bmi\": 25.1}\n]"}
+{"key": "bdeedcb8007c6808", "role": "operator", "t": 1790964302.231, "seconds": 2.616, "output": "[\n  {\"height\": \"172.72\", \"weight\": \"152\", \"bmi\": \"5.13\"}\n]"}
+{"key": "206b1f8af4710d6e", "role": "operator", "t": 1790964302.232, "seconds": 2.802, "output": "[\n  {\"height\": \"180.34\", \"weight\": \"161\", \"bmi\": \"49.34\"}\n]"}
+{"key": "1a9f73f7135632ca", "role": "operator", "t": 1790964302.231, "seconds": 2.816, "output": "[\n  {\"height\": \"182.88\", \"weight\": \"172\", \"bmi\": \"5.19\"}\n]"}
+{"key": "8c2ad06eb31c9a73", "role": "operator", "t": 1790964302.233, "seconds": 2.816, "output": "[\n  {\"height\": \"175.26\", \"weight\": \"143\", \"bmi\": \"46.34\"}\n]"}
+{"key": "5e09d762d779e2d0", "role": "operator", "t": 1790964302.235, "seconds": 2.816, "output": "[\n  {\"height\": \"172.72\", \"weight\": \"148\", \"bmi\": \"24.8\"}\n]"}
+{"key": "aa12939e90a70e7a", "role": "operator", "t": 1790964302.233, "seconds": 3.01, "output": "[\n  {\"height\": \"182.88\", \"weight\": \"170\", \"bmi\": \"51.0\"}\n]"}
+{"key": "da40d5dc6b64c326", "role": "operator", "t": 1790964302.234, "seconds": 3.014, "output": "[\n  {\"height\": \"175.26\", \"weight\": \"150\", \"bmi\": \"24.22\"}\n]"}
+{"key": "dba5c1ec8a00e3f5", "role": "operator", "t": 1790964302.235, "seconds": 3.016, "output": "[\n  {\"height\": \"177.8\", \"weight\": \"132\", \"bmi\": 20.0}\n]"}
+{"key": "6197c413a431602b", "role": "operator", "t": 1790964302.234, "seconds": 3.199, "output": "[\n  {\"height\": \"180.34\", \"weight\": \"154\", \"bmi\": \"2.38\"}\n]"}
+{"key": "6197c413a431602b", "role": "operator", "t": 1790964304.841, "seconds": 1.19, "output": "[\n  {\"height\": \"180.34\", \"weight\": \"154\", \"bmi\": 29.0}\n]"}
+{"key": "9f2fd9d1e1c050ff", "role": "operator", "t": 1790964305.251, "seconds": 1.36, "output": "[\n  {\"height\": \"182.88\", \"weight\": \"165\", \"bmi\": \"49.57\"}\n]"}
+{"key": "1a9f73f7135632ca", "role": "operator", "t": 1790964305.251, "seconds": 1.363, "output": "[\n  {\"height\": \"182.88\", \"weight\": \"172\", \"bmi\": \"5.16\"}\n]"}
+{"key": "46975555ca2820bf", "role": "operator", "t": 1790964305.251, "seconds": 1.365, "output": "[\n  {\"height\": \"167.64\", \"weight\": \"132\", \"bmi\": \"47.34\"}\n]"}
+{"key": "d72d2564076e4a56", "role": "operator", "t": 1790964305.251, "seconds": 4.634, "output": "To calculate the BMI (Body Mass Index) from the given height in centimeters and weight in pounds, we use the formula:\n\n\\[\n\\text{BMI} = \\frac{\\text{weight (lb)} \\times 703}{\\text{height (cm)}^2}\n\\]\n\nGiven:\n- Height = 190.5 cm\n- Weight = 190 lb\n\nStep-by-step calculation:\n1. Convert height from cm to the formula's required units (already in cm, so we square it directly).\n2. Square the height: \\(190.5^2 = 36290.25\\).\n3. Multiply the weight by 703: \\(190 \\times 703 = 133570\\).\n4. Divide the result from step 3 by the squared height from step 2: \\(\\frac{133570}{36290.25} \\approx 3.68\\).\n\nThus, the BMI is approximately 3.68.\n\nThe imputed JSON row is:\n\n```json\n[\n  {\"height\": \"190.5\", \"weight\": \"190\", \"bmi\": \"3.68\"}\n]\n```"}
+{"key": "da40d5dc6b64c326", "role": "operator", "t": 1790964305.251, "seconds": 4.64, "output": "[\n  {\"height\": \"175.26\", \"weight\": \"150\", \"bmi\": \"24.22\"}\n]"}
+{"key": "143daf8678e98159", "role": "operator", "t": 1790964305.251, "seconds": 4.644, "output": "[\n  {\"height\": \"185.42\", \"weight\": \"172\", \"bmi\": 50.34}\n]"}
+{"key": "95024792d7cde9b1", "role": "operator", "t": 1790964305.251, "seconds": 4.646, "output": "[\n  {\"height\": \"175.26\", \"weight\": \"146\", \"bmi\": \"47.77\"}\n]"}
+{"key": "8bdd0aaf3b9f9af5", "role": "operator", "t": 1790964305.433, "seconds": 4.466, "output": "[\n  {\"height\": \"180.34\", \"weight\": \"148\", \"bmi\": 35.7}\n]"}
+{"key": "2423e25cc88bc459", "role": "operator", "t": 1790964305.251, "seconds": 4.65, "output": "[\n  {\"height\": \"193.04\", \"weight\": \"183\", \"bmi\": \"49.07\"}\n]"}
+{"key": "ba036979e757c6a8", "role": "operator", "t": 1790964306.032, "seconds": 3.875, "output": "[\n  {\"height\": \"185.42\", \"weight\": \"185\", \"bmi\": 28.66}\n]"}
+{"key": "ef87fcdc0fc508b5", "role": "operator", "t": 1790964306.612, "seconds": 3.298, "output": "[\n  {\"height\": \"175.26\", \"weight\": \"141\", \"bmi\": \"45.77\"}\n]"}

@@ -1,0 +1,68 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 102,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 8.021,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.4118,
+    0.7778,
+    0.5385
+  ],
+  "tokens": [
+    1058,
+    784,
+    274
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4118,
+        0.7778,
+        0.5385
+      ],
+      "prediction": [
+        "['Marin']",
+        "['Monterey']",
+        "['Napa']",
+        "['Nevada']",
+        "['Orange']",
+        "['Plumas']",
+        "['San Bernardino']",
+        "['San Diego']",
+        "['San Francisco']",
+        "['San Joaquin']",
+        "['San Luis Obispo']",
+        "['San Mateo']",
+        "['Santa Barbara']",
+        "['Santa Clara']",
+        "['Santa Cruz']",
+        "['Solano']",
+        "['Sonoma']"
+      ],
+      "truth": [
+        "['Alameda']",
+        "['Contra Costa']",
+        "['Marin']",
+        "['Napa']",
+        "['San Francisco']",
+        "['San Mateo']",
+        "['Santa Clara']",
+        "['Solano']",
+        "['Sonoma']"
+      ]
+    }
+  ]
+}

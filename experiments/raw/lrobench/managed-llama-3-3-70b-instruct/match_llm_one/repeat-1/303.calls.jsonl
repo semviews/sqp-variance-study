@@ -1,0 +1,14 @@
+{"key": "b740b8363c93105f", "role": "operator", "t": 1790968861.505, "seconds": 1.474, "output": "0"}
+{"key": "ae9926615395bf79", "role": "operator", "t": 1790968861.507, "seconds": 1.54, "output": "0"}
+{"key": "1b80385fb8de6317", "role": "operator", "t": 1790968861.504, "seconds": 1.624, "output": "0"}
+{"key": "9a36ea124d3924df", "role": "operator", "t": 1790968861.509, "seconds": 1.634, "output": "0"}
+{"key": "f20bb50159e2ad2c", "role": "operator", "t": 1790968861.508, "seconds": 1.646, "output": "0"}
+{"key": "94bea315337b537f", "role": "operator", "t": 1790968861.502, "seconds": 1.654, "output": "0"}
+{"key": "12bd14ee898e8db2", "role": "operator", "t": 1790968861.503, "seconds": 1.729, "output": "0"}
+{"key": "5b36b85717cc21f3", "role": "operator", "t": 1790968861.505, "seconds": 2.155, "output": "0"}
+{"key": "c9dd26ab165b3c21", "role": "operator", "t": 1790968861.506, "seconds": 2.266, "output": "0"}
+{"key": "0850b7fa5107762d", "role": "operator", "t": 1790968861.508, "seconds": 2.307, "output": "0"}
+{"key": "22eefd5be0d442b4", "role": "operator", "t": 1790968862.98, "seconds": 0.857, "output": "0"}
+{"key": "3ed57a01b1f63a64", "role": "operator", "t": 1790968863.156, "seconds": 0.868, "output": "0"}
+{"key": "cc3f0c56883efe5b", "role": "operator", "t": 1790968863.128, "seconds": 1.161, "output": "0"}
+{"key": "88f55cf704839c1e", "role": "operator", "t": 1790968863.232, "seconds": 1.308, "output": "${compare_strings(REGION_NAME, Governorate)}"}

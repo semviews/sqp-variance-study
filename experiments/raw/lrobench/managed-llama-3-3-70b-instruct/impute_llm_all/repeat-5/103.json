@@ -1,0 +1,134 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 103,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 103.998,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: 'city'",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: 'city'",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 20,
+  "returned": [
+    0.5,
+    0.55
+  ],
+  "tokens": [
+    9458,
+    4131,
+    5327
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.5,
+      "prediction": [
+        "Boston",
+        "San Jose",
+        "Tokyo",
+        "Stamford",
+        "Worcester",
+        "Brisbane",
+        "Stamford",
+        "San Francisco",
+        "Los Angeles",
+        "Los Angeles",
+        "VIC",
+        "MA",
+        "CA",
+        "CA",
+        "MA",
+        "CA",
+        "CA",
+        "BC",
+        "CA",
+        "PA"
+      ],
+      "truth": [
+        "Brickhaven",
+        "San Jose",
+        "Minato-ku",
+        "Glendale",
+        "New Bedford",
+        "South Brisbane",
+        "New Haven",
+        "Brisbane",
+        "Glendale",
+        "Pasadena",
+        "Victoria",
+        "MA",
+        "CA",
+        "CA",
+        "MA",
+        "CA",
+        "CA",
+        "BC",
+        "CA",
+        "PA"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.55,
+      "prediction": [
+        "Boston",
+        "San Jose",
+        "Tokyo",
+        "Stamford",
+        "Worcester",
+        "Brisbane",
+        "Stamford",
+        "San Francisco",
+        "Los Angeles",
+        "Los Angeles",
+        "VIC",
+        "MA",
+        "CA",
+        "CA",
+        "MA",
+        "CA",
+        "CA",
+        "BC",
+        "CA",
+        "PA"
+      ],
+      "truth": [
+        "Brickhaven",
+        "San Jose",
+        "Minato-ku",
+        "Glendale",
+        "New Bedford",
+        "South Brisbane",
+        "New Haven",
+        "Brisbane",
+        "Glendale",
+        "Pasadena",
+        "Victoria",
+        "MA",
+        "CA",
+        "CA",
+        "MA",
+        "CA",
+        "CA",
+        "BC",
+        "CA",
+        "PA"
+      ]
+    }
+  ]
+}

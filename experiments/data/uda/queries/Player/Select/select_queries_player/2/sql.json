@@ -1,0 +1,21 @@
+{
+  "sql": "/* Query 2: select (player) */ SELECT team, name, mvp_awards, birth_date FROM player",
+  "player": {
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "mvp_awards": {
+      "value_type": "int",
+      "description": "number of NBA MVP awards the player has won; use 0 if none (e.g., 2)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

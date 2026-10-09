@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 314,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 24.91,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0,
+  "returned": [
+    0.2857,
+    0.6667,
+    0.4
+  ],
+  "tokens": [
+    2687,
+    2672,
+    15
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2857,
+        0.6667,
+        0.4
+      ],
+      "prediction": [
+        "['CoAppNm' 'Name']",
+        "['CoAppOrgID' 'Organisation']",
+        "['CoAppOrgNm' 'Organisation']",
+        "['CoAppRoleCD' 'Professional/Occupational Group']",
+        "['CoAppRoleEN' 'Job Title']",
+        "['CoAppRoleFR' 'Job Title']",
+        "['Key-Cl\u00c3\\x83\u00c2\u00a9' 'Post Unique Reference']"
+      ],
+      "truth": [
+        "['CoAppNm' 'Name']",
+        "['CoAppOrgNm' 'Organisation']",
+        "['ProvinceEN' 'Unit']"
+      ]
+    }
+  ]
+}

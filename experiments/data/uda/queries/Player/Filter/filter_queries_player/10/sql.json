@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 10: 2 (player) */ SELECT age, birth_date, college FROM player WHERE age > 78 AND mvp_awards > 0",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "college": {
+      "value_type": "str",
+      "description": "the college the player attended, if applicable (e.g., Duke University)."
+    }
+  }
+}

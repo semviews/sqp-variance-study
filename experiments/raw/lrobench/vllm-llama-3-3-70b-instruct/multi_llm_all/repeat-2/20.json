@@ -1,0 +1,93 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 20,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 20.041,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 8,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Jakarta",
+      "Sunda Sea"
+    ],
+    [
+      "Jakarta",
+      "South China Sea"
+    ],
+    [
+      "Karachi",
+      "Arabian Sea"
+    ],
+    [
+      "Mumbai",
+      "Arabian Sea"
+    ],
+    [
+      "Mumbai",
+      "Gulf of Oman"
+    ],
+    [
+      "Seoul",
+      "Yellow Sea"
+    ],
+    [
+      "Seoul",
+      "East China Sea"
+    ],
+    [
+      "Seoul",
+      "Sea of Japan"
+    ]
+  ],
+  "tokens": 2587,
+  "metrics": [],
+  "prediction": [
+    [
+      "Jakarta",
+      "Sunda Sea"
+    ],
+    [
+      "Jakarta",
+      "South China Sea"
+    ],
+    [
+      "Karachi",
+      "Arabian Sea"
+    ],
+    [
+      "Mumbai",
+      "Arabian Sea"
+    ],
+    [
+      "Mumbai",
+      "Gulf of Oman"
+    ],
+    [
+      "Seoul",
+      "Yellow Sea"
+    ],
+    [
+      "Seoul",
+      "East China Sea"
+    ],
+    [
+      "Seoul",
+      "Sea of Japan"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 21,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 11.117,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 478, in pipeline_order21\n    amazon = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To compare the 'The founding time of the brand' criteria, we need to know the founding time of the brands. Since both items have the same brand 'Lenovo', we can infer that their founding times are th\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To compare the \\'The founding time of the brand\\' criteria, we need to know the founding time of the brands. Since both items have the same brand \\'Lenovo\\', we can infer that their founding times ar",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To compare the founding times, we need to know the founding year of each brand. Lenovo was founded in 1984 and Dell was founded in 1984 as well. Since they were founded in the same year, neither has",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

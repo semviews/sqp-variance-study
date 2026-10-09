@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 1: 1 (manager) */ SELECT age, nba_team, name FROM manager WHERE nba_team <> 'Cleveland Cavaliers'",
+  "manager": {
+    "age": {
+      "value_type": "int",
+      "description": "age is the age of the team owner, a integer (e.g. 45)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "name is the full name of the team owner (e.g. Jeanie Buss)."
+    },
+    "nba_team": {
+      "value_type": "str",
+      "description": "NBA_team is the NBA team's name the owner own, (e.g. Los Angeles Lakers)."
+    }
+  }
+}

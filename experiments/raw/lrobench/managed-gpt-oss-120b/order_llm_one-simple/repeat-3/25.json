@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 25,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 58.01,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 182,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    41080,
+    40898,
+    182
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Born This Way",
+        "Judas",
+        "The Edge of Glory"
+      ],
+      "truth": [
+        "Born This Way",
+        "Judas",
+        "The Edge of Glory"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "Born This Way",
+        "The Edge of Glory",
+        "Judas"
+      ],
+      "truth": [
+        "Born This Way",
+        "The Edge of Glory",
+        "Judas"
+      ]
+    }
+  ]
+}

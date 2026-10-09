@@ -1,0 +1,50 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 122,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 6.972,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 20,
+  "judge_calls": 0,
+  "returned": [
+    0.3333,
+    1.0,
+    0.5
+  ],
+  "tokens": [
+    4869,
+    4237,
+    632
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3333,
+        1.0,
+        0.5
+      ],
+      "prediction": [
+        "['Alistair Buchanan' 'Alistair Buchanan']",
+        "['Andrew Wright' 'Andrew Wright']",
+        "['David Ashbourne' 'David Pimm']",
+        "['David Pimm' 'David Ashbourne']",
+        "['Robert Hull' 'Robert Hull']",
+        "['Roy Field' 'Roy Field']"
+      ],
+      "truth": [
+        "['David Ashbourne' 'David Pimm']",
+        "['David Pimm' 'David Ashbourne']"
+      ]
+    }
+  ]
+}

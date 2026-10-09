@@ -1,0 +1,22 @@
+{"key": "5271377f4f8881d0", "role": "operator", "t": 1790973525.286, "seconds": 2.483, "output": "[{\"AwardsPlayers\": [\"1\", \"player_info\"]}]"}
+{"key": "22794a9dfd0a5197", "role": "operator", "t": 1790973527.77, "seconds": 1.824, "output": "[ \n  { \"Goalies\": [\"1\", \"player_info\"]} \n]"}
+{"key": "909fa527b976a5ff", "role": "operator", "t": 1790973529.594, "seconds": 1.141, "output": "[ \n  { \"AwardsMisc\": [\"4\", \"other_info\"]} \n]"}
+{"key": "50211ccd47217283", "role": "operator", "t": 1790973530.735, "seconds": 1.084, "output": "[{\"ScoringShootout\": [\"2\", \"player_info\"]}]"}
+{"key": "4833407f56929b0e", "role": "operator", "t": 1790973531.819, "seconds": 1.256, "output": "[\n  { \"GoaliesShootout\": [\"3\", \"player_info\"]}\n]"}
+{"key": "f4dc2721ed1226f6", "role": "operator", "t": 1790973533.075, "seconds": 1.032, "output": "[{\"TeamsSC\": [\"5\", \"team_info\"]}]"}
+{"key": "14c7bad6a7e322ed", "role": "operator", "t": 1790973534.107, "seconds": 0.931, "output": "[{\"Teams\": [\"5\", \"team_info\"]}]"}
+{"key": "8da584349a0f3a1d", "role": "operator", "t": 1790973535.038, "seconds": 1.077, "output": "[\n  { \"TeamVsTeam\": [\"5\", \"team_info\"]}\n]"}
+{"key": "e38311aafb14d97b", "role": "operator", "t": 1790973536.116, "seconds": 1.249, "output": "[\n  { \"HOF\": [\"6\", \"other_info\"]}\n]"}
+{"key": "d23a7054523415f0", "role": "operator", "t": 1790973537.364, "seconds": 3.503, "output": "[{\"CombinedShutouts\": [\"7\", \"team_info\"]}]"}
+{"key": "0b193a7cf2d7b50a", "role": "operator", "t": 1790973540.867, "seconds": 1.443, "output": "[\n  { \"TeamsPost\": [\"8\", \"team_info\"]}\n]"}
+{"key": "b28c4ab1a5c43fcd", "role": "operator", "t": 1790973542.31, "seconds": 0.941, "output": "[\n  { \"abbrev\": [\"9\", \"team_info\"]}\n]"}
+{"key": "a5c055b6c3dd54d1", "role": "operator", "t": 1790973543.251, "seconds": 0.955, "output": "[\n  { \"Coaches\": [\"10\", \"coach_info\"]}\n]"}
+{"key": "ffe3c0fc5b8b69b8", "role": "operator", "t": 1790973544.206, "seconds": 1.138, "output": "[ \n  { \"GoaliesSC\": [\"11\", \"player_info\"]} \n]"}
+{"key": "63a3cd133e562a4b", "role": "operator", "t": 1790973545.345, "seconds": 1.005, "output": "[\n  { \"ScoringSup\": [\"12\", \"team_info\"]}\n]"}
+{"key": "19764cdd13f0c29e", "role": "operator", "t": 1790973546.35, "seconds": 1.066, "output": "[\n  { \"Scoring\": [\"13\", \"other_info\"]}\n]"}
+{"key": "221a5ed2c777f5a9", "role": "operator", "t": 1790973547.416, "seconds": 1.096, "output": "[\n  { \"Master\": [\"14\", \"other_info\"]}\n]"}
+{"key": "bb606e0d35fdb751", "role": "operator", "t": 1790973548.512, "seconds": 1.161, "output": "[\n  { \"TeamSplits\": [\"15\", \"team_info\"]}\n]"}
+{"key": "0345df8b260a7d1a", "role": "operator", "t": 1790973549.673, "seconds": 2.056, "output": "[\n  { \"ScoringSC\": [\"16\", \"team_info\"]}\n]"}
+{"key": "e4e4921c130ac619", "role": "operator", "t": 1790973551.729, "seconds": 1.772, "output": "[ \n  { \"AwardsCoaches\": [\"10\", \"coach_info\"]}\n]"}
+{"key": "97a7281f41194741", "role": "operator", "t": 1790973553.501, "seconds": 1.119, "output": "[\n  { \"TeamsHalf\": [\"17\", \"team_info\"]}\n]"}
+{"key": "90388badc12e8c64", "role": "operator", "t": 1790973554.621, "seconds": 1.116, "output": "[\n  { \"SeriesPost\": [\"18\", \"other_info\"]}\n]"}

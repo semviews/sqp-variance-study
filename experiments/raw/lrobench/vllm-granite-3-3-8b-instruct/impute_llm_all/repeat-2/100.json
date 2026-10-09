@@ -1,0 +1,109 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 100,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 84.845,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 16,
+  "returned": [
+    0.5625,
+    0.625
+  ],
+  "tokens": [
+    5369,
+    2734,
+    2635
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.5625,
+      "prediction": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English",
+        "United States English",
+        "German",
+        "English",
+        "New World Library",
+        "Vintage Books",
+        "Four Ninety-Eight Productions",
+        "HarperCollins",
+        "Park Profiles",
+        "Four Ninety-Eight Productions",
+        "HarperCollins",
+        "Pimsleur"
+      ],
+      "truth": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English",
+        "United States English",
+        "German",
+        "English",
+        "New Falcon Publications",
+        "Picador",
+        "Gollancz",
+        "HarperCollins Publishers",
+        "National Geographic",
+        "Samuel French Ltd",
+        "Rupa & Co",
+        "Pimsleur"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.625,
+      "prediction": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English",
+        "United States English",
+        "German",
+        "English",
+        "New World Library",
+        "Vintage Books",
+        "Four Ninety-Eight Productions",
+        "HarperCollins",
+        "Park Profiles",
+        "Four Ninety-Eight Productions",
+        "HarperCollins",
+        "Pimsleur"
+      ],
+      "truth": [
+        "English",
+        "English",
+        "English",
+        "English",
+        "English",
+        "United States English",
+        "German",
+        "English",
+        "New Falcon Publications",
+        "Picador",
+        "Gollancz",
+        "HarperCollins Publishers",
+        "National Geographic",
+        "Samuel French Ltd",
+        "Rupa & Co",
+        "Pimsleur"
+      ]
+    }
+  ]
+}

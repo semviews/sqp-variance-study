@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 113,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 5.673,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 6,
+  "judge_calls": 6,
+  "returned": [
+    0.1667,
+    0.8333
+  ],
+  "tokens": [
+    1815,
+    1578,
+    237
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.1667,
+      "prediction": [
+        "TN",
+        "CA",
+        "AZ",
+        "California",
+        "OK",
+        "TX"
+      ],
+      "truth": [
+        "Tennessee",
+        "California",
+        "Arizona",
+        "California",
+        "Oklahoma",
+        "Texas"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.8333,
+      "prediction": [
+        "TN",
+        "CA",
+        "AZ",
+        "California",
+        "OK",
+        "TX"
+      ],
+      "truth": [
+        "Tennessee",
+        "California",
+        "Arizona",
+        "California",
+        "Oklahoma",
+        "Texas"
+      ]
+    }
+  ]
+}

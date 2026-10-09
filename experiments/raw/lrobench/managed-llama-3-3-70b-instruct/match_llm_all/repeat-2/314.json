@@ -1,0 +1,57 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 314,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 11.027,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    896,
+    375,
+    521
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['CoAppNm']",
+        "['CoAppOrgID']",
+        "['CoAppOrgNm']",
+        "['CoAppRoleCD']",
+        "['CoAppRoleEN']",
+        "['CoAppRoleFR']",
+        "['CountryEN']",
+        "['FiscalYear-Ann\u00e9eFinanci\u00e8re']",
+        "['Key-Cl\u00e9']",
+        "['PaysFR']",
+        "['ProvinceEN']",
+        "['ProvinceFR']"
+      ],
+      "truth": [
+        "['CoAppNm' 'Name']",
+        "['CoAppOrgNm' 'Organisation']",
+        "['ProvinceEN' 'Unit']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 5,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 8.409,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 130, in pipeline_order5\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '1967 is the release year of the movie \"The Jungle Book\", which is relatively old. Considering the release year, I would give it a score of 20, since it\\'s not a recent release. \\n\\n20'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '1967 is the release year of the movie \"The Jungle Book\", which is relatively old. Considering the release year, I would give it a score of 20, since it\\'s not a recent release. \\n\\n20'",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: '1967 is the release year of the movie \"The Jungle Book\", which is relatively old. Considering the release year, I would give it a score of 20, since it\\'s not a recent release. \\n\\n20'",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

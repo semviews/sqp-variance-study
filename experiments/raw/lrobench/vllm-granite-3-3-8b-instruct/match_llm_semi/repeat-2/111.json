@@ -1,0 +1,56 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 111,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 3.857,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.0769,
+    1.0,
+    0.1429
+  ],
+  "tokens": [
+    3939,
+    3293,
+    646
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0769,
+        1.0,
+        0.1429
+      ],
+      "prediction": [
+        "['AGRICULTURE' 'Natural Resources Department']",
+        "['COMMERCE AND INSURANCE' 'National Energy Board']",
+        "['CONSERVATION' 'Natural Resources Department']",
+        "['CORRECTIONS' 'Northern Pipeline Agency']",
+        "['ECONOMIC DEVELOPMENT' 'National Energy Board']",
+        "['ELEMENTARY AND SECONDARY EDUCATION' 'National Energy Board']",
+        "['HIGHER EDUCATION AND WORKFORCE DEV' 'National Energy Board']",
+        "['LABOR AND INDUSTRIAL RELATIONS' 'Northern Pipeline Agency']",
+        "['NATURAL RESOURCES' 'Natural Resources Department']",
+        "['PUBLIC SAFETY' 'National Energy Board']",
+        "['REVENUE' 'National Energy Board']",
+        "['SOCIAL SERVICES' 'National Energy Board']",
+        "['TRANSPORTATION' 'Northern Pipeline Agency']"
+      ],
+      "truth": [
+        "['NATURAL RESOURCES' 'Natural Resources Department']"
+      ]
+    }
+  ]
+}

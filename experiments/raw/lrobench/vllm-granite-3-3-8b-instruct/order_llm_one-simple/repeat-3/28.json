@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 28,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 57.103,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 240,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0
+  ],
+  "tokens": [
+    57390,
+    57150,
+    240
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        0.6667,
+        0.6667
+      ],
+      "prediction": [
+        "clustering",
+        "machine-learning",
+        "statistical-significance"
+      ],
+      "truth": [
+        "classification",
+        "clustering",
+        "machine-learning"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "clustering",
+        "machine-learning",
+        "statistical-significance"
+      ],
+      "truth": [
+        "clustering",
+        "classification",
+        "machine-learning"
+      ]
+    }
+  ]
+}

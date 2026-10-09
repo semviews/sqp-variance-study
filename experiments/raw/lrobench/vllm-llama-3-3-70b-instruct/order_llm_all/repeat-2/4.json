@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 4,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 2.923,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.25,
+    0
+  ],
+  "tokens": [
+    562,
+    508,
+    54
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "prediction": [
+        "Aladdin",
+        "Hercules",
+        "The Great Mouse Detective",
+        "The Little Mermaid"
+      ],
+      "truth": [
+        "Hercules",
+        "Moana",
+        "The Princess and the Frog",
+        "Treasure Planet"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0,
+      "prediction": [
+        "Aladdin",
+        "The Great Mouse Detective",
+        "The Little Mermaid",
+        "Hercules"
+      ],
+      "truth": [
+        "Moana",
+        "The Princess and the Frog",
+        "Treasure Planet",
+        "Hercules"
+      ]
+    }
+  ]
+}

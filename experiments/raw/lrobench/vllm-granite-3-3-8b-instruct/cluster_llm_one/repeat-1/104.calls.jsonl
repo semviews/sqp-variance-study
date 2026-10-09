@@ -1,0 +1,20 @@
+{"key": "0ad0e51575c31407", "role": "operator", "t": 1790960462.318, "seconds": 1.435, "output": "[\n  {\"index\":\"30\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "23647f0cf6c5e645", "role": "operator", "t": 1790960463.753, "seconds": 0.896, "output": "[\n  {\"index\":\"7438\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "d2ba3117bbe8fc83", "role": "operator", "t": 1790960464.649, "seconds": 0.732, "output": "[\n  {\"index\":\"4852\", \"cluster_name\":\"Programming & Software\", \"cluster_label\":\"programming_software\"}\n]"}
+{"key": "d8f968cbff7dd429", "role": "operator", "t": 1790960465.381, "seconds": 0.932, "output": "[\n  {\"index\":\"14593\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "f3fc6f4d8a3946f2", "role": "operator", "t": 1790960466.314, "seconds": 0.888, "output": "[\n  {\"index\":\"11373\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "7ab0aaab110eebc1", "role": "operator", "t": 1790960467.202, "seconds": 0.723, "output": "[\n  {\"index\":\"7577\", \"cluster_name\": \"Programming & Software\", \"cluster_label\": \"programming_software\"}\n]"}
+{"key": "8d82bc5814120654", "role": "operator", "t": 1790960467.925, "seconds": 0.847, "output": "[\n  {\"index\":\"31374\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "4eea27322a930945", "role": "operator", "t": 1790960468.773, "seconds": 0.728, "output": "[\n  {\"index\":\"194\", \"cluster_name\":\"Statistics\", \"cluster_label\":\"statistics\"}\n]"}
+{"key": "e9781df7a2cb0ede", "role": "operator", "t": 1790960469.501, "seconds": 0.706, "output": "[\n  {\"index\":\"283\", \"cluster_name\":\"Statistics\", \"cluster_label\":\"statistics\"}\n]"}
+{"key": "0a9c65f9eb577c62", "role": "operator", "t": 1790960470.207, "seconds": 0.802, "output": "[\n  {\"index\":\"35\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "56cc97b6313c15c5", "role": "operator", "t": 1790960471.009, "seconds": 0.722, "output": "[\n  {\"index\":\"1242\", \"cluster_name\":\"Statistics\", \"cluster_label\":\"statistics\"}\n]"}
+{"key": "317c93510b67c25b", "role": "operator", "t": 1790960471.731, "seconds": 0.71, "output": "[\n  {\"index\":\"2506\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "eff421bc54fcd621", "role": "operator", "t": 1790960472.441, "seconds": 0.752, "output": "[\n  {\"index\":\"400\", \"cluster_name\":\"Programming & Software\", \"cluster_label\":\"programming_software\"}\n]"}
+{"key": "e534801fa7355dbc", "role": "operator", "t": 1790960473.193, "seconds": 0.715, "output": "[\n  {\"index\":\"1491\", \"cluster_name\":\"Statistics\", \"cluster_label\":\"statistics\"}\n]"}
+{"key": "2fb93f0c064901d1", "role": "operator", "t": 1790960473.907, "seconds": 0.751, "output": "[\n  {\"index\":\"18674\", \"cluster_name\":\"Statistics\", \"cluster_label\":\"statistics\"}\n]"}
+{"key": "d56356dadfc3ca55", "role": "operator", "t": 1790960474.658, "seconds": 1.368, "output": "[\n  {\"index\":\"254\", \"cluster_name\":\"Statistics\", \"cluster_label\":\"statistics\"}\n]"}
+{"key": "0e14f660d31fef39", "role": "operator", "t": 1790960476.027, "seconds": 0.703, "output": "[\n  {\"index\":\"3455\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "e816135e8ad40306", "role": "operator", "t": 1790960476.73, "seconds": 0.668, "output": "[\n  {\"index\":\"4005\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}
+{"key": "9b5847fa7269e4a4", "role": "operator", "t": 1790960477.398, "seconds": 0.714, "output": "[\n  {\"index\":\"4889\", \"cluster_name\":\"Programming & Software\", \"cluster_label\":\"programming_software\"}\n]"}
+{"key": "b67943054c9032ab", "role": "operator", "t": 1790960478.112, "seconds": 0.737, "output": "[\n  {\"index\":\"14779\", \"cluster_name\": \"Statistics\", \"cluster_label\": \"statistics\"}\n]"}

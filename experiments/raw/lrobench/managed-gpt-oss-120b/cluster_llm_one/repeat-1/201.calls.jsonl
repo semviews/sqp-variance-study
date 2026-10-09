@@ -1,0 +1,49 @@
+{"key": "dadf4f8a2d46daa1", "role": "operator", "t": 1790961462.689, "seconds": 2.895, "output": "[\n  { \"CDSCode\": [\"1\", \"id_info\"] }\n]"}
+{"key": "a0714d0c28fcc488", "role": "operator", "t": 1790961465.584, "seconds": 1.968, "output": "[\n  { \"NCESDist\": [\"1\", \"id_info\"] }\n]"}
+{"key": "0b5c087d193ee7cd", "role": "operator", "t": 1790961467.552, "seconds": 1.941, "output": "[\n  { \"NCESSchool\": [\"1\", \"id_info\"] }\n]"}
+{"key": "a5338bc65e27e6a1", "role": "operator", "t": 1790961469.493, "seconds": 2.549, "output": "[{\"StatusType\": [\"2\", \"other_info\"]}]"}
+{"key": "476dd7332f0c729e", "role": "operator", "t": 1790961472.042, "seconds": 2.124, "output": "[\n  {\"County\": [\"3\", \"location_info\"]}\n]"}
+{"key": "d63ebb3ca2a49581", "role": "operator", "t": 1790961474.166, "seconds": 3.929, "output": "[\n  { \"District\": [\"3\", \"location_info\"] }\n]"}
+{"key": "87f13916277eb25d", "role": "operator", "t": 1790961478.094, "seconds": 1.786, "output": "[\n  { \"School\": [\"4\", \"educational_info\"] }\n]"}
+{"key": "bc717ca023abab1c", "role": "operator", "t": 1790961479.88, "seconds": 1.924, "output": "[\n  {\"Street\": [\"3\", \"location_info\"]}\n]"}
+{"key": "dfb0d4ebd084152f", "role": "operator", "t": 1790961481.804, "seconds": 3.796, "output": "[\n  { \"StreetAbr\": [\"3\", \"location_info\"] }\n]"}
+{"key": "f930f1539ea38c41", "role": "operator", "t": 1790961485.6, "seconds": 1.593, "output": "[\n  { \"City\": [\"3\", \"location_info\"] }\n]"}
+{"key": "df17b83067c2d120", "role": "operator", "t": 1790961487.193, "seconds": 2.917, "output": "[\n  { \"Zip\": [\"3\", \"location_info\"] }\n]"}
+{"key": "61b9bc4d3c9fe349", "role": "operator", "t": 1790961490.11, "seconds": 2.651, "output": "[\n  { \"State\": [\"3\", \"location_info\"] }\n]"}
+{"key": "174609295f020583", "role": "operator", "t": 1790961492.762, "seconds": 1.735, "output": "[\n  { \"MailStreet\": [\"3\", \"location_info\"] }\n]"}
+{"key": "94ee87bdc342b191", "role": "operator", "t": 1790961494.497, "seconds": 2.116, "output": "[\n  { \"MailStrAbr\": [\"3\", \"location_info\"] }\n]"}
+{"key": "eb6c53545e5b6b7b", "role": "operator", "t": 1790961496.613, "seconds": 1.982, "output": "[\n  { \"MailCity\": [\"3\", \"location_info\"] }\n]"}
+{"key": "5cc460f3ef33d8e3", "role": "operator", "t": 1790961498.595, "seconds": 2.005, "output": "[\n  { \"MailZip\": [\"3\", \"location_info\"] }\n]"}
+{"key": "105c17c755760164", "role": "operator", "t": 1790961500.6, "seconds": 2.241, "output": "[\n  {\"MailState\": [\"3\", \"location_info\"]}\n]"}
+{"key": "ff99a7977924b14a", "role": "operator", "t": 1790961502.842, "seconds": 1.77, "output": "[\n  { \"Phone\": [\"5\", \"contact_info\"] }\n]"}
+{"key": "040ee53818d73492", "role": "operator", "t": 1790961504.612, "seconds": 1.699, "output": "[{\"Ext\": [\"5\", \"contact_info\"]}]"}
+{"key": "bfdeaa43e308e864", "role": "operator", "t": 1790961506.311, "seconds": 1.786, "output": "[\n  { \"Website\": [\"5\", \"contact_info\"] }\n]"}
+{"key": "0b619aeaff59d65f", "role": "operator", "t": 1790961508.097, "seconds": 2.661, "output": "[\n  { \"OpenDate\": [\"2\", \"other_info\"] }\n]"}
+{"key": "334a2c7b6fd8a6f4", "role": "operator", "t": 1790961510.758, "seconds": 1.644, "output": "[\n  { \"ClosedDate\": [\"2\", \"other_info\"] }\n]"}
+{"key": "14e024a7b062d575", "role": "operator", "t": 1790961512.402, "seconds": 3.344, "output": "[\n  { \"Charter\": [\"4\", \"educational_info\"] }\n]"}
+{"key": "2f4c4262a7eebcc3", "role": "operator", "t": 1790961515.746, "seconds": 3.119, "output": "[\n  { \"CharterNum\": [\"1\", \"id_info\"] }\n]"}
+{"key": "f2238d8d5603fc77", "role": "operator", "t": 1790961518.865, "seconds": 2.274, "output": "[{\"FundingType\": [\"2\", \"other_info\"]}]"}
+{"key": "44b5e12c1d4159a4", "role": "operator", "t": 1790961521.139, "seconds": 2.594, "output": "[\n  { \"DOC\": [\"1\", \"id_info\"] }\n]"}
+{"key": "34cc51d57089d8ed", "role": "operator", "t": 1790961523.733, "seconds": 3.507, "output": "[\n  { \"DOCType\": [\"1\", \"id_info\"] }\n]"}
+{"key": "4ac40a0edf32d9f1", "role": "operator", "t": 1790961527.24, "seconds": 2.357, "output": "[\n  { \"SOC\": [\"4\", \"educational_info\"] }\n]"}
+{"key": "adad5da03af65bbf", "role": "operator", "t": 1790961529.597, "seconds": 3.067, "output": "[\n  { \"SOCType\": [\"2\", \"other_info\"] }\n]"}
+{"key": "0e143db6ccd423e1", "role": "operator", "t": 1790961532.664, "seconds": 3.429, "output": "[\n  { \"EdOpsCode\": [\"1\", \"id_info\"] }\n]"}
+{"key": "488e5dfbbc574f77", "role": "operator", "t": 1790961536.093, "seconds": 1.616, "output": "[\n  { \"EdOpsName\": [\"4\", \"educational_info\"] }\n]"}
+{"key": "11a8c025360dbb91", "role": "operator", "t": 1790961537.709, "seconds": 2.292, "output": "[\n  { \"EILCode\": [\"1\", \"id_info\"] }\n]"}
+{"key": "8a9825f085c13e0c", "role": "operator", "t": 1790961540.001, "seconds": 2.849, "output": "[\n  { \"EILName\": [\"1\", \"id_info\"] }\n]"}
+{"key": "f04d7631d6eae498", "role": "operator", "t": 1790961542.85, "seconds": 4.183, "output": "[\n  { \"GSoffered\": [\"2\", \"other_info\"] }\n]"}
+{"key": "efb67e7fd9c1a113", "role": "operator", "t": 1790961547.033, "seconds": 2.477, "output": "[\n  { \"GSserved\": [\"2\", \"other_info\"] }\n]"}
+{"key": "d478f21b740d3aea", "role": "operator", "t": 1790961549.51, "seconds": 2.603, "output": "[\n  {\"Virtual\": [\"2\", \"other_info\"]}\n]"}
+{"key": "109ffcba43acfeca", "role": "operator", "t": 1790961552.113, "seconds": 2.559, "output": "[\n  { \"Magnet\": [\"2\", \"other_info\"] }\n]"}
+{"key": "5e9d4447bb1d6e54", "role": "operator", "t": 1790961554.672, "seconds": 2.541, "output": "[\n  { \"Latitude\": [\"3\", \"location_info\"] }\n]"}
+{"key": "178d82bc372bd708", "role": "operator", "t": 1790961557.213, "seconds": 1.781, "output": "[\n  { \"Longitude\": [\"3\", \"location_info\"] }\n]"}
+{"key": "4fc253657d8686e0", "role": "operator", "t": 1790961558.994, "seconds": 7.749, "output": "[{\"AdmFName1\": [\"1\", \"id_info\"]}]"}
+{"key": "0ccc88fc47a0e57d", "role": "operator", "t": 1790961566.743, "seconds": 2.83, "output": "[\n  { \"AdmLName1\": [\"1\", \"id_info\"] }\n]"}
+{"key": "afe843016b24e6bd", "role": "operator", "t": 1790961569.573, "seconds": 1.926, "output": "[{\"AdmEmail1\": [\"5\", \"contact_info\"]}]"}
+{"key": "b1969e07812a618c", "role": "operator", "t": 1790961571.498, "seconds": 3.057, "output": "[\n  { \"AdmFName2\": [\"1\", \"id_info\"] }\n]"}
+{"key": "5710f6432b9341c9", "role": "operator", "t": 1790961574.555, "seconds": 1.912, "output": "[\n  { \"AdmLName2\": [\"1\", \"id_info\"] }\n]"}
+{"key": "1494662a4a7c4c17", "role": "operator", "t": 1790961576.467, "seconds": 2.964, "output": "[\n  { \"AdmEmail2\": [\"5\", \"contact_info\"] }\n]"}
+{"key": "7554239c2a24835b", "role": "operator", "t": 1790961579.431, "seconds": 2.417, "output": "[\n  { \"AdmFName3\": [\"1\", \"id_info\"] }\n]"}
+{"key": "9f4a7198f559a657", "role": "operator", "t": 1790961581.848, "seconds": 3.316, "output": "[\n  { \"AdmLName3\": [\"1\", \"id_info\"] }\n]"}
+{"key": "896ef703eb228eb6", "role": "operator", "t": 1790961585.164, "seconds": 1.974, "output": "[\n  { \"AdmEmail3\": [\"5\", \"contact_info\"] }\n]"}
+{"key": "fe33c9440931ac7d", "role": "operator", "t": 1790961587.138, "seconds": 2.35, "output": "[\n  { \"LastUpdate\": [\"2\", \"other_info\"] }\n]"}

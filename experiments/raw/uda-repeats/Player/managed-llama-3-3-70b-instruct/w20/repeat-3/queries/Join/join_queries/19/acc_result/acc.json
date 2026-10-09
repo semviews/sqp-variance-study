@@ -1,0 +1,52 @@
+{
+  "columns": {
+    "city.state_name": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1": 0.9565217391304348
+    },
+    "player.olympic_gold_medals": {
+      "precision": 0.2727272727272727,
+      "recall": 0.25,
+      "f1": 0.2608695652173913
+    },
+    "team.team_name": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1": 0.9565217391304348
+    },
+    "player.college": {
+      "precision": 0.36363636363636365,
+      "recall": 0.3333333333333333,
+      "f1": 0.34782608695652173
+    },
+    "manager.own_year": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1": 0.9565217391304348
+    }
+  },
+  "macro_precision": 0.7272727272727273,
+  "macro_recall": 0.6666666666666666,
+  "macro_f1": 0.6956521739130433,
+  "rows": {
+    "len_gold": 12,
+    "len_pred": 11,
+    "matched_rows": 11
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.id",
+    "team.id",
+    "manager.id",
+    "city.id"
+  ],
+  "evaluated_columns": [
+    "city.state_name",
+    "player.olympic_gold_medals",
+    "team.team_name",
+    "player.college",
+    "manager.own_year"
+  ],
+  "skipped_columns": []
+}

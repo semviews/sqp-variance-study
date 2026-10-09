@@ -1,0 +1,44 @@
+{
+  "columns": {
+    "city.city_name": {
+      "precision": 1.0,
+      "recall": 0.9310344827586207,
+      "f1": 0.9642857142857143
+    },
+    "city.population": {
+      "precision": 0.14814814814814814,
+      "recall": 0.13793103448275862,
+      "f1": 0.14285714285714285
+    },
+    "team.founded_year": {
+      "precision": 1.0,
+      "recall": 0.9310344827586207,
+      "f1": 0.9642857142857143
+    },
+    "team.location": {
+      "precision": 1.0,
+      "recall": 0.9310344827586207,
+      "f1": 0.9642857142857143
+    }
+  },
+  "macro_precision": 0.787037037037037,
+  "macro_recall": 0.7327586206896551,
+  "macro_f1": 0.7589285714285715,
+  "rows": {
+    "len_gold": 29,
+    "len_pred": 27,
+    "matched_rows": 27
+  },
+  "warnings": [],
+  "used_keys": [
+    "team.id",
+    "city.id"
+  ],
+  "evaluated_columns": [
+    "city.city_name",
+    "city.population",
+    "team.founded_year",
+    "team.location"
+  ],
+  "skipped_columns": []
+}

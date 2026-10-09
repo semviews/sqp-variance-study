@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 105,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 2,
+  "seconds": 29.456,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: \"None of [Index(['left_cust_id', 'right_state'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 168
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 168,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    15400,
+    15232,
+    168
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['2496' 'Ohio']",
+        "['4415' 'Ohio']"
+      ],
+      "truth": [
+        "['1575' 'California']",
+        "['1685' 'California']",
+        "['1769' 'Texas']",
+        "['2001' 'California']",
+        "['2799' 'Texas']",
+        "['3288' 'Texas']",
+        "['3660' 'Maryland']",
+        "['381' 'Florida']",
+        "['4353' 'Texas']",
+        "['4869' 'Arizona']",
+        "['615' 'Florida']",
+        "['618' 'Florida']"
+      ]
+    }
+  ]
+}

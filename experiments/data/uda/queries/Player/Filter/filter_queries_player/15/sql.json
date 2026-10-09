@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 15: 3 (player) */ SELECT fiba_world_cup, nationality, college FROM player WHERE college = 'University of Connecticut' OR birth_date <> '1971/12/3'",
+  "player": {
+    "college": {
+      "value_type": "str",
+      "description": "the college the player attended, if applicable (e.g., Duke University)."
+    },
+    "fiba_world_cup": {
+      "value_type": "int",
+      "description": "number of FIBA World Cup titles the player has won (e.g., 1)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    }
+  }
+}

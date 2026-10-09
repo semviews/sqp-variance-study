@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 2,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 12.296,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 63, in pipeline_order2\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: \"37 is the latitude of San Francisco. On a scale from 0 to 100, with 0 being the southernmost point and 100 being the northernmost point on Earth, San Francisco's latitude would be around 74 since 37/40 = 0.925 and 0.925 * 100 = 92.5, but considering the entire range from -90 to 90 degrees, the score would be (37 + 90) / 180 * 100 = 71.67, rounding this value to the nearest whole number: 72\"\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: \"37 is the latitude of San Francisco. On a scale from 0 to 100, with 0 being the southernmost point (-90) and 100 being the northernmost point (90), San Francisco's latitude would be scored as follows: ((37 + 90) / 180) * 100 = 68.33, rounded to the nearest whole number is 68. \\n\\n68\"",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: \"37 is the latitude of San Francisco. On a scale from 0 to 100, with 0 being the southernmost point (-90) and 100 being the northernmost point (90), San Francisco's latitude would be scored as follows: ((37 + 90) / 180) * 100 = 68.33, rounded to the nearest whole number is 68. \\n\\n68\"",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

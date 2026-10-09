@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 5: 5 (manager) */ SELECT own_year, age, nationality FROM manager WHERE age <= 76 OR name = 'Joseph Chung-Hsin Tsai' OR own_year > 2013 OR nationality = 'American'",
+  "manager": {
+    "age": {
+      "value_type": "int",
+      "description": "age is the age of the team owner, a integer (e.g. 45)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality is the nationality of the team owner (e.g. American)."
+    },
+    "own_year": {
+      "value_type": "int",
+      "description": "own_year is year the owner have this NBA team (e.g. 2010)."
+    }
+  }
+}

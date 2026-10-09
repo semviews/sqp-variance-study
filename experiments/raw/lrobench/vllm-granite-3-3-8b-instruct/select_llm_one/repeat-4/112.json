@@ -1,0 +1,48 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 112,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 2.628,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 30,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    4462,
+    4432,
+    30
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['Hector G. Godinez']",
+        "['James A. Garfield Senior High']",
+        "['John H. Francis Polytechnic']"
+      ],
+      "truth": [
+        "['Hector G. Godinez']",
+        "['James A. Garfield Senior High']",
+        "['John H. Francis Polytechnic']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+ "results": {
+  "managed-gpt-oss-120b": {
+   "executions": 40,
+   "items": 736,
+   "flip": {
+    "5": 0.09119846872814551,
+    "10": 0.11814943864673577,
+    "20": 0.13906371675161391,
+    "40": 0.15353260869565216
+   },
+   "unanimous": 670,
+   "later_change": 47,
+   "later_change_ci": [
+    0.05316084462523757,
+    0.09203885809421464
+   ],
+   "bracketed": 57,
+   "later": 105,
+   "vote_single": 0.045547658862876254,
+   "vote_three": 0.03237771739130435,
+   "vote_reduction": 0.2891463974300137,
+   "bool_reduction": 0.4121403378503805,
+   "theory_reduction": 0.3998987704775384,
+   "drift_within_main": 0.044595410628019326,
+   "drift_within_later": 0.042238255872063965,
+   "drift_cross": 0.050489130434782606,
+   "drift_gap_ci": [
+    0.003804556055305681,
+    0.011119492337164751
+   ],
+   "main_executions": 10
+  },
+  "vllm-granite-3-3-8b-instruct": {
+   "executions": 40,
+   "items": 736,
+   "flip": {
+    "5": 0.031490157893547484,
+    "10": 0.03995268944843499,
+    "20": 0.04604638611022516,
+    "40": 0.051630434782608696
+   },
+   "unanimous": 714,
+   "later_change": 16,
+   "later_change_ci": [
+    0.013839691543538644,
+    0.036089986535859375
+   ],
+   "bracketed": 74,
+   "later": 105,
+   "vote_single": 0.015504807692307691,
+   "vote_three": 0.011134510869565217,
+   "vote_reduction": 0.2818672059319177,
+   "bool_reduction": 0.33195940347970165,
+   "theory_reduction": 0.3360974238815245,
+   "drift_within_main": 0.015489130434782608,
+   "drift_within_later": 0.015427475337961271,
+   "drift_cross": 0.01576863354037267,
+   "drift_gap_ci": [
+    -0.0005453050785531601,
+    0.0012721501644135922
+   ],
+   "main_executions": 5
+  },
+  "managed-llama-3-3-70b-instruct": {
+   "executions": 20,
+   "items": 736,
+   "flip": {
+    "5": 0.02053817808587966,
+    "10": 0.02494665849529391,
+    "20": 0.02717391304347826
+   },
+   "unanimous": 736,
+   "later_change": 20,
+   "later_change_ci": [
+    0.017658540368541753,
+    0.041599549471229354
+   ],
+   "bracketed": 0,
+   "later": 45,
+   "vote_single": 0.010254576659038901,
+   "vote_three": 0.007540760869565217,
+   "vote_reduction": 0.2646443514644351,
+   "bool_reduction": 0.22541966426858517,
+   "theory_reduction": 0.18302176258992797,
+   "drift_within_main": 0,
+   "drift_within_later": 0.004839544513457557,
+   "drift_cross": 0.01920289855072464,
+   "drift_gap_ci": [
+    0.008501552795031056,
+    0.026048136645962734
+   ],
+   "main_executions": 5
+  }
+ },
+ "macros": {
+  "moreExecGptoss": "40",
+  "moreItemsGptoss": "736",
+  "moreFlipFiveGptoss": "9.1\\%",
+  "moreFlipTenGptoss": "11.8\\%",
+  "moreFlipTwentyGptoss": "13.9\\%",
+  "moreFlipMaxGptoss": "15.4\\%",
+  "moreUnanimousGptoss": "670",
+  "moreLaterChangeGptoss": "7.0\\%",
+  "moreLaterChangeCiGptoss": "[5.3, 9.2]",
+  "moreBracketedGptoss": "57/105",
+  "moreVoteSingleGptoss": "4.6\\%",
+  "moreVoteThreeGptoss": "3.2\\%",
+  "moreVoteReductionGptoss": "28.9\\%",
+  "moreVoteBoolGptoss": "41.2\\%",
+  "moreVoteTheoryGptoss": "40.0\\%",
+  "moreDriftCrossGptoss": "5.0\\%",
+  "moreDriftWithinMainGptoss": "4.5\\%",
+  "moreDriftWithinLaterGptoss": "4.2\\%",
+  "moreDriftCiGptoss": "[+0.4, +1.1]",
+  "moreExecGranite": "40",
+  "moreItemsGranite": "736",
+  "moreFlipFiveGranite": "3.1\\%",
+  "moreFlipTenGranite": "4.0\\%",
+  "moreFlipTwentyGranite": "4.6\\%",
+  "moreFlipMaxGranite": "5.2\\%",
+  "moreUnanimousGranite": "714",
+  "moreLaterChangeGranite": "2.2\\%",
+  "moreLaterChangeCiGranite": "[1.4, 3.6]",
+  "moreBracketedGranite": "74/105",
+  "moreVoteSingleGranite": "1.6\\%",
+  "moreVoteThreeGranite": "1.1\\%",
+  "moreVoteReductionGranite": "28.2\\%",
+  "moreVoteBoolGranite": "33.2\\%",
+  "moreVoteTheoryGranite": "33.6\\%",
+  "moreDriftCrossGranite": "1.6\\%",
+  "moreDriftWithinMainGranite": "1.5\\%",
+  "moreDriftWithinLaterGranite": "1.5\\%",
+  "moreDriftCiGranite": "[-0.1, +0.1]",
+  "moreExecLlamaW": "20",
+  "moreItemsLlamaW": "736",
+  "moreFlipFiveLlamaW": "2.1\\%",
+  "moreFlipTenLlamaW": "2.5\\%",
+  "moreFlipMaxLlamaW": "2.7\\%",
+  "moreUnanimousLlamaW": "736",
+  "moreLaterChangeLlamaW": "2.7\\%",
+  "moreLaterChangeCiLlamaW": "[1.8, 4.2]",
+  "moreBracketedLlamaW": "0/45",
+  "moreVoteSingleLlamaW": "1.0\\%",
+  "moreVoteThreeLlamaW": "0.8\\%",
+  "moreVoteReductionLlamaW": "26.5\\%",
+  "moreVoteBoolLlamaW": "22.5\\%",
+  "moreVoteTheoryLlamaW": "18.3\\%",
+  "moreDriftCrossLlamaW": "1.9\\%",
+  "moreDriftWithinMainLlamaW": "0.0\\%",
+  "moreDriftWithinLaterLlamaW": "0.5\\%",
+  "moreDriftCiLlamaW": "[+0.9, +2.6]"
+ }
+}

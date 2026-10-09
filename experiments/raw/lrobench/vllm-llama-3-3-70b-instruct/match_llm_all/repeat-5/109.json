@@ -1,0 +1,92 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 109,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 14.502,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.9565,
+    0.8148,
+    0.88
+  ],
+  "tokens": [
+    997,
+    293,
+    704
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.9565,
+        0.8148,
+        0.88
+      ],
+      "prediction": [
+        "['1290' 'Arizona']",
+        "['1592' 'Tennessee']",
+        "['1669' 'Indiana']",
+        "['1669' 'Ohio']",
+        "['1669' 'Tennessee']",
+        "['1724' 'Indiana']",
+        "['1724' 'Michigan']",
+        "['1724' 'Pennsylvania']",
+        "['2001' 'Arizona']",
+        "['2421' 'Illinois']",
+        "['2421' 'Indiana']",
+        "['2421' 'Michigan']",
+        "['2434' 'Indiana']",
+        "['2434' 'Michigan']",
+        "['2434' 'Pennsylvania']",
+        "['2496' 'California']",
+        "['314' 'Illinois']",
+        "['3320' 'Arizona']",
+        "['3447' 'Arizona']",
+        "['4415' 'California']",
+        "['4426' 'Texas']",
+        "['931' 'California']",
+        "['954' 'Texas']"
+      ],
+      "truth": [
+        "['1290' 'Arizona']",
+        "['1592' 'Tennessee']",
+        "['1592' 'Texas']",
+        "['1669' 'Illinois']",
+        "['1669' 'Indiana']",
+        "['1669' 'Maryland']",
+        "['1669' 'Ohio']",
+        "['1669' 'Tennessee']",
+        "['1724' 'Indiana']",
+        "['1724' 'Michigan']",
+        "['1724' 'Pennsylvania']",
+        "['2001' 'Arizona']",
+        "['2421' 'Illinois']",
+        "['2421' 'Michigan']",
+        "['2434' 'Indiana']",
+        "['2434' 'Michigan']",
+        "['2434' 'Pennsylvania']",
+        "['2496' 'California']",
+        "['314' 'Illinois']",
+        "['3320' 'Arizona']",
+        "['3447' 'Arizona']",
+        "['4415' 'California']",
+        "['4426' 'Arizona']",
+        "['4426' 'Texas']",
+        "['931' 'California']",
+        "['954' 'Arizona']",
+        "['954' 'Texas']"
+      ]
+    }
+  ]
+}

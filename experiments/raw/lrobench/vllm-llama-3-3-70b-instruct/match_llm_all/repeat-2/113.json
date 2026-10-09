@@ -1,0 +1,51 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 113,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 6.918,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.2857,
+    1.0,
+    0.4444
+  ],
+  "tokens": [
+    674,
+    441,
+    233
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2857,
+        1.0,
+        0.4444
+      ],
+      "prediction": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Mary Calam' 'Mark Bryson-Richardson']",
+        "['Mary Calam' 'Matthew Rycroft ']",
+        "['Michael Anderson ' 'Matthew Rycroft ']",
+        "['Michael Parsons' 'Mark Bryson-Richardson']",
+        "['Michael Parsons' 'Matthew Rycroft ']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ],
+      "truth": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ]
+    }
+  ]
+}

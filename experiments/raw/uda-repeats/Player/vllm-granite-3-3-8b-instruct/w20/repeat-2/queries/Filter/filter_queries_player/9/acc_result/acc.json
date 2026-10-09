@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "draft_pick": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.923076923076923
+    },
+    "nba_championships": {
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307692
+    },
+    "team": {
+      "precision": 0.5416666666666666,
+      "recall": 0.4642857142857143,
+      "f1": 0.5
+    }
+  },
+  "macro_precision": 0.7916666666666666,
+  "macro_recall": 0.6785714285714285,
+  "macro_f1": 0.7307692307692307,
+  "rows": {
+    "len_gold": 28,
+    "len_pred": 24,
+    "matched_rows": 24
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "draft_pick",
+    "nba_championships",
+    "team"
+  ],
+  "skipped_columns": []
+}

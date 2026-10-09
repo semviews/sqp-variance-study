@@ -1,0 +1,13 @@
+{
+  "sql": "/* Query 8: aggregation (manager) */ SELECT nationality, MIN(age) AS min_age FROM manager GROUP BY nationality",
+  "manager": {
+    "age": {
+      "value_type": "int",
+      "description": "age is the age of the team owner, a integer (e.g. 45)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality is the nationality of the team owner (e.g. American)."
+    }
+  }
+}

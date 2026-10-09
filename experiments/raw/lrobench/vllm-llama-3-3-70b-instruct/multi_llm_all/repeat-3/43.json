@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 43,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 51.568,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Hector G. Godinez"
+    ],
+    [
+      "Jordan High"
+    ],
+    [
+      "John H. Francis Polytechnic"
+    ],
+    [
+      "James A. Garfield Senior High"
+    ],
+    [
+      "Warren High"
+    ],
+    [
+      "Lynwood High"
+    ],
+    [
+      "Sunnyside High"
+    ],
+    [
+      "Madera South High"
+    ]
+  ],
+  "tokens": 8711,
+  "metrics": [],
+  "prediction": [
+    [
+      "Hector G. Godinez"
+    ],
+    [
+      "Jordan High"
+    ],
+    [
+      "John H. Francis Polytechnic"
+    ],
+    [
+      "James A. Garfield Senior High"
+    ],
+    [
+      "Warren High"
+    ],
+    [
+      "Lynwood High"
+    ],
+    [
+      "Sunnyside High"
+    ],
+    [
+      "Madera South High"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

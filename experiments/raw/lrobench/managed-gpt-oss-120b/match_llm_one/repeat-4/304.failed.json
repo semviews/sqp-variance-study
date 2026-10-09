@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 304,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 19.879,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1322, in pipeline_match304\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'import sys\\nimport json\\nimport re\\n\\ndef extract_values(line):\\n    line = line.strip()\\n    # Try to parse as JSON\\n    try:\\n        obj = json.loads(line)\\n        if isinstance(obj, dict):\\n    \n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'Please provide the values for\\u202fGeom\\u202fand\\u202fSiteName\\u202fso I can determine if they refer to the same feature.'",
+      "operator_calls": 221
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'Could you please provide the specific\\u202fTYPE\\u202fand\\u202fGeom\\u202fvalues you\u2019d like evaluated?'",
+      "operator_calls": 79
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 97,
+  "judge_calls": 0
+}

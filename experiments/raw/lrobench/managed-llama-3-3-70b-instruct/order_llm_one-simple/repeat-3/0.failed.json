@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 0,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 3.699,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 20, in pipeline_order0\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: '{GET_COUNTRY_LAND_AREA name=\"Belgium\"} \\n{GET_COUNTRY_LAND_AREA name=\"Italy\"} \\n{COMPARE_LAND_AREA area1={GET_COUNTRY_LAND_AREA name=\"Belgium\"} area2={GET_COUNTRY_LAND_AREA name=\"Italy\"}}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine which country has a larger land area, I need to look up the land areas of Belgium and Poland.'",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '{GET_COUNTRY_LAND_AREA name=\"Belgium\"}/tool\\n{GET_COUNTRY_LAND_AREA name=\"Italy\"}/tool\\n{COMPARE_VALUES value1={GET_COUNTRY_LAND_AREA name=\"Belgium\"} value2={GET_COUNTRY_LAND_AREA name=\"Italy\"}}/tool",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

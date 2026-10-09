@@ -1,0 +1,30 @@
+state_name,city_name,population,id
+Colorado,Denver,"Population: 715,522",1
+Massachusetts,Boston,675647,2
+Indiana,Indianapolis,887642,3
+Texas,Dallas,"The population of Dallas, as provided in the context, is 1,304,379 according to the 2020 United States census.",4
+Texas,San Antonio,"The population of San Antonio, according to the 2020 U.S. Census, is 1,434,625.",5
+California,Los Angeles,"Population: 3,820,914 || 12.8 million (metropolitan area)",6
+Minnesota,Minneapolis,"The population of Minneapolis, as of the 2020 census, is 429,954.",7
+Florida,Miami,442241,8
+California,Inglewood,107762,9
+Oregon,city_name is Portland,"Population: 652,503 || 2.5 million (Portland metropolitan area)",10
+California,San Francisco,"The population of San Francisco, as of the 2020 United States census, is 873,965.",11
+Pennsylvania,Philadelphia,population: 1603797,12
+Louisiana,city_name: New Orleans,Population: 383997,13
+Illinois,Chicago,population: 2700000,14
+Florida,Orlando,307573,15
+Utah,Salt Lake City,**Population:** 200133,16
+Ontario,city_name is Toronto.,"**Population:** 2,794,356 || 6,202,225 (CMA)",17
+Arizona,Phoenix,"Population: 1,608,139 || 1,445,632 (2010) || 1,512,986 (2006)",18
+District of Columbia,"Washington, D.C.",705749,19
+Ohio,Cleveland,372624,20
+Texas,Houston,"Population: 2,304,580",21
+California,Sacramento,"The population of Sacramento, as reported in the 2020 United States Census, is 524,943.",22
+Michigan,Detroit,population: 639111,23
+Tennessee,Memphis,Population: 633104,24
+North Carolina,Charlotte,874579,25
+New York,New York City,"8,804,190",26
+Oklahoma,Oklahoma City,"The population of Oklahoma City, as given in the context, is 681,054 according to the 2020 census.",27
+Wisconsin,Milwaukee,577222,28
+Georgia,Atlanta,population: 498715,29

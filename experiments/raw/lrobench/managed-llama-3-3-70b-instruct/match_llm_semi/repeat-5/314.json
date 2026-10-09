@@ -1,0 +1,57 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 314,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 13.873,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0,
+  "returned": [
+    0.1667,
+    0.6667,
+    0.2667
+  ],
+  "tokens": [
+    2690,
+    2672,
+    18
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1667,
+        0.6667,
+        0.2667
+      ],
+      "prediction": [
+        "['CoAppNm' 'Name']",
+        "['CoAppOrgID' 'Organisation']",
+        "['CoAppOrgNm' 'Organisation']",
+        "['CoAppRoleCD' 'Job Title']",
+        "['CoAppRoleEN' 'Job Title']",
+        "['CoAppRoleFR' 'Job Title']",
+        "['CountryEN' 'CountryEN']",
+        "['FiscalYear-Ann\u00c3\\x83\u00c2\u00a9eFinanci\u00c3\\x83\u00c2\u00a8re' '{Organisation}']",
+        "['Key-Cl\u00c3\\x83\u00c2\u00a9' 'Name']",
+        "['PaysFR' 'Name']",
+        "['ProvinceEN' 'Organisation']",
+        "['ProvinceFR' 'Organisation']"
+      ],
+      "truth": [
+        "['CoAppNm' 'Name']",
+        "['CoAppOrgNm' 'Organisation']",
+        "['ProvinceEN' 'Unit']"
+      ]
+    }
+  ]
+}

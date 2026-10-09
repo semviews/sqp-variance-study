@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 21,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 8.632,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 478, in pipeline_order21\n    amazon = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'Lenovo was founded in 1984. Based on this, I would assign a score relative to other well-known brands. \\n\\n80'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'Lenovo was founded in 1984. Based on this, I would assign a score relative to other well-known brands. \\n\\n80'",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'Lenovo was founded in 1984. Based on this, I would assign a score relative to other well-known brands. \\n\\n80'",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

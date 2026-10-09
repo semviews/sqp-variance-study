@@ -1,0 +1,3092 @@
+{
+ "points": [
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/1",
+   "task": "Agg",
+   "exposure": 4.8,
+   "predicted": 0.00822974704902003,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/10",
+   "task": "Agg",
+   "exposure": 0.8,
+   "predicted": 0.44932896411722156,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/2",
+   "task": "Agg",
+   "exposure": 0.8,
+   "predicted": 0.44932896411722156,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/3",
+   "task": "Agg",
+   "exposure": 6.799999999999999,
+   "predicted": 0.0011137751478448043,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/4",
+   "task": "Agg",
+   "exposure": 6.999999999999999,
+   "predicted": 0.000911881965554517,
+   "measured": 0.2
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/5",
+   "task": "Agg",
+   "exposure": 0.8,
+   "predicted": 0.44932896411722156,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/6",
+   "task": "Agg",
+   "exposure": 6.999999999999999,
+   "predicted": 0.000911881965554517,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/7",
+   "task": "Agg",
+   "exposure": 6.999999999999999,
+   "predicted": 0.000911881965554517,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/8",
+   "task": "Agg",
+   "exposure": 0.8,
+   "predicted": 0.44932896411722156,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Agg/agg_queries/9",
+   "task": "Agg",
+   "exposure": 0.4,
+   "predicted": 0.6703200460356393,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_city/1",
+   "task": "Filter",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_city/2",
+   "task": "Filter",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 0.3
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_city/3",
+   "task": "Filter",
+   "exposure": 3.0999999999999996,
+   "predicted": 0.04504920239355782,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_city/4",
+   "task": "Filter",
+   "exposure": 6.9,
+   "predicted": 0.0010077854290485105,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_city/5",
+   "task": "Filter",
+   "exposure": 8.600000000000001,
+   "predicted": 0.00018410579366757887,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_city/6",
+   "task": "Filter",
+   "exposure": 3.0999999999999996,
+   "predicted": 0.04504920239355782,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_manager/1",
+   "task": "Filter",
+   "exposure": 2.2,
+   "predicted": 0.11080315836233387,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_manager/2",
+   "task": "Filter",
+   "exposure": 2.2,
+   "predicted": 0.11080315836233387,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_manager/3",
+   "task": "Filter",
+   "exposure": 1.6,
+   "predicted": 0.20189651799465538,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_manager/4",
+   "task": "Filter",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_manager/5",
+   "task": "Filter",
+   "exposure": 0.8,
+   "predicted": 0.44932896411722156,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_manager/6",
+   "task": "Filter",
+   "exposure": 1.6,
+   "predicted": 0.20189651799465538,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/1",
+   "task": "Filter",
+   "exposure": 7.3999999999999995,
+   "predicted": 0.0006112527611295728,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/10",
+   "task": "Filter",
+   "exposure": 11.899999999999999,
+   "predicted": 6.790404807379483e-06,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/11",
+   "task": "Filter",
+   "exposure": 7.2,
+   "predicted": 0.0007465858083766792,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/12",
+   "task": "Filter",
+   "exposure": 6.0,
+   "predicted": 0.0024787521766663585,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/13",
+   "task": "Filter",
+   "exposure": 6.8999999999999995,
+   "predicted": 0.0010077854290485113,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/14",
+   "task": "Filter",
+   "exposure": 9.799999999999999,
+   "predicted": 5.545159943217704e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/15",
+   "task": "Filter",
+   "exposure": 8.1,
+   "predicted": 0.0003035391380788668,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/16",
+   "task": "Filter",
+   "exposure": 8.2,
+   "predicted": 0.00027465356997214254,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/17",
+   "task": "Filter",
+   "exposure": 9.799999999999999,
+   "predicted": 5.545159943217704e-05,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/18",
+   "task": "Filter",
+   "exposure": 13.6,
+   "predicted": 1.2404950799567134e-06,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/19",
+   "task": "Filter",
+   "exposure": 6.1,
+   "predicted": 0.0022428677194858034,
+   "measured": 0.3
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/2",
+   "task": "Filter",
+   "exposure": 7.6,
+   "predicted": 0.0005004514334406108,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/20",
+   "task": "Filter",
+   "exposure": 9.5,
+   "predicted": 7.48518298877006e-05,
+   "measured": 0.3
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/21",
+   "task": "Filter",
+   "exposure": 12.5,
+   "predicted": 3.726653172078671e-06,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/22",
+   "task": "Filter",
+   "exposure": 7.3,
+   "predicted": 0.0006755387751938444,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/23",
+   "task": "Filter",
+   "exposure": 6.499999999999999,
+   "predicted": 0.0015034391929775739,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/24",
+   "task": "Filter",
+   "exposure": 7.299999999999999,
+   "predicted": 0.0006755387751938449,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/25",
+   "task": "Filter",
+   "exposure": 9.299999999999999,
+   "predicted": 9.142423147817343e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/26",
+   "task": "Filter",
+   "exposure": 14.899999999999999,
+   "predicted": 3.380743483904743e-07,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/27",
+   "task": "Filter",
+   "exposure": 9.2,
+   "predicted": 0.00010103940183709342,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/28",
+   "task": "Filter",
+   "exposure": 7.799999999999999,
+   "predicted": 0.00040973497897978713,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/29",
+   "task": "Filter",
+   "exposure": 14.399999999999999,
+   "predicted": 5.573903692694606e-07,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/3",
+   "task": "Filter",
+   "exposure": 6.3999999999999995,
+   "predicted": 0.0016615572731739354,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/30",
+   "task": "Filter",
+   "exposure": 5.6000000000000005,
+   "predicted": 0.003697863716482929,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/31",
+   "task": "Filter",
+   "exposure": 7.6,
+   "predicted": 0.0005004514334406108,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/32",
+   "task": "Filter",
+   "exposure": 7.8,
+   "predicted": 0.0004097349789797868,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/33",
+   "task": "Filter",
+   "exposure": 11.299999999999999,
+   "predicted": 1.2372924261788243e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/34",
+   "task": "Filter",
+   "exposure": 3.4,
+   "predicted": 0.03337326996032608,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/35",
+   "task": "Filter",
+   "exposure": 7.5,
+   "predicted": 0.0005530843701478336,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/36",
+   "task": "Filter",
+   "exposure": 8.2,
+   "predicted": 0.00027465356997214254,
+   "measured": 0.3
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/4",
+   "task": "Filter",
+   "exposure": 11.399999999999999,
+   "predicted": 1.119548484259096e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/5",
+   "task": "Filter",
+   "exposure": 7.2,
+   "predicted": 0.0007465858083766792,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/6",
+   "task": "Filter",
+   "exposure": 6.5,
+   "predicted": 0.0015034391929775724,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/7",
+   "task": "Filter",
+   "exposure": 5.3999999999999995,
+   "predicted": 0.00451658094261267,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/8",
+   "task": "Filter",
+   "exposure": 6.6,
+   "predicted": 0.0013603680375478939,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_player/9",
+   "task": "Filter",
+   "exposure": 9.7,
+   "predicted": 6.128349505322213e-05,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/1",
+   "task": "Filter",
+   "exposure": 7.500000000000002,
+   "predicted": 0.0005530843701478327,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/10",
+   "task": "Filter",
+   "exposure": 7.500000000000002,
+   "predicted": 0.0005530843701478327,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/11",
+   "task": "Filter",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/12",
+   "task": "Filter",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 0.3
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/2",
+   "task": "Filter",
+   "exposure": 6.100000000000001,
+   "predicted": 0.0022428677194857994,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/3",
+   "task": "Filter",
+   "exposure": 7.500000000000002,
+   "predicted": 0.0005530843701478327,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/4",
+   "task": "Filter",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/5",
+   "task": "Filter",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/6",
+   "task": "Filter",
+   "exposure": 6.100000000000001,
+   "predicted": 0.0022428677194857994,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/7",
+   "task": "Filter",
+   "exposure": 6.100000000000001,
+   "predicted": 0.0022428677194857994,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/8",
+   "task": "Filter",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Filter/filter_queries_team/9",
+   "task": "Filter",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/10",
+   "task": "Join",
+   "exposure": 5.6,
+   "predicted": 0.003697863716482932,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/11",
+   "task": "Join",
+   "exposure": 12.100000000000001,
+   "predicted": 5.559513241650137e-06,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/12",
+   "task": "Join",
+   "exposure": 7.699999999999999,
+   "predicted": 0.0004528271828867974,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/13",
+   "task": "Join",
+   "exposure": 5.499999999999999,
+   "predicted": 0.004086771438464071,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/15",
+   "task": "Join",
+   "exposure": 4.4,
+   "predicted": 0.012277339903068436,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/18",
+   "task": "Join",
+   "exposure": 10.9,
+   "predicted": 1.8458233995780558e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/19",
+   "task": "Join",
+   "exposure": 10.1,
+   "predicted": 4.1079555225300724e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/2",
+   "task": "Join",
+   "exposure": 7.199999999999999,
+   "predicted": 0.0007465858083766799,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/4",
+   "task": "Join",
+   "exposure": 10.799999999999999,
+   "predicted": 2.039950341117196e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/5",
+   "task": "Join",
+   "exposure": 5.5,
+   "predicted": 0.004086771438464067,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/7",
+   "task": "Join",
+   "exposure": 4.2,
+   "predicted": 0.014995576820477703,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/8",
+   "task": "Join",
+   "exposure": 2.2,
+   "predicted": 0.11080315836233387,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Join/join_queries/9",
+   "task": "Join",
+   "exposure": 2.8,
+   "predicted": 0.06081006262521797,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_agg_join/1",
+   "task": "Mixed",
+   "exposure": 8.2,
+   "predicted": 0.00027465356997214254,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_agg_join/2",
+   "task": "Mixed",
+   "exposure": 3.4999999999999996,
+   "predicted": 0.030197383422318515,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/1",
+   "task": "Mixed",
+   "exposure": 8.2,
+   "predicted": 0.00027465356997214254,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/10",
+   "task": "Mixed",
+   "exposure": 5.3999999999999995,
+   "predicted": 0.00451658094261267,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/11",
+   "task": "Mixed",
+   "exposure": 2.7,
+   "predicted": 0.06720551273974976,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/12",
+   "task": "Mixed",
+   "exposure": 4.6000000000000005,
+   "predicted": 0.010051835744633576,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/2",
+   "task": "Mixed",
+   "exposure": 0.6,
+   "predicted": 0.5488116360940264,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/3",
+   "task": "Mixed",
+   "exposure": 6.1,
+   "predicted": 0.0022428677194858034,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/4",
+   "task": "Mixed",
+   "exposure": 8.2,
+   "predicted": 0.00027465356997214254,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/5",
+   "task": "Mixed",
+   "exposure": 6.799999999999999,
+   "predicted": 0.0011137751478448043,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/6",
+   "task": "Mixed",
+   "exposure": 6.799999999999999,
+   "predicted": 0.0011137751478448043,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/7",
+   "task": "Mixed",
+   "exposure": 6.799999999999999,
+   "predicted": 0.0011137751478448043,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/8",
+   "task": "Mixed",
+   "exposure": 2.0,
+   "predicted": 0.1353352832366127,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/9",
+   "task": "Mixed",
+   "exposure": 0.8,
+   "predicted": 0.44932896411722156,
+   "measured": 0.6
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/1",
+   "task": "Mixed",
+   "exposure": 8.2,
+   "predicted": 0.00027465356997214254,
+   "measured": 0.3
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/2",
+   "task": "Mixed",
+   "exposure": 5.0,
+   "predicted": 0.006737946999085467,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/3",
+   "task": "Mixed",
+   "exposure": 6.999999999999999,
+   "predicted": 0.000911881965554517,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/4",
+   "task": "Mixed",
+   "exposure": 2.7,
+   "predicted": 0.06720551273974976,
+   "measured": 0.4
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/5",
+   "task": "Mixed",
+   "exposure": 6.799999999999999,
+   "predicted": 0.0011137751478448043,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/6",
+   "task": "Mixed",
+   "exposure": 6.799999999999999,
+   "predicted": 0.0011137751478448043,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/1",
+   "task": "Mixed",
+   "exposure": 9.1,
+   "predicted": 0.00011166580849011478,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/10",
+   "task": "Mixed",
+   "exposure": 1.0,
+   "predicted": 0.36787944117144233,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/11",
+   "task": "Mixed",
+   "exposure": 11.100000000000001,
+   "predicted": 1.5112323819855006e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/12",
+   "task": "Mixed",
+   "exposure": 3.4,
+   "predicted": 0.03337326996032608,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/2",
+   "task": "Mixed",
+   "exposure": 2.1999999999999997,
+   "predicted": 0.11080315836233391,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/3",
+   "task": "Mixed",
+   "exposure": 12.299999999999999,
+   "predicted": 4.55174446308324e-06,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/4",
+   "task": "Mixed",
+   "exposure": 8.2,
+   "predicted": 0.00027465356997214254,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/5",
+   "task": "Mixed",
+   "exposure": 4.3,
+   "predicted": 0.013568559012200934,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/6",
+   "task": "Mixed",
+   "exposure": 9.900000000000002,
+   "predicted": 5.0174682056175195e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/7",
+   "task": "Mixed",
+   "exposure": 11.0,
+   "predicted": 1.670170079024566e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/8",
+   "task": "Mixed",
+   "exposure": 4.3,
+   "predicted": 0.013568559012200934,
+   "measured": 1.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/9",
+   "task": "Mixed",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Select/select_queries_city/1",
+   "task": "Select",
+   "exposure": 6.9,
+   "predicted": 0.0010077854290485105,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Select/select_queries_manager/1",
+   "task": "Select",
+   "exposure": 1.8,
+   "predicted": 0.16529888822158653,
+   "measured": 0.2
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Select/select_queries_player/1",
+   "task": "Select",
+   "exposure": 2.4999999999999996,
+   "predicted": 0.08208499862389883,
+   "measured": 0.1
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Select/select_queries_player/2",
+   "task": "Select",
+   "exposure": 9.1,
+   "predicted": 0.00011166580849011478,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Select/select_queries_player/3",
+   "task": "Select",
+   "exposure": 4.2,
+   "predicted": 0.014995576820477703,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Select/select_queries_player/4",
+   "task": "Select",
+   "exposure": 7.8,
+   "predicted": 0.0004097349789797868,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Select/select_queries_player/5",
+   "task": "Select",
+   "exposure": 5.4,
+   "predicted": 0.004516580942612666,
+   "measured": 0.0
+  },
+  {
+   "model": "vllm-granite-3-3-8b-instruct",
+   "query": "Select/select_queries_player/6",
+   "task": "Select",
+   "exposure": 9.2,
+   "predicted": 0.00010103940183709342,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/1",
+   "task": "Agg",
+   "exposure": 4.5,
+   "predicted": 0.011108996538242306,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/10",
+   "task": "Agg",
+   "exposure": 1.0,
+   "predicted": 0.36787944117144233,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/2",
+   "task": "Agg",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/3",
+   "task": "Agg",
+   "exposure": 4.5,
+   "predicted": 0.011108996538242306,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/4",
+   "task": "Agg",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/5",
+   "task": "Agg",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/6",
+   "task": "Agg",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/7",
+   "task": "Agg",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/8",
+   "task": "Agg",
+   "exposure": 1.0,
+   "predicted": 0.36787944117144233,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Agg/agg_queries/9",
+   "task": "Agg",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_city/1",
+   "task": "Filter",
+   "exposure": 2.6,
+   "predicted": 0.07427357821433388,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_city/2",
+   "task": "Filter",
+   "exposure": 2.6,
+   "predicted": 0.07427357821433388,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_city/3",
+   "task": "Filter",
+   "exposure": 17.3,
+   "predicted": 3.066941294563555e-08,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_city/4",
+   "task": "Filter",
+   "exposure": 9.700000000000001,
+   "predicted": 6.128349505322202e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_city/5",
+   "task": "Filter",
+   "exposure": 24.400000000000002,
+   "predicted": 2.5305483615118915e-11,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_city/6",
+   "task": "Filter",
+   "exposure": 17.3,
+   "predicted": 3.066941294563555e-08,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_manager/1",
+   "task": "Filter",
+   "exposure": 6.9,
+   "predicted": 0.0010077854290485105,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_manager/2",
+   "task": "Filter",
+   "exposure": 6.9,
+   "predicted": 0.0010077854290485105,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_manager/3",
+   "task": "Filter",
+   "exposure": 6.300000000000001,
+   "predicted": 0.0018363047770289056,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_manager/4",
+   "task": "Filter",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_manager/5",
+   "task": "Filter",
+   "exposure": 1.8,
+   "predicted": 0.16529888822158653,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_manager/6",
+   "task": "Filter",
+   "exposure": 6.300000000000001,
+   "predicted": 0.0018363047770289056,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/1",
+   "task": "Filter",
+   "exposure": 3.4,
+   "predicted": 0.03337326996032608,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/10",
+   "task": "Filter",
+   "exposure": 10.499999999999998,
+   "predicted": 2.7536449349747206e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/11",
+   "task": "Filter",
+   "exposure": 1.8,
+   "predicted": 0.16529888822158653,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/12",
+   "task": "Filter",
+   "exposure": 4.5,
+   "predicted": 0.011108996538242306,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/13",
+   "task": "Filter",
+   "exposure": 8.5,
+   "predicted": 0.00020346836901064417,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/14",
+   "task": "Filter",
+   "exposure": 1.0,
+   "predicted": 0.36787944117144233,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/15",
+   "task": "Filter",
+   "exposure": 13.899999999999999,
+   "predicted": 9.189813578979587e-07,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/16",
+   "task": "Filter",
+   "exposure": 1.0,
+   "predicted": 0.36787944117144233,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/17",
+   "task": "Filter",
+   "exposure": 13.899999999999999,
+   "predicted": 9.189813578979587e-07,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/18",
+   "task": "Filter",
+   "exposure": 0.8,
+   "predicted": 0.44932896411722156,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/19",
+   "task": "Filter",
+   "exposure": 3.4,
+   "predicted": 0.03337326996032608,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/2",
+   "task": "Filter",
+   "exposure": 6.9,
+   "predicted": 0.0010077854290485105,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/20",
+   "task": "Filter",
+   "exposure": 17.299999999999997,
+   "predicted": 3.066941294563566e-08,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/21",
+   "task": "Filter",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/22",
+   "task": "Filter",
+   "exposure": 6.9,
+   "predicted": 0.0010077854290485105,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/23",
+   "task": "Filter",
+   "exposure": 3.4,
+   "predicted": 0.03337326996032608,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/24",
+   "task": "Filter",
+   "exposure": 10.9,
+   "predicted": 1.8458233995780558e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/25",
+   "task": "Filter",
+   "exposure": 6.9,
+   "predicted": 0.0010077854290485105,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/26",
+   "task": "Filter",
+   "exposure": 10.499999999999998,
+   "predicted": 2.7536449349747206e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/27",
+   "task": "Filter",
+   "exposure": 6.8,
+   "predicted": 0.0011137751478448032,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/28",
+   "task": "Filter",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/29",
+   "task": "Filter",
+   "exposure": 6.1000000000000005,
+   "predicted": 0.002242867719485801,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/3",
+   "task": "Filter",
+   "exposure": 8.4,
+   "predicted": 0.0002248673241788482,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/30",
+   "task": "Filter",
+   "exposure": 6.9,
+   "predicted": 0.0010077854290485105,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/31",
+   "task": "Filter",
+   "exposure": 9.5,
+   "predicted": 7.48518298877006e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/32",
+   "task": "Filter",
+   "exposure": 3.4,
+   "predicted": 0.03337326996032608,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/33",
+   "task": "Filter",
+   "exposure": 14.999999999999998,
+   "predicted": 3.059023205018263e-07,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/34",
+   "task": "Filter",
+   "exposure": 8.4,
+   "predicted": 0.0002248673241788482,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/35",
+   "task": "Filter",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/36",
+   "task": "Filter",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/4",
+   "task": "Filter",
+   "exposure": 6.1000000000000005,
+   "predicted": 0.002242867719485801,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/5",
+   "task": "Filter",
+   "exposure": 1.8,
+   "predicted": 0.16529888822158653,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/6",
+   "task": "Filter",
+   "exposure": 10.499999999999998,
+   "predicted": 2.7536449349747206e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/7",
+   "task": "Filter",
+   "exposure": 7.0,
+   "predicted": 0.0009118819655545162,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/8",
+   "task": "Filter",
+   "exposure": 6.3,
+   "predicted": 0.0018363047770289071,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_player/9",
+   "task": "Filter",
+   "exposure": 9.3,
+   "predicted": 9.142423147817327e-05,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/1",
+   "task": "Filter",
+   "exposure": 27.499999999999996,
+   "predicted": 1.1399918530443594e-12,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/10",
+   "task": "Filter",
+   "exposure": 27.499999999999996,
+   "predicted": 1.1399918530443594e-12,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/11",
+   "task": "Filter",
+   "exposure": 7.3,
+   "predicted": 0.0006755387751938444,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/12",
+   "task": "Filter",
+   "exposure": 7.3,
+   "predicted": 0.0006755387751938444,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/2",
+   "task": "Filter",
+   "exposure": 24.199999999999996,
+   "predicted": 3.0908187484083427e-11,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/3",
+   "task": "Filter",
+   "exposure": 27.499999999999996,
+   "predicted": 1.1399918530443594e-12,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/4",
+   "task": "Filter",
+   "exposure": 4.0,
+   "predicted": 0.01831563888873418,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/5",
+   "task": "Filter",
+   "exposure": 7.3,
+   "predicted": 0.0006755387751938444,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/6",
+   "task": "Filter",
+   "exposure": 24.199999999999996,
+   "predicted": 3.0908187484083427e-11,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/7",
+   "task": "Filter",
+   "exposure": 24.199999999999996,
+   "predicted": 3.0908187484083427e-11,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/8",
+   "task": "Filter",
+   "exposure": 9.3,
+   "predicted": 9.142423147817327e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Filter/filter_queries_team/9",
+   "task": "Filter",
+   "exposure": 4.0,
+   "predicted": 0.01831563888873418,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/10",
+   "task": "Join",
+   "exposure": 13.200000000000001,
+   "predicted": 1.8506011975819048e-06,
+   "measured": 0.2
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/11",
+   "task": "Join",
+   "exposure": 35.199999999999996,
+   "predicted": 5.162192993279771e-16,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/12",
+   "task": "Join",
+   "exposure": 22.499999999999996,
+   "predicted": 1.6918979226151364e-10,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/13",
+   "task": "Join",
+   "exposure": 27.099999999999998,
+   "predicted": 1.7006680014814105e-12,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/15",
+   "task": "Join",
+   "exposure": 10.700000000000001,
+   "predicted": 2.254493791321217e-05,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/18",
+   "task": "Join",
+   "exposure": 7.3999999999999995,
+   "predicted": 0.0006112527611295728,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/19",
+   "task": "Join",
+   "exposure": 17.299999999999997,
+   "predicted": 3.066941294563566e-08,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/2",
+   "task": "Join",
+   "exposure": 17.4,
+   "predicted": 2.7750832422407563e-08,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/4",
+   "task": "Join",
+   "exposure": 9.7,
+   "predicted": 6.128349505322213e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/5",
+   "task": "Join",
+   "exposure": 18.599999999999998,
+   "predicted": 8.358390101374638e-09,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/7",
+   "task": "Join",
+   "exposure": 7.9,
+   "predicted": 0.0003707435404590882,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/8",
+   "task": "Join",
+   "exposure": 11.4,
+   "predicted": 1.119548484259094e-05,
+   "measured": 0.2
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Join/join_queries/9",
+   "task": "Join",
+   "exposure": 5.8999999999999995,
+   "predicted": 0.0027394448187683705,
+   "measured": 0.2
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_agg_join/1",
+   "task": "Mixed",
+   "exposure": 6.1000000000000005,
+   "predicted": 0.002242867719485801,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_agg_join/2",
+   "task": "Mixed",
+   "exposure": 16.2,
+   "predicted": 9.213600834566135e-08,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/1",
+   "task": "Mixed",
+   "exposure": 6.1000000000000005,
+   "predicted": 0.002242867719485801,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/10",
+   "task": "Mixed",
+   "exposure": 7.6000000000000005,
+   "predicted": 0.0005004514334406104,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/11",
+   "task": "Mixed",
+   "exposure": 4.5,
+   "predicted": 0.011108996538242306,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/12",
+   "task": "Mixed",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/2",
+   "task": "Mixed",
+   "exposure": 6.5,
+   "predicted": 0.0015034391929775724,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/3",
+   "task": "Mixed",
+   "exposure": 6.1000000000000005,
+   "predicted": 0.002242867719485801,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/4",
+   "task": "Mixed",
+   "exposure": 6.1000000000000005,
+   "predicted": 0.002242867719485801,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/5",
+   "task": "Mixed",
+   "exposure": 7.1000000000000005,
+   "predicted": 0.0008251049232659038,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/6",
+   "task": "Mixed",
+   "exposure": 4.5,
+   "predicted": 0.011108996538242306,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/7",
+   "task": "Mixed",
+   "exposure": 7.1000000000000005,
+   "predicted": 0.0008251049232659038,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/8",
+   "task": "Mixed",
+   "exposure": 6.0,
+   "predicted": 0.0024787521766663585,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_join/9",
+   "task": "Mixed",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_player/1",
+   "task": "Mixed",
+   "exposure": 6.1000000000000005,
+   "predicted": 0.002242867719485801,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_player/2",
+   "task": "Mixed",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_player/3",
+   "task": "Mixed",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_player/4",
+   "task": "Mixed",
+   "exposure": 4.5,
+   "predicted": 0.011108996538242306,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_player/5",
+   "task": "Mixed",
+   "exposure": 7.1000000000000005,
+   "predicted": 0.0008251049232659038,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_agg_player/6",
+   "task": "Mixed",
+   "exposure": 7.1000000000000005,
+   "predicted": 0.0008251049232659038,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/1",
+   "task": "Mixed",
+   "exposure": 10.7,
+   "predicted": 2.254493791321221e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/10",
+   "task": "Mixed",
+   "exposure": 7.9,
+   "predicted": 0.0003707435404590882,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/11",
+   "task": "Mixed",
+   "exposure": 30.199999999999996,
+   "predicted": 7.661373700298369e-14,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/12",
+   "task": "Mixed",
+   "exposure": 12.1,
+   "predicted": 5.559513241650146e-06,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/2",
+   "task": "Mixed",
+   "exposure": 7.4,
+   "predicted": 0.0006112527611295723,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/3",
+   "task": "Mixed",
+   "exposure": 23.9,
+   "predicted": 4.172168910160028e-11,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/4",
+   "task": "Mixed",
+   "exposure": 10.600000000000001,
+   "predicted": 2.491600973150316e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/5",
+   "task": "Mixed",
+   "exposure": 7.3,
+   "predicted": 0.0006755387751938444,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/6",
+   "task": "Mixed",
+   "exposure": 24.199999999999996,
+   "predicted": 3.0908187484083427e-11,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/7",
+   "task": "Mixed",
+   "exposure": 14.200000000000001,
+   "predicted": 6.807981343976331e-07,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/8",
+   "task": "Mixed",
+   "exposure": 20.599999999999998,
+   "predicted": 1.1311850917716366e-09,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Mixed/mixed_queries_filter_join/9",
+   "task": "Mixed",
+   "exposure": 12.5,
+   "predicted": 3.726653172078671e-06,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Select/select_queries_city/1",
+   "task": "Select",
+   "exposure": 9.400000000000002,
+   "predicted": 8.272406555663209e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Select/select_queries_manager/1",
+   "task": "Select",
+   "exposure": 6.700000000000001,
+   "predicted": 0.00123091190267348,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Select/select_queries_player/1",
+   "task": "Select",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Select/select_queries_player/2",
+   "task": "Select",
+   "exposure": 12.100000000000001,
+   "predicted": 5.559513241650137e-06,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Select/select_queries_player/3",
+   "task": "Select",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Select/select_queries_player/4",
+   "task": "Select",
+   "exposure": 7.8,
+   "predicted": 0.0004097349789797868,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Select/select_queries_player/5",
+   "task": "Select",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-gpt-oss-120b",
+   "query": "Select/select_queries_player/6",
+   "task": "Select",
+   "exposure": 9.4,
+   "predicted": 8.272406555663223e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/1",
+   "task": "Agg",
+   "exposure": 2.7,
+   "predicted": 0.06720551273974976,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/10",
+   "task": "Agg",
+   "exposure": 1.7999999999999998,
+   "predicted": 0.16529888822158656,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/2",
+   "task": "Agg",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/3",
+   "task": "Agg",
+   "exposure": 2.5,
+   "predicted": 0.0820849986238988,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/4",
+   "task": "Agg",
+   "exposure": 4.2,
+   "predicted": 0.014995576820477703,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/5",
+   "task": "Agg",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/6",
+   "task": "Agg",
+   "exposure": 4.2,
+   "predicted": 0.014995576820477703,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/7",
+   "task": "Agg",
+   "exposure": 4.2,
+   "predicted": 0.014995576820477703,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/8",
+   "task": "Agg",
+   "exposure": 1.7999999999999998,
+   "predicted": 0.16529888822158656,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Agg/agg_queries/9",
+   "task": "Agg",
+   "exposure": 1.7999999999999998,
+   "predicted": 0.16529888822158656,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_city/1",
+   "task": "Filter",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_city/2",
+   "task": "Filter",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_city/3",
+   "task": "Filter",
+   "exposure": 5.8,
+   "predicted": 0.0030275547453758153,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_city/4",
+   "task": "Filter",
+   "exposure": 5.7,
+   "predicted": 0.003345965457471272,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_city/5",
+   "task": "Filter",
+   "exposure": 11.5,
+   "predicted": 1.013009359863071e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_city/6",
+   "task": "Filter",
+   "exposure": 5.8,
+   "predicted": 0.0030275547453758153,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_manager/1",
+   "task": "Filter",
+   "exposure": 0.6,
+   "predicted": 0.5488116360940264,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_manager/2",
+   "task": "Filter",
+   "exposure": 0.6,
+   "predicted": 0.5488116360940264,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_manager/3",
+   "task": "Filter",
+   "exposure": 1.7999999999999998,
+   "predicted": 0.16529888822158656,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_manager/4",
+   "task": "Filter",
+   "exposure": 1.0,
+   "predicted": 0.36787944117144233,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_manager/5",
+   "task": "Filter",
+   "exposure": 2.1999999999999997,
+   "predicted": 0.11080315836233391,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_manager/6",
+   "task": "Filter",
+   "exposure": 1.7999999999999998,
+   "predicted": 0.16529888822158656,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/1",
+   "task": "Filter",
+   "exposure": 1.6,
+   "predicted": 0.20189651799465538,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/10",
+   "task": "Filter",
+   "exposure": 4.1,
+   "predicted": 0.016572675401761255,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/11",
+   "task": "Filter",
+   "exposure": 1.6,
+   "predicted": 0.20189651799465538,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/12",
+   "task": "Filter",
+   "exposure": 2.7,
+   "predicted": 0.06720551273974976,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/13",
+   "task": "Filter",
+   "exposure": 9.8,
+   "predicted": 5.5451599432176945e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/14",
+   "task": "Filter",
+   "exposure": 1.6,
+   "predicted": 0.20189651799465538,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/15",
+   "task": "Filter",
+   "exposure": 8.7,
+   "predicted": 0.00016658581098763354,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/16",
+   "task": "Filter",
+   "exposure": 1.7999999999999998,
+   "predicted": 0.16529888822158656,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/17",
+   "task": "Filter",
+   "exposure": 5.3,
+   "predicted": 0.004991593906910217,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/18",
+   "task": "Filter",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/19",
+   "task": "Filter",
+   "exposure": 1.6,
+   "predicted": 0.20189651799465538,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/2",
+   "task": "Filter",
+   "exposure": 6.3,
+   "predicted": 0.0018363047770289071,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/20",
+   "task": "Filter",
+   "exposure": 10.299999999999999,
+   "predicted": 3.363309518571903e-05,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/21",
+   "task": "Filter",
+   "exposure": 1.0,
+   "predicted": 0.36787944117144233,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/22",
+   "task": "Filter",
+   "exposure": 3.1,
+   "predicted": 0.0450492023935578,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/23",
+   "task": "Filter",
+   "exposure": 1.6,
+   "predicted": 0.20189651799465538,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/24",
+   "task": "Filter",
+   "exposure": 10.2,
+   "predicted": 3.7170318684126734e-05,
+   "measured": 0.2
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/25",
+   "task": "Filter",
+   "exposure": 2.9000000000000004,
+   "predicted": 0.05502322005640721,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/26",
+   "task": "Filter",
+   "exposure": 4.699999999999999,
+   "predicted": 0.009095277101695824,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/27",
+   "task": "Filter",
+   "exposure": 7.199999999999999,
+   "predicted": 0.0007465858083766799,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/28",
+   "task": "Filter",
+   "exposure": 4.2,
+   "predicted": 0.014995576820477703,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/29",
+   "task": "Filter",
+   "exposure": 7.0,
+   "predicted": 0.0009118819655545162,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/3",
+   "task": "Filter",
+   "exposure": 6.6,
+   "predicted": 0.0013603680375478939,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/30",
+   "task": "Filter",
+   "exposure": 6.5,
+   "predicted": 0.0015034391929775724,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/31",
+   "task": "Filter",
+   "exposure": 11.0,
+   "predicted": 1.670170079024566e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/32",
+   "task": "Filter",
+   "exposure": 5.6,
+   "predicted": 0.003697863716482932,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/33",
+   "task": "Filter",
+   "exposure": 6.2,
+   "predicted": 0.002029430636295734,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/34",
+   "task": "Filter",
+   "exposure": 10.0,
+   "predicted": 4.5399929762484854e-05,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/35",
+   "task": "Filter",
+   "exposure": 0.6,
+   "predicted": 0.5488116360940264,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/36",
+   "task": "Filter",
+   "exposure": 4.2,
+   "predicted": 0.014995576820477703,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/4",
+   "task": "Filter",
+   "exposure": 6.4,
+   "predicted": 0.001661557273173934,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/5",
+   "task": "Filter",
+   "exposure": 1.6,
+   "predicted": 0.20189651799465538,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/6",
+   "task": "Filter",
+   "exposure": 3.6999999999999997,
+   "predicted": 0.0247235264703394,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/7",
+   "task": "Filter",
+   "exposure": 7.3999999999999995,
+   "predicted": 0.0006112527611295728,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/8",
+   "task": "Filter",
+   "exposure": 3.7,
+   "predicted": 0.024723526470339388,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_player/9",
+   "task": "Filter",
+   "exposure": 6.8,
+   "predicted": 0.0011137751478448032,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/1",
+   "task": "Filter",
+   "exposure": 9.0,
+   "predicted": 0.00012340980408667956,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/10",
+   "task": "Filter",
+   "exposure": 9.0,
+   "predicted": 0.00012340980408667956,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/11",
+   "task": "Filter",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/12",
+   "task": "Filter",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/2",
+   "task": "Filter",
+   "exposure": 7.6,
+   "predicted": 0.0005004514334406108,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/3",
+   "task": "Filter",
+   "exposure": 9.0,
+   "predicted": 0.00012340980408667956,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/4",
+   "task": "Filter",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/5",
+   "task": "Filter",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/6",
+   "task": "Filter",
+   "exposure": 7.6,
+   "predicted": 0.0005004514334406108,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/7",
+   "task": "Filter",
+   "exposure": 7.6,
+   "predicted": 0.0005004514334406108,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/8",
+   "task": "Filter",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Filter/filter_queries_team/9",
+   "task": "Filter",
+   "exposure": 0.0,
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/10",
+   "task": "Join",
+   "exposure": 2.0,
+   "predicted": 0.1353352832366127,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/11",
+   "task": "Join",
+   "exposure": 16.4,
+   "predicted": 7.543458349844258e-08,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/12",
+   "task": "Join",
+   "exposure": 11.299999999999999,
+   "predicted": 1.2372924261788243e-05,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/13",
+   "task": "Join",
+   "exposure": 14.1,
+   "predicted": 7.523982992164213e-07,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/15",
+   "task": "Join",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/18",
+   "task": "Join",
+   "exposure": 5.3999999999999995,
+   "predicted": 0.00451658094261267,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/19",
+   "task": "Join",
+   "exposure": 6.1,
+   "predicted": 0.0022428677194858034,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/2",
+   "task": "Join",
+   "exposure": 13.6,
+   "predicted": 1.2404950799567134e-06,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/4",
+   "task": "Join",
+   "exposure": 5.6,
+   "predicted": 0.003697863716482932,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/5",
+   "task": "Join",
+   "exposure": 5.8,
+   "predicted": 0.0030275547453758153,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/7",
+   "task": "Join",
+   "exposure": 0.6,
+   "predicted": 0.5488116360940264,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/8",
+   "task": "Join",
+   "exposure": 1.7999999999999998,
+   "predicted": 0.16529888822158656,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Join/join_queries/9",
+   "task": "Join",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_agg_join/1",
+   "task": "Mixed",
+   "exposure": 6.6,
+   "predicted": 0.0013603680375478939,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_agg_join/2",
+   "task": "Mixed",
+   "exposure": 7.6,
+   "predicted": 0.0005004514334406108,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/1",
+   "task": "Mixed",
+   "exposure": 6.6,
+   "predicted": 0.0013603680375478939,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/10",
+   "task": "Mixed",
+   "exposure": 6.0,
+   "predicted": 0.0024787521766663585,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/11",
+   "task": "Mixed",
+   "exposure": 2.1,
+   "predicted": 0.1224564282529819,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/12",
+   "task": "Mixed",
+   "exposure": 2.4,
+   "predicted": 0.09071795328941251,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/2",
+   "task": "Mixed",
+   "exposure": 2.1,
+   "predicted": 0.1224564282529819,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/3",
+   "task": "Mixed",
+   "exposure": 6.0,
+   "predicted": 0.0024787521766663585,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/4",
+   "task": "Mixed",
+   "exposure": 6.6,
+   "predicted": 0.0013603680375478939,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/5",
+   "task": "Mixed",
+   "exposure": 7.2,
+   "predicted": 0.0007465858083766792,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/6",
+   "task": "Mixed",
+   "exposure": 2.5,
+   "predicted": 0.0820849986238988,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/7",
+   "task": "Mixed",
+   "exposure": 7.2,
+   "predicted": 0.0007465858083766792,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/8",
+   "task": "Mixed",
+   "exposure": 2.1,
+   "predicted": 0.1224564282529819,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_join/9",
+   "task": "Mixed",
+   "exposure": 3.8,
+   "predicted": 0.0223707718561656,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/1",
+   "task": "Mixed",
+   "exposure": 6.6,
+   "predicted": 0.0013603680375478939,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/2",
+   "task": "Mixed",
+   "exposure": 4.3999999999999995,
+   "predicted": 0.012277339903068448,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/3",
+   "task": "Mixed",
+   "exposure": 4.2,
+   "predicted": 0.014995576820477703,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/4",
+   "task": "Mixed",
+   "exposure": 2.1,
+   "predicted": 0.1224564282529819,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/5",
+   "task": "Mixed",
+   "exposure": 7.2,
+   "predicted": 0.0007465858083766792,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_agg_player/6",
+   "task": "Mixed",
+   "exposure": 7.2,
+   "predicted": 0.0007465858083766792,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/1",
+   "task": "Mixed",
+   "exposure": 3.0,
+   "predicted": 0.049787068367863944,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/10",
+   "task": "Mixed",
+   "exposure": 2.1,
+   "predicted": 0.1224564282529819,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/11",
+   "task": "Mixed",
+   "exposure": 13.799999999999999,
+   "predicted": 1.015631471002492e-06,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/12",
+   "task": "Mixed",
+   "exposure": 3.9,
+   "predicted": 0.02024191144580439,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/2",
+   "task": "Mixed",
+   "exposure": 6.199999999999999,
+   "predicted": 0.0020294306362957358,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/3",
+   "task": "Mixed",
+   "exposure": 11.1,
+   "predicted": 1.5112323819855033e-05,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/4",
+   "task": "Mixed",
+   "exposure": 6.0,
+   "predicted": 0.0024787521766663585,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/5",
+   "task": "Mixed",
+   "exposure": 1.4,
+   "predicted": 0.2465969639416065,
+   "measured": 0.3
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/6",
+   "task": "Mixed",
+   "exposure": 9.4,
+   "predicted": 8.272406555663223e-05,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/7",
+   "task": "Mixed",
+   "exposure": 7.8,
+   "predicted": 0.0004097349789797868,
+   "measured": 1.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/8",
+   "task": "Mixed",
+   "exposure": 11.399999999999999,
+   "predicted": 1.119548484259096e-05,
+   "measured": 0.1
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Mixed/mixed_queries_filter_join/9",
+   "task": "Mixed",
+   "exposure": 8.299999999999999,
+   "predicted": 0.0002485168271079523,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Select/select_queries_city/1",
+   "task": "Select",
+   "exposure": 5.7,
+   "predicted": 0.003345965457471272,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Select/select_queries_manager/1",
+   "task": "Select",
+   "exposure": 1.0,
+   "predicted": 0.36787944117144233,
+   "measured": 0.2
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Select/select_queries_player/1",
+   "task": "Select",
+   "exposure": 0.4,
+   "predicted": 0.6703200460356393,
+   "measured": 0.6
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Select/select_queries_player/2",
+   "task": "Select",
+   "exposure": 12.2,
+   "predicted": 5.030455607111448e-06,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Select/select_queries_player/3",
+   "task": "Select",
+   "exposure": 0.6,
+   "predicted": 0.5488116360940264,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Select/select_queries_player/4",
+   "task": "Select",
+   "exposure": 7.799999999999999,
+   "predicted": 0.00040973497897978713,
+   "measured": 0.0
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Select/select_queries_player/5",
+   "task": "Select",
+   "exposure": 0.6,
+   "predicted": 0.5488116360940264,
+   "measured": 0.4
+  },
+  {
+   "model": "managed-llama-3-3-70b-instruct",
+   "query": "Select/select_queries_player/6",
+   "task": "Select",
+   "exposure": 7.799999999999999,
+   "predicted": 0.00040973497897978713,
+   "measured": 0.0
+  }
+ ],
+ "summary": {
+  "managed-gpt-oss-120b": {
+   "queries": 123,
+   "within": 70,
+   "above": 51,
+   "median_exposure": 7.0,
+   "tasks": {
+    "Agg": {
+     "queries": 10,
+     "within": 8,
+     "mean_error": 0.17535897664470626
+    },
+    "Filter": {
+     "queries": 60,
+     "within": 39,
+     "mean_error": 0.2829433305538815
+    },
+    "Join": {
+     "queries": 13,
+     "within": 6,
+     "mean_error": 0.16894648130472645
+    },
+    "Mixed": {
+     "queries": 32,
+     "within": 9,
+     "mean_error": 0.6212906615386553
+    },
+    "Select": {
+     "queries": 8,
+     "within": 8,
+     "mean_error": 0.011566200976927586
+    }
+   }
+  },
+  "managed-llama-3-3-70b-instruct": {
+   "queries": 123,
+   "within": 65,
+   "above": 56,
+   "median_exposure": 4.2,
+   "tasks": {
+    "Agg": {
+     "queries": 10,
+     "within": 10,
+     "mean_error": 0.0400504424722673
+    },
+    "Filter": {
+     "queries": 60,
+     "within": 35,
+     "mean_error": 0.2904749495009581
+    },
+    "Join": {
+     "queries": 13,
+     "within": 6,
+     "mean_error": 0.3306438542704445
+    },
+    "Mixed": {
+     "queries": 32,
+     "within": 7,
+     "mean_error": 0.6238424869682251
+    },
+    "Select": {
+     "queries": 8,
+     "within": 7,
+     "mean_error": 0.06749915315827154
+    }
+   }
+  },
+  "vllm-granite-3-3-8b-instruct": {
+   "queries": 123,
+   "within": 67,
+   "above": 56,
+   "median_exposure": 6.799999999999999,
+   "tasks": {
+    "Agg": {
+     "queries": 10,
+     "within": 4,
+     "mean_error": 0.19649763357000233
+    },
+    "Filter": {
+     "queries": 60,
+     "within": 40,
+     "mean_error": 0.248262371651595
+    },
+    "Join": {
+     "queries": 13,
+     "within": 6,
+     "mean_error": 0.531174015696253
+    },
+    "Mixed": {
+     "queries": 32,
+     "within": 9,
+     "mean_error": 0.6121210212170023
+    },
+    "Select": {
+     "queries": 8,
+     "within": 8,
+     "mean_error": 0.009219812066995067
+    }
+   }
+  }
+ },
+ "macros": {
+  "udaLinQueriesGptoss": 123,
+  "udaLinWithinGptoss": 70,
+  "udaLinWithinPctGptoss": "57\\%",
+  "udaLinAboveGptoss": 51,
+  "udaLinBelowGptoss": 2,
+  "udaLinMedExposureGptoss": "7.0",
+  "udaLinWithinAggGptoss": "8 of 10",
+  "udaLinWithinFilterGptoss": "39 of 60",
+  "udaLinWithinJoinGptoss": "6 of 13",
+  "udaLinWithinMixedGptoss": "9 of 32",
+  "udaLinWithinSelectGptoss": "8 of 8",
+  "udaLinQueriesLlamaW": 123,
+  "udaLinWithinLlamaW": 65,
+  "udaLinWithinPctLlamaW": "53\\%",
+  "udaLinAboveLlamaW": 56,
+  "udaLinBelowLlamaW": 2,
+  "udaLinMedExposureLlamaW": "4.2",
+  "udaLinWithinAggLlamaW": "10 of 10",
+  "udaLinWithinFilterLlamaW": "35 of 60",
+  "udaLinWithinJoinLlamaW": "6 of 13",
+  "udaLinWithinMixedLlamaW": "7 of 32",
+  "udaLinWithinSelectLlamaW": "7 of 8",
+  "udaLinQueriesGranite": 123,
+  "udaLinWithinGranite": 67,
+  "udaLinWithinPctGranite": "54\\%",
+  "udaLinAboveGranite": 56,
+  "udaLinBelowGranite": 0,
+  "udaLinMedExposureGranite": "6.8",
+  "udaLinWithinAggGranite": "4 of 10",
+  "udaLinWithinFilterGranite": "40 of 60",
+  "udaLinWithinJoinGranite": "6 of 13",
+  "udaLinWithinMixedGranite": "9 of 32",
+  "udaLinWithinSelectGranite": "8 of 8"
+ }
+}

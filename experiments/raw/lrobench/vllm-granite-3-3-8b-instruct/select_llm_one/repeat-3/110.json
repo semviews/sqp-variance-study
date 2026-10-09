@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 110,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 3.515,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 45,
+  "judge_calls": 0,
+  "returned": [
+    0.2778,
+    1.0,
+    0.4348
+  ],
+  "tokens": [
+    6974,
+    6929,
+    45
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2778,
+        1.0,
+        0.4348
+      ],
+      "prediction": [
+        "[\"Bazzell's Truck & Camper\"]",
+        "[\"Gary's Performance Ski-Doo\"]",
+        "[\"Kirby's Hitch & Wiring\"]",
+        "['A Rack Attack-Car Rack & Hitch Center']",
+        "['AMA Truck Toppers Inc']",
+        "['Alert Muffler & Brake Service']",
+        "['Classic Truck']",
+        "['Eppies Discount Tire & Auto Centers']",
+        "['Great Dane Trailers Inc']",
+        "['Kenner Welding Inc']",
+        "['Mid Town Rent-A-Car']",
+        "['Pacific Service Center Inc']",
+        "['R V City']",
+        "['Spillar Custom Hitches Inc']",
+        "['Sunguard Window Tinting & Truck Accessories']",
+        "['U-Haul CO - Moving Centers, Athens']",
+        "['U-Haul CO - Moving Centers, Sarasota']",
+        "['U-haul Center Of Cicero']"
+      ],
+      "truth": [
+        "['Eppies Discount Tire & Auto Centers']",
+        "['Great Dane Trailers Inc']",
+        "['Kenner Welding Inc']",
+        "['R V City']",
+        "['Sunguard Window Tinting & Truck Accessories']"
+      ]
+    }
+  ]
+}

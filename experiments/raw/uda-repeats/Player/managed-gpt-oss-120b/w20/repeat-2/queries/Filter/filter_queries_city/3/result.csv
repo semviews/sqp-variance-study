@@ -1,0 +1,28 @@
+state_name,city_name,population,id
+Colorado,Denver,"715,522",1
+Massachusetts,Boston,"675,647 || 691,531",2
+Indiana,Indianapolis,"887,642 || 880,621",3
+Texas,Dallas,1304379 || 1299544,4
+Texas,San Antonio,1434625 || 1327407 || 1144646,5
+California,Los Angeles,"3,820,914 (2023 estimate) || 3,792,621 (2010 census)",6
+Minnesota,Minneapolis || Saint Paul,429954 || 521718,7
+Florida,Miami,,8
+California,Inglewood,107762 || 109673,9
+Oregon,Portland,652503,10
+California,San Francisco,,11
+Pennsylvania,Philadelphia,,12
+Louisiana,New Orleans,"383,997",13
+Illinois,Chicago,,14
+Florida,Orlando,,15
+Utah,Salt Lake City,,16
+Arizona,Phoenix,1662607 || 1608139 || 1445632 || 1512986,18
+Ohio,Cleveland,"372,624",20
+Texas,Houston,2314157 || 2304580 || 2312717 || 2325502 || 2100263,21
+California,Sacramento,524943 || 466488,22
+Michigan,Detroit,"639,111",23
+Tennessee,Memphis,"633,104 || 652,078",24
+North Carolina,Charlotte,874579 || 885708,25
+New York,New York City,,26
+Oklahoma,Oklahoma City,681054 || 579999,27
+Wisconsin,Milwaukee,"577,222",28
+Georgia,Atlanta,"510,823 || 498,715",29

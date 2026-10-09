@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 10: 5 (team) */ SELECT team_name, founded_year, ownership FROM team WHERE founded_year > 1967 OR team_name <> 'Charlotte Hornets' OR team_name = 'Detroit Pistons' OR founded_year >= 1989",
+  "team": {
+    "founded_year": {
+      "value_type": "int",
+      "description": "founded_year is the year of this team team founded (e.g. 1947)."
+    },
+    "ownership": {
+      "value_type": "str",
+      "description": "ownership is the name of the team's owner (e.g. Jeanie Buss)."
+    },
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  }
+}

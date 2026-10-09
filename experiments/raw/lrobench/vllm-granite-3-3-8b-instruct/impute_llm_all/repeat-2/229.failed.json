@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 229,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 27.092,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/LROBench/.venv/lib/python3.10/site-packages/pandas/core/indexes/base.py\", line 3812, in get_loc\n    return self._engine.get_loc(casted_key)\n  File \"pandas/_libs/index.pyx\", line 167, in pandas._libs.index.IndexEngine.get_loc\n  File \"pandas/_libs/index.pyx\", line 196, in pandas._libs.index.IndexEngine.get_loc\nKeyError: 'PriceUSD'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/impute_eval.py\", line 1152, in pipeline_impute229\n    pred = merged['PriceUSD'].tolist()\n  File \"/home/user/code/LROBench/.venv/lib/python3.10/site-packages/pandas/core/frame.py\", line 4107, in __getitem__\n    indexer = self.columns.get_loc(key)\nKeyError: 'PriceUSD'\n",
+  "failed_attempts": [
+    {
+      "error": "KeyError: 'PriceUSD'",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: 'PriceUSD'",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 0
+}

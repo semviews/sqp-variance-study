@@ -1,0 +1,23 @@
+{
+  "sql": "/* Query 5: binary_join (team, city) */ SELECT city.city_name, city.population, team.founded_year, team.location FROM team JOIN city ON team.location = city.city_name",
+  "city": {
+    "city_name": {
+      "value_type": "str",
+      "description": "city_name is the name of the city (e.g. Boston)"
+    },
+    "population": {
+      "value_type": "int",
+      "description": "population is the population of the city (e.g. 7000000)."
+    }
+  },
+  "team": {
+    "founded_year": {
+      "value_type": "int",
+      "description": "founded_year is the year of this team team founded (e.g. 1947)."
+    },
+    "location": {
+      "value_type": "str",
+      "description": "location is the lastest city the team team located (e.g. Los Angeles)."
+    }
+  }
+}

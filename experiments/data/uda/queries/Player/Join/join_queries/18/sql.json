@@ -1,0 +1,29 @@
+{
+  "sql": "/* Query 8: multi_table_join (player, team, manager) */ SELECT player.nationality, player.olympic_gold_medals, team.location, manager.nba_team, player.draft_pick FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name",
+  "player": {
+    "draft_pick": {
+      "value_type": "int",
+      "description": "the pick number at which the player was selected in the NBA draft (e.g., 1)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  },
+  "team": {
+    "location": {
+      "value_type": "str",
+      "description": "location is the lastest city the team team located (e.g. Los Angeles)."
+    }
+  },
+  "manager": {
+    "nba_team": {
+      "value_type": "str",
+      "description": "NBA_team is the NBA team's name the owner own, (e.g. Los Angeles Lakers)."
+    }
+  }
+}

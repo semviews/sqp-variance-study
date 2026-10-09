@@ -1,0 +1,33 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 28,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 69.124,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 281,
+  "judge_calls": 0,
+  "returned": [
+    "Autodromo Enzo e Dino Ferrari",
+    "Red Bull Ring"
+  ],
+  "tokens": 62373,
+  "metrics": [],
+  "prediction": [
+    "Autodromo Enzo e Dino Ferrari",
+    "Red Bull Ring"
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

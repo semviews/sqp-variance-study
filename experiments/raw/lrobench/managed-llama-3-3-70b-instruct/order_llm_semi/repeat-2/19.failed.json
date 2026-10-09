@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 19,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 3.957,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 434, in pipeline_order19\n    country = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'The length of the country\\'s coastline\\' metric of the \\'Name\\' column, I need to use the get_country_coastline_length tool. Here is the tool call:\\n```\\nget_country_coastline_length({\"index\": 215, \"Name\": \"United States\"})\\n```'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '{GET_COASTLINE_SCORE: {\"function_name\": \"get_coastline_score\", \"args\": [\"Brazil\"]}}'",
+      "operator_calls": 3
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the coastline length of India, I need to use the get_country_coastline_length tool. ||\\nTool: get_country_coastline_length\\nInput: {\"function_name\": \"get_country_coastline_length\", \"args\": [\"India\"]}'",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

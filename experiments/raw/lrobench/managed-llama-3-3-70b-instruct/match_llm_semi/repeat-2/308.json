@@ -1,0 +1,51 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 308,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 6.402,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 6,
+  "judge_calls": 0,
+  "returned": [
+    0.1667,
+    0.3333,
+    0.2222
+  ],
+  "tokens": [
+    826,
+    818,
+    8
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1667,
+        0.3333,
+        0.2222
+      ],
+      "prediction": [
+        "['AVG_NUM_WORDS' 'Biography']",
+        "['AVG_NUM_WORDS_NO_STOPWORDS' 'Biography']",
+        "['Author_ID' 'ArtistID']",
+        "['MEIBI' 'Biography']",
+        "['MEIBIX' 'Biography']",
+        "['NAME' 'ArtistID']"
+      ],
+      "truth": [
+        "['Author_ID' 'ArtistID']",
+        "['NAME' 'FirstName']",
+        "['NAME' 'LastName']"
+      ]
+    }
+  ]
+}

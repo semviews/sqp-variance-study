@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 5,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 41.871,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 130, in pipeline_order5\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '1963 is the release year of the movie \"The Sword in the Stone\". To evaluate this, we consider that more recent movies generally have more advanced technology and production quality, which can be an advantage. However, the question seems to focus solely on the release year as a metric without specifying whether newer or older is better. Given the lack of a clear direction on whether a higher or lower release year is preferable, a direct scoring based on the year itself is challenging without further context.\\n\\nHowever, if we consider the age of the movie as a factor, with older movies potentially being less favored due to outdated production quality, special effects, etc., and assuming a higher score indicates a more recent release (which might be preferable for some metrics like production quality, relevance, etc.), we could theoretically score it based on its age compared to the current year or a reference year.\\n\\nAssuming the current year is 2024 and considering movies from 1900 onwards for a 124-year span, \"The Sword in the Stone\" (1963) would be approximately 61 years old as of 2024.\\n\\nTo calculate a score based on its release year, considering 1900 as the starting point and 2024 as the endpoint, and assuming a linear scale where a movie from 1900 gets a score of 0 and a movie from 2024 gets a score of 100:\\n\\nScore = ((1963 - 1900) / (2024 - 1900)) * 100\\n\\nScore = (63 / 124) * 100\\n\\nScore \u2248 50.81\\n\\nGiven the constraints and the need for an integer, rounding this to the nearest whole number for simplicity, the score would be approximately 51.\\n\\n51'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '1967 is the release year of the movie \"The Jungle Book\", which is relatively old. Considering the release year, I would give it a score of 20, since it\\'s not a recent release. \\n\\n20'",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: '1967 is the release year of the movie \"The Jungle Book\", which is relatively old. Considering the release year range of movies, a score of 20 would reflect its age. \\n\\n20'",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

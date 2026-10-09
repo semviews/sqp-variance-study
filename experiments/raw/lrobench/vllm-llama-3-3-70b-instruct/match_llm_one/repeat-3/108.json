@@ -1,0 +1,71 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 108,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 48.043,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 336,
+  "judge_calls": 0,
+  "returned": [
+    0.5294,
+    0.75,
+    0.6207
+  ],
+  "tokens": [
+    35536,
+    35200,
+    336
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5294,
+        0.75,
+        0.6207
+      ],
+      "prediction": [
+        "['Bloodwraith' 'Dark Horse Comics']",
+        "['Bloodwraith' 'Image Comics']",
+        "['Bloodwraith' 'Marvel Comics']",
+        "['Bloodwraith' 'Wildstorm']",
+        "['Fin Fang Foom' 'Marvel Comics']",
+        "['Galactus' 'Marvel Comics']",
+        "['Giganta' 'DC Comics']",
+        "['Giganta' 'Hanna-Barbera']",
+        "['Groot' 'Icon Comics']",
+        "['Groot' 'Marvel Comics']",
+        "['MODOK' 'Marvel Comics']",
+        "['Onslaught' 'Marvel Comics']",
+        "['Sasquatch' 'Marvel Comics']",
+        "['Wolfsbane' 'Icon Comics']",
+        "['Wolfsbane' 'Image Comics']",
+        "['Wolfsbane' 'Marvel Comics']",
+        "['Wolfsbane' 'Wildstorm']"
+      ],
+      "truth": [
+        "['Bloodwraith' 'Marvel Comics']",
+        "['Fin Fang Foom' 'Marvel Comics']",
+        "['Galactus' 'Marvel Comics']",
+        "['Giganta' 'DC Comics']",
+        "['Groot' 'Marvel Comics']",
+        "['MODOK' 'Marvel Comics']",
+        "['Onslaught' 'Marvel Comics']",
+        "['Sasquatch' 'Marvel Comics']",
+        "['Surtur' 'Marvel Comics']",
+        "['Utgard-Loki' 'Marvel Comics']",
+        "['Wolfsbane' 'Marvel Comics']",
+        "['Ymir' 'Marvel Comics']"
+      ]
+    }
+  ]
+}

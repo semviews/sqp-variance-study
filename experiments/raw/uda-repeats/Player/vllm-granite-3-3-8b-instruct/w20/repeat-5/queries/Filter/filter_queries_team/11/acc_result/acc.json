@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "location": {
+      "precision": 0.7333333333333333,
+      "recall": 0.7857142857142857,
+      "f1": 0.7586206896551724
+    },
+    "founded_year": {
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1": 0.9655172413793104
+    },
+    "team_name": {
+      "precision": 0.7666666666666667,
+      "recall": 0.8214285714285714,
+      "f1": 0.793103448275862
+    }
+  },
+  "macro_precision": 0.811111111111111,
+  "macro_recall": 0.869047619047619,
+  "macro_f1": 0.8390804597701149,
+  "rows": {
+    "len_gold": 28,
+    "len_pred": 30,
+    "matched_rows": 28
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "location",
+    "founded_year",
+    "team_name"
+  ],
+  "skipped_columns": []
+}

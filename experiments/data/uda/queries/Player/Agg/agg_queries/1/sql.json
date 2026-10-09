@@ -1,0 +1,13 @@
+{
+  "sql": "/* Query 1: aggregation (player) */ SELECT position, MIN(olympic_gold_medals) AS min_olympic_gold_medals FROM player GROUP BY position",
+  "player": {
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    },
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  }
+}

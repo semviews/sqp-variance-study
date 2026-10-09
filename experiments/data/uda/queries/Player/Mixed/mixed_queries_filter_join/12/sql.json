@@ -1,0 +1,27 @@
+{
+  "sql": "/* Query 12: filter6_join2 (player, team, city, manager) */ SELECT team.team_name, city.area, player.position, manager.own_year FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name WHERE (player.mvp_awards <= 1 AND team.championship <= 1) OR (manager.nationality = 'Taiwanese-Canadian' AND player.mvp_awards < 0)",
+  "team": {
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  },
+  "city": {
+    "area": {
+      "value_type": "float",
+      "description": "area is the area of the city in square kilometers (e.g. 89.64)."
+    }
+  },
+  "player": {
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  },
+  "manager": {
+    "own_year": {
+      "value_type": "int",
+      "description": "own_year is year the owner have this NBA team (e.g. 2010)."
+    }
+  }
+}

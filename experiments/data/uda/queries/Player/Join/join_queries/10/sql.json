@@ -1,0 +1,23 @@
+{
+  "sql": "/* Query 10: binary_join (team, manager) */ SELECT manager.nba_team, team.location, manager.name, team.team_name FROM team JOIN manager ON team.ownership = manager.name",
+  "manager": {
+    "name": {
+      "value_type": "str",
+      "description": "name is the full name of the team owner (e.g. Jeanie Buss)."
+    },
+    "nba_team": {
+      "value_type": "str",
+      "description": "NBA_team is the NBA team's name the owner own, (e.g. Los Angeles Lakers)."
+    }
+  },
+  "team": {
+    "location": {
+      "value_type": "str",
+      "description": "location is the lastest city the team team located (e.g. Los Angeles)."
+    },
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  }
+}

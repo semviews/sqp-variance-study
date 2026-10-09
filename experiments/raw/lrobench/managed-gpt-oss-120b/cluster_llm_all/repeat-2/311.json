@@ -1,0 +1,109 @@
+{
+  "benchmark": "lrobench",
+  "operator": "cluster",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 311,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 11.372,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.062,
+    0.4653
+  ],
+  "tokens": [
+    1037,
+    759,
+    278
+  ],
+  "metrics": [
+    {
+      "metric": "ari",
+      "value": 0.062,
+      "prediction": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        3,
+        3,
+        3,
+        4,
+        1,
+        1,
+        4,
+        3,
+        2
+      ],
+      "truth": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        3,
+        1,
+        2,
+        2,
+        3,
+        2,
+        4,
+        4,
+        4,
+        4,
+        0
+      ]
+    },
+    {
+      "metric": "nmi",
+      "value": 0.4653,
+      "prediction": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        3,
+        3,
+        3,
+        4,
+        1,
+        1,
+        4,
+        3,
+        2
+      ],
+      "truth": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        3,
+        1,
+        2,
+        2,
+        3,
+        2,
+        4,
+        4,
+        4,
+        4,
+        0
+      ]
+    }
+  ]
+}

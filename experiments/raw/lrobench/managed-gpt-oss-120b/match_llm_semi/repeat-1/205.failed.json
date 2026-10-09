@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 205,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 38.049,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 972, in pipeline_match205\n    matched_df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nTypeError: object of type 'NoneType' has no len()\n",
+  "failed_attempts": [
+    {
+      "error": "TypeError: object of type 'NoneType' has no len()",
+      "operator_calls": 1
+    },
+    {
+      "error": "TypeError: object of type 'NoneType' has no len()",
+      "operator_calls": 3
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

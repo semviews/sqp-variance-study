@@ -1,0 +1,29 @@
+{
+ "macros": {
+  "studyCalls": "1{,}219{,}338",
+  "studyCallsMillions": "1.2",
+  "studyTokensMillions": "423",
+  "studyCost": "33.29",
+  "studyFirst": "2026-10-02",
+  "studyLast": "2026-10-09",
+  "versionSemBench": "c814e38",
+  "versionLroBench": "6eb2930",
+  "versionUdaBench": "f2da981",
+  "versionLotus": "1.1.3",
+  "callsControls": "4{,}800",
+  "callsLROBench": "567{,}591",
+  "callsSemBench": "613{,}680",
+  "callsUDABench": "33{,}267",
+  "windowControl": "2026-10-07",
+  "windowLro": "2026-10-02 to 2026-10-03",
+  "windowSemCommercial": "2026-10-07 to 2026-10-09",
+  "windowSemExtension": "2026-10-07",
+  "windowSemJoins": "2026-10-02",
+  "windowSemMain": "2026-10-02",
+  "windowSemProbes": "2026-10-02",
+  "windowUda": "2026-10-02",
+  "probeRefMainDisagree": "1.22\\%",
+  "probeRefProbeDisagree": "0.63\\%",
+  "probeRefDiffCi": "[-1.72, 0.31]"
+ }
+}

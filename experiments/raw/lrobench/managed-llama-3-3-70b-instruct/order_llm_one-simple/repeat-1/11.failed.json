@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 11,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 25.685,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 262, in pipeline_order11\n    sea = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To compare the 'The area of the sea.' criteria, we need to use external knowledge about the areas of the Andaman Sea and the Arctic Ocean. The Andaman Sea has an area of approximately 600,000 square \n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To compare the 'The area of the sea.' criteria of the 'Name' column for the given items, we need to look up the areas of the Andaman Sea and the Arctic Ocean. \\n\\nThe Andaman Sea has an area of appro",
+      "operator_calls": 9
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine which sea has a larger area, I need to compare the areas of the 'Andaman Sea' and the 'Baltic Sea'.\"",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 9,
+  "judge_calls": 0
+}

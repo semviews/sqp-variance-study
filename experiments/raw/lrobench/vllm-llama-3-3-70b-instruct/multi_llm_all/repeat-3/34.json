@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 34,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 134.926,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 253,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Fried",
+      2
+    ],
+    [
+      "Grilled",
+      7
+    ],
+    [
+      "Others",
+      7
+    ],
+    [
+      "Raw",
+      5
+    ],
+    [
+      "Saut\u00e9ed",
+      10
+    ],
+    [
+      "Steamed",
+      3
+    ]
+  ],
+  "tokens": 68059,
+  "metrics": [],
+  "prediction": [
+    [
+      "Fried",
+      2
+    ],
+    [
+      "Grilled",
+      7
+    ],
+    [
+      "Others",
+      7
+    ],
+    [
+      "Raw",
+      5
+    ],
+    [
+      "Saut\u00e9ed",
+      10
+    ],
+    [
+      "Steamed",
+      3
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

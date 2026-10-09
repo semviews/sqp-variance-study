@@ -1,0 +1,76 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 2,
+  "seconds": 27.052,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: \"None of [Index(['left_website', 'right_website'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    2015,
+    573,
+    1442
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['Arts Depot ' 'Andover Estate Community Centre']",
+        "['Battersea Arts Centre ' 'Andover Estate Community Centre']",
+        "['Bernie Grant Arts Centre ' 'Andover Estate Community Centre']",
+        "['Chats Palace ' 'Andover Estate Community Centre']",
+        "['Dugdale  ' 'Andover Estate Community Centre']",
+        "['Fairfield Halls ' 'Andover Estate Community Centre']",
+        "['Harrow Arts Centre ' 'Andover Estate Community Centre']",
+        "['ICA' 'Andover Estate Community Centre']",
+        "['Irish Cultural Centre ' 'Andover Estate Community Centre']",
+        "['JW3' 'Andover Estate Community Centre']",
+        "['Jacksons Lane ' 'Andover Estate Community Centre']",
+        "['OSO Arts Centre' 'Andover Estate Community Centre']",
+        "['Redbridge Drama Centre ' 'Andover Estate Community Centre']",
+        "['Rich Mix ' 'Andover Estate Community Centre']",
+        "['Riverside Studios ' 'Andover Estate Community Centre']",
+        "['Southbank Centre ' 'Andover Estate Community Centre']",
+        "['Stratford Circus Arts Centre ' 'Andover Estate Community Centre']",
+        "['The Albany ' 'Andover Estate Community Centre']",
+        "['The Arts Centre Houndslow ' 'Andover Estate Community Centre']",
+        "['The Barbican ' 'Andover Estate Community Centre']",
+        "['The Landmark Arts Centre ' 'Andover Estate Community Centre']",
+        "['The Library at Willesdon Green' 'Andover Estate Community Centre']",
+        "['The Tabernacle' 'Andover Estate Community Centre']",
+        "['Watermans Arts Centre' 'Andover Estate Community Centre']"
+      ],
+      "truth": [
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ]
+    }
+  ]
+}

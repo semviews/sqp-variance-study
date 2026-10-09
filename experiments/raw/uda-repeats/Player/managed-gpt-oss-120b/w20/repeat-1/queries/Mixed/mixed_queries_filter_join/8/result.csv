@@ -1,0 +1,5 @@
+player.nationality,manager.nationality,city.population,team.championship,player.id,team.id,manager.id,city.id
+USA,Israeli || American,"442,241",3.0,141,16,15,8
+USA || Mexico,Israeli || American,"442,241",3.0,134,16,15,8
+USA,Israeli || American,"442,241",3.0,123,16,15,8
+USA,Israeli || American,"442,241",3.0,114,16,15,8

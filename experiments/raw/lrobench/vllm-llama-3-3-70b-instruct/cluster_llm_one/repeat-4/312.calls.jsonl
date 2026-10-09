@@ -1,0 +1,11 @@
+{"key": "4c53a54527ee2e5c", "role": "operator", "t": 1790980208.515, "seconds": 2.415, "output": "[\n  { \"games_city\": [\"1\", \"Location\"]}\n]"}
+{"key": "ebdb52cc3fbba8b6", "role": "operator", "t": 1790980210.931, "seconds": 1.391, "output": "[\n  { \"noc_region\": [\"1\", \"Location\"]}\n]"}
+{"key": "ec2962f0d3ca77b1", "role": "operator", "t": 1790980212.321, "seconds": 1.353, "output": "[\n  { \"competitor_event\": [\"2\", \"Game\"]}\n]"}
+{"key": "c546e665242d26a7", "role": "operator", "t": 1790980213.674, "seconds": 1.282, "output": "[\n  { \"medal\": [\"3\", \"Other\"]}\n]"}
+{"key": "ce8ca67c5c26dc7a", "role": "operator", "t": 1790980214.956, "seconds": 1.314, "output": "[\n  { \"city\": [\"1\", \"Location\"]}\n]"}
+{"key": "88555d2d03eac3bc", "role": "operator", "t": 1790980216.27, "seconds": 0.977, "output": "[\n  { \"games\": [\"2\", \"Game\"]}\n]"}
+{"key": "e1ad0aefebf9bae4", "role": "operator", "t": 1790980217.247, "seconds": 1.675, "output": "[\n  { \"sport\": [\"2\", \"Game\"]}\n]"}
+{"key": "e9c6cb4ef5fd96d8", "role": "operator", "t": 1790980218.922, "seconds": 1.797, "output": "[\n  { \"person\": [\"4\", \"Joining\"]}\n]"}
+{"key": "bd6fc72198cfdc86", "role": "operator", "t": 1790980220.72, "seconds": 1.407, "output": "[\n  { \"event\": [\"2\", \"Game\"]}\n]"}
+{"key": "6990baa69eca9914", "role": "operator", "t": 1790980222.126, "seconds": 1.824, "output": "[\n  { \"person_region\": [\"1\", \"Location\"]}\n]"}
+{"key": "3102f7d2b5b4fb9d", "role": "operator", "t": 1790980223.95, "seconds": 1.318, "output": "[\n  { \"games_competitor\": [\"2\", \"Game\"]}\n]"}

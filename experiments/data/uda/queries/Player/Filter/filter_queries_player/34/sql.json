@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 34: 6 (player) */ SELECT nationality, name, draft_year FROM player WHERE (draft_year <> 2018 AND nationality <> 'German') OR (name = 'Donta Hall' AND nba_championships <> 0)",
+  "player": {
+    "draft_year": {
+      "value_type": "int",
+      "description": "the year the player was selected in the NBA draft; use format YYYY (e.g., 2003)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    }
+  }
+}

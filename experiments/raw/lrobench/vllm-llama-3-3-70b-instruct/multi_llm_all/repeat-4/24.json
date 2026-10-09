@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 24,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 15.136,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 23,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "J.J. Abrams"
+    ],
+    [
+      "Gareth Edwards"
+    ],
+    [
+      "Alan Taylor"
+    ],
+    [
+      "James Gunn"
+    ],
+    [
+      "Scott Derrickson"
+    ]
+  ],
+  "tokens": 6632,
+  "metrics": [],
+  "prediction": [
+    [
+      "J.J. Abrams"
+    ],
+    [
+      "Gareth Edwards"
+    ],
+    [
+      "Alan Taylor"
+    ],
+    [
+      "James Gunn"
+    ],
+    [
+      "Scott Derrickson"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

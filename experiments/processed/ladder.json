@@ -1,0 +1,105 @@
+{
+  "suites": {
+    "sembench": {
+      "managed-gpt-oss-120b": {
+        "queries": 13,
+        "outputs": 0.00030525030525030525,
+        "answer": 0.02564102564102564,
+        "quality": 0.11752136752136752
+      },
+      "managed-llama-3-3-70b-instruct": {
+        "queries": 13,
+        "outputs": 0.38461538461538464,
+        "answer": 0.46153846153846156,
+        "quality": 0.6153846153846154
+      },
+      "vllm-llama-3-3-70b-instruct": {
+        "queries": 13,
+        "outputs": 0.38461538461538464,
+        "answer": 0.6153846153846154,
+        "quality": 0.6153846153846154
+      },
+      "vllm-qwen2-5-72b-instruct": {
+        "queries": 13,
+        "outputs": 0.46153846153846156,
+        "answer": 0.7692307692307693,
+        "quality": 0.7692307692307693
+      },
+      "managed-mistral-small-3-1-24b-2503": {
+        "queries": 13,
+        "outputs": 0.6923076923076923,
+        "answer": 0.8461538461538461,
+        "quality": 0.8461538461538461
+      },
+      "vllm-granite-3-3-8b-instruct": {
+        "queries": 13,
+        "outputs": 0.0,
+        "answer": 0.15384615384615385,
+        "quality": 0.15384615384615385
+      }
+    },
+    "lrobench": {
+      "managed-gpt-oss-120b": {
+        "queries": 726,
+        "outputs": 0.20523415977961432,
+        "answer": 0.43112947658402206,
+        "quality": 0.5275482093663911
+      },
+      "managed-llama-3-3-70b-instruct": {
+        "queries": 323,
+        "outputs": 0.3591331269349845,
+        "answer": 0.5541795665634675,
+        "quality": 0.7027863777089783
+      },
+      "vllm-llama-3-3-70b-instruct": {
+        "queries": 677,
+        "outputs": 0.6469719350073855,
+        "answer": 0.7503692762186115,
+        "quality": 0.8522895125553914
+      },
+      "vllm-granite-3-3-8b-instruct": {
+        "queries": 468,
+        "outputs": 0.5299145299145299,
+        "answer": 0.6346153846153846,
+        "quality": 0.7435897435897436
+      }
+    },
+    "udabench": {
+      "managed-gpt-oss-120b": {
+        "queries": 101,
+        "outputs": 0.039603960396039604,
+        "answer": 0.18811881188118812,
+        "quality": 0.22772277227722773
+      },
+      "managed-llama-3-3-70b-instruct": {
+        "queries": 101,
+        "outputs": 0.019801980198019802,
+        "answer": 0.2079207920792079,
+        "quality": 0.4158415841584158
+      },
+      "vllm-granite-3-3-8b-instruct": {
+        "queries": 101,
+        "outputs": 0.0,
+        "answer": 0.18811881188118812,
+        "quality": 0.33663366336633666
+      }
+    }
+  },
+  "pooled": {
+    "sembench": {
+      "outputs": 0.32056369556369557,
+      "answer": 0.47863247863247865,
+      "quality": 0.5195868945868946
+    },
+    "lrobench": {
+      "outputs": 0.4353134379091286,
+      "answer": 0.5925734259953714,
+      "quality": 0.7065534608051262
+    },
+    "udabench": {
+      "outputs": 0.019801980198019802,
+      "answer": 0.19471947194719472,
+      "quality": 0.32673267326732675
+    }
+  }
+}

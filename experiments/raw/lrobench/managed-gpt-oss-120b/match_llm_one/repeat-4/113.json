@@ -1,0 +1,47 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 113,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 75.827,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 300,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0,
+    0.8
+  ],
+  "tokens": [
+    61758,
+    51960,
+    9798
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        1.0,
+        0.8
+      ],
+      "prediction": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Richard Clarke' 'Richard Montgomery']",
+        "['nan' 'nan']"
+      ],
+      "truth": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ]
+    }
+  ]
+}

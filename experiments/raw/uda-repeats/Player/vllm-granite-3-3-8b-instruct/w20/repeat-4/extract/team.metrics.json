@@ -1,0 +1,21 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "team",
+  "attributes": [
+    "championship",
+    "founded_year",
+    "location",
+    "ownership",
+    "team_name"
+  ],
+  "model": "openai/vllm-granite-3-3-8b-instruct",
+  "workers": 20,
+  "repeat": 4,
+  "calls": 151,
+  "documents": 30,
+  "transient_retries": 1,
+  "failed_calls": 0,
+  "seconds": 163.684,
+  "prompt_tokens": 2102240
+}

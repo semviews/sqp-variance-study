@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 10,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 3.931,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 243, in pipeline_order10\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'box office of this movie\\' metric value of the \\'Title\\' column, I need to use external knowledge. The Lord of the Rings: The Fellowship of the Ring is a highly successful movie. According to box office data, it has grossed over $876 million worldwide. Based on this information, I would assign a high score.\\n\\n{\"type\": \"function\", \"name\": \"get_box_office_score\", \"parameters\": {\"title\": {\"type\": \"object\", \"value\": \"The Lord of the Rings: The Fellowship of the Ring\"}}}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'box office of this movie\\' metric for the title \"The Dark Knight\", I need to use external knowledge. \"The Dark Knight\" is known for being one of the highest-grossing films of all time. According to Box Office Mojo, it has grossed over $1 billion at the global box office. Given this information, I would assign a high score for its box office performance. \\n\\n{assign_score(\"The Dark Knight\", 87)}'",
+      "operator_calls": 5
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'box office of this movie\\' metric value of the \\'Title\\' column, I need to use external knowledge. The title \"Expiration Date\" does not directly relate to well-known high-grossing films. However, without specific details on box office performance, I must rely on general knowledge. Given that \"Expiration Date\" doesn\\'t seem to be a title of a widely recognized or highly successful movie in terms of box office performance, I would a",
+      "operator_calls": 5
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0
+}

@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 306,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 5.68,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 6,
+  "judge_calls": 0,
+  "returned": [
+    0.3333,
+    0.4,
+    0.3636
+  ],
+  "tokens": [
+    919,
+    718,
+    201
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3333,
+        0.4,
+        0.3636
+      ],
+      "prediction": [
+        "['Amazon_Price' 'Price']",
+        "['Brand'\n \"To provide an accurate response, I need the specific content of the 'Brand' column from Table Left and the relevant columns from Table Right. Could you please provide the data or a description of the tables so I can match the columns accordingly?\"]",
+        "['Features'\n 'To provide an accurate response, I need to know the specific content of the \"Features\" column in Table Left and the contents of the columns in Table Right. Could you please provide the data or a description of the \"Features\" column from Table Left and the relevant columns from Table Right? This will allow me to match the feature correctly based on the condition \"The two columns refer to the same feature.\"']",
+        "['ID' 'ID']",
+        "['Name'\n 'To provide an accurate response, I need the specific content of the \\'Name\\' column from Table Left and the relevant columns from Table Right. Could you please provide the data or a description of the columns in both tables? This will allow me to match the columns based on the condition that \"The two columns refer to the same feature.\"']",
+        "['Original_Price' 'Original_Price']"
+      ],
+      "truth": [
+        "['Amazon_Price' 'Price']",
+        "['Brand' 'Brand']",
+        "['Features' 'Features']",
+        "['ID' 'ID']",
+        "['Original_Price' 'Price']"
+      ]
+    }
+  ]
+}

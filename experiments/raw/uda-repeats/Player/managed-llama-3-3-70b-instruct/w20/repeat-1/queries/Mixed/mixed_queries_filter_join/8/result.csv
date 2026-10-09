@@ -1,0 +1,5 @@
+player.nationality,manager.nationality,city.population,team.championship,player.id,team.id,manager.id,city.id
+USA || Jamaica,American || Greek || Lebanese,"639,111",3,135,9,1,23
+USA || Nigeria,Israeli-American,"442,241 || 6.14 million || 4 million",3,141,16,15,8
+USA || Mexico,Israeli-American,"442,241 || 6.14 million || 4 million",3,134,16,15,8
+USA,Israeli-American,"442,241 || 6.14 million || 4 million",3,114,16,15,8

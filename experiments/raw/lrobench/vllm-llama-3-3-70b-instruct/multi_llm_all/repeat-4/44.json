@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 44,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 20.251,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 44,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Lake Titicaca"
+    ],
+    [
+      "Lake Victoria"
+    ],
+    [
+      "Lake Tanganjika"
+    ],
+    [
+      "Salar de Uyuni"
+    ],
+    [
+      "Lake Bangweulu"
+    ]
+  ],
+  "tokens": 11290,
+  "metrics": [],
+  "prediction": [
+    [
+      "Lake Titicaca"
+    ],
+    [
+      "Lake Victoria"
+    ],
+    [
+      "Lake Tanganjika"
+    ],
+    [
+      "Salar de Uyuni"
+    ],
+    [
+      "Lake Bangweulu"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

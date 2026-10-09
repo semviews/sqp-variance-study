@@ -1,0 +1,58 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 200,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 6.719,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    0.4545,
+    1.0,
+    0.625
+  ],
+  "tokens": [
+    1490,
+    1479,
+    11
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4545,
+        1.0,
+        0.625
+      ],
+      "prediction": [
+        "AvgScrMath",
+        "AvgScrRead",
+        "AvgScrWrite",
+        "NumGE1500",
+        "NumTstTakr",
+        "cds",
+        "cname",
+        "dname",
+        "enroll12",
+        "rtype",
+        "sname"
+      ],
+      "truth": [
+        "AvgScrMath",
+        "AvgScrRead",
+        "AvgScrWrite",
+        "NumGE1500",
+        "NumTstTakr"
+      ]
+    }
+  ]
+}

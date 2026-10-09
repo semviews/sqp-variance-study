@@ -1,0 +1,28 @@
+{"key": "d3c3238a996d9a2a", "role": "operator", "t": 1790962599.891, "seconds": 6.199, "output": "[{\"EIN\": [\"1\", \"organization_info\"]}]"}
+{"key": "4535423c7122adb5", "role": "operator", "t": 1790962606.091, "seconds": 2.555, "output": "[{\"NAME\": [\"2\", \"basic_info\"]}]"}
+{"key": "6e0742344842b5f6", "role": "operator", "t": 1790962608.645, "seconds": 2.116, "output": "[\n  { \"ICO\": [\"3\", \"finance_info\"] }\n]"}
+{"key": "180ecf20f866846c", "role": "operator", "t": 1790962610.762, "seconds": 2.434, "output": "[\n  { \"STREET\": [\"4\", \"location_info\"] }\n]"}
+{"key": "df1681614aa03ad0", "role": "operator", "t": 1790962613.196, "seconds": 2.636, "output": "[\n  {\"CITY\": [\"4\", \"location\"]}\n]"}
+{"key": "b000f667d6c1708b", "role": "operator", "t": 1790962615.832, "seconds": 1.899, "output": "[{\"STATE\": [\"4\", \"location\"]}]"}
+{"key": "89e60d0c8719728b", "role": "operator", "t": 1790962617.731, "seconds": 4.085, "output": "[{\"ZIP\": [\"4\", \"location\"]}]"}
+{"key": "3a0f740760902749", "role": "operator", "t": 1790962621.816, "seconds": 1.993, "output": "[{\"GROUP\": [\"1\", \"organization_info\"]}]"}
+{"key": "31b4090f83dc8750", "role": "operator", "t": 1790962623.809, "seconds": 2.872, "output": "[\n  { \"SUBSECTION\": [\"1\", \"organization_info\"] }\n]"}
+{"key": "919bda4a1cdeb6a6", "role": "operator", "t": 1790962626.681, "seconds": 1.806, "output": "[\n  { \"AFFILIATION\": [\"1\", \"organization_info\"] }\n]"}
+{"key": "3df6e0ffbc634de3", "role": "operator", "t": 1790962628.487, "seconds": 5.085, "output": "[\n  { \"CLASSIFICATION\": [\"5\", \"other_info\"] }\n]"}
+{"key": "9eb84ef75a23fcf2", "role": "operator", "t": 1790962633.572, "seconds": 7.978, "output": "[{\"RULING\": [\"5\", \"other_info\"]}]"}
+{"key": "db9c37710bceac0a", "role": "operator", "t": 1790962641.55, "seconds": 3.199, "output": "[\n  { \"DEDUCTIBILITY\": [\"3\", \"finance_info\"] }\n]"}
+{"key": "d97a1b58453cbf9b", "role": "operator", "t": 1790962644.749, "seconds": 2.305, "output": "[{\"FOUNDATION\":[\"1\",\"org\"]}]"}
+{"key": "d67132fe8e864def", "role": "operator", "t": 1790962647.054, "seconds": 3.066, "output": "[\n  { \"ACTIVITY\": [\"5\", \"other_info\"] }\n]"}
+{"key": "ea97cbe298d6f7f2", "role": "operator", "t": 1790962650.12, "seconds": 2.123, "output": "[{\"ORGANIZATION\": [\"1\", \"organization\"]}]"}
+{"key": "98ba0f076ddca030", "role": "operator", "t": 1790962652.243, "seconds": 2.478, "output": "[\n  { \"STATUS\": [\"5\", \"other_info\"] }\n]"}
+{"key": "69729e6a57938061", "role": "operator", "t": 1790962654.721, "seconds": 2.311, "output": "[\n  { \"TAX_PERIOD\": [\"6\", \"time_info\"] }\n]"}
+{"key": "95413558328d7d7f", "role": "operator", "t": 1790962657.032, "seconds": 2.698, "output": "[\n  { \"ASSET_CD\": [\"2\", \"basic_info\"] }\n]"}
+{"key": "526cb8ad0b7d9e4c", "role": "operator", "t": 1790962659.73, "seconds": 2.601, "output": "[\n  { \"INCOME_CD\": [\"3\", \"finance_info\"] }\n]"}
+{"key": "704aead2d63e941d", "role": "operator", "t": 1790962662.331, "seconds": 4.816, "output": "[\n  { \"FILING_REQ_CD\": [\"2\", \"basic\"] }\n]"}
+{"key": "aaf3f546e25a5708", "role": "operator", "t": 1790962667.147, "seconds": 3.399, "output": "[\n  {\"PF_FILING_REQ_CD\": [\"3\", \"finance\"]}\n]"}
+{"key": "e1be697e00d6dd66", "role": "operator", "t": 1790962670.546, "seconds": 3.696, "output": "[\n  { \"ACCT_PD\": [\"6\", \"time\"] }\n]"}
+{"key": "77d58e5617cda693", "role": "operator", "t": 1790962674.242, "seconds": 2.476, "output": "[\n  { \"ASSET_AMT\": [\"3\", \"finance\"] }\n]"}
+{"key": "2d0d0026a28c326d", "role": "operator", "t": 1790962676.719, "seconds": 3.274, "output": "[\n  {\"INCOME_AMT\": [\"3\", \"finance\"]}\n]"}
+{"key": "c052330274c275a3", "role": "operator", "t": 1790962679.993, "seconds": 2.418, "output": "[\n  { \"REVENUE_AMT\": [\"3\", \"finance_info\"] }\n]"}
+{"key": "e434941229c26609", "role": "operator", "t": 1790962682.41, "seconds": 2.617, "output": "[\n  { \"NTEE_CD\": [\"1\", \"org\"] }\n]"}
+{"key": "6a8ebecf9adc868e", "role": "operator", "t": 1790962685.027, "seconds": 3.614, "output": "[\n  { \"SORT_NAME\": [\"2\", \"basic\"] }\n]"}

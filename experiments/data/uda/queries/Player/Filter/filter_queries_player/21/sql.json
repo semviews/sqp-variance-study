@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 21: 4 (player) */ SELECT age, olympic_gold_medals, mvp_awards FROM player WHERE olympic_gold_medals >= 1 AND college = 'University of Connecticut' AND draft_year > 2014 AND fiba_world_cup >= 0",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "mvp_awards": {
+      "value_type": "int",
+      "description": "number of NBA MVP awards the player has won; use 0 if none (e.g., 2)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  }
+}

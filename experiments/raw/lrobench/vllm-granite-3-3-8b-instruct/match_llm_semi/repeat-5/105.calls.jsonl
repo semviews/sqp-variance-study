@@ -1,0 +1,14 @@
+{"key": "306cf201d39fa518", "role": "operator", "t": 1790984948.541, "seconds": 1.283, "output": "Florida"}
+{"key": "89646aee79ec24c5", "role": "operator", "t": 1790984948.543, "seconds": 1.284, "output": "Texas"}
+{"key": "725f80efcb61c3dd", "role": "operator", "t": 1790984948.541, "seconds": 1.286, "output": "Texas"}
+{"key": "e398f71b188a01b3", "role": "operator", "t": 1790984948.542, "seconds": 1.286, "output": "Arizona"}
+{"key": "c219c50277b7fba3", "role": "operator", "t": 1790984948.544, "seconds": 1.284, "output": "California"}
+{"key": "ec0bec435a0b5a9b", "role": "operator", "t": 1790984948.543, "seconds": 1.314, "output": "Pennsylvania"}
+{"key": "d78dbeb5f40b508d", "role": "operator", "t": 1790984948.542, "seconds": 1.859, "output": "Kentucky is not in the provided list of `right_state` values, so there is no match for the abbreviation 'KY'. Therefore, the result is:\n\n```plaintext\n```\n\n(An empty string, as specified.)"}
+{"key": "7ec203c69e69934f", "role": "operator", "t": 1790984948.542, "seconds": 1.861, "output": "California"}
+{"key": "8c084e17b2d8fb80", "role": "operator", "t": 1790984948.543, "seconds": 1.905, "output": "Wisconsin is not in the provided list of 'right_state' values, so there is no match for 'WI'.  \n\n(empty string)"}
+{"key": "de0bdd3a1d8fe3d5", "role": "operator", "t": 1790984948.544, "seconds": 1.906, "output": "Maryland"}
+{"key": "5bba94b7c7c3ccbe", "role": "operator", "t": 1790984949.825, "seconds": 0.627, "output": "California"}
+{"key": "56a31a40e7ebd425", "role": "operator", "t": 1790984949.828, "seconds": 0.625, "output": "California"}
+{"key": "0259e555269e2f69", "role": "operator", "t": 1790984949.828, "seconds": 0.626, "output": "Michigan"}
+{"key": "519a6edc2e5281aa", "role": "operator", "t": 1790984949.828, "seconds": 0.627, "output": "Arizona"}

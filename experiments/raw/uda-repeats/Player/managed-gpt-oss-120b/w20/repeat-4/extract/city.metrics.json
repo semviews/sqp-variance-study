@@ -1,0 +1,21 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "city",
+  "attributes": [
+    "area",
+    "city_name",
+    "gdp",
+    "population",
+    "state_name"
+  ],
+  "model": "openai/managed-gpt-oss-120b",
+  "workers": 20,
+  "repeat": 4,
+  "calls": 145,
+  "documents": 29,
+  "transient_retries": 0,
+  "failed_calls": 25,
+  "seconds": 115.426,
+  "prompt_tokens": 2468797
+}

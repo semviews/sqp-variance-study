@@ -1,0 +1,13 @@
+{"key": "d29c7b5fe1d12357", "role": "operator", "t": 1790982841.869, "seconds": 1.647, "output": "[\n  { \"ward_no\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "7c42eedfe1022e7e", "role": "operator", "t": 1790982843.516, "seconds": 1.477, "output": "[\n  { \"alderman_first_name\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "84167dced077eadc", "role": "operator", "t": 1790982844.993, "seconds": 1.048, "output": "[\n  { \"alderman_last_name\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "613ac6b2a94d1e2c", "role": "operator", "t": 1790982846.041, "seconds": 0.931, "output": "[\n  { \"alderman_name_suffix\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "7c7f42e282f27207", "role": "operator", "t": 1790982846.972, "seconds": 1.215, "output": "[\n  { \"ward_office_address\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "8488982f8b66bae2", "role": "operator", "t": 1790982848.187, "seconds": 1.032, "output": "[\n  { \"ward_office_zip\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "165073963d52d73c", "role": "operator", "t": 1790982849.219, "seconds": 0.85, "output": "[\n  { \"ward_email\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "ecfa8389b230c163", "role": "operator", "t": 1790982850.069, "seconds": 0.869, "output": "[\n  { \"ward_office_phone\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "9a834f5e7515f9db", "role": "operator", "t": 1790982850.938, "seconds": 0.885, "output": "[\n  { \"ward_office_fax\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "3945d3e3a0f9c8d0", "role": "operator", "t": 1790982851.824, "seconds": 1.041, "output": "[\n  { \"city_hall_office_room\": [\"3\", \"other_info\"]}\n]"}
+{"key": "e15f8d78bb814621", "role": "operator", "t": 1790982852.865, "seconds": 1.569, "output": "[\n  { \"city_hall_office_phone\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "b38604e6bc8bfbc9", "role": "operator", "t": 1790982854.433, "seconds": 2.424, "output": "[\n  { \"city_hall_office_fax\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "29cddcb90b239dc2", "role": "operator", "t": 1790982856.858, "seconds": 1.053, "output": "[\n  { \"Population\": [\"1\", \"basic_info\"]}\n]"}

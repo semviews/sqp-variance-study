@@ -1,0 +1,78 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 1,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 1.635,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '56010000\" is not a valid score between 0 and 100. The task requires returning a score as a string within that range. Based on the population of England, which is approximately 56.5 million, and considering the scale from 0 (least populous) to 100 (most populous among comparable countries), a reasonable score would be around 70, reflecting a relatively high population among European countries.\\n\\nTherefore, the output is:\\n\\n\"70'",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: '56010000\" is not a valid score between 0 and 100. The task requires returning a score as a string within that range. Based on the population of England, which is approximately 56.5 million, and assuming a scale where 100 represents the highest population among countries, England\\'s population is relatively high but not the absolute highest. Considering global population rankings, a reasonable score reflecting its population relative to other countr",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    0.4,
+    1.0
+  ],
+  "tokens": [
+    2370,
+    2353,
+    17
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "prediction": [
+        "Belgium",
+        "Germany",
+        "Netherlands",
+        "Poland",
+        "Spain"
+      ],
+      "truth": [
+        "England",
+        "France",
+        "Germany",
+        "Italy",
+        "Spain"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "Netherlands",
+        "Germany",
+        "Belgium",
+        "Poland",
+        "Spain"
+      ],
+      "truth": [
+        "Germany",
+        "France",
+        "Italy",
+        "England",
+        "Spain"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 12,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 5.751,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 283, in pipeline_order12\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \"The highest rank and the duration in weeks on the Billboard chart.\" metric for the song \"I Wish You Would,\" I need to consider both its peak position on the Billboard charts and how long it remained on the chart.\\n\\n\"I Wish You Would\" is a song by Taylor Swift from her album *1989*. It was released in 2014 and performed well on the Billboard charts:\\n\\n- **Peak Position**: The song reached number 8 on the Billboard Hot 100.\\n- **Duration on Chart**: \"I Wish You Would\" stayed on the Hot 100 for 55 weeks.\\n\\nGiven these details, the song achieved a relatively high peak position (8) and maintained a substantial duration (55 weeks), indicating strong performance and longevity on the charts.\\n\\nConsidering the criteria of both high ranking and long chart duration, I assign a score that reflects this strong performance. A score of 85 is appropriate, as it captures the song\\'s notable peak and extended presence on the Billboard charts.\\n\\n**Output**: \"85'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score for the song \"All You Had To Do Was Stay\" based on its highest rank and duration on the Billboard chart, I will use my external knowledge of music charts.\\n\\n\"All You Had To Do Was Stay\" is a song by Jason Aldean. It was released in 2011 and performed well on the Billboard charts:\\n\\n- **Highest Rank**: The song reached number 1 on the Billboard Hot Country Songs chart.\\n- **Duration on Chart**: It stayed on the Hot Country S",
+      "operator_calls": 12
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \"The highest rank and the duration in weeks on the Billboard chart.\" metric for the song \"Welcome To New York,\" we need to consider its performance on the Billboard charts. \\n\\n\"Welcome To New York\" is a song by Taylor Swift, released as the lead single from her fifth studio album, *1989*. It was released on October 13, 2014, and performed well on the Billboard charts:\\n\\n- **Billboard Hot 100 Peak Position:** The song reached a pea",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0
+}

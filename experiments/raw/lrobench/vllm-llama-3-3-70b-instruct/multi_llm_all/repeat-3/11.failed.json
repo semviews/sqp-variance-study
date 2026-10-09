@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 11,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 9.569,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/LROBench/.venv/lib/python3.10/site-packages/pandas/core/indexes/base.py\", line 3812, in get_loc\n    return self._engine.get_loc(casted_key)\n  File \"pandas/_libs/index.pyx\", line 167, in pandas._libs.index.IndexEngine.get_loc\n  File \"pandas/_libs/index.pyx\", line 196, in pandas._libs.index.IndexEngine.get_loc\nKeyError: 0\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/multi_eval.py\", line 429, in pipeline_11\n    return merged_df[\"name\"][0], op1.total_tokens + op2.total_tokens\n  File \"/home/user/code/LROBench/.venv/lib/python3.10/site-packages/pandas/core/series.py\", line 1130, in __getitem__\n    return self._get_value(key)\nKeyError: 0\n",
+  "failed_attempts": [
+    {
+      "error": "KeyError: 0",
+      "operator_calls": 19
+    },
+    {
+      "error": "KeyError: 0",
+      "operator_calls": 19
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 19,
+  "judge_calls": 0
+}

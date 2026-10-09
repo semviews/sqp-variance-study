@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 110,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 2.322,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.4,
+    0.5714
+  ],
+  "tokens": [
+    497,
+    445,
+    52
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.4,
+        0.5714
+      ],
+      "prediction": [
+        "['OFFICE OF STATE AUDITOR' 'Auditor General']",
+        "['REVENUE' 'Finance Department']"
+      ],
+      "truth": [
+        "['COMMERCE AND INSURANCE'\n 'Office of the Superintendent of Financial Institutions']",
+        "['COMMERCE AND INSURANCE' 'Financial Consumer Agency of Canada']",
+        "['OFFICE OF STATE AUDITOR' 'Auditor General']",
+        "['OFFICE OF STATE TREASURER' 'Finance Department']",
+        "['REVENUE' 'Finance Department']"
+      ]
+    }
+  ]
+}

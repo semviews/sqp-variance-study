@@ -1,0 +1,13 @@
+{"key": "d29c7b5fe1d12357", "role": "operator", "t": 1790966588.212, "seconds": 2.912, "output": "[\n  { \"ward_no\": [\"0\", \"basic_info\"] }\n]"}
+{"key": "5adeb4e186c166f8", "role": "operator", "t": 1790966591.124, "seconds": 1.546, "output": "[\n  { \"alderman_first_name\": [\"0\", \"basic_info\"] }\n]"}
+{"key": "2e8142c78626ce6a", "role": "operator", "t": 1790966592.671, "seconds": 1.656, "output": "[\n  { \"alderman_last_name\": [\"0\", \"basic_info\"] }\n]"}
+{"key": "c44bcdd064507dc5", "role": "operator", "t": 1790966594.327, "seconds": 1.954, "output": "[{\"alderman_name_suffix\": [\"0\", \"basic_info\"]}]"}
+{"key": "3af6a137958defdb", "role": "operator", "t": 1790966596.281, "seconds": 5.287, "output": "[{\"ward_office_address\": [\"1\", \"contact_info\"]}]"}
+{"key": "ffe7527ef043dbaf", "role": "operator", "t": 1790966601.568, "seconds": 2.945, "output": "[\n  { \"ward_office_zip\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "0e1a68019e53cff7", "role": "operator", "t": 1790966604.513, "seconds": 2.837, "output": "[\n  { \"ward_email\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "2368ca52c238c6a1", "role": "operator", "t": 1790966607.351, "seconds": 4.944, "output": "[\n  { \"ward_office_phone\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "d7aa2d0b1b64da0a", "role": "operator", "t": 1790966612.295, "seconds": 1.327, "output": "[\n  { \"ward_office_fax\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "30e8f3e5cc4cf1b9", "role": "operator", "t": 1790966613.622, "seconds": 1.973, "output": "[\n  { \"city_hall_office_room\": [\"0\", \"basic_info\"] }\n]"}
+{"key": "ab46daec2b4294a2", "role": "operator", "t": 1790966615.595, "seconds": 1.581, "output": "[\n  { \"city_hall_office_phone\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "011e15b56af61f2d", "role": "operator", "t": 1790966617.176, "seconds": 2.094, "output": "[\n  { \"city_hall_office_fax\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "66067828074a49b1", "role": "operator", "t": 1790966619.27, "seconds": 1.794, "output": "[\n  { \"Population\": [\"2\", \"other_info\"] }\n]"}

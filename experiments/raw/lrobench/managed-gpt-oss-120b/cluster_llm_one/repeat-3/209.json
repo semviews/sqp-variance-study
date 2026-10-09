@@ -1,0 +1,126 @@
+{
+  "benchmark": "lrobench",
+  "operator": "cluster",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 209,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 2,
+  "seconds": 44.956,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "TypeError: 'NoneType' object is not subscriptable",
+      "operator_calls": 2
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 19,
+  "judge_calls": 0,
+  "returned": [
+    0.4121,
+    0.6071
+  ],
+  "tokens": [
+    6237,
+    5909,
+    328
+  ],
+  "metrics": [
+    {
+      "metric": "ari",
+      "value": 0.4121,
+      "prediction": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        4,
+        3,
+        4,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0
+      ],
+      "truth": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        2,
+        2,
+        0,
+        0,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "metric": "nmi",
+      "value": 0.6071,
+      "prediction": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        4,
+        3,
+        4,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0
+      ],
+      "truth": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        2,
+        2,
+        0,
+        0,
+        4,
+        4,
+        1,
+        1
+      ]
+    }
+  ]
+}

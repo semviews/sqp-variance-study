@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 6: 1 (player) */ SELECT college, birth_date, draft_year FROM player WHERE birth_date = '1973/11/25'",
+  "player": {
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "college": {
+      "value_type": "str",
+      "description": "the college the player attended, if applicable (e.g., Duke University)."
+    },
+    "draft_year": {
+      "value_type": "int",
+      "description": "the year the player was selected in the NBA draft; use format YYYY (e.g., 2003)."
+    }
+  }
+}

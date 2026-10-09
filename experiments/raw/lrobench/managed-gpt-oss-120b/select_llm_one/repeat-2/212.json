@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 212,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 83.126,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 40,
+  "judge_calls": 0,
+  "returned": [
+    0.75,
+    1.0,
+    0.8571
+  ],
+  "tokens": [
+    5378,
+    5338,
+    40
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.75,
+        1.0,
+        0.8571
+      ],
+      "prediction": [
+        "Estimated annual value",
+        "Estimated value",
+        "Lots",
+        "VAT not recovered"
+      ],
+      "truth": [
+        "Estimated annual value",
+        "Estimated value",
+        "VAT not recovered"
+      ]
+    }
+  ]
+}

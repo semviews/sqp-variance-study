@@ -1,0 +1,56 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 114,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 5.426,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.75,
+    1.0,
+    0.8571
+  ],
+  "tokens": [
+    803,
+    533,
+    270
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.75,
+        1.0,
+        0.8571
+      ],
+      "prediction": [
+        "['DANCES NONE']",
+        "['DARKO DORADO']",
+        "['DRAGON SQUAD']",
+        "['GRAIL FRANKENSTEIN']",
+        "['LAWRENCE LOVE']",
+        "['MONTEZUMA COMMAND']",
+        "['REAR TRADING']",
+        "['UPRISING UPTOWN']"
+      ],
+      "truth": [
+        "['DANCES NONE']",
+        "['DARKO DORADO']",
+        "['DRAGON SQUAD']",
+        "['MONTEZUMA COMMAND']",
+        "['REAR TRADING']",
+        "['UPRISING UPTOWN']"
+      ]
+    }
+  ]
+}

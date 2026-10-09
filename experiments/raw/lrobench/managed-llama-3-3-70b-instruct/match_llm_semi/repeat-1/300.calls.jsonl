@@ -1,0 +1,12 @@
+{"key": "514216d6f15e6a6b", "role": "operator", "t": 1790973564.208, "seconds": 3.112, "output": "None of the provided column names in Table Right match the 'YEAR' column in Table Left based on the condition that 'The two columns refer to the same feature'. \n\nSince none of the columns in Table Right directly correspond to 'YEAR', the matched column is empty."}
+{"key": "3ceda2a294402f67", "role": "operator", "t": 1790973567.32, "seconds": 0.951, "output": "AT_STREET"}
+{"key": "d2d065a24fb08246", "role": "operator", "t": 1790973568.271, "seconds": 0.781, "output": "{Geom}"}
+{"key": "9a74c06664b66563", "role": "operator", "t": 1790973569.052, "seconds": 1.541, "output": "AT_STREET"}
+{"key": "b65fe396e0722293", "role": "operator", "t": 1790973570.594, "seconds": 0.948, "output": "AT_STREET"}
+{"key": "80099ac0b6c46a07", "role": "operator", "t": 1790973571.541, "seconds": 1.083, "output": "AT_STREET"}
+{"key": "63d139770cd426ef", "role": "operator", "t": 1790973572.625, "seconds": 0.789, "output": "Geo Local Area"}
+{"key": "93e9d78f2e4edac3", "role": "operator", "t": 1790973573.413, "seconds": 0.961, "output": "{AT_STREET}"}
+{"key": "30e2d98a3ddaecc1", "role": "operator", "t": 1790973574.374, "seconds": 0.784, "output": "Geo Local Area"}
+{"key": "c719171647919386", "role": "operator", "t": 1790973575.158, "seconds": 10.297, "output": "AT_STREET"}
+{"key": "83baffe25488de9f", "role": "operator", "t": 1790973585.455, "seconds": 0.764, "output": "{Geom}"}
+{"key": "7358248c6d8805a4", "role": "operator", "t": 1790973586.219, "seconds": 0.809, "output": "Geom"}

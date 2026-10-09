@@ -1,0 +1,63 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 305,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 9.622,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.7,
+    0.6364,
+    0.6667
+  ],
+  "tokens": [
+    714,
+    537,
+    177
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.7,
+        0.6364,
+        0.6667
+      ],
+      "prediction": [
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['County Name' 'County']",
+        "['District Code' 'District']",
+        "['District Name' 'District']",
+        "['School Code' 'School']",
+        "['School Name' 'School']"
+      ],
+      "truth": [
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['District Code' 'NCESDist']",
+        "['District Name' 'District']",
+        "['District Type ' 'DOCType']",
+        "['Educational Option Type' 'EdOpsName']",
+        "['School Name' 'School']",
+        "['School Type' 'SOCType']"
+      ]
+    }
+  ]
+}

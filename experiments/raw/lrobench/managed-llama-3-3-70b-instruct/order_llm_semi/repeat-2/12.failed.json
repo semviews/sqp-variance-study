@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 12,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 5.147,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 283, in pipeline_order12\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"Welcome To New York\", I need to use a tool that can provide information about the song\\'s performance on the Billboard chart.'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To provide an accurate score, I need to look up the Billboard chart performance of the song \"Out of the Woods\".'",
+      "operator_calls": 6
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"Blank Space\", I need to use external knowledge. \"Blank Space\" is a song by Taylor Swift, released in 2014. It reached number one on the US Billboard Hot 100 chart and stayed on the chart for 41 weeks. Based on this information, I will assign a score.\\n\\n\\nI will use a tool to get the score of \"Blank Space\" based on its performance on the Billb",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

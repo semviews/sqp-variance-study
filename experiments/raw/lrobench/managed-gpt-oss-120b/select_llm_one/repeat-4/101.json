@@ -1,0 +1,57 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 101,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 3.243,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0,
+    0.8
+  ],
+  "tokens": [
+    1420,
+    1410,
+    10
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        1.0,
+        0.8
+      ],
+      "prediction": [
+        "['correlation']",
+        "['distributions']",
+        "['hypothesis-testing']",
+        "['logistic']",
+        "['machine-learning']",
+        "['probability']",
+        "['r']",
+        "['regression']",
+        "['time-series']"
+      ],
+      "truth": [
+        "['correlation']",
+        "['distributions']",
+        "['hypothesis-testing']",
+        "['probability']",
+        "['regression']",
+        "['time-series']"
+      ]
+    }
+  ]
+}

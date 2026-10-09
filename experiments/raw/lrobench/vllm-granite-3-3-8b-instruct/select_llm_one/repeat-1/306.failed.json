@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 306,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 5.741,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 925, in pipeline_select306\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine whether the \\'drivers\\' table can satisfy the condition \"From this table Lewis Hamilton\\'s average laptime in 2016 Singapore Grand Prix can be retrieved,\" we need to consider the followi\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the \\'drivers\\' table can satisfy the condition \"From this table Lewis Hamilton\\'s average laptime in 2016 Singapore Grand Prix can be retrieved,\" we need to consider the followi",
+      "operator_calls": 3
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the \\'drivers\\' table can satisfy the condition \"From this table Lewis Hamilton\\'s average laptime in 2016 Singapore Grand Prix can be retrieved,\" we need to consider the followi",
+      "operator_calls": 3
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 3,
+  "judge_calls": 0
+}

@@ -1,0 +1,23 @@
+{"key": "1be22e9263bf8b07", "role": "operator", "t": 1791002144.892, "seconds": 2.048, "output": "{tool.call.match_territory(left_city=\"NYC\", right_territory=[NaN, \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "fbd3b01348b35e94", "role": "operator", "t": 1791002144.893, "seconds": 2.05, "output": "APAC"}
+{"key": "5ab38827b3af2560", "role": "operator", "t": 1791002144.894, "seconds": 2.055, "output": "{match_location(left_city=\"\u00c5rhus\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "54f588ad41d7c28f", "role": "operator", "t": 1791002144.893, "seconds": 2.057, "output": "EMEA"}
+{"key": "2878579ae951f68d", "role": "operator", "t": 1791002144.89, "seconds": 2.06, "output": "APAC"}
+{"key": "353ac6ca7fc6e858", "role": "operator", "t": 1791002144.893, "seconds": 2.058, "output": "EMEA"}
+{"key": "58d2b5ea4a508fef", "role": "operator", "t": 1791002144.894, "seconds": 2.214, "output": "{match_location(left_city=\"Allentown\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "b849b7b26a10aab3", "role": "operator", "t": 1791002144.894, "seconds": 2.215, "output": "EMEA"}
+{"key": "906ee449b5684370", "role": "operator", "t": 1791002144.891, "seconds": 2.33, "output": "EMEA"}
+{"key": "e299c9e4515881bb", "role": "operator", "t": 1791002144.892, "seconds": 2.896, "output": "{match_location(left_city=\"San Rafael\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "8ce7d47935d0b24b", "role": "operator", "t": 1791002147.109, "seconds": 1.272, "output": "{match_location(left_city=\"Gen\u00e8ve\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "cd1e2dc469e6723d", "role": "operator", "t": 1791002147.109, "seconds": 1.309, "output": "{match_location(left_city=\"Torino\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "a421170693c3bd42", "role": "operator", "t": 1791002147.109, "seconds": 1.38, "output": "{tool.call.match_territory(left_city=\"White Plains\", right_territory=[NaN, \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "b07ac0b2bd01dcd7", "role": "operator", "t": 1791002147.109, "seconds": 1.382, "output": "EMEA"}
+{"key": "7005faafefab0fe7", "role": "operator", "t": 1791002147.109, "seconds": 1.383, "output": "EMEA"}
+{"key": "55610fb3544e688d", "role": "operator", "t": 1791002146.94, "seconds": 1.979, "output": "{tool:match_value, args: [\"San Diego\", \"left_city\", \"right_territory\", [\"NaN\", \"EMEA\", \"Japan\", \"APAC\"]]}"}
+{"key": "6252aeb1211c21fd", "role": "operator", "t": 1791002147.787, "seconds": 1.181, "output": "{match_location(left_city=\"Nashua\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "95edea754f84540f", "role": "operator", "t": 1791002147.109, "seconds": 1.862, "output": "APAC"}
+{"key": "84b172cce3b22c15", "role": "operator", "t": 1791002147.109, "seconds": 2.053, "output": "{tool.call.match_territory(left_city=\"Cambridge\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "4f759ce68033cc03", "role": "operator", "t": 1791002147.221, "seconds": 2.303, "output": "{tool.call.match_territory(left_city=\"San Francisco\", right_territory=[NaN, \"EMEA\", \"Japan\", \"APAC\"])}"}
+{"key": "a62fc7b065f249e3", "role": "operator", "t": 1791002148.382, "seconds": 1.144, "output": "EMEA"}
+{"key": "88d4dd2bb247e2bc", "role": "operator", "t": 1791002148.919, "seconds": 0.777, "output": "EMEA"}
+{"key": "ff6ed0b2379ff205", "role": "operator", "t": 1791002148.919, "seconds": 1.361, "output": "{tool.call.match_territory(left_city=\"Auckland\", right_territory=[\"NaN\", \"EMEA\", \"Japan\", \"APAC\"])}"}

@@ -1,0 +1,109 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 123,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 22.178,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 15,
+  "judge_calls": 16,
+  "returned": [
+    0.25,
+    0.25
+  ],
+  "tokens": [
+    6393,
+    5114,
+    1279
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.25,
+      "prediction": [
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "4:18",
+        "3:53",
+        "3:58",
+        "3:20",
+        "3:05",
+        "4:18",
+        "4:18",
+        "3:38"
+      ],
+      "truth": [
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        "4:18",
+        "4:19",
+        "3:20",
+        "3:48",
+        "3:05",
+        "4:18",
+        "4:18",
+        "2:59"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.25,
+      "prediction": [
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "4:18",
+        "3:53",
+        "3:58",
+        "3:20",
+        "3:05",
+        "4:18",
+        "4:18",
+        "3:38"
+      ],
+      "truth": [
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        "4:18",
+        "4:19",
+        "3:20",
+        "3:48",
+        "3:05",
+        "4:18",
+        "4:18",
+        "2:59"
+      ]
+    }
+  ]
+}

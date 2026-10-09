@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 29: 5 (player) */ SELECT olympic_gold_medals, age, team FROM player WHERE age >= 42 OR team <> 'Philadelphia 76ers' OR nba_championships >= 0 OR nba_championships > 0",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

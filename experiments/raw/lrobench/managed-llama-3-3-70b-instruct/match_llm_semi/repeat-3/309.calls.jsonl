@@ -1,0 +1,19 @@
+{"key": "f77b6d8a25dc2214", "role": "operator", "t": 1790989425.402, "seconds": 2.256, "output": "Geom"}
+{"key": "05f1b2d4a48dd3ef", "role": "operator", "t": 1790989427.658, "seconds": 0.881, "output": "TOTALOUTSTANDING"}
+{"key": "639eb1341ee321a0", "role": "operator", "t": 1790989428.539, "seconds": 0.871, "output": "BUSINESSOPERATOR"}
+{"key": "bc774ee71a28bb54", "role": "operator", "t": 1790989429.41, "seconds": 0.898, "output": "StreetNumber"}
+{"key": "fd56559f2863f972", "role": "operator", "t": 1790989430.307, "seconds": 0.891, "output": "Street"}
+{"key": "3f0cab1d28edf2a2", "role": "operator", "t": 1790989431.198, "seconds": 0.835, "output": "Street"}
+{"key": "8453de95d4d2e82d", "role": "operator", "t": 1790989432.033, "seconds": 0.848, "output": "Street"}
+{"key": "100ddc48d8e95b38", "role": "operator", "t": 1790989432.881, "seconds": 0.664, "output": "Street"}
+{"key": "9a0c1c72b3ee1949", "role": "operator", "t": 1790989433.544, "seconds": 0.855, "output": "TotalUnits"}
+{"key": "887b9f56c6b3a4a9", "role": "operator", "t": 1790989434.399, "seconds": 0.763, "output": "TOTALOUTSTANDING"}
+{"key": "2007c0fecbdea331", "role": "operator", "t": 1790989435.163, "seconds": 0.899, "output": "DetailURL"}
+{"key": "00327f6041a9f55c", "role": "operator", "t": 1790989436.062, "seconds": 0.873, "output": "DetailURL"}
+{"key": "aa00e0ee116facbf", "role": "operator", "t": 1790989436.935, "seconds": 1.09, "output": "TOTALOUTSTANDING"}
+{"key": "da5099a18f8e2408", "role": "operator", "t": 1790989438.025, "seconds": 0.857, "output": "Geo Local Area"}
+{"key": "22efb9d0b5ea0655", "role": "operator", "t": 1790989438.882, "seconds": 0.764, "output": "BUSINESSOPERATOR"}
+{"key": "4788a0b5a4a31262", "role": "operator", "t": 1790989439.646, "seconds": 0.825, "output": "DetailURL"}
+{"key": "708b74604bc69da7", "role": "operator", "t": 1790989440.471, "seconds": 0.815, "output": "DetailURL"}
+{"key": "00dd05ccb56b8f44", "role": "operator", "t": 1790989441.286, "seconds": 0.855, "output": "Geo Local Area"}
+{"key": "642d99510882adf4", "role": "operator", "t": 1790989442.141, "seconds": 0.837, "output": "Geom"}

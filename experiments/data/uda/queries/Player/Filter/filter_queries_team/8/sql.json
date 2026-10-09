@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 8: 4 (team) */ SELECT team_name, championship, location FROM team WHERE championship > 6 AND championship >= 1 AND founded_year = 1989 AND championship <= 1",
+  "team": {
+    "championship": {
+      "value_type": "int",
+      "description": "championships is the number of this team getting championships (e.g. 5)."
+    },
+    "location": {
+      "value_type": "str",
+      "description": "location is the lastest city the team team located (e.g. Los Angeles)."
+    },
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{"key": "730e0f63ba4e6614", "role": "operator", "t": 1791005189.105, "seconds": 2.478, "output": "Name"}
+{"key": "f31cced1cef7bf7d", "role": "operator", "t": 1791005191.583, "seconds": 0.9, "output": "Name"}
+{"key": "5db66d55db48cb6c", "role": "operator", "t": 1791005192.483, "seconds": 0.85, "output": "Job Title"}
+{"key": "b13dd0b561e06e7a", "role": "operator", "t": 1791005193.333, "seconds": 1.175, "output": "Job Title"}
+{"key": "0a287743723da474", "role": "operator", "t": 1791005194.508, "seconds": 0.959, "output": "Job Title"}
+{"key": "c604f4f8604300a5", "role": "operator", "t": 1791005195.467, "seconds": 0.968, "output": "Organisation"}
+{"key": "2d3230249fcdd762", "role": "operator", "t": 1791005196.434, "seconds": 1.038, "output": "Organisation"}
+{"key": "e842048253b4fb08", "role": "operator", "t": 1791005197.472, "seconds": 0.785, "output": "Organisation"}
+{"key": "7ff914da09af45e1", "role": "operator", "t": 1791005198.257, "seconds": 1.198, "output": "Organisation"}
+{"key": "a0df99d9ba4a09f0", "role": "operator", "t": 1791005199.455, "seconds": 1.025, "output": "CountryEN"}
+{"key": "7357692121d568fa", "role": "operator", "t": 1791005200.48, "seconds": 0.903, "output": "Name"}
+{"key": "3a832111793ae22a", "role": "operator", "t": 1791005201.383, "seconds": 1.54, "output": "{Organisation}"}

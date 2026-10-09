@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 210,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 7.328,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 25,
+  "judge_calls": 0,
+  "returned": [
+    0.5714,
+    1.0,
+    0.7273
+  ],
+  "tokens": [
+    11895,
+    11870,
+    25
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5714,
+        1.0,
+        0.7273
+      ],
+      "prediction": [
+        "['105' '309']",
+        "['1860' '2105']",
+        "['1860' '258']",
+        "['212' '258']",
+        "['535' '14']",
+        "['535' '258']",
+        "['695' '258']"
+      ],
+      "truth": [
+        "['105' '309']",
+        "['1860' '2105']",
+        "['212' '258']",
+        "['535' '14']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{"key": "8553b3c258befdd0", "role": "operator", "t": 1790969000.868, "seconds": 41.875, "output": "[\n  {\"index\":\"0\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "1a006440a2f76cd4", "role": "operator", "t": 1790969042.743, "seconds": 2.311, "output": "[\n  {\"index\":\"1\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "57f6ae8e13bb5588", "role": "operator", "t": 1790969045.055, "seconds": 2.043, "output": "[\n  {\"index\":\"2\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "f94991a0d9a817e4", "role": "operator", "t": 1790969047.097, "seconds": 2.008, "output": "[\n  {\"index\":\"3\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "d5b76e8c8627bf1d", "role": "operator", "t": 1790969049.105, "seconds": 2.034, "output": "[\n  {\"index\":\"4\", \"cluster_name\": \"Continental\", \"cluster_label\": \"2\"}\n]"}
+{"key": "48dfdcee7b70d7a5", "role": "operator", "t": 1790969051.139, "seconds": 1.152, "output": "[\n  {\"index\":\"5\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "ab0f9a5f4d35c092", "role": "operator", "t": 1790969052.292, "seconds": 1.401, "output": "[\n  {\"index\":\"6\", \"cluster_name\": \"Subarctic\", \"cluster_label\": \"3\"}\n]"}
+{"key": "530461e2b8f36c2d", "role": "operator", "t": 1790969053.693, "seconds": 2.923, "output": "[\n  {\"index\":\"7\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "85f6a0f1aa66825b", "role": "operator", "t": 1790969056.616, "seconds": 2.175, "output": "[\n  {\"index\":\"8\", \"cluster_name\": \"Continental\", \"cluster_label\": \"2\"}\n]"}
+{"key": "316a2575b1c4538f", "role": "operator", "t": 1790969058.791, "seconds": 2.261, "output": "[\n  {\"index\":\"9\", \"cluster_name\": \"Subarctic\", \"cluster_label\": \"3\"}\n]"}
+{"key": "e45a0d4bd3c037e7", "role": "operator", "t": 1790969061.052, "seconds": 1.984, "output": "[\n  {\"index\":\"10\", \"cluster_name\": \"Subarctic\", \"cluster_label\": \"3\"}\n]"}
+{"key": "890724f7032011c9", "role": "operator", "t": 1790969063.035, "seconds": 2.552, "output": "[\n  {\"index\":\"11\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "f6629ee88ef693eb", "role": "operator", "t": 1790969065.587, "seconds": 2.025, "output": "[\n  {\"index\":\"12\", \"cluster_name\": \"Humid Subtropical\", \"cluster_label\": \"4\"}\n]"}
+{"key": "8202272d2c61f8dc", "role": "operator", "t": 1790969067.612, "seconds": 38.427, "output": "[\n  {\"index\":\"13\", \"cluster_name\": \"Subarctic\", \"cluster_label\": \"3\"}\n]"}
+{"key": "7b85d51d56da05b4", "role": "operator", "t": 1790969106.04, "seconds": 9.301, "output": "[\n  {\"index\":\"14\", \"cluster_name\": \"Humid Subtropical\", \"cluster_label\": \"4\"}\n]"}
+{"key": "e1beee8e807003e9", "role": "operator", "t": 1790969115.341, "seconds": 3.405, "output": "[\n  {\"index\":\"15\", \"cluster_name\": \"Continental\", \"cluster_label\": \"2\"}\n]"}
+{"key": "fce4f3715fd823f6", "role": "operator", "t": 1790969118.746, "seconds": 3.435, "output": "[\n  {\"index\":\"16\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "6c1b4e76954eaa24", "role": "operator", "t": 1790969122.181, "seconds": 2.774, "output": "[\n  {\"index\":\"17\", \"cluster_name\": \"Continental\", \"cluster_label\": \"2\"}\n]"}
+{"key": "891f768838c29b18", "role": "operator", "t": 1790969124.955, "seconds": 5.468, "output": "[\n  {\"index\":\"18\", \"cluster_name\": \"Tropical\", \"cluster_label\": \"5\"}\n]"}
+{"key": "289e4114a11237bf", "role": "operator", "t": 1790969130.423, "seconds": 3.064, "output": "[\n  {\"index\":\"19\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "64b73e242173e1a5", "role": "operator", "t": 1790969133.487, "seconds": 3.484, "output": "[\n  {\"index\":\"20\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "4bae1a543ccb0748", "role": "operator", "t": 1790969136.971, "seconds": 25.051, "output": "[\n  {\"index\":\"21\", \"cluster_name\": \"Alpine\", \"cluster_label\": \"6\"}\n]"}
+{"key": "c669e86397602056", "role": "operator", "t": 1790969162.023, "seconds": 1.207, "output": "[\n  {\"index\":\"22\", \"cluster_name\": \"Continental\", \"cluster_label\": \"2\"}\n]"}
+{"key": "ee8019722d119644", "role": "operator", "t": 1790969163.23, "seconds": 1.174, "output": "[\n  {\"index\":\"23\", \"cluster_name\": \"Tropical\", \"cluster_label\": \"5\"}\n]"}
+{"key": "2ed96737f71c7fd0", "role": "operator", "t": 1790969164.404, "seconds": 1.28, "output": "[\n  {\"index\":\"24\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "fbe1422836170a35", "role": "operator", "t": 1790969165.684, "seconds": 1.476, "output": "[\n  {\"index\":\"25\", \"cluster_name\": \"Humid Subtropical\", \"cluster_label\": \"4\"}\n]"}
+{"key": "3faed3545fca7ae1", "role": "operator", "t": 1790969167.16, "seconds": 1.254, "output": "[\n  {\"index\":\"26\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "66ef5be9f16354fd", "role": "operator", "t": 1790969168.414, "seconds": 1.548, "output": "[\n  {\"index\":\"27\", \"cluster_name\": \"Subarctic\", \"cluster_label\": \"3\"}\n]"}
+{"key": "831a724b21eceed3", "role": "operator", "t": 1790969169.962, "seconds": 1.223, "output": "[\n  {\"index\":\"28\", \"cluster_name\": \"Alpine\", \"cluster_label\": \"6\"}\n]"}
+{"key": "718e1fb13b8f16af", "role": "operator", "t": 1790969171.186, "seconds": 1.694, "output": "[\n  {\"index\":\"29\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "d523339ed09e4386", "role": "operator", "t": 1790969172.879, "seconds": 2.979, "output": "[\n  {\"index\":\"30\", \"cluster_name\": \"Mediterranean\", \"cluster_label\": \"0\"}\n]"}
+{"key": "446db4d707b244c0", "role": "operator", "t": 1790969175.859, "seconds": 1.563, "output": "[\n  {\"index\":\"31\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "f4400fe11936e7fc", "role": "operator", "t": 1790969177.422, "seconds": 1.515, "output": "[\n  {\"index\":\"32\", \"cluster_name\": \"Continental\", \"cluster_label\": \"2\"}\n]"}
+{"key": "4af7dfcdfdac0866", "role": "operator", "t": 1790969178.937, "seconds": 1.497, "output": "[\n  {\"index\":\"33\", \"cluster_name\": \"Subarctic\", \"cluster_label\": \"3\"}\n]"}
+{"key": "cfc69cdcd9201a19", "role": "operator", "t": 1790969180.434, "seconds": 1.551, "output": "[\n  {\"index\":\"34\", \"cluster_name\": \"Humid Subtropical\", \"cluster_label\": \"4\"}\n]"}
+{"key": "9bc21b0317e821af", "role": "operator", "t": 1790969181.985, "seconds": 2.718, "output": "[\n  {\"index\":\"35\", \"cluster_name\": \"Temperate Oceanic\", \"cluster_label\": \"1\"}\n]"}
+{"key": "311ab39629d1a497", "role": "operator", "t": 1790969184.703, "seconds": 3.505, "output": "[\n  {\"index\":\"36\", \"cluster_name\": \"Alpine\", \"cluster_label\": \"6\"}\n]"}
+{"key": "e2a79265f6f9e593", "role": "operator", "t": 1790969188.208, "seconds": 1.61, "output": "[\n  {\"index\":\"37\", \"cluster_name\": \"Subarctic\", \"cluster_label\": \"3\"}\n]"}
+{"key": "0958a1de5f0158a9", "role": "operator", "t": 1790969189.818, "seconds": 1.24, "output": "[\n  {\"index\":\"38\", \"cluster_name\": \"Alpine\", \"cluster_label\": \"6\"}\n]"}
+{"key": "f513a883a78ce4c8", "role": "operator", "t": 1790969191.057, "seconds": 1.701, "output": "[\n  {\"index\":\"39\", \"cluster_name\": \"Humid Subtropical\", \"cluster_label\": \"4\"}\n]"}
+{"key": "33ef28199268419a", "role": "operator", "t": 1790969192.758, "seconds": 1.326, "output": "[\n  {\"index\":\"40\", \"cluster_name\": \"Alpine\", \"cluster_label\": \"6\"}\n]"}
+{"key": "4ca4fdf0c3cc9d35", "role": "operator", "t": 1790969194.084, "seconds": 1.363, "output": "[\n  {\"index\":\"41\", \"cluster_name\": \"Alpine\", \"cluster_label\": \"6\"}\n]"}

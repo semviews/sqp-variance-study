@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 21,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 12.912,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 478, in pipeline_order21\n    amazon = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'Asus was founded in 1989, and considering the founding time of well-known brands, a score can be assigned based on how early the brand was established. \\nAssigning a score of 100 to the oldest brand (for example, provider founded in 1911) and 0 to the most recent, Asus would be somewhere in the middle to upper range due to its founding in 1989. \\nGiven this context, a reasonable score for Asus, considering it has been around for over 30 years, would be around 70, reflecting its moderate to long history in the tech industry.\\n\\n\"70'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'Lenovo was founded in 1984. Based on this, I would assign a score of 80, considering it a relatively old and established brand. \\n\\n80'",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'Asus was founded in 1989, and considering the founding time of well-known brands, a score can be assigned based on how early the brand was established. \\nAssigning a score of 100 to the oldest brand (for example, provider founded in 1911) and 0 to the most recent, Asus would be somewhere in the middle to upper range due to its founding in 1989. \\nAssuming a linear scale for simplicity, with provider at 100 and a brand founded in the current year at 0, Asus w",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

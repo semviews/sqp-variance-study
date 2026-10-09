@@ -1,0 +1,30 @@
+{"key": "9e47bc445316bec3", "role": "operator", "t": 1790960896.842, "seconds": 2.278, "output": "[{\"index\":\"0\",\"cluster_name\":\"Drama\",\"cluster_label\":\"0\"}]"}
+{"key": "4900dec889d5cb5c", "role": "operator", "t": 1790960899.12, "seconds": 1.834, "output": "[\n  {\"index\":\"671\", \"cluster_name\":\"Fantasy\", \"cluster_label\":\"1\"}\n]"}
+{"key": "be41087ca24b1080", "role": "operator", "t": 1790960900.954, "seconds": 1.425, "output": "[\n  {\"index\":\"658\", \"cluster_name\":\"Drama\", \"cluster_label\":\"0\"}\n]"}
+{"key": "0896d809f6edde13", "role": "operator", "t": 1790960902.38, "seconds": 2.508, "output": "[{\"index\":\"659\", \"cluster_name\":\"Comedy\", \"cluster_label\":\"2\"}]"}
+{"key": "4948ac7f3f464563", "role": "operator", "t": 1790960904.887, "seconds": 1.921, "output": "[\n  {\"index\":\"660\", \"cluster_name\":\"Fantasy\", \"cluster_label\":\"1\"}\n]"}
+{"key": "72b0c0f56349c297", "role": "operator", "t": 1790960906.809, "seconds": 1.95, "output": "[{\"index\":\"661\",\"cluster_name\":\"Documentary\",\"cluster_label\":\"3\"}]"}
+{"key": "87006b753f0563cf", "role": "operator", "t": 1790960908.759, "seconds": 2.403, "output": "[{\"index\":\"662\", \"cluster_name\":\"Fantasy\", \"cluster_label\":\"1\"}]"}
+{"key": "2f1b165c807b59ef", "role": "operator", "t": 1790960911.162, "seconds": 2.205, "output": "[\n  {\"index\":\"663\", \"cluster_name\":\"Sci-Fi\", \"cluster_label\":\"4\"}\n]"}
+{"key": "1fec80634aee879a", "role": "operator", "t": 1790960913.367, "seconds": 1.303, "output": "[\n  {\"index\":\"664\", \"cluster_name\":\"Documentary\", \"cluster_label\":\"3\"}\n]"}
+{"key": "5c95537577a5c622", "role": "operator", "t": 1790960914.67, "seconds": 3.78, "output": "[{\"index\":\"665\", \"cluster_name\":\"Fantasy\", \"cluster_label\":\"1\"}]"}
+{"key": "b25d96864bebb73a", "role": "operator", "t": 1790960918.45, "seconds": 1.866, "output": "[\n  {\"index\":\"666\", \"cluster_name\":\"Drama\", \"cluster_label\":\"0\"}\n]"}
+{"key": "18569d538e5883f0", "role": "operator", "t": 1790960920.316, "seconds": 1.756, "output": "[{\"index\":\"667\",\"cluster_name\":\"Sci-Fi\",\"cluster_label\":\"4\"}]"}
+{"key": "03b1d9194f540e90", "role": "operator", "t": 1790960922.072, "seconds": 4.087, "output": "[\n  {\"index\":\"668\", \"cluster_name\":\"Comedy\", \"cluster_label\":\"2\"}\n]"}
+{"key": "ea588e23369ba999", "role": "operator", "t": 1790960926.158, "seconds": 1.381, "output": "[\n  {\"index\":\"669\", \"cluster_name\":\"Documentary\", \"cluster_label\":\"3\"}\n]"}
+{"key": "f89f91c3fedd6d48", "role": "operator", "t": 1790960927.54, "seconds": 2.109, "output": "[\n  {\"index\":\"670\", \"cluster_name\":\"Adventure\", \"cluster_label\":\"5\"}\n]"}
+{"key": "0d0f436cce33b87a", "role": "operator", "t": 1790960929.649, "seconds": 2.125, "output": "[{\"index\":\"672\", \"cluster_name\":\"Fantasy\", \"cluster_label\":\"1\"}]"}
+{"key": "b1b0b0a7c861c083", "role": "operator", "t": 1790960931.774, "seconds": 1.383, "output": "[{\"index\":\"687\",\"cluster_name\":\"Drama\",\"cluster_label\":\"0\"}]"}
+{"key": "7fee50c5dbd8b031", "role": "operator", "t": 1790960933.157, "seconds": 2.146, "output": "[\n  {\"index\":\"673\", \"cluster_name\":\"Fantasy\", \"cluster_label\":\"1\"}\n]"}
+{"key": "2dc4659f70693afa", "role": "operator", "t": 1790960935.303, "seconds": 2.821, "output": "[{\"index\":\"674\",\"cluster_name\":\"Documentary\",\"cluster_label\":\"3\"}]"}
+{"key": "c551de0b1a872d79", "role": "operator", "t": 1790960938.123, "seconds": 1.895, "output": "[\n  {\"index\":\"675\", \"cluster_name\":\"Sci-Fi\", \"cluster_label\":\"4\"}\n]"}
+{"key": "e7af4552cc88378b", "role": "operator", "t": 1790960940.018, "seconds": 3.143, "output": "[{\"index\":\"676\", \"cluster_name\":\"Adventure\", \"cluster_label\":\"5\"}]"}
+{"key": "4f9f329094b1a48f", "role": "operator", "t": 1790960943.162, "seconds": 1.426, "output": "[{\"index\":\"677\", \"cluster_name\":\"Documentary\", \"cluster_label\":\"3\"}]"}
+{"key": "9923df854a0f3fe3", "role": "operator", "t": 1790960944.588, "seconds": 2.134, "output": "[\n  {\"index\":\"678\", \"cluster_name\":\"Fantasy\", \"cluster_label\":\"1\"}\n]"}
+{"key": "f8b09cbcfb03a503", "role": "operator", "t": 1790960946.722, "seconds": 3.169, "output": "[\n  {\"index\":\"679\", \"cluster_name\":\"Comedy\", \"cluster_label\":\"2\"}\n]"}
+{"key": "27cb24e8d1031b21", "role": "operator", "t": 1790960949.892, "seconds": 2.191, "output": "[\n  {\"index\":\"680\", \"cluster_name\":\"Drama\", \"cluster_label\":\"0\"}\n]"}
+{"key": "d999efef8281184f", "role": "operator", "t": 1790960952.082, "seconds": 2.021, "output": "[{\"index\":\"681\",\"cluster_name\":\"Adventure\",\"cluster_label\":\"5\"}]"}
+{"key": "db78d27899002247", "role": "operator", "t": 1790960954.103, "seconds": 2.188, "output": "[\n  {\"index\":\"682\", \"cluster_name\":\"Comedy\", \"cluster_label\":\"2\"}\n]"}
+{"key": "05d491718730fc7d", "role": "operator", "t": 1790960956.291, "seconds": 2.182, "output": "[\n  {\"index\":\"683\", \"cluster_name\":\"Adventure\", \"cluster_label\":\"5\"}\n]"}
+{"key": "9c638672f8615068", "role": "operator", "t": 1790960958.473, "seconds": 1.806, "output": "[{\"index\":\"684\",\"cluster_name\":\"Drama\",\"cluster_label\":\"0\"}]"}
+{"key": "9543e7347511523d", "role": "operator", "t": 1790960960.279, "seconds": 8.324, "output": "[\n  {\"index\":\"685\", \"cluster_name\":\"Adventure\", \"cluster_label\":\"5\"}\n]"}

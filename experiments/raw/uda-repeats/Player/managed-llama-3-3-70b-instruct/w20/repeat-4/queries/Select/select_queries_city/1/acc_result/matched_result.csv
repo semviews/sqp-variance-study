@@ -1,0 +1,30 @@
+area,city_name,gdp,id
+400.739,Denver,$157.6 billion,1
+375.78,Portland,"$50,271 || $40,146 || $22,643 || $10 billion",10
+121.0,San Francisco,$874 billion || $729 billion || $1.32 trillion || $252.2 billion,11
+369.62,Philadelphia,$518.5 billion || $479 billion,12
+910.0,New Orleans,$5.5 billion,13
+606.1,Chicago,689 billion,14
+,Orlando,13.4,15
+286.0,Salt Lake City,Not applicable,16
+630.2,Toronto,$277.6 billion,17
+1341.0,Phoenix,$362 billion || $243 billion,18
+177.0,"Washington, D.C.","$160,472",19
+125.0,Boston,363,2
+213.6,Cleveland,$138.3 billion || $176 billion,20
+1659.0,Houston,633,21
+259.0,Sacramento,Not applicable,22
+370.03,Detroit,$14 billion,23
+839.2,Memphis,Not applicable,24
+808.1,Charlotte,2.5 || 115,25
+778.2,New York City,2.16 trillion,26
+1606.7,Oklahoma City,$61.1 || $73.8,27
+250.71,Milwaukee,$102 billion,28
+347.1,Atlanta,$473 billion,29
+950.0,Indianapolis,$184.4 billion,3
+999.3,Dallas,Not applicable,4
+1205.4,San Antonio,$121 billion,5
+1210.0,Los Angeles,$1.0 trillion,6
+152.8,Minneapolis,$323.9 billion || $337 billion,7
+,Miami,$257 billion || $344.9 billion,8
+24.0,Inglewood,Not applicable,9

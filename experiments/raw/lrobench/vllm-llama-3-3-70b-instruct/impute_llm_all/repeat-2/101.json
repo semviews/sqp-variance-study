@@ -1,0 +1,93 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 101,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 71.59,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 12,
+  "returned": [
+    0.8333,
+    0.8333
+  ],
+  "tokens": [
+    1896,
+    890,
+    1006
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.8333,
+      "prediction": [
+        "Stephen J. Anderson",
+        "David Hand",
+        "Mike Gabriel",
+        "Wolfgang Reitherman",
+        "Mark Dindal",
+        "Wolfgang Reitherman",
+        "Chris Buck",
+        "Aaron Blaise",
+        "Gary Trousdale",
+        "Ron Clements",
+        "Wolfgang Reitherman",
+        "Dean DeBlois"
+      ],
+      "truth": [
+        "Stephen J. Anderson",
+        "David Hand",
+        "Mike Gabriel",
+        "Wolfgang Reitherman",
+        "Mark Dindal",
+        "Wolfgang Reitherman",
+        "Chris Buck",
+        "Robert Walker",
+        "Gary Trousdale",
+        "Ron Clements",
+        "Wolfgang Reitherman",
+        "Chris Sanders"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.8333,
+      "prediction": [
+        "Stephen J. Anderson",
+        "David Hand",
+        "Mike Gabriel",
+        "Wolfgang Reitherman",
+        "Mark Dindal",
+        "Wolfgang Reitherman",
+        "Chris Buck",
+        "Aaron Blaise",
+        "Gary Trousdale",
+        "Ron Clements",
+        "Wolfgang Reitherman",
+        "Dean DeBlois"
+      ],
+      "truth": [
+        "Stephen J. Anderson",
+        "David Hand",
+        "Mike Gabriel",
+        "Wolfgang Reitherman",
+        "Mark Dindal",
+        "Wolfgang Reitherman",
+        "Chris Buck",
+        "Robert Walker",
+        "Gary Trousdale",
+        "Ron Clements",
+        "Wolfgang Reitherman",
+        "Chris Sanders"
+      ]
+    }
+  ]
+}

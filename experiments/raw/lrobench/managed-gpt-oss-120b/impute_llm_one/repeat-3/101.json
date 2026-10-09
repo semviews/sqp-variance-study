@@ -1,0 +1,93 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 101,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 10.499,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 12,
+  "judge_calls": 12,
+  "returned": [
+    0.5,
+    0.5
+  ],
+  "tokens": [
+    2863,
+    2604,
+    259
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.5,
+      "prediction": [
+        "Stephen J. Anderson",
+        "David Hand",
+        "Mike Gabriel, Eric Goldberg",
+        "Wolfgang Reitherman",
+        "Mark Dindal",
+        "John Lounsbery, Wolfgang Reitherman",
+        "Chris Buck, Jennifer Lee",
+        "Aaron Blaise, Robert Walker",
+        "Gary Trousdale, Kirk Wise",
+        "Ron Clements, John Musker",
+        "Wolfgang Reitherman",
+        "Chris Sanders"
+      ],
+      "truth": [
+        "Stephen J. Anderson",
+        "David Hand",
+        "Mike Gabriel",
+        "Wolfgang Reitherman",
+        "Mark Dindal",
+        "Wolfgang Reitherman",
+        "Chris Buck",
+        "Robert Walker",
+        "Gary Trousdale",
+        "Ron Clements",
+        "Wolfgang Reitherman",
+        "Chris Sanders"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.5,
+      "prediction": [
+        "Stephen J. Anderson",
+        "David Hand",
+        "Mike Gabriel, Eric Goldberg",
+        "Wolfgang Reitherman",
+        "Mark Dindal",
+        "John Lounsbery, Wolfgang Reitherman",
+        "Chris Buck, Jennifer Lee",
+        "Aaron Blaise, Robert Walker",
+        "Gary Trousdale, Kirk Wise",
+        "Ron Clements, John Musker",
+        "Wolfgang Reitherman",
+        "Chris Sanders"
+      ],
+      "truth": [
+        "Stephen J. Anderson",
+        "David Hand",
+        "Mike Gabriel",
+        "Wolfgang Reitherman",
+        "Mark Dindal",
+        "Wolfgang Reitherman",
+        "Chris Buck",
+        "Robert Walker",
+        "Gary Trousdale",
+        "Ron Clements",
+        "Wolfgang Reitherman",
+        "Chris Sanders"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 7.191,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 8,
+  "returned": [
+    0.25,
+    0.25
+  ],
+  "tokens": [
+    288,
+    201,
+    87
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.25,
+      "prediction": [
+        "West Lake",
+        "43.4 km\u00b2",
+        "3.6 m",
+        "2 m",
+        "Lake",
+        "Qiantang River",
+        "120.1806\u00b0 E",
+        "30.0286\u00b0 N"
+      ],
+      "truth": [
+        "West Lake",
+        "6.5",
+        "2.8",
+        "7.0",
+        "freshwater",
+        "Qiantang River",
+        "120.1536",
+        "30.2414"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.25,
+      "prediction": [
+        "West Lake",
+        "43.4 km\u00b2",
+        "3.6 m",
+        "2 m",
+        "Lake",
+        "Qiantang River",
+        "120.1806\u00b0 E",
+        "30.0286\u00b0 N"
+      ],
+      "truth": [
+        "West Lake",
+        "6.5",
+        "2.8",
+        "7.0",
+        "freshwater",
+        "Qiantang River",
+        "120.1536",
+        "30.2414"
+      ]
+    }
+  ]
+}

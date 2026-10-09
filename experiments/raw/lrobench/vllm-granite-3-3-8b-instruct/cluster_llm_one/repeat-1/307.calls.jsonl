@@ -1,0 +1,8 @@
+{"key": "7c517985872b1fd6", "role": "operator", "t": 1790963653.945, "seconds": 1.384, "output": "[\n  { \"Team_Attributes\": [\"2\", \"organization_info\"] }\n]"}
+{"key": "5a3983fa70c4ba72", "role": "operator", "t": 1790963655.329, "seconds": 1.911, "output": "[\n  { \"Player\": [\"1\", \"people_info\"] }\n]"}
+{"key": "19bdc453bf82dcb0", "role": "operator", "t": 1790963657.24, "seconds": 0.654, "output": "[\n  { \"Match\": [\"0\", \"other_info\"] }\n]"}
+{"key": "f7bb563040967085", "role": "operator", "t": 1790963657.894, "seconds": 0.639, "output": "[\n  { \"League\": [\"1\", \"people_info\"] }\n]"}
+{"key": "288ffafdb337417c", "role": "operator", "t": 1790963658.533, "seconds": 0.743, "output": "[\n  { \"Country\": [\"0\", \"other_info\"] }\n]"}
+{"key": "9fff4d3245d8a1e5", "role": "operator", "t": 1790963659.276, "seconds": 0.715, "output": "[\n  { \"sqlite_sequence\": [\"0\", \"other_info\"] }\n]"}
+{"key": "5b5a02616854e904", "role": "operator", "t": 1790963659.991, "seconds": 0.594, "output": "[\n  { \"Player_Attributes\": [\"1\", \"people_info\"] }\n]"}
+{"key": "32b1d6d20a244026", "role": "operator", "t": 1790963660.585, "seconds": 0.742, "output": "[\n  { \"Team\": [\"1\", \"people_info\"] }\n]"}

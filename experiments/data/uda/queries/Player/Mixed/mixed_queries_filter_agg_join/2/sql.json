@@ -1,0 +1,15 @@
+{
+  "sql": "/* Query 2: filter1_agg1_join2 (player, team, city, manager) */ SELECT player.position, MAX(team.championship) AS max_team_championship FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name WHERE city.state_name = 'Utah' GROUP BY player.position",
+  "player": {
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  },
+  "team": {
+    "championship": {
+      "value_type": "int",
+      "description": "championships is the number of this team getting championships (e.g. 5)."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 102,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 5.991,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 58,
+  "judge_calls": 0,
+  "returned": [
+    0.75,
+    1.0,
+    0.8571
+  ],
+  "tokens": [
+    8318,
+    8260,
+    58
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.75,
+        1.0,
+        0.8571
+      ],
+      "prediction": [
+        "['Alameda']",
+        "['Contra Costa']",
+        "['Lake']",
+        "['Marin']",
+        "['Napa']",
+        "['San Francisco']",
+        "['San Mateo']",
+        "['Santa Clara']",
+        "['Santa Cruz']",
+        "['Solano']",
+        "['Sonoma']",
+        "['Yolo']"
+      ],
+      "truth": [
+        "['Alameda']",
+        "['Contra Costa']",
+        "['Marin']",
+        "['Napa']",
+        "['San Francisco']",
+        "['San Mateo']",
+        "['Santa Clara']",
+        "['Solano']",
+        "['Sonoma']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+city.population,player.position,city.city_name,team.founded_year,player.name,player.id,team.id,city.id
+681054 || 579999,,Oklahoma City,1967,Antonius Cleveland,1,21,27
+,Frontcourt,Los Angeles,1946,Jay Fletcher Vincent,2,14,6
+,Backcourt,Orlando,1989,William Mark Price,5,22,15
+,Frontcourt,Orlando,1989,Donta Hall,7,22,15
+"577,222",Backcourt,Milwaukee,1968,Demerick Montae Strickland,8,17,28
+1662607 || 1608139 || 1445632,Frontcourt,Phoenix,1968,David Lattin,9,24,18
+524943 || 466488,Frontcourt,Sacramento,1923,William Derek Grimm,11,26,22
+,Frontcourt,Los Angeles,1946,Anthony Marshon Davis Jr.,12,14,6
+429954 || 521718,Backcourt,Minneapolis,1989,Askia Rahman Jones,14,18,7
+,,Los Angeles,1946,Marvin Roberts,17,14,6
+808988 || 873965,Backcourt,San Francisco,1946,Gerald Madkins Jr.,19,10,11
+"383,997",Backcourt,New Orleans,2002,Jarrett Matthew Jack,24,19,13
+1304379 || 1299544,Frontcourt,Dallas,1980,Rick Hughes,25,7,4
+887642 || 880621,Frontcourt,Indianapolis,1967,Lavoy Allen,26,12,3
+,Backcourt,Los Angeles,1946,Earvin Johnson Jr.,28,14,6
+675647 || 691531,,Boston,1946,Stanley M. Noszka,29,2,2
+"639,111",Backcourt,Detroit,1937,Isiah Lord Thomas III,30,9,23
+"652,503",,Portland,1970,Daniel Edward Anderson,31,25,10
+,Backcourt,Chicago,1966,Kelvin Trent Tucker,33,5,14
+675647 || 691531,Frontcourt,Boston,1946,Dwayne Kenneth Schintzius,34,2,2
+1662607 || 1608139 || 1445632,Backcourt,Phoenix,1968,Miles Julian Simon,35,24,18
+"577,222",Backcourt,Milwaukee,1968,Guy William Rodgers,36,17,28
+1434625 || 1327407 || 1200000 || 650000,Frontcourt,San Antonio,1967,Timothy Theodore Duncan,38,27,5
+"639,111",Backcourt,Detroit,1937,Tony Lorenzo Delk,41,9,23
+"372,624",Frontcourt,Cleveland,1970,Derrick Joseph Chievous,44,6,20
+887642 || 880621,Frontcourt,Indianapolis,1967,Rik Smits,45,12,3
+429954 || 521718,Backcourt,Minneapolis,1989,Anthony Edwards,46,18,7
+"639,111",Frontcourt,Detroit,1937,Harry Junior Gallatin,47,9,23
+808988 || 873965,Frontcourt,San Francisco,1946,Darnell Hillman,49,10,11
+1662607 || 1608139 || 1445632,Frontcourt,Phoenix,1968,Kevin Wayne Durant,54,24,18
+,Frontcourt,Toronto,1995,Nathaniel Thomas Huffman,56,28,17
+1434625 || 1327407 || 1200000 || 650000,Frontcourt,San Antonio,1967,William Bedford,58,27,5
+442241,Backcourt,Miami,1988,Steven Delano Smith,59,16,8
+,Backcourt,Los Angeles,1946,Shawn Christopher Respert,60,14,6
+1434625 || 1327407 || 1200000 || 650000,Backcourt,San Antonio,1967,Stephen Douglas Kerr,69,27,5
+,Frontcourt,Toronto,1995,Gregory Clinton Foster,70,28,17
+,Frontcourt,Chicago,1966,William Severlyn Hewitt,71,5,14
+675647 || 691531,Frontcourt,Boston,1946,Dino Rađa,73,2,2
+"715,522",Frontcourt,Denver,1967,"Konstantinos ""Kostas"" Papanikolaou",75,8,1
+"652,503",Frontcourt,Portland,1970,Jabari Dominic Walker,77,25,10
+1434625 || 1327407 || 1200000 || 650000,Frontcourt,San Antonio,1967,Devontae Calvin Cacok,78,27,5
+"383,997",Backcourt,New Orleans,2002,Jordan Lee Crawford,82,19,13
+808988 || 873965,Frontcourt,San Francisco,1946,Kermit Alan Washington,84,10,11
+"577,222",Backcourt,Milwaukee,1968,John Harding Lucas II,88,17,28
+675647 || 691531,,Boston,1946,Garfield Smith,90,2,2
+,Backcourt,Orlando,1989,Michael Carter-Williams,92,22,15
+1304379 || 1299544,Frontcourt,Dallas,1980,DaMon William Davis,95,7,4
+"200,133 || 186,440 || 181,743",,Salt Lake City,1974,Eric Johnson Jones,96,29,16
+808988 || 873965,Frontcourt,San Francisco,1946,Trayce Jackson-Davis,98,10,11
+808988 || 873965,Backcourt,San Francisco,1946,Chavano Rainer Hield,100,10,11
+,Backcourt,Los Angeles,1946,D'Angelo Russell,101,14,6
+1304379 || 1299544,Backcourt,Dallas,1980,Kyrie Andrew Irving,104,7,4
+675647 || 691531,Frontcourt,Boston,1946,Jayson Christopher Tatum,105,2,2
+808988 || 873965,Frontcourt,San Francisco,1946,Andrew Christian Wiggins,107,10,11
+675647 || 691531,Frontcourt || Backcourt,Boston,1946,Jaylen Marselles Brown,110,2,2
+1434625 || 1327407 || 1200000 || 650000,Frontcourt,San Antonio,1967,Victor Wembanyama,111,27,5
+675647 || 691531,Backcourt,Boston,1946,Jrue Randall Holiday,112,2,2
+,Backcourt,Los Angeles,1946,Austin Tyler Reaves,113,14,6
+442241,Frontcourt,Miami,1988,Kevin Wesley Love,114,16,8
+"577,222",Frontcourt,Milwaukee,1968,Giannis Antetokounmpo,115,17,28
+808988 || 873965,Backcourt,San Francisco,1946,Wardell Stephen Curry II,116,10,11
+675647 || 691531,Frontcourt,Boston,1946,Alfred Joel Horford Reynoso,117,2,2
+442241,Backcourt,Miami,1988,Tyler Christopher Herro,118,16,8
+442241,Backcourt,Miami,1988,Duncan McBryde Robinson,119,16,8
+808988 || 873965,Frontcourt,San Francisco,1946,Kyle Forman Anderson,120,10,11
+"639,111",Backcourt,Detroit,1937,Cade Parker Cunningham,121,9,23
+,Frontcourt,Los Angeles,1946,LeBron Raymone James Sr.,122,14,6
+442241,Frontcourt,Miami,1988,Jimmy Butler III,123,16,8
+808988 || 873965,Frontcourt,San Francisco,1946,Kevon Grant Looney,124,10,11
+,Backcourt,Chicago,1966,Zachary Thomas LaVine,125,5,14
+"639,111",Backcourt,Detroit,1937,Jaden Edward Dhananjay Ivey,126,9,23
+1662607 || 1608139 || 1445632,Backcourt,Phoenix,1968,Devin Armani Booker,129,24,18
+808988 || 873965,Frontcourt,San Francisco,1946,Draymond Jamal Green,130,10,11
+1434625 || 1327407 || 1200000 || 650000,Frontcourt,San Antonio,1967,Zach Collins,131,27,5
+808988 || 873965,Frontcourt,San Francisco,1946,Jonathan Malangu Kuminga,132,10,11
+,Backcourt,Chicago,1966,Lonzo Anderson Ball,133,5,14
+442241,Frontcourt,Miami,1988,Jaime Jaquez Jr.,134,16,8
+"639,111",Frontcourt,Detroit,1937,Ausar XLNC Thompson,135,9,23
+675647 || 691531,Frontcourt,Boston,1946,Shaquille Rashaun O'Neal,137,2,2
+,Backcourt,Los Angeles,1946,Kobe Bryant,138,14,6
+1434625 || 1327407 || 1200000 || 650000,Backcourt,San Antonio,1967,Christopher Emmanuel Paul,139,27,5
+1434625 || 1327407 || 1200000 || 650000,Frontcourt,San Antonio,1967,Harrison Bryce Jordan Barnes,140,27,5
+442241,Frontcourt,Miami,1988,Edrice Femi Adebayo,141,16,8

@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "cluster",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 111,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 10.87,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    1561,
+    1456,
+    105
+  ],
+  "metrics": [
+    {
+      "metric": "ari",
+      "value": 1.0,
+      "prediction": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "truth": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "metric": "nmi",
+      "value": 1.0,
+      "prediction": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "truth": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 25,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 3.572,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 563, in pipeline_order25\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To compare the song popularity, I need to call the tool to get the popularity of each song. \\n{Tool: song_popularity, Inputs: Marry the Night}\\n{Tool: song_popularity, Inputs: Born This Way}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To compare the song popularity, I need to call the tool to get the popularity of each song. \\n{Tool: song_popularity, Inputs: Marry the Night}\\n{Tool: song_popularity, Inputs: Born This Way}'",
+      "operator_calls": 1
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To compare the song popularity of 'Marry the Night' and 'Born This Way', we need to look at their performance on music charts. 'Born This Way' was a number-one single on the US Billboard Hot 100 char",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

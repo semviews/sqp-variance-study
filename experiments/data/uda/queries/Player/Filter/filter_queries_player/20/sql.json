@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 20: 4 (player) */ SELECT name, nba_championships, college FROM player WHERE nba_championships > 2 AND olympic_gold_medals >= 0 AND olympic_gold_medals <> 1 AND name <> 'Toby Kimball'",
+  "player": {
+    "college": {
+      "value_type": "str",
+      "description": "the college the player attended, if applicable (e.g., Duke University)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    },
+    "nba_championships": {
+      "value_type": "int",
+      "description": "number of NBA championships the player has won (e.g., 4)."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 116,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 3.528,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 43,
+  "judge_calls": 0,
+  "returned": [
+    0.1316,
+    1.0,
+    0.2326
+  ],
+  "tokens": [
+    6203,
+    6160,
+    43
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1316,
+        1.0,
+        0.2326
+      ],
+      "prediction": [
+        "['Ammersee']",
+        "['Atlin Lake']",
+        "['Brienzersee']",
+        "['Chew Bahir']",
+        "['Crater Lake']",
+        "['Daryacheh ye Namak']",
+        "['Etoscha Salt Pan']",
+        "['Great Salt Lake']",
+        "['Issyk-Kul']",
+        "['Lago de Chapala']",
+        "['Lake Abaya']",
+        "['Lake Bangweulu']",
+        "['Lake Kioga']",
+        "['Lake Kivu']",
+        "['Lake Mweru']",
+        "['Lake Natron']",
+        "['Lake Ohrid']",
+        "['Lake Powell']",
+        "['Lake Prespa']",
+        "['Lake Rukwa']",
+        "['Lake Sese Seko/Albertsee']",
+        "['Lake Tahoe']",
+        "['Lake Tana']",
+        "['Lake Tanganjika']",
+        "['Lake Titicaca']",
+        "['Lake Toba']",
+        "['Lake Urmia']",
+        "['Lake Van']",
+        "['Lake Victoria']",
+        "['Lop Nor']",
+        "['Nam Co']",
+        "['Poopo']",
+        "['Pyramid Lake']",
+        "['Qinghai Lake']",
+        "['Rutanzige/Eduardsee']",
+        "['Salar de Uyuni']",
+        "['Starnberger See']",
+        "['Thunersee']"
+      ],
+      "truth": [
+        "['Lake Bangweulu']",
+        "['Lake Tanganjika']",
+        "['Lake Titicaca']",
+        "['Lake Victoria']",
+        "['Salar de Uyuni']"
+      ]
+    }
+  ]
+}

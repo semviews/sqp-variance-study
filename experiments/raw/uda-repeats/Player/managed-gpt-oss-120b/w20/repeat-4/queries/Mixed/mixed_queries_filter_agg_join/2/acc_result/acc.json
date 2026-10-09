@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "player.position": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "max_team_championship": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "macro_precision": 0.0,
+  "macro_recall": 0.0,
+  "macro_f1": 0.0,
+  "rows": {
+    "len_gold": 0,
+    "len_pred": 0,
+    "matched_rows": 0
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.position"
+  ],
+  "evaluated_columns": [
+    "player.position",
+    "max_team_championship"
+  ],
+  "skipped_columns": []
+}

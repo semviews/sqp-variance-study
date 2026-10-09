@@ -1,0 +1,25 @@
+{
+  "scenario": "movie",
+  "model": "openai/managed-mistral-small-3-1-24b-2503",
+  "setting": "w20_exact_join40",
+  "policy": "exact",
+  "repeat": 5,
+  "query_id": 7,
+  "status": "success",
+  "error": null,
+  "execution_time": 130.6847939491272,
+  "token_usage": 347680,
+  "model_calls": 1600,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": null,
+  "shuffle_seed": null,
+  "attempt": 1,
+  "data_dir": "experiments/data/movie-join40",
+  "data": {
+    "Movies.csv": "aac26cb7cdbc771a",
+    "Reviews.csv": "7ca12497d49cada2"
+  }
+}

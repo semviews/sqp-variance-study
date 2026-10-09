@@ -1,0 +1,310 @@
+{
+ "vllm-granite-3-3-8b-instruct": {
+  "label": "Granite-8B",
+  "macro": "Granite",
+  "items": 4899,
+  "items_changing": 88,
+  "sigma": 0.2785112257748926,
+  "sigma_ci": [
+   0.22622557531878426,
+   0.3273986003223405
+  ],
+  "floor": 0.002554099380445267,
+  "floor_ci": [
+   0.0013796436487203876,
+   0.003850806553314425
+  ],
+  "sigma_without_floor": 0.6398036569550131,
+  "share_changes_small_margin": 0.7777777777777778,
+  "share_items_small_margin": 0.07838334353949786,
+  "bins": [
+   {
+    "low": 0,
+    "high": 0.25,
+    "items": 58,
+    "median_margin": 0.0,
+    "observed": 0.28879310344827586,
+    "fitted": 0.5012770496902227
+   },
+   {
+    "low": 0.25,
+    "high": 0.5,
+    "items": 104,
+    "median_margin": 0.25,
+    "observed": 0.14423076923076922,
+    "fitted": 0.18677382914395657
+   },
+   {
+    "low": 0.5,
+    "high": 1,
+    "items": 222,
+    "median_margin": 0.7499999701976776,
+    "observed": 0.02252252252252252,
+    "fitted": 0.006086839826461477
+   },
+   {
+    "low": 1,
+    "high": 2,
+    "items": 363,
+    "median_margin": 1.4999999850988388,
+    "observed": 0.011707988980716254,
+    "fitted": 0.002554135354050971
+   },
+   {
+    "low": 2,
+    "high": 4,
+    "items": 745,
+    "median_margin": 2.8750001154839993,
+    "observed": 0.0030201342281879194,
+    "fitted": 0.002554099380445267
+   },
+   {
+    "low": 4,
+    "high": 8,
+    "items": 831,
+    "median_margin": 5.37499983375892,
+    "observed": 0.0009025270758122744,
+    "fitted": 0.002554099380445267
+   },
+   {
+    "low": 8,
+    "high": null,
+    "items": 2576,
+    "median_margin": 19.375,
+    "observed": 0.0012616459627329193,
+    "fitted": 0.002554099380445267
+   }
+  ]
+ },
+ "vllm-llama-3-3-70b-instruct": {
+  "label": "Llama-70B (V)",
+  "macro": "LlamaR",
+  "items": 7136,
+  "items_changing": 18,
+  "sigma": 0.36748874492214534,
+  "sigma_ci": [
+   0.2369237461805368,
+   0.4738184148365266
+  ],
+  "floor": 0.0,
+  "floor_ci": [
+   0.0,
+   0.0
+  ],
+  "sigma_without_floor": 0.36748874492214534,
+  "share_changes_small_margin": 1.0,
+  "share_items_small_margin": 0.008408071748878924,
+  "bins": [
+   {
+    "low": 0,
+    "high": 0.25,
+    "items": 13,
+    "median_margin": 0.0,
+    "observed": 0.34615384615384615,
+    "fitted": 0.5
+   },
+   {
+    "low": 0.25,
+    "high": 0.5,
+    "items": 15,
+    "median_margin": 0.25,
+    "observed": 0.2,
+    "fitted": 0.24815949584530225
+   },
+   {
+    "low": 0.5,
+    "high": 1,
+    "items": 32,
+    "median_margin": 0.7499999701976776,
+    "observed": 0.046875,
+    "fitted": 0.020631440270080636
+   },
+   {
+    "low": 1,
+    "high": 2,
+    "items": 44,
+    "median_margin": 1.3750000074505806,
+    "observed": 0.0,
+    "fitted": 9.142211660891663e-05
+   },
+   {
+    "low": 2,
+    "high": 4,
+    "items": 128,
+    "median_margin": 2.7499999962747097,
+    "observed": 0.0,
+    "fitted": 3.626100799914613e-14
+   },
+   {
+    "low": 4,
+    "high": 8,
+    "items": 250,
+    "median_margin": 6.250000073108822,
+    "observed": 0.0,
+    "fitted": 3.62367752193853e-65
+   },
+   {
+    "low": 8,
+    "high": null,
+    "items": 6654,
+    "median_margin": 17.75,
+    "observed": 0.0,
+    "fitted": 0.0
+   }
+  ]
+ },
+ "vllm-qwen2-5-72b-instruct": {
+  "label": "Qwen-72B",
+  "macro": "Qwen",
+  "items": 7136,
+  "items_changing": 6,
+  "sigma": 0.02,
+  "sigma_ci": [
+   0.02,
+   0.022449011361706135
+  ],
+  "floor": 0.0,
+  "floor_ci": [
+   0.0,
+   0.0
+  ],
+  "sigma_without_floor": 0.02,
+  "share_changes_small_margin": 1.0,
+  "share_items_small_margin": 0.04358183856502242,
+  "bins": [
+   {
+    "low": 0,
+    "high": 0.25,
+    "items": 73,
+    "median_margin": 0.125,
+    "observed": 0.04794520547945205,
+    "fitted": 2.0522634252189523e-10
+   },
+   {
+    "low": 0.25,
+    "high": 0.5,
+    "items": 77,
+    "median_margin": 0.390625,
+    "observed": 0.0,
+    "fitted": 2.9781755005028824e-85
+   },
+   {
+    "low": 0.5,
+    "high": 1,
+    "items": 161,
+    "median_margin": 0.7656249403953552,
+    "observed": 0.0,
+    "fitted": 6.285e-321
+   },
+   {
+    "low": 1,
+    "high": 2,
+    "items": 326,
+    "median_margin": 1.4687500447034836,
+    "observed": 0.0,
+    "fitted": 0.0
+   },
+   {
+    "low": 2,
+    "high": 4,
+    "items": 658,
+    "median_margin": 2.9375000298023224,
+    "observed": 0.0,
+    "fitted": 0.0
+   },
+   {
+    "low": 4,
+    "high": 8,
+    "items": 952,
+    "median_margin": 5.640625227591954,
+    "observed": 0.0,
+    "fitted": 0.0
+   },
+   {
+    "low": 8,
+    "high": null,
+    "items": 4889,
+    "median_margin": 13.28125023842199,
+    "observed": 0.0,
+    "fitted": 0.0
+   }
+  ]
+ },
+ "Azure-gpt-4o": {
+  "label": "GPT-4o",
+  "macro": "GptFour",
+  "items": 2736,
+  "items_changing": 205,
+  "sigma": 1.6497493105229166,
+  "sigma_ci": [
+   1.3713565873283484,
+   1.895041060561309
+  ],
+  "floor": 0.0007452398336679732,
+  "floor_ci": [
+   0.0,
+   0.003136134983069918
+  ],
+  "sigma_without_floor": 1.7681466803050125,
+  "share_changes_small_margin": 0.5205811138014528,
+  "share_items_small_margin": 0.07054093567251463,
+  "bins": [
+   {
+    "low": 0,
+    "high": 0.25,
+    "items": 27,
+    "median_margin": 0.0,
+    "observed": 0.4351851851851852,
+    "fitted": 0.500372619916834
+   },
+   {
+    "low": 0.25,
+    "high": 0.5,
+    "items": 64,
+    "median_margin": 0.25,
+    "observed": 0.32421875,
+    "fitted": 0.4401931010916809
+   },
+   {
+    "low": 0.5,
+    "high": 1,
+    "items": 102,
+    "median_margin": 0.7500000149011612,
+    "observed": 0.20833333333333334,
+    "fitted": 0.32519655366388445
+   },
+   {
+    "low": 1,
+    "high": 2,
+    "items": 219,
+    "median_margin": 1.5,
+    "observed": 0.12100456621004566,
+    "fitted": 0.18222450961757203
+   },
+   {
+    "low": 2,
+    "high": 4,
+    "items": 354,
+    "median_margin": 3.0000000465661287,
+    "observed": 0.05014124293785311,
+    "fitted": 0.03521660153624803
+   },
+   {
+    "low": 4,
+    "high": 8,
+    "items": 539,
+    "median_margin": 6.000000079860911,
+    "observed": 0.00974025974025974,
+    "fitted": 0.0008830978159833784
+   },
+   {
+    "low": 8,
+    "high": null,
+    "items": 1431,
+    "median_margin": 12.124999806657343,
+    "observed": 0.0,
+    "fitted": 0.0007452398337672986
+   }
+  ]
+ }
+}

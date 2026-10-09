@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 7,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 6.906,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 176, in pipeline_order7\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '{STRING_LENGTH_SCORE: contactLastName=\"Franken\"}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '{SCORE_CALCULATION:{\"type\": \"string_length_score\", \"column\": \"contactLastName\", \"item\": {\"index\": 6, \"contactLastName\": \"Piestrzeniewicz\"}}}'",
+      "operator_calls": 8
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, I need to use the `calculate_score` tool, but since it\\'s not provided, I\\'ll have to rely on basic reasoning. The task requires evaluating the string length of the last name listed in the \\'contactLastName\\' column. Given the item \\'{\"index\": 36, \"contactLastName\": \"Walker\"}\\', the length of \"Walker\" is 6. \\n\\nTo assign a score between 0 and 100, we consider the average length of last names, which can vary but is often arou",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 9,
+  "judge_calls": 0
+}

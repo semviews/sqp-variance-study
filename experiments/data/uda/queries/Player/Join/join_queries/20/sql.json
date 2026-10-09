@@ -1,0 +1,25 @@
+{
+  "sql": "/* Query 10: multi_table_join (player, team, city, manager) */ SELECT team.championships, manager.nationality, city.population, player.nationality, player.college FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name",
+  "manager": {
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality is the nationality of the team owner (e.g. American)."
+    }
+  },
+  "city": {
+    "population": {
+      "value_type": "int",
+      "description": "population is the population of the city (e.g. 7000000)."
+    }
+  },
+  "player": {
+    "college": {
+      "value_type": "str",
+      "description": "the college the player attended, if applicable (e.g., Duke University)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    }
+  }
+}

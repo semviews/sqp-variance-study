@@ -1,0 +1,55 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 304,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 3.966,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    0.5714,
+    0.6154
+  ],
+  "tokens": [
+    391,
+    292,
+    99
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        0.5714,
+        0.6154
+      ],
+      "prediction": [
+        "['ADDRESS' 'SiteAddress']",
+        "['Geom' 'Geom']",
+        "['LOCAL_AREA' 'Neighbourhood']",
+        "['OWNERSHIP' 'Ownership']",
+        "['TYPE' 'Type']",
+        "['YEAR' 'YearOfInstallation']"
+      ],
+      "truth": [
+        "['ADDRESS' 'SiteAddress']",
+        "['CULTURAL_SPACE_NAME' 'SiteName']",
+        "['Geom' 'Geom']",
+        "['LOCAL_AREA' 'GeoLocalArea']",
+        "['OWNERSHIP' 'Ownership']",
+        "['WEBSITE' 'URL']",
+        "['YEAR' 'YearOfInstallation']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sql": "/* Query 8: filter4_agg1_join2 (player, team, city, manager) */ SELECT player.position, AVG(city.area) AS avg_city_area FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name WHERE manager.age = 76 AND team.founded_year > 1989 AND team.team_name = 'Philadelphia 76ers' GROUP BY player.position",
+  "player": {
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  },
+  "city": {
+    "area": {
+      "value_type": "float",
+      "description": "area is the area of the city in square kilometers (e.g. 89.64)."
+    }
+  }
+}

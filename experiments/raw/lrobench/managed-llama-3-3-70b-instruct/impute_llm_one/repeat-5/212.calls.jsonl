@@ -1,0 +1,5 @@
+{"key": "6e99f57cc201bff3", "role": "operator", "t": 1790991792.866, "seconds": 2.154, "output": "${calculate_discount(JSON.parse('{\"Original_Price\": \"999.99\", \"Amazon_Price\": \"894.8\", \"Discount\": null}'))}"}
+{"key": "d2fb738c15521460", "role": "operator", "t": 1790991792.865, "seconds": 2.165, "output": "{ \"Original_Price\": \"1199.0\", \"Amazon_Price\": \"799.99\", \"Discount\": \"33.33%\" }"}
+{"key": "10f8f69a2e497c24", "role": "operator", "t": 1790991792.864, "seconds": 2.247, "output": "${impute_discount('{\"Original_Price\": \"1199.0\", \"Amazon_Price\": \"876.0\", \"Discount\": null}')}"}
+{"key": "b162261ad09de07d", "role": "operator", "t": 1790991792.863, "seconds": 2.411, "output": "{ \"Original_Price\": \"2899.0\", \"Amazon_Price\": \"2699.0\", \"Discount\": \"7.27\"}"}
+{"key": "6019d43e3d5ac726", "role": "operator", "t": 1790991792.863, "seconds": 2.452, "output": "${Impute_Missing_Value '{\"Original_Price\": \"1599.0\", \"Amazon_Price\": \"1194.0\", \"Discount\": null}'}"}

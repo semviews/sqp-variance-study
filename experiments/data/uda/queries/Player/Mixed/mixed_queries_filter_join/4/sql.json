@@ -1,0 +1,27 @@
+{
+  "sql": "/* Query 4: filter2_join2 (player, team, city, manager) */ SELECT manager.age, city.area, team.location, player.team FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name WHERE player.college = 'Michigan State University' AND city.state_name <> 'Ohio'",
+  "manager": {
+    "age": {
+      "value_type": "int",
+      "description": "age is the age of the team owner, a integer (e.g. 45)."
+    }
+  },
+  "city": {
+    "area": {
+      "value_type": "float",
+      "description": "area is the area of the city in square kilometers (e.g. 89.64)."
+    }
+  },
+  "team": {
+    "location": {
+      "value_type": "str",
+      "description": "location is the lastest city the team team located (e.g. Los Angeles)."
+    }
+  },
+  "player": {
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

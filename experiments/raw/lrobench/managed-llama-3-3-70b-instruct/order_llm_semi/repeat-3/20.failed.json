@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 20,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 6.734,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 455, in pipeline_order20\n    country = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'The 2020 GDP of the country\\' metric value, I need to use the get_country_gdp tool. ||\\nTool: get_country_gdp\\nInput: {\"country_name\": \"Pakistan\", \"year\": 2020}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The 2020 GDP of the country\\' metric value of the \\'Name\\' column, I need to use the tool \"get_country_gdp\" to get the GDP of Russia in 2020 and then scale it to a score between 0 and 100.'",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The 2020 GDP of the country\\' metric value of the \\'Name\\' column, I need to use the tool \"get_country_gdp_score\" to get the score. Here is the tool call:\\n\\n{tool: \"get_country_gdp_score\", item: {\"index\": 204, \"Name\": \"China\"}}'",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

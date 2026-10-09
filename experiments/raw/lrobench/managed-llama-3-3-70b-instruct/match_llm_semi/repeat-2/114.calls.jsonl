@@ -1,0 +1,13 @@
+{"key": "f33eb0dceb60964a", "role": "operator", "t": 1790978864.297, "seconds": 1.664, "output": "Bastable Avenue"}
+{"key": "6237f30426512231", "role": "operator", "t": 1790978864.296, "seconds": 1.668, "output": "255 High Road"}
+{"key": "5e31cc3c74bd177c", "role": "operator", "t": 1790978864.297, "seconds": 2.216, "output": "None of the values in 'right_address1' match '15 Longbridge Road', so the matched value is an empty string."}
+{"key": "56cbfe87ee95a20e", "role": "operator", "t": 1790978864.297, "seconds": 2.218, "output": "Bastable Avenue"}
+{"key": "f4dead6ee5abd217", "role": "operator", "t": 1790978865.964, "seconds": 1.238, "output": "None of the values in 'right_address1' match '26/28 Goresbrook Road', so the matched value is an empty string."}
+{"key": "6a2b7a58b74b469e", "role": "operator", "t": 1790978864.3, "seconds": 2.909, "output": "No match found for '203 Longbridge Road' in the 'right_address1' column, empty string returned"}
+{"key": "3c71f500593a2117", "role": "operator", "t": 1790978864.299, "seconds": 3.235, "output": "Collier Row Road was not found in the list, however, one of the values in the list contains 'Road' which might be related to the 'Collier Row Road' in the given value, the matched value is 255 High Road"}
+{"key": "6a55fb39674c2593", "role": "operator", "t": 1790978864.301, "seconds": 3.951, "output": "New Road does not match any of the values in 'right_address1' exactly, but some addresses contain 'Road', one of the values is 'High Road' which could potentially match 'New Road' as they both contain 'Road', however 'New Road' and 'High Road' are not the same, 'New Road' is not present in the list, so no match exists, therefore an empty string is returned \nempty string"}
+{"key": "c9c9cb911316304f", "role": "operator", "t": 1790978864.298, "seconds": 3.956, "output": "Rose Lane"}
+{"key": "8ca5fc39d9588b16", "role": "operator", "t": 1790978865.96, "seconds": 2.298, "output": "Collier Row Road is found in the list as part of the address \"City Pavilion (Downstairs), Collier Row Road\", however none of the values in 'right_address1' contain \"Collier Row Road\" or \"City Pavilion\", therefore no match exists."}
+{"key": "983d9f60d5c9f533", "role": "operator", "t": 1790978864.301, "seconds": 3.96, "output": "No match exists for '270/272 Heathway' in the provided list of 'right_address1' values, as 'Heathway' is not present in the list."}
+{"key": "ff8d72bb20fca1f1", "role": "operator", "t": 1790978864.3, "seconds": 3.963, "output": "None of the values in 'right_address1' match '48-50 Crown Street', so the matched value is an empty string."}
+{"key": "9651bcc8ae110ba5", "role": "operator", "t": 1790978866.513, "seconds": 1.75, "output": "Rose Lane"}

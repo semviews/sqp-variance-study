@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 25: 5 (player) */ SELECT draft_pick, age, position FROM player WHERE age <= 62 OR birth_date = '1997/8/7' OR college <> 'Oregon State University' OR nba_championships = 2",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "draft_pick": {
+      "value_type": "int",
+      "description": "the pick number at which the player was selected in the NBA draft (e.g., 1)."
+    },
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  }
+}

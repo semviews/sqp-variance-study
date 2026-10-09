@@ -1,0 +1,23 @@
+{
+  "sql": "/* Query 7: multi_table_join (player, team, manager) */ SELECT team.championships, manager.age, player.team, player.draft_year, player.age FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name",
+  "manager": {
+    "age": {
+      "value_type": "int",
+      "description": "age is the age of the team owner, a integer (e.g. 45)."
+    }
+  },
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "draft_year": {
+      "value_type": "int",
+      "description": "the year the player was selected in the NBA draft; use format YYYY (e.g., 2003)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

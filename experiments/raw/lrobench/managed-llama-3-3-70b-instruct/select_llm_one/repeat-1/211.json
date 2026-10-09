@@ -1,0 +1,81 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 211,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 69.938,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    0.3929,
+    1.0,
+    0.5641
+  ],
+  "tokens": [
+    4091,
+    4060,
+    31
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3929,
+        1.0,
+        0.5641
+      ],
+      "prediction": [
+        "+/-",
+        "G",
+        "GP",
+        "GTG",
+        "GWG",
+        "PIM",
+        "PPA",
+        "PPG",
+        "Post+/-",
+        "PostA",
+        "PostG",
+        "PostGP",
+        "PostGWG",
+        "PostPIM",
+        "PostPPA",
+        "PostPPG",
+        "PostPts",
+        "PostSHA",
+        "PostSHG",
+        "PostSOG",
+        "Pts",
+        "SHA",
+        "SHG",
+        "SOG",
+        "lgID",
+        "pos",
+        "stint",
+        "tmID"
+      ],
+      "truth": [
+        "G",
+        "GTG",
+        "GWG",
+        "PPG",
+        "PostG",
+        "PostGWG",
+        "PostPPG",
+        "PostSHG",
+        "PostSOG",
+        "SHG",
+        "SOG"
+      ]
+    }
+  ]
+}

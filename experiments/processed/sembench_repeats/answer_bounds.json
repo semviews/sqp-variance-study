@@ -1,0 +1,39 @@
+{
+  "count": {
+    "low": 9,
+    "high": 13,
+    "later": [
+      10,
+      10,
+      9,
+      10,
+      10
+    ],
+    "later_inside": 5,
+    "gold": 14
+  },
+  "sets": [
+    {
+      "scenario": "medical",
+      "query": 1,
+      "certain": 127,
+      "possible": 180,
+      "mean_answer": 154.6,
+      "bracketed": 0,
+      "later": 5,
+      "mean_certain_missing": 1.6,
+      "mean_outside_possible": 3.0
+    },
+    {
+      "scenario": "movie",
+      "query": 7,
+      "certain": 622,
+      "possible": 844,
+      "mean_answer": 725.2,
+      "bracketed": 0,
+      "later": 5,
+      "mean_certain_missing": 11.6,
+      "mean_outside_possible": 13.0
+    }
+  ]
+}

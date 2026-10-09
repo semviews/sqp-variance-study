@@ -1,0 +1,1 @@
+{"key": "64f1f99361889e87", "role": "operator", "t": 1790965456.115, "seconds": 1.793, "output": "[\n  \"superhero_name\",\n  \"full_name\",\n  \"eye_colour_id\",\n  \"hair_colour_id\",\n  \"skin_colour_id\",\n  \"race_id\",\n  \"height_cm\",\n  \"weight_kg\"\n]"}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 5.583,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1438, in pipeline_match309\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine whether the two inputs, `MAPID` and `Geom`, satisfy the condition \"The two columns refer to the similar feature,\" I would need to understand the context and content of these columns. How\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the two inputs, `MAPID` and `Geom`, satisfy the condition \"The two columns refer to the similar feature,\" I would need to understand the context and content of these columns. How",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the two inputs, `MAPID` and `Geom`, satisfy the condition \"The two columns refer to the similar feature,\" I would need to understand the context and content of these columns. How",
+      "operator_calls": 19
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 18,
+  "judge_calls": 0
+}

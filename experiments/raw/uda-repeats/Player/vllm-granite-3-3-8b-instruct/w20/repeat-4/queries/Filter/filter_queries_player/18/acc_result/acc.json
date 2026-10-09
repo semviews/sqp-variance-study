@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "olympic_gold_medals": {
+      "precision": 0.2876712328767123,
+      "recall": 0.5526315789473685,
+      "f1": 0.37837837837837845
+    },
+    "nba_championships": {
+      "precision": 0.3287671232876712,
+      "recall": 0.631578947368421,
+      "f1": 0.43243243243243246
+    },
+    "age": {
+      "precision": 0.0958904109589041,
+      "recall": 0.18421052631578946,
+      "f1": 0.12612612612612614
+    }
+  },
+  "macro_precision": 0.2374429223744292,
+  "macro_recall": 0.4561403508771929,
+  "macro_f1": 0.3123123123123124,
+  "rows": {
+    "len_gold": 38,
+    "len_pred": 73,
+    "matched_rows": 36
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "olympic_gold_medals",
+    "nba_championships",
+    "age"
+  ],
+  "skipped_columns": []
+}

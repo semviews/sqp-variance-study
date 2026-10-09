@@ -1,0 +1,32 @@
+{"key": "7bd23026eb79ae1a", "role": "operator", "t": 1790961283.229, "seconds": 5.661, "output": "[{\"index\":\"0\",\"cluster_name\":\"Business\",\"cluster_label\":\"0\"}]"}
+{"key": "283a2440f0017fe8", "role": "operator", "t": 1790961288.89, "seconds": 1.63, "output": "[{\"index\":\"1\", \"cluster_name\":\"Engineering\", \"cluster_label\":\"1\"}]"}
+{"key": "e37461b0ad3c4ae1", "role": "operator", "t": 1790961290.52, "seconds": 1.528, "output": "[\n  {\"index\":\"2\", \"cluster_name\":\"Engineering\", \"cluster_label\":\"1\"}\n]"}
+{"key": "1ff6c521c489f265", "role": "operator", "t": 1790961292.048, "seconds": 2.508, "output": "[{\"index\":\"3\",\"cluster_name\":\"Science\",\"cluster_label\":\"2\"}]"}
+{"key": "173cad87b4e1a7d6", "role": "operator", "t": 1790961294.556, "seconds": 2.345, "output": "[\n  {\"index\":\"4\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "b712b8a7609e6504", "role": "operator", "t": 1790961296.901, "seconds": 1.813, "output": "[\n  {\"index\":\"5\", \"cluster_name\":\"Engineering\", \"cluster_label\":\"1\"}\n]"}
+{"key": "aa6827337a87ca04", "role": "operator", "t": 1790961298.714, "seconds": 2.13, "output": "[\n  {\"index\":\"6\", \"cluster_name\":\"Business\", \"cluster_label\":\"0\"}\n]"}
+{"key": "b971e5621609f16e", "role": "operator", "t": 1790961300.843, "seconds": 4.4, "output": "[\n  {\"index\":\"7\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "893986c4d5b5e075", "role": "operator", "t": 1790961305.244, "seconds": 2.063, "output": "[\n  {\"index\":\"8\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "cff5b26377c74bb2", "role": "operator", "t": 1790961307.307, "seconds": 2.212, "output": "[\n  {\"index\":\"9\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "2b51e04ed89d7232", "role": "operator", "t": 1790961309.52, "seconds": 2.113, "output": "[\n  {\"index\":\"10\", \"cluster_name\":\"Science\", \"cluster_label\":\"2\"}\n]"}
+{"key": "2b9a70ca3e2385c9", "role": "operator", "t": 1790961311.633, "seconds": 2.533, "output": "[{\"index\":\"11\",\"cluster_name\":\"Language\",\"cluster_label\":\"4\"}]"}
+{"key": "0566a184bbf01b0c", "role": "operator", "t": 1790961314.166, "seconds": 2.106, "output": "[{\"index\":\"12\",\"cluster_name\":\"Society\",\"cluster_label\":\"3\"}]"}
+{"key": "175416b7d8ef4376", "role": "operator", "t": 1790961316.272, "seconds": 2.316, "output": "[\n  {\"index\":\"13\", \"cluster_name\":\"Science\", \"cluster_label\":\"2\"}\n]"}
+{"key": "7b8d17d8c22e4e9b", "role": "operator", "t": 1790961318.588, "seconds": 1.926, "output": "[\n  {\"index\":\"14\", \"cluster_name\":\"Science\", \"cluster_label\":\"2\"}\n]"}
+{"key": "1915a00b44cd39ae", "role": "operator", "t": 1790961320.514, "seconds": 2.295, "output": "[\n  {\"index\":\"15\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "94bc49dc359b7e19", "role": "operator", "t": 1790961322.809, "seconds": 2.253, "output": "[\n  {\"index\":\"16\", \"cluster_name\":\"Science\", \"cluster_label\":\"2\"}\n]"}
+{"key": "a6bee700966816bb", "role": "operator", "t": 1790961325.062, "seconds": 1.376, "output": "[{\"index\":\"17\",\"cluster_name\":\"Art\",\"cluster_label\":\"5\"}]"}
+{"key": "9377d0e46f8c7294", "role": "operator", "t": 1790961326.438, "seconds": 1.868, "output": "[\n  {\"index\":\"18\", \"cluster_name\":\"Science\", \"cluster_label\":\"2\"}\n]"}
+{"key": "f474d3458c85bbf3", "role": "operator", "t": 1790961328.305, "seconds": 2.688, "output": "[\n  {\"index\":\"19\", \"cluster_name\":\"Engineering\", \"cluster_label\":\"1\"}\n]"}
+{"key": "35fdf41e36ee9880", "role": "operator", "t": 1790961330.993, "seconds": 4.46, "output": "[\n  {\"index\":\"20\", \"cluster_name\":\"Engineering\", \"cluster_label\":\"1\"}\n]"}
+{"key": "f32819234c2f13ba", "role": "operator", "t": 1790961335.453, "seconds": 2.036, "output": "[\n  {\"index\":\"21\", \"cluster_name\":\"Business\", \"cluster_label\":\"0\"}\n]"}
+{"key": "71bfd8fa44750f04", "role": "operator", "t": 1790961337.49, "seconds": 2.161, "output": "[\n  {\"index\":\"22\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "bb920a73ed7fee1c", "role": "operator", "t": 1790961339.651, "seconds": 1.712, "output": "[\n  {\"index\":\"23\", \"cluster_name\":\"Language\", \"cluster_label\":\"4\"}\n]"}
+{"key": "0b401f3e149670fc", "role": "operator", "t": 1790961341.363, "seconds": 1.766, "output": "[\n  {\"index\":\"24\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "135e42da1d9b801d", "role": "operator", "t": 1790961343.128, "seconds": 1.98, "output": "[\n  {\"index\":\"25\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "0e16da225f8798df", "role": "operator", "t": 1790961345.109, "seconds": 1.675, "output": "[\n  {\"index\":\"26\", \"cluster_name\":\"Language\", \"cluster_label\":\"4\"}\n]"}
+{"key": "07a706922148f64d", "role": "operator", "t": 1790961346.784, "seconds": 1.68, "output": "[\n  {\"index\":\"27\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "d85ff9731c68808c", "role": "operator", "t": 1790961348.464, "seconds": 1.542, "output": "[\n  {\"index\":\"28\", \"cluster_name\":\"Society\", \"cluster_label\":\"3\"}\n]"}
+{"key": "ea332a29f9c22311", "role": "operator", "t": 1790961350.006, "seconds": 2.78, "output": "[\n  {\"index\":\"29\", \"cluster_name\":\"Art\", \"cluster_label\":\"5\"}\n]"}
+{"key": "10ea13b8eca5d1ee", "role": "operator", "t": 1790961352.787, "seconds": 1.585, "output": "[\n  {\"index\":\"30\", \"cluster_name\":\"Engineering\", \"cluster_label\":\"1\"}\n]"}
+{"key": "5501859e38daf461", "role": "operator", "t": 1790961354.372, "seconds": 1.758, "output": "[\n  {\"index\":\"31\", \"cluster_name\":\"Science\", \"cluster_label\":\"2\"}\n]"}

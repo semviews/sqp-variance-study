@@ -1,0 +1,21 @@
+{"key": "9d8fd2896e6260ce", "role": "operator", "t": 1790969309.896, "seconds": 1.757, "output": "Southfields is adjacent to Shaftesbury, so the matched value is Shaftesbury"}
+{"key": "da4fdd363c0ff0e8", "role": "operator", "t": 1790969309.896, "seconds": 1.758, "output": "St. James's"}
+{"key": "aa59dfb5a57cd182", "role": "operator", "t": 1790969309.897, "seconds": 2.587, "output": "East Acton is adjacent to Shepherd's Bush, but since Shepherd's Bush is not in the list, the next closest match is not available, however, one of the adjacent wards to East Acton is Hammersmith, which has a match in the list as Hammersmith Broadway."}
+{"key": "3854f49e68db372c", "role": "operator", "t": 1790969309.899, "seconds": 2.59, "output": "West Hampstead"}
+{"key": "e507fd5122668136", "role": "operator", "t": 1790969309.896, "seconds": 2.594, "output": "New Cross"}
+{"key": "ddef31b464fff4cb", "role": "operator", "t": 1790969309.897, "seconds": 2.599, "output": "Stanley is not found in the list of available values in 'right_ward_2018_name', and there is no information about the adjacent wards in UK for 'Stanley' and the values in 'right_ward_2018_name'."}
+{"key": "9985ea528574d5f7", "role": "operator", "t": 1790969309.899, "seconds": 2.601, "output": "Redcliffe is in the borough of North Somerset, adjacent to the ward of Weston-super-Mare, however none of the provided right_ward_2018_name values match this location, therefore no match exists."}
+{"key": "01af961fcc8edfee", "role": "operator", "t": 1790969309.897, "seconds": 2.603, "output": "King's Park"}
+{"key": "e60a71a6191b64ca", "role": "operator", "t": 1790969309.898, "seconds": 2.604, "output": "Noel Park is adjacent to Tottenham Green and other wards, but based on the given list, the matched value is Tottenham Green"}
+{"key": "281af8c0443ceae1", "role": "operator", "t": 1790969309.898, "seconds": 2.609, "output": "Shepherd's Bush Green is adjacent to Hammersmith Broadway"}
+{"key": "7fab109b69db97af", "role": "operator", "t": 1790969311.652, "seconds": 0.924, "output": "West Hampstead"}
+{"key": "7ae86a9ba246fef4", "role": "operator", "t": 1790969312.502, "seconds": 0.692, "output": "Highgate"}
+{"key": "c67d145c5ee1870e", "role": "operator", "t": 1790969312.502, "seconds": 0.842, "output": "Fairfield"}
+{"key": "87404616fa965243", "role": "operator", "t": 1790969312.502, "seconds": 0.862, "output": "Hatch End"}
+{"key": "d5d17641c5438b9f", "role": "operator", "t": 1790969312.502, "seconds": 0.995, "output": "Copers Cope is adjacent to Churchfields"}
+{"key": "43b9b85948a918c1", "role": "operator", "t": 1790969312.502, "seconds": 1.36, "output": "Belgravia is adjacent to St. James's and also to Knightsbridge in some areas of UK, St. James's is the matched value."}
+{"key": "9aa73a6eea6a825d", "role": "operator", "t": 1790969312.576, "seconds": 1.287, "output": "Woodhouse is adjacent to Grange"}
+{"key": "7487f7bc5e09354b", "role": "operator", "t": 1790969312.502, "seconds": 1.361, "output": "Streatham Hill"}
+{"key": "8aa70e267ad9834e", "role": "operator", "t": 1790969312.507, "seconds": 1.357, "output": "Cripplegate"}
+{"key": "774f43e125783934", "role": "operator", "t": 1790969312.502, "seconds": 2.146, "output": "Bexleyheath is in the London Borough of Bexley, and based on the list of available values in 'right_ward_2018_name', none of the wards seem to be directly adjacent to Bexleyheath. However, some wards are in nearby boroughs. \nSince no exact match exists, return an empty string."}
+{"key": "9a41703b04304ae8", "role": "operator", "t": 1790969312.502, "seconds": 2.149, "output": "Bloomsbury is adjacent to Shaftesbury and Holborn and Covent Garden, but only Shaftesbury is in the list, so the matched value is Shaftesbury"}

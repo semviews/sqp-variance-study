@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 125,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 6.729,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.2,
+    1.0,
+    0.3333
+  ],
+  "tokens": [
+    803,
+    527,
+    276
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2,
+        1.0,
+        0.3333
+      ],
+      "prediction": [
+        "['Education  ' 'Canadian Heritage']",
+        "['Education Library Books ' 'Canadian Heritage']",
+        "['Environmental Services  ' 'Environment']",
+        "['Environmental Services Technical Equipment ' 'Environment']",
+        "['Human Resources  ' 'Human Resources and Skills Development']",
+        "['Human Resources Training & Conferences '\n 'Human Resources and Skills Development']",
+        "['Human Resources Travel & Subsistence '\n 'Human Resources and Skills Development']",
+        "['Human Resources Travel & Subsistence Taxi Fares'\n 'Human Resources and Skills Development']",
+        "['Information Communication Technology  '\n 'Public Works and Government Services']",
+        "['Legal Services  ' 'Justice']"
+      ],
+      "truth": [
+        "['Environmental Services  ' 'Environment']",
+        "['Human Resources  ' 'Human Resources and Skills Development']"
+      ]
+    }
+  ]
+}

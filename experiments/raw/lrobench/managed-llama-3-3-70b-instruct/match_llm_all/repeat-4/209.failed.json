@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 209,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 42.531,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1111, in pipeline_match209\n    pred = matched_df[['left_ID', 'right_ID']]\n  File \"/home/user/code/LROBench/.venv/lib/python3.10/site-packages/pandas/core/frame.py\", line 4113, in __getitem__\n    indexer = self.columns._get_indexer_strict(key, \"columns\")[1]\nKeyError: \"None of [Index(['left_ID', 'right_ID'], dtype='object')] are in the [columns]\"\n",
+  "failed_attempts": [
+    {
+      "error": "KeyError: \"None of [Index(['left_ID', 'right_ID'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: \"None of [Index(['left_ID', 'right_ID'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

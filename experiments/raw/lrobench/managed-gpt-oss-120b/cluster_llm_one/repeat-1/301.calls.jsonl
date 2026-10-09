@@ -1,0 +1,15 @@
+{"key": "df2a98ab3701a996", "role": "operator", "t": 1790962760.365, "seconds": 2.861, "output": "[\n  {\"order_status\": [\"4\", \"order information\"]}\n]"}
+{"key": "d0f42d1b3ff2d3a9", "role": "operator", "t": 1790962763.226, "seconds": 1.978, "output": "[{\"author\": [\"0\", \"author information\"]}]"}
+{"key": "32fe3a54fa33ad89", "role": "operator", "t": 1790962765.204, "seconds": 2.813, "output": "[{\"publisher\": [\"1\", \"book information\"]}]"}
+{"key": "4b62d93f3fb2af63", "role": "operator", "t": 1790962768.017, "seconds": 1.688, "output": "[\n  { \"order_history\": [\"4\", \"order information\"] }\n]"}
+{"key": "fb7070375e05219f", "role": "operator", "t": 1790962769.705, "seconds": 1.632, "output": "[\n  { \"book_language\": [\"1\", \"book information\"] }\n]"}
+{"key": "7b4008fa5f425114", "role": "operator", "t": 1790962771.337, "seconds": 2.464, "output": "[\n  { \"customer\": [\"2\", \"customer information\"] }\n]"}
+{"key": "e9c2d44f15c46527", "role": "operator", "t": 1790962773.801, "seconds": 1.498, "output": "[\n  { \"order_line\": [\"4\", \"order information\"] }\n]"}
+{"key": "e0398c5f75dd56a2", "role": "operator", "t": 1790962775.298, "seconds": 1.945, "output": "[\n  { \"book_author\": [\"0\", \"author information\"] }\n]"}
+{"key": "85589389821c1ca7", "role": "operator", "t": 1790962777.243, "seconds": 1.189, "output": "[\n  { \"address\": [\"2\", \"customer information\"] }\n]"}
+{"key": "8d5be9d773d481de", "role": "operator", "t": 1790962778.432, "seconds": 3.366, "output": "[\n  { \"address_status\": [\"2\", \"customer information\"] }\n]"}
+{"key": "16d7f06033ff2ecc", "role": "operator", "t": 1790962781.798, "seconds": 1.768, "output": "[\n  { \"country\": [\"2\", \"customer information\"] }\n]"}
+{"key": "58464da141d8f260", "role": "operator", "t": 1790962783.566, "seconds": 1.917, "output": "[\n  { \"customer_address\": [\"2\", \"customer information\"] }\n]"}
+{"key": "1fa8580fff22d3d6", "role": "operator", "t": 1790962785.483, "seconds": 2.283, "output": "[\n  { \"cust_order\": [\"4\", \"order information\"] }\n]"}
+{"key": "e2d20f02b0a8125f", "role": "operator", "t": 1790962787.766, "seconds": 1.699, "output": "[\n  { \"book\": [\"1\", \"book information\"] }\n]"}
+{"key": "52a8ccba36bce03c", "role": "operator", "t": 1790962789.465, "seconds": 1.36, "output": "[\n  { \"shipping_method\": [\"4\", \"order information\"] }\n]"}

@@ -1,0 +1,19 @@
+{
+  "scenario": "movie",
+  "model": "openai/vllm-granite-3-3-8b-instruct",
+  "setting": "w20_lp",
+  "policy": "approximate",
+  "repeat": 4,
+  "query_id": 9,
+  "status": "success",
+  "error": null,
+  "execution_time": 18.383899927139282,
+  "token_usage": 57769,
+  "model_calls": 256,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": null,
+  "shuffle_seed": null
+}

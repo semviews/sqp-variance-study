@@ -1,0 +1,6 @@
+player.position,manager.age,team.championship,city.city_name,player.id,team.id,manager.id,city.id
+Backcourt,60,3,Detroit,30,9,1,23
+Frontcourt,64,3,Miami,114,16,15,8
+Frontcourt,64,3,Miami,134,16,15,8
+Frontcourt,60,3,Detroit,135,9,1,23
+Frontcourt,64,3,Miami,141,16,15,8

@@ -1,0 +1,16 @@
+{"key": "b629a2d052252292", "role": "operator", "t": 1790969848.04, "seconds": 1.874, "output": "[{\"staff\": [\"1\", \"people tables\"]}]"}
+{"key": "92bbf438c322489a", "role": "operator", "t": 1790969849.914, "seconds": 1.028, "output": "[{\"actor\": [\"1\", \"people tables\"]}]"}
+{"key": "0f4469ac0e833dd9", "role": "operator", "t": 1790969850.942, "seconds": 1.108, "output": "[ \n  { \"film\": [\"2\", \"film tables\"]}\n]"}
+{"key": "f43cf70dc733bf05", "role": "operator", "t": 1790969852.051, "seconds": 1.312, "output": "[{\"film_category\": [\"2\", \"film tables\"]}]"}
+{"key": "8f48d0842c90a2fc", "role": "operator", "t": 1790969853.363, "seconds": 1.176, "output": "[{\"customer\": [\"3\", \"other tables\"]}]"}
+{"key": "0739ce2d190169fb", "role": "operator", "t": 1790969854.539, "seconds": 1.165, "output": "[{\"language\": [\"4\", \"other tables\"]}]"}
+{"key": "9bb0ef9d9e6415da", "role": "operator", "t": 1790969855.704, "seconds": 0.977, "output": "[\n  { \"film_actor\": [\"2\", \"film tables\"]}\n]"}
+{"key": "70696abceaa117b2", "role": "operator", "t": 1790969856.681, "seconds": 1.214, "output": "[\n  { \"address\": [\"5\", \"location tables\"]}\n]"}
+{"key": "2820c9608986cc76", "role": "operator", "t": 1790969857.896, "seconds": 1.126, "output": "[\n  { \"city\": [\"5\", \"location tables\"]}\n]"}
+{"key": "452b7250a7852c18", "role": "operator", "t": 1790969859.022, "seconds": 1.968, "output": "[{\"country\": [\"5\", \"location tables\"]}]"}
+{"key": "4eff4a799bc3972e", "role": "operator", "t": 1790969860.99, "seconds": 1.629, "output": "[ \n  { \"payment\": [\"6\", \"other tables\"]}\n]"}
+{"key": "582d9eea04b984fa", "role": "operator", "t": 1790969862.619, "seconds": 1.682, "output": "[\n  { \"film_text\": [\"2\", \"film tables\"]}\n]"}
+{"key": "2202351180aa1e35", "role": "operator", "t": 1790969864.301, "seconds": 1.744, "output": "[ \n  { \"category\": [\"7\", \"other tables\"]}\n]"}
+{"key": "0a2d1038c8c11334", "role": "operator", "t": 1790969866.045, "seconds": 1.069, "output": "[\n  { \"rental\": [\"8\", \"tables for joining\"]}\n]"}
+{"key": "22b89b90341a7249", "role": "operator", "t": 1790969867.114, "seconds": 1.211, "output": "[ \n  { \"store\": [\"9\", \"other tables\"]}\n]"}
+{"key": "6693c8d2a8523773", "role": "operator", "t": 1790969868.325, "seconds": 0.984, "output": "[\n  { \"inventory\": [\"10\", \"other tables\"]}\n]"}

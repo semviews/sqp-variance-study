@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 29,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 13.096,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 23,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Captain Eli's",
+      "US-East"
+    ],
+    [
+      "Fitz's",
+      "US-Central"
+    ],
+    [
+      "Sprecher",
+      "US-Central"
+    ],
+    [
+      "Bulldog",
+      "US-West"
+    ],
+    [
+      "Sparky's Fresh Draft",
+      "US-West"
+    ],
+    [
+      "Gales",
+      "US-Central"
+    ]
+  ],
+  "tokens": 5983,
+  "metrics": [],
+  "prediction": [
+    [
+      "Captain Eli's",
+      "US-East"
+    ],
+    [
+      "Fitz's",
+      "US-Central"
+    ],
+    [
+      "Sprecher",
+      "US-Central"
+    ],
+    [
+      "Bulldog",
+      "US-West"
+    ],
+    [
+      "Sparky's Fresh Draft",
+      "US-West"
+    ],
+    [
+      "Gales",
+      "US-Central"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

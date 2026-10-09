@@ -1,0 +1,60 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 310,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 14.682,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 34,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.6364,
+    0.7778
+  ],
+  "tokens": [
+    4524,
+    4490,
+    34
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.6364,
+        0.7778
+      ],
+      "prediction": [
+        "geo_estuary",
+        "geo_lake",
+        "geo_river",
+        "geo_sea",
+        "lake",
+        "river",
+        "sea"
+      ],
+      "truth": [
+        "geo_estuary",
+        "geo_lake",
+        "geo_river",
+        "geo_sea",
+        "geo_source",
+        "islandIn",
+        "lake",
+        "located",
+        "mergesWith",
+        "river",
+        "sea"
+      ]
+    }
+  ]
+}

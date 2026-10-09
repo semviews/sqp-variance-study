@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 129,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 31.138,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 4,
+  "returned": [
+    0.25,
+    0.5
+  ],
+  "tokens": [
+    1048,
+    598,
+    450
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.25,
+      "prediction": [
+        "New York",
+        "London",
+        "+1 617 555 1234",
+        "+61 2 8255 1234"
+      ],
+      "truth": [
+        "NYC",
+        "London",
+        "+1 215 837 0825",
+        "+61 2 9264 2451"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.5,
+      "prediction": [
+        "New York",
+        "London",
+        "+1 617 555 1234",
+        "+61 2 8255 1234"
+      ],
+      "truth": [
+        "NYC",
+        "London",
+        "+1 215 837 0825",
+        "+61 2 9264 2451"
+      ]
+    }
+  ]
+}

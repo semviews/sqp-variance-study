@@ -1,0 +1,42 @@
+city.state_name,player.name,player.college,team.founded_year,team.team_name,player.id,team.id,city.id
+California,William Derek Grimm,University of Missouri,1923,Sacramento Kings,11,26,22
+California,Anthony Davis,Kentucky Wildcats,1946,Los Angeles Lakers,12,14,6
+California,Marvin Roberts,Utah State University,1946,Los Angeles Lakers,17,14,6
+California,Gerald Madkins Jr.,"University of California, Los Angeles (UCLA)",1970,Los Angeles Clippers,19,13,6
+Texas,Tim Duncan,Wake Forest Demon Deacons,1967,San Antonio Spurs,38,27,5
+Indiana,Rik Smits,Marist College,1967,Indiana Pacers,45,12,3
+Minnesota,Anthony Edwards,Georgia Bulldogs,1989,Minnesota Timberwolves,46,18,7
+Arizona,Kevin Durant,Texas Longhorns,1968,Phoenix Suns,54,24,18
+Tennessee,Lamar Brandon Stevens,Penn State Nittany Lions,1995,Memphis Grizzlies,63,15,24
+Indiana,Gregory Clinton Foster,UTEP,1967,Indiana Pacers,70,12,3
+Utah,Eric Johnson Jones,"The context provided does not mention the college Eric Johnson attended. Therefore, the answer is:",1974,Utah Jazz,96,29,16
+California,Trayce Jackson-Davis,Indiana University,1946,Golden State Warriors,98,10,11
+California,Buddy Hield,Oklahoma Sooners,1946,Golden State Warriors,100,10,11
+California,D'Angelo Russell,Ohio State Buckeyes,1946,Los Angeles Lakers,101,14,6
+Texas,Kyrie Irving,Duke University,1980,Dallas Mavericks,104,7,4
+Massachusetts,Jayson Christopher Tatum,Duke University,1946,Boston Celtics,105,2,2
+California,Andrew Christian Wiggins,Kansas Jayhawks,1946,Golden State Warriors,107,10,11
+Massachusetts,Jaylen Brown,California Golden Bears,1946,Boston Celtics,110,2,2
+Texas,Victor Wembanyama,Metropolitans 92 || ASVEL,1967,San Antonio Spurs,111,27,5
+Massachusetts,Jrue Holiday,UCLA Bruins,1946,Boston Celtics,112,2,2
+California,Austin Reaves,Wichita State Shockers || Oklahoma Sooners,1946,Los Angeles Lakers,113,14,6
+Florida,Kevin Love,UCLA,1988,Miami Heat,114,16,8
+Wisconsin,Giannis Sina Ugo Antetokounmpo,Milwaukee Bucks,1968,Milwaukee Bucks,115,17,28
+California,Stephen Curry,Davidson College,1946,Golden State Warriors,116,10,11
+Massachusetts,Al Horford,University of Florida,1946,Boston Celtics,117,2,2
+Florida,Tyler Christopher Herro,University of Kentucky,1988,Miami Heat,118,16,8
+Florida,Duncan Robinson,Williams College || Michigan State University,1988,Miami Heat,119,16,8
+California,Kyle Anderson,UCLA,1946,Golden State Warriors,120,10,11
+California,LeBron James,St. Vincent–St. Mary High School,1946,Los Angeles Lakers,122,14,6
+Florida,Jimmy Butler,Tyler Junior College || Marquette University,1988,Miami Heat,123,16,8
+California,Kevon Grant Looney,UCLA,1946,Golden State Warriors,124,10,11
+Illinois,Zach LaVine,UCLA,1966,Chicago Bulls,125,5,14
+Arizona,Devin Booker,Kentucky Wildcats,1968,Phoenix Suns,129,24,18
+California,Draymond Green,Michigan State University,1946,Golden State Warriors,130,10,11
+Texas,Zach Collins,Gonzaga Bulldogs,1967,San Antonio Spurs,131,27,5
+California,Jonathan Malangu Kuminga,Huntington Prep School || Our Savior New American School || The Patrick School,1946,Golden State Warriors,132,10,11
+Illinois,Lonzo Ball,UCLA,1966,Chicago Bulls,133,5,14
+Florida,Jaime Jaquez Jr.,UCLA,1988,Miami Heat,134,16,8
+Texas,Chris Paul,Wake Forest University,1967,San Antonio Spurs,139,27,5
+Texas,Harrison Bryce Jordan Barnes,North Carolina Tar Heels,1967,San Antonio Spurs,140,27,5
+Florida,"Edrice Femi ""Bam"" Adebayo",Kentucky Wildcats,1988,Miami Heat,141,16,8

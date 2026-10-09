@@ -1,0 +1,82 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 305,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 31.313,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 29,
+  "judge_calls": 0,
+  "returned": [
+    0.2414,
+    0.6364,
+    0.35
+  ],
+  "tokens": [
+    7879,
+    7773,
+    106
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2414,
+        0.6364,
+        0.35
+      ],
+      "prediction": [
+        "['2013-14 CALPADS Fall 1 Certification Status' 'StatusType']",
+        "['Academic Year' 'OpenDate']",
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['County Name' 'County']",
+        "['District Code' 'CDSCode']",
+        "['District Name' 'District']",
+        "['District Type' 'District']",
+        "['Educational Option Type' 'EdOpsCode']",
+        "['Enrollment (Ages 5-17)' 'GSserved']",
+        "['Enrollment (K-12)' 'GSserved']",
+        "['FRPM Count (Ages 5-17)' 'FRPM Count (Ages 5-17)']",
+        "['FRPM Count (K-12)' 'FRPM Count (K-12)']",
+        "['Free Meal Count (Ages 5-17)' 'GSserved']",
+        "['Free Meal Count (K-12)' 'Free Meal Count (K-12)']",
+        "['High Grade' 'GSoffered']",
+        "['IRC' 'CDSCode']",
+        "['Low Grade' 'GSserved']",
+        "['NSLP Provision Status' 'StatusType']",
+        "['Percent (%) Eligible FRPM (Ages 5-17)'\n 'Percent (%) Eligible FRPM (Ages 5-17)']",
+        "['Percent (%) Eligible FRPM (K-12)' 'Percent (%) Eligible FRPM (K-12)']",
+        "['Percent (%) Eligible Free (Ages 5-17)' 'GSserved']",
+        "['Percent (%) Eligible Free (K-12)' 'Percent (%) Eligible Free (K-12)']",
+        "['School Code' 'CDSCode']",
+        "['School Name' 'School']",
+        "['School Type' 'School']"
+      ],
+      "truth": [
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['District Code' 'NCESDist']",
+        "['District Name' 'District']",
+        "['District Type ' 'DOCType']",
+        "['Educational Option Type' 'EdOpsName']",
+        "['School Name' 'School']",
+        "['School Type' 'SOCType']"
+      ]
+    }
+  ]
+}

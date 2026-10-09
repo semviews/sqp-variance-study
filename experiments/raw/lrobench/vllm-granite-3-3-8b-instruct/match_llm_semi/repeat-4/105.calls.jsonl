@@ -1,0 +1,14 @@
+{"key": "725f80efcb61c3dd", "role": "operator", "t": 1790980751.867, "seconds": 1.272, "output": "Texas"}
+{"key": "d78dbeb5f40b508d", "role": "operator", "t": 1790980751.869, "seconds": 1.896, "output": "Kentucky is not in the provided list of `right_state` values, so the result is an empty string. \n\n\"\""}
+{"key": "306cf201d39fa518", "role": "operator", "t": 1790980751.867, "seconds": 1.9, "output": "Florida"}
+{"key": "7ec203c69e69934f", "role": "operator", "t": 1790980751.868, "seconds": 1.901, "output": "California"}
+{"key": "8c084e17b2d8fb80", "role": "operator", "t": 1790980751.87, "seconds": 1.904, "output": "Wisconsin is not in the provided list of 'right_state' values, so there is no match for 'WI'.  \n\n(empty string)"}
+{"key": "c219c50277b7fba3", "role": "operator", "t": 1790980751.87, "seconds": 1.904, "output": "California"}
+{"key": "89646aee79ec24c5", "role": "operator", "t": 1790980751.869, "seconds": 1.906, "output": "Texas"}
+{"key": "ec0bec435a0b5a9b", "role": "operator", "t": 1790980751.869, "seconds": 1.906, "output": "Pennsylvania"}
+{"key": "e398f71b188a01b3", "role": "operator", "t": 1790980751.868, "seconds": 1.909, "output": "Arizona"}
+{"key": "de0bdd3a1d8fe3d5", "role": "operator", "t": 1790980751.871, "seconds": 1.907, "output": "Maryland"}
+{"key": "5bba94b7c7c3ccbe", "role": "operator", "t": 1790980753.139, "seconds": 0.64, "output": "California"}
+{"key": "56a31a40e7ebd425", "role": "operator", "t": 1790980753.765, "seconds": 0.416, "output": "California"}
+{"key": "0259e555269e2f69", "role": "operator", "t": 1790980753.778, "seconds": 0.406, "output": "Michigan"}
+{"key": "519a6edc2e5281aa", "role": "operator", "t": 1790980753.779, "seconds": 0.411, "output": "Arizona"}

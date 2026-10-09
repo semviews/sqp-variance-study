@@ -1,0 +1,19 @@
+{
+  "scenario": "movie",
+  "model": "openai/vllm-qwen2-5-72b-instruct",
+  "setting": "w20_lp",
+  "policy": "approximate",
+  "repeat": 4,
+  "query_id": 8,
+  "status": "success",
+  "error": null,
+  "execution_time": 4.629642009735107,
+  "token_usage": 14566,
+  "model_calls": 120,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": null,
+  "shuffle_seed": null
+}

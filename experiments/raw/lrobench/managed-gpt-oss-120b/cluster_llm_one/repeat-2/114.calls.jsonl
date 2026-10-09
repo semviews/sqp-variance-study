@@ -1,0 +1,30 @@
+{"key": "2ba28a1b28698434", "role": "operator", "t": 1790964864.477, "seconds": 3.912, "output": "[{\"index\":\"31505\",\"cluster_name\":\"French\",\"cluster_label\":\"0\"}]"}
+{"key": "2f283aae1352c5ca", "role": "operator", "t": 1790964868.389, "seconds": 3.378, "output": "[{\"index\":\"61\",\"cluster_name\":\"Barbados\",\"cluster_label\":\"1\"}]"}
+{"key": "09339ef67773b062", "role": "operator", "t": 1790964871.767, "seconds": 1.594, "output": "[\n  {\"index\":\"100452\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "8780fe2e9693ffdf", "role": "operator", "t": 1790964873.361, "seconds": 1.443, "output": "[{\"index\":\"21814\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}]"}
+{"key": "6f6d5e022b52cbda", "role": "operator", "t": 1790964874.804, "seconds": 1.589, "output": "[{\"index\":\"199194\",\"cluster_name\":\"Portugal\",\"cluster_label\":\"2\"}]"}
+{"key": "55a80c30ca3ca67f", "role": "operator", "t": 1790964876.393, "seconds": 1.753, "output": "[\n  {\"index\":\"140684\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "695293e1780fc0dd", "role": "operator", "t": 1790964878.145, "seconds": 2.775, "output": "[\n  {\"index\":\"1013\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "cc250b5ec81f54cc", "role": "operator", "t": 1790964880.92, "seconds": 4.134, "output": "[\n  {\"index\":\"149450\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "dcfb3999d90fabcc", "role": "operator", "t": 1790964885.054, "seconds": 2.277, "output": "[{\"index\":\"103762\",\"cluster_name\":\"International\",\"cluster_label\":\"3\"}]"}
+{"key": "b75879082938fa57", "role": "operator", "t": 1790964887.332, "seconds": 3.261, "output": "[{\"index\":\"189815\", \"cluster_name\":\"Spain\", \"cluster_label\":\"4\"}]"}
+{"key": "7262f1a59bb078f0", "role": "operator", "t": 1790964890.592, "seconds": 1.809, "output": "[\n  {\"index\":\"268045\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "8b5b7c14c5df4963", "role": "operator", "t": 1790964892.402, "seconds": 1.644, "output": "[\n  {\"index\":\"302177\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "c255093a45c286e0", "role": "operator", "t": 1790964894.046, "seconds": 2.04, "output": "[\n  {\"index\":\"305175\", \"cluster_name\":\"UK\", \"cluster_label\":\"5\"}\n]"}
+{"key": "0d8e4e6eb6a03cdd", "role": "operator", "t": 1790964896.087, "seconds": 3.649, "output": "[\n  {\"index\":\"129789\", \"cluster_name\":\"USA\", \"cluster_label\":\"6\"}\n]"}
+{"key": "507ee27b58ed6b49", "role": "operator", "t": 1790964899.735, "seconds": 1.479, "output": "[\n  {\"index\":\"302174\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "cd37bda3f81b9396", "role": "operator", "t": 1790964901.214, "seconds": 2.238, "output": "[\n  {\"index\":\"302172\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "96b11c1374a684e5", "role": "operator", "t": 1790964903.452, "seconds": 3.2, "output": "[\n  {\"index\":\"7895\", \"cluster_name\":\"USA\", \"cluster_label\":\"6\"}\n]"}
+{"key": "4c2be0e892c06655", "role": "operator", "t": 1790964906.652, "seconds": 3.32, "output": "[\n  {\"index\":\"6061\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "e26e012e424a1eb0", "role": "operator", "t": 1790964909.973, "seconds": 5.941, "output": "[\n  {\"index\":\"1253\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "35cbc7979545582b", "role": "operator", "t": 1790964915.913, "seconds": 3.547, "output": "[\n  {\"index\":\"1473\", \"cluster_name\":\"International\", \"cluster_label\":\"3\"}\n]"}
+{"key": "0b2ec3967fa3b091", "role": "operator", "t": 1790964919.461, "seconds": 4.381, "output": "[{\"index\":\"10990\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}]"}
+{"key": "1f3d9d0c7e8791a0", "role": "operator", "t": 1790964923.841, "seconds": 4.145, "output": "[\n  {\"index\":\"1255\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "798c71707364b7c5", "role": "operator", "t": 1790964927.987, "seconds": 1.392, "output": "[\n  {\"index\":\"627\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "c7b57290a52c7398", "role": "operator", "t": 1790964929.378, "seconds": 1.733, "output": "[\n  {\"index\":\"5119\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "137c4cfc2e964784", "role": "operator", "t": 1790964931.111, "seconds": 1.853, "output": "[\n  {\"index\":\"2823\", \"cluster_name\":\"USA\", \"cluster_label\":\"6\"}\n]"}
+{"key": "35eb011fc2c695a6", "role": "operator", "t": 1790964932.965, "seconds": 1.413, "output": "[\n  {\"index\":\"50928\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "e240f986175c78ef", "role": "operator", "t": 1790964934.378, "seconds": 2.576, "output": "[\n  {\"index\":\"1256\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "e482daf75f5a90fd", "role": "operator", "t": 1790964936.953, "seconds": 1.608, "output": "[{\"index\":\"399254\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}]"}
+{"key": "7081e68b1ed8480b", "role": "operator", "t": 1790964938.561, "seconds": 1.933, "output": "[\n  {\"index\":\"302176\", \"cluster_name\":\"French\", \"cluster_label\":\"0\"}\n]"}
+{"key": "8b3c8cb15db262b4", "role": "operator", "t": 1790964940.494, "seconds": 1.729, "output": "[\n  {\"index\":\"14039\", \"cluster_name\":\"French\",\"cluster_label\":\"0\"}\n]"}

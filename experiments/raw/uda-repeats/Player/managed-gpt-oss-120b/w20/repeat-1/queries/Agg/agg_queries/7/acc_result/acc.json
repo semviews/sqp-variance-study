@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "nationality": {
+      "precision": 0.11538461538461539,
+      "recall": 0.13043478260869565,
+      "f1": 0.12244897959183673
+    },
+    "avg_age": {
+      "precision": 0.1130968169761273,
+      "recall": 0.12784857571214392,
+      "f1": 0.12002111189303306
+    }
+  },
+  "macro_precision": 0.11424071618037135,
+  "macro_recall": 0.1291416791604198,
+  "macro_f1": 0.1212350457424349,
+  "rows": {
+    "len_gold": 23,
+    "len_pred": 26,
+    "matched_rows": 3
+  },
+  "warnings": [],
+  "used_keys": [
+    "nationality"
+  ],
+  "evaluated_columns": [
+    "nationality",
+    "avg_age"
+  ],
+  "skipped_columns": []
+}

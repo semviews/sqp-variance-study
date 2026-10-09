@@ -1,0 +1,56 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 311,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 66.582,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 8,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    0.6667,
+    0.5714
+  ],
+  "tokens": [
+    1619,
+    1056,
+    563
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        0.6667,
+        0.5714
+      ],
+      "prediction": [
+        "['AMOUNT (\u00c3\\x82\u00c2\u00a3)' 'Amount']",
+        "['DATE PAID' 'Date']",
+        "['DIRECTORATE'\n 'To match the column \\'DIRECTORATE\\' from Table Left with the corresponding column in Table Right based on the condition \"The two columns refer to the similar feature,\" we need to identify which column in Table Right best aligns with the concept of a \"Directorate.\"\\n\\nGiven the optional columns in Table Right:\\n- Department Family\\n- Entity\\n- Date\\n- Expense Type\\n- Expense Area\\n- Supplier\\n- Transaction Number\\n- Amount\\n\\nThe column that most closely resembles a \"Directorate\" is **Entity**, as it likely represents a specific organizational unit or division within a larger structure, similar to how a Directorate functions within an organization.\\n\\nTherefore, the matched column is:\\n\\nEntity']",
+        "['EFFECTIVE DATE'\n 'To determine the matched column from Table Right that corresponds to the \\'EFFECTIVE DATE\\' column in Table Left, we need to identify which of the optional columns in Table Right refers to a similar feature, i.e., a date-related attribute.\\n\\nThe optional columns in Table Right are:\\n- Department Family\\n- Entity\\n- Date\\n- Expense Type\\n- Expense Area\\n- Supplier\\n- Transaction Number\\n- Amount\\n\\nAmong these, the column that directly represents a date is **Date**. This column is likely to contain dates similar to the \\'EFFECTIVE DATE\\' column in Table Left, making it the best match based on the condition that \"The two columns refer to the similar feature.\"\\n\\nTherefore, the matched column is:\\n\\nDate']",
+        "['ORGANISATION NAME'\n 'To match the \\'ORGANISATION NAME\\' column from Table Left with the corresponding column in Table Right based on the condition that \"The two columns refer to the similar feature,\" we need to identify which column in Table Right most closely aligns with an organization name.\\n\\nGiven the optional columns in Table Right:\\n- Department Family\\n- Entity\\n- Date\\n- Expense Type\\n- Expense Area\\n- Supplier\\n- Transaction Number\\n- Amount\\n\\nThe column that most likely represents an organization name is **Entity**, as it typically denotes the name of an organization or entity involved in a transaction or record.\\n\\nTherefore, the matched column is:\\n\\nEntity']",
+        "['PURPOSE'\n \"To match the 'PURPOSE' column from Table Left to the corresponding column in Table Right, we need to identify which of the optional columns in Table Right best represents a similar feature to 'PURPOSE'. The 'PURPOSE' column typically indicates the reason or objective behind an expense or transaction.\\n\\nGiven the optional columns in Table Right:\\n- Department Family\\n- Entity\\n- Date\\n- Expense Type\\n- Expense Area\\n- Supplier\\n- Transaction Number\\n- Amount\\n\\nThe column that most closely aligns with the concept of 'PURPOSE' is **Expense Type**, as it describes the category or reason for the expense, which directly relates to the purpose of the transaction.\\n\\nTherefore, the matched column is:\\n\\nExpense Type\"]",
+        "['SUPPLIER NAME' 'Supplier']",
+        "['TRANSACTION NO.' 'Transaction Number']"
+      ],
+      "truth": [
+        "['AMOUNT (\u00c3\\x82\u00c2\u00a3)' 'Amount']",
+        "['DATE PAID' 'Date']",
+        "['EFFECTIVE DATE' 'Date']",
+        "['ORGANISATION NAME' 'Department Family']",
+        "['SUPPLIER NAME' 'Supplier']",
+        "['TRANSACTION NO.' 'Transaction Number']"
+      ]
+    }
+  ]
+}

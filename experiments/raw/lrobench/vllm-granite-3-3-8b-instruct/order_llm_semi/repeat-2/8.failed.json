@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 8,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 7.742,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 198, in pipeline_order8\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To determine the score for the age of the driver based on the provided date of birth (`dob: \"1991-04-21\"`), we first calculate the current age as of today\\'s date (2023-10-01).\\n\\n1. **Calculate Age:**\\n   - Birthdate: April 21, 1991\\n   - Current date: October 1, 2023\\n   - Age = Current year - Birth year = 2023 - 1991 = 32 years\\n   - Since April 21 has already occurred in 2023, the driver is 32 years old.\\n\\n2. **Score Interpretation:**\\n   - The metric \"the age of the driver\" typically implies that older drivers might be considered more experienced, but the exact scoring criteria can vary. For simplicity, we assume a linear scale where:\\n     - Younger drivers (e.g., under 25) score lower.\\n     - Middle-aged drivers (e.g., 25-40) score higher.\\n     - Older drivers (e.g., over 40) score near the maximum.\\n   - An age of 32 falls within the middle-aged range, suggesting a moderate to high score.\\n\\n3. **Assign Score:**\\n   - Given the age of 32, we assign a score that reflects a driver who is neither very young nor very old, placing them in a favorable position for the metric.\\n   - A reasonable score in the range of 0-100 for an age of 32, considering typical scoring where 25-40 years might be around 70-80, is **75**.\\n\\n**Output:**\\n```\\n75\\n```'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score for the age of the driver based on the provided date of birth (`dob: \"1991-04-21\"`), we first calculate the current age of the individual as of today\\'s date (2023-10-05).\\n\\n1. **Calculate Age**:\\n   - Birthdate: April 21, 1991\\n   - Current date: October 5, 2023\\n   - Age = Current year - Birth year = 2023 - 1991 = 32 years\\n   - Since April 21 has already occurred in 2023, the individual is 32 years old.\\n\\n2. **Score Inte",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: '2025-08-24'",
+      "operator_calls": 8
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

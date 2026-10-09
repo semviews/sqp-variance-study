@@ -1,0 +1,82 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 305,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 15.794,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    1330,
+    537,
+    793
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['2013-14 CALPADS Fall 1 Certification Status']",
+        "['Academic Year']",
+        "['CDSCode']",
+        "['Charter Funding Type']",
+        "['Charter School (Y/N)']",
+        "['Charter School Number']",
+        "['County Code']",
+        "['County Name']",
+        "['District Code']",
+        "['District Name']",
+        "['District Type']",
+        "['Educational Option Type']",
+        "['Enrollment (Ages 5-17)']",
+        "['Enrollment (K-12)']",
+        "['FRPM Count (Ages 5-17)']",
+        "['FRPM Count (K-12)']",
+        "['Free Meal Count (Ages 5-17)']",
+        "['Free Meal Count (K-12)']",
+        "['High Grade']",
+        "['IRC']",
+        "['Low Grade']",
+        "['NSLP Provision Status']",
+        "['Percent (%) Eligible FRPM (Ages 5-17)']",
+        "['Percent (%) Eligible FRPM (K-12)']",
+        "['Percent (%) Eligible Free (Ages 5-17)']",
+        "['Percent (%) Eligible Free (K-12)']",
+        "['School Code']",
+        "['School Name']",
+        "['School Type']"
+      ],
+      "truth": [
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['District Code' 'NCESDist']",
+        "['District Name' 'District']",
+        "['District Type ' 'DOCType']",
+        "['Educational Option Type' 'EdOpsName']",
+        "['School Name' 'School']",
+        "['School Type' 'SOCType']"
+      ]
+    }
+  ]
+}

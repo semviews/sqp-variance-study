@@ -1,0 +1,5 @@
+{"key": "8e686ce92ef0bc45", "role": "operator", "t": 1790981034.453, "seconds": 2.092, "output": "{\"spent\": \"121.14\", \"remaining\": \"28.86\", \"amount\": \"150\", \"propotion\": \"0.8076\"}"}
+{"key": "de24d9826a540cd0", "role": "operator", "t": 1790981034.453, "seconds": 2.171, "output": "{\"spent\": \"20.2\", \"remaining\": \"-0.199999999999999\", \"amount\": \"20\", \"propotion\": \"1.0\"}"}
+{"key": "eaebc5accdcc7ec2", "role": "operator", "t": 1790981034.452, "seconds": 2.179, "output": "{\"spent\": \"67.81\", \"remaining\": \"7.19\", \"amount\": \"75\", \"propotion\": \"0.90547\"}"}
+{"key": "778260998b8cb2b4", "role": "operator", "t": 1790981034.454, "seconds": 2.18, "output": "{\"spent\": \"0.0\", \"remaining\": \"25.0\", \"amount\": \"25\", \"propotion\": \"0.0\"}"}
+{"key": "8ee728e3a11c28c6", "role": "operator", "t": 1790981034.456, "seconds": 2.18, "output": "{\"spent\": \"0.0\", \"remaining\": \"75.0\", \"amount\": \"75\", \"propotion\": \"0.0\"}"}

@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 46,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 114.157,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 281,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Asia",
+      9
+    ],
+    [
+      "Europe",
+      7
+    ],
+    [
+      "North America",
+      6
+    ],
+    [
+      "Oceania",
+      1
+    ],
+    [
+      "South America",
+      1
+    ]
+  ],
+  "tokens": 76346,
+  "metrics": [],
+  "prediction": [
+    [
+      "Asia",
+      9
+    ],
+    [
+      "Europe",
+      7
+    ],
+    [
+      "North America",
+      6
+    ],
+    [
+      "Oceania",
+      1
+    ],
+    [
+      "South America",
+      1
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 103,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 7.206,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    831,
+    747,
+    84
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['Fernando' 'Alonso']",
+        "['Lewis' 'Hamilton']",
+        "['Max' 'Verstappen']",
+        "['Nico' 'Rosberg']",
+        "['Sebastian' 'Vettel']"
+      ],
+      "truth": [
+        "['Fernando' 'Alonso']",
+        "['Lewis' 'Hamilton']",
+        "['Max' 'Verstappen']",
+        "['Nico' 'Rosberg']",
+        "['Sebastian' 'Vettel']"
+      ]
+    }
+  ]
+}

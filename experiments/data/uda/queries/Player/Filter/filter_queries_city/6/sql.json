@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 6: 6 (city) */ SELECT population, state_name, city_name FROM city WHERE (state_name = 'Minnesota' AND population = '887642') OR (area >= 976.15 AND area >= 976.15)",
+  "city": {
+    "city_name": {
+      "value_type": "str",
+      "description": "city_name is the name of the city (e.g. Boston)"
+    },
+    "population": {
+      "value_type": "int",
+      "description": "population is the population of the city (e.g. 7000000)."
+    },
+    "state_name": {
+      "value_type": "str",
+      "description": "state_name is the name of the state the city is located in (e.g. California)."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{"key": "b68d94c12ce8b8af", "role": "operator", "t": 1790975888.916, "seconds": 2.189, "output": "[ \n  { \"raceId\": [\"1\", \"other_info\"]}\n]"}
+{"key": "35963f0d8cb65471", "role": "operator", "t": 1790975891.105, "seconds": 1.024, "output": "[{\"year\": [\"2\", \"time_info\"]}]"}
+{"key": "3d78f5c2f15cca48", "role": "operator", "t": 1790975892.129, "seconds": 0.867, "output": "[{\"round\": [\"3\", \"other_info\"]}]"}
+{"key": "cf3db6c0572c7d22", "role": "operator", "t": 1790975892.997, "seconds": 1.01, "output": "[ \n  { \"circuitId\": [\"4\", \"geographic_info\"]}\n]"}
+{"key": "f053ae5c7f84741b", "role": "operator", "t": 1790975894.007, "seconds": 2.424, "output": "[\n  { \"name_x\": [\"5\", \"other_info\"]}\n]"}
+{"key": "b70610c74b8bda67", "role": "operator", "t": 1790975896.431, "seconds": 2.079, "output": "[{\"date\": [\"2\", \"time_info\"]}]"}
+{"key": "8f283591fe55f483", "role": "operator", "t": 1790975898.51, "seconds": 0.885, "output": "[{\"time\": [\"2\", \"time_info\"]}]"}
+{"key": "fef513f3a2880afa", "role": "operator", "t": 1790975899.396, "seconds": 9.687, "output": "[\n  { \"url_x\": [\"6\", \"other_info\"]}\n]"}
+{"key": "d3658f738a7d0f9c", "role": "operator", "t": 1790975909.083, "seconds": 1.824, "output": "[ \n  { \"circuitRef\": [\"7\", \"geographic_info\"]}\n]"}
+{"key": "a1fdddbcbe2766aa", "role": "operator", "t": 1790975910.907, "seconds": 1.351, "output": "[\n  { \"name_y\": [\"8\", \"other_info\"]}\n]"}
+{"key": "3eb41878ce0f6f3b", "role": "operator", "t": 1790975912.258, "seconds": 0.951, "output": "[{\"location\": [\"7\", \"geographic_info\"]}]"}
+{"key": "bb3c291a8fb2c11d", "role": "operator", "t": 1790975913.209, "seconds": 1.169, "output": "[{\"country\": [\"4\", \"geographic_info\"]}]"}
+{"key": "09b0d317930b9a70", "role": "operator", "t": 1790975914.378, "seconds": 1.297, "output": "[{\"lat\": [\"7\", \"geographic_info\"]}]"}
+{"key": "09b9d3ce7c4b29e0", "role": "operator", "t": 1790975915.675, "seconds": 1.08, "output": "[{\"lng\": [\"4\", \"geographic_info\"]}]"}
+{"key": "927816de9a08589b", "role": "operator", "t": 1790975916.756, "seconds": 1.233, "output": "[\n  { \"alt\": [\"9\", \"other_info\"]}\n]"}
+{"key": "aaca3ef0311d3491", "role": "operator", "t": 1790975917.988, "seconds": 9.01, "output": "[{\"url_y\": [\"10\", \"other_info\"]}]"}

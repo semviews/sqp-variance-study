@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 2: 2 (city) */ SELECT state_name, area, city_name FROM city WHERE area <= 1314.80 AND population > '887642'",
+  "city": {
+    "area": {
+      "value_type": "float",
+      "description": "area is the area of the city in square kilometers (e.g. 89.64)."
+    },
+    "city_name": {
+      "value_type": "str",
+      "description": "city_name is the name of the city (e.g. Boston)"
+    },
+    "state_name": {
+      "value_type": "str",
+      "description": "state_name is the name of the state the city is located in (e.g. California)."
+    }
+  }
+}

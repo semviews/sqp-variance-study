@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 210,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 28.217,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    0.4167,
+    1.0,
+    0.5882
+  ],
+  "tokens": [
+    4160,
+    4129,
+    31
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4167,
+        1.0,
+        0.5882
+      ],
+      "prediction": [
+        "firstName",
+        "firstWHA",
+        "hofID",
+        "lastNHL",
+        "lastName",
+        "lastWHA",
+        "legendsID",
+        "nameGiven",
+        "nameNick",
+        "nameNote",
+        "playerID",
+        "pos"
+      ],
+      "truth": [
+        "firstName",
+        "lastName",
+        "nameGiven",
+        "nameNick",
+        "nameNote"
+      ]
+    }
+  ]
+}

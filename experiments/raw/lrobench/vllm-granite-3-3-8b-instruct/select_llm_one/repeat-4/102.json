@@ -1,0 +1,72 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 102,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 3.828,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 58,
+  "judge_calls": 0,
+  "returned": [
+    0.4286,
+    1.0,
+    0.6
+  ],
+  "tokens": [
+    8318,
+    8260,
+    58
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4286,
+        1.0,
+        0.6
+      ],
+      "prediction": [
+        "['Alameda']",
+        "['Amador']",
+        "['Contra Costa']",
+        "['El Dorado']",
+        "['Humboldt']",
+        "['Lake']",
+        "['Marin']",
+        "['Monterey']",
+        "['Napa']",
+        "['Placer']",
+        "['Sacramento']",
+        "['San Benito']",
+        "['San Francisco']",
+        "['San Mateo']",
+        "['Santa Clara']",
+        "['Santa Cruz']",
+        "['Solano']",
+        "['Sonoma']",
+        "['Stanislaus']",
+        "['Yolo']",
+        "['Yuba']"
+      ],
+      "truth": [
+        "['Alameda']",
+        "['Contra Costa']",
+        "['Marin']",
+        "['Napa']",
+        "['San Francisco']",
+        "['San Mateo']",
+        "['Santa Clara']",
+        "['Solano']",
+        "['Sonoma']"
+      ]
+    }
+  ]
+}

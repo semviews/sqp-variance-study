@@ -1,0 +1,5 @@
+{"key": "6620b4ecd2f7668d", "role": "operator", "t": 1790969255.586, "seconds": 3.885, "output": "[{\"index\":\"0\",\"cluster_name\":\"suitable\",\"cluster_label\":\"0\"}]"}
+{"key": "ecaf49cec3c0899d", "role": "operator", "t": 1790969259.471, "seconds": 1.923, "output": "[\n  {\"index\":\"11\", \"cluster_name\":\"not suitable\", \"cluster_label\":\"1\"}\n]"}
+{"key": "269df29228d981b1", "role": "operator", "t": 1790969261.395, "seconds": 2.349, "output": "[{\"index\":\"37\",\"cluster_name\":\"suitable\",\"cluster_label\":\"0\"}]"}
+{"key": "deb681de0c0479dc", "role": "operator", "t": 1790969263.744, "seconds": 1.602, "output": "[\n  {\"index\":\"45\", \"cluster_name\":\"not suitable\",\"cluster_label\":\"1\"}\n]"}
+{"key": "718fe09c87ff25c1", "role": "operator", "t": 1790969265.346, "seconds": 3.046, "output": "[{\"index\":\"73\",\"cluster_name\":\"not suitable\",\"cluster_label\":\"1\"}]"}

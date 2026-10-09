@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 8,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 59.977,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 198, in pipeline_order8\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-06-28\") and then assign a score based on that age. \\n\\nAssuming the current year is 2024 (since the actual current year is not provided), we can calculate the age as follows:\\n\\n- Year of birth: 1991\\n- Current year: 2024\\n- Age: 2024 - 1991 = 33 years\\n\\nGiven that the maximum age a person can be to have a driver\\'s license varies by country but generally falls within a range where 33 is considered relatively young to middle-aged, we can assign a score based on a scale where 0 represents the minimum driving age (typically around 16-18 years old) and 100 represents the maximum age at which one might still be driving (let\\'s assume around 80 for simplicity).\\n\\nThe formula to calculate the score based on age could be:\\n\\n\\\\[ \\\\text{Score} = \\\\left( \\\\frac{\\\\text{Age} - \\\\text{Minimum Driving Age}}{\\\\text{Maximum Driving Age} - \\\\text{Minimum Driving Age}} \\\\right) \\\\times 100 \\\\]\\n\\nUsing 16 as the minimum driving age and 80 as the maximum driving age:\\n\\n\\\\[ \\\\text{Score} = \\\\left( \\\\frac{33 - 16}{80 - 16} \\\\right) \\\\times 100 \\\\]\\n\\\\[ \\\\text{Score} = \\\\left( \\\\frac{17}{64} \\\\right) \\\\times 100 \\\\]\\n\\\\[ \\\\text{Score} = 26.5625 \\\\]\\n\\nRounding to the nearest whole number for simplicity:\\n\\n\\\\[ \\\\text{Score} \\\\approx 27 \\\\]\\n\\nTherefore, the score reflecting the \\'age of the driver\\' metric based on the provided date of birth would be approximately 27. \\n\\n\"27'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-06-28\") and then assign a score based on that age. \\n\\nAssuming the current year is 2024 (since the actual current year is not provided), we can calculate the age as follows:\\n\\n- Year of birth: 1991\\n- Current year: 2024\\n- Age: 2024 - 1991 = 33 years\\n\\nGiven that the maximum age a person can be to have a driver\\'s license varies by",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-04-21\") and assuming the current year is 2024 (since the actual current year is not provided).\\n\\n1. Calculate the age: \\n- Year of birth: 1991\\n- Current year (assumed): 2024\\n- Age = Current year - Year of birth = 2024 - 1991 = 33 years\\n\\nGiven that the maximum age a person can be to have a driver\\'s license varies by country but g",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0
+}

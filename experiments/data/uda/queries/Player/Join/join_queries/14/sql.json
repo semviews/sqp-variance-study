@@ -1,0 +1,25 @@
+{
+  "sql": "/* Query 4: multi_table_join (player, team, city) */ SELECT team.championships, city.gdp, player.team, team.team_name, city.city_name FROM player JOIN team ON player.team = team.team_name JOIN city ON team.location = city.city_name",
+  "team": {
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  },
+  "city": {
+    "city_name": {
+      "value_type": "str",
+      "description": "city_name is the name of the city (e.g. Boston)"
+    },
+    "gdp": {
+      "value_type": "str",
+      "description": "gdp is the gross domestic product of the city in millions (e.g. 7.2)."
+    }
+  },
+  "player": {
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

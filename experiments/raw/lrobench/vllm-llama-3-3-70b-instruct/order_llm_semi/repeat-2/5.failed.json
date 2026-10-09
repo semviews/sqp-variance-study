@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 5,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 6.426,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 130, in pipeline_order5\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '1961 is the release year of the movie 101 Dalmatians, to evaluate this metric, we need to consider the age of the movie. Since the task is to assign a score between 0 and 100, we can use the difference between the current year and the release year as a basis for the score. However, the current year is not provided, so we will use 2024 as a reference point for calculation purposes. The formula to calculate the score could be: score = (current_year - release_year) / (current_year - earliest_release_year_considered) * 100. Assuming the earliest release year considered is 1920 and using 2024 as the current year, the calculation would be: score = (2024 - 1961) / (2024 - 1920) * 100 = 63 / 104 * 100 = 60.58, rounding this to the nearest whole number gives us a score of 61. Therefore, the score is: \"61'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '1967 is the release year of the movie \"The Jungle Book\", which is relatively old. Considering the release year, I would give it a score of 20, since it\\'s not a recent movie. \\n\\n20'",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: '1967 is the release year of the movie \"The Jungle Book\", which is relatively old. Considering the release year, I would give it a score of 20, since it\\'s not a recent movie. \\n\\n20'",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

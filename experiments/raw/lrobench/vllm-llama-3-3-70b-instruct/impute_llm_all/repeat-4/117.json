@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 117,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 191.897,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 6,
+  "returned": [
+    0.8333,
+    0.8333
+  ],
+  "tokens": [
+    11612,
+    5689,
+    5923
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.8333,
+      "prediction": [
+        "0.33",
+        "0.01",
+        "0.56",
+        "0.33",
+        "0.43",
+        "0.12"
+      ],
+      "truth": [
+        "0.33",
+        "0.01",
+        "0.57",
+        "0.33",
+        "0.43",
+        "0.12"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.8333,
+      "prediction": [
+        "0.33",
+        "0.01",
+        "0.56",
+        "0.33",
+        "0.43",
+        "0.12"
+      ],
+      "truth": [
+        "0.33",
+        "0.01",
+        "0.57",
+        "0.33",
+        "0.43",
+        "0.12"
+      ]
+    }
+  ]
+}

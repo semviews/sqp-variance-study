@@ -1,0 +1,34 @@
+{"key": "9408b7cd73eaeb70", "role": "operator", "t": 1790971445.194, "seconds": 3.138, "output": "[\n  { \"geo_island\": [\"1\", \"Land\"] }\n]"}
+{"key": "af262210963473c5", "role": "operator", "t": 1790971448.332, "seconds": 2.236, "output": "[\n  { \"politics\": [\"2\", \"Other\"] }\n]"}
+{"key": "e8e160e646e0ecb3", "role": "operator", "t": 1790971450.568, "seconds": 2.016, "output": "[\n  { \"borders\": [\"1\", \"Land\"] }\n]"}
+{"key": "ea2a6377cd4eeb03", "role": "operator", "t": 1790971452.584, "seconds": 2.099, "output": "[\n  { \"organization\": [\"2\", \"Other\"] }\n]"}
+{"key": "0fc560d47112fe7a", "role": "operator", "t": 1790971454.683, "seconds": 2.35, "output": "[\n  { \"economy\": [\"2\", \"Other\"] }\n]"}
+{"key": "bfadb47b238b80d2", "role": "operator", "t": 1790971457.032, "seconds": 1.862, "output": "[\n  { \"religion\": [\"2\", \"Other\"] }\n]"}
+{"key": "8fc14c907d9715e0", "role": "operator", "t": 1790971458.895, "seconds": 1.349, "output": "[\n  { \"geo_desert\": [\"1\", \"Land\"] }\n]"}
+{"key": "e9996bf73844669c", "role": "operator", "t": 1790971460.243, "seconds": 1.662, "output": "[\n  { \"geo_mountain\": [\"1\", \"Land\"] }\n]"}
+{"key": "6817a6df8089ef21", "role": "operator", "t": 1790971461.906, "seconds": 1.529, "output": "[\n  { \"geo_sea\": [\"3\", \"Water\"] }\n]"}
+{"key": "29b305ebb7566ead", "role": "operator", "t": 1790971463.435, "seconds": 2.122, "output": "[\n  { \"sea\": [\"3\", \"Water\"] }\n]"}
+{"key": "b782f7abf37b504e", "role": "operator", "t": 1790971465.557, "seconds": 1.731, "output": "[\n  { \"geo_estuary\": [\"3\", \"Water\"] }\n]"}
+{"key": "0df59d8c031d09b6", "role": "operator", "t": 1790971467.288, "seconds": 1.552, "output": "[\n  { \"mergesWith\": [\"2\", \"Other\"] }\n]"}
+{"key": "5b4c83e7917dc012", "role": "operator", "t": 1790971468.841, "seconds": 2.154, "output": "[\n  { \"ethnicGroup\": [\"2\", \"Other\"] }\n]"}
+{"key": "1592bd37d2d2973e", "role": "operator", "t": 1790971470.995, "seconds": 1.52, "output": "[{\"language\": [\"2\", \"Other\"]}]"}
+{"key": "f89184a2c95e537f", "role": "operator", "t": 1790971472.516, "seconds": 1.397, "output": "[\n  { \"lake\": [\"3\", \"Water\"] }\n]"}
+{"key": "93788ee14fb503c4", "role": "operator", "t": 1790971473.912, "seconds": 2.107, "output": "[\n  { \"isMember\": [\"2\", \"Other\"] }\n]"}
+{"key": "14277b81f8855262", "role": "operator", "t": 1790971476.02, "seconds": 1.951, "output": "[\n  { \"mountain\": [\"1\", \"Land\"] }\n]"}
+{"key": "652967dbcc07c0fe", "role": "operator", "t": 1790971477.971, "seconds": 1.389, "output": "[\n  { \"population\": [\"2\", \"Other\"] }\n]"}
+{"key": "c25f8dad3991078f", "role": "operator", "t": 1790971479.36, "seconds": 2.805, "output": "[\n  { \"province\": [\"1\", \"Land\"] }\n]"}
+{"key": "36a1665102d2f495", "role": "operator", "t": 1790971482.165, "seconds": 2.659, "output": "[\n  { \"geo_source\": [\"1\", \"Land\"] }\n]"}
+{"key": "73f658149c7e12ab", "role": "operator", "t": 1790971484.823, "seconds": 1.356, "output": "[{\"island\": [\"1\", \"Land\"]}]"}
+{"key": "85b17bd50071e129", "role": "operator", "t": 1790971486.179, "seconds": 1.768, "output": "[\n  { \"city\": [\"1\", \"Land\"] }\n]"}
+{"key": "242828b36fa0edbf", "role": "operator", "t": 1790971487.947, "seconds": 1.928, "output": "[\n  { \"country\": [\"1\", \"Land\"] }\n]"}
+{"key": "44991e5018a440a0", "role": "operator", "t": 1790971489.875, "seconds": 1.84, "output": "[\n  { \"target\": [\"2\", \"Other\"] }\n]"}
+{"key": "44ffd17b28c9915e", "role": "operator", "t": 1790971491.715, "seconds": 1.602, "output": "[\n  { \"mountainOnIsland\": [\"1\", \"Land\"] }\n]"}
+{"key": "708b90da8dc5cb07", "role": "operator", "t": 1790971493.317, "seconds": 1.424, "output": "[\n  { \"geo_lake\": [\"3\", \"Water\"] }\n]"}
+{"key": "22e68ff073c8a55e", "role": "operator", "t": 1790971494.741, "seconds": 1.664, "output": "[\n  { \"encompasses\": [\"2\", \"Other\"] }\n]"}
+{"key": "d25fff4d73ad48f4", "role": "operator", "t": 1790971496.406, "seconds": 2.559, "output": "[\n  { \"geo_river\": [\"3\", \"Water\"] }\n]"}
+{"key": "be5fd699e7b137fb", "role": "operator", "t": 1790971498.965, "seconds": 1.361, "output": "[{\"desert\": [\"1\", \"Land\"]}]"}
+{"key": "1f49c046ad63df98", "role": "operator", "t": 1790971500.326, "seconds": 1.772, "output": "[\n  { \"islandIn\": [\"1\", \"Land\"] }\n]"}
+{"key": "d88688f7a67c2f7d", "role": "operator", "t": 1790971502.099, "seconds": 1.91, "output": "[\n  { \"locatedOn\": [\"2\", \"Other\"] }\n]"}
+{"key": "c632f9dec1a909d9", "role": "operator", "t": 1790971504.009, "seconds": 1.758, "output": "[\n  { \"located\": [\"1\", \"Land\"] }\n]"}
+{"key": "0677b2ea00b89d90", "role": "operator", "t": 1790971505.767, "seconds": 1.563, "output": "[\n  { \"river\": [\"3\", \"Water\"] }\n]"}
+{"key": "66e9239dc47b1e62", "role": "operator", "t": 1790971507.33, "seconds": 1.78, "output": "[{\"continent\": [\"1\", \"Land\"]}]"}

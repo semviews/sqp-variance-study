@@ -1,0 +1,4 @@
+{"key": "5b4c709fa056c7f7", "role": "operator", "t": 1790986646.303, "seconds": 1.812, "output": "{\"Date\": \"201302\", \"YearAttr\": \"Common Year\"}"}
+{"key": "04ad68c26f1e3f6e", "role": "operator", "t": 1790986646.306, "seconds": 1.932, "output": "{\"Date\": \"201308\", \"YearAttr\": \"Common Year\"}"}
+{"key": "b84485dd594620c0", "role": "operator", "t": 1790986646.305, "seconds": 1.956, "output": "{\"Date\": \"201306\", \"YearAttr\": \"Common Year\"}"}
+{"key": "2fd9830a029bf128", "role": "operator", "t": 1790986646.303, "seconds": 1.971, "output": "{\"Date\": \"201207\", \"YearAttr\": \"Leap Year\"}"}

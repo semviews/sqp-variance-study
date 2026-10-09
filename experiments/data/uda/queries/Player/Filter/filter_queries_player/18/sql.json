@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 18: 3 (player) */ SELECT olympic_gold_medals, nba_championships, age FROM player WHERE olympic_gold_medals > 1 OR position <> 'Frontcourt'",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "nba_championships": {
+      "value_type": "int",
+      "description": "number of NBA championships the player has won (e.g., 4)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  }
+}

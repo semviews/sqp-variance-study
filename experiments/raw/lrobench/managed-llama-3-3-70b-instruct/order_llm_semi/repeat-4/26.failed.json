@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 26,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 3.93,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 585, in pipeline_order26\n    lake = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '{\"type\": \"function\", \"name\": \"evaluate_lake_popularity\", \"parameters\": {\"item\": {\"type\": \"object\", \"value\": {\"index\": 92, \"Name\": \"Lake Victoria\"}}}}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the international tourism popularity of \"Lake Superior\", I need to use external knowledge. Lake Superior is one of the Great Lakes in North America, and while it has some tourism, it\\'s not as internationally renowned as some other lakes or destinations. Considering this, I would assign a moderate score. \\n\\n{\"type\": \"function\", \"name\": \"get_international_tourism_popularity_score\", \"parameters\": {\"name\": \"Lake Superior\"}}'",
+      "operator_calls": 5
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the international tourism popularity of \"Lake Huron\", I need to use external knowledge. Lake Huron is one of the Great Lakes in North America, and while it has some tourism, it is not as internationally renowned as some other lakes or destinations. Considering this, I would assign a moderate score. \\n\\n{lake_tourism_popularity:{\"lake_name\": \"Lake Huron\"}}'",
+      "operator_calls": 5
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0
+}

@@ -1,0 +1,20 @@
+{"key": "5b36b85717cc21f3", "role": "operator", "t": 1790978566.673, "seconds": 1.533, "output": "0"}
+{"key": "0850b7fa5107762d", "role": "operator", "t": 1790978566.677, "seconds": 1.567, "output": "0"}
+{"key": "1b80385fb8de6317", "role": "operator", "t": 1790978566.672, "seconds": 1.607, "output": "0"}
+{"key": "b740b8363c93105f", "role": "operator", "t": 1790978566.673, "seconds": 1.672, "output": "0"}
+{"key": "9a36ea124d3924df", "role": "operator", "t": 1790978566.677, "seconds": 1.672, "output": "0"}
+{"key": "ae9926615395bf79", "role": "operator", "t": 1790978566.675, "seconds": 1.694, "output": "0"}
+{"key": "f20bb50159e2ad2c", "role": "operator", "t": 1790978566.676, "seconds": 1.724, "output": "0"}
+{"key": "12bd14ee898e8db2", "role": "operator", "t": 1790978566.671, "seconds": 1.758, "output": "0"}
+{"key": "c9dd26ab165b3c21", "role": "operator", "t": 1790978566.674, "seconds": 1.78, "output": "0"}
+{"key": "94bea315337b537f", "role": "operator", "t": 1790978566.67, "seconds": 1.808, "output": "0"}
+{"key": "dfc663a0a972c818", "role": "operator", "t": 1790978568.243, "seconds": 0.65, "output": "0"}
+{"key": "22eefd5be0d442b4", "role": "operator", "t": 1790978568.206, "seconds": 0.733, "output": "0"}
+{"key": "cc3f0c56883efe5b", "role": "operator", "t": 1790978568.279, "seconds": 0.768, "output": "0"}
+{"key": "65b67c87cfcffdfc", "role": "operator", "t": 1790978568.346, "seconds": 0.714, "output": "0"}
+{"key": "3ed57a01b1f63a64", "role": "operator", "t": 1790978568.369, "seconds": 0.877, "output": "0"}
+{"key": "8ae5f5e14851dca7", "role": "operator", "t": 1790978568.349, "seconds": 0.899, "output": "0"}
+{"key": "88f55cf704839c1e", "role": "operator", "t": 1790978568.399, "seconds": 0.97, "output": "${compare_strings(REGION_NAME, Governorate)}"}
+{"key": "36822feca8308597", "role": "operator", "t": 1790978568.429, "seconds": 0.941, "output": "0"}
+{"key": "4a927ae3302beac9", "role": "operator", "t": 1790978568.454, "seconds": 0.917, "output": "0"}
+{"key": "c1098307784706f2", "role": "operator", "t": 1790978568.479, "seconds": 0.892, "output": "0"}

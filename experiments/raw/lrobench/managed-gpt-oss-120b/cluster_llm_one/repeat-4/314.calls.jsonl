@@ -1,0 +1,8 @@
+{"key": "a557983b4e1875f1", "role": "operator", "t": 1790976364.675, "seconds": 5.748, "output": "[\n  { \"income\": [\"1\", \"financial\"] }\n]"}
+{"key": "633b09b7c8b0035a", "role": "operator", "t": 1790976370.423, "seconds": 1.619, "output": "[\n  { \"budget\": [\"1\", \"financial\"] }\n]"}
+{"key": "eb1e4b4ecd33df5a", "role": "operator", "t": 1790976372.042, "seconds": 1.411, "output": "[\n  { \"zip_code\": [\"2\", \"people\"] }\n]"}
+{"key": "5f1f991760c896f7", "role": "operator", "t": 1790976373.453, "seconds": 1.502, "output": "[\n  { \"expense\": [\"1\", \"financial\"] }\n]"}
+{"key": "5f931ba90a83e92f", "role": "operator", "t": 1790976374.955, "seconds": 1.934, "output": "[{\"member\": [\"2\", \"people\"]}]"}
+{"key": "9fc603b7c57ed36c", "role": "operator", "t": 1790976376.888, "seconds": 2.626, "output": "[\n  { \"attendance\": [\"3\", \"event\"] }\n]"}
+{"key": "a12af2e6f46d8d63", "role": "operator", "t": 1790976379.514, "seconds": 1.574, "output": "[\n  { \"event\": [\"3\", \"event\"] }\n]"}
+{"key": "1769abe2cfae8e63", "role": "operator", "t": 1790976381.088, "seconds": 1.784, "output": "[\n  { \"major\": [\"2\", \"people\"] }\n]"}

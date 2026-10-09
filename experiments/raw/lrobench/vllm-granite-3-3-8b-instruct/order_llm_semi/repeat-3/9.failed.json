@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 9,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 7.695,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 220, in pipeline_order9\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To determine the similarity score between the title \"Gintama\" and the titles in the \"Title\" column, we need to consider how closely related or similar the title \"Gintama\" is to other titles within that column. Since we only have a single item provided with the title \"Gintama\", we can infer that the similarity of \"Gintama\" to itself is perfect.\\n\\nGiven that the task is to assign a score between 0 and 100 where a higher score indicates greater similarity, the similarity of \"Gintama\" to itself is maximally similar. Therefore, the score should be the highest possible value, which is 100.\\n\\nOutput:\\n\"100'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the similarity score between the title \"Gintama\" and the titles in the \"Title\" column, we need to consider how closely related or similar the title \"Gintama\" is to other titles typically found in a dataset. Since we only have a single item with the title \"Gintama,\" we can infer the similarity based on general knowledge about the title itself.\\n\\n\"Gintama\" is a well-known Japanese anime and manga series. When comparing it to other title",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the similarity score between the title \"Gintama\" and the titles in the \"Title\" column, we need to consider how closely related or similar the title \"Gintama\" is to other titles within that column. Since we only have a single item provided with the title \"Gintama\", we can infer that the similarity score of \"Gintama\" to itself is the highest possible, which is 100.\\n\\nGiven that the task is to assign a score between 0 and 100 based on th",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

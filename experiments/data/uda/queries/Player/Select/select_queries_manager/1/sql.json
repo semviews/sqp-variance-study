@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 1: select (manager) */ SELECT nba_team, name, own_year FROM manager",
+  "manager": {
+    "name": {
+      "value_type": "str",
+      "description": "name is the full name of the team owner (e.g. Jeanie Buss)."
+    },
+    "nba_team": {
+      "value_type": "str",
+      "description": "NBA_team is the NBA team's name the owner own, (e.g. Los Angeles Lakers)."
+    },
+    "own_year": {
+      "value_type": "int",
+      "description": "own_year is year the owner have this NBA team (e.g. 2010)."
+    }
+  }
+}

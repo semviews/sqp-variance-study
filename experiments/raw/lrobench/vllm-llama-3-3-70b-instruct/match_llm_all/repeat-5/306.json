@@ -1,0 +1,51 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 306,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 2.512,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.75,
+    0.6,
+    0.6667
+  ],
+  "tokens": [
+    284,
+    222,
+    62
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.75,
+        0.6,
+        0.6667
+      ],
+      "prediction": [
+        "['Brand' 'Brand']",
+        "['Features' 'Features']",
+        "['ID' 'ID']",
+        "['Name' 'Name']"
+      ],
+      "truth": [
+        "['Amazon_Price' 'Price']",
+        "['Brand' 'Brand']",
+        "['Features' 'Features']",
+        "['ID' 'ID']",
+        "['Original_Price' 'Price']"
+      ]
+    }
+  ]
+}

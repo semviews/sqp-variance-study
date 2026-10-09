@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 308,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 14.315,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1415, in pipeline_match308\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"```python\\ndef check_similarity(Author_ID, ArtistURL):\\n    if isinstance(Author_ID, str) and isinstance(ArtistURL, str):\\n        if 'id' in Author_ID.lower() or 'url' in ArtistURL.lower():\\n       \n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '```python\\ndef check_similarity(Author_ID, LastName):\\n    # Check if both inputs are strings\\n    if isinstance(Author_ID, str) and isinstance(LastName, str):\\n        # If both are strings, check i",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"```python\\ndef check_similarity(Author_ID, ArtistURL):\\n    if isinstance(Author_ID, str) and isinstance(ArtistURL, str):\\n        if 'id' in Author_ID.lower() or 'url' in ArtistURL.lower():\\n",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0
+}

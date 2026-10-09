@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 1: select (city) */ SELECT area, city_name, gdp FROM city",
+  "city": {
+    "area": {
+      "value_type": "float",
+      "description": "area is the area of the city in square kilometers (e.g. 89.64)."
+    },
+    "city_name": {
+      "value_type": "str",
+      "description": "city_name is the name of the city (e.g. Boston)"
+    },
+    "gdp": {
+      "value_type": "str",
+      "description": "gdp is the gross domestic product of the city in millions (e.g. 7.2)."
+    }
+  }
+}

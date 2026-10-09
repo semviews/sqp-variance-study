@@ -1,0 +1,51 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 205,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 5.492,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    1318,
+    1308,
+    10
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        1.0,
+        0.6667
+      ],
+      "prediction": [
+        "Album_Name",
+        "Copyright",
+        "Label",
+        "Released",
+        "Song_Name",
+        "Time"
+      ],
+      "truth": [
+        "Copyright",
+        "Released",
+        "Time"
+      ]
+    }
+  ]
+}

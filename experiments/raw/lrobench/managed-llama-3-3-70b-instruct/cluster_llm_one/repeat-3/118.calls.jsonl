@@ -1,0 +1,2 @@
+{"key": "7ab02a3bde5ca234", "role": "operator", "t": 1790972325.793, "seconds": 1.965, "output": "[\n  {\"index\":\"0\", \"cluster_name\": \"Europe\", \"cluster_label\": \"0\"}\n]"}
+{"key": "64ee07ac72c7c62f", "role": "operator", "t": 1790972327.758, "seconds": 1.428, "output": "{\"function\": \"assign_cluster\", \"params\": {\"row\": {\"index\": 1, \"city_name\": \"London\"}, \"existing_clusters\": {\"0\": \"Europe\"}}}"}

@@ -1,0 +1,12 @@
+{"key": "8fb7990d00320e8c", "role": "operator", "t": 1790977961.798, "seconds": 1.569, "output": "[\n  {\"name\": \"Bambi\", \"director\": \"Walt Disney\"}\n]"}
+{"key": "76a0b317bdb791b0", "role": "operator", "t": 1790977961.801, "seconds": 1.569, "output": "[\n  {\"name\": \"Atlantis: The Lost Empire\", \"director\": \"John Musker\"}\n]"}
+{"key": "97d0a0595dee6146", "role": "operator", "t": 1790977961.801, "seconds": 1.594, "output": "[\n  {\"name\": \"Pocahontas\", \"director\": \"Ron Clements\"}\n]"}
+{"key": "0945e39dacb58289", "role": "operator", "t": 1790977961.802, "seconds": 1.595, "output": "[\n  {\"name\": \"Lilo & Stitch\", \"director\": \"Dean Deblois\"}\n]"}
+{"key": "9f4cf0cf797c85b6", "role": "operator", "t": 1790977961.8, "seconds": 1.613, "output": "[\n  {\"name\": \"The Many Adventures of Winnie the Pooh\", \"director\": \"Ben Sharpsteen\"}\n]"}
+{"key": "6e9aa0d5298363af", "role": "operator", "t": 1790977961.799, "seconds": 1.615, "output": "[\n  {\"name\": \"Robin Hood\", \"director\": \"Kevin Reynolds\"}\n]"}
+{"key": "a53c91de0cad0f90", "role": "operator", "t": 1790977961.803, "seconds": 1.612, "output": "[\n  {\"name\": \"Meet the Robinsons\", \"director\": \"Stephen J. Anderson\"}\n]"}
+{"key": "fa6f4ead95bfdce0", "role": "operator", "t": 1790977961.803, "seconds": 1.614, "output": "[\n  {\"name\": \"Chicken Little\", \"director\": \"Disney\"}\n]"}
+{"key": "4902503d870f1386", "role": "operator", "t": 1790977961.802, "seconds": 1.616, "output": "[\n  {\"name\": \"Brother Bear\", \"director\": \"Disney\"}\n]"}
+{"key": "211ea5bfc49761f9", "role": "operator", "t": 1790977961.799, "seconds": 1.622, "output": "[\n  {\"name\": \"The Jungle Book\", \"director\": \"Robert Sanders\"}\n]"}
+{"key": "f57f9fba5e18c726", "role": "operator", "t": 1790977963.42, "seconds": 0.574, "output": "{\"name\": \"The Princess and the Frog\", \"director\": \"Ron Clements\"}"}
+{"key": "64b17aadb3dfe465", "role": "operator", "t": 1790977963.421, "seconds": 0.578, "output": "[\n  {\"name\": \"Frozen\", \"director\": \"Jennifer Lee\"}\n]"}

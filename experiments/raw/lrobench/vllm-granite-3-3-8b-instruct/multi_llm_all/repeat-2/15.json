@@ -1,0 +1,32 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 15,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 2,
+  "seconds": 41.793,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "TypeError: 'NoneType' object is not subscriptable",
+      "operator_calls": 24
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": 13,
+  "tokens": 9030,
+  "metrics": [],
+  "prediction": 13,
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

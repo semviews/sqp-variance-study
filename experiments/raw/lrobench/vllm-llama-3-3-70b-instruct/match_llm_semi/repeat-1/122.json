@@ -1,0 +1,60 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 122,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 7.607,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 20,
+  "judge_calls": 0,
+  "returned": [
+    0.125,
+    1.0,
+    0.2222
+  ],
+  "tokens": [
+    4420,
+    4237,
+    183
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.125,
+        1.0,
+        0.2222
+      ],
+      "prediction": [
+        "['Alistair Buchanan' 'Alistair Buchanan']",
+        "['Andrew Wright' 'Andrew Wright']",
+        "['Colin Sausman' 'Colin Sausman']",
+        "['David Ashbourne' 'David Pimm']",
+        "['David Pimm' 'David Ashbourne']",
+        "['Elizabeth Hillman' 'Elizabeth Hillman']",
+        "['Hannah Nixon' 'Hannah Nixon']",
+        "['Ian Marlee' 'Ian Marlee']",
+        "['Martin Crouch' 'Martin Crouch']",
+        "['Maxine Frerk' 'Maxine Frerk']",
+        "['Rachel Fletcher' 'Rachel Fletcher']",
+        "['Robert Hull' 'Robert Hull']",
+        "['Roy Field' 'Roy Field']",
+        "['Stephanie McGregor' 'Stephanie McGregor']",
+        "['Steve Smith' 'Steve Smith']",
+        "['Stuart Cook' 'Stuart Cook']"
+      ],
+      "truth": [
+        "['David Ashbourne' 'David Pimm']",
+        "['David Pimm' 'David Ashbourne']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{"key": "1934622ab3cda87c", "role": "operator", "t": 1790960177.272, "seconds": 1.278, "output": "0"}
+{"key": "67d3790bc29a40b2", "role": "operator", "t": 1790960177.272, "seconds": 1.296, "output": "0"}
+{"key": "8d002358653fe7b0", "role": "operator", "t": 1790960177.271, "seconds": 1.3, "output": "0"}
+{"key": "fb546da366bf8a5e", "role": "operator", "t": 1790960177.274, "seconds": 1.323, "output": "0"}
+{"key": "2d9c890b3412ebd3", "role": "operator", "t": 1790960177.272, "seconds": 1.327, "output": "0"}
+{"key": "97e763e29e4b76d0", "role": "operator", "t": 1790960177.274, "seconds": 1.339, "output": "0"}
+{"key": "57989b2746e40174", "role": "operator", "t": 1790960177.273, "seconds": 1.34, "output": "0"}
+{"key": "fb7c625296c102af", "role": "operator", "t": 1790960177.27, "seconds": 1.362, "output": "0"}
+{"key": "50dd777850cfa606", "role": "operator", "t": 1790960177.27, "seconds": 1.428, "output": "1"}
+{"key": "c14ed402d554bf6a", "role": "operator", "t": 1790960177.271, "seconds": 1.49, "output": "0"}
+{"key": "5b5d853247561ce7", "role": "operator", "t": 1790960178.55, "seconds": 0.367, "output": "0"}
+{"key": "3fe2d24571d2f8db", "role": "operator", "t": 1790960178.57, "seconds": 0.396, "output": "0"}
+{"key": "20c388d730cc82a3", "role": "operator", "t": 1790960178.598, "seconds": 0.997, "output": "Planes generally have a much larger vehicle volume compared to Motorcycles. Therefore, Item 1 ('Planes') has a higher 'The vehicle volume' metric value than Item 2 ('Motorcycles').\n\n1"}
+{"key": "3d2a76ba6a9d2452", "role": "operator", "t": 1790960178.569, "seconds": 1.027, "output": "0"}
+{"key": "cbee36986804522e", "role": "operator", "t": 1790960178.613, "seconds": 0.983, "output": "0"}
+{"key": "b2a70b2d1ae81a96", "role": "operator", "t": 1790960178.613, "seconds": 0.984, "output": "0"}
+{"key": "d7d632daa3edcaf7", "role": "operator", "t": 1790960178.598, "seconds": 0.999, "output": "0"}
+{"key": "94c056a75316e1c7", "role": "operator", "t": 1790960178.633, "seconds": 0.965, "output": "0"}
+{"key": "83bb58b974130181", "role": "operator", "t": 1790960178.698, "seconds": 0.9, "output": "0"}
+{"key": "68c9c1ce6283d421", "role": "operator", "t": 1790960178.761, "seconds": 0.838, "output": "0"}
+{"key": "3e7c76d8b312f1eb", "role": "operator", "t": 1790960178.917, "seconds": 1.335, "output": "Planes generally have a larger vehicle volume compared to Ships due to their ability to carry more cargo and passengers over longer distances. Therefore, Item 2 (Planes) has a higher 'The vehicle volume' metric value than Item 1 (Ships).\n\n0"}
+{"key": "63f72f03bf08afaa", "role": "operator", "t": 1790960178.967, "seconds": 1.289, "output": "0"}

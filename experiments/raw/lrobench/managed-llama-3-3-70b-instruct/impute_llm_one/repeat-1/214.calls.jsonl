@@ -1,0 +1,7 @@
+{"key": "b38374008a6179f5", "role": "operator", "t": 1790968805.156, "seconds": 2.066, "output": "{\"name\": \"Circuit de Spa-Francorchamps\", \"location\": \"Spa\", \"alt\": 422}"}
+{"key": "e920e844538bef0d", "role": "operator", "t": 1790968805.158, "seconds": 2.074, "output": "{\"name\": \"Circuit Park Zandvoort\", \"location\": \"Zandvoort\", \"alt\": 0}"}
+{"key": "9673f8743e4a49d6", "role": "operator", "t": 1790968805.157, "seconds": 2.076, "output": "{\"name\": \"Brands Hatch\", \"location\": \"Kent\", \"alt\": 110}"}
+{"key": "6204f8a77fa46bbb", "role": "operator", "t": 1790968805.155, "seconds": 2.08, "output": "{\"name\": \"Silverstone Circuit\", \"location\": \"Silverstone\", \"alt\": 102}"}
+{"key": "596a6a280d70265d", "role": "operator", "t": 1790968805.158, "seconds": 2.079, "output": "{\"name\": \"Zolder\", \"location\": \"Heusden-Zolder\", \"alt\": 30}"}
+{"key": "29b0c562157b766a", "role": "operator", "t": 1790968805.157, "seconds": 2.082, "output": "{\"name\": \"Donington Park\", \"location\": \"Castle Donington\", \"alt\": \"110\"}"}
+{"key": "2c3263d4de4d0781", "role": "operator", "t": 1790968805.157, "seconds": 2.503, "output": "{\"name\": \"N\u00fcrburgring\", \"location\": \"N\u00fcrburg\", \"alt\": 470}"}

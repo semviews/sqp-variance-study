@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 6,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 21.5,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 153, in pipeline_order6\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Pfalzheim\", we consider its position in the alphabet. Since \\'P\\' is the 16th letter in the English alphabet, which has 26 letters, we can calculate the score as follows:\\n\\nScore = (Position of \\'P\\' / Total number of letters) * 100\\nScore = (16 / 26) * 100\\nScore = 0.615384615 * 100\\nScore \u2248 61.54\\n\\nRounded to the nearest whole number for the purpose of this task, the score would be approximately 62. \\n\\n62'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Ashworth\", we consider its position in the alphabet. Since \\'A\\' is the first letter of the alphabet, \"Ashworth\" would be near the beginning of a sorted list of last names. \\n\\nGiven that there are 26 letters in the alphabet, we can assign a score based on the position of \\'A\\' in the alphabet. Assuming a linear distribution where \\'A\\' starts at 0 and \\'Z\\' ends at 100, \\'A\\' would correspond to",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Saveley\", we can compare it to the entire alphabet. Since \"Saveley\" starts with \"S\", which is closer to the end of the alphabet, it will receive a lower score compared to names starting with letters like \"A\" or \"B\". However, since scoring is relative and we\\'re considering the entire alphabet (26 letters), we need to determine where \"S\" falls in this range.\\n\\nThe alphabet starts with \"A\" and end",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

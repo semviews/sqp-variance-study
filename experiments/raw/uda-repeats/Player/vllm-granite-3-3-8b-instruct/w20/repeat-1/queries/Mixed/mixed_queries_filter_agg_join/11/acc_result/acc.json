@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "player.position": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    "sum_player_mvp_awards": {
+      "precision": 0.45818181818181813,
+      "recall": 0.3054545454545454,
+      "f1": 0.36654545454545445
+    }
+  },
+  "macro_precision": 0.729090909090909,
+  "macro_recall": 0.486060606060606,
+  "macro_f1": 0.5832727272727273,
+  "rows": {
+    "len_gold": 3,
+    "len_pred": 2,
+    "matched_rows": 2
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.position"
+  ],
+  "evaluated_columns": [
+    "player.position",
+    "sum_player_mvp_awards"
+  ],
+  "skipped_columns": []
+}

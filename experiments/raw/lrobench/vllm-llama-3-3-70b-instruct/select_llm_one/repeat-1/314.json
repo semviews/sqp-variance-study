@@ -1,0 +1,50 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 314,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 2,
+  "seconds": 52.911,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the 'Master' table satisfies the given condition, we need to assess if it contains information about players who have won awards in both goalie and coach positions. Without the a",
+      "operator_calls": 17
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 22,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    3408,
+    3386,
+    22
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [],
+      "truth": [
+        "AwardsCoaches",
+        "AwardsPlayers",
+        "Coaches",
+        "Master"
+      ]
+    }
+  ]
+}

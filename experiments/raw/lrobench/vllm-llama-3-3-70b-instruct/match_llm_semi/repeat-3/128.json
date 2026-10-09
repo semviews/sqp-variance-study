@@ -1,0 +1,72 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 4.397,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.2,
+    1.0,
+    0.3333
+  ],
+  "tokens": [
+    5225,
+    4965,
+    260
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2,
+        1.0,
+        0.3333
+      ],
+      "prediction": [
+        "['Arts Depot ' 'Hilldrop Community Centre']",
+        "['Battersea Arts Centre ' 'Hilldrop Community Centre']",
+        "['Bernie Grant Arts Centre ' 'Hilldrop Community Centre']",
+        "['Chats Palace ' 'Hugh Cubitt Community Centre']",
+        "['Dugdale  ' 'Hilldrop Community Centre']",
+        "['Fairfield Halls ' 'Hilldrop Community Centre']",
+        "['Harrow Arts Centre ' 'Hugh Cubitt Community Centre']",
+        "['ICA' 'Andover Estate Community Centre']",
+        "['Irish Cultural Centre ' 'Hilldrop Community Centre']",
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['OSO Arts Centre' 'Andover Estate Community Centre']",
+        "['Poplar Union ' 'Hugh Cubitt Community Centre']",
+        "['Redbridge Drama Centre ' 'Hilldrop Community Centre']",
+        "['Rich Mix ' 'Hilldrop Community Centre']",
+        "['Riverside Studios ' 'Hilldrop Community Centre']",
+        "['Southbank Centre ' 'Hilldrop Community Centre']",
+        "['Stratford Circus Arts Centre ' 'Hugh Cubitt Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Arts Centre Houndslow ' 'St Joan of Arc Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['The Landmark Arts Centre ' 'St Joan of Arc Community Centre']",
+        "['The Library at Willesdon Green' 'Hilldrop Community Centre']",
+        "['The Tabernacle' 'Hugh Cubitt Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ],
+      "truth": [
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ]
+    }
+  ]
+}

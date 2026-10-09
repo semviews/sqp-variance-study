@@ -1,0 +1,7 @@
+city.state_name,player.olympic_gold_medals,team.team_name,player.college,manager.own_year,player.id,team.id,manager.id,city.id
+Florida,1.0,Miami Heat,UCLA,1995.0,114,16,15,8
+Florida,0.0,Miami Heat,University of Kentucky,1995.0,118,16,15,8
+Florida,0.0,Miami Heat,"Williams College, University of Michigan",1995.0,119,16,15,8
+Florida,1.0,Miami Heat,Marquette University,1995.0,123,16,15,8
+Florida,0.0,Miami Heat,UCLA,1995.0,134,16,15,8
+Florida,2.0,Miami Heat,University of Kentucky,1995.0,141,16,15,8

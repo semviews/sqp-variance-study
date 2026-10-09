@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 24,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 18.242,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 8,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.8333
+  ],
+  "tokens": [
+    1837,
+    1829,
+    8
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Christopher Nolan",
+        "Janek Ambros",
+        "John Cook",
+        "Peter Jackson"
+      ],
+      "truth": [
+        "Christopher Nolan",
+        "Janek Ambros",
+        "John Cook",
+        "Peter Jackson"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.8333,
+      "prediction": [
+        "Christopher Nolan",
+        "Peter Jackson",
+        "John Cook",
+        "Janek Ambros"
+      ],
+      "truth": [
+        "Christopher Nolan",
+        "Peter Jackson",
+        "Janek Ambros",
+        "John Cook"
+      ]
+    }
+  ]
+}

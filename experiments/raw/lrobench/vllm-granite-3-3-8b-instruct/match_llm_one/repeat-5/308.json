@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 308,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 3.388,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 54,
+  "judge_calls": 0,
+  "returned": [
+    0.2857,
+    0.6667,
+    0.4
+  ],
+  "tokens": [
+    5118,
+    5064,
+    54
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2857,
+        0.6667,
+        0.4
+      ],
+      "prediction": [
+        "['Author_ID' 'Biography']",
+        "['Author_ID' 'LastName']",
+        "['MEIBI' 'Biography']",
+        "['MEIBIX' 'Biography']",
+        "['NAME' 'Biography']",
+        "['NAME' 'FirstName']",
+        "['NAME' 'LastName']"
+      ],
+      "truth": [
+        "['Author_ID' 'ArtistID']",
+        "['NAME' 'FirstName']",
+        "['NAME' 'LastName']"
+      ]
+    }
+  ]
+}

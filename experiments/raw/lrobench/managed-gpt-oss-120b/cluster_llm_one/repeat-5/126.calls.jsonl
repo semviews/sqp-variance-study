@@ -1,0 +1,20 @@
+{"key": "78b9afca91768a4f", "role": "operator", "t": 1790978707.344, "seconds": 3.189, "output": "[{\"index\":\"2\",\"cluster_name\":\"Intel Core i7-5500U\",\"cluster_label\":\"1\"}]"}
+{"key": "3490be0498b9ab91", "role": "operator", "t": 1790978710.533, "seconds": 2.247, "output": "[\n  {\"index\":\"3306\", \"cluster_name\":\"Intel Core i5-4210U\", \"cluster_label\":\"2\"}\n]"}
+{"key": "e1b5d045598164bf", "role": "operator", "t": 1790978712.78, "seconds": 2.249, "output": "[{\"index\":\"2189\",\"cluster_name\":\"Intel Core i7-4710U\",\"cluster_label\":\"3\"}]"}
+{"key": "0930017d5451cc60", "role": "operator", "t": 1790978715.029, "seconds": 2.07, "output": "[{\"index\":\"3709\",\"cluster_name\":\"Intel Core i7-4510U\",\"cluster_label\":\"4\"}]"}
+{"key": "91c70e7114e4c86d", "role": "operator", "t": 1790978717.099, "seconds": 2.629, "output": "[\n  {\"index\":\"121\", \"cluster_name\":\"Intel Core i7-2620M\", \"cluster_label\":\"5\"}\n]"}
+{"key": "a7f4fa072fb751d1", "role": "operator", "t": 1790978719.728, "seconds": 4.763, "output": "[\n  {\"index\":\"1437\", \"cluster_name\":\"Intel Core i7-4720HQ\", \"cluster_label\":\"6\"}\n]"}
+{"key": "bb275c41da96b878", "role": "operator", "t": 1790978724.492, "seconds": 2.324, "output": "[\n  {\"index\":\"1474\", \"cluster_name\":\"Intel Core i5-5200U\", \"cluster_label\":\"7\"}\n]"}
+{"key": "c0130252ff77c5fe", "role": "operator", "t": 1790978726.816, "seconds": 1.9, "output": "[{\"index\":\"1490\", \"cluster_name\":\"Intel Core i5-5200U\", \"cluster_label\":\"7\"}]"}
+{"key": "a3182aeadfc45391", "role": "operator", "t": 1790978728.715, "seconds": 1.746, "output": "[\n  {\"index\":\"1548\", \"cluster_name\":\"Intel Core i5-5200U\", \"cluster_label\":\"7\"}\n]"}
+{"key": "3d0d0272d2d7ff06", "role": "operator", "t": 1790978730.461, "seconds": 1.947, "output": "[{\"index\":\"1551\",\"cluster_name\":\"Intel Core i7-4510U\",\"cluster_label\":\"4\"}]"}
+{"key": "797f3ac51b81deba", "role": "operator", "t": 1790978732.408, "seconds": 3.68, "output": "[{\"index\":\"59\",\"cluster_name\":\"Intel Core i5-5200U\",\"cluster_label\":\"7\"}]"}
+{"key": "5c7ae10d76100aea", "role": "operator", "t": 1790978736.088, "seconds": 2.27, "output": "[{\"index\":\"426\",\"cluster_name\":\"Intel Core i7-5500U\",\"cluster_label\":\"1\"}]"}
+{"key": "8e237c055562cecb", "role": "operator", "t": 1790978738.358, "seconds": 2.229, "output": "[\n  {\"index\":\"1940\", \"cluster_name\":\"Intel Core i7-4720HQ\", \"cluster_label\":\"6\"}\n]"}
+{"key": "2f907b1dbea8bacc", "role": "operator", "t": 1790978740.587, "seconds": 2.444, "output": "[\n  {\"index\":\"1817\", \"cluster_name\":\"Intel Core i7-4720HQ\", \"cluster_label\":\"6\"}\n]"}
+{"key": "3ca4f9b902cd3758", "role": "operator", "t": 1790978743.031, "seconds": 2.163, "output": "[{\"index\":\"1643\",\"cluster_name\":\"i7-5500U\",\"cluster_label\":\"1\"}]"}
+{"key": "b7edca3eb49f6522", "role": "operator", "t": 1790978745.194, "seconds": 1.824, "output": "[\n  {\"index\":\"460\", \"cluster_name\":\"NVIDIA Tegra 3\", \"cluster_label\":\"8\"}\n]"}
+{"key": "0c7940c025193172", "role": "operator", "t": 1790978747.017, "seconds": 3.318, "output": "[{\"index\":\"535\", \"cluster_name\":\"i7-5500U\", \"cluster_label\":\"1\"}]"}
+{"key": "58371681bb8fad1e", "role": "operator", "t": 1790978750.335, "seconds": 5.252, "output": "[{\"index\":\"532\", \"cluster_name\":\"i7-5500U\", \"cluster_label\":\"1\"}]"}
+{"key": "b7578692e4761d48", "role": "operator", "t": 1790978755.587, "seconds": 1.688, "output": "[{\"index\":\"481\",\"cluster_name\":\"Intel Core i5-5200U\",\"cluster_label\":\"7\"}]"}
+{"key": "6f474c88c5767038", "role": "operator", "t": 1790978757.275, "seconds": 1.778, "output": "[{\"index\":\"1694\", \"cluster_name\":\"Intel Core i5-4210U\", \"cluster_label\":\"2\"}]"}

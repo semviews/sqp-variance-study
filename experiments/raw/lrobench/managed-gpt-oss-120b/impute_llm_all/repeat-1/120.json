@@ -1,0 +1,101 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 120,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 30.348,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 14,
+  "returned": [
+    0.8571,
+    0.8571
+  ],
+  "tokens": [
+    4684,
+    2398,
+    2286
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.8571,
+      "prediction": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "TV Special",
+        "Movie",
+        "Movie",
+        "TV Special",
+        "TV Special",
+        "Movie",
+        "TV"
+      ],
+      "truth": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "TV Special",
+        "Movie",
+        "Movie",
+        "Movie",
+        "TV Special",
+        "Movie",
+        "TV"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.8571,
+      "prediction": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "TV Special",
+        "Movie",
+        "Movie",
+        "TV Special",
+        "TV Special",
+        "Movie",
+        "TV"
+      ],
+      "truth": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "TV Special",
+        "Movie",
+        "Movie",
+        "Movie",
+        "TV Special",
+        "Movie",
+        "TV"
+      ]
+    }
+  ]
+}

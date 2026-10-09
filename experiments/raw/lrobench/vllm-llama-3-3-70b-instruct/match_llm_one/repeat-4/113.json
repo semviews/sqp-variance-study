@@ -1,0 +1,55 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 113,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 68.964,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 300,
+  "judge_calls": 0,
+  "returned": [
+    0.1818,
+    1.0,
+    0.3077
+  ],
+  "tokens": [
+    65036,
+    51960,
+    13076
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1818,
+        1.0,
+        0.3077
+      ],
+      "prediction": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Name of Official' 'Anna Wechsberg']",
+        "['Name of Official' 'Beverley Warmington']",
+        "['Name of Official' 'Lindy Cameron']",
+        "['Name of Official' 'Mark Bryson-Richardson']",
+        "['Name of Official' 'Matthew Rycroft ']",
+        "['Name of Official' 'Nicholas Dyer']",
+        "['Name of Official' 'Pete Vowles']",
+        "['Name of Official' 'Vel Gnanendran']",
+        "['Peter Storr' 'Pete Vowles']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ],
+      "truth": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ]
+    }
+  ]
+}

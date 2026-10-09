@@ -1,0 +1,48 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 202,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 61.856,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 384,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    379248,
+    378864,
+    384
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['a-456' 'b-434']",
+        "['a-569' 'b-534']",
+        "['a-701' 'b-653']"
+      ],
+      "truth": [
+        "['a-456' 'b-434']",
+        "['a-569' 'b-534']",
+        "['a-701' 'b-653']"
+      ]
+    }
+  ]
+}

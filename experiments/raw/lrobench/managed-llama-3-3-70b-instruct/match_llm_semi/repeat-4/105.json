@@ -1,0 +1,67 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 105,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 3.958,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 14,
+  "judge_calls": 0,
+  "returned": [
+    0.9231,
+    1.0,
+    0.96
+  ],
+  "tokens": [
+    2481,
+    2072,
+    409
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.9231,
+        1.0,
+        0.96
+      ],
+      "prediction": [
+        "['1575' 'California']",
+        "['1592' 'Arizona']",
+        "['1685' 'California']",
+        "['1769' 'Texas']",
+        "['2001' 'California']",
+        "['2799' 'Texas']",
+        "['3288' 'Texas']",
+        "['3660' 'Maryland']",
+        "['381' 'Florida']",
+        "['4353' 'Texas']",
+        "['4869' 'Arizona']",
+        "['615' 'Florida']",
+        "['618' 'Florida']"
+      ],
+      "truth": [
+        "['1575' 'California']",
+        "['1685' 'California']",
+        "['1769' 'Texas']",
+        "['2001' 'California']",
+        "['2799' 'Texas']",
+        "['3288' 'Texas']",
+        "['3660' 'Maryland']",
+        "['381' 'Florida']",
+        "['4353' 'Texas']",
+        "['4869' 'Arizona']",
+        "['615' 'Florida']",
+        "['618' 'Florida']"
+      ]
+    }
+  ]
+}

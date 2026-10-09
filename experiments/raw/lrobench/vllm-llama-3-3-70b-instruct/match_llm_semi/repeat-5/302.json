@@ -1,0 +1,51 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 302,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 3.557,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0,
+  "returned": [
+    0.8,
+    1.0,
+    0.8889
+  ],
+  "tokens": [
+    836,
+    828,
+    8
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8,
+        1.0,
+        0.8889
+      ],
+      "prediction": [
+        "['ADDRESS' 'SiteAddress']",
+        "['Geo Local Area' 'GeoLocalArea']",
+        "['Geom' 'Geom']",
+        "['NAME' 'Artists']",
+        "['URLLINK' 'URL']"
+      ],
+      "truth": [
+        "['ADDRESS' 'SiteAddress']",
+        "['Geo Local Area' 'GeoLocalArea']",
+        "['Geom' 'Geom']",
+        "['URLLINK' 'URL']"
+      ]
+    }
+  ]
+}

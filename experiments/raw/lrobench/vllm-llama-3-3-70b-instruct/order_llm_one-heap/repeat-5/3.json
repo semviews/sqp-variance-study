@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 3,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 9.3,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 17,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0
+  ],
+  "tokens": [
+    4140,
+    4123,
+    17
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        0.6667,
+        0.6667
+      ],
+      "prediction": [
+        "Boston",
+        "London",
+        "San Francisco"
+      ],
+      "truth": [
+        "Boston",
+        "NYC",
+        "San Francisco"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "San Francisco",
+        "London",
+        "Boston"
+      ],
+      "truth": [
+        "San Francisco",
+        "NYC",
+        "Boston"
+      ]
+    }
+  ]
+}

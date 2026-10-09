@@ -1,0 +1,4 @@
+{"key": "035e39685cd5208f", "role": "operator", "t": 1790964957.744, "seconds": 2.27, "output": "{\"city_id\": 695, \"city_name\": \"Nashville\", \"state\": \"Tennessee\", \"population\": 545524, \"area\": 473.3}"}
+{"key": "81c2b0e98b1f543a", "role": "operator", "t": 1790964957.746, "seconds": 2.331, "output": "{\"city_id\": 698, \"city_name\": \"Oklahoma City\", \"state\": \"Oklahoma\", \"population\": 506132, \"area\": 607.0}"}
+{"key": "b8eb454aa4fec7bc", "role": "operator", "t": 1790964957.745, "seconds": 2.339, "output": "{\"city_id\": 696, \"city_name\": \"Phoenix\", \"state\": \"Arizona\", \"population\": 1321045, \"area\": 474.9}"}
+{"key": "ef3ebb82fc489506", "role": "operator", "t": 1790964957.743, "seconds": 2.346, "output": "{\"city_id\": 694, \"city_name\": \"Los Angeles\", \"state\": \"California\", \"population\": 3694820, \"area\": 469.1}"}

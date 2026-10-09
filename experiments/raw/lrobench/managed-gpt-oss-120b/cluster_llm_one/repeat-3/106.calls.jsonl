@@ -1,0 +1,20 @@
+{"key": "68304162582ab0e5", "role": "operator", "t": 1790968904.326, "seconds": 4.479, "output": "[{\"index\":\"1491\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}]"}
+{"key": "f21fb2d045966d85", "role": "operator", "t": 1790968908.805, "seconds": 2.277, "output": "[{\"index\":\"2506\", \"cluster_name\": \"statistics\", \"cluster_label\": \"0\"}]"}
+{"key": "29deff230d561fb4", "role": "operator", "t": 1790968911.082, "seconds": 6.671, "output": "[{\"index\":\"5\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}]"}
+{"key": "d8eb66d9500ecedf", "role": "operator", "t": 1790968917.753, "seconds": 2.515, "output": "[\n  {\"index\":\"400\", \"cluster_name\":\"programming & software\", \"cluster_label\":\"1\"}\n]"}
+{"key": "9b2ac63bfb84fe7b", "role": "operator", "t": 1790968920.268, "seconds": 2.087, "output": "[\n  {\"index\":\"685\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}
+{"key": "da53ac84e2ca21d4", "role": "operator", "t": 1790968922.355, "seconds": 2.45, "output": "[\n  {\"index\":\"4199\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}
+{"key": "d9d3450948441115", "role": "operator", "t": 1790968924.805, "seconds": 3.506, "output": "[\n  {\"index\":\"128\", \"cluster_name\":\"programming & software\", \"cluster_label\":\"1\"}\n]"}
+{"key": "1fc831d1ca9b18fc", "role": "operator", "t": 1790968928.311, "seconds": 3.086, "output": "[\n  {\"index\":\"18674\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}
+{"key": "177280fa6af7b436", "role": "operator", "t": 1790968931.397, "seconds": 1.705, "output": "[{\"index\":\"12198\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}]"}
+{"key": "0d6dd89c2223decf", "role": "operator", "t": 1790968933.102, "seconds": 1.555, "output": "[{\"index\":\"15466\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}]"}
+{"key": "a2211cdca240b34b", "role": "operator", "t": 1790968934.657, "seconds": 2.382, "output": "[\n  {\"index\":\"39547\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}
+{"key": "05f4a6eaf21de4bb", "role": "operator", "t": 1790968937.039, "seconds": 3.225, "output": "[{\"index\":\"2334\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}]"}
+{"key": "59ebe696d97dc22f", "role": "operator", "t": 1790968940.265, "seconds": 2.12, "output": "[{\"index\":\"6\",\"cluster_name\":\"machine learning\",\"cluster_label\":\"2\"}]"}
+{"key": "945cfb0326daeb9b", "role": "operator", "t": 1790968942.384, "seconds": 3.553, "output": "[\n  {\"index\":\"116\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}
+{"key": "aafc913c0646b479", "role": "operator", "t": 1790968945.937, "seconds": 1.879, "output": "[\n  {\"index\":\"159\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}
+{"key": "2e30c1c8d0548da3", "role": "operator", "t": 1790968947.816, "seconds": 1.885, "output": "[\n  {\"index\":\"4743\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}
+{"key": "736a8f3c4f85933f", "role": "operator", "t": 1790968949.701, "seconds": 2.084, "output": "[{\"index\":\"18945\",\"cluster_name\":\"statistics\",\"cluster_label\":\"0\"}]"}
+{"key": "e4b3c8f1801a6bf3", "role": "operator", "t": 1790968951.784, "seconds": 1.821, "output": "[\n  {\"index\":\"110\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}
+{"key": "d620d8dd7fa57e9c", "role": "operator", "t": 1790968953.606, "seconds": 2.069, "output": "[{\"index\":\"550\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}]"}
+{"key": "9d700e00357bc876", "role": "operator", "t": 1790968955.675, "seconds": 2.135, "output": "[\n  {\"index\":\"21\", \"cluster_name\":\"statistics\", \"cluster_label\":\"0\"}\n]"}

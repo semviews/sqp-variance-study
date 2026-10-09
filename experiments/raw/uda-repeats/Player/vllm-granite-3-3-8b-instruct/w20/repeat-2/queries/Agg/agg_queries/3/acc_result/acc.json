@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "position": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    "avg_age": {
+      "precision": 0.8771085287088016,
+      "recall": 0.5847390191392011,
+      "f1": 0.7016868229670414
+    }
+  },
+  "macro_precision": 0.9385542643544008,
+  "macro_recall": 0.6257028429029339,
+  "macro_f1": 0.7508434114835207,
+  "rows": {
+    "len_gold": 3,
+    "len_pred": 2,
+    "matched_rows": 2
+  },
+  "warnings": [],
+  "used_keys": [
+    "position"
+  ],
+  "evaluated_columns": [
+    "position",
+    "avg_age"
+  ],
+  "skipped_columns": []
+}

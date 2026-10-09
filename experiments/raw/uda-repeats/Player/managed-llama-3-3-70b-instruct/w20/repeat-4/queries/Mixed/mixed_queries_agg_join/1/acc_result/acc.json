@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "player.team": {
+      "precision": 1.0,
+      "recall": 0.68,
+      "f1": 0.8095238095238095
+    },
+    "min_player_olympic_gold_medals": {
+      "precision": 0.4117647058823529,
+      "recall": 0.28,
+      "f1": 0.3333333333333333
+    }
+  },
+  "macro_precision": 0.7058823529411764,
+  "macro_recall": 0.48000000000000004,
+  "macro_f1": 0.5714285714285714,
+  "rows": {
+    "len_gold": 25,
+    "len_pred": 17,
+    "matched_rows": 17
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.team"
+  ],
+  "evaluated_columns": [
+    "player.team",
+    "min_player_olympic_gold_medals"
+  ],
+  "skipped_columns": []
+}

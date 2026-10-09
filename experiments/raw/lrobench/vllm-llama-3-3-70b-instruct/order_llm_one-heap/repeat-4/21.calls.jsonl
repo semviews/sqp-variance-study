@@ -1,0 +1,18 @@
+{"key": "3bcff065e62f078f", "role": "operator", "t": 1790973407.812, "seconds": 1.252, "output": "1"}
+{"key": "3c26cf57cb11b176", "role": "operator", "t": 1790973409.064, "seconds": 0.47, "output": "0"}
+{"key": "41518db70e0b7b87", "role": "operator", "t": 1790973409.534, "seconds": 0.695, "output": "1"}
+{"key": "1723b95604387147", "role": "operator", "t": 1790973410.229, "seconds": 1.081, "output": "0"}
+{"key": "bc4a78b3caeb59d4", "role": "operator", "t": 1790973411.309, "seconds": 0.738, "output": "0"}
+{"key": "ba5f819e2631c6df", "role": "operator", "t": 1790973412.048, "seconds": 0.503, "output": "0"}
+{"key": "a3984a2a357f94b0", "role": "operator", "t": 1790973412.551, "seconds": 0.506, "output": "0"}
+{"key": "4b4a2f9fb3a19bb0", "role": "operator", "t": 1790973413.057, "seconds": 0.475, "output": "0"}
+{"key": "541ae4527969aab8", "role": "operator", "t": 1790973413.533, "seconds": 0.554, "output": "0"}
+{"key": "e511547ace5f9b23", "role": "operator", "t": 1790973414.087, "seconds": 0.482, "output": "0"}
+{"key": "4f030ddfb8367512", "role": "operator", "t": 1790973414.569, "seconds": 0.503, "output": "0"}
+{"key": "26b3e1479ccb69d5", "role": "operator", "t": 1790973415.072, "seconds": 0.5, "output": "1"}
+{"key": "a340b9aa383efe9e", "role": "operator", "t": 1790973415.571, "seconds": 0.625, "output": "1"}
+{"key": "f0db279ece3a3564", "role": "operator", "t": 1790973416.197, "seconds": 0.591, "output": "0"}
+{"key": "08c9c01ccf8bc850", "role": "operator", "t": 1790973416.788, "seconds": 0.506, "output": "1"}
+{"key": "f0adf71bbfca2afe", "role": "operator", "t": 1790973417.294, "seconds": 0.519, "output": "1"}
+{"key": "8c9f1cc7048aa065", "role": "operator", "t": 1790973417.813, "seconds": 0.554, "output": "1"}
+{"key": "a4a9a2bd7cddf0b9", "role": "operator", "t": 1790973418.366, "seconds": 2.045, "output": "Micro-Star International was founded in 1986 and Lenovo was founded in 1984. Since 1986 is greater than 1984, Item 1 has a higher 'The founding time of the brand' metric value than Item 2.\n\n1"}

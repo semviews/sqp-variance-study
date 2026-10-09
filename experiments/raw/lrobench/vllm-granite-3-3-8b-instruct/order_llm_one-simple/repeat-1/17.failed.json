@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 17,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 4.164,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 389, in pipeline_order17\n    amazon = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine the market value of the brands Lenovo and Microsoft, we can refer to recent market data and brand valuation reports. As of my last update in October 2023, Microsoft consistently ranks am\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine the market value of the brands Lenovo and Toshiba, we can refer to external knowledge about the market valuation of these companies. As of my last update in October 2023, Lenovo is gener",
+      "operator_calls": 15
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine the market value of the brands Lenovo and Toshiba, we can refer to external knowledge about the market valuation of these companies. As of my last update in October 2023, Lenovo is gener",
+      "operator_calls": 17
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 17,
+  "judge_calls": 0
+}

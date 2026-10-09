@@ -1,0 +1,23 @@
+{
+  "sql": "/* Query 11: filter6_join1 (player, team) */ SELECT team.location, player.draft_year, team.ownership, player.name FROM player JOIN team ON player.team = team.team_name WHERE (team.founded_year <= 1989 AND player.college = 'University of Connecticut') OR (player.fiba_world_cup >= 1 AND player.team <> 'Milwaukee Bucks')",
+  "team": {
+    "location": {
+      "value_type": "str",
+      "description": "location is the lastest city the team team located (e.g. Los Angeles)."
+    },
+    "ownership": {
+      "value_type": "str",
+      "description": "ownership is the name of the team's owner (e.g. Jeanie Buss)."
+    }
+  },
+  "player": {
+    "draft_year": {
+      "value_type": "int",
+      "description": "the year the player was selected in the NBA draft; use format YYYY (e.g., 2003)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    }
+  }
+}

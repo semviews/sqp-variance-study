@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 7,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 1.965,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    1.0
+  ],
+  "tokens": [
+    815,
+    756,
+    59
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "prediction": [
+        "Altagar,G M",
+        "Andersen",
+        "McKenna",
+        "Rodriguez"
+      ],
+      "truth": [
+        "Altagar,G M",
+        "Piestrzeniewicz",
+        "Rodriguez",
+        "de Castro"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "Altagar,G M",
+        "McKenna",
+        "Andersen",
+        "Rodriguez"
+      ],
+      "truth": [
+        "Piestrzeniewicz",
+        "Altagar,G M",
+        "Rodriguez",
+        "de Castro"
+      ]
+    }
+  ]
+}

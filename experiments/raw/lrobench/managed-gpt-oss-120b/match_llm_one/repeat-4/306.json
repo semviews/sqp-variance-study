@@ -1,0 +1,57 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 306,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 2,
+  "seconds": 9.808,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'Please provide the ID and Description values you would like evaluated.'",
+      "operator_calls": 8
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 36,
+  "judge_calls": 0,
+  "returned": [
+    0.8,
+    0.8,
+    0.8
+  ],
+  "tokens": [
+    3180,
+    3144,
+    36
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "prediction": [
+        "['Amazon_Price' 'Price']",
+        "['Brand' 'Brand']",
+        "['Features' 'Features']",
+        "['ID' 'ID']",
+        "['Name' 'Name']"
+      ],
+      "truth": [
+        "['Amazon_Price' 'Price']",
+        "['Brand' 'Brand']",
+        "['Features' 'Features']",
+        "['ID' 'ID']",
+        "['Original_Price' 'Price']"
+      ]
+    }
+  ]
+}

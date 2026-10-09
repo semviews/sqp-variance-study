@@ -1,0 +1,1 @@
+{"key": "acf4214f5d4a3f9d", "role": "operator", "t": 1790984732.886, "seconds": 2.699, "output": "[\n  {\"Table Left\": \"ID\", \"Table Right\": \"ID\"},\n  {\"Table Left\": \"Brand\", \"Table Right\": \"Brand\"},\n  {\"Table Left\": \"Name\", \"Table Right\": \"Name\"},\n  {\"Table Left\": \"Features\", \"Table Right\": \"Features\"}\n]"}

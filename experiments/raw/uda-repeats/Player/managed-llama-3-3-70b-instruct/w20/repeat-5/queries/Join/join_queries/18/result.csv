@@ -1,0 +1,12 @@
+player.nationality,player.olympic_gold_medals,team.location,manager.nba_team,player.draft_pick,player.id,team.id,manager.id
+USA,,Detroit,Detroit Pistons,22.0,24,9,1
+USA,0.0,Detroit,Detroit Pistons,2.0,30,9,1
+USA,2.0,Miami,Miami Heat,5.0,114,16,15
+USA,,Miami,Miami Heat,13.0,118,16,15
+American || Hawaiian,,Miami,Miami Heat,,119,16,15
+USA,1.0,Detroit,Detroit Pistons,1.0,121,9,1
+USA,1.0,Miami,Miami Heat,30.0,123,16,15
+USA,,Detroit,Detroit Pistons,5.0,126,9,1
+USA || Mexico,2019.0,Miami,Miami Heat,18.0,134,16,15
+USA || Jamaican,,Detroit,Detroit Pistons,5.0,135,9,1
+USA || Nigeria,2.0,Miami,Miami Heat,14.0,141,16,15

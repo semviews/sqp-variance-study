@@ -1,0 +1,64 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 115,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 7.248,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    703,
+    580,
+    123
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['Arabian Sea']",
+        "['Arctic Ocean']",
+        "['Atlantic Ocean']",
+        "['Caribbean Sea']",
+        "['Gulf of Aden']",
+        "['Indian Ocean']",
+        "['Mediterranean Sea']",
+        "['Pacific Ocean']",
+        "['South China Sea']",
+        "['Sulawesi Sea']",
+        "['Sunda Sea']"
+      ],
+      "truth": [
+        "['Arabian Sea']",
+        "['Arctic Ocean']",
+        "['Atlantic Ocean']",
+        "['Caribbean Sea']",
+        "['Gulf of Aden']",
+        "['Indian Ocean']",
+        "['Mediterranean Sea']",
+        "['Pacific Ocean']",
+        "['South China Sea']",
+        "['Sulawesi Sea']",
+        "['Sunda Sea']"
+      ]
+    }
+  ]
+}

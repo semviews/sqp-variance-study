@@ -1,0 +1,8 @@
+{"key": "6b3111e870b80ee2", "role": "operator", "t": 1790969743.663, "seconds": 3.005, "output": "[{\"index\":\"6\",\"cluster_name\":\"England\",\"cluster_label\":\"0\"}]"}
+{"key": "fb7eee4e7bf6446e", "role": "operator", "t": 1790969746.668, "seconds": 2.911, "output": "[\n  {\"index\":\"7\", \"cluster_name\":\"USA\", \"cluster_label\":\"1\"}\n]"}
+{"key": "cfacaa6d11d43261", "role": "operator", "t": 1790969749.579, "seconds": 1.557, "output": "[\n  {\"index\":\"8\", \"cluster_name\": \"USA\", \"cluster_label\": \"1\"}\n]"}
+{"key": "8a2c9fb51008f4f8", "role": "operator", "t": 1790969751.137, "seconds": 2.115, "output": "[\n  {\"index\":\"9\", \"cluster_name\":\"Spain\", \"cluster_label\":\"2\"}\n]"}
+{"key": "cfff7b269ee40a54", "role": "operator", "t": 1790969753.251, "seconds": 3.097, "output": "[\n  {\"index\":\"10\", \"cluster_name\":\"USA\", \"cluster_label\":\"1\"}\n]"}
+{"key": "51b92910e2d053d3", "role": "operator", "t": 1790969756.349, "seconds": 1.512, "output": "[\n  {\"index\":\"11\", \"cluster_name\":\"Norway\", \"cluster_label\":\"3\"}\n]"}
+{"key": "0d4bf252b9b4ebc1", "role": "operator", "t": 1790969757.861, "seconds": 1.997, "output": "[\n  {\"index\":\"12\", \"cluster_name\":\"Switzerland\", \"cluster_label\":\"4\"}\n]"}
+{"key": "2b41591627e58c4a", "role": "operator", "t": 1790969759.859, "seconds": 2.164, "output": "[\n  {\"index\":\"13\", \"cluster_name\":\"England\", \"cluster_label\":\"0\"}\n]"}

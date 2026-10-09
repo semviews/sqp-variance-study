@@ -1,0 +1,10 @@
+{"key": "7a2b0da89aa6fd63", "role": "operator", "t": 1790986943.481, "seconds": 2.189, "output": "{\"event_name\": \"Women's Soccer\", \"event_date\": \"2019-10-05T12:00:00\", \"season\": \"2019-2020\"}"}
+{"key": "d178e432310cce30", "role": "operator", "t": 1790986943.481, "seconds": 2.304, "output": "{ \"event_name\": \"Spring Elections\", \"event_date\": \"2019-11-24T09:00:00\", \"season\": \"Fall\" }"}
+{"key": "a7101574c31e40ee", "role": "operator", "t": 1790986943.481, "seconds": 2.312, "output": "{\"event_name\": \"Officers meeting - March\", \"event_date\": \"2020-03-10T09:30:00\", \"season\": \"Spring\"}"}
+{"key": "39313461678e83f9", "role": "operator", "t": 1790986943.48, "seconds": 2.316, "output": "{\"event_name\": \"March Meeting\", \"event_date\": \"2020-03-10T12:00:00\", \"season\": \"Spring\"}"}
+{"key": "e3072c1c2b250a96", "role": "operator", "t": 1790986943.482, "seconds": 2.316, "output": "{\"event_name\": \"Laugh Out Loud\", \"event_date\": \"2019-10-24T13:00:00\", \"season\": \"Fall\"}"}
+{"key": "85029dd4356b297e", "role": "operator", "t": 1790986943.484, "seconds": 2.325, "output": "{\"event_name\": \"Football game\", \"event_date\": \"2019-09-12T06:00:00\", \"season\": \"2019-2020\"}"}
+{"key": "ef502b952ae03047", "role": "operator", "t": 1790986943.48, "seconds": 2.338, "output": "{ \"event_name\": \"Officers meeting - January\", \"event_date\": \"2020-01-14T09:30:00\", \"season\": \"Winter\" }"}
+{"key": "2a0c02138a2077e4", "role": "operator", "t": 1790986943.482, "seconds": 2.339, "output": "{\"event_name\": \"April Speaker\", \"event_date\": \"2020-04-21T12:00:00\", \"season\": \"Spring\"}"}
+{"key": "b3c68efce003d456", "role": "operator", "t": 1790986943.483, "seconds": 2.341, "output": "{\"event_name\": \"March Speaker\", \"event_date\": \"2020-03-24T12:00:00\", \"season\": \"Spring\"}"}
+{"key": "be11eb23132f6045", "role": "operator", "t": 1790986943.483, "seconds": 2.389, "output": "{\"event_name\": \"October Speaker\", \"event_date\": \"2019-10-22T12:00:00\", \"season\": \"Fall\"}"}

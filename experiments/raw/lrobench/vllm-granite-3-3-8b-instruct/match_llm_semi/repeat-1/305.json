@@ -1,0 +1,82 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 305,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 63.081,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 29,
+  "judge_calls": 0,
+  "returned": [
+    0.2414,
+    0.6364,
+    0.35
+  ],
+  "tokens": [
+    9314,
+    7773,
+    1541
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2414,
+        0.6364,
+        0.35
+      ],
+      "prediction": [
+        "['2013-14 CALPADS Fall 1 Certification Status' 'StatusType']",
+        "['Academic Year'\n 'To match the \\'Academic Year\\' column from Table Left to the corresponding column in Table Right, we need to identify which of the listed optional columns in Table Right could represent the academic year. Typically, academic year information is not directly listed among the provided column names, which focus on school details, contact information, and operational codes.\\n\\nGiven the list of optional columns in Table Right, none of them explicitly denote an academic year (e.g., \"AcademicYear\", \"AY\", \"Year\", etc.). Therefore, there is no column in Table Right that directly corresponds to the \\'Academic Year\\' column from Table Left based on the condition that \"The two columns refer to the same feature.\"\\n\\n**Result:** An empty string, as no matched column exists. \\n\\n\"\"']",
+        "['CDSCode' '{CDSCode}']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['County Name' 'County']",
+        "['District Code' 'NCESDist']",
+        "['District Name' 'District']",
+        "['District Type'\n 'To provide an accurate response, I need to know the specific name of the column in Table Left that you want to match with a column in Table Right. Could you please specify the name of the column in Table Left that corresponds to the \"District Type\" you are referring to? Once I have that information, I can determine the appropriate match from the list of optional columns in Table Right.']",
+        "['Educational Option Type'\n 'To provide an accurate response, I need to know the specific \\'Educational Option Type\\' column from Table Left that you want to match with the columns listed in Table Right. Could you please specify the name of the column from Table Left that you are referring to? Once I have that information, I can determine the corresponding column from Table Right that satisfies the condition \"The two columns refer to the same feature.\"']",
+        "['Enrollment (Ages 5-17)'\n \"To determine the column in Table Right that corresponds to 'Enrollment (Ages 5-17)' in Table Left, we need to identify which column in the list of optional columns would logically represent student enrollment data for ages 5-17. \\n\\nGiven the context of the columns provided, the most relevant column that would capture enrollment information is likely **{NCESSchool}**. This column typically contains the identifier for a school, which is directly related to enrollment data for students within a specific age range (5-17).\\n\\nTherefore, the matched column is:\\n\\nNCESSchool\"]",
+        "['Enrollment (K-12)'\n \"To determine the column in Table Right that corresponds to 'Enrollment (K-12)' in Table Left, we need to identify which of the listed optional columns in Table Right would logically represent student enrollment data for K-12 schools. \\n\\nGiven the context, the most appropriate match is likely **GSserved**, as it typically denotes the number of students served, which aligns with the concept of enrollment for K-12 schools. \\n\\nTherefore, the matched column is:\\n\\nGSserved\"]",
+        "['FRPM Count (Ages 5-17)'\n \"To determine the column in Table Right that corresponds to 'FRPM Count (Ages 5-17)' in Table Left, we need to identify which of the listed optional columns in Table Right would logically represent the same feature. The 'FRPM Count (Ages 5-17)' typically refers to the Free and Reduced Price Meal Program count for students aged 5 to 17, which is a demographic or enrollment statistic related to school data.\\n\\nAmong the columns provided in Table Right, the most relevant and likely match for this feature is **{NCESSchool}**. This column likely contains the identifier for the school, which would be used to aggregate or report the FRPM count for students within that specific school, fitting the description of the same feature.\\n\\nTherefore, the matched column is:\\n\\nNCESSchool\"]",
+        "['FRPM Count (K-12)'\n 'To determine the column in Table Right that corresponds to \\'FRPM Count (K-12)\\' in Table Left, we need to identify which of the listed optional columns in Table Right would logically represent the same feature\u2014i.e., the count of Free and Reduced Price Meals (FRPM) for K-12 students.\\n\\nGiven the list of optional columns, none of them explicitly mention \"FRPM Count\" or \"Free and Reduced Price Meals.\" However, the most plausible candidate that could indirectly represent this feature is **{Charter}** or **{FundingType}**, as these might relate to funding or meal assistance programs. However, without explicit mention of FRPM, it\\'s challenging to definitively match.\\n\\nSince the condition specifies that the two columns refer to the same feature and none of the listed columns directly state \"FRPM Count (K-12),\" the safest conclusion is that no exact match exists within the provided options.\\n\\nTherefore, the answer is:\\n\\n```plaintext\\n```\\n\\n(An empty string, indicating no matched column was found.)']",
+        "['Free Meal Count (Ages 5-17)'\n 'Free Meal Count (Ages 5-17) does not directly correspond to any of the listed columns in Table Right, as those columns pertain to school and administrative details rather than meal counts. Therefore, there is no matching column that refers to the same feature.\\n\\nEmpty string: \"\"']",
+        "['Free Meal Count (K-12)' 'Free Meal Count (K-12)']",
+        "['High Grade'\n 'To provide an accurate response, I need to know the specific name of the column in Table Left that you want to match with a column in Table Right. Could you please specify the name of the \"High Grade\" column in Table Left? Once I have that information, I can determine which column in Table Right corresponds to it based on the condition that \"The two columns refer to the same feature.\"']",
+        "['IRC'\n 'To provide an accurate response, I need to know the specific name of the column in Table Left that you want to match against the columns listed in Table Right. Could you please specify the column name from Table Left that corresponds to the feature you are interested in? Once I have that information, I can determine the appropriate match from the columns in Table Right.']",
+        "['Low Grade'\n 'To provide an accurate response, I need to know the specific name of the column in the \"Low Grade\" column of Table Left that you want to match against the columns listed in Table Right. Could you please specify the exact column name from Table Left that you are referring to? Once I have that information, I can determine the corresponding column in Table Right that satisfies the condition \"The two columns refer to the same feature.\"']",
+        "['NSLP Provision Status' 'StatusType']",
+        "['Percent (%) Eligible FRPM (Ages 5-17)'\n 'Percent (%) Eligible FRPM (Ages 5-17)']",
+        "['Percent (%) Eligible FRPM (K-12)' 'Percent (%) Eligible FRPM (K-12)']",
+        "['Percent (%) Eligible Free (Ages 5-17)'\n 'To match the column \\'Percent (%) Eligible Free (Ages 5-17)\\' from Table Left to the corresponding column in Table Right, we need to identify which of the listed optional columns in Table Right could represent the same feature. The feature in question is a percentage metric related to eligibility for free meals for children aged 5-17.\\n\\nGiven the nature of the data and the typical structure of educational or demographic tables, the most plausible match would be a column that directly reports a percentage or rate related to eligibility for free or reduced-price meals for a specific age group. None of the listed columns in Table Right explicitly mention percentages or eligibility for free meals. They appear to be primarily identifiers, location details, administrative information, and operational codes.\\n\\nTherefore, based on the provided list of optional columns in Table Right, there is no column that directly corresponds to \\'Percent (%) Eligible Free (Ages 5-17)\\'. The feature described does not align with any of the listed column names, which focus on codes, addresses, statuses, and other administrative details rather than percentage metrics of eligibility.\\n\\n**Result:** An empty string, as no matched column exists. \\n\\n\"\"']",
+        "['Percent (%) Eligible Free (K-12)' 'Percent (%) Eligible Free (K-12)']",
+        "['School Code' 'NCESSchool']",
+        "['School Name' 'School']",
+        "['School Type'\n 'To provide an accurate response, I need to know the specific name of the column in Table Left that corresponds to the \"School Type\" feature. Could you please provide the exact column name from Table Left that you want to match against the columns listed in Table Right?']"
+      ],
+      "truth": [
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['District Code' 'NCESDist']",
+        "['District Name' 'District']",
+        "['District Type ' 'DOCType']",
+        "['Educational Option Type' 'EdOpsName']",
+        "['School Name' 'School']",
+        "['School Type' 'SOCType']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 127,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 7.032,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 761, in pipeline_match127\n    merged_df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine whether 'Southfields' and 'West Hampstead' are in adjacent wards in the UK, we need to consider the geographical locations and ward boundaries. However, without access to a specific tool\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To solve this, we would typically need a database or API that maps UK building names or locations to their respective wards and then checks for adjacency. However, without access to such specific too",
+      "operator_calls": 18
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether \\'Southfields\\' and \\'West Hampstead\\' are in adjacent wards in the UK, we need to consider the geographical locations and ward boundaries. However, without a specific tool or da",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 16,
+  "judge_calls": 0
+}

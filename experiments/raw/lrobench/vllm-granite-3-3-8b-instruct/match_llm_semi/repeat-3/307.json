@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 307,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 24.585,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0,
+  "returned": [
+    0.2,
+    0.5,
+    0.2857
+  ],
+  "tokens": [
+    2345,
+    1051,
+    1294
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2,
+        0.5,
+        0.2857
+      ],
+      "prediction": [
+        "['ADDRESS'\n 'To determine the column in Table Right that best matches the \\'ADDRESS\\' column in Table Left, we need to identify which of the optional columns in Table Right contains similar type of information to an address. An address typically includes a street name, city, state, and zip code.\\n\\nFrom the list of optional columns in Table Right:\\n- **{STREET}**: Likely contains the street name part of an address.\\n- **{CITY}**: Likely contains the city part of an address.\\n- **{STATE}**: Likely contains the state part of an address.\\n- **{ZIP}**: Likely contains the zip code part of an address.\\n\\nSince an address is composed of these components, the most comprehensive match would be a column that can represent the full address. However, none of the columns alone represent the complete address. The closest match that aligns with the \"similar type of information\" condition is the **{STREET}** column, as it directly corresponds to the street component of an address, which is a fundamental part of any address.\\n\\nTherefore, the matched column is:\\n\\n`STREET`']",
+        "['Geo Local Area'\n 'To determine the matched column from Table Right that corresponds to the \\'Geo Local Area\\' column in Table Left, we need to identify which of the optional columns in Table Right contains similar type of information, such as a location or area name.\\n\\nGiven the list of optional columns in Table Right:\\n- {EIN}\\n- {NAME}\\n- {ICO}\\n- {STREET}\\n- {CITY}\\n- {STATE}\\n- {ZIP}\\n- {GROUP}\\n- {SUBSECTION}\\n- {AFFILIATION}\\n- {CLASSIFICATION}\\n- {RULING}\\n- {DEDUCTIBILITY}\\n- {FOUNDATION}\\n- {ACTIVITY}\\n- {ORGANIZATION}\\n- {STATUS}\\n- {TAX_PERIOD}\\n- {ASSET_CD}\\n- {INCOME_CD}\\n- {FILING_REQ_CD}\\n- {PF_FILING_REQ_CD}\\n- {ACCT_PD}\\n- {ASSET_AMT}\\n- {INCOME_AMT}\\n- {REVENUE_AMT}\\n- {NTEE_CD}\\n- {SORT_NAME}\\n\\nThe column that most closely matches the concept of a \"Geo Local Area\" (i.e., a geographic location) is **{CITY}**, as it directly refers to a city, which is a local area within a state or region.\\n\\nTherefore, the matched column is:\\n\\nCITY']",
+        "['Geom'\n 'To determine the matched column from Table Right that corresponds to the \\'Geom\\' column in Table Left, we need to consider the condition that \"The two columns refer to the similar type of information.\" Since \\'Geom\\' typically stands for \"Geometric\" data, it likely contains spatial or location-based information.\\n\\nReviewing the optional columns in Table Right:\\n- **EIN**: Employer Identification Number (numeric identifier)\\n- **NAME**: Name of an entity (textual)\\n- **ICO**: Likely an identifier or code (textual/numeric)\\n- **STREET**: Street address (textual)\\n- **CITY**: City name (textual)\\n- **STATE**: State name or abbreviation (textual)\\n- **ZIP**: Postal code (numeric/textual)\\n- **GROUP**: Group classification (textual)\\n- **SUBSECTION**: Subsection classification (textual)\\n- **AFFILIATION**: Affiliation details (textual)\\n- **CLASSIFICATION**: Classification type (textual)\\n- **RULING**: Ruling or decision (textual)\\n- **DEDUCTIBILITY**: Deductibility status (textual)\\n- **FOUNDATION**: Foundation details (textual)\\n- **ACTIVITY**: Activity type (textual)\\n- **ORGANIZATION**: Organization details (textual)\\n- **STATUS**: Status of an entity (textual)\\n- **TAX_PERIOD**: Tax period (textual/numeric)\\n- **ASSET_CD**: Asset code (textual/numeric)\\n- **INCOME_CD**: Income code (textual/numeric)\\n- **FILING_REQ_CD**: Filing requirement code (textual/numeric)\\n- **PF_FILING_REQ_CD**: Personal Filing requirement code (textual/numeric)\\n- **ACCT_PD**: Accounting period (textual/numeric)\\n- **ASSET_AMT**: Asset amount (numeric)\\n- **INCOME_AMT**: Income amount (numeric)\\n- **REVENUE_AMT**: Revenue amount (numeric)\\n- **NTEE_CD**: National Taxonomy of Exempt Entities code (textual)\\n- **SORT_NAME**: Sorted name (textual)\\n\\nAmong these, **STREET**, **CITY**, **STATE**, and **ZIP** are directly related to location information, which aligns with the spatial nature of \\'Geom\\'. However, the most direct match for a geometric or spatial reference is **STREET**, as it explicitly denotes a location within a city and state, providing a precise point or line on a map.\\n\\nTherefore, the matched column is:\\n\\n**STREET**']",
+        "['SCHOOL_CATEGORY'\n 'To determine the column in Table Right that matches the \\'SCHOOL_CATEGORY\\' column in Table Left, we need to identify which of the listed optional columns in Table Right contains information similar to a school category. \\n\\nGiven the list of optional columns in Table Right:\\n- {EIN}\\n- {NAME}\\n- {ICO}\\n- {STREET}\\n- {CITY}\\n- {STATE}\\n- {ZIP}\\n- {GROUP}\\n- {SUBSECTION}\\n- {AFFILIATION}\\n- {CLASSIFICATION}\\n- {RULING}\\n- {DEDUCTIBILITY}\\n- {FOUNDATION}\\n- {ACTIVITY}\\n- {ORGANIZATION}\\n- {STATUS}\\n- {TAX_PERIOD}\\n- {ASSET_CD}\\n- {INCOME_CD}\\n- {FILING_REQ_CD}\\n- {PF_FILING_REQ_CD}\\n- {ACCT_PD}\\n- {ASSET_AMT}\\n- {INCOME_AMT}\\n- {REVENUE_AMT}\\n- {NTEE_CD}\\n- {SORT_NAME}\\n\\nThe column that most closely aligns with a \"school category\" is **{CLASSIFICATION}**, as it typically denotes a category or type of classification, which could include educational institutions or school categories.\\n\\nTherefore, the matched column is:\\n\\nCLASSIFICATION']",
+        "['SCHOOL_NAME' 'NAME']"
+      ],
+      "truth": [
+        "['ADDRESS' 'STREET']",
+        "['SCHOOL_NAME' 'NAME']"
+      ]
+    }
+  ]
+}

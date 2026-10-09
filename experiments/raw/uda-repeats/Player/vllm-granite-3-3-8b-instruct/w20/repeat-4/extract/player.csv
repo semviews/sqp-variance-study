@@ -1,0 +1,142 @@
+ID,age,birth_date,college,draft_pick,draft_year,fiba_world_cup,mvp_awards,name,nationality,nba_championships,olympic_gold_medals,position,team
+1,30,1994/02/02,Southeast Missouri State University,,2017,,0,Antonius Cleveland,USA,0,,Frontcourt,Lokomotiv Kuban
+2,66,1959/6/10,Michigan State University,24,1981,,0,Jay Fletcher Vincent,USA,0,,Frontcourt,Dallas Mavericks||Washington Bullets||Denver Nuggets||San Antonio Spurs||Philadelphia 76ers||Los Angeles Lakers
+3,31,1994/04/25,,57,2015,0,0,Nikola Radičević,Serbia,,,Backcourt,Denver Nuggets||Detroit Pistons||New York Knicks
+4,82,1922/9/9,University of Notre Dame,,,,0,Francis Hugh Curran Sr.,USA,,,Backcourt,Rochester Royals
+5,61,1964/2/15,Georgia Tech,25,1986,1,0,William Mark Price,USA,0,2,Backcourt,Cleveland Cavaliers||Washington Bullets||Golden State Warriors||Orlando Magic
+6,29,1994/6/6,,,2016,,0,David Michineau,France,,,Frontcourt,Los Angeles Clippers||Sacramento Kings||Brooklyn Nets
+7,27,1997/8/7,Alabama Crimson Tide,,2019,,0,Donta Hall,USA||Azerbaijan,,,Frontcourt,Saski Baskonia
+8,51,1973/11/25,University of Nebraska,,1996,,0,"Demerick Montae ""Erick"" Strickland",USA,,,Backcourt,Dallas Mavericks||New York Knicks||Vancouver Grizzlies||Boston Celtics||Indiana Pacers||Milwaukee Bucks
+9,81,1943/12/23,Texas Western College,10,1967,,0,David Lattin,USA,0,0,Frontcourt,San Francisco Warriors||Phoenix Suns||Pittsburgh Condors||Memphis Tams||Harlem Globe Trotters
+10,74,1942/9/7,University of Connecticut,,,,0,Thomas Kimball,USA,,,Frontcourt,Boston Celtics||San Diego Rockets||Milwaukee Bucks||Kansas City Kings||Philadelphia 76ers||New Orleans Jazz
+11,50,1974/8/3,University of Missouri,,,,0,William Derek Grimm,USA,,,Frontcourt,Sacramento Kings
+12,2025,1994/2/2,Kentucky Wildcats,1,2012,1,1,Anthony Davis,USA,2,2,Frontcourt,Los Angeles Lakers
+13,37,1987/10/5,University of North Carolina at Chapel Hill,8,2007,,0,Brandan Keith Wright,USA,0,0,Frontcourt,Dallas Mavericks||Houston Rockets
+14,53,1971/12/03,Kansas State University,,1994,0,0,Askia Rahman Jones,USA||Venezuela,,,Backcourt,Minnesota Timberwolves||Venezuela national basketball team
+15,33,1990/8/17,Arizona State University || College of Southern Idaho,33,2013,,0,Carrick Felix,USA,0,0,Backcourt,Cleveland Cavaliers||Utah Jazz||Santa Cruz Warriors||Long Island Nets||Washington Wizards||Melbourne United
+16,31,1988/6/1,Pepperdine University,,2011,0,0,Mychel Thompson,USA,0,0,Backcourt,Erie BayHawks||Cleveland Cavaliers||Erie BayHawks||Sioux Falls Skyforce||Santa Cruz Warriors||Pallacanestro Varese||Santa Cruz Warriors
+17,75,1950/1/29,Utah State University,,1971,,0,Marvin Roberts,USA,0,0,Frontcourt,Los Angeles Lakers
+18,65,1959/9/19,Pan American University,41,1981,,0,"Kenneth ""Apple"" Green",USA,,,Frontcourt,New York Knicks
+19,56,1969/4/18,"University of California, Los Angeles (UCLA)",,1993,,0,Gerald Madkins Jr.,USA,,,Backcourt,Los Angeles Clippers
+20,65,1930/11/1,Southwest Missouri State University,26,1954,,0,Donald Robert Anielak,USA,,,Frontcourt,New York Knicks
+21,80,1945/9/17,University of North Dakota,24,1967,1,0,Phil Jackson,USA,11,0,Frontcourt,Los Angeles Lakers||New York Knicks
+22,55,1969/10/18,Seton Hall University,15,1991,,0,Anthony Avent,USA,,,Frontcourt,Milwaukee Bucks||Orlando Magic||Vancouver Grizzlies||Utah Jazz||Los Angeles Clippers||Panathinaikos||PAOK BC
+23,33,1990/7/12,UCLA || New Mexico,,2012,,0,Drew Edward Gordon,USA,0,0,Frontcourt,Philadelphia 76ers||Delaware 87ers
+24,41,1983/10/28,Georgia Tech,22,2005,1,0,Jarrett Matthew Jack,USA,0,0,Backcourt,Detroit Pistons
+25,51,1973/8/22,Thomas More College,,,,0,Rick Hughes,USA,,,Frontcourt,Dallas Mavericks||Atlanta Hawks
+26,29,1989/2/4,Temple University,50,2011,,0,Lavoy Allen,USA,0,0,Frontcourt,Dallas Mavericks||Atlanta Hawks||Philadelphia 76ers||Indiana Pacers||Northern Arizona Suns||Capital City Go-Go
+27,86,1926/1/31,Duquesne,44,1950,,0,Edward Dahler Jr.,USA,,,Backcourt,Philadelphia Warriors
+28,33,1994/2/2,Michigan State University,24,1981,1,3,"Earvin ""Magic"" Johnson",USA,5,3,Backcourt,||
+29,71,1920/9/19,,,,,0,Stanley M. Noszka || Youngstown Bears (1945–46) || Pittsburgh Ironmen (1946–47) || Boston Celtics (1947–48),USA,,,Backcourt,Pittsburgh Ironmen||Boston Celtics
+30,34,1961/4/30,Indiana University,2,1981,1,1,Isiah Thomas,USA,2,2,Backcourt,Detroit Pistons
+31,74,1951/1/1,"The context provided does not mention any college that the player, Dan Anderson (basketball, born 1951), attended. Therefore, the answer is:",6,1974,,0,Daniel Edward Anderson,USA,,1951,Frontcourt,Portland Trail Blazers
+32,29,1995/12/15,Duke University,3,2015,1,0,Jahlil Okafor,USA||Nigeria,0,2,Frontcourt,Capitanes de Arecibo||
+33,65,1959/12/20,University of Minnesota,6,1982,,0,Kelvin Trent Tucker,USA,1,,Backcourt,New York Knicks||San Antonio Spurs||Chicago Bulls
+34,43,1968/10/14,University of Florida,24,1990,,0,Dwayne Schintzius,USA,0,0,Frontcourt,San Antonio Spurs||Sacramento Kings||New Jersey Nets||Indiana Pacers||Los Angeles Clippers||Boston Celtics||Mobile Revelers||Brevard Blue Ducks
+35,49,1975/11/21,University of Arizona,,1999,,0,Miles Julian Simon,USA,,0,Backcourt,Los Angeles Lakers||Phoenix Suns
+36,66,1935/9/1,Temple University,,1958,,0,Guy William Rodgers,USA,0,,Backcourt,Philadelphia Warriors||Chicago Bulls||Cincinnati Royals||Milwaukee Bucks
+37,60,1965/9/12,University of Florida,57,1988,,0,Vernon Maxwell,USA,2,0,Backcourt,San Antonio Spurs||Houston Rockets||Seattle SuperSonics
+38,31,1994/4/25,Wake Forest Demon Deacons,1,1997,2,2,Tim Duncan,USA,5,2,Frontcourt,San Antonio Spurs
+39,61,1964/5/14,St. John's University,14,1986,,0,Walter Berry,USA,,1,Frontcourt,Portland Trail Blazers||San Antonio Spurs||New Jersey Nets||Houston Rockets
+40,45,1930/8/29,Stanford University,,1957,,0,James Patrick Walsh,USA,,1,Frontcourt,Philadelphia Warriors
+41,51,1974/1/28,Kentucky,16,1996,,0,Tony Lorenzo Delk,USA,0,0,Backcourt,Dallas Mavericks||Atlanta Hawks
+42,81,1937/7/13,NYU,13,1959,,0,Calvin Ramsey,USA,0,0,Frontcourt,New York Knicks||St. Louis Hawks||Syracuse Nationals
+43,35,1930/2/17,,,1953,,0,Eugene Walter Dyker,USA,,,Frontcourt,Milwaukee Hawks
+44,58,1967/7/3,University of Missouri,16,1988,,0,Derrick Joseph Chievous,USA,0,,Frontcourt,Houston Rockets||Cleveland Cavaliers
+45,57,1966/8/23,Marist College,2,1988,1,1,Rik Smits,Netherlands,0,0,Frontcourt,Indiana Pacers
+46,23,2001/8/5,Georgia Bulldogs,1,2020,1,0,Anthony Edwards,USA,0,1,Backcourt,Minnesota Timberwolves
+47,88,1927/4/26,Northeast Missouri State Teachers' College (now Truman State University) || University of Iowa,20,1948,,0,"Harry Junior ""The Horse"" Gallatin",USA,0,,Frontcourt,New York Knicks||Detroit Pistons
+48,83,1931/2/3,New York University,1952,1952,,0,James J. Brasco,USA,,,Backcourt,Syracuse Nationals||Milwaukee Hawks
+49,75,1949/8/29,San Jose State University,8,1971,1,0,Darnell Hillman,USA,0,0,Frontcourt,New Jersey Nets||Denver Nuggets||Kansas City Kings||Golden State Warriors
+50,81,1951/6/2,"The context provided does not mention any college that the player attended. Therefore, the answer is:",,,,0,,Canada,,0,Frontcourt,
+51,35,1989/2/7,University of Florida,34,2009,0,0,Nicholas William Calathes,USA || Greece,0,0,Backcourt,AS Monaco
+52,73,1952/3/11,Seattle University,169,1974,,0,Rod Derline,USA,,,Backcourt,Seattle SuperSonics
+53,51,1972/10/04,Texas Christian University,30,1995,0,0,Kurt Vincent Thomas,USA,0,0,Frontcourt,Miami Heat||Dallas Mavericks||New York Knicks||Phoenix Suns||Seattle SuperSonics||San Antonio Spurs||Milwaukee Bucks||Chicago Bulls||Portland Trail Blazers||New York Knicks
+54,31,1994/2/2,Texas Longhorns,24,2007,1,2,Kevin Durant,USA,2,4,Frontcourt,Phoenix Suns
+55,53,1971/10/2,Xavier University,,,,0,Aaron Williams,USA,,,Frontcourt,Utah Jazz||Milwaukee Bucks||Denver Nuggets||Vancouver Grizzlies||Seattle SuperSonics||Washington Wizards||New Jersey Nets||Toronto Raptors||New Orleans/Oklahoma City Hornets||Los Angeles Clippers
+56,40,1975/4/2,Lansing Community College || Central Michigan University,,2002,0,0,Nathaniel Thomas Huffman,USA,0,0,Frontcourt,Toronto Raptors
+57,73,1950/6/13,Oregon State University,5,1972,,0,Freddie L. Boyd,USA,,,Frontcourt,Philadelphia 76ers||New Orleans Jazz
+58,61,1963/12/14,University of Memphis,6,1986,,0,William Bedford,USA,2,,Frontcourt,Phoenix Suns||Detroit Pistons||San Antonio Spurs
+59,56,1969/3/31,Michigan State University,5,1991,1,0,Steven Delano Smith,USA,1,1,Backcourt,Dallas Mavericks||Washington Bullets||Denver Nuggets||San Antonio Spurs||Philadelphia 76ers||Los Angeles Lakers||Miami Heat||Atlanta Hawks||Portland Trail Blazers||New Orleans Hornets||Charlotte Bobcats
+60,53,1972/2/6,Michigan State,8,1995,,0,Shawn Christopher Respert,USA,,,Backcourt,Portland Trail Blazers||Milwaukee Bucks||Toronto Raptors||Dallas Mavericks||Phoenix Suns||Los Angeles Lakers
+61,59,1966/7/11,DePaul University,1,1988,,0,Rodney Strickland,USA,0,0,Backcourt,Miami Heat||Minnesota Timberwolves||Orlando Magic||Toronto Raptors||Houston Rockets
+62,89,1929/2/3,Bradley University,35,1951,,0,Elmer H. Behnke,USA,,,Backcourt,Milwaukee Hawks
+63,26,1997/7/9,Penn State Nittany Lions,,2020,,0,Lamar Brandon Stevens,USA,0,,Frontcourt,Memphis Grizzlies
+64,36,1988/7/14,Siena,,2010,0,0,Ronald Moore,USA,,,Backcourt,
+65,41,1984/02/21,Michigan State University,57,2005,1,0,Erazem Lorbek,Slovenia,0,0,Frontcourt,San Antonio Spurs||San Antonio Spurs (2016 NBA Summer League)
+66,92,1919/3/23,Loyola University in Chicago,,,,0,"Marvin ""Mickey"" Rottner",USA,,,Backcourt,Chicago Stags
+67,26,1998/7/31,University of Kentucky,45,2017,0,0,Hamidou Diallo,USA,0,0,Frontcourt,Capital City Go-Go
+68,37,1986/8/31,Indiana Hoosiers,29,2008,,0,"Dewayne ""D. J."" White, Jr.",USA,,0,Frontcourt,Oklahoma City Blue
+69,59,1965/9/27,University of Arizona,50,1988,1,0,Stephen Douglas Kerr,USA,9,4,Backcourt,Golden State Warriors||U.S. national team
+70,56,1968/10/3,UTEP,35,1990,,0,Gregory Clinton Foster,USA,1,,Frontcourt,Indiana Pacers
+71,80,1944/8/8,University of Southern California,,1968,,0,William Severlyn Hewitt,USA,,,Frontcourt,Los Angeles Lakers||Detroit Pistons||Buffalo Braves||Chicago Bulls
+72,34,1981/3/23,University of North Carolina at Chapel Hill,21,2001,0,0,Joseph Xavier Forte,USA,0,0,Backcourt,Boston Celtics||Seattle SuperSonics
+73,57,1967/4/24,Southeast Missouri State University || Michigan State University,40,1989,1,0,Dino Rađa,Croatia,0,0,Frontcourt,Boston Celtics||Philadelphia 76ers||Los Angeles Lakers
+74,66,1959/7/5,Oregon State University,53,1981,,0,Mark Jeffrey Radford,USA,,,Backcourt,Seattle SuperSonics
+75,35,1990/7/31,Aris || Olympiacos || FC Barcelona || Houston Rockets || Denver Nuggets,48,2012,1,0,"Konstantinos ""Kostas"" Papanikolaou",Greece,0,2,Frontcourt,Olympiacos
+76,65,1959/7/3,,,,,0,Garrett David Witts,USA,,,Backcourt,Washington Bullets
+77,23,2002/7/30,Colorado Buffaloes,57,2022,,0,Jabari Dominic Walker,USA,,,Frontcourt,Portland Trail Blazers
+78,27,1996/10/08,UNC Wilmington,,2019,,0,Devontae Calvin Cacok,USA,0,0,Frontcourt,Virtus Bologna
+79,29,1995/10/2,UCF Knights || Florida Gulf Coast Eagles,,2018,,0,Brandon Goodwin,USA,0,0,Backcourt,Cangrejeros de Santurce||Gigantes de Carolina
+80,91,1933/1/20,Notre Dame,1,1954,,0,Richard Anthony Rosenthal,USA,,,Frontcourt,Fort Wayne Pistons
+81,42,1980/3/20,University of Michigan,8,2000,1,0,Aaron Jamal Crawford,USA,0,0,Backcourt,Brooklyn Nets||
+82,33,1988/10/23,Indiana University || Xavier University,27,2010,1,0,Jordan Lee Crawford,USA,,0,Backcourt,Gigantes de Carolina
+83,60,1964/10/30,Marquette,44,1987,,0,Thomas James Copa,USA,,,Frontcourt,San Antonio Spurs||Houston Rockets||La Crosse Bobcats||Saski Baskonia||Libertas Livorno
+84,73,1951/9/17,American University,5,1973,,0,Kermit Washington,USA,0,,Frontcourt,Golden State Warriors||
+85,52,1973/5/18,University of Connecticut,4,1994,,0,Donyell Marshall,USA,0,,Frontcourt,Greensboro Swarm
+86,85,1930/1/14,University of Minnesota,,,,0,,USA,,,Backcourt,
+87,78,1947/3/7,Cheyney University of Pennsylvania,8,1970,,0,Gregory Paul Fillmore,USA,,,Frontcourt,New York Knicks
+88,71,1953/10/31,University of Maryland,1,1976,1,0,John Harding Lucas II,USA,0,0,Backcourt,Houston Rockets||Los Angeles Clippers||San Antonio Spurs||Philadelphia 76ers||Cleveland Cavaliers||Milwaukee Bucks||Washington Bullets||Golden State Warriors||Houston Rockets (previous stint)||San Antonio Spurs (previous stint)||Houston Rockets (current as of 2020)||Houston Rockets (player development coach as of 2016)
+89,57,1929/11/16,Long Island || John Marshall College,1952,1952,,0,Richard Clifford Surhoff Jr.,USA,,,Frontcourt,New York Knicks||Milwaukee Hawks
+90,79,1945/11/18,"The context provided does not mention the college Garfield Smith attended. Therefore, the answer is:",33,1968,,0,Garfield Smith,USA,,,Frontcourt,Boston Celtics||San Diego Conquistadors
+91,73,1925/3/5,Loyola University New Orleans || Canisius College,,1949,,0,Leroy Chollet,USA,0,0,Backcourt,Syracuse Nationals||Utica Pros||Elmira Colonels
+92,32,1991/10/10,Syracuse Orange,11,2013,1,0,Michael Carter-Williams,USA,0,,Backcourt,Capitanes de Ciudad de México
+93,31,1993/9/15,,17,2013,1,0,Dennis Schröder,Germany,0,0,Backcourt,Brooklyn Nets
+94,78,1936/3/13,Kansas State University,10,1958,,0,Jack Parr,USA,,,Frontcourt,Cincinnati Royals
+95,55,1958/7/26,Tennessee State University,21,1980,,0,"DaMon William ""Monti"" Davis",USA,,,Frontcourt,Philadelphia 76ers||Dallas Mavericks
+96,59,1966/2/7,"The context provided does not mention the college Eric Johnson attended. Therefore, the answer is:",,1990,,0,Eric Johnson Jones,USA||Spain,,,Backcourt,Utah Jazz
+97,60,1925/10/08,New York University,,1947,,0,Sidney Harold Tanenbaum,USA,,,Backcourt,New York Knicks||Baltimore Bullets
+98,23,2000/2/22,Indiana University,57,2023,0,0,Trayce Jackson-Davis,USA,0,0,Frontcourt,Golden State Warriors
+99,31,1993/8/10,University of Connecticut,9,2012,1,1,Andre Jamal Drummond,USA,0,0,Frontcourt,Philadelphia 76ers
+100,32,1992/12/17,Oklahoma Sooners,6,2016,1,0,Buddy Hield,Bahamas,0,0,Frontcourt,Golden State Warriors
+101,28,1996/2/23,Ohio State Buckeyes,2,2015,1,0,D'Angelo Russell,USA,0,0,Backcourt,Los Angeles Lakers
+102,31,1994/3/16,Kansas,3,2014,1,1,Joel Hans Embiid,USA||France||Cameroon,0,1,Frontcourt,Philadelphia 76ers
+103,34,1990/5/2,Fresno State University,10,2010,1,1,Paul George,USA,0,2,Frontcourt,Philadelphia 76ers
+104,31,1992/3/23,Duke University,1,2011,1,2,Kyrie Irving,USA||Australia,2,2,Frontcourt,Dallas Mavericks
+105,31,1998/3/3,Duke University,3,2017,1,1,Jayson Christopher Tatum,USA,2,2,Frontcourt,Boston Celtics
+106,29,1995/9/28,NC State Wolfpack || Nevada Wolf Pack,,2019,,0,Caleb Martin,USA,0,0,Frontcourt,Philadelphia 76ers
+107,30,1995/2/23,Kansas Jayhawks,1,2014,1,0,Andrew Christian Wiggins,Canada,1,2,Frontcourt,Golden State Warriors
+108,23,2001/2/26,Rice Owls,,2024,,0,Max Berning Fiedler,USA,,,Frontcourt,Philadelphia 76ers
+109,27,1997/7/17,Indiana University,23,2017,,0,"Ogugua ""OG"" Anunoby Jr.",UK,1,0,Frontcourt,New York Knicks
+110,28,1996/10/24,California Golden Bears,3,2016,1,1,Jaylen Brown,USA,2,2,Frontcourt,Boston Celtics
+111,20,2004/1/4,Metropolitans 92 || ASVEL,1,2023,0,0,Victor Wembanyama,France,0,1,Frontcourt,San Antonio Spurs
+112,34,1990/6/12,UCLA Bruins,17,2009,1,0,Jrue Holiday,USA,2,2,Backcourt,Boston Celtics
+113,25,1998/5/29,Wichita State Shockers || Oklahoma Sooners,,2021,1,0,Austin Reaves,USA || Germany,0,0,Frontcourt,Los Angeles Lakers
+114,36,1988/9/7,UCLA Bruins,5,2008,1,1,Kevin Love,USA,2,2,Frontcourt,Miami Heat
+115,31,1994/12/06,Milwaukee Bucks,15,2013,1,2,Giannis Sina Ugo Antetokounmpo,Greece||Nigeria,2,3,Frontcourt,Milwaukee Bucks
+116,31,1994/2/2,Davidson College,7,2009,2,2,Stephen Curry,USA,4,2,Backcourt,Golden State Warriors
+117,38,1986/6/3,University of Florida,3,2007,1,0,Al Horford,Dominican Republic,2,2,Frontcourt,Boston Celtics
+118,24,2000/1/20,University of Kentucky,13,2019,1,0,Tyler Christopher Herro,USA,0,0,Frontcourt,Miami Heat
+119,31,1994/4/22,Williams College || Michigan State University,,2018,0,0,Duncan Robinson,USA,2,2,Frontcourt,Miami Heat
+120,31,1993/9/20,UCLA,30,2014,1,0,Kyle Anderson,USA || China,0,2,Frontcourt,Golden State Warriors
+121,22,2001/9/25,Oklahoma State,1,2021,1,0,Cade Cunningham,USA,0,1,Frontcourt,Detroit Pistons
+122,30,1984/12/30,Cleveland State University,24,2003,1,4,LeBron James,USA,4,3,Frontcourt,Los Angeles Lakers
+123,35,1989/9/14,Tyler Junior College || Marquette University,30,2011,1,1,Jimmy Butler,USA,2,1,Frontcourt,Miami Heat
+124,29,1996/2/6,UCLA,30,2015,1,0,Kevon Grant Looney,USA,3,2,Frontcourt,Golden State Warriors
+125,28,1995/3/10,UCLA,13,2014,1,1,Zach LaVine,USA,0,1,Frontcourt,Chicago Bulls
+126,21,2002/2/13,Purdue Boilermakers,5,2022,0,0,Jaden Ivey,USA,0,0,Frontcourt,Detroit Pistons
+127,38,1986/3/25,Villanova University,24,2006,1,1,Kyle Lowry,USA,2,1,Backcourt,Philadelphia 76ers
+128,17,1993/2/17,North Carolina Tar Heels,24,1984,1,6,Michael Jordan,USA,6,2,Frontcourt,||
+129,28,1996/10/30,Kentucky Wildcats,13,2015,0,1,Devin Booker,USA,0,2,Frontcourt,Phoenix Suns
+130,31,1990/3/4,Michigan State University,35,2012,1,2,Draymond Green,USA,4,3,Frontcourt,Golden State Warriors
+131,26,1997/11/19,Gonzaga Bulldogs,10,2017,0,0,Zach Collins,USA,0,0,Frontcourt,San Antonio Spurs
+132,23,2002/10/6,Huntington Prep School || Our Savior New American School || The Patrick School,7,2021,0,0,Jonathan Malangu Kuminga,DR Congo||USA,1,0,Frontcourt,Golden State Warriors
+133,27,1997/10/27,UCLA,2,2017,1,0,Lonzo Ball,USA,0,2,Backcourt,Chicago Bulls
+134,22,2001/2/18,UCLA,18,2023,1,0,Jaime Jaquez Jr.,USA || Mexico,0,0,Frontcourt,Miami Heat
+135,20,2003/1/30,,5,2023,,0,Ausar XLNC Thompson,USA,0,0,Frontcourt,Detroit Pistons
+136,31,1996/8/31,Villanova University,33,2018,1,1,Jalen Marquis Brunson,USA,1,2,Backcourt,New York Knicks
+137,6,1992/2/6,LSU,24,1992,1,2,Shaquille Rashaun O'Neal,USA,4,4,Frontcourt,||
+138,2025,1994/2/2,Southeast Missouri State University,13,2017,2,2,Kobe Bryant,USA,5,2,Frontcourt,||
+139,31,2005/5/6,Wake Forest University,4,2005,1,2,Chris Paul,USA,2,3,Backcourt,San Antonio Spurs
+140,31,1992/5/30,North Carolina Tar Heels,7,2012,1,0,Harrison Barnes,USA,2,1,Frontcourt,San Antonio Spurs
+141,27,1997/7/18,Kentucky Wildcats,14,2017,1,0,"Edrice Femi ""Bam"" Adebayo",USA||Nigeria,0,2,Frontcourt,Miami Heat

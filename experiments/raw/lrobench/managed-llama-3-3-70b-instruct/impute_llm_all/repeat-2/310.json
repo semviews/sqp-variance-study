@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 310,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 7.335,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 8,
+  "returned": [
+    0.125,
+    0.375
+  ],
+  "tokens": [
+    278,
+    201,
+    77
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.125,
+      "prediction": [
+        "Tai Lake",
+        "2250 km\u00b2",
+        "2 m",
+        "3 m",
+        "Freshwater lake",
+        "None",
+        "120.17",
+        "31.42"
+      ],
+      "truth": [
+        "Tai Lake",
+        "2338",
+        "4.8",
+        "3.3",
+        "freshwater",
+        "Tiao River and Jing River",
+        "120.2167",
+        "31.1667"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.375,
+      "prediction": [
+        "Tai Lake",
+        "2250 km\u00b2",
+        "2 m",
+        "3 m",
+        "Freshwater lake",
+        "None",
+        "120.17",
+        "31.42"
+      ],
+      "truth": [
+        "Tai Lake",
+        "2338",
+        "4.8",
+        "3.3",
+        "freshwater",
+        "Tiao River and Jing River",
+        "120.2167",
+        "31.1667"
+      ]
+    }
+  ]
+}

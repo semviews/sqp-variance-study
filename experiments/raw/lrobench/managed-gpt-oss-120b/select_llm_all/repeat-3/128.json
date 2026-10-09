@@ -1,0 +1,84 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 19.707,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.8261,
+    0.9048
+  ],
+  "tokens": [
+    1523,
+    1173,
+    350
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.8261,
+        0.9048
+      ],
+      "prediction": [
+        "['Aladdin']",
+        "['Alice in Wonderland']",
+        "['Bambi']",
+        "['Bolt']",
+        "['Cinderella']",
+        "['Dumbo']",
+        "['Hercules']",
+        "['Moana']",
+        "['Mulan']",
+        "['Oliver & Company']",
+        "['Peter Pan']",
+        "['Pinocchio']",
+        "['Pocahontas']",
+        "['Robin Hood']",
+        "['Snow White and the Seven Dwarfs']",
+        "['Tarzan']",
+        "['The Many Adventures of Winnie the Pooh']",
+        "['Winnie the Pooh']",
+        "['Wreck-It Ralph']"
+      ],
+      "truth": [
+        "['Aladdin']",
+        "['Alice in Wonderland']",
+        "['Bambi']",
+        "['Big Hero 6']",
+        "['Bolt']",
+        "['Cinderella']",
+        "['Dumbo']",
+        "['Hercules']",
+        "['Lady and the Tramp']",
+        "['Lilo & Stitch']",
+        "['Moana']",
+        "['Mulan']",
+        "['Oliver & Company']",
+        "['Peter Pan']",
+        "['Pinocchio']",
+        "['Pocahontas']",
+        "['Robin Hood']",
+        "['Snow White and the Seven Dwarfs']",
+        "['Tarzan']",
+        "['The Adventures of Ichabod and Mr. Toad']",
+        "['The Many Adventures of Winnie the Pooh']",
+        "['Winnie the Pooh']",
+        "['Wreck-It Ralph']"
+      ]
+    }
+  ]
+}

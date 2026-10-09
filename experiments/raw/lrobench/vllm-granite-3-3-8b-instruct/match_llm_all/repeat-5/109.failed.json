@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 109,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 17.769,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 327, in pipeline_match109\n    pred = merged_df[['left_cust_id', 'right_state']]\n  File \"/home/user/code/LROBench/.venv/lib/python3.10/site-packages/pandas/core/frame.py\", line 4113, in __getitem__\n    indexer = self.columns._get_indexer_strict(key, \"columns\")[1]\nKeyError: \"None of [Index(['left_cust_id', 'right_state'], dtype='object')] are in the [columns]\"\n",
+  "failed_attempts": [
+    {
+      "error": "KeyError: \"None of [Index(['left_cust_id', 'right_state'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: \"None of [Index(['left_cust_id', 'right_state'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

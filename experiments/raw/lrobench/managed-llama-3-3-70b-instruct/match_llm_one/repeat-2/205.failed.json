@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 205,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 28.439,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 972, in pipeline_match205\n    matched_df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine whether the two rows have the same configurations, we need to compare their features. Since the features are given in text format, we\\'ll have to parse them to extract comparable informa\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '{compare_configurations(left_JSON=\\'{\"left_ID\": 155, \"left_Brand\": \"Dell\", \"left_Name\": \"Dell Latitude E6540 15.6 Inch UltraSharp FHD(1920x1080) LED Business Laptop Intel Core i5-4310M 2.7GHz 8GB RAM",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the two rows have the same configurations, we need to compare their features. \\n\\nWe can use a tool to parse the JSON tuples and compare the features. \\n\\ntool compare_configurat",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 308,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 13.965,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 8,
+  "returned": [
+    0.5,
+    0.75
+  ],
+  "tokens": [
+    300,
+    214,
+    86
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.5,
+      "prediction": [
+        "1",
+        "Midnights",
+        "Taylor Swift",
+        "2022 Taylor Swift",
+        "Pop",
+        "2022-10-21",
+        "Lavender Haze",
+        "3:22"
+      ],
+      "truth": [
+        "6908",
+        "Midnights",
+        "Taylor Swift",
+        "\u0089\u00e3\u00d1 2022 Republic Records",
+        "Pop,Music",
+        "21-Oct-22",
+        "Lavender Haze",
+        "3:22"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.75,
+      "prediction": [
+        "1",
+        "Midnights",
+        "Taylor Swift",
+        "2022 Taylor Swift",
+        "Pop",
+        "2022-10-21",
+        "Lavender Haze",
+        "3:22"
+      ],
+      "truth": [
+        "6908",
+        "Midnights",
+        "Taylor Swift",
+        "\u0089\u00e3\u00d1 2022 Republic Records",
+        "Pop,Music",
+        "21-Oct-22",
+        "Lavender Haze",
+        "3:22"
+      ]
+    }
+  ]
+}

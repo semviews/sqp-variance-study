@@ -1,0 +1,80 @@
+{"key": "8e3b4eaff0630e98", "role": "operator", "t": 1790974336.731, "seconds": 2.207, "output": "[\n  {\"hero\": \"Snow White\", \"gender\": \"Female\"}\n]"}
+{"key": "47e0af2423daec25", "role": "operator", "t": 1790974336.733, "seconds": 2.227, "output": "[\n  {\"hero\": \"Bambi\", \"gender\": \"male\"}\n]"}
+{"key": "0a9a69ed1808d62e", "role": "operator", "t": 1790974336.734, "seconds": 2.227, "output": "[\n  {\"hero\": \"Alice\", \"gender\": \"Female\"}\n]"}
+{"key": "c859f04b57fa4dfa", "role": "operator", "t": 1790974336.735, "seconds": 2.645, "output": "[\n  {\"hero\": \"Lady and Tramp\", \"gender\": \"Female and Male\"}\n]"}
+{"key": "82168e5d24f69cb5", "role": "operator", "t": 1790974336.732, "seconds": 2.649, "output": "[\n  {\"hero\": \"Dumbo\", \"gender\": \"Male\"}\n]"}
+{"key": "77a599da2866fabb", "role": "operator", "t": 1790974336.733, "seconds": 2.652, "output": "[\n  {\"hero\": \"Cinderella\", \"gender\": \"Female\"}\n]"}
+{"key": "209128399e7fbcb4", "role": "operator", "t": 1790974336.732, "seconds": 2.657, "output": "[\n  {\"hero\": \"Pinocchio\", \"gender\": \"Male\"}\n]"}
+{"key": "2a94ff87d34602ec", "role": "operator", "t": 1790974336.733, "seconds": 2.833, "output": "[\n  {\"hero\": \"Mr. Toad and Ichabod Crane\", \"gender\": \"Male\"}\n]"}
+{"key": "71312f16117b3dd3", "role": "operator", "t": 1790974336.734, "seconds": 2.835, "output": "[\n  {\"hero\": \"Peter Pan\", \"gender\": \"Male\"}\n]"}
+{"key": "c6328220532c53fc", "role": "operator", "t": 1790974336.736, "seconds": 2.837, "output": "[\n  {\"hero\": \"Aurora\", \"gender\": \"Female\"}\n]"}
+{"key": "92d4279e6fd42db4", "role": "operator", "t": 1790974338.939, "seconds": 1.197, "output": "[\n  {\"hero\": \"Pongo\", \"gender\": \"Male\"}\n]"}
+{"key": "c580ba54e8cf52e4", "role": "operator", "t": 1790974340.136, "seconds": 41.94, "output": "[\n  {\"hero\": \"Bernard and Miss Bianca\", \"gender\": \"Male and Female\"}\n]"}
+{"key": "3a25888f02ebb5af", "role": "operator", "t": 1790974339.573, "seconds": 42.663, "output": "[\n  {\"hero\": \"Arthur\", \"gender\": \"Male\"}\n]"}
+{"key": "24fc728693a608d6", "role": "operator", "t": 1790974339.573, "seconds": 42.779, "output": "[\n  {\"hero\": \"Tod and Copper\", \"gender\": \"Male\"}\n]"}
+{"key": "4e60cfe1bab1ecef", "role": "operator", "t": 1790974339.573, "seconds": 42.825, "output": "[\n  {\"hero\": \"Thomas and Duchess\", \"gender\": \"Male and Female\"}\n]"}
+{"key": "54debda1961cbc27", "role": "operator", "t": 1790974339.573, "seconds": 42.83, "output": "[\n  {\"hero\": \"Ariel\", \"gender\": \"Female\"}\n]"}
+{"key": "e13460b33a74b647", "role": "operator", "t": 1790974339.573, "seconds": 42.882, "output": "[\n  {\"hero\": \"Mowgli\", \"gender\": \"Male\"}\n]"}
+{"key": "9d2d9fe3b7ac552a", "role": "operator", "t": 1790974339.573, "seconds": 42.885, "output": "[\n  {\"hero\": \"Robin Hood\", \"gender\": \"Male\"}\n]"}
+{"key": "c580ba54e8cf52e4", "role": "operator", "t": 1790974339.573, "seconds": 43.081, "output": "[\n  {\"hero\": \"Bernard and Miss Bianca\", \"gender\": \"Male and Female\"}\n]"}
+{"key": "4e1ab2cdecc927c2", "role": "operator", "t": 1790974339.573, "seconds": 43.084, "output": "[\n  {\"hero\": \"Oliver\", \"gender\": \"Male\"}\n]"}
+{"key": "261be467621cee6d", "role": "operator", "t": 1790974339.573, "seconds": 43.085, "output": "[\n  {\"hero\": \"Basil\", \"gender\": \"Male\"}\n]"}
+{"key": "42fc8947cc1d14bb", "role": "operator", "t": 1790974382.077, "seconds": 0.885, "output": "[\n  {\"hero\": \"Belle\", \"gender\": \"Female\"}\n]"}
+{"key": "44933d44ce0b9ad6", "role": "operator", "t": 1790974382.658, "seconds": 1.389, "output": "[\n  {\"hero\": \"Aladdin\", \"gender\": \"Male\"}\n]"}
+{"key": "2e1491bdc09a3264", "role": "operator", "t": 1790974382.658, "seconds": 1.607, "output": "[\n  {\"hero\": \"Quasimodo\", \"gender\": \"Male\"}\n]"}
+{"key": "aa96e061033a1d3f", "role": "operator", "t": 1790974382.658, "seconds": 1.609, "output": "[\n  {\"hero\": \"Simba\", \"gender\": \"male\"}\n]"}
+{"key": "c10aa5185c458ebf", "role": "operator", "t": 1790974382.658, "seconds": 1.61, "output": "[\n  {\"hero\": \"Mulan\", \"gender\": \"Female\"}\n]"}
+{"key": "567e45871da95a61", "role": "operator", "t": 1790974382.658, "seconds": 1.774, "output": "[\n  {\"hero\": \"Pocahontas\", \"gender\": \"Female\"}\n]"}
+{"key": "03407a3ae2003e0a", "role": "operator", "t": 1790974382.658, "seconds": 1.777, "output": "[\n  {\"hero\": \"Hercules\", \"gender\": \"Male\"}\n]"}
+{"key": "e8cd8a0bee56ef40", "role": "operator", "t": 1790974382.658, "seconds": 1.779, "output": "[\n  {\"hero\": \"Tarzan\", \"gender\": \"Male\"}\n]"}
+{"key": "24fa278a9ce8995a", "role": "operator", "t": 1790974382.658, "seconds": 1.782, "output": "[\n  {\"hero\": \"Milo Thatch\", \"gender\": \"Male\"}\n]"}
+{"key": "da9e2b06a90d38cf", "role": "operator", "t": 1790974382.658, "seconds": 1.784, "output": "[\n  {\"hero\": \"Kuzco\", \"gender\": \"Male\"}\n]"}
+{"key": "de51e493fc8e1fb0", "role": "operator", "t": 1790974382.962, "seconds": 1.599, "output": "[\n  {\"hero\": \"Jim Hawkins\", \"gender\": \"Male\"}\n]"}
+{"key": "3ab383ac0b43d9b9", "role": "operator", "t": 1790974384.047, "seconds": 1.458, "output": "[\n  {\"hero\": \"Kenai\", \"gender\": \"Male\"}\n]"}
+{"key": "fb2fdaaf1fcf116e", "role": "operator", "t": 1790974384.561, "seconds": 1.118, "output": "[\n  {\"hero\": \"Lewis\", \"gender\": \"Male\"}\n]"}
+{"key": "66c17e0368289de6", "role": "operator", "t": 1790974384.561, "seconds": 1.159, "output": "[\n  {\"hero\": \"Bolt\", \"gender\": \"Male\"}\n]"}
+{"key": "d5f0622a59d50425", "role": "operator", "t": 1790974384.561, "seconds": 1.205, "output": "[\n  {\"hero\": \"Rapunzel\", \"gender\": \"Female\"}\n]"}
+{"key": "3c43beb402abadec", "role": "operator", "t": 1790974384.561, "seconds": 1.208, "output": "[\n  {\"hero\": \"Ralph\", \"gender\": \"Male\"}\n]"}
+{"key": "085b45d20f8c2213", "role": "operator", "t": 1790974384.561, "seconds": 1.224, "output": "[\n  {\"hero\": \"Hiro Hamada\", \"gender\": \"Male\"}\n]"}
+{"key": "773fcfd119dacc12", "role": "operator", "t": 1790974384.561, "seconds": 1.227, "output": "[\n  {\"hero\": \"Tiana\", \"gender\": \"Female\"}\n]"}
+{"key": "096d3e3327397c51", "role": "operator", "t": 1790974384.561, "seconds": 1.229, "output": "[\n  {\"hero\": \"Elsa\", \"gender\": \"Female\"}\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974385.819, "seconds": 1.771, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974385.794, "seconds": 1.974, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974385.825, "seconds": 1.952, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974385.812, "seconds": 2.288, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; meaning identical.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974385.808, "seconds": 2.403, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; both refer to the gender male, same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974385.798, "seconds": 2.415, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974385.802, "seconds": 2.414, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; both refer to the gender 'male', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "d9507e2f57c82e69", "role": "judge", "t": 1790974385.805, "seconds": 2.54, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('male'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974385.815, "seconds": 2.615, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; both refer to the gender 'female', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "6cd7ee93f5c49853", "role": "judge", "t": 1790974385.822, "seconds": 3.04, "output": "[\n  {\n    \"thinking\": \"Both phrases indicate a combination of genders; 'mixed' commonly means both male and female, matching 'Female and Male'.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974387.594, "seconds": 2.102, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; meaning identical (gender male).\",\n    \"result\": 1\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974387.775, "seconds": 2.252, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; both refer to the gender male, same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974387.781, "seconds": 2.376, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974388.227, "seconds": 2.188, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974388.436, "seconds": 2.136, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974388.348, "seconds": 2.29, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974388.866, "seconds": 2.222, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; both refer to the gender 'female', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974388.219, "seconds": 2.874, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; meaning identical (gender male).\",\n    \"result\": 1\n  }\n]"}
+{"key": "d5c3f1a9e5ac8a33", "role": "judge", "t": 1790974388.104, "seconds": 3.805, "output": "[\n  {\n    \"thinking\": \"Both phrases indicate a combination of genders; 'mixed' is a generic term that commonly refers to a group containing both male and female, matching the explicit 'Male and Female'.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "d5c3f1a9e5ac8a33", "role": "judge", "t": 1790974388.223, "seconds": 3.758, "output": "[\n  {\n    \"thinking\": \"The phrase explicitly lists both genders, while 'mixed' is a generic term that may refer to a combination of genders but is ambiguous and can refer to other mixes; not a direct synonym.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974390.031, "seconds": 2.126, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; both refer to the gender 'female', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "d9507e2f57c82e69", "role": "judge", "t": 1790974390.418, "seconds": 2.33, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('male'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "d5c3f1a9e5ac8a33", "role": "judge", "t": 1790974389.699, "seconds": 3.101, "output": "[\n  {\n    \"thinking\": \"The phrase 'Male and Female' explicitly denotes both genders, while 'mixed' is a broader term that can refer to any combination and is not specific to gender; thus they do not convey the same meaning.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974390.641, "seconds": 2.178, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; both refer to the gender 'female', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974390.644, "seconds": 2.284, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974391.096, "seconds": 2.076, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; both refer to the gender 'female', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974391.09, "seconds": 2.226, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974390.16, "seconds": 3.452, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974391.912, "seconds": 2.183, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974392.161, "seconds": 2.298, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974391.985, "seconds": 2.689, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974392.938, "seconds": 1.874, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974392.935, "seconds": 2.163, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974392.755, "seconds": 2.407, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974393.179, "seconds": 2.045, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974392.942, "seconds": 2.285, "output": "[\n  {\n    \"thinking\": \"Only capitalization differs; both refer to the male gender, so meaning is identical.\",\n    \"result\": 1\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974393.323, "seconds": 2.201, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; both refer to the gender 'female', so meaning is identical.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974393.617, "seconds": 2.21, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "f177055ccd4a4c9a", "role": "judge", "t": 1790974394.099, "seconds": 2.32, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; both refer to the gender 'female', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "873f50290958da70", "role": "judge", "t": 1790974394.462, "seconds": 2.073, "output": "[\n  {\n    \"thinking\": \"Only difference is capitalization; meaning identical (gender identifier).\",\n    \"result\": \"1\"\n  }\n]"}

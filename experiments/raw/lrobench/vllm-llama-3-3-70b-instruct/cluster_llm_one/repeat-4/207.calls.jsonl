@@ -1,0 +1,29 @@
+{"key": "87c7856b5730cafa", "role": "operator", "t": 1790979089.007, "seconds": 32.673, "output": "[\n  { \"CDSCode\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "34c693e2abdbc8c1", "role": "operator", "t": 1790979121.68, "seconds": 0.897, "output": "[\n  { \"Academic Year\": [\"2\", \"time_info\"]}\n]"}
+{"key": "4f01d917670b1074", "role": "operator", "t": 1790979122.577, "seconds": 0.838, "output": "[\n  { \"County Code\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "5e407c3e995fae72", "role": "operator", "t": 1790979123.415, "seconds": 1.099, "output": "[\n  { \"District Code\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "6eff8f70dbd92e8a", "role": "operator", "t": 1790979124.514, "seconds": 0.964, "output": "[\n  { \"School Code\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "62cf18e78466646a", "role": "operator", "t": 1790979125.479, "seconds": 0.781, "output": "[\n  { \"County Name\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "06a48a2b58598430", "role": "operator", "t": 1790979126.26, "seconds": 2.166, "output": "[\n  { \"District Name\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "e5e0e504e0452266", "role": "operator", "t": 1790979128.426, "seconds": 1.111, "output": "[\n  { \"School Name\": [\"4\", \"basic_info\"]}\n]"}
+{"key": "83bd15ceb8e4f910", "role": "operator", "t": 1790979129.537, "seconds": 0.85, "output": "[\n  { \"District Type\": [\"1\", \"geo_info\"]}\n]"}
+{"key": "918892ec4676b316", "role": "operator", "t": 1790979130.387, "seconds": 0.854, "output": "[\n  { \"School Type\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "15e9bfe8f13cc41c", "role": "operator", "t": 1790979131.241, "seconds": 0.923, "output": "[\n  { \"Educational Option Type\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "6b7e815a253fcb2c", "role": "operator", "t": 1790979132.164, "seconds": 0.845, "output": "[\n  { \"NSLP Provision Status\": [\"5\", \"economic_info\"]}\n]"}
+{"key": "2410822b4688a491", "role": "operator", "t": 1790979133.009, "seconds": 0.907, "output": "[\n  { \"Charter School (Y/N)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "7b7e6c7c2f8d9fa8", "role": "operator", "t": 1790979133.917, "seconds": 1.185, "output": "[\n  { \"Charter School Number\": [\"4\", \"basic_info\"]}\n]"}
+{"key": "8f084cfdbd1423ae", "role": "operator", "t": 1790979135.101, "seconds": 0.861, "output": "[\n  { \"Charter Funding Type\": [\"5\", \"economic_info\"]}\n]"}
+{"key": "84e91f2933963d30", "role": "operator", "t": 1790979135.963, "seconds": 0.795, "output": "[\n  { \"IRC\": [\"5\", \"economic_info\"]}\n]"}
+{"key": "e87b7f5ae9b0395c", "role": "operator", "t": 1790979136.758, "seconds": 0.983, "output": "[\n  { \"Low Grade\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "eefa814edba00a63", "role": "operator", "t": 1790979137.74, "seconds": 43.591, "output": "[\n  { \"High Grade\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "f0ea9dd4a830cca0", "role": "operator", "t": 1790979181.332, "seconds": 1.32, "output": "[\n  { \"Enrollment (K-12)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "b1fb10936aa84f3a", "role": "operator", "t": 1790979182.652, "seconds": 1.022, "output": "[\n  { \"Free Meal Count (K-12)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "9093972543db9055", "role": "operator", "t": 1790979183.674, "seconds": 1.286, "output": "[\n  { \"Percent (%) Eligible Free (K-12)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "2b5270b8965ce172", "role": "operator", "t": 1790979184.961, "seconds": 1.079, "output": "[\n  { \"FRPM Count (K-12)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "ef8d460550cfd351", "role": "operator", "t": 1790979186.039, "seconds": 1.161, "output": "[\n  { \"Percent (%) Eligible FRPM (K-12)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "f8f05d84142872c1", "role": "operator", "t": 1790979187.201, "seconds": 1.19, "output": "[\n  { \"Enrollment (Ages 5-17)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "d1df0ad8635053ba", "role": "operator", "t": 1790979188.391, "seconds": 1.107, "output": "[\n  { \"Free Meal Count (Ages 5-17)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "f95116886fb507fb", "role": "operator", "t": 1790979189.498, "seconds": 1.187, "output": "[\n  { \"Percent (%) Eligible Free (Ages 5-17)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "02910dc7fcdebc8c", "role": "operator", "t": 1790979190.685, "seconds": 1.095, "output": "[\n  { \"FRPM Count (Ages 5-17)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "6692fe1cd2bd2c31", "role": "operator", "t": 1790979191.78, "seconds": 1.177, "output": "[\n  { \"Percent (%) Eligible FRPM (Ages 5-17)\": [\"3\", \"edu_info\"]}\n]"}
+{"key": "e4e80b192228043a", "role": "operator", "t": 1790979192.957, "seconds": 1.058, "output": "[\n  { \"2013-14 CALPADS Fall 1 Certification Status\": [\"3\", \"edu_info\"]}\n]"}

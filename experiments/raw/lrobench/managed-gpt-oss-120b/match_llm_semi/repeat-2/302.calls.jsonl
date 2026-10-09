@@ -1,0 +1,5 @@
+{"key": "f1486b0b9a884c17", "role": "operator", "t": 1790971987.069, "seconds": 1.846, "output": "SiteAddress"}
+{"key": "59fd699a513d5d73", "role": "operator", "t": 1790971988.915, "seconds": 4.032, "output": "SiteName"}
+{"key": "0efba2d99a25e419", "role": "operator", "t": 1790971992.947, "seconds": 1.051, "output": "URL"}
+{"key": "2234702caa842d25", "role": "operator", "t": 1790971993.998, "seconds": 0.873, "output": "Geom"}
+{"key": "dd54742a95fb1d84", "role": "operator", "t": 1790971994.871, "seconds": 1.019, "output": "GeoLocalArea"}

@@ -1,0 +1,25 @@
+{
+  "columns": {
+    "draft_pick": {
+      "precision": 0.851063829787234,
+      "recall": 0.851063829787234,
+      "f1": 0.8510638297872339
+    }
+  },
+  "macro_precision": 0.851063829787234,
+  "macro_recall": 0.851063829787234,
+  "macro_f1": 0.8510638297872339,
+  "rows": {
+    "len_gold": 141,
+    "len_pred": 141,
+    "matched_rows": 141
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "draft_pick"
+  ],
+  "skipped_columns": []
+}

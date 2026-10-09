@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 51,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 77.063,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 235,
+  "judge_calls": 0,
+  "returned": 2,
+  "tokens": 58037,
+  "metrics": [],
+  "prediction": 2,
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

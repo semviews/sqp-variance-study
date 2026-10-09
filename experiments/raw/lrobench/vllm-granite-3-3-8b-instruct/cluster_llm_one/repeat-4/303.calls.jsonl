@@ -1,0 +1,16 @@
+{"key": "9b07256299153f7c", "role": "operator", "t": 1790975549.572, "seconds": 1.465, "output": "[\n  { \"staff\": [\"2\", \"person-related info\"] }\n]"}
+{"key": "f02efaae656afeca", "role": "operator", "t": 1790975551.037, "seconds": 0.609, "output": "[\n  { \"actor\": [\"2\", \"person-related info\"] }\n]"}
+{"key": "432d644da7dcf536", "role": "operator", "t": 1790975551.646, "seconds": 0.571, "output": "[\n  { \"film\": [\"0\", \"film info\"] }\n]"}
+{"key": "7835b82ec64336aa", "role": "operator", "t": 1790975552.218, "seconds": 0.645, "output": "[\n  { \"film_category\": [\"0\", \"film info\"] }\n]"}
+{"key": "6bda71210512ebad", "role": "operator", "t": 1790975552.862, "seconds": 28.501, "output": "[\n  { \"customer\": [\"1\", \"other info\"] }\n]"}
+{"key": "a78b93a112866c95", "role": "operator", "t": 1790975581.363, "seconds": 0.639, "output": "[\n  { \"language\": [\"1\", \"other info\"] }\n]"}
+{"key": "86faf2495a906ed5", "role": "operator", "t": 1790975582.003, "seconds": 0.708, "output": "[\n  { \"film_actor\": [\"2\", \"person-related info\"] }\n]"}
+{"key": "beff29713e46ed4f", "role": "operator", "t": 1790975582.71, "seconds": 0.709, "output": "[\n  { \"address\": [\"1\", \"other info\"] }\n]"}
+{"key": "938d97163b5a384c", "role": "operator", "t": 1790975583.419, "seconds": 0.618, "output": "[\n  { \"city\": [\"3\", \"location info\"] }\n]"}
+{"key": "5f77db1a373c150a", "role": "operator", "t": 1790975584.037, "seconds": 0.62, "output": "[\n  { \"country\": [\"3\", \"location info\"] }\n]"}
+{"key": "966bdf9b687a8b91", "role": "operator", "t": 1790975584.657, "seconds": 0.611, "output": "[\n  { \"payment\": [\"1\", \"other info\"] }\n]"}
+{"key": "cb37f83d2a82a5a1", "role": "operator", "t": 1790975585.268, "seconds": 0.604, "output": "[\n  { \"film_text\": [\"0\", \"film info\"] }\n]"}
+{"key": "514568d1ea6d717f", "role": "operator", "t": 1790975585.872, "seconds": 0.692, "output": "[\n  { \"category\": [\"0\", \"film info\"] }\n]"}
+{"key": "143864a5fe4c1ce4", "role": "operator", "t": 1790975586.564, "seconds": 0.636, "output": "[\n  { \"rental\": [\"1\", \"other info\"] }\n]"}
+{"key": "c39907a3ea11b9da", "role": "operator", "t": 1790975587.2, "seconds": 0.673, "output": "[\n  { \"store\": [\"1\", \"other info\"] }\n]"}
+{"key": "3fc03491293d95a4", "role": "operator", "t": 1790975587.874, "seconds": 0.618, "output": "[\n  { \"inventory\": [\"1\", \"other info\"] }\n]"}

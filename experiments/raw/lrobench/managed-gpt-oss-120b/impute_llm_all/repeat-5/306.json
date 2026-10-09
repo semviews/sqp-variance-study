@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 306,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 8.005,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.4,
+    0.6
+  ],
+  "tokens": [
+    243,
+    187,
+    56
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.4,
+      "prediction": [
+        "Elemental",
+        "June 16, 2023",
+        "Ember Lumen",
+        "None",
+        "The Fire Within"
+      ],
+      "truth": [
+        "Elemental",
+        "16-Jun-23",
+        "Ember Lumen",
+        "Water Element",
+        "Steal the Show"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.6,
+      "prediction": [
+        "Elemental",
+        "June 16, 2023",
+        "Ember Lumen",
+        "None",
+        "The Fire Within"
+      ],
+      "truth": [
+        "Elemental",
+        "16-Jun-23",
+        "Ember Lumen",
+        "Water Element",
+        "Steal the Show"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+state_name,area,city_name,id
+Colorado,400.739,Denver,1
+Texas,385.8,Dallas,4
+Texas,1205.4,San Antonio,5
+California,469.0,Los Angeles,6
+Minnesota,152.8,Minneapolis,7
+Oregon,145.09,city_name is Portland,10
+California,46.9,San Francisco,11
+Pennsylvania,134.18,Philadelphia,12
+Louisiana,910.0,city_name: New Orleans,13
+Illinois,89.64,Chicago,14
+Arizona,517.9,Phoenix,18
+Texas,640.4,Houston,21
+California,259.0,Sacramento,22
+Michigan,138.75,Detroit,23
+Tennessee,839.2,Memphis,24
+Oklahoma,620.34,Oklahoma City,27
+Georgia,347.1,Atlanta,29

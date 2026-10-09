@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 3,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 65.049,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 270,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Amazo"
+    ],
+    [
+      "Ares"
+    ],
+    [
+      "Darkseid"
+    ],
+    [
+      "Doomsday"
+    ],
+    [
+      "Killer Croc"
+    ],
+    [
+      "Martian Manhunter"
+    ]
+  ],
+  "tokens": 64757,
+  "metrics": [],
+  "prediction": [
+    [
+      "Amazo"
+    ],
+    [
+      "Ares"
+    ],
+    [
+      "Darkseid"
+    ],
+    [
+      "Doomsday"
+    ],
+    [
+      "Killer Croc"
+    ],
+    [
+      "Martian Manhunter"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

@@ -1,0 +1,14 @@
+{"key": "2463d7cf766e2076", "role": "operator", "t": 1790980087.118, "seconds": 1.832, "output": "[\n  { \"circuits\": [\"1\", \"Location Info\"]}\n]"}
+{"key": "8461dc89268f0141", "role": "operator", "t": 1790980088.95, "seconds": 1.142, "output": "[\n  { \"status\": [\"2\", \"Other Info\"]}\n]"}
+{"key": "dc5937132e72fd53", "role": "operator", "t": 1790980090.092, "seconds": 1.123, "output": "[\n  { \"drivers\": [\"3\", \"Person-related Info\"]}\n]"}
+{"key": "5ea48a7ad9a324c6", "role": "operator", "t": 1790980091.215, "seconds": 1.316, "output": "[\n  { \"driverStandings\": [\"4\", \"Race-related Info\"]}\n]"}
+{"key": "dcdd91706ca82f35", "role": "operator", "t": 1790980092.531, "seconds": 1.001, "output": "[\n  { \"races\": [\"4\", \"Race-related Info\"]}\n]"}
+{"key": "fec766a7dba48948", "role": "operator", "t": 1790980093.532, "seconds": 1.41, "output": "[\n  { \"constructors\": [\"2\", \"Other Info\"]}\n]"}
+{"key": "1c82960d0ad376b6", "role": "operator", "t": 1790980094.942, "seconds": 0.99, "output": "[\n  { \"constructorResults\": [\"2\", \"Other Info\"]}\n]"}
+{"key": "31cc3bed7a4ed23e", "role": "operator", "t": 1790980095.932, "seconds": 1.045, "output": "[\n  { \"lapTimes\": [\"4\", \"Race-related Info\"]}\n]"}
+{"key": "e391e5ca3b0cb5d3", "role": "operator", "t": 1790980096.978, "seconds": 0.909, "output": "[\n  { \"qualifying\": [\"2\", \"Other Info\"]}\n]"}
+{"key": "7effbd34cacd0a3a", "role": "operator", "t": 1790980097.887, "seconds": 0.954, "output": "[\n  { \"sqlite_sequence\": [\"2\", \"Other Info\"]}\n]"}
+{"key": "79ac71323d6f06ff", "role": "operator", "t": 1790980098.841, "seconds": 1.654, "output": "[\n  { \"pitStops\": [\"4\", \"Race-related Info\"]}\n]"}
+{"key": "d9aa8e3788c1d58e", "role": "operator", "t": 1790980100.495, "seconds": 0.876, "output": "[\n  { \"seasons\": [\"2\", \"Other Info\"]}\n]"}
+{"key": "aa310427427c6bfa", "role": "operator", "t": 1790980101.371, "seconds": 1.372, "output": "[\n  { \"constructorStandings\": [\"4\", \"Race-related Info\"]}\n]"}
+{"key": "97ae4a1d2c9c3df3", "role": "operator", "t": 1790980102.742, "seconds": 1.578, "output": "[\n  { \"results\": [\"2\", \"Other Info\"]}\n]"}

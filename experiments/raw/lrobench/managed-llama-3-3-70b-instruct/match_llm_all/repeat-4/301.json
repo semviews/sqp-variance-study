@@ -1,0 +1,50 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 301,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 2.376,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    0.4,
+    0.5
+  ],
+  "tokens": [
+    343,
+    292,
+    51
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        0.4,
+        0.5
+      ],
+      "prediction": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'NAME']"
+      ],
+      "truth": [
+        "['ADDRESS' 'MERGED_ADDRESS']",
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'STREET_NAME']",
+        "['URLLINK' 'WEBSITE']"
+      ]
+    }
+  ]
+}

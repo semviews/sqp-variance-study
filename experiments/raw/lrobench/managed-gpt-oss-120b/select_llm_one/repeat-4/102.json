@@ -1,0 +1,60 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 102,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 12.865,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 58,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    8318,
+    8260,
+    58
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['Alameda']",
+        "['Contra Costa']",
+        "['Marin']",
+        "['Napa']",
+        "['San Francisco']",
+        "['San Mateo']",
+        "['Santa Clara']",
+        "['Solano']",
+        "['Sonoma']"
+      ],
+      "truth": [
+        "['Alameda']",
+        "['Contra Costa']",
+        "['Marin']",
+        "['Napa']",
+        "['San Francisco']",
+        "['San Mateo']",
+        "['Santa Clara']",
+        "['Solano']",
+        "['Sonoma']"
+      ]
+    }
+  ]
+}

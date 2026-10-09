@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 5: 5 (city) */ SELECT gdp, state_name, population FROM city WHERE state_name <> 'Ontario' OR city_name = 'Minneapolis' OR gdp <> '689000' OR gdp <> '344.9'",
+  "city": {
+    "gdp": {
+      "value_type": "str",
+      "description": "gdp is the gross domestic product of the city in millions (e.g. 7.2)."
+    },
+    "population": {
+      "value_type": "int",
+      "description": "population is the population of the city (e.g. 7000000)."
+    },
+    "state_name": {
+      "value_type": "str",
+      "description": "state_name is the name of the state the city is located in (e.g. California)."
+    }
+  }
+}

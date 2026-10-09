@@ -1,0 +1,55 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 307,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 21.732,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 140,
+  "judge_calls": 0,
+  "returned": [
+    0.0909,
+    0.5,
+    0.1538
+  ],
+  "tokens": [
+    13216,
+    13076,
+    140
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0909,
+        0.5,
+        0.1538
+      ],
+      "prediction": [
+        "['ADDRESS' 'STATE']",
+        "['ADDRESS' 'STREET']",
+        "['Geo Local Area' 'CITY']",
+        "['Geo Local Area' 'STATE']",
+        "['Geo Local Area' 'STREET']",
+        "['Geo Local Area' 'ZIP']",
+        "['Geom' 'ZIP']",
+        "['SCHOOL_CATEGORY' 'CLASSIFICATION']",
+        "['SCHOOL_CATEGORY' 'FOUNDATION']",
+        "['SCHOOL_NAME' 'AFFILIATION']",
+        "['SCHOOL_NAME' 'ORGANIZATION']"
+      ],
+      "truth": [
+        "['ADDRESS' 'STREET']",
+        "['SCHOOL_NAME' 'NAME']"
+      ]
+    }
+  ]
+}

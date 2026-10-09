@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 205,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 8.511,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/impute_eval.py\", line 695, in pipeline_impute205\n    imputed_table = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/impute.py\", line 41, in execute\n    res =  op.execute(condition = condition,\nTypeError: 'NoneType' object is not subscriptable\n",
+  "failed_attempts": [
+    {
+      "error": "TypeError: 'NoneType' object is not subscriptable",
+      "operator_calls": 22
+    },
+    {
+      "error": "TypeError: 'NoneType' object is not subscriptable",
+      "operator_calls": 20
+    }
+  ],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 22,
+  "judge_calls": 0
+}

@@ -1,0 +1,8 @@
+{"key": "59061e0b5ffdaefd", "role": "operator", "t": 1790973692.278, "seconds": 1.69, "output": "Entity"}
+{"key": "70aa689da36ed393", "role": "operator", "t": 1790973693.968, "seconds": 0.683, "output": "Date"}
+{"key": "a909f271b512bf9a", "role": "operator", "t": 1790973694.651, "seconds": 0.949, "output": "Department Family"}
+{"key": "6bdd13b1a1c9e967", "role": "operator", "t": 1790973695.6, "seconds": 0.889, "output": "Supplier"}
+{"key": "9bfab393e150d9f9", "role": "operator", "t": 1790973696.488, "seconds": 0.866, "output": "Date"}
+{"key": "1bf7bf48d5ede7c7", "role": "operator", "t": 1790973697.354, "seconds": 1.423, "output": "Amount"}
+{"key": "6e4a84fd5643bcb6", "role": "operator", "t": 1790973698.777, "seconds": 3.372, "output": "Expense Type"}
+{"key": "d7f71716f46d43fc", "role": "operator", "t": 1790973702.15, "seconds": 1.366, "output": "Transaction Number"}

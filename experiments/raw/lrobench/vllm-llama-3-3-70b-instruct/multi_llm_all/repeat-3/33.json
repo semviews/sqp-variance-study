@@ -1,0 +1,41 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 33,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 16.394,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Helados diversos"
+    ],
+    [
+      "luso"
+    ]
+  ],
+  "tokens": 1763,
+  "metrics": [],
+  "prediction": [
+    [
+      "Helados diversos"
+    ],
+    [
+      "luso"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

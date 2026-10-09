@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 34.613,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.4286,
+    0.6,
+    0.5
+  ],
+  "tokens": [
+    5019,
+    4965,
+    54
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4286,
+        0.6,
+        0.5
+      ],
+      "prediction": [
+        "['Battersea Arts Centre ' 'Hilldrop Community Centre']",
+        "['ICA' 'Hilldrop Community Centre']",
+        "['OSO Arts Centre' 'Hilldrop Community Centre']",
+        "['Rich Mix ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ],
+      "truth": [
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ]
+    }
+  ]
+}

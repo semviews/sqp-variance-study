@@ -1,0 +1,57 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 208,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 2.175,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.875,
+    1.0,
+    0.9333
+  ],
+  "tokens": [
+    282,
+    218,
+    64
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.875,
+        1.0,
+        0.9333
+      ],
+      "prediction": [
+        "city_hall_office_fax",
+        "city_hall_office_phone",
+        "city_hall_office_room",
+        "ward_email",
+        "ward_office_address",
+        "ward_office_fax",
+        "ward_office_phone",
+        "ward_office_zip"
+      ],
+      "truth": [
+        "city_hall_office_fax",
+        "city_hall_office_phone",
+        "ward_email",
+        "ward_office_address",
+        "ward_office_fax",
+        "ward_office_phone",
+        "ward_office_zip"
+      ]
+    }
+  ]
+}

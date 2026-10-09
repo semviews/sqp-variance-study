@@ -1,0 +1,74 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 1,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 2,
+  "seconds": 1.549,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '56010000\" is not a valid score between 0 and 100. The task requires returning a score as a string within that range. \\n\\nTo evaluate the population of England:\\n\\n1. **External Knowledge**: As of the latest data, England\\'s population is approximately 56.5 million people.\\n2. **Scoring Criteria**: The score should reflect how high the population is relative to other countries, on a scale from 0 to 100.\\n3. **Comparison**: Consider the global contex",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    0.6,
+    1.0
+  ],
+  "tokens": [
+    2368,
+    2353,
+    15
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "prediction": [
+        "Belgium",
+        "Germany",
+        "Italy",
+        "Poland",
+        "Spain"
+      ],
+      "truth": [
+        "England",
+        "France",
+        "Germany",
+        "Italy",
+        "Spain"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "Germany",
+        "Italy",
+        "Belgium",
+        "Poland",
+        "Spain"
+      ],
+      "truth": [
+        "Germany",
+        "France",
+        "Italy",
+        "England",
+        "Spain"
+      ]
+    }
+  ]
+}

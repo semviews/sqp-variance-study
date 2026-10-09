@@ -1,0 +1,63 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 128,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 13.09,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.3125,
+    1.0,
+    0.4762
+  ],
+  "tokens": [
+    6310,
+    4965,
+    1345
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3125,
+        1.0,
+        0.4762
+      ],
+      "prediction": [
+        "['Arts Depot ' 'Hilldrop Community Centre']",
+        "['Battersea Arts Centre ' 'Hilldrop Community Centre']",
+        "['Bernie Grant Arts Centre ' 'Hilldrop Community Centre']",
+        "['Dugdale  ' 'Hilldrop Community Centre']",
+        "['Irish Cultural Centre ' 'Hilldrop Community Centre']",
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['Poplar Union ' 'Hugh Cubitt Community Centre']",
+        "['Rich Mix ' 'Hilldrop Community Centre']",
+        "['Riverside Studios ' 'Hilldrop Community Centre']",
+        "['Southbank Centre ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Arts Centre Houndslow ' 'St Joan of Arc Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['The Library at Willesdon Green' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ],
+      "truth": [
+        "['JW3' 'Hilldrop Community Centre']",
+        "['Jacksons Lane ' 'Hilldrop Community Centre']",
+        "['The Albany ' 'Hilldrop Community Centre']",
+        "['The Barbican ' 'Hilldrop Community Centre']",
+        "['Watermans Arts Centre' 'Hilldrop Community Centre']"
+      ]
+    }
+  ]
+}

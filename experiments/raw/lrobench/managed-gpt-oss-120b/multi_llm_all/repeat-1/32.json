@@ -1,0 +1,85 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 32,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 50.073,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 153,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "France",
+      1
+    ],
+    [
+      "Germany",
+      1
+    ],
+    [
+      "India",
+      1
+    ],
+    [
+      "Morocco",
+      1
+    ],
+    [
+      "Spain",
+      1
+    ],
+    [
+      "UK",
+      1
+    ],
+    [
+      "USA",
+      2
+    ]
+  ],
+  "tokens": 37735,
+  "metrics": [],
+  "prediction": [
+    [
+      "France",
+      1
+    ],
+    [
+      "Germany",
+      1
+    ],
+    [
+      "India",
+      1
+    ],
+    [
+      "Morocco",
+      1
+    ],
+    [
+      "Spain",
+      1
+    ],
+    [
+      "UK",
+      1
+    ],
+    [
+      "USA",
+      2
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

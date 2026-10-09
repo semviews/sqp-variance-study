@@ -1,0 +1,51 @@
+{
+  "columns": {
+    "player.nationality": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "player.olympic_gold_medals": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "team.location": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "manager.nba_team": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "player.draft_pick": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "macro_precision": 0.0,
+  "macro_recall": 0.0,
+  "macro_f1": 0.0,
+  "rows": {
+    "len_gold": 12,
+    "len_pred": 0,
+    "matched_rows": 0
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.id",
+    "team.id",
+    "manager.id"
+  ],
+  "evaluated_columns": [
+    "player.nationality",
+    "player.olympic_gold_medals",
+    "team.location",
+    "manager.nba_team",
+    "player.draft_pick"
+  ],
+  "skipped_columns": []
+}

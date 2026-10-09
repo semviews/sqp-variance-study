@@ -1,0 +1,27 @@
+city.city_name,city.population,team.founded_year,team.location,team.id,city.id
+Atlanta,"510,823 || 498,715",1946,Atlanta,1,29
+San Francisco,808988 || 873965,1946,San Francisco,10,11
+Houston,,1967,Houston,11,21
+Indianapolis,"887,642 || 880,621",1967,Indianapolis,12,3
+Los Angeles,"3,820,914 || 3,792,621",1946,Los Angeles,14,6
+Memphis,"633,104 || 652,078",1995,Memphis,15,24
+Miami,"442,241",1988,Miami,16,8
+Milwaukee,"577,222",1968,Milwaukee,17,28
+Minneapolis,"429,954 || 521,718",1989,Minneapolis,18,7
+New Orleans,"383,997",2002,New Orleans,19,13
+Boston,675647 || 691531,1946,Boston,2,2
+Oklahoma City,579999 || 681054,1967,Oklahoma City,21,27
+Orlando,307573,1989,Orlando,22,15
+Philadelphia,,1946,Philadelphia,23,12
+Portland,,1970,Portland,25,10
+Sacramento,"524,943 || 466,488",1923,Sacramento,26,22
+San Antonio,,1967,San Antonio,27,5
+Toronto,"2,794,356",1995,Toronto,28,17
+Salt Lake City,200133 || 186440,1974,Salt Lake City,29,16
+"Washington, D.C.",,1961,"Washington, D.C.",30,19
+Charlotte,874579 || 885708,1988,Charlotte,4,25
+Chicago,2746388,1966,Chicago,5,14
+Cleveland,"372,624",1970,Cleveland,6,20
+Dallas,1304379 || 1299544,1980,Dallas,7,4
+Denver,,1967,Denver,8,1
+Detroit,639111,1937,Detroit,9,23

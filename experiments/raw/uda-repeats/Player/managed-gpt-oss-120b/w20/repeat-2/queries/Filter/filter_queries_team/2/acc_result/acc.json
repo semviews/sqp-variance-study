@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "ownership": {
+      "precision": 0.12,
+      "recall": 0.12,
+      "f1": 0.12
+    },
+    "championship": {
+      "precision": 0.92,
+      "recall": 0.92,
+      "f1": 0.92
+    },
+    "founded_year": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "macro_precision": 0.68,
+  "macro_recall": 0.68,
+  "macro_f1": 0.68,
+  "rows": {
+    "len_gold": 25,
+    "len_pred": 25,
+    "matched_rows": 25
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "ownership",
+    "championship",
+    "founded_year"
+  ],
+  "skipped_columns": []
+}

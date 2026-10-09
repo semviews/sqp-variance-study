@@ -1,0 +1,65 @@
+player.fiba_world_cup,player.name,team.team_name,team.ownership,city.state_name,player.id,team.id,city.id
+,Chavano Rainer Hield,Golden State Warriors,Joe Lacob || Peter Guber,California,100,10,11
+,D'Angelo Russell,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen || Philip Anschutz || Magic Johnson,California,101,14,6
+,Joel Hans Embiid,Philadelphia 76ers,,Pennsylvania,102,23,12
+,Paul Clifton Anthony George,Philadelphia 76ers,,Pennsylvania,103,23,12
+1.0,Kyrie Andrew Irving,Dallas Mavericks,Mark Cuban || Miriam Adelson || Patrick Dumont,Texas,104,7,4
+,Jayson Christopher Tatum,Boston Celtics,,Massachusetts,105,2,2
+,Caleb Martin,Philadelphia 76ers,,Pennsylvania,106,23,12
+,Andrew Christian Wiggins,Golden State Warriors,Joe Lacob || Peter Guber,California,107,10,11
+,Max Berning Fiedler,Philadelphia 76ers,,Pennsylvania,108,23,12
+,William Derek Grimm,Sacramento Kings,Lester Harrison || Jack Harrison || Louis Jacobs || Maloof family || Vivek Ranadivé || Shaquille O'Neal,California,11,26,22
+,Jaylen Marselles Brown,Boston Celtics,,Massachusetts,110,2,2
+,Victor Wembanyama,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,111,27,5
+,Jrue Randall Holiday,Boston Celtics,,Massachusetts,112,2,2
+,Austin Tyler Reaves,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen || Philip Anschutz || Magic Johnson,California,113,14,6
+1.0,Kevin Wesley Love,Miami Heat,Micky Arison,Florida,114,16,8
+,Giannis Sina Ugo Antetokounmpo,Milwaukee Bucks,Wes Edens || Marc Lasry || Herb Kohl || Jamie Dinan,Wisconsin,115,17,28
+2.0,Wardell Stephen Curry II,Golden State Warriors,Joe Lacob || Peter Guber,California,116,10,11
+,Alfred Joel Horford Reynoso,Boston Celtics,,Massachusetts,117,2,2
+,Tyler Christopher Herro,Miami Heat,Micky Arison,Florida,118,16,8
+,Duncan McBryde Robinson,Miami Heat,Micky Arison,Florida,119,16,8
+1.0,Anthony Marshon Davis Jr.,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen || Philip Anschutz || Magic Johnson,California,12,14,6
+,Kyle Forman Anderson,Golden State Warriors,Joe Lacob || Peter Guber,California,120,10,11
+,Cade Parker Cunningham,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,121,9,23
+,LeBron Raymone James Sr.,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen || Philip Anschutz || Magic Johnson,California,122,14,6
+,Jimmy Butler III,Miami Heat,Micky Arison,Florida,123,16,8
+,Kevon Grant Looney,Golden State Warriors,Joe Lacob || Peter Guber,California,124,10,11
+,Zachary Thomas LaVine,Chicago Bulls,Dick Klein || Wirtz family || Jerry Reinsdorf,Illinois,125,5,14
+,Jaden Edward Dhananjay Ivey,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,126,9,23
+,Kyle Terrell Lowry,Philadelphia 76ers,,Pennsylvania,127,23,12
+,Devin Armani Booker,Phoenix Suns,Mat Ishbia || Justin Ishbia,Arizona,129,24,18
+,Draymond Jamal Green,Golden State Warriors,Joe Lacob || Peter Guber,California,130,10,11
+,Zach Collins,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,131,27,5
+,Jonathan Malangu Kuminga,Golden State Warriors,Joe Lacob || Peter Guber,California,132,10,11
+,Lonzo Anderson Ball,Chicago Bulls,Dick Klein || Wirtz family || Jerry Reinsdorf,Illinois,133,5,14
+,Jaime Jaquez Jr.,Miami Heat,Micky Arison,Florida,134,16,8
+,Ausar XLNC Thompson,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,135,9,23
+1.0,Shaquille Rashaun O'Neal,Boston Celtics,,Massachusetts,137,2,2
+,Kobe Bean Bryant,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen || Philip Anschutz || Magic Johnson,California,138,14,6
+1.0,Christopher Emmanuel Paul,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,139,27,5
+,Harrison Bryce Jordan Barnes,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,140,27,5
+,Edrice Femi Adebayo,Miami Heat,Micky Arison,Florida,141,16,8
+,Jay Fletcher Vincent,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen || Philip Anschutz || Magic Johnson,California,2,14,6
+,Earvin Johnson Jr.,Los Angeles Lakers,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen || Philip Anschutz || Magic Johnson,California,28,14,6
+,Stanley M. Noszka,Boston Celtics,,Massachusetts,29,2,2
+,Isiah Lord Thomas III,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,30,9,23
+,Daniel Edward Anderson,Portland Trail Blazers,Paul Allen || Jody Allen,Oregon,31,25,10
+,Kelvin Trent Tucker,Chicago Bulls,Dick Klein || Wirtz family || Jerry Reinsdorf,Illinois,33,5,14
+,Miles Julian Simon,Phoenix Suns,Mat Ishbia || Justin Ishbia,Arizona,35,24,18
+,Guy William Rodgers,Milwaukee Bucks,Wes Edens || Marc Lasry || Herb Kohl || Jamie Dinan,Wisconsin,36,17,28
+,Timothy Theodore Duncan,San Antonio Spurs,Angelo Drossos || John Schaefer || Red McCombs || Peter M. Holt,Texas,38,27,5
+,Derrick Joseph Chievous,Cleveland Cavaliers,Ted Stepien || George Gund || Gordon Gund || Dan Gilbert,Ohio,44,6,20
+,Rik Smits,Indiana Pacers,Herb Simon || Jim Morris,Indiana,45,12,3
+,Harry Junior Gallatin,Detroit Pistons,Fred Zollner || Bill Davidson || Karen Davidson || Tom Gores,Michigan,47,9,23
+,Darnell Hillman,Golden State Warriors,Joe Lacob || Peter Guber,California,49,10,11
+1.0,William Mark Price,Orlando Magic,Richard DeVos || Bob Vander Weide,Florida,5,22,15
+1.0,Kevin Wayne Durant,Phoenix Suns,Mat Ishbia || Justin Ishbia,Arizona,54,24,18
+,Nathaniel Thomas Huffman,Toronto Raptors,Maple Leaf Sports & Entertainment (MLSE),,56,28,17
+,Jabari Dominic Walker,Portland Trail Blazers,Paul Allen || Jody Allen,Oregon,77,25,10
+,Demerick Montae Strickland,Milwaukee Bucks,Wes Edens || Marc Lasry || Herb Kohl || Jamie Dinan,Wisconsin,8,17,28
+,Kermit Alan Washington,Golden State Warriors,Joe Lacob || Peter Guber,California,84,10,11
+,Garfield Smith,Boston Celtics,,Massachusetts,90,2,2
+,DaMon William Davis,Dallas Mavericks,Mark Cuban || Miriam Adelson || Patrick Dumont,Texas,95,7,4
+,Trayce Jackson-Davis,Golden State Warriors,Joe Lacob || Peter Guber,California,98,10,11
+1.0,Andre Jamal Drummond,Philadelphia 76ers,,Pennsylvania,99,23,12

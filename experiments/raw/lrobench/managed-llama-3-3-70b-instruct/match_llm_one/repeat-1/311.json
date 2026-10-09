@@ -1,0 +1,62 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 311,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 8.619,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To solve this, we need to compare the two input values. However, without specific details on what makes two features similar, we can only assume that if the two inputs are identical or closely relate",
+      "operator_calls": 29
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'I am not able to execute this task as it requires specific tool capabilities that are not provided in the given library.'",
+      "operator_calls": 51
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 64,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.8333,
+    0.9091
+  ],
+  "tokens": [
+    6080,
+    6016,
+    64
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.8333,
+        0.9091
+      ],
+      "prediction": [
+        "['AMOUNT (\u00c3\\x82\u00c2\u00a3)' 'Amount']",
+        "['DATE PAID' 'Date']",
+        "['EFFECTIVE DATE' 'Date']",
+        "['SUPPLIER NAME' 'Supplier']",
+        "['TRANSACTION NO.' 'Transaction Number']"
+      ],
+      "truth": [
+        "['AMOUNT (\u00c3\\x82\u00c2\u00a3)' 'Amount']",
+        "['DATE PAID' 'Date']",
+        "['EFFECTIVE DATE' 'Date']",
+        "['ORGANISATION NAME' 'Department Family']",
+        "['SUPPLIER NAME' 'Supplier']",
+        "['TRANSACTION NO.' 'Transaction Number']"
+      ]
+    }
+  ]
+}

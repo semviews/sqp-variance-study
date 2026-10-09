@@ -1,0 +1,31 @@
+{"key": "141568723285df0b", "role": "operator", "t": 1790970189.56, "seconds": 1.344, "output": "\"\""}
+{"key": "d065ef2dba553e15", "role": "operator", "t": 1790970189.558, "seconds": 1.583, "output": "NHS SUPPLY CHAIN"}
+{"key": "0b025de055b6e544", "role": "operator", "t": 1790970189.558, "seconds": 1.586, "output": "NHS SUPPLY CHAIN"}
+{"key": "b3be7d88df58407f", "role": "operator", "t": 1790970189.558, "seconds": 1.588, "output": "NHS SUPPLY CHAIN"}
+{"key": "9ab38de1d58b5ed2", "role": "operator", "t": 1790970189.56, "seconds": 1.588, "output": "\"\""}
+{"key": "475421cffea8836d", "role": "operator", "t": 1790970189.561, "seconds": 1.587, "output": "\"\""}
+{"key": "234455549b1d4c0f", "role": "operator", "t": 1790970189.559, "seconds": 1.591, "output": "\"\""}
+{"key": "bc8a19663ca14c29", "role": "operator", "t": 1790970189.559, "seconds": 1.592, "output": "ALCURA UK LTD"}
+{"key": "c9e123fbd1965ee7", "role": "operator", "t": 1790970189.56, "seconds": 1.942, "output": "Alliance Medical Ltd does not match any of the values listed in the 'right_Supplier' column. Therefore, the result is an empty string.\n\n\"\""}
+{"key": "a125825108354816", "role": "operator", "t": 1790970189.562, "seconds": 1.942, "output": "\"\""}
+{"key": "3e8832285d5be724", "role": "operator", "t": 1790970190.904, "seconds": 1.245, "output": "Npower does not appear in the provided list of values for the 'right_Supplier' column. Therefore, there is no match satisfying the condition \"The two suppliers are the same supplier.\" \n\nEmpty string."}
+{"key": "14aa6ec6ea22158a", "role": "operator", "t": 1790970191.141, "seconds": 1.012, "output": "ROYAL DEVON AND EXETER NHS FOUNDATION TRUST"}
+{"key": "dac446aa13ada20d", "role": "operator", "t": 1790970191.504, "seconds": 0.708, "output": "NOVARTIS PHARMACEUTICALS UK LTD"}
+{"key": "f436e5eba1b08bdb", "role": "operator", "t": 1790970191.504, "seconds": 0.709, "output": "\"\""}
+{"key": "6e5b4b98e60c5e61", "role": "operator", "t": 1790970191.504, "seconds": 0.709, "output": "\"\""}
+{"key": "2320baa74b38c701", "role": "operator", "t": 1790970191.504, "seconds": 0.71, "output": "\"\""}
+{"key": "eb4b15c00ef50ba9", "role": "operator", "t": 1790970191.504, "seconds": 0.711, "output": "\"\""}
+{"key": "1e6b6b74653c1d8b", "role": "operator", "t": 1790970191.504, "seconds": 0.712, "output": "ROCHE PRODUCTS LTD"}
+{"key": "63c7d790a997c089", "role": "operator", "t": 1790970191.504, "seconds": 0.712, "output": "\"\""}
+{"key": "8559892a3b0cb285", "role": "operator", "t": 1790970191.504, "seconds": 0.714, "output": "CSC COMPUTER SCIENCES LTD"}
+{"key": "406fbfba133b7f81", "role": "operator", "t": 1790970192.149, "seconds": 1.089, "output": "There is no matching value for 'Emis Health' in the provided list of 'right_Supplier' values. Therefore, the result is an empty string."}
+{"key": "e9a175a270c5e228", "role": "operator", "t": 1790970192.217, "seconds": 1.023, "output": "PHILIPS HEALTHCARE"}
+{"key": "436d55c219d7c13b", "role": "operator", "t": 1790970192.218, "seconds": 1.025, "output": "NHS LITIGATION AUTHORITY"}
+{"key": "fb9f5873c81cc53e", "role": "operator", "t": 1790970192.218, "seconds": 1.026, "output": "\"\""}
+{"key": "c814e8eb19f339af", "role": "operator", "t": 1790970192.218, "seconds": 1.027, "output": "\"\""}
+{"key": "1ddbe7cc7727b5b0", "role": "operator", "t": 1790970192.218, "seconds": 1.028, "output": "Topscan (uk) ltd"}
+{"key": "f8a39359a208e3f5", "role": "operator", "t": 1790970192.218, "seconds": 1.029, "output": "NHS BLOOD & TRANSPLANT"}
+{"key": "d1e8e83c4db46113", "role": "operator", "t": 1790970192.218, "seconds": 1.03, "output": "\"\""}
+{"key": "a7bb3f3732eed8f8", "role": "operator", "t": 1790970192.218, "seconds": 1.093, "output": "Nhs Coventry& Rugby Ccg does not match any of the values listed in the 'right_Supplier' column. Therefore, the result is an empty string."}
+{"key": "44fd97ecb2499374", "role": "operator", "t": 1790970192.218, "seconds": 1.094, "output": "\"\""}
+{"key": "b8a189dbd72d5324", "role": "operator", "t": 1790970193.238, "seconds": 0.469, "output": "\"\""}

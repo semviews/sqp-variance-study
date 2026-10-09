@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 106,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 2.231,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.5714,
+    0.7273
+  ],
+  "tokens": [
+    340,
+    293,
+    47
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.5714,
+        0.7273
+      ],
+      "prediction": [
+        "['1724' 'Ohio']",
+        "['2434' 'Ohio']",
+        "['2799' 'Texas']",
+        "['721' 'Florida']"
+      ],
+      "truth": [
+        "['1724' 'Ohio']",
+        "['2001' 'California']",
+        "['2434' 'Ohio']",
+        "['2799' 'Texas']",
+        "['3320' 'California']",
+        "['3447' 'California']",
+        "['721' 'Florida']"
+      ]
+    }
+  ]
+}

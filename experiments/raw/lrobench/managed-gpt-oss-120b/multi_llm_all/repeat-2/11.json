@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 11,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 15.309,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 17,
+  "judge_calls": 0,
+  "returned": "Belgium Jupiler League",
+  "tokens": 4166,
+  "metrics": [],
+  "prediction": "Belgium Jupiler League",
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

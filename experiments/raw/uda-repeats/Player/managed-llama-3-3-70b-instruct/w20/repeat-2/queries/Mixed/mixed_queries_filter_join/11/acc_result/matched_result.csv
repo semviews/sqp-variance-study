@@ -1,0 +1,10 @@
+team.location,player.draft_year,team.ownership,player.name,player.id,team.id
+Dallas,2011.0,Mark Cuban || Miriam Adelson || Patrick Dumont,Kyrie Andrew Irving,104,7
+Los Angeles,2021.0,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen,Austin Tyler Reaves,113,14
+Miami,2008.0,Micky Arison,Kevin Wesley Love,114,16
+San Francisco,2009.0,Joe Lacob || Peter Guber,Stephen Curry,116,10
+Los Angeles,2012.0,Jeanie Buss || Jerry Buss || Jack Kent Cooke || Bob Short || Ben Berger || Morris Chalfen,Anthony Marshon Davis Jr.,12,14
+Detroit,2021.0,Tom Gores,Cade Parker Cunningham,121,9
+Detroit,2022.0,Tom Gores,Jaden Edward Dhananjay Ivey,126,9
+Boston,1992.0,"Boston Basketball Partners L.L.C. (H. Irving Grousbeck, Wycliffe Grousbeck, Steve Pagliuca)",Shaquille O'Neal,137,2
+Phoenix,2007.0,Mat Ishbia || Justin Ishbia,Kevin Durant,54,24

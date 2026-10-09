@@ -1,0 +1,67 @@
+player.nationality,player.age,team.location,team.team_name,player.id,team.id
+Bahamas,32,San Francisco,Golden State Warriors,100,10
+USA,28,Los Angeles,Los Angeles Lakers,101,14
+USA || Australia,32,Dallas,Dallas Mavericks,104,7
+USA,26,Boston,Boston Celtics,105,2
+Canada,29,San Francisco,Golden State Warriors,107,10
+British,27,New York City || Manhattan,New York Knicks,109,20
+USA,50,Sacramento,Sacramento Kings,11,26
+USA,28,Boston,Boston Celtics,110,2
+France,20,San Antonio,San Antonio Spurs,111,27
+USA,34,Boston,Boston Celtics,112,2
+USA || Germany,26,Los Angeles,Los Angeles Lakers,113,14
+USA,36,Miami,Miami Heat,114,16
+Greece || Nigeria,30,Milwaukee,Milwaukee Bucks,115,17
+USA,36,San Francisco,Golden State Warriors,116,10
+Dominican,38,Boston,Boston Celtics,117,2
+USA,24,Miami,Miami Heat,118,16
+USA,30,Miami,Miami Heat,119,16
+USA,31,Los Angeles,Los Angeles Lakers,12,14
+USA || China,31,San Francisco,Golden State Warriors,120,10
+USA,23,Detroit,Detroit Pistons,121,9
+USA,40,Los Angeles,Los Angeles Lakers,122,14
+USA,35,Miami,Miami Heat,123,16
+USA,28,San Francisco,Golden State Warriors,124,10
+USA,29,Chicago,Chicago Bulls,125,5
+USA,22,Detroit,Detroit Pistons,126,9
+USA,28,Phoenix,Phoenix Suns,129,24
+USA,34,San Francisco,Golden State Warriors,130,10
+USA,27,San Antonio,San Antonio Spurs,131,27
+DR Congo,22,San Francisco,Golden State Warriors,132,10
+USA,27,Chicago,Chicago Bulls,133,5
+USA || Mexico,23,Miami,Miami Heat,134,16
+USA,21,Detroit,Detroit Pistons,135,9
+USA,28,New York City || Manhattan,New York Knicks,136,20
+USA,52,Boston,Boston Celtics,137,2
+USA,41,Los Angeles,Los Angeles Lakers,138,14
+USA,39,San Antonio,San Antonio Spurs,139,27
+USA,32,San Antonio,San Antonio Spurs,140,27
+USA,27,Miami,Miami Heat,141,16
+USA,65,New York City || Manhattan,New York Knicks,18,20
+USA,65,Los Angeles,Los Angeles Lakers,2,14
+USA,65,New York City || Manhattan,New York Knicks,20,20
+USA,65,Los Angeles,Los Angeles Lakers,28,14
+USA,71,Boston,Boston Celtics,29,2
+USA,63,Detroit,Detroit Pistons,30,9
+USA,74,Portland,Portland Trail Blazers,31,25
+USA,65,Chicago,Chicago Bulls,33,5
+USA,49,Phoenix,Phoenix Suns,35,24
+USA,65,Milwaukee,Milwaukee Bucks,36,17
+USA,48,San Antonio,San Antonio Spurs,38,27
+USA,57,Cleveland,Cleveland Cavaliers,44,6
+Netherlands,58,Indianapolis,Indiana Pacers,45,12
+USA,23,Minneapolis,Minnesota Timberwolves,46,18
+USA,88,Detroit,Detroit Pistons,47,9
+USA,75,San Francisco,Golden State Warriors,49,10
+USA,60,Orlando,Orlando Magic,5,22
+USA,52,New York City || Manhattan,New York Knicks,53,20
+USA,36,Phoenix,Phoenix Suns,54,24
+USA,40,Toronto,Toronto Raptors,56,28
+USA,22,Portland,Portland Trail Blazers,77,25
+USA,51,Milwaukee,Milwaukee Bucks,8,17
+USA,73,San Francisco,Golden State Warriors,84,10
+USA,77,New York City || Manhattan,New York Knicks,87,20
+USA,79,Boston,Boston Celtics,90,2
+USA,54,Dallas,Dallas Mavericks,95,7
+USA || Spain,58,Salt Lake City,Utah Jazz,96,29
+USA,24,San Francisco,Golden State Warriors,98,10

@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 301,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 7.491,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.2,
+    0.4
+  ],
+  "tokens": [
+    242,
+    187,
+    55
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.2,
+      "prediction": [
+        "Inside Out",
+        "June 19, 2015",
+        "Riley",
+        "Bing Bong",
+        "Lava"
+      ],
+      "truth": [
+        "Inside Out",
+        "19-Jun-15",
+        "Joy",
+        "Sadness",
+        "Bundle of Joy"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.4,
+      "prediction": [
+        "Inside Out",
+        "June 19, 2015",
+        "Riley",
+        "Bing Bong",
+        "Lava"
+      ],
+      "truth": [
+        "Inside Out",
+        "19-Jun-15",
+        "Joy",
+        "Sadness",
+        "Bundle of Joy"
+      ]
+    }
+  ]
+}

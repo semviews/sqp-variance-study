@@ -1,0 +1,30 @@
+ID,area,city_name,gdp,population,state_name
+1,400.739,Denver,$157.6 billion,"715,522",Colorado
+2,125,Boston,363,"675,647 || 4,919,179",Massachusetts
+3,950,Indianapolis,$184.4 billion,"887,642",Indiana
+4,999.3,Dallas,Not applicable,"1,304,379",Texas
+5,1205.4,San Antonio,$121 billion,"1,434,625 || 1,327,407 || 1,144,646 || 1,592,383 || 2,194,927 || 2,473,974",Texas
+6,1210,Los Angeles,$1.0 trillion,"3,820,914 || 12.8 million || 18.3 million || 9.86 million",California
+7,152.8,Minneapolis,$323.9 billion || $337 billion,"429,954",Minnesota
+8,,Miami,$257 billion || $344.9 billion,"6.14 million || 442,241",Florida
+9,24,Inglewood,Not applicable,"107,762",California
+10,375.78,Portland,"$50,271 || $40,146 || $22,643","652,503 || 2.5 million",Oregon
+11,121,San Francisco,$874 billion || $729 billion || $1.32 trillion || $252.2 billion,"808,988",California
+12,369.62,Philadelphia,$518.5 billion || $479 billion,"1,603,797",Pennsylvania
+13,910,New Orleans,$7.2||$183 billion (Metro),"383,997",Louisiana
+14,606.1,Chicago,689,"2,746,388 || 9.6 million",Illinois
+15,,Orlando,$13.4 billion,"307,573",Florida
+16,286,Salt Lake City,Not applicable,"200,133 || 1,257,936 || 2,746,164",Utah
+17,630.2,Toronto,$277.6 billion,"2,794,356 || 6,712,341",Ontario
+18,1341,Phoenix,$362 billion||$243 billion,"1,662,607 || 4,857,962 || 1,509,000",Arizona
+19,177,"Washington, D.C.","$160,472",689545 || 705749 || 802178 || 9200000,None
+20,213.6,Cleveland,$138.3 billion || $176 billion,"372,624",Ohio
+21,1659,Houston,633,"2,314,157 || 2,325,502",Texas
+22,259,Sacramento,Not applicable,"524,943 || 2,680,831",California
+23,370.03,Detroit,$14 billion,"639,111",Michigan
+24,839.2,Memphis,Not applicable,"633,104",Tennessee
+25,808.1,Charlotte,2.5 || 115,"874,579",North Carolina
+26,778.2,New York City,2.16 trillion,"8,804,190 || 8,258,035",New York
+27,1606.7,Oklahoma City,$61.1 || $73.8,"681,054 || 1,396,445 || 1,469,124",Oklahoma
+28,250.71,Milwaukee,$102 billion,"577,222",Wisconsin
+29,347.1,Atlanta,$473 billion,"510,823 || 6.3 million || 498,715",Georgia

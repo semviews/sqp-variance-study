@@ -1,0 +1,22 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "city",
+  "attributes": [
+    "area",
+    "city_name",
+    "gdp",
+    "population",
+    "state_name"
+  ],
+  "model": "openai/managed-llama-3-3-70b-instruct",
+  "workers": 20,
+  "repeat": 1,
+  "attempt": 2,
+  "calls": 145,
+  "call_errors": 0,
+  "error": null,
+  "failed_calls": 0,
+  "seconds": 66.549,
+  "prompt_tokens": 2486562
+}

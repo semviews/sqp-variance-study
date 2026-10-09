@@ -1,0 +1,23 @@
+{
+  "sql": "/* Query 8: binary_join (team, manager) */ SELECT manager.name, manager.own_year, team.team_name, team.founded_year FROM team JOIN manager ON team.ownership = manager.name",
+  "manager": {
+    "name": {
+      "value_type": "str",
+      "description": "name is the full name of the team owner (e.g. Jeanie Buss)."
+    },
+    "own_year": {
+      "value_type": "int",
+      "description": "own_year is year the owner have this NBA team (e.g. 2010)."
+    }
+  },
+  "team": {
+    "founded_year": {
+      "value_type": "int",
+      "description": "founded_year is the year of this team team founded (e.g. 1947)."
+    },
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  }
+}

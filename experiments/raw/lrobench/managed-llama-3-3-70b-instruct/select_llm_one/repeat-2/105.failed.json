@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 105,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 14.253,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 129, in pipeline_select105\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine whether Malaysia is located in East Asia, we need to consider the geographical location of the country. Malaysia is a country located in Southeast Asia, which is sometimes considered par\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether Malaysia is located in East Asia, we need to consider the geographical location of the country. Malaysia is a country located in Southeast Asia, which is sometimes considered par",
+      "operator_calls": 13
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether Malaysia is located in East Asia, we need to consider the geographical location of the country. Malaysia is a country located in Southeast Asia, which is sometimes considered par",
+      "operator_calls": 13
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 14,
+  "judge_calls": 0
+}

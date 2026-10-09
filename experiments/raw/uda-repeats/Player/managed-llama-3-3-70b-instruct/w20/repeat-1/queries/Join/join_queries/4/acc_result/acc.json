@@ -1,0 +1,44 @@
+{
+  "columns": {
+    "player.nationality": {
+      "precision": 0.09259259259259259,
+      "recall": 0.05555555555555555,
+      "f1": 0.06944444444444443
+    },
+    "player.age": {
+      "precision": 0.12962962962962962,
+      "recall": 0.07777777777777778,
+      "f1": 0.09722222222222222
+    },
+    "team.location": {
+      "precision": 0.9074074074074074,
+      "recall": 0.5444444444444444,
+      "f1": 0.6805555555555556
+    },
+    "team.team_name": {
+      "precision": 0.9074074074074074,
+      "recall": 0.5444444444444444,
+      "f1": 0.6805555555555556
+    }
+  },
+  "macro_precision": 0.5092592592592593,
+  "macro_recall": 0.3055555555555555,
+  "macro_f1": 0.3819444444444444,
+  "rows": {
+    "len_gold": 90,
+    "len_pred": 54,
+    "matched_rows": 49
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.id",
+    "team.id"
+  ],
+  "evaluated_columns": [
+    "player.nationality",
+    "player.age",
+    "team.location",
+    "team.team_name"
+  ],
+  "skipped_columns": []
+}

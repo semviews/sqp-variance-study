@@ -1,0 +1,1 @@
+{"key": "38b9e83626431823", "role": "operator", "t": 1790992915.718, "seconds": 2.619, "output": "[\n  {\"Table Left\": \"Fiscal Year\", \"Table Right\": \"FSCL_YR\"},\n  {\"Table Left\": \"Agency Name\", \"Table Right\": \"MINE\"},\n  {\"Table Left\": \"Category Description\", \"Table Right\": \"DEPT_EN_DESC\"}\n]"}

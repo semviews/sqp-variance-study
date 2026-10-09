@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 4: 1 (player) */ SELECT age, birth_date, team FROM player WHERE team = 'Cedevita Olimpija'",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

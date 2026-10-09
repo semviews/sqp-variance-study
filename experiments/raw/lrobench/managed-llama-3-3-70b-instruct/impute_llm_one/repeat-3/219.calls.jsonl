@@ -1,0 +1,7 @@
+{"key": "9765faa015d53fa0", "role": "operator", "t": 1790980995.942, "seconds": 2.001, "output": "{\"city_name\": \"Los Angeles\", \"country\": \"USA\"}"}
+{"key": "4d804189abe02a6d", "role": "operator", "t": 1790980995.941, "seconds": 2.004, "output": "{\"city_name\": \"Albertville\", \"country\": \"France\"}"}
+{"key": "71365bbf672f4bb5", "role": "operator", "t": 1790980995.939, "seconds": 2.006, "output": "{\"city_name\": \"Antwerpen\", \"country\": \"Belgium\"}"}
+{"key": "7bde6c0bb67ee558", "role": "operator", "t": 1790980995.938, "seconds": 2.009, "output": "{\"city_name\": \"Barcelona\", \"country\": \"Spain\"}"}
+{"key": "5548fef3a066f2a1", "role": "operator", "t": 1790980995.939, "seconds": 2.012, "output": "{\"city_name\": \"London\", \"country\": \"United Kingdom\"}"}
+{"key": "8b48e8783fe2e78f", "role": "operator", "t": 1790980995.94, "seconds": 2.037, "output": "[{\"city_name\": \"Calgary\", \"country\": \"Canada\"}]"}
+{"key": "9890f31563f76cf5", "role": "operator", "t": 1790980995.942, "seconds": 2.038, "output": "{\"city_name\": \"Salt Lake City\", \"country\": \"USA\"}"}

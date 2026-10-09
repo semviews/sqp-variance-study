@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 210,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 52.991,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    0.8333,
+    1.0,
+    0.9091
+  ],
+  "tokens": [
+    4160,
+    4129,
+    31
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8333,
+        1.0,
+        0.9091
+      ],
+      "prediction": [
+        "firstName",
+        "lastNHL",
+        "lastName",
+        "nameGiven",
+        "nameNick",
+        "nameNote"
+      ],
+      "truth": [
+        "firstName",
+        "lastName",
+        "nameGiven",
+        "nameNick",
+        "nameNote"
+      ]
+    }
+  ]
+}

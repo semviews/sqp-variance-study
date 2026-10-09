@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "cluster",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 105,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 13.767,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/cluster_eval.py\", line 123, in pipeline_cluster105\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/cluster.py\", line 29, in execute\n    res = op.execute(condition = condition,\nTypeError: 'NoneType' object is not subscriptable\n",
+  "failed_attempts": [
+    {
+      "error": "TypeError: 'NoneType' object is not subscriptable",
+      "operator_calls": 6
+    },
+    {
+      "error": "TypeError: 'NoneType' object is not subscriptable",
+      "operator_calls": 6
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 6,
+  "judge_calls": 0
+}

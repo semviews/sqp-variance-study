@@ -1,0 +1,83 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 109,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 2,
+  "seconds": 8.389,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: 'left_state'",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.4444,
+    0.1481,
+    0.2222
+  ],
+  "tokens": [
+    677,
+    293,
+    384
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4444,
+        0.1481,
+        0.2222
+      ],
+      "prediction": [
+        "['1592' 'Tennessee']",
+        "['1669' 'Ohio']",
+        "['1724' 'Ohio']",
+        "['2421' 'Illinois']",
+        "['2434' 'Ohio']",
+        "['2799' 'New York']",
+        "['2799' 'Texas']",
+        "['314' 'Illinois']",
+        "['721' 'Florida']"
+      ],
+      "truth": [
+        "['1290' 'Arizona']",
+        "['1592' 'Tennessee']",
+        "['1592' 'Texas']",
+        "['1669' 'Illinois']",
+        "['1669' 'Indiana']",
+        "['1669' 'Maryland']",
+        "['1669' 'Ohio']",
+        "['1669' 'Tennessee']",
+        "['1724' 'Indiana']",
+        "['1724' 'Michigan']",
+        "['1724' 'Pennsylvania']",
+        "['2001' 'Arizona']",
+        "['2421' 'Illinois']",
+        "['2421' 'Michigan']",
+        "['2434' 'Indiana']",
+        "['2434' 'Michigan']",
+        "['2434' 'Pennsylvania']",
+        "['2496' 'California']",
+        "['314' 'Illinois']",
+        "['3320' 'Arizona']",
+        "['3447' 'Arizona']",
+        "['4415' 'California']",
+        "['4426' 'Arizona']",
+        "['4426' 'Texas']",
+        "['931' 'California']",
+        "['954' 'Arizona']",
+        "['954' 'Texas']"
+      ]
+    }
+  ]
+}

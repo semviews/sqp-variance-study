@@ -1,0 +1,11 @@
+{"key": "4c53a54527ee2e5c", "role": "operator", "t": 1790962953.974, "seconds": 1.781, "output": "[{\"games_city\": [\"1\", \"location_tables\"]}]"}
+{"key": "b3e5a9265199f532", "role": "operator", "t": 1790962955.755, "seconds": 0.963, "output": "[{\"noc_region\": [\"1\", \"location_tables\"]}]"}
+{"key": "0c80445772e5168f", "role": "operator", "t": 1790962956.718, "seconds": 1.254, "output": "[\n  { \"competitor_event\": [\"2\", \"game_tables\"]}\n]"}
+{"key": "49250e57f72ffede", "role": "operator", "t": 1790962957.972, "seconds": 1.069, "output": "[\n  { \"medal\": [\"3\", \"other_tables\"]}\n]"}
+{"key": "7c3b0ea8011dd2bd", "role": "operator", "t": 1790962959.041, "seconds": 1.04, "output": "[{\"city\": [\"1\", \"location_tables\"]}]"}
+{"key": "0888c0256746b648", "role": "operator", "t": 1790962960.081, "seconds": 1.096, "output": "[{\"games\": [\"2\", \"game_tables\"]}]"}
+{"key": "e3a6e70e1dc4953a", "role": "operator", "t": 1790962961.177, "seconds": 1.044, "output": "[{\"sport\": [\"2\", \"game_tables\"]}]"}
+{"key": "d5365cbd111d1f42", "role": "operator", "t": 1790962962.221, "seconds": 0.955, "output": "[{\"person\": [\"4\", \"tables_for_joining\"]}]"}
+{"key": "4c0a8d20268be4c2", "role": "operator", "t": 1790962963.177, "seconds": 1.073, "output": "[{\"event\": [\"4\", \"tables_for_joining\"]}]"}
+{"key": "be2663dbd3879324", "role": "operator", "t": 1790962964.25, "seconds": 1.116, "output": "[ \n  { \"person_region\": [\"1\", \"location_tables\"]}\n]"}
+{"key": "9b871d6beb7f3be2", "role": "operator", "t": 1790962965.366, "seconds": 0.975, "output": "[{\"games_competitor\": [\"2\", \"game_tables\"]}]"}

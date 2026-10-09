@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 305,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 99.395,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 29,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    0.7273,
+    0.5926
+  ],
+  "tokens": [
+    7809,
+    7773,
+    36
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        0.7273,
+        0.5926
+      ],
+      "prediction": [
+        "['2013-14 CALPADS Fall 1 Certification Status' 'StatusType']",
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Name' 'County']",
+        "['District Code' 'NCESDist']",
+        "['District Name' 'District']",
+        "['District Type' 'Charter']",
+        "['Educational Option Type' 'EdOpsName']",
+        "['IRC' 'CDSCode']",
+        "['Low Grade' 'GSoffered']",
+        "['NSLP Provision Status' 'StatusType']",
+        "['School Code' 'CDSCode']",
+        "['School Name' 'School']",
+        "['School Type' 'FundingType']"
+      ],
+      "truth": [
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['District Code' 'NCESDist']",
+        "['District Name' 'District']",
+        "['District Type ' 'DOCType']",
+        "['Educational Option Type' 'EdOpsName']",
+        "['School Name' 'School']",
+        "['School Type' 'SOCType']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 16: 3 (player) */ SELECT olympic_gold_medals, fiba_world_cup, birth_date FROM player WHERE birth_date = '1994/4/25' OR position <> 'Frontcourt'",
+  "player": {
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "fiba_world_cup": {
+      "value_type": "int",
+      "description": "number of FIBA World Cup titles the player has won (e.g., 1)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{"key": "d2fb738c15521460", "role": "operator", "t": 1790968170.303, "seconds": 2.002, "output": "{ \"Original_Price\": \"1199.0\", \"Amazon_Price\": \"799.99\", \"Discount\": \"33.33%\" }"}
+{"key": "b162261ad09de07d", "role": "operator", "t": 1790968170.301, "seconds": 2.107, "output": "{ \"Original_Price\": \"2899.0\", \"Amazon_Price\": \"2699.0\", \"Discount\": \"200.0\" }"}
+{"key": "10f8f69a2e497c24", "role": "operator", "t": 1790968170.303, "seconds": 2.111, "output": "{\"Original_Price\": \"1199.0\", \"Amazon_Price\": \"876.0\", \"Discount\": \"26.77\"}"}
+{"key": "26dda02b37180878", "role": "operator", "t": 1790968170.305, "seconds": 2.111, "output": "{\"Original_Price\": \"999.0\", \"Amazon_Price\": \"927.63\", \"Discount\": \"7.14\"}"}
+{"key": "7593be29962397da", "role": "operator", "t": 1790968170.301, "seconds": 2.127, "output": "{\"Original_Price\": \"4699.0\", \"Amazon_Price\": \"3599.0\", \"Discount\": \"23.45\"}"}
+{"key": "6019d43e3d5ac726", "role": "operator", "t": 1790968170.302, "seconds": 2.128, "output": "{\"Original_Price\": \"1599.0\", \"Amazon_Price\": \"1194.0\", \"Discount\": \"25.28\"}"}
+{"key": "961871fb056e76f0", "role": "operator", "t": 1790968170.305, "seconds": 2.127, "output": "{\"Original_Price\": \"999.0\", \"Amazon_Price\": \"994.0\", \"Discount\": \"0.5\"}"}
+{"key": "289e146adec99bf8", "role": "operator", "t": 1790968170.302, "seconds": 2.144, "output": "{\"Original_Price\": \"1599.0\", \"Amazon_Price\": \"1499.99\", \"Discount\": \"10.01\"}"}
+{"key": "50cca6b0f2fdf46d", "role": "operator", "t": 1790968170.304, "seconds": 2.541, "output": "{ \"impute_discount\": { \"function_name\": \"impute_discount\", \"args\": [\"{ \\\"Original_Price\\\": \\\"1099.99\\\", \\\"Amazon_Price\\\": \\\"929.98\\\", \\\"Discount\\\": null }\"] } }"}

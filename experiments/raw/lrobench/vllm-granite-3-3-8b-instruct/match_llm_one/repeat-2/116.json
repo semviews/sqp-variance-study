@@ -1,0 +1,83 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 116,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 31.11,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 90,
+  "judge_calls": 0,
+  "returned": [
+    0.6316,
+    0.5455,
+    0.5854
+  ],
+  "tokens": [
+    8508,
+    8418,
+    90
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6316,
+        0.5455,
+        0.5854
+      ],
+      "prediction": [
+        "['Baffin Island' 'America']",
+        "['Baffin Island' 'Australia/Oceania']",
+        "['Borneo' 'Asia']",
+        "['Ellesmere Island' 'Australia/Oceania']",
+        "['Great Britain' 'Europe']",
+        "['Hokkaido' 'Asia']",
+        "['Honshu' 'Asia']",
+        "['Ireland' 'America']",
+        "['Ireland' 'Europe']",
+        "['Java' 'Africa']",
+        "['Java' 'Asia']",
+        "['Luzon' 'Asia']",
+        "['Mindanao' 'Asia']",
+        "['Mindanao' 'Australia/Oceania']",
+        "['Sulawesi' 'Asia']",
+        "['Sumatra' 'Asia']",
+        "['Victoria Island' 'Africa']",
+        "['Victoria Island' 'Asia']",
+        "['Victoria Island' 'Australia/Oceania']"
+      ],
+      "truth": [
+        "['Baffin Island' 'America']",
+        "['Banks Island' 'America']",
+        "['Borneo' 'Asia']",
+        "['Cuba' 'America']",
+        "['Cuba' 'Australia/Oceania']",
+        "['Ellesmere Island' 'America']",
+        "['Great Britain' 'Australia/Oceania']",
+        "['Great Britain' 'Europe']",
+        "['Hispaniola' 'America']",
+        "['Hokkaido' 'Asia']",
+        "['Honshu' 'Asia']",
+        "['Ireland' 'Europe']",
+        "['Java' 'America']",
+        "['Java' 'Asia']",
+        "['Luzon' 'Asia']",
+        "['Mindanao' 'Asia']",
+        "['Sulawesi' 'Asia']",
+        "['Sumatra' 'Asia']",
+        "['Te Ika-a-Maui (North Island)' 'Australia/Oceania']",
+        "['Te Waka-a-Maui (South Island)' 'Australia/Oceania']",
+        "['Victoria Island' 'Africa']",
+        "['Victoria Island' 'America']"
+      ]
+    }
+  ]
+}

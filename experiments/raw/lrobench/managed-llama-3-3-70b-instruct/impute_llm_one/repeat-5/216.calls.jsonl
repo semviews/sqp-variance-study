@@ -1,0 +1,5 @@
+{"key": "c8c075eb6b57edbb", "role": "operator", "t": 1790991831.719, "seconds": 1.857, "output": "{\"country\": \"France\", \"leader\": \"Emmanuel Macron\"}"}
+{"key": "1f36def62d954703", "role": "operator", "t": 1790991831.72, "seconds": 2.012, "output": "{\"country\": \"UK\", \"leader\": \"Rishi Sunak\"}"}
+{"key": "8061da4e21fa5b28", "role": "operator", "t": 1790991831.719, "seconds": 2.026, "output": "{\"country\": \"Japan\", \"leader\": \"Fumio Kishida\"}"}
+{"key": "1417c553c97a5d21", "role": "operator", "t": 1790991831.718, "seconds": 2.03, "output": "{\"country\": \"USA\", \"leader\": \"Joe Biden\"}"}
+{"key": "a7219652f94a8681", "role": "operator", "t": 1790991831.72, "seconds": 2.126, "output": "[{\"country\": \"Australia\", \"leader\": \"Anthony Albanese\"}]"}

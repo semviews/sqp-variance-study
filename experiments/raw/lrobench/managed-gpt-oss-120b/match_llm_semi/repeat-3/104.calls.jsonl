@@ -1,0 +1,10 @@
+{"key": "2da72d282c9d1977", "role": "operator", "t": 1790977866.598, "seconds": 2.03, "output": "[\"r\"]"}
+{"key": "56e83a350da653e4", "role": "operator", "t": 1790977866.597, "seconds": 2.181, "output": "[\"r\"]"}
+{"key": "fb3088cf2491418d", "role": "operator", "t": 1790977866.594, "seconds": 2.363, "output": ""}
+{"key": "a37ea20102099a3a", "role": "operator", "t": 1790977866.595, "seconds": 2.423, "output": "r"}
+{"key": "6b7d7018b9b8636d", "role": "operator", "t": 1790977866.595, "seconds": 2.556, "output": ""}
+{"key": "da32579986ef8950", "role": "operator", "t": 1790977866.594, "seconds": 2.626, "output": "[\"r\"]"}
+{"key": "c3603240070f1a59", "role": "operator", "t": 1790977866.596, "seconds": 2.624, "output": ""}
+{"key": "a4fbe7f8addf746a", "role": "operator", "t": 1790977866.596, "seconds": 2.871, "output": ""}
+{"key": "f4171fe86702b633", "role": "operator", "t": 1790977866.595, "seconds": 3.824, "output": "r"}
+{"key": "fba4c24327168cb9", "role": "operator", "t": 1790977866.597, "seconds": 3.887, "output": "[\"time-series\"]"}

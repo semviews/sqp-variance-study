@@ -1,0 +1,13 @@
+{
+  "sql": "/* Query 4: aggregation (player) */ SELECT nationality, MAX(age) AS max_age FROM player GROUP BY nationality",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    }
+  }
+}

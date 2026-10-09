@@ -1,0 +1,73 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 216,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 6.207,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 7,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    359,
+    259,
+    100
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 1.0,
+      "prediction": [
+        "Joe Biden",
+        "Joe Biden",
+        "Joe Biden",
+        "Emmanuel Macron",
+        "Fumio Kishida",
+        "Anthony Albanese",
+        "Rishi Sunak"
+      ],
+      "truth": [
+        "Joe Biden",
+        "Joe Biden",
+        "Joe Biden",
+        "Emmanuel Macron",
+        "Fumio Kishida",
+        "Anthony Albanese",
+        "Rishi Sunak"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 1.0,
+      "prediction": [
+        "Joe Biden",
+        "Joe Biden",
+        "Joe Biden",
+        "Emmanuel Macron",
+        "Fumio Kishida",
+        "Anthony Albanese",
+        "Rishi Sunak"
+      ],
+      "truth": [
+        "Joe Biden",
+        "Joe Biden",
+        "Joe Biden",
+        "Emmanuel Macron",
+        "Fumio Kishida",
+        "Anthony Albanese",
+        "Rishi Sunak"
+      ]
+    }
+  ]
+}

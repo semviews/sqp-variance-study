@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 116,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 4.898,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 351, in pipeline_select116\n    lake = op.execute(impl_type = args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine whether the given area satisfies the condition, we need to know the area of Shanghai. The area of Shanghai is approximately 6,340.5 square kilometers. \\n\\nSince 798.0 is less than 6,340.\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the given area satisfies the condition, we need to know the area of Shanghai. The area of Shanghai is approximately 6340.5 square kilometers. \\n\\nSince 6133.0 is less than 6340.5",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the given area satisfies the condition, we need to know the area of Shanghai. The area of Shanghai is approximately 6,340.5 square kilometers. Since 29.8 is less than 6,340.5, th",
+      "operator_calls": 9
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

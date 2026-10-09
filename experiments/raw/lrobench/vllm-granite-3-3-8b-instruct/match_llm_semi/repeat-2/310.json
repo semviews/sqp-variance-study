@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 310,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 10.106,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    1424,
+    900,
+    524
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['Agency Name'\n 'To provide an accurate response, I need the specific data from Table Left and Table Right, including the \\'Agency Name\\' column in Table Left and the optional columns listed in Table Right. Please provide the relevant data so I can match the columns based on the condition that \"The two columns refer to the similar feature.\" \\n\\nIf you can share the data or a sample of it, I will proceed with the matching and return the appropriate column name in pure string format, or an empty string if no match is found.']",
+        "['Category Description'\n 'To provide an accurate response, I need the specific \\'Category Description\\' from Table Left and the content of Table Right to determine which column in Table Right best matches the description based on the condition that \"The two columns refer to the similar feature.\" However, you have not provided the actual content or descriptions for either Table Left or Table Right.\\n\\nPlease provide the \\'Category Description\\' from Table Left and the relevant data from Table Right, including the optional column names you listed. Once I have this information, I can match the appropriate column and return the result as a pure string, or an empty string if no match is found.']",
+        "['Detail Description'\n 'To provide an accurate response, I need the specific content of the \\'Detail Description\\' column from Table Left and the corresponding columns from Table Right. Could you please provide the details or a sample of the data in both tables? This will allow me to match the columns based on the condition that \"The two columns refer to the similar feature.\"']",
+        "['Fiscal Year' 'FSCL_YR']",
+        "['Payments Total'\n 'To determine the matched column in Table Right that corresponds to the \\'Payments Total\\' column in Table Left, we need to identify which of the optional columns in Table Right most closely aligns with the concept of \"Payments Total.\" Given the descriptions of the optional columns:\\n\\n- FSCL_YR: Fiscal Year\\n- MINE: Mine\\n- DEPT_EN_DESC: Department End Description\\n- Tax-revenues: Tax Revenues\\n- Return-on-investments: Return on Investments\\n- Refunds-of-previous-years-expenditures: Refunds of Previous Years\\' Expenditures\\n- Sales-of-goods-and-services: Sales of Goods and Services\\n- Proceeds-from-the-disposal-of-surplus-Crown-assets: Proceeds from the Disposal of Surplus Crown Assets\\n- Miscellaneous: Miscellaneous\\n\\nThe column that most closely relates to \"Payments Total\" is **Refunds-of-previous-years-expenditures**, as it pertains to payments or refunds related to past expenditures, which aligns with the idea of total payments made.\\n\\nTherefore, the matched column is:\\n\\nRefunds-of-previous-years-expenditures']"
+      ],
+      "truth": [
+        "['Agency Name' 'DEPT_EN_DESC']",
+        "['Fiscal Year' '\u00c3\\x83\u00c2\u00af\u00c3\\x82\u00c2\u00bb\u00c3\\x82\u00c2\u00bfFSCL_YR']"
+      ]
+    }
+  ]
+}

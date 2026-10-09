@@ -1,0 +1,73 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 213,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 27.259,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 40,
+  "judge_calls": 0,
+  "returned": [
+    0.2917,
+    1.0,
+    0.4516
+  ],
+  "tokens": [
+    5378,
+    5338,
+    40
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2917,
+        1.0,
+        0.4516
+      ],
+      "prediction": [
+        "Appraisal date",
+        "Available No. of Ext.",
+        "Available extension details",
+        "Awarded date",
+        "Custom fields (Field:Value)",
+        "Description",
+        "Display until date",
+        "End date",
+        "Estimated annual value",
+        "Estimated value",
+        "Initial contract period (months)",
+        "Keywords",
+        "Lots",
+        "OJEU",
+        "Portal notes",
+        "Reference no",
+        "Review date",
+        "Start date",
+        "Taken Extension details",
+        "Taken No. of Ext.",
+        "Title",
+        "Total contract period (months)",
+        "Total option to extend (months)",
+        "Visibility"
+      ],
+      "truth": [
+        "Available No. of Ext.",
+        "Available extension details",
+        "Initial contract period (months)",
+        "Taken Extension details",
+        "Taken No. of Ext.",
+        "Total contract period (months)",
+        "Total option to extend (months)"
+      ]
+    }
+  ]
+}

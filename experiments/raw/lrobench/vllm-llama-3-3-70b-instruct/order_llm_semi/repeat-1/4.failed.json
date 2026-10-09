@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 4,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 4.21,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 108, in pipeline_order4\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'The movie \"Hercules\" (1997) has a duration of 93 minutes. Based on this, I would assign a score relative to the average movie duration, which is around 120 minutes for animated films and 110 minutes for live-action films. Considering this, a score of 78 would reflect the movie\\'s duration relative to the average. \\n\\n\"78'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '103 is the duration of the movie Moana in minutes, to calculate the score we need to map this value to a score between 0 and 100. \\nAssuming the maximum possible duration is 180 minutes (a typical maximum for many movies), we can calculate the score as follows: \\n(103 / 180) * 100 = 57.22, rounding to the nearest whole number gives us a score of 57. \\n\\n57'",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: '103 is the duration of the movie Moana in minutes, to calculate the score we need to map this value to a score between 0 and 100. \\nAssuming the maximum possible duration is 180 minutes (a typical maximum for many movies), we can calculate the score as follows: \\n(103 / 180) * 100 = 57.22, rounding to the nearest whole number gives us a score of 57. \\n\\n57'",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

@@ -1,0 +1,85 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 32,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 55.727,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 153,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "American",
+      4
+    ],
+    [
+      "American/Cajun",
+      1
+    ],
+    [
+      "Hungarian",
+      1
+    ],
+    [
+      "Indian",
+      2
+    ],
+    [
+      "North African/Middle Eastern",
+      1
+    ],
+    [
+      "Spanish",
+      1
+    ],
+    [
+      "Spanish/Italian",
+      1
+    ]
+  ],
+  "tokens": 40092,
+  "metrics": [],
+  "prediction": [
+    [
+      "American",
+      4
+    ],
+    [
+      "American/Cajun",
+      1
+    ],
+    [
+      "Hungarian",
+      1
+    ],
+    [
+      "Indian",
+      2
+    ],
+    [
+      "North African/Middle Eastern",
+      1
+    ],
+    [
+      "Spanish",
+      1
+    ],
+    [
+      "Spanish/Italian",
+      1
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

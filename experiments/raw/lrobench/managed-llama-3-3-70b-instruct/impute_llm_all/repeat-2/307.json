@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 307,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 10.997,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 8,
+  "returned": [
+    0.0,
+    0.125
+  ],
+  "tokens": [
+    279,
+    213,
+    66
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.0,
+      "prediction": [
+        "6907",
+        "Clarity",
+        "Zedd",
+        "\u0089\u00e3\u00d1 2012 Interscope Records",
+        "Dance,Music,Rock,House,Electronic",
+        "2-Oct-12",
+        "Hourglass (feat. LIZ)",
+        "5:13"
+      ],
+      "truth": [
+        "6908",
+        "Midnights",
+        "Taylor Swift",
+        "\u0089\u00e3\u00d1 2022 Republic Records",
+        "Pop,Music",
+        "21-Oct-22",
+        "Anti-hero",
+        "3:20"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.125,
+      "prediction": [
+        "6907",
+        "Clarity",
+        "Zedd",
+        "\u0089\u00e3\u00d1 2012 Interscope Records",
+        "Dance,Music,Rock,House,Electronic",
+        "2-Oct-12",
+        "Hourglass (feat. LIZ)",
+        "5:13"
+      ],
+      "truth": [
+        "6908",
+        "Midnights",
+        "Taylor Swift",
+        "\u0089\u00e3\u00d1 2022 Republic Records",
+        "Pop,Music",
+        "21-Oct-22",
+        "Anti-hero",
+        "3:20"
+      ]
+    }
+  ]
+}

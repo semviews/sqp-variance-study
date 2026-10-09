@@ -1,0 +1,95 @@
+{
+  "aws-claude-sonnet-5": {
+    "duplicated_inputs": 533,
+    "within": 0.00600375234521576,
+    "across": 0.019136960600375234,
+    "within_ci": [
+      0.0036989163775703873,
+      0.009730730402515774
+    ],
+    "within_differ": 16,
+    "within_pairs": 2665
+  },
+  "vllm-granite-3-3-8b-instruct": {
+    "duplicated_inputs": 533,
+    "within": 0.01050656660412758,
+    "across": 0.012570356472795497,
+    "within_ci": [
+      0.0072791113717359515,
+      0.015143200990301569
+    ],
+    "within_differ": 28,
+    "within_pairs": 2665
+  },
+  "vllm-llama-3-3-70b-instruct": {
+    "duplicated_inputs": 533,
+    "within": 0.001125703564727955,
+    "across": 0.0020637898686679174,
+    "within_ci": [
+      0.0003829060726307219,
+      0.0033046863270081326
+    ],
+    "within_differ": 3,
+    "within_pairs": 2665
+  },
+  "vllm-qwen2-5-72b-instruct": {
+    "duplicated_inputs": 533,
+    "within": 0.003377110694183865,
+    "across": 0.0024390243902439024,
+    "within_ci": [
+      0.0017777245529629567,
+      0.006406200637651576
+    ],
+    "within_differ": 9,
+    "within_pairs": 2665
+  },
+  "managed-gpt-oss-120b": {
+    "duplicated_inputs": 533,
+    "within": 0.05984990619136961,
+    "across": 0.06118407337919533,
+    "within_ci": [
+      0.053793032043887634,
+      0.06654080014190507
+    ],
+    "within_differ": 319,
+    "within_pairs": 5330
+  },
+  "managed-llama-3-3-70b-instruct": {
+    "duplicated_inputs": 533,
+    "within": 0.003377110694183865,
+    "across": 0.00300187617260788,
+    "within_ci": [
+      0.0017777245529629567,
+      0.006406200637651576
+    ],
+    "within_differ": 9,
+    "within_pairs": 2665
+  },
+  "managed-mistral-small-3-1-24b-2503": {
+    "duplicated_inputs": 533,
+    "within": 0.000375234521575985,
+    "across": 0.000375234521575985,
+    "within_ci": [
+      6.623947416731831e-05,
+      0.0021225753284796426
+    ],
+    "within_differ": 1,
+    "within_pairs": 2665
+  },
+  "Azure-gpt-4o": {
+    "duplicated_inputs": 268,
+    "within": 0.012686567164179104,
+    "across": 0.05111940298507463,
+    "within_ci": [
+      0.00793575637616269,
+      0.02022351477603263
+    ],
+    "within_differ": 17,
+    "within_pairs": 1340
+  },
+  "example": {
+    "executions": 10,
+    "copies_differ": 6,
+    "reference_inputs_any_within": 91
+  }
+}

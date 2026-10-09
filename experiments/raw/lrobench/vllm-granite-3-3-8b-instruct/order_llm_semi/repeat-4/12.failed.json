@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 12,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 5.679,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 283, in pipeline_order12\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To determine the score for the song \"All You Had To Do Was Stay\" based on its highest rank and duration on the Billboard chart, I will use my external knowledge of music charts.\\n\\n\"All You Had To Do Was Stay\" is a song by Nick Jonas. Upon checking Billboard chart history, this song peaked at number 8 on the Billboard Hot 100 chart and remained on the chart for 52 weeks, which is a notable duration indicating strong chart performance.\\n\\nGiven that a higher rank (closer to 1) and a longer duration (more weeks) both contribute positively to the metric, this song scores well. Considering the scale from 0 to 100, where 100 represents the best possible rank (1) and longest duration (52 weeks or more), \"All You Had To Do Was Stay\" achieves a high score.\\n\\nTherefore, I assign a score of **95** to reflect its excellent chart performance.\\n\\n**95**'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \"The highest rank and the duration in weeks on the Billboard chart.\" metric for the song \"Welcome To New York,\" we need to consider its performance on the Billboard charts. \\n\\n\"Welcome To New York\" is a song by Taylor Swift, released as the lead single from her fifth studio album, *1989*. It was released on October 13, 2014. The song performed well on the Billboard charts:\\n\\n- **Billboard Hot 100 Peak Position:** The song reached ",
+      "operator_calls": 12
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \"The highest rank and the duration in weeks on the Billboard chart.\" metric for the song \"Welcome To New York,\" I will consider the following:\\n\\n1. **Billboard Chart Performance**: \"Welcome To New York\" is a song by Taylor Swift from her album *1989*. It was released in 2014 and performed well on the Billboard charts.\\n2. **Highest Rank**: The song reached number 2 on the Billboard Hot 100 chart, which is a strong position.\\n3. **D",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

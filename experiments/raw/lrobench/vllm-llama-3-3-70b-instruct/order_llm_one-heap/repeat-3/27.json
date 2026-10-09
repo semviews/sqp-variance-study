@@ -1,0 +1,73 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 27,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 37.177,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 58,
+  "judge_calls": 0,
+  "returned": [
+    0.8333,
+    1.0
+  ],
+  "tokens": [
+    12833,
+    12775,
+    58
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8333,
+        0.8333,
+        0.8333
+      ],
+      "prediction": [
+        "distributions",
+        "hypothesis-testing",
+        "machine-learning",
+        "normal-distribution",
+        "statistical-significance",
+        "time-series"
+      ],
+      "truth": [
+        "classification",
+        "distributions",
+        "hypothesis-testing",
+        "machine-learning",
+        "normal-distribution",
+        "statistical-significance"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "statistical-significance",
+        "normal-distribution",
+        "hypothesis-testing",
+        "machine-learning",
+        "time-series",
+        "distributions"
+      ],
+      "truth": [
+        "statistical-significance",
+        "normal-distribution",
+        "hypothesis-testing",
+        "machine-learning",
+        "classification",
+        "distributions"
+      ]
+    }
+  ]
+}

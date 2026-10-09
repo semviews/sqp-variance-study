@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 108,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 5.639,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 188, in pipeline_select108\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine whether the song satisfies the condition \\'This music is about love\\', we need to analyze the song name and artist. The song name is \"Erase (Samantha Ronson Remix) [feat. Priyanka Chopra\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the song satisfies the condition \\'This music is about love\\', I need to analyze the song\\'s lyrics or general theme. However, with the given information, I can only rely on exte",
+      "operator_calls": 13
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the song satisfies the condition \\'This music is about love\\', we need to analyze the song name and artist. The song name is \"Erase (Samantha Ronson Remix) [feat. Priyanka Chopra",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0
+}

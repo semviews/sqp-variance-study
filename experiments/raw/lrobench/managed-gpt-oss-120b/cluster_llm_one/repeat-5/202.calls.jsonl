@@ -1,0 +1,15 @@
+{"key": "1f30ac202f64ba72", "role": "operator", "t": 1790979124.392, "seconds": 3.702, "output": "[\n  { \"report_no\": [\"1\", \"basic_info\"] }\n]"}
+{"key": "abfb0c148cd1ddd8", "role": "operator", "t": 1790979128.094, "seconds": 2.37, "output": "[\n  { \"case_number\": [\"1\", \"basic_info\"] }\n]"}
+{"key": "8bc713520954ccdd", "role": "operator", "t": 1790979130.463, "seconds": 1.872, "output": "[\n  { \"date\": [\"1\", \"basic_info\"] }\n]"}
+{"key": "28b2b022f042489a", "role": "operator", "t": 1790979132.335, "seconds": 1.726, "output": "[{\"block\": [\"2\", \"location_info\"]}]"}
+{"key": "9df94d3a8a4c30b5", "role": "operator", "t": 1790979134.061, "seconds": 3.853, "output": "[{\"iucr_no\": [\"1\", \"basic_info\"]}]"}
+{"key": "c9ac662cf05e4151", "role": "operator", "t": 1790979137.915, "seconds": 3.098, "output": "[{\"location_description\": [\"3\", \"detail_info\"]}]"}
+{"key": "76039eee1bdd79be", "role": "operator", "t": 1790979141.012, "seconds": 3.398, "output": "[\n  { \"arrest\": [\"3\", \"detail_info\"] }\n]"}
+{"key": "ff73dc559082ed1c", "role": "operator", "t": 1790979144.41, "seconds": 3.437, "output": "[\n  { \"domestic\": [\"1\", \"basic_info\"] }\n]"}
+{"key": "d0997e1154ba748c", "role": "operator", "t": 1790979147.846, "seconds": 2.648, "output": "[\n  { \"beat\": [\"2\", \"location_info\"] }\n]"}
+{"key": "7c7891b376cac60e", "role": "operator", "t": 1790979150.494, "seconds": 2.296, "output": "[\n  { \"district_no\": [\"2\", \"location_info\"] }\n]"}
+{"key": "ecee6c25741c954d", "role": "operator", "t": 1790979152.79, "seconds": 1.545, "output": "[{\"ward_no\": [\"2\", \"location_info\"]}]"}
+{"key": "07282dd1be73e896", "role": "operator", "t": 1790979154.335, "seconds": 1.549, "output": "[\n  { \"community_area_no\": [\"2\", \"location_info\"] }\n]"}
+{"key": "648e043467838da7", "role": "operator", "t": 1790979155.884, "seconds": 1.762, "output": "[\n  { \"fbi_code_no\": [\"1\", \"basic_info\"] }\n]"}
+{"key": "cdbb1e946fec1acf", "role": "operator", "t": 1790979157.646, "seconds": 1.577, "output": "[\n  { \"latitude\": [\"2\", \"location_info\"] }\n]"}
+{"key": "693bd7c1d18fdc2a", "role": "operator", "t": 1790979159.223, "seconds": 2.239, "output": "[\n  { \"longitude\": [\"2\", \"location_info\"] }\n]"}

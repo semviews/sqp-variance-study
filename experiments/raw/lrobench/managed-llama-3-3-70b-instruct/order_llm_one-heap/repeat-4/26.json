@@ -1,0 +1,74 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 26,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 2,
+  "seconds": 14.84,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine the international tourism popularity, I need to use external knowledge. Based on general knowledge, Lake Huron is a popular tourist destination in North America, while the Caspian Sea is",
+      "operator_calls": 6
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.2
+  ],
+  "tokens": [
+    2644,
+    2633,
+    11
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Caspian Sea",
+        "Lake Huron",
+        "Lake Michigan",
+        "Lake Superior",
+        "Lake Victoria"
+      ],
+      "truth": [
+        "Caspian Sea",
+        "Lake Huron",
+        "Lake Michigan",
+        "Lake Superior",
+        "Lake Victoria"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.2,
+      "prediction": [
+        "Lake Victoria",
+        "Caspian Sea",
+        "Lake Superior",
+        "Lake Michigan",
+        "Lake Huron"
+      ],
+      "truth": [
+        "Lake Michigan",
+        "Lake Superior",
+        "Lake Huron",
+        "Caspian Sea",
+        "Lake Victoria"
+      ]
+    }
+  ]
+}

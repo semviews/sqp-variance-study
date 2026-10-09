@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 312,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 5.81,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 1047, in pipeline_select312\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine whether the 'author' table satisfies the given condition, we need to check if it contains information about the revenue of a specific author. \\n\\nSince the table is named 'author', it is\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the 'author' table satisfies the given condition, we need to check if it contains information about the revenue of specific authors. \\n\\nSince the problem doesn't specify the exa",
+      "operator_calls": 2
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the 'author' table satisfies the given condition, we need to check if it contains information about the revenue of specific authors. \\n\\nSince the problem doesn't specify the exa",
+      "operator_calls": 2
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 2,
+  "judge_calls": 0
+}

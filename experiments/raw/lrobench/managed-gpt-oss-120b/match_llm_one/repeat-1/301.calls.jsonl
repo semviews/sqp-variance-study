@@ -1,0 +1,5 @@
+{"key": "579952ca084e5987", "role": "operator", "t": 1790963679.647, "seconds": 2.024, "output": "0"}
+{"key": "ce695ba85add1993", "role": "operator", "t": 1790963679.649, "seconds": 2.567, "output": "0"}
+{"key": "ae90d7a1ba4059e5", "role": "operator", "t": 1790963679.647, "seconds": 2.607, "output": "0"}
+{"key": "edfaf61bf1398e6c", "role": "operator", "t": 1790963679.647, "seconds": 3.03, "output": "1"}
+{"key": "deece0d79b43b920", "role": "operator", "t": 1790963679.646, "seconds": 3.704, "output": "We will write solve() reading from stdin, reading two lines, stripping. Determine if JSON. Use json.loads. Compare.0"}

@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 35,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 16.822,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 43,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "China",
+      1
+    ],
+    [
+      "Japan",
+      3
+    ],
+    [
+      "Russia",
+      1
+    ],
+    [
+      "South Korea",
+      1
+    ]
+  ],
+  "tokens": 10346,
+  "metrics": [],
+  "prediction": [
+    [
+      "China",
+      1
+    ],
+    [
+      "Japan",
+      3
+    ],
+    [
+      "Russia",
+      1
+    ],
+    [
+      "South Korea",
+      1
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

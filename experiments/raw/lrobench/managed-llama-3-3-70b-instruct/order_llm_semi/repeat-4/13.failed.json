@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 13,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 12.042,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 304, in pipeline_order13\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"ARTPOP\" by Lady Gaga, I need to use external knowledge. \"ARTPOP\" debuted at number one on the US Billboard 200 chart and stayed on the chart for 13 weeks, with its highest rank being number one. Based on this information, I would assign a score of 85. \\n\\n85'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"G.U.Y.\", I need to use external knowledge. \"G.U.Y.\" is a song by Lady Gaga, from her third studio album, Artpop (2013). According to Billboard, \"G.U.Y.\" peaked at number 76 on the US Billboard Hot 100 and stayed on the chart for 3 weeks, but it performed better on the US Dance Club Songs, reaching number 4. Given this information, I would rate",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"Venus\", I need to use external knowledge. \"Venus\" is a song by Shocking Blue, released in 1969, and it reached number one on the Billboard Hot 100 chart. It stayed on the chart for 12 weeks in the United States. Given this information, I can infer that \"Venus\" had a high rank and moderate duration on the Billboard chart. \\n\\n{SCORE_CALCULATOR(",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 9,
+  "judge_calls": 0
+}

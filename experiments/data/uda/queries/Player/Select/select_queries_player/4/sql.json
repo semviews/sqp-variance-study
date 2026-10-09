@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 4: select (player) */ SELECT nba_championships, name, fiba_world_cup FROM player",
+  "player": {
+    "fiba_world_cup": {
+      "value_type": "int",
+      "description": "number of FIBA World Cup titles the player has won (e.g., 1)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    },
+    "nba_championships": {
+      "value_type": "int",
+      "description": "number of NBA championships the player has won (e.g., 4)."
+    }
+  }
+}

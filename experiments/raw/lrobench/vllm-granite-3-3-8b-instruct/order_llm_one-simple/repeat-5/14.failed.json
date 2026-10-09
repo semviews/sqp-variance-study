@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 14,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 5.008,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 325, in pipeline_order14\n    product = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"Planes generally have a much larger vehicle volume compared to Motorcycles. Therefore, Item 1 ('Planes') has a higher 'The vehicle volume' metric value than Item 2 ('Motorcycles').\\n\\n1\"\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"Planes generally have a much larger vehicle volume compared to Motorcycles. Therefore, Item 1 ('Planes') has a higher 'The vehicle volume' metric value than Item 2 ('Motorcycles').\\n\\n1\"",
+      "operator_calls": 23
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"Planes generally have a larger vehicle volume compared to Ships due to their ability to carry more cargo and passengers over longer distances. Therefore, Item 2 (Planes) has a higher 'The vehicle vol",
+      "operator_calls": 30
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 25,
+  "judge_calls": 0
+}

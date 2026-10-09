@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 121,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 9.264,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 618, in pipeline_match121\n    merged_df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine whether the two suppliers are the same, we need to compare the input strings, ignoring case differences and considering potential minor variations in naming (like abbreviations or word o\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the two suppliers are the same, we need to compare the input strings, ignoring case differences and considering potential abbreviations or variations in naming conventions. \\n\\nW",
+      "operator_calls": 34
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the two suppliers are the same, we need to compare the input strings, ignoring case differences and considering potential minor variations in naming (like abbreviations or word o",
+      "operator_calls": 31
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 36,
+  "judge_calls": 0
+}

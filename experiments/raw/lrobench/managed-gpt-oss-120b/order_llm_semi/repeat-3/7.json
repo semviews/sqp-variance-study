@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 7,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 6.897,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.25,
+    0
+  ],
+  "tokens": [
+    6866,
+    6842,
+    24
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "prediction": [
+        "Andersen",
+        "M\u00fcller",
+        "Rodriguez",
+        "Schuyler"
+      ],
+      "truth": [
+        "Altagar,G M",
+        "Piestrzeniewicz",
+        "Rodriguez",
+        "de Castro"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0,
+      "prediction": [
+        "Rodriguez",
+        "Andersen",
+        "Schuyler",
+        "M\u00fcller"
+      ],
+      "truth": [
+        "Piestrzeniewicz",
+        "Altagar,G M",
+        "Rodriguez",
+        "de Castro"
+      ]
+    }
+  ]
+}

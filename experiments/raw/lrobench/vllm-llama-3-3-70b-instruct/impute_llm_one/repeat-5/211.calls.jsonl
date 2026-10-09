@@ -1,0 +1,52 @@
+{"key": "d68d159320d9c62d", "role": "operator", "t": 1790991100.953, "seconds": 2.225, "output": "[\n  {\"Year\": \"1992\", \"Zodiac\": \"Monkey\"}\n]"}
+{"key": "d14baa66f772567c", "role": "operator", "t": 1790991100.953, "seconds": 2.232, "output": "[\n  {\"Year\": \"1991\", \"Zodiac\": \"Sheep\"}\n]"}
+{"key": "79c08ef426941f3f", "role": "operator", "t": 1790991100.954, "seconds": 2.237, "output": "[\n  {\"Year\": \"1993\", \"Zodiac\": \"Rooster\"}\n]"}
+{"key": "1c6de081e17447f0", "role": "operator", "t": 1790991100.954, "seconds": 2.24, "output": "[\n  {\"Year\": \"1994\", \"Zodiac\": \"Dog\"}\n]"}
+{"key": "33ef5eef952469d4", "role": "operator", "t": 1790991100.955, "seconds": 2.242, "output": "[\n  {\"Year\": \"1996\", \"Zodiac\": \"Fire Rat\"}\n]"}
+{"key": "a3deb2bbebb7e54a", "role": "operator", "t": 1790991100.956, "seconds": 2.244, "output": "[\n  {\"Year\": \"1998\", \"Zodiac\": \"Fire Tiger\"}\n]"}
+{"key": "6e27705588196c61", "role": "operator", "t": 1790991100.955, "seconds": 2.248, "output": "[\n  {\"Year\": \"1995\", \"Zodiac\": \"Pig\"}\n]"}
+{"key": "126d77aa58e89b1e", "role": "operator", "t": 1790991100.957, "seconds": 2.249, "output": "[\n  {\"Year\": \"1999\", \"Zodiac\": \"Hare\"}\n]"}
+{"key": "aa2d8c09681d2104", "role": "operator", "t": 1790991100.956, "seconds": 2.252, "output": "[\n  {\"Year\": \"1997\", \"Zodiac\": \"Ox\"}\n]"}
+{"key": "2b2a3841bc1cc4b8", "role": "operator", "t": 1790991100.957, "seconds": 2.253, "output": "[\n  {\"Year\": \"2000\", \"Zodiac\": \"Dragon\"}\n]"}
+{"key": "1dfa49eed66ad703", "role": "operator", "t": 1790991103.185, "seconds": 1.193, "output": "[\n  {\"Year\": \"2001\", \"Zodiac\": \"Snake\"}\n]"}
+{"key": "97ac1b771f840439", "role": "operator", "t": 1790991103.185, "seconds": 1.219, "output": "[\n  {\"Year\": \"2002\", \"Zodiac\": \"Horse\"}\n]"}
+{"key": "b0e467f4f86270db", "role": "operator", "t": 1790991103.21, "seconds": 1.198, "output": "[\n  {\"Year\": \"2004\", \"Zodiac\": \"Monkey\"}\n]"}
+{"key": "f1c9fdd737fb5b24", "role": "operator", "t": 1790991103.211, "seconds": 1.223, "output": "[\n  {\"Year\": \"2008\", \"Zodiac\": \"Rat\"}\n]"}
+{"key": "db7cb2fa6fd67767", "role": "operator", "t": 1790991103.21, "seconds": 1.229, "output": "[\n  {\"Year\": \"2003\", \"Zodiac\": \"Sheep\"}\n]"}
+{"key": "9eceb0c38f7bb024", "role": "operator", "t": 1790991103.211, "seconds": 1.229, "output": "[\n  {\"Year\": \"2010\", \"Zodiac\": \"Tiger\"}\n]"}
+{"key": "23acb473a175f257", "role": "operator", "t": 1790991103.211, "seconds": 1.231, "output": "[\n  {\"Year\": \"2006\", \"Zodiac\": \"Dog\"}\n]"}
+{"key": "218211151f6d7f75", "role": "operator", "t": 1790991103.211, "seconds": 1.236, "output": "[\n  {\"Year\": \"2007\", \"Zodiac\": \"Pig\"}\n]"}
+{"key": "46ef6732a88b55d8", "role": "operator", "t": 1790991103.211, "seconds": 1.239, "output": "[\n  {\"Year\": \"2005\", \"Zodiac\": \"Rooster\"}\n]"}
+{"key": "78433fc1ece06498", "role": "operator", "t": 1790991103.211, "seconds": 1.242, "output": "[\n  {\"Year\": \"2009\", \"Zodiac\": \"Ox\"}\n]"}
+{"key": "d92f0fcb7e522c10", "role": "operator", "t": 1790991104.379, "seconds": 1.088, "output": "[\n  {\"Year\": \"2011\", \"Zodiac\": \"Metal Rabbit\"}\n]"}
+{"key": "0beec397b1c734df", "role": "operator", "t": 1790991104.454, "seconds": 1.294, "output": "[\n  {\"Year\": \"2015\", \"Zodiac\": \"Sheep\"}\n]"}
+{"key": "e1a6abd99ea850d0", "role": "operator", "t": 1790991104.454, "seconds": 1.296, "output": "[\n  {\"Year\": \"2013\", \"Zodiac\": \"Snake\"}\n]"}
+{"key": "43fe30e3f625070a", "role": "operator", "t": 1790991104.454, "seconds": 1.298, "output": "[\n  {\"Year\": \"2016\", \"Zodiac\": \"Monkey\"}\n]"}
+{"key": "57dc2dc38e98d888", "role": "operator", "t": 1790991104.453, "seconds": 1.3, "output": "[\n  {\"Year\": \"2012\", \"Zodiac\": \"Dragon\"}\n]"}
+{"key": "2364ddcb1543465b", "role": "operator", "t": 1790991104.454, "seconds": 1.301, "output": "[\n  {\"Year\": \"2014\", \"Zodiac\": \"Horse\"}\n]"}
+{"key": "fb8d48603bceb849", "role": "judge", "t": 1790991105.817, "seconds": 2.244, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Pig'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "942f30c6070759b2", "role": "judge", "t": 1790991105.814, "seconds": 2.266, "output": "[\n  {\n    \"thinking\": \"Both strings are identical word 'Dog', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "4102d7a72524458a", "role": "judge", "t": 1790991105.759, "seconds": 2.333, "output": "[\n  {\n    \"thinking\": \"Sheep and goat are distinct animal species; they are not synonyms or paraphrases of each other.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "c27098381368af50", "role": "judge", "t": 1790991105.765, "seconds": 2.33, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Monkey'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "af8e201883e57545", "role": "judge", "t": 1790991105.81, "seconds": 2.473, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Rooster'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "27bf8616fb13e7f4", "role": "judge", "t": 1790991105.834, "seconds": 2.452, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Dragon'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "6297a7de3f2fde64", "role": "judge", "t": 1790991105.821, "seconds": 2.631, "output": "[\n  {\n    \"thinking\": \"Fire Rat specifies a particular type or category (e.g., Chinese zodiac element) while Rat is a generic term; they do not share the same meaning.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "04f49d14f8a89cec", "role": "judge", "t": 1790991105.828, "seconds": 2.703, "output": "[\n  {\n    \"thinking\": \"The phrase 'Fire Tiger' adds the qualifier 'Fire' to 'Tiger', creating a more specific concept (e.g., a particular type or year). It is not synonymous with the generic term 'Tiger'.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "c37ecf0c0a68c29b", "role": "judge", "t": 1790991105.831, "seconds": 2.742, "output": "[\n  {\n    \"thinking\": \"Hare and rabbit are distinct but related animals; they are not synonyms, so their meanings differ.\",\n    \"result\": 0\n  }\n]"}
+{"key": "888d23c1d8f4da04", "role": "judge", "t": 1790991105.824, "seconds": 4.782, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Ox'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "85e111317010b46b", "role": "judge", "t": 1790991108.069, "seconds": 2.551, "output": "[\n  {\n    \"thinking\": \"Both strings are identical word 'Snake', thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "c27098381368af50", "role": "judge", "t": 1790991108.298, "seconds": 2.325, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Monkey'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "4102d7a72524458a", "role": "judge", "t": 1790991108.295, "seconds": 2.331, "output": "[\n  {\n    \"thinking\": \"Sheep and goat are distinct animal species; they are not synonyms or paraphrases.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "af8e201883e57545", "role": "judge", "t": 1790991108.302, "seconds": 2.327, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Rooster'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "57c6c10b9b588707", "role": "judge", "t": 1790991108.537, "seconds": 2.094, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Rat'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "fb8d48603bceb849", "role": "judge", "t": 1790991108.534, "seconds": 2.1, "output": "[\n  {\n    \"thinking\": \"Both strings are identical word 'Pig', thus same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "b4498fa1e21f5ba8", "role": "judge", "t": 1790991108.289, "seconds": 2.56, "output": "[\n  {\n    \"thinking\": \"Both strings are identical words 'Horse', thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "888d23c1d8f4da04", "role": "judge", "t": 1790991108.576, "seconds": 2.456, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Ox'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "942f30c6070759b2", "role": "judge", "t": 1790991108.305, "seconds": 4.867, "output": "[\n  {\n    \"thinking\": \"Both strings are identical word 'Dog', same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "6c03161f444f1b20", "role": "judge", "t": 1790991110.617, "seconds": 2.561, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Tiger'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "b4498fa1e21f5ba8", "role": "judge", "t": 1790991110.868, "seconds": 2.313, "output": "[\n  {\n    \"thinking\": \"Both strings are identical words 'Horse', thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "27bf8616fb13e7f4", "role": "judge", "t": 1790991110.86, "seconds": 2.323, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Dragon'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "4102d7a72524458a", "role": "judge", "t": 1790991110.873, "seconds": 2.313, "output": "[\n  {\n    \"thinking\": \"Sheep and goat are distinct animal species; they are not synonyms or paraphrases of each other.\",\n    \"result\": \"0\"\n  }\n]"}
+{"key": "c27098381368af50", "role": "judge", "t": 1790991110.876, "seconds": 2.312, "output": "[\n  {\n    \"thinking\": \"Both strings are identical ('Monkey'), thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "85e111317010b46b", "role": "judge", "t": 1790991110.864, "seconds": 2.327, "output": "[\n  {\n    \"thinking\": \"Both strings are identical words 'Snake', thus they convey the same meaning.\",\n    \"result\": \"1\"\n  }\n]"}
+{"key": "d6c073123e4fdbaf", "role": "judge", "t": 1790991110.856, "seconds": 2.764, "output": "[\n  {\n    \"thinking\": \"The phrase 'Metal Rabbit' adds the qualifier 'Metal', changing the concept from a generic rabbit to a specific type (e.g., a rabbit made of metal). Therefore the meanings differ.\",\n    \"result\": \"0\"\n  }\n]"}

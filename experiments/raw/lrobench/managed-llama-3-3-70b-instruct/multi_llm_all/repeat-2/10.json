@@ -1,0 +1,31 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 10,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 6.398,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0,
+  "returned": [
+    "Kristof van Hout"
+  ],
+  "tokens": 3226,
+  "metrics": [],
+  "prediction": [
+    "Kristof van Hout"
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

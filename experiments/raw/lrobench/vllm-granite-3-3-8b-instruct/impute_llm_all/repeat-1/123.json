@@ -1,0 +1,109 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 123,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 77.142,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 16,
+  "returned": [
+    0.8125,
+    0.8125
+  ],
+  "tokens": [
+    4605,
+    2332,
+    2273
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.8125,
+      "prediction": [
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        "4:00",
+        "4:19",
+        "3:20",
+        "3:48",
+        "3:05",
+        "4:00",
+        "4:00",
+        "2:59"
+      ],
+      "truth": [
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        "4:18",
+        "4:19",
+        "3:20",
+        "3:48",
+        "3:05",
+        "4:18",
+        "4:18",
+        "2:59"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.8125,
+      "prediction": [
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        "4:00",
+        "4:19",
+        "3:20",
+        "3:48",
+        "3:05",
+        "4:00",
+        "4:00",
+        "2:59"
+      ],
+      "truth": [
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        " September 9, 2011",
+        "4:18",
+        "4:19",
+        "3:20",
+        "3:48",
+        "3:05",
+        "4:18",
+        "4:18",
+        "2:59"
+      ]
+    }
+  ]
+}

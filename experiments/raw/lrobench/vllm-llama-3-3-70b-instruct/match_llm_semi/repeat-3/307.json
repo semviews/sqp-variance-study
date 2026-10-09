@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 307,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 5.97,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0,
+  "returned": [
+    0.4,
+    1.0,
+    0.5714
+  ],
+  "tokens": [
+    1158,
+    1051,
+    107
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4,
+        1.0,
+        0.5714
+      ],
+      "prediction": [
+        "['ADDRESS' 'STREET']",
+        "['Geo Local Area' 'CITY']",
+        "['Geom'\n \"Geom does not seem to match any of the provided column names in Table Right. However, considering the context of 'Geom' which could be short for 'Geometry', it might be related to location. Among the provided options, the closest match to location-based information would be columns like 'STREET', 'CITY', 'STATE', 'ZIP'. But since 'Geom' could imply a broader sense of geographical information, the most fitting choice based on the given condition and the available options would be:\\n\\nSTREET\"]",
+        "['SCHOOL_CATEGORY' 'CLASSIFICATION']",
+        "['SCHOOL_NAME' 'NAME']"
+      ],
+      "truth": [
+        "['ADDRESS' 'STREET']",
+        "['SCHOOL_NAME' 'NAME']"
+      ]
+    }
+  ]
+}

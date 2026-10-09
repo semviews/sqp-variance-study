@@ -1,0 +1,27 @@
+{
+  "sql": "/* Query 8: filter4_join2 (player, team, city, manager) */ SELECT player.nationality, manager.nationality, city.population, team.championship FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name WHERE player.position <> 'Backcourt' AND player.draft_year >= 2005 AND city.city_name <> 'Minneapolis'",
+  "player": {
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    }
+  },
+  "manager": {
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality is the nationality of the team owner (e.g. American)."
+    }
+  },
+  "city": {
+    "population": {
+      "value_type": "int",
+      "description": "population is the population of the city (e.g. 7000000)."
+    }
+  },
+  "team": {
+    "championship": {
+      "value_type": "int",
+      "description": "championships is the number of this team getting championships (e.g. 5)."
+    }
+  }
+}

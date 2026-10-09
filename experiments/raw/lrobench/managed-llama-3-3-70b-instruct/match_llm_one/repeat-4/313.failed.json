@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 313,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 6.881,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1500, in pipeline_match313\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To solve this, we would compare the two input values. However, without specific details on what 'similar feature' means, we can't provide a precise comparison method. If we assume similarity means an\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the two given string values refer to similar features, we can analyze their meanings and keywords. \\n\\n\"Base Sales including tax\" refers to the basic sales amount along with the",
+      "operator_calls": 60
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'I am not able to execute this task as it requires specific tool capabilities.'",
+      "operator_calls": 31
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0
+}

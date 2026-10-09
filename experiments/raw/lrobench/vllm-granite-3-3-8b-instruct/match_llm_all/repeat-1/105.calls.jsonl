@@ -1,0 +1,1 @@
+{"key": "e6af097991916d6e", "role": "operator", "t": 1790945911.516, "seconds": 8.279, "output": "[\n  {\"left_state\": \"TX\", \"right_state\": \"Texas\"},\n  {\"left_state\": \"CO\", \"right_state\": \"Colorado\"},\n  {\"left_state\": \"AZ\", \"right_state\": \"Arizona\"},\n  {\"left_state\": \"FL\", \"right_state\": \"Florida\"}\n]"}

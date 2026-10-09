@@ -1,0 +1,215 @@
+{
+  "text": {
+    "cells": 101,
+    "cells_moving": 21,
+    "cells_range_01": 5,
+    "clean_cells": 101,
+    "clean_cells_moving": 21,
+    "max_range": 0.4421052631578947,
+    "pairs_untied": 112,
+    "pairs_any_reversal": 7,
+    "scenarios": [
+      "cars",
+      "ecomm",
+      "medical",
+      "mmqa",
+      "movie"
+    ],
+    "queries": 28,
+    "by_scenario": {
+      "cars": {
+        "cells": 11,
+        "cells_moving": 3
+      },
+      "ecomm": {
+        "cells": 14,
+        "cells_moving": 2
+      },
+      "medical": {
+        "cells": 11,
+        "cells_moving": 6
+      },
+      "mmqa": {
+        "cells": 27,
+        "cells_moving": 1
+      },
+      "movie": {
+        "cells": 38,
+        "cells_moving": 9
+      }
+    }
+  },
+  "cells_with_empty_runs": 3,
+  "clean_cells": 221,
+  "clean_cells_moving": 45,
+  "clean_cells_range_01": 12,
+  "cells": 224,
+  "cells_moving": 48,
+  "cells_range_01": 15,
+  "pairs_untied": 220,
+  "pairs_any_reversal": 18,
+  "single_runs": 1047,
+  "single_runs_reversing": 29,
+  "scenario_rankings": [
+    {
+      "scenario": "movie",
+      "queries": 8,
+      "same_order": 4,
+      "same_winner": 5,
+      "repeats": 5,
+      "mean_order": "thalamusdb|bigquery|palimpzest|lotus"
+    },
+    {
+      "scenario": "animals",
+      "queries": 4,
+      "same_order": 5,
+      "same_winner": 5,
+      "repeats": 5,
+      "mean_order": "lotus|bigquery|palimpzest|thalamusdb"
+    },
+    {
+      "scenario": "cars",
+      "queries": 2,
+      "same_order": 4,
+      "same_winner": 5,
+      "repeats": 5,
+      "mean_order": "lotus|thalamusdb|palimpzest|bigquery"
+    },
+    {
+      "scenario": "ecomm",
+      "queries": 5,
+      "same_order": 4,
+      "same_winner": 5,
+      "repeats": 5,
+      "mean_order": "bigquery|thalamusdb|palimpzest|lotus"
+    },
+    {
+      "scenario": "mmqa",
+      "queries": 6,
+      "same_order": 5,
+      "same_winner": 5,
+      "repeats": 5,
+      "mean_order": "lotus|palimpzest|thalamusdb|bigquery"
+    },
+    {
+      "scenario": "medical",
+      "queries": 5,
+      "same_order": 4,
+      "same_winner": 4,
+      "repeats": 4,
+      "mean_order": "bigquery|lotus|palimpzest|thalamusdb"
+    }
+  ],
+  "all_configs": {
+    "cells": 1023,
+    "cells_moving": 220,
+    "pairs_untied": 879,
+    "pairs_any_reversal": 71
+  },
+  "largest_ranges": [
+    {
+      "scenario": "animals",
+      "system": "bigquery",
+      "query": "Q10",
+      "metric": "f1_score",
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": "animals",
+      "system": "bigquery",
+      "query": "Q3",
+      "metric": "f1_score",
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": "cars",
+      "system": "thalamusdb",
+      "query": "Q6",
+      "metric": "f1_score",
+      "values": [
+        0.0,
+        0.966,
+        0.966,
+        0.966,
+        0.0
+      ]
+    },
+    {
+      "scenario": "ecomm",
+      "system": "thalamusdb",
+      "query": "Q8",
+      "metric": "f1_score",
+      "values": [
+        0.6667,
+        0.6667,
+        0.6667,
+        0.0,
+        0.6667
+      ]
+    },
+    {
+      "scenario": "cars",
+      "system": "thalamusdb",
+      "query": "Q7",
+      "metric": "f1_score",
+      "values": [
+        0.5792,
+        0.5792,
+        0.5792,
+        0.5792,
+        0.0
+      ]
+    },
+    {
+      "scenario": "movie",
+      "system": "bigquery",
+      "query": "Q6",
+      "metric": "f1_score",
+      "values": [
+        0.7,
+        0.4,
+        0.7,
+        0.4,
+        0.8421
+      ]
+    },
+    {
+      "scenario": "mmqa",
+      "system": "lotus",
+      "query": "Q2b",
+      "metric": "f1_score",
+      "values": [
+        0.9091,
+        0.9091,
+        0.9091,
+        0.5,
+        0.9091
+      ]
+    },
+    {
+      "scenario": "movie",
+      "system": "lotus",
+      "query": "Q6",
+      "metric": "f1_score",
+      "values": [
+        0.6667,
+        0.6667,
+        0.2667,
+        0.2667,
+        0.6667
+      ]
+    }
+  ]
+}

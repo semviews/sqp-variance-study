@@ -1,0 +1,1 @@
+{"key": "422704a04b1c8867", "role": "operator", "t": 1790977320.232, "seconds": 2.579, "output": "To compare the 'The 2020 GDP of the country' criteria, we need to look up the GDP of Bangladesh and Brazil for the year 2020. \n\n{LOOKUP GDP \"Bangladesh\" 2020}\n{LOOKUP GDP \"Brazil\" 2020}"}

@@ -1,0 +1,46 @@
+{
+  "columns": {
+    "manager.age": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "city.area": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "team.location": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "player.team": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "macro_precision": 0.0,
+  "macro_recall": 0.0,
+  "macro_f1": 0.0,
+  "rows": {
+    "len_gold": 0,
+    "len_pred": 0,
+    "matched_rows": 0
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.id",
+    "team.id",
+    "manager.id",
+    "city.id"
+  ],
+  "evaluated_columns": [
+    "manager.age",
+    "city.area",
+    "team.location",
+    "player.team"
+  ],
+  "skipped_columns": []
+}

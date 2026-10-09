@@ -1,0 +1,67 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 9,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 38.034,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 90,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.3333
+  ],
+  "tokens": [
+    29430,
+    29340,
+    90
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Gintama",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "Gintama'",
+        "Gintama': Enchousen"
+      ],
+      "truth": [
+        "Gintama",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "Gintama'",
+        "Gintama': Enchousen"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.3333,
+      "prediction": [
+        "Gintama': Enchousen",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "Gintama",
+        "Gintama",
+        "Gintama'"
+      ],
+      "truth": [
+        "Gintama",
+        "Gintama",
+        "Gintama'",
+        "Gintama': Enchousen",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+city.state_name,player.olympic_gold_medals,team.team_name,player.college,manager.own_year,player.id,team.id,manager.id,city.id
+Michigan,,Detroit Pistons,Georgia Tech,2011,24,9,1,23
+Michigan,0.0,Detroit Pistons,Indiana University,2011,30,9,1,23
+Florida,2.0,Miami Heat,UCLA Bruins,1995,114,16,15,8
+Florida,,Miami Heat,University of Kentucky || University of Wisconsin–Madison,1995,118,16,15,8
+Florida,,Miami Heat,Williams College || Michigan Wolverines,1995,119,16,15,8
+Michigan,1.0,Detroit Pistons,Oklahoma State University,2011,121,9,1,23
+Florida,1.0,Miami Heat,Tyler Junior College || Marquette University,1995,123,16,15,8
+Michigan,,Detroit Pistons,Purdue,2011,126,9,1,23
+Florida,2019.0,Miami Heat,UCLA || Concordia University || Northern Arizona University || Ventura Community College,1995,134,16,15,8
+Michigan,,Detroit Pistons,,2011,135,9,1,23
+Florida,2.0,Miami Heat,University of Kentucky,1995,141,16,15,8

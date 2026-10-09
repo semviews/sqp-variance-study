@@ -1,0 +1,4 @@
+manager.nba_team,team.team_name,team.founded_year,manager.nationality,team.id,manager.id
+Detroit Pistons,Detroit Pistons,1937,American || Greek || Lebanese,9,1
+Los Angeles Clippers,Los Angeles Clippers,1970,American || Jewish || Russian || Swiss,13,3
+Miami Heat,Miami Heat,1988,Israeli-American,16,15

@@ -1,0 +1,31 @@
+{
+  "sql": "/* Query 9: multi_table_join (player, team, city, manager) */ SELECT city.state_name, player.olympic_gold_medals, team.team_name, player.college, manager.own_year FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name",
+  "city": {
+    "state_name": {
+      "value_type": "str",
+      "description": "state_name is the name of the state the city is located in (e.g. California)."
+    }
+  },
+  "player": {
+    "college": {
+      "value_type": "str",
+      "description": "the college the player attended, if applicable (e.g., Duke University)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  },
+  "team": {
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  },
+  "manager": {
+    "own_year": {
+      "value_type": "int",
+      "description": "own_year is year the owner have this NBA team (e.g. 2010)."
+    }
+  }
+}

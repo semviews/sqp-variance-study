@@ -1,0 +1,88 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 126,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 8.87,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.6429,
+    1.0,
+    0.7826
+  ],
+  "tokens": [
+    889,
+    607,
+    282
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6429,
+        1.0,
+        0.7826
+      ],
+      "prediction": [
+        "['NORTHWEST POLISH']",
+        "['NOTORIOUS REUNION']",
+        "['NUTS TIES']",
+        "['OLEANDER CLUE']",
+        "['OPEN AFRICAN']",
+        "['OPERATION OPERATION']",
+        "['OPUS ICE']",
+        "['ORDER BETRAYED']",
+        "['ORIENT CLOSER']",
+        "['PANTHER REDS']",
+        "['PAPI NECKLACE']",
+        "['PARIS WEEKEND']",
+        "['PARK CITIZEN']",
+        "['PARTY KNOCK']",
+        "['PAST SUICIDES']",
+        "['PATHS CONTROL']",
+        "['PATIENT SISTER']",
+        "['PATTON INTERVIEW']",
+        "['PAYCHECK WAIT']",
+        "['PEACH INNOCENT']",
+        "['PERSONAL LADYBUGS']",
+        "['PHILADELPHIA WIFE']",
+        "['PIANIST OUTFIELD']",
+        "['PINOCCHIO SIMON']",
+        "['PIRATES ROXANNE']",
+        "['PITTSBURGH HUNCHBACK']",
+        "['PIZZA JUMANJI']",
+        "['PLATOON INSTINCT']"
+      ],
+      "truth": [
+        "['NORTHWEST POLISH']",
+        "['NOTORIOUS REUNION']",
+        "['NUTS TIES']",
+        "['OLEANDER CLUE']",
+        "['OPEN AFRICAN']",
+        "['OPERATION OPERATION']",
+        "['ORDER BETRAYED']",
+        "['PAPI NECKLACE']",
+        "['PARIS WEEKEND']",
+        "['PAST SUICIDES']",
+        "['PATTON INTERVIEW']",
+        "['PAYCHECK WAIT']",
+        "['PEACH INNOCENT']",
+        "['PHILADELPHIA WIFE']",
+        "['PIANIST OUTFIELD']",
+        "['PITTSBURGH HUNCHBACK']",
+        "['PIZZA JUMANJI']",
+        "['PLATOON INSTINCT']"
+      ]
+    }
+  ]
+}

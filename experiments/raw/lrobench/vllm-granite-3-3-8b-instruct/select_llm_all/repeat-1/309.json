@@ -1,0 +1,66 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 3.97,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.6,
+    0.75
+  ],
+  "tokens": [
+    1057,
+    934,
+    123
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.6,
+        0.75
+      ],
+      "prediction": [
+        "country",
+        "economy",
+        "ethnicGroup",
+        "isMember",
+        "language",
+        "politics",
+        "population",
+        "religion",
+        "target"
+      ],
+      "truth": [
+        "borders",
+        "city",
+        "continent",
+        "country",
+        "economy",
+        "encompasses",
+        "ethnicGroup",
+        "isMember",
+        "language",
+        "organization",
+        "politics",
+        "population",
+        "province",
+        "religion",
+        "target"
+      ]
+    }
+  ]
+}

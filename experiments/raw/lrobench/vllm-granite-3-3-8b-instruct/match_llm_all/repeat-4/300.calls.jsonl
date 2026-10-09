@@ -1,0 +1,1 @@
+{"key": "d3c889a718ad178a", "role": "operator", "t": 1790978380.187, "seconds": 21.327, "output": "[\n  {\"Table Left\": \"Geom\", \"Table Right\": \"Geom\"},\n  {\"Table Left\": \"LOCAL_AREA\", \"Table Right\": \"Geo Local Area\"}\n]"}

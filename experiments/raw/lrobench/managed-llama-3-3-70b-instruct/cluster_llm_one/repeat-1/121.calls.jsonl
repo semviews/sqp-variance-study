@@ -1,0 +1,2 @@
+{"key": "c94a049c9903d9a0", "role": "operator", "t": 1790960978.592, "seconds": 2.189, "output": "[\n  {\"index\":\"34\", \"cluster_name\": \"Developing\", \"cluster_label\": \"1\"}\n]"}
+{"key": "65647c70d8f480f1", "role": "operator", "t": 1790960980.78, "seconds": 2.958, "output": "{\"function\": \"assign_cluster\", \"args\": [\"{'index': 35, 'region_name': 'Cambodia'}\", \"{\\\"1\\\": \\\"Developing\\\"}\"]}"}

@@ -1,0 +1,21 @@
+\begin{table}[t]
+\caption{LRO-Bench's implementation recommendations on our executions. $\checkmark$: the 95\% interval of the mean quality difference over queries is above zero and every execution agrees; $\sim$: the interval contains zero; --: fewer than three queries.}
+\label{tab:claims}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Recommendation & gpt-oss & Llama (M) & Llama (V) & Granite \\
+\midrule
+Filter, rows: ONE $>$ ALL & $\sim$ & -- & $\sim$ & $\checkmark$ \\
+Filter, columns, tables: ALL $>$ ONE & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+Match, rows: SEMI $\geq$ ALL & $\sim$ & -- & $\sim$ & $\sim$ \\
+Match, cells, columns: ALL $>$ SEMI & $\checkmark$ & $\sim$ & $\sim$ & $\checkmark$ \\
+Impute, columns: ONE $>$ ALL & $\sim$ & -- & $\sim$ & $\sim$ \\
+Impute, cells, rows: ALL $>$ ONE & $\checkmark$ & -- & $\checkmark$ & $\sim$ \\
+Cluster: ALL $>$ ONE & $\checkmark$ & $\checkmark$ & $\sim$ & $\sim$ \\
+Order: ALL $>$ SEMI & $\checkmark$ & -- & $\sim$ & -- \\
+Order: ALL $>$ ONE (heap) & $\sim$ & -- & $\sim$ & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

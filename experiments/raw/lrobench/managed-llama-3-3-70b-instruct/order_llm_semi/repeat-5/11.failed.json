@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 11,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 11.988,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 262, in pipeline_order11\n    sea = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: '{assign_score: {\"item\": {\"index\": 2, \"Name\": \"Arctic Ocean\"}, \"criteria\": \"The area of the sea.\"}}'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The area of the sea.\\' metric of the \\'Name\\' column, I need to use external knowledge about the areas of different seas and oceans. Since the item is the \"Atlantic Ocean\", I can use this knowledge to assign a score. The Atlantic Ocean is the second-largest ocean, covering approximately 20% of the Earth\\'s surface. \\n\\n{ \\n  \"type\": \"function\", \\n  \"name\": \"get_sea_area_score\", \\n  \"parameters\": {\\n    \"name\": \"Atlantic Ocean\"\\n  ",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The area of the sea.\\' metric of the \\'Name\\' column, I need to use external knowledge about the area of the Andaman Sea. The Andaman Sea has an area of approximately 600,000 square kilometers. Considering this, I will assign a score relative to other seas. \\n\\n{assign_score: {\"function_name\": \"get_sea_area_score\", \"args\": [\"Andaman Sea\"]}}'",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 9,
+  "judge_calls": 0
+}

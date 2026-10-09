@@ -1,0 +1,28 @@
+{"key": "d3c3238a996d9a2a", "role": "operator", "t": 1790976385.18, "seconds": 2.045, "output": "[{\"EIN\": [\"1\", \"organization_info\"]}]"}
+{"key": "4535423c7122adb5", "role": "operator", "t": 1790976387.225, "seconds": 1.063, "output": "[{\"NAME\": [\"2\", \"other_info\"]}]"}
+{"key": "9245e93c2bc40c16", "role": "operator", "t": 1790976388.288, "seconds": 1.687, "output": "[{\"ICO\": [\"3\", \"finance_info\"]}]"}
+{"key": "b23c1603d67ccf3a", "role": "operator", "t": 1790976389.975, "seconds": 1.174, "output": "[{\"STREET\": [\"4\", \"location_info\"]}]"}
+{"key": "e0fc74a82b9ee0ec", "role": "operator", "t": 1790976391.149, "seconds": 1.163, "output": "[{\"CITY\": [\"4\", \"location_info\"]}]"}
+{"key": "f9fdb4e4a6a68573", "role": "operator", "t": 1790976392.312, "seconds": 1.186, "output": "[{\"STATE\": [\"4\", \"location_info\"]}]"}
+{"key": "b2cab5839e3e8b92", "role": "operator", "t": 1790976393.498, "seconds": 1.037, "output": "[{\"ZIP\": [\"4\", \"location_info\"]}]"}
+{"key": "04f99b9afcc4456a", "role": "operator", "t": 1790976394.535, "seconds": 1.069, "output": "[{\"GROUP\": [\"5\", \"basic_info\"]}]"}
+{"key": "650f087817fd60ed", "role": "operator", "t": 1790976395.604, "seconds": 1.044, "output": "[{\"SUBSECTION\": [\"4\", \"location_info\"]}]"}
+{"key": "1c83899fe4d05ff1", "role": "operator", "t": 1790976396.648, "seconds": 0.904, "output": "[{\"AFFILIATION\": [\"1\", \"organization_info\"]}]"}
+{"key": "a2ad5eec9bed6031", "role": "operator", "t": 1790976397.552, "seconds": 1.186, "output": "[\n  { \"CLASSIFICATION\": [\"6\", \"other_info\"]}\n]"}
+{"key": "5c1e7beb47b7770e", "role": "operator", "t": 1790976398.738, "seconds": 1.145, "output": "[{\"RULING\": [\"2\", \"other_info\"]}]"}
+{"key": "a46fed7e3df95353", "role": "operator", "t": 1790976399.883, "seconds": 1.134, "output": "[ \n  { \"DEDUCTIBILITY\": [\"3\", \"finance_info\"]}\n]"}
+{"key": "e878a887d34ccc2a", "role": "operator", "t": 1790976401.017, "seconds": 1.08, "output": "[\n  { \"FOUNDATION\": [\"5\", \"basic_info\"]}\n]"}
+{"key": "44044fca9c45d4a7", "role": "operator", "t": 1790976402.097, "seconds": 1.04, "output": "[{\"ACTIVITY\": [\"7\", \"time_info\"]}]"}
+{"key": "a02d98ad91f5b87f", "role": "operator", "t": 1790976403.137, "seconds": 1.096, "output": "[ \n  { \"ORGANIZATION\": [\"1\", \"organization_info\"]}\n]"}
+{"key": "dcb6cbf7c3f63d12", "role": "operator", "t": 1790976404.233, "seconds": 1.148, "output": "[\n  { \"STATUS\": [\"5\", \"basic_info\"]}\n]"}
+{"key": "46d9e04eacf2cda7", "role": "operator", "t": 1790976405.381, "seconds": 1.201, "output": "[\n  { \"TAX_PERIOD\": [\"7\", \"time_info\"]}\n]"}
+{"key": "8c32d7ffe9e93207", "role": "operator", "t": 1790976406.582, "seconds": 1.173, "output": "[\n  { \"ASSET_CD\": [\"5\", \"basic_info\"]}\n]"}
+{"key": "1ef6ea1ae60e91c1", "role": "operator", "t": 1790976407.755, "seconds": 0.932, "output": "[{\"INCOME_CD\": [\"3\", \"finance_info\"]}]"}
+{"key": "8970f99b9f57d80f", "role": "operator", "t": 1790976408.687, "seconds": 1.146, "output": "[\n  { \"FILING_REQ_CD\": [\"1\", \"organization_info\"]}\n]"}
+{"key": "8ab56155e0121f10", "role": "operator", "t": 1790976409.833, "seconds": 1.234, "output": "[\n  { \"PF_FILING_REQ_CD\": [\"3\", \"finance_info\"]}\n]"}
+{"key": "c3d2c6c12dedc075", "role": "operator", "t": 1790976411.066, "seconds": 1.084, "output": "[\n  { \"ACCT_PD\": [\"3\", \"finance_info\"]}\n]"}
+{"key": "e0e92f000a6c5d3a", "role": "operator", "t": 1790976412.15, "seconds": 1.061, "output": "[{\"ASSET_AMT\": [\"3\", \"finance_info\"]}]"}
+{"key": "45f81a659ffbd152", "role": "operator", "t": 1790976413.211, "seconds": 2.379, "output": "[{\"INCOME_AMT\": [\"3\", \"finance_info\"]}]"}
+{"key": "a7091c87bb4985a1", "role": "operator", "t": 1790976415.59, "seconds": 1.025, "output": "[{\"REVENUE_AMT\": [\"3\", \"finance_info\"]}]"}
+{"key": "74449176c523a1b3", "role": "operator", "t": 1790976416.615, "seconds": 1.014, "output": "[{\"NTEE_CD\": [\"5\", \"organization_info\"]}]"}
+{"key": "986c87e773f33153", "role": "operator", "t": 1790976417.629, "seconds": 1.136, "output": "[{\"SORT_NAME\": [\"5\", \"basic_info\"]}]"}

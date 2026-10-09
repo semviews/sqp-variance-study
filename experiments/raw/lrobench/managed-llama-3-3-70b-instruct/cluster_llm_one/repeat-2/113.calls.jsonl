@@ -1,0 +1,1 @@
+{"key": "dda8f06166f9913f", "role": "operator", "t": 1790968650.272, "seconds": 2.845, "output": "{\"type\": \"function\", \"name\": \"assign_cluster\", \"parameters\": {\"row\": {\"type\": \"object\", \"value\": {\"index\": 0, \"City\": \"Lodi\", \"State\": \"CA\", \"Country\": \"United States\"}}, \"existing_clusters\": {\"type\": \"object\", \"value\": {}}}}"}

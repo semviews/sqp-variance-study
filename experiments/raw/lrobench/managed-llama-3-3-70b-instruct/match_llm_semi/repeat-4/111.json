@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 111,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 6.894,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 24,
+  "judge_calls": 0,
+  "returned": [
+    0.0909,
+    1.0,
+    0.1667
+  ],
+  "tokens": [
+    3826,
+    3293,
+    533
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0909,
+        1.0,
+        0.1667
+      ],
+      "prediction": [
+        "['AGRICULTURE' 'Natural Resources Department']",
+        "['COMMERCE AND INSURANCE' 'Natural Resources Department']",
+        "['CONSERVATION' 'Natural Resources Department']",
+        "['ECONOMIC DEVELOPMENT' 'Natural Resources Department']",
+        "['NATURAL RESOURCES' 'Natural Resources Department']",
+        "['OFFICE OF ADMINISTRATION' 'Natural Resources Department']",
+        "['OFFICE OF GOVERNOR' 'Natural Resources Department']",
+        "['OFFICE OF STATE AUDITOR' 'Natural Resources Department']",
+        "['OFFICE OF STATE TREASURER' 'Natural Resources Department']",
+        "['PUBLIC SAFETY' 'Natural Resources Department']",
+        "['REVENUE' 'Natural Resources Department']"
+      ],
+      "truth": [
+        "['NATURAL RESOURCES' 'Natural Resources Department']"
+      ]
+    }
+  ]
+}

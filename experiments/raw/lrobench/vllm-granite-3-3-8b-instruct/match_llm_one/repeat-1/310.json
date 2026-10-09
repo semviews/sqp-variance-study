@@ -1,0 +1,68 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 310,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 2,
+  "seconds": 3.087,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the two columns, **Detail Description** and **DEPT_EN_DESC**, refer to a similar feature, I need to analyze the content of these columns. However, the provided inputs are just th",
+      "operator_calls": 37
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 45,
+  "judge_calls": 0,
+  "returned": [
+    0.1053,
+    1.0,
+    0.1905
+  ],
+  "tokens": [
+    4570,
+    4525,
+    45
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1053,
+        1.0,
+        0.1905
+      ],
+      "prediction": [
+        "['Agency Name' 'DEPT_EN_DESC']",
+        "['Agency Name' 'MINE']",
+        "['Agency Name' 'Refunds-of-previous-years-expenditures']",
+        "['Agency Name' 'Return-on-investments']",
+        "['Agency Name' 'Sales-of-goods-and-services']",
+        "['Agency Name' 'Tax-revenues']",
+        "['Category Description' 'Refunds-of-previous-years-expenditures']",
+        "['Category Description' 'Return-on-investments']",
+        "['Category Description' 'Sales-of-goods-and-services']",
+        "['Category Description' 'Tax-revenues']",
+        "['Detail Description' 'Proceeds-from-the-disposal-of-surplus-Crown-assets']",
+        "['Detail Description' 'Refunds-of-previous-years-expenditures']",
+        "['Detail Description' 'Return-on-investments']",
+        "['Detail Description' 'Sales-of-goods-and-services']",
+        "['Detail Description' 'Tax-revenues']",
+        "['Fiscal Year' 'Refunds-of-previous-years-expenditures']",
+        "['Fiscal Year' 'Tax-revenues']",
+        "['Fiscal Year' '\u00c3\\x83\u00c2\u00af\u00c3\\x82\u00c2\u00bb\u00c3\\x82\u00c2\u00bfFSCL_YR']",
+        "['Payments Total' 'Tax-revenues']"
+      ],
+      "truth": [
+        "['Agency Name' 'DEPT_EN_DESC']",
+        "['Fiscal Year' '\u00c3\\x83\u00c2\u00af\u00c3\\x82\u00c2\u00bb\u00c3\\x82\u00c2\u00bfFSCL_YR']"
+      ]
+    }
+  ]
+}

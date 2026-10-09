@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 314,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 7.36,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.4,
+    0.6
+  ],
+  "tokens": [
+    229,
+    182,
+    47
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.4,
+      "prediction": [
+        "1",
+        "Toronto",
+        "Ontario",
+        "2730000",
+        "630.2"
+      ],
+      "truth": [
+        "701",
+        "Toronto",
+        "Ontario",
+        "2794356",
+        "631.1"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.6,
+      "prediction": [
+        "1",
+        "Toronto",
+        "Ontario",
+        "2730000",
+        "630.2"
+      ],
+      "truth": [
+        "701",
+        "Toronto",
+        "Ontario",
+        "2794356",
+        "631.1"
+      ]
+    }
+  ]
+}

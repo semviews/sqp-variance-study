@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 201,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 2,
+  "seconds": 27.796,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the \\'defenceAggression\\' column satisfies the condition of having predefined string tag sets for team performance classification, I would need to analyze the content of this col",
+      "operator_calls": 21
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 25,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0,
+    0.8
+  ],
+  "tokens": [
+    3566,
+    3541,
+    25
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        1.0,
+        0.8
+      ],
+      "prediction": [
+        "buildUpPlayDribbling",
+        "buildUpPlayDribblingClass",
+        "buildUpPlayPassing",
+        "buildUpPlayPassingClass",
+        "buildUpPlayPositioningClass",
+        "buildUpPlaySpeedClass",
+        "chanceCreationCrossingClass",
+        "chanceCreationPassingClass",
+        "chanceCreationPositioningClass",
+        "chanceCreationShootingClass",
+        "defenceAggression",
+        "defenceAggressionClass",
+        "defenceDefenderLineClass",
+        "defencePressureClass",
+        "defenceTeamWidth",
+        "defenceTeamWidthClass",
+        "team_api_id",
+        "team_fifa_api_id"
+      ],
+      "truth": [
+        "buildUpPlayDribblingClass",
+        "buildUpPlayPassingClass",
+        "buildUpPlayPositioningClass",
+        "buildUpPlaySpeedClass",
+        "chanceCreationCrossingClass",
+        "chanceCreationPassingClass",
+        "chanceCreationPositioningClass",
+        "chanceCreationShootingClass",
+        "defenceAggressionClass",
+        "defenceDefenderLineClass",
+        "defencePressureClass",
+        "defenceTeamWidthClass"
+      ]
+    }
+  ]
+}

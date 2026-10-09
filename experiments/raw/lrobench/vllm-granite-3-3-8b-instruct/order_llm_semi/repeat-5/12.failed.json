@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 12,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 4.56,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 283, in pipeline_order12\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \"The highest rank and the duration in weeks on the Billboard chart.\" metric for the song \"Welcome To New York,\" we need to consider its performance on the Billboard charts. \\n\\n\"Welcome To New York\" is a song by Taylor Swift, released as the lead single from her fifth studio album, *1989*. It was released on October 13, 2014, and performed well on the Billboard charts:\\n\\n- **Billboard Hot 100 Peak Position:** The song reached a peak position of **No. 2** on the Billboard Hot 100 chart.\\n- **Duration on the Chart:** It remained on the Hot 100 for **76 weeks**, which is a substantial duration, indicating strong and sustained popularity.\\n\\nGiven these factors\u2014achieving a high peak position (just below the top spot) and maintaining a long chart run\u2014this song exemplifies strong performance in terms of both highest rank and duration on the Billboard chart.\\n\\nTherefore, assigning a score that reflects this high performance, we consider a score close to the maximum possible, acknowledging both the near-top rank and the lengthy chart presence.\\n\\n**Score:** 95\\n\\nOutput: \"95'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \"The highest rank and the duration in weeks on the Billboard chart.\" metric for the song \"Welcome To New York,\" I will consider the following:\\n\\n1. **Billboard Chart Performance**: \"Welcome To New York\" is a song by Taylor Swift from her 2012 album *Red*. It was released as the second promotional single from the album. The song peaked at number 24 on the US Billboard Hot 100 chart, which is a respectable rank for a promotional sing",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score for the song \"All You Had To Do Was Stay\" based on its highest rank and duration on the Billboard chart, I will use external knowledge about the song\\'s chart performance.\\n\\n\"All You Had To Do Was Stay\" is a song by American singer-songwriter Taylor Swift, released in 2014 as part of her album *1989*. The song performed well on the Billboard charts:\\n\\n- **Highest Rank:** It reached number 2 on the Billboard Hot 100.\\n- **Du",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0
+}

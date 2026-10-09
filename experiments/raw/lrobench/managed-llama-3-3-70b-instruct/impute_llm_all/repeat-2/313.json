@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 313,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 5.569,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.4,
+    0.4
+  ],
+  "tokens": [
+    230,
+    182,
+    48
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.4,
+      "prediction": [
+        "VAN",
+        "Vancouver",
+        "British Columbia",
+        "648483",
+        "11497"
+      ],
+      "truth": [
+        "701",
+        "Vancouver",
+        "British Columbia",
+        "662248",
+        "123.63"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.4,
+      "prediction": [
+        "VAN",
+        "Vancouver",
+        "British Columbia",
+        "648483",
+        "11497"
+      ],
+      "truth": [
+        "701",
+        "Vancouver",
+        "British Columbia",
+        "662248",
+        "123.63"
+      ]
+    }
+  ]
+}

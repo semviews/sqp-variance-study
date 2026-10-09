@@ -1,0 +1,5 @@
+{"key": "324de87670b17e19", "role": "operator", "t": 1790986635.585, "seconds": 2.292, "output": "{\"NumTstTakr\": \"23\", \"NumGE1500\": \"1.0\", \"ExcelRate\": \"0.043478260869565216\"}"}
+{"key": "0e6bf9574a9da663", "role": "operator", "t": 1790986635.583, "seconds": 2.301, "output": "{\"NumTstTakr\": \"17\", \"NumGE1500\": \"9.0\", \"ExcelRate\": \"0.5294117647\"}"}
+{"key": "8e9ca45005e5d363", "role": "operator", "t": 1790986635.584, "seconds": 2.304, "output": "{\"NumTstTakr\": \"36\", \"NumGE1500\": \"29.0\", \"ExcelRate\": \"0.8056\"}"}
+{"key": "2cae3b646c284c77", "role": "operator", "t": 1790986635.585, "seconds": 2.305, "output": "{\"NumTstTakr\": \"20\", \"NumGE1500\": \"16.0\", \"ExcelRate\": \"0.8\"}"}
+{"key": "85e9c0d1373c5d9c", "role": "operator", "t": 1790986635.585, "seconds": 2.8, "output": "[\n  {\"NumTstTakr\": \"132\", \n  \"NumGE1500\": \"56.0\", \n  \"ExcelRate\": \"0.424\"}\n]"}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 123,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 3.873,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 663, in pipeline_match123\n    merged_df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine whether 'Las Vegas' and 'NYC' are in the same state, we need to identify the states they belong to. 'Las Vegas' is in Nevada, and 'NYC' (New York City) is in New York. Since Nevada and N\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether 'Las Vegas' and 'NYC' are in the same state, we need to identify the states they belong to. 'Las Vegas' is in Nevada, and 'NYC' (New York City) is in New York. Since Nevada and N",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether 'Las Vegas' and 'San Francisco' are in the same state, we need to identify the states they belong to. 'Las Vegas' is in Nevada, and 'San Francisco' is in California. Since Nevada",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

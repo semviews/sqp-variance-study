@@ -1,0 +1,51 @@
+{
+  "columns": {
+    "player.fiba_world_cup": {
+      "precision": 0.34210526315789475,
+      "recall": 0.14772727272727273,
+      "f1": 0.20634920634920637
+    },
+    "player.name": {
+      "precision": 0.4473684210526316,
+      "recall": 0.19318181818181818,
+      "f1": 0.2698412698412698
+    },
+    "team.team_name": {
+      "precision": 0.9473684210526315,
+      "recall": 0.4090909090909091,
+      "f1": 0.5714285714285715
+    },
+    "team.ownership": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "city.state_name": {
+      "precision": 0.9473684210526315,
+      "recall": 0.4090909090909091,
+      "f1": 0.5714285714285715
+    }
+  },
+  "macro_precision": 0.5368421052631579,
+  "macro_recall": 0.23181818181818184,
+  "macro_f1": 0.3238095238095238,
+  "rows": {
+    "len_gold": 88,
+    "len_pred": 38,
+    "matched_rows": 36
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.id",
+    "team.id",
+    "city.id"
+  ],
+  "evaluated_columns": [
+    "player.fiba_world_cup",
+    "player.name",
+    "team.team_name",
+    "team.ownership",
+    "city.state_name"
+  ],
+  "skipped_columns": []
+}

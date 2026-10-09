@@ -1,0 +1,48 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 113,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 6.311,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 15,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    5499,
+    4299,
+    1200
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        1.0,
+        0.6667
+      ],
+      "prediction": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Name of Official' 'Anna Wechsberg']",
+        "['Peter Storr' 'Pete Vowles']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ],
+      "truth": [
+        "['Mark Sedwill ' 'Mark Bryson-Richardson']",
+        "['Richard Clarke' 'Richard Montgomery']"
+      ]
+    }
+  ]
+}

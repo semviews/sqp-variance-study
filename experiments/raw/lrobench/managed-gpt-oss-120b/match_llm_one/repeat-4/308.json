@@ -1,0 +1,50 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 308,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 43.009,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 54,
+  "judge_calls": 0,
+  "returned": [
+    0.6,
+    1.0,
+    0.75
+  ],
+  "tokens": [
+    5118,
+    5064,
+    54
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6,
+        1.0,
+        0.75
+      ],
+      "prediction": [
+        "['Author_ID' 'ArtistID']",
+        "['MEIBI' 'ArtistURL']",
+        "['NAME' 'FirstName']",
+        "['NAME' 'LastName']",
+        "['NAME' 'PhotoCredit']"
+      ],
+      "truth": [
+        "['Author_ID' 'ArtistID']",
+        "['NAME' 'FirstName']",
+        "['NAME' 'LastName']"
+      ]
+    }
+  ]
+}

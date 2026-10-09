@@ -1,0 +1,44 @@
+{
+  "columns": {
+    "team.location": {
+      "precision": 0.7,
+      "recall": 0.4375,
+      "f1": 0.5384615384615384
+    },
+    "player.draft_year": {
+      "precision": 0.7,
+      "recall": 0.4375,
+      "f1": 0.5384615384615384
+    },
+    "team.ownership": {
+      "precision": 0.3,
+      "recall": 0.1875,
+      "f1": 0.23076923076923075
+    },
+    "player.name": {
+      "precision": 0.6,
+      "recall": 0.375,
+      "f1": 0.4615384615384615
+    }
+  },
+  "macro_precision": 0.575,
+  "macro_recall": 0.359375,
+  "macro_f1": 0.4423076923076923,
+  "rows": {
+    "len_gold": 16,
+    "len_pred": 10,
+    "matched_rows": 7
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.id",
+    "team.id"
+  ],
+  "evaluated_columns": [
+    "team.location",
+    "player.draft_year",
+    "team.ownership",
+    "player.name"
+  ],
+  "skipped_columns": []
+}

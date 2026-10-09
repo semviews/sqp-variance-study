@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 8,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 26.672,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 198, in pipeline_order8\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-04-21\") and assuming the current year is 2024 (since the actual current year is not provided).\\n\\n1. Calculate the age: \\n- Year of birth: 1991\\n- Current year (assumed): 2024\\n- Age = Current year - Year of birth = 2024 - 1991 = 33 years\\n\\nGiven that the maximum age a person can be to have a driver\\'s license varies by country but generally falls within a range where 33 is considered relatively young to middle-aged, we can infer the scoring as follows:\\n\\n- Maximum possible age for a driver: 100 years (for simplicity, though this is unusually old for driving)\\n- Minimum possible age for a driver: 16 years (common minimum age for driving in many places)\\n\\nThe age range for driving (16 to 100) spans 84 years. The driver\\'s age (33) falls within this range.\\n\\nTo calculate the score out of 100, where a higher score indicates a higher \\'age of the driver\\' metric but keeping in mind that extremely old ages might not be as desirable for driving due to potential health issues, we can use a simple linear scale for simplicity. However, to reflect the desirability of being in a younger to middle age range for driving (where reaction times and health are generally better), we might adjust our scale.\\n\\nFor simplicity, let\\'s calculate the score linearly based on the age range suitable for driving (16 to 100), but cap the score at 100 for ages up to around 60-70, considering that as the upper limit of \"desirable\" driving age due to health and reaction time concerns.\\n\\nAge range for driving: 16 to 100 years\\nDesirable driving age range: 16 to 65 years (for this example)\\n\\nThe driver\\'s age: 33 years\\n\\nSince 33 falls well within the desirable range, we calculate the score based on the full range but consider the desirable upper limit:\\n\\nScore = ((Driver\\'s age - Minimum driving age) / (Desirable upper limit - Minimum driving age)) * 100\\n\\nScore = ((33 - 16) / (65 - 16)) * 100\\nScore = (17 / 49) * 100\\nScore = 34.69...\\n\\nGiven the instruction to return an integer and considering the context, we interpret the score to reflect the driver\\'s age desirability for driving, rounding to the nearest whole number for simplicity.\\n\\n34'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-03-22\") and assuming the current year is 2024 (since the actual current year is not provided).\\n\\n1. Calculate the age: \\n- Year of birth: 1991\\n- Current year (assumed): 2024\\n- Age = Current year - Year of birth = 2024 - 1991 = 33 years\\n\\nGiven that the maximum score is 100 and assuming the maximum driving age to be considered is a",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-06-28\") and assuming the current year is 2024 (since the actual current year is not provided).\\n\\n1. Calculate the age: \\n- Year of birth: 1991\\n- Current year (assumed): 2024\\n- Age = Current year - Year of birth = 2024 - 1991 = 33 years\\n\\nGiven that the maximum age a person can be to have a driver\\'s license varies by country but g",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

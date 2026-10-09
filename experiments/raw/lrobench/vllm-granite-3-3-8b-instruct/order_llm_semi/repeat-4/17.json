@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 17,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 2.074,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.7619
+  ],
+  "tokens": [
+    1553,
+    1546,
+    7
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Asus",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Micro-Star International",
+        "Microsoft",
+        "Toshiba"
+      ],
+      "truth": [
+        "Asus",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Micro-Star International",
+        "Microsoft",
+        "Toshiba"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.7619,
+      "prediction": [
+        "Microsoft",
+        "Lenovo",
+        "HP",
+        "Asus",
+        "Dell",
+        "Toshiba",
+        "Micro-Star International"
+      ],
+      "truth": [
+        "Microsoft",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Toshiba",
+        "Asus",
+        "Micro-Star International"
+      ]
+    }
+  ]
+}

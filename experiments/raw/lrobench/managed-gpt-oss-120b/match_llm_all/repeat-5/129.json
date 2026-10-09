@@ -1,0 +1,99 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 129,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 17.644,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: \"None of [Index(['left_Name', 'right_Name'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    },
+    {
+      "error": "KeyError: \"None of [Index(['left_Name', 'right_Name'], dtype='object')] are in the [columns]\"",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.875,
+    0.875,
+    0.875
+  ],
+  "tokens": [
+    818,
+    490,
+    328
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.875,
+        0.875,
+        0.875
+      ],
+      "prediction": [
+        "['Bangkok' 'Andaman Sea']",
+        "['Beijing' 'Yellow Sea']",
+        "['Bogota' 'Caribbean Sea']",
+        "['Cairo' 'Mediterranean Sea']",
+        "['Hong Kong' 'South China Sea']",
+        "['Istanbul' 'Black Sea']",
+        "['Jakarta' 'Indian Ocean']",
+        "['Karachi' 'Arabian Sea']",
+        "['Lagos' 'Atlantic Ocean']",
+        "['Lahore' 'Arabian Sea']",
+        "['Lima' 'Pacific Ocean']",
+        "['London' 'The Channel']",
+        "['Mexico City' 'Gulf of Mexico']",
+        "['Moscow' 'Baltic Sea']",
+        "['Mumbai' 'Arabian Sea']",
+        "['New Delhi' 'Arabian Sea']",
+        "['New York' 'Atlantic Ocean']",
+        "['Rio de Janeiro' 'Atlantic Ocean']",
+        "['Sao Paulo' 'Atlantic Ocean']",
+        "['Seoul' 'Yellow Sea']",
+        "['Shanghai' 'East China Sea']",
+        "['Tehran' 'Persian Gulf']",
+        "['Tianjin' 'Yellow Sea']",
+        "['Tokyo' 'Pacific Ocean']"
+      ],
+      "truth": [
+        "['Bangkok' 'Bay of Bengal']",
+        "['Beijing' 'Yellow Sea']",
+        "['Bogota' 'Caribbean Sea']",
+        "['Cairo' 'Mediterranean Sea']",
+        "['Hong Kong' 'South China Sea']",
+        "['Istanbul' 'Black Sea']",
+        "['Jakarta' 'Sunda Sea']",
+        "['Karachi' 'Arabian Sea']",
+        "['Lagos' 'Atlantic Ocean']",
+        "['Lahore' 'Arabian Sea']",
+        "['Lima' 'Pacific Ocean']",
+        "['London' 'North Sea']",
+        "['Mexico City' 'Gulf of Mexico']",
+        "['Moscow' 'Baltic Sea']",
+        "['Mumbai' 'Arabian Sea']",
+        "['New Delhi' 'Arabian Sea']",
+        "['New York' 'Atlantic Ocean']",
+        "['Rio de Janeiro' 'Atlantic Ocean']",
+        "['Sao Paulo' 'Atlantic Ocean']",
+        "['Seoul' 'Yellow Sea']",
+        "['Shanghai' 'East China Sea']",
+        "['Tehran' 'Persian Gulf']",
+        "['Tianjin' 'Yellow Sea']",
+        "['Tokyo' 'Pacific Ocean']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "team",
+  "attributes": [
+    "championship",
+    "founded_year",
+    "location",
+    "ownership",
+    "team_name"
+  ],
+  "model": "openai/managed-gpt-oss-120b",
+  "workers": 20,
+  "repeat": 1,
+  "calls": 150,
+  "documents": 30,
+  "transient_retries": 0,
+  "failed_calls": 6,
+  "seconds": 122.987,
+  "prompt_tokens": 2107635
+}

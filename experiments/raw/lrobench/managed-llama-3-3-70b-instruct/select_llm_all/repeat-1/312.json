@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 312,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 1.753,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.75,
+    1.0,
+    0.8571
+  ],
+  "tokens": [
+    557,
+    543,
+    14
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.75,
+        1.0,
+        0.8571
+      ],
+      "prediction": [
+        "author",
+        "book",
+        "book_author",
+        "order_line"
+      ],
+      "truth": [
+        "author",
+        "book_author",
+        "order_line"
+      ]
+    }
+  ]
+}

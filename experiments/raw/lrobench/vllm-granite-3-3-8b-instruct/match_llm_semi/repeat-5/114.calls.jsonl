@@ -1,0 +1,13 @@
+{"key": "ff8d72bb20fca1f1", "role": "operator", "t": 1790985298.013, "seconds": 1.566, "output": "\"\""}
+{"key": "c9c9cb911316304f", "role": "operator", "t": 1790985298.012, "seconds": 1.583, "output": "Rose Lane"}
+{"key": "6a55fb39674c2593", "role": "operator", "t": 1790985298.014, "seconds": 2.282, "output": "2 New Road does not appear to match any of the provided values in the 'right_address1' column based on the condition \"The two addresses represent the same street location.\" Therefore, the result is:\n\n```plaintext\n```\n\n(An empty string, indicating no match was found.)"}
+{"key": "6237f30426512231", "role": "operator", "t": 1790985298.011, "seconds": 2.289, "output": "Highbridge Road does not appear in the provided list of values for the 'right_address1' column. Therefore, there is no match that satisfies the condition \"The two addresses represent the same street location.\"\n\nEmpty string returned as no match exists."}
+{"key": "5e31cc3c74bd177c", "role": "operator", "t": 1790985298.012, "seconds": 2.289, "output": "Bastable Avenue"}
+{"key": "6a2b7a58b74b469e", "role": "operator", "t": 1790985298.013, "seconds": 2.289, "output": "Morrison Road"}
+{"key": "56cbfe87ee95a20e", "role": "operator", "t": 1790985298.012, "seconds": 2.292, "output": "Becontree Avenue"}
+{"key": "983d9f60d5c9f533", "role": "operator", "t": 1790985298.014, "seconds": 2.29, "output": "Bastable Avenue"}
+{"key": "f33eb0dceb60964a", "role": "operator", "t": 1790985298.011, "seconds": 2.293, "output": "Bastable Avenue"}
+{"key": "3c71f500593a2117", "role": "operator", "t": 1790985298.013, "seconds": 2.292, "output": "Bastable Avenue"}
+{"key": "8ca5fc39d9588b16", "role": "operator", "t": 1790985299.58, "seconds": 0.726, "output": "Bastable Avenue"}
+{"key": "f4dead6ee5abd217", "role": "operator", "t": 1790985300.301, "seconds": 0.594, "output": "Bastable Avenue"}
+{"key": "9651bcc8ae110ba5", "role": "operator", "t": 1790985300.301, "seconds": 1.65, "output": "Wood Lane does not appear in the provided list of values for the 'right_address1' column, and there is no indication that any of the listed addresses correspond to \"Wood Lane\" based on the condition \"The two addresses represent the same street location.\" Therefore, the result is:\n\n```plaintext\n```\n\n(An empty string, as no match is found.)"}

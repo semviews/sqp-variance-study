@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "player.team": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    "avg_player_mvp_awards": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    }
+  },
+  "macro_precision": 0.5,
+  "macro_recall": 1.0,
+  "macro_f1": 0.6666666666666666,
+  "rows": {
+    "len_gold": 1,
+    "len_pred": 2,
+    "matched_rows": 1
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.team"
+  ],
+  "evaluated_columns": [
+    "player.team",
+    "avg_player_mvp_awards"
+  ],
+  "skipped_columns": []
+}

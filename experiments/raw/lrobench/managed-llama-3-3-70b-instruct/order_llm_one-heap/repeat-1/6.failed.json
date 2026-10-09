@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 6,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 3.334,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 153, in pipeline_order6\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To compare the 'the alphabetical order of the last name listed in the 'contactLastName' column' criteria of the 'contactLastName' column, we need to determine which last name comes first alphabetical\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To compare the 'the alphabetical order of the last name listed in the 'contactLastName' column' criteria of the 'contactLastName' column, we need to compare the strings 'Freyre' and 'Nelson' alphabet",
+      "operator_calls": 1
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To compare the 'the alphabetical order of the last name listed in the 'contactLastName' column' criteria of the 'contactLastName' column, we need to determine which last name comes first alphabetical",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 25,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 74.773,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 63,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Auckland",
+      1
+    ],
+    [
+      "Bridgewater",
+      1
+    ],
+    [
+      "Madrid",
+      1
+    ],
+    [
+      "NYC",
+      1
+    ],
+    [
+      "Paris",
+      1
+    ],
+    [
+      "San Jose",
+      1
+    ]
+  ],
+  "tokens": 16502,
+  "metrics": [],
+  "prediction": [
+    [
+      "Auckland",
+      1
+    ],
+    [
+      "Bridgewater",
+      1
+    ],
+    [
+      "Madrid",
+      1
+    ],
+    [
+      "NYC",
+      1
+    ],
+    [
+      "Paris",
+      1
+    ],
+    [
+      "San Jose",
+      1
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

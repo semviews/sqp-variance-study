@@ -1,0 +1,67 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 9,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 5.558,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.5
+  ],
+  "tokens": [
+    3010,
+    3000,
+    10
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Gintama",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "Gintama'",
+        "Gintama': Enchousen"
+      ],
+      "truth": [
+        "Gintama",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "Gintama'",
+        "Gintama': Enchousen"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.5,
+      "prediction": [
+        "Gintama",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "Gintama",
+        "Gintama'",
+        "Gintama': Enchousen"
+      ],
+      "truth": [
+        "Gintama",
+        "Gintama",
+        "Gintama'",
+        "Gintama': Enchousen",
+        "Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare"
+      ]
+    }
+  ]
+}

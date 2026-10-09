@@ -1,0 +1,20 @@
+{"key": "78b9afca91768a4f", "role": "operator", "t": 1790961194.299, "seconds": 3.889, "output": "[\n  {\"index\":\"2\", \"cluster_name\":\"i7-5500U\", \"cluster_label\":\"0\"}\n]"}
+{"key": "d5aa5ed99fcda0bb", "role": "operator", "t": 1790961198.188, "seconds": 2.074, "output": "[{\"index\":\"3306\",\"cluster_name\":\"i5-4210U\",\"cluster_label\":\"1\"}]"}
+{"key": "bea3b26add5fefcf", "role": "operator", "t": 1790961200.262, "seconds": 2.294, "output": "[{\"index\":\"2189\",\"cluster_name\":\"i7-4710U\",\"cluster_label\":\"2\"}]"}
+{"key": "ae78df785e0b3e8f", "role": "operator", "t": 1790961202.556, "seconds": 1.802, "output": "[{\"index\":\"3709\",\"cluster_name\":\"i7-4510U\",\"cluster_label\":\"3\"}]"}
+{"key": "de4d1d0ab3a94819", "role": "operator", "t": 1790961204.359, "seconds": 2.581, "output": "[\n  {\"index\":\"121\", \"cluster_name\":\"i7-2620M\", \"cluster_label\":\"4\"}\n]"}
+{"key": "f477f7416967918a", "role": "operator", "t": 1790961206.94, "seconds": 2.042, "output": "[\n  {\"index\":\"1437\", \"cluster_name\": \"i7-4720HQ\", \"cluster_label\": \"5\"}\n]"}
+{"key": "7774255d4eccbba2", "role": "operator", "t": 1790961208.982, "seconds": 2.321, "output": "[\n  {\"index\":\"1474\", \"cluster_name\":\"i5-5200U\", \"cluster_label\":\"6\"}\n]"}
+{"key": "cf8c9c3aff39f032", "role": "operator", "t": 1790961211.303, "seconds": 1.416, "output": "[\n  {\"index\":\"1490\", \"cluster_name\":\"i5-5200U\", \"cluster_label\":\"6\"}\n]"}
+{"key": "2c6335a0fd34defa", "role": "operator", "t": 1790961212.719, "seconds": 1.74, "output": "[\n  {\"index\":\"1548\", \"cluster_name\":\"i5-5200U\", \"cluster_label\":\"6\"}\n]"}
+{"key": "6b2d0d5ad4dc3b3f", "role": "operator", "t": 1790961214.459, "seconds": 1.583, "output": "[\n  {\"index\":\"1551\", \"cluster_name\":\"i7-4510U\", \"cluster_label\":\"3\"}\n]"}
+{"key": "49a5cd604faa349d", "role": "operator", "t": 1790961216.042, "seconds": 2.053, "output": "[{\"index\":\"59\", \"cluster_name\":\"i5-5200U\", \"cluster_label\":\"6\"}]"}
+{"key": "2fb671db6031c96c", "role": "operator", "t": 1790961218.096, "seconds": 1.806, "output": "[\n  {\"index\":\"426\", \"cluster_name\":\"i7-5500U\", \"cluster_label\":\"0\"}\n]"}
+{"key": "995de353183b79e5", "role": "operator", "t": 1790961219.902, "seconds": 2.197, "output": "[{\"index\":\"1940\", \"cluster_name\":\"i7-4720HQ\", \"cluster_label\":\"5\"}]"}
+{"key": "a4dbf0aa2c0d5a2a", "role": "operator", "t": 1790961222.098, "seconds": 3.209, "output": "[\n  {\"index\":\"1817\", \"cluster_name\":\"i7-4720HQ\", \"cluster_label\":\"5\"}\n]"}
+{"key": "a55d9e244ebb8764", "role": "operator", "t": 1790961225.307, "seconds": 1.943, "output": "[\n  {\"index\":\"1643\", \"cluster_name\":\"i7-5500U\", \"cluster_label\":\"0\"}\n]"}
+{"key": "c363e3ad10fa814e", "role": "operator", "t": 1790961227.251, "seconds": 1.94, "output": "[\n  {\"index\":\"460\", \"cluster_name\":\"Tegra 3\", \"cluster_label\":\"7\"}\n]"}
+{"key": "969ce93016e807ee", "role": "operator", "t": 1790961229.191, "seconds": 1.55, "output": "[\n  {\"index\":\"535\", \"cluster_name\":\"i7-5500U\", \"cluster_label\":\"0\"}\n]"}
+{"key": "86bf2caeb5e145c3", "role": "operator", "t": 1790961230.742, "seconds": 1.683, "output": "[\n  {\"index\":\"532\", \"cluster_name\":\"i7-5500U\", \"cluster_label\":\"0\"}\n]"}
+{"key": "64a07cb5abe37744", "role": "operator", "t": 1790961232.425, "seconds": 1.512, "output": "[\n  {\"index\":\"481\", \"cluster_name\":\"i5-5200U\", \"cluster_label\":\"6\"}\n]"}
+{"key": "be04a6b0ef5f6a6c", "role": "operator", "t": 1790961233.937, "seconds": 1.632, "output": "[\n  {\"index\":\"1694\", \"cluster_name\":\"i5-4210U\", \"cluster_label\":\"1\"}\n]"}

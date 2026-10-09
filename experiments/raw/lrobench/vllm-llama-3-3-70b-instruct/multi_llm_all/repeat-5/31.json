@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 31,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 40.297,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 27,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Jackie",
+      "Greene"
+    ],
+    [
+      "Rush",
+      "Limbaugh"
+    ],
+    [
+      "Michael",
+      "Roe"
+    ],
+    [
+      "Trevor",
+      "Matich"
+    ],
+    [
+      "Bob",
+      "Wilkins"
+    ]
+  ],
+  "tokens": 7041,
+  "metrics": [],
+  "prediction": [
+    [
+      "Jackie",
+      "Greene"
+    ],
+    [
+      "Rush",
+      "Limbaugh"
+    ],
+    [
+      "Michael",
+      "Roe"
+    ],
+    [
+      "Trevor",
+      "Matich"
+    ],
+    [
+      "Bob",
+      "Wilkins"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

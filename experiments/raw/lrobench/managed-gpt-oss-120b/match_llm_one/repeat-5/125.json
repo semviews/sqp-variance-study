@@ -1,0 +1,47 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 125,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 75.27,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 572,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0,
+    0.8
+  ],
+  "tokens": [
+    55266,
+    54694,
+    572
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        1.0,
+        0.8
+      ],
+      "prediction": [
+        "['Environmental Services  ' 'Environment']",
+        "['Human Resources  ' 'Human Resources and Skills Development']",
+        "['Human Resources Training & Conferences '\n 'Human Resources and Skills Development']"
+      ],
+      "truth": [
+        "['Environmental Services  ' 'Environment']",
+        "['Human Resources  ' 'Human Resources and Skills Development']"
+      ]
+    }
+  ]
+}

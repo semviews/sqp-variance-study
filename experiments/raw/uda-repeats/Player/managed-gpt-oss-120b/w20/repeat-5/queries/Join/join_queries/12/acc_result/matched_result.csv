@@ -1,0 +1,64 @@
+city.state_name,player.name,player.college,team.founded_year,team.team_name,player.id,team.id,city.id
+California,Chavano Rainer Hield,University of Oklahoma,1946,Golden State Warriors,100,10,11
+California,D'Angelo Russell,Ohio State University,1946,Los Angeles Lakers,101,14,6
+Pennsylvania,Joel Hans Embiid,University of Kansas,1946,Philadelphia 76ers,102,23,12
+Pennsylvania,Paul Clifton Anthony George,Fresno State University,1946,Philadelphia 76ers,103,23,12
+Texas,Kyrie Andrew Irving,Duke University,1980,Dallas Mavericks,104,7,4
+Massachusetts,Jayson Christopher Tatum,Duke University,1946,Boston Celtics,105,2,2
+Pennsylvania,Caleb Martin,"North Carolina State University || University of Nevada, Reno",1946,Philadelphia 76ers,106,23,12
+California,Andrew Christian Wiggins,University of Kansas,1946,Golden State Warriors,107,10,11
+Pennsylvania,Max Berning Fiedler,Rice University,1946,Philadelphia 76ers,108,23,12
+Massachusetts,Jaylen Marselles Brown,"University of California, Berkeley",1946,Boston Celtics,110,2,2
+Texas,Victor Wembanyama,,1967,San Antonio Spurs,111,27,5
+Massachusetts,Jrue Randall Holiday,UCLA,1946,Boston Celtics,112,2,2
+California,Austin Tyler Reaves,Wichita State University || University of Oklahoma,1946,Los Angeles Lakers,113,14,6
+Florida,Kevin Wesley Love,UCLA,1988,Miami Heat,114,16,8
+Wisconsin,Giannis Antetokounmpo || Giannis Sina Ugo Antetokounmpo,,1968,Milwaukee Bucks,115,17,28
+California,Wardell Stephen Curry II,Davidson College,1946,Golden State Warriors,116,10,11
+Massachusetts,Alfred Joel Horford Reynoso,University of Florida,1946,Boston Celtics,117,2,2
+Florida,Tyler Christopher Herro,University of Kentucky,1988,Miami Heat,118,16,8
+Florida,Duncan McBryde Robinson,Williams College || University of Michigan,1988,Miami Heat,119,16,8
+California,Anthony Marshon Davis Jr.,University of Kentucky,1946,Los Angeles Lakers,12,14,6
+California,Kyle Forman Anderson,"University of California, Los Angeles (UCLA)",1946,Golden State Warriors,120,10,11
+Michigan,Cade Parker Cunningham,Oklahoma State University,1937,Detroit Pistons,121,9,23
+California,LeBron Raymone James Sr.,,1946,Los Angeles Lakers,122,14,6
+Florida,Jimmy Butler III,Tyler Junior College || Marquette University,1988,Miami Heat,123,16,8
+California,Kevon Grant Looney,"University of California, Los Angeles (UCLA)",1946,Golden State Warriors,124,10,11
+Illinois,Zachary Thomas LaVine,"University of California, Los Angeles (UCLA)",1966,Chicago Bulls,125,5,14
+Michigan,Jaden Edward Dhananjay Ivey,Purdue University,1937,Detroit Pistons,126,9,23
+Pennsylvania,Kyle Terrell Lowry,Villanova University,1946,Philadelphia 76ers,127,23,12
+Arizona,Devin Armani Booker,University of Kentucky,1968,Phoenix Suns,129,24,18
+California,Draymond Jamal Green,Michigan State University,1946,Golden State Warriors,130,10,11
+Texas,Zach Collins,Gonzaga University,1967,San Antonio Spurs,131,27,5
+California,Jonathan Malangu Kuminga,,1946,Golden State Warriors,132,10,11
+Illinois,Lonzo Anderson Ball,"University of California, Los Angeles (UCLA)",1966,Chicago Bulls,133,5,14
+Florida,Jaime Jaquez Jr.,"University of California, Los Angeles (UCLA)",1988,Miami Heat,134,16,8
+Michigan,Ausar XLNC Thompson || Amen Thompson,,1937,Detroit Pistons,135,9,23
+Massachusetts,Shaquille Rashaun O'Neal,Louisiana State University (LSU),1946,Boston Celtics,137,2,2
+California,Kobe Bryant,,1946,Los Angeles Lakers,138,14,6
+Texas,Christopher Emmanuel Paul,Wake Forest University,1967,San Antonio Spurs,139,27,5
+Texas,Harrison Bryce Jordan Barnes,North Carolina,1967,San Antonio Spurs,140,27,5
+Florida,Edrice Femi Adebayo,University of Kentucky,1988,Miami Heat,141,16,8
+California,Jay Fletcher Vincent,Michigan State University,1946,Los Angeles Lakers,2,14,6
+California,Earvin Johnson Jr.,Michigan State University,1946,Los Angeles Lakers,28,14,6
+Massachusetts,Stanley M. Noszka,,1946,Boston Celtics,29,2,2
+Michigan,Isiah Lord Thomas III,Indiana University,1937,Detroit Pistons,30,9,23
+Oregon,Daniel Edward Anderson,University of Louisville,1970,Portland Trail Blazers,31,25,10
+Illinois,Kelvin Trent Tucker,University of Minnesota,1966,Chicago Bulls,33,5,14
+Arizona,Miles Julian Simon,University of Arizona,1968,Phoenix Suns,35,24,18
+Wisconsin,Guy William Rodgers,Temple University,1968,Milwaukee Bucks,36,17,28
+Texas,Timothy Theodore Duncan,Wake Forest University,1967,San Antonio Spurs,38,27,5
+Ohio,Derrick Joseph Chievous,University of Missouri,1970,Cleveland Cavaliers,44,6,20
+Indiana,Rik Smits,Marist College,1967,Indiana Pacers,45,12,3
+Minnesota,Anthony Edwards,University of Georgia,1989,Minnesota Timberwolves,46,18,7
+Michigan,Harry Junior Gallatin,Truman State University (formerly Northeast Missouri State Teachers' College),1937,Detroit Pistons,47,9,23
+Florida,William Mark Price,Georgia Tech,1989,Orlando Magic,5,22,15
+Arizona,Kevin Wayne Durant,University of Texas at Austin,1968,Phoenix Suns,54,24,18
+,Nathaniel Thomas Huffman,Lansing Community College || Central Michigan University,1995,Toronto Raptors,56,28,17
+Oregon,Jabari Dominic Walker,University of Colorado (Colorado Buffaloes),1970,Portland Trail Blazers,77,25,10
+Wisconsin,Demerick Montae Strickland,University of Nebraska,1968,Milwaukee Bucks,8,17,28
+California,Kermit Alan Washington,American University,1946,Golden State Warriors,84,10,11
+Massachusetts,Garfield Smith,,1946,Boston Celtics,90,2,2
+Texas,"DaMon William ""Monti"" Davis",Tennessee State University,1980,Dallas Mavericks,95,7,4
+California,Trayce Jackson-Davis,Indiana University,1946,Golden State Warriors,98,10,11
+Pennsylvania,Andre Jamal Drummond,University of Connecticut,1946,Philadelphia 76ers,99,23,12

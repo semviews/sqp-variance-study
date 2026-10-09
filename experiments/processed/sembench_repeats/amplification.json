@@ -1,0 +1,532 @@
+{
+ "flip_by_k_by_kind": {
+  "bool": {
+   "2": 1.6465919701213818,
+   "3": 2.469887955182073,
+   "4": 2.9970988395358145,
+   "5": 3.3762671735360814,
+   "6": 3.6707683073229287,
+   "7": 3.912289915966386,
+   "8": 4.117647058823529,
+   "9": 4.296218487394958,
+   "10": 4.453781512605042
+  },
+  "label": {
+   "2": 1.5925925925925923,
+   "3": 2.388888888888889,
+   "4": 2.908730158730159,
+   "5": 3.290343915343916,
+   "6": 3.5793650793650795,
+   "7": 3.7986111111111116,
+   "8": 3.9629629629629632,
+   "9": 4.083333333333334,
+   "10": 4.166666666666666
+  },
+  "score": {
+   "2": 8.820921985815602,
+   "3": 13.072177895981088,
+   "4": 15.704787234042552,
+   "5": 17.549497635933804,
+   "6": 18.94123606889564,
+   "7": 20.042848699763592,
+   "8": 20.943656422379824,
+   "9": 21.697695035460992,
+   "10": 22.340425531914892
+  },
+  "extract": {
+   "2": 12.783333333333333,
+   "3": 18.34027777777778,
+   "4": 21.687698412698413,
+   "5": 24.042328042328045,
+   "6": 25.84642857142857,
+   "7": 27.300694444444446,
+   "8": 28.509259259259256,
+   "9": 29.533333333333335,
+   "10": 30.416666666666664
+  }
+ },
+ "every_item_cells": 17,
+ "every_item_mean_abs_error": 0.03736455703576909,
+ "every_item_within_015": 16,
+ "other_cells": 36,
+ "other_above_curve": 32,
+ "points": [
+  {
+   "plan": "set",
+   "x": 15.8,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "medical Q1",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "mean_of_attribute",
+   "x": 0.6,
+   "measured": 0.4,
+   "every_item": false,
+   "query": "medical Q4",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 22.99999999999999,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "medical Q10",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "mean_of_attribute",
+   "x": 0.6,
+   "measured": 0.4,
+   "every_item": false,
+   "query": "medical Q4",
+   "model": "vllm-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 3.8,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "medical Q10",
+   "model": "vllm-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "mean_of_attribute",
+   "x": 0.4,
+   "measured": 0.6,
+   "every_item": false,
+   "query": "medical Q4",
+   "model": "vllm-qwen2-5-72b-instruct",
+   "join": false
+  },
+  {
+   "plan": "set",
+   "x": 26.555555555555546,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "medical Q1",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "mean_of_attribute",
+   "x": 4.688888888888888,
+   "measured": 0.0,
+   "every_item": false,
+   "query": "medical Q4",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 153.39999999999978,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "medical Q10",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "set",
+   "x": 2.1999999999999997,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "medical Q1",
+   "model": "managed-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "mean_of_attribute",
+   "x": 0.4,
+   "measured": 0.6,
+   "every_item": false,
+   "query": "medical Q4",
+   "model": "managed-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 46.39999999999999,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "medical Q10",
+   "model": "managed-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 0.4,
+   "measured": 0.6,
+   "every_item": true,
+   "query": "medical Q10",
+   "model": "managed-mistral-small-3-1-24b-2503",
+   "join": false
+  },
+  {
+   "plan": "limit5",
+   "x": 31.199999999999992,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q1",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "limit5",
+   "x": 1.6,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q2",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "count",
+   "x": 1.7999999999999998,
+   "measured": 0.3,
+   "every_item": false,
+   "query": "movie Q3",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "ratio",
+   "x": 3.0,
+   "measured": 0.1,
+   "every_item": false,
+   "query": "movie Q4",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "label_counts",
+   "x": 0.8,
+   "measured": 0.4,
+   "every_item": false,
+   "query": "movie Q8",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 4.2,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "movie Q9",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "group_mean_rank",
+   "x": 32.80000000000001,
+   "measured": 0.0,
+   "every_item": false,
+   "query": "movie Q10",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": false
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 111.20000000000017,
+   "measured": 0.0,
+   "every_item": false,
+   "query": "movie Q5",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": true
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 110.60000000000004,
+   "measured": 0.0,
+   "every_item": false,
+   "query": "movie Q6",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": true
+  },
+  {
+   "plan": "pairs",
+   "x": 117.80000000000007,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "movie Q7",
+   "model": "vllm-granite-3-3-8b-instruct",
+   "join": true
+  },
+  {
+   "plan": "limit5",
+   "x": 1.6,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q1",
+   "model": "vllm-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 1.0,
+   "measured": 0.2,
+   "every_item": true,
+   "query": "movie Q9",
+   "model": "vllm-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "group_mean_rank",
+   "x": 6.199999999999999,
+   "measured": 0.0,
+   "every_item": false,
+   "query": "movie Q10",
+   "model": "vllm-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 2.1999999999999997,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q5",
+   "model": "vllm-llama-3-3-70b-instruct",
+   "join": true
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 1.2000000000000002,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q6",
+   "model": "vllm-llama-3-3-70b-instruct",
+   "join": true
+  },
+  {
+   "plan": "pairs",
+   "x": 1.7999999999999998,
+   "measured": 0.2,
+   "every_item": true,
+   "query": "movie Q7",
+   "model": "vllm-llama-3-3-70b-instruct",
+   "join": true
+  },
+  {
+   "plan": "limit5",
+   "x": 1.0,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q1",
+   "model": "vllm-qwen2-5-72b-instruct",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 0.6,
+   "measured": 0.4,
+   "every_item": true,
+   "query": "movie Q9",
+   "model": "vllm-qwen2-5-72b-instruct",
+   "join": false
+  },
+  {
+   "plan": "group_mean_rank",
+   "x": 1.0,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q10",
+   "model": "vllm-qwen2-5-72b-instruct",
+   "join": false
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 1.0,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q5",
+   "model": "vllm-qwen2-5-72b-instruct",
+   "join": true
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 1.6,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q6",
+   "model": "vllm-qwen2-5-72b-instruct",
+   "join": true
+  },
+  {
+   "plan": "pairs",
+   "x": 1.8000000000000003,
+   "measured": 0.1,
+   "every_item": true,
+   "query": "movie Q7",
+   "model": "vllm-qwen2-5-72b-instruct",
+   "join": true
+  },
+  {
+   "plan": "limit5",
+   "x": 41.466666666666654,
+   "measured": 0.5333333333333333,
+   "every_item": false,
+   "query": "movie Q1",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "limit5",
+   "x": 2.488888888888889,
+   "measured": 0.6222222222222222,
+   "every_item": false,
+   "query": "movie Q2",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "count",
+   "x": 1.4666666666666663,
+   "measured": 0.35555555555555557,
+   "every_item": false,
+   "query": "movie Q3",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "ratio",
+   "x": 1.711111111111111,
+   "measured": 0.26666666666666666,
+   "every_item": false,
+   "query": "movie Q4",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "label_counts",
+   "x": 1.911111111111111,
+   "measured": 0.28888888888888886,
+   "every_item": false,
+   "query": "movie Q8",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "vector",
+   "x": 25.24444444444444,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "movie Q9",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "group_mean_rank",
+   "x": 173.75555555555516,
+   "measured": 0.0,
+   "every_item": false,
+   "query": "movie Q10",
+   "model": "managed-gpt-oss-120b",
+   "join": false
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 101.42222222222242,
+   "measured": 0.0,
+   "every_item": false,
+   "query": "movie Q5",
+   "model": "managed-gpt-oss-120b",
+   "join": true
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 114.35555555555575,
+   "measured": 0.0,
+   "every_item": false,
+   "query": "movie Q6",
+   "model": "managed-gpt-oss-120b",
+   "join": true
+  },
+  {
+   "plan": "pairs",
+   "x": 115.73333333333355,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "movie Q7",
+   "model": "managed-gpt-oss-120b",
+   "join": true
+  },
+  {
+   "plan": "limit5",
+   "x": 1.2000000000000002,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q1",
+   "model": "managed-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "group_mean_rank",
+   "x": 5.6000000000000005,
+   "measured": 0.1,
+   "every_item": false,
+   "query": "movie Q10",
+   "model": "managed-llama-3-3-70b-instruct",
+   "join": false
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 20.600000000000005,
+   "measured": 0.1,
+   "every_item": false,
+   "query": "movie Q5",
+   "model": "managed-llama-3-3-70b-instruct",
+   "join": true
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 8.800000000000002,
+   "measured": 0.3,
+   "every_item": false,
+   "query": "movie Q6",
+   "model": "managed-llama-3-3-70b-instruct",
+   "join": true
+  },
+  {
+   "plan": "pairs",
+   "x": 11.000000000000004,
+   "measured": 0.0,
+   "every_item": true,
+   "query": "movie Q7",
+   "model": "managed-llama-3-3-70b-instruct",
+   "join": true
+  },
+  {
+   "plan": "limit5",
+   "x": 0.4,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q1",
+   "model": "managed-mistral-small-3-1-24b-2503",
+   "join": false
+  },
+  {
+   "plan": "group_mean_rank",
+   "x": 1.6,
+   "measured": 0.3,
+   "every_item": false,
+   "query": "movie Q10",
+   "model": "managed-mistral-small-3-1-24b-2503",
+   "join": false
+  },
+  {
+   "plan": "pairs_limit10",
+   "x": 0.6,
+   "measured": 1.0,
+   "every_item": false,
+   "query": "movie Q5",
+   "model": "managed-mistral-small-3-1-24b-2503",
+   "join": true
+  }
+ ]
+}

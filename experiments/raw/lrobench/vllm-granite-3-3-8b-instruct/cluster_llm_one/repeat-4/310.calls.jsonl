@@ -1,0 +1,7 @@
+{"key": "cbdb218ed61f36d1", "role": "operator", "t": 1790975711.134, "seconds": 1.394, "output": "[\n  { \"Crime\": [\"1\", \"Case Info\"] }\n]"}
+{"key": "906c6818c6c78b48", "role": "operator", "t": 1790975712.529, "seconds": 0.572, "output": "[\n  { \"District\": [\"0\", \"Location Info\"] }\n]"}
+{"key": "e8eb92b9c0ec28a0", "role": "operator", "t": 1790975713.101, "seconds": 0.652, "output": "[\n  { \"IUCR\": [\"1\", \"Case Info\"] }\n]"}
+{"key": "bc29af9e753843ea", "role": "operator", "t": 1790975713.753, "seconds": 0.747, "output": "[\n  { \"FBI_Code\": [\"1\", \"Case Info\"] }\n]"}
+{"key": "46b512b68fd9cc29", "role": "operator", "t": 1790975714.5, "seconds": 0.618, "output": "[\n  { \"Community_Area\": [\"0\", \"Location Info\"] }\n]"}
+{"key": "eeb95997e81e8f8a", "role": "operator", "t": 1790975715.118, "seconds": 0.654, "output": "[\n  { \"Ward\": [\"0\", \"Location Info\"] }\n]"}
+{"key": "00bdb21cb86a5cf3", "role": "operator", "t": 1790975715.772, "seconds": 0.664, "output": "[\n  { \"Neighborhood\": [\"0\", \"Location Info\"] }\n]"}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 6,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 27.61,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 153, in pipeline_order6\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Nelson\", we consider its position in the alphabet. Since there are 26 letters in the alphabet, we can calculate the score as follows:\\n\\nThe letter \"N\" is the 14th letter of the alphabet. To calculate the score, we can use the formula: (position of the letter / total number of letters) * 100.\\n\\nSo, the score would be: (14 / 26) * 100 = 53.85\\n\\nRounding this value to the nearest whole number, we get: 54\\n\\nHowever, this calculation only considers the first letter of the last name. To get a more accurate score, we should consider the entire alphabet and the fact that \"Nelson\" starts with \"N\", which is in the middle of the alphabet.\\n\\nA more accurate approach would be to assign a score based on the relative position of \"Nelson\" in an alphabetically sorted list of common last names. Since \"Nelson\" is relatively far into the alphabet, but not at the very end, a reasonable score might be around 60, considering it\\'s past the midpoint but not near the end.\\n\\nTherefore, a suitable score for \"Nelson\" in terms of its alphabetical order would be around 60, considering the instructions and the need for a score that reflects its position in the alphabet relative to other names. \\n\\n60'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Freyre\", we consider its position in the alphabet. Since \\'F\\' is the 6th letter in the English alphabet, which has 26 letters, we can calculate the score as follows:\\n\\nScore = (Position of \\'F\\' / Total number of letters) * 100\\nScore = (6 / 26) * 100\\nScore = 23.07\\n\\nRounded to the nearest whole number for simplicity, the score would be approximately 23. However, considering the instruction t",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Pfalzheim\", we consider its position in the alphabet. Since \\'P\\' is the 16th letter in the English alphabet, which has 26 letters, we can calculate the score as follows:\\n\\nScore = (Position of \\'P\\' / Total number of letters) * 100\\nScore = (16 / 26) * 100\\nScore = 0.615384615 * 100\\nScore \u2248 61.54\\n\\nRounded to the nearest whole number for the purpose of this task, the score would be approximat",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

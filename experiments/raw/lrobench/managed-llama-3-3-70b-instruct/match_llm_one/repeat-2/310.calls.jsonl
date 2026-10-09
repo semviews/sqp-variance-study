@@ -1,0 +1,15 @@
+{"key": "27a7ba82eb4c9726", "role": "operator", "t": 1790978656.356, "seconds": 1.63, "output": "0"}
+{"key": "aac937448712df97", "role": "operator", "t": 1790978656.357, "seconds": 1.634, "output": "0"}
+{"key": "cda85f22ee2aa08e", "role": "operator", "t": 1790978656.359, "seconds": 1.646, "output": "0"}
+{"key": "59bec1bb08b0b2f8", "role": "operator", "t": 1790978656.356, "seconds": 1.661, "output": "0"}
+{"key": "881ce273f5c61ac0", "role": "operator", "t": 1790978656.357, "seconds": 1.67, "output": "0"}
+{"key": "7979fa4bc08357b0", "role": "operator", "t": 1790978656.355, "seconds": 3.744, "output": "To determine whether the two columns refer to a similar feature, we need to compare their meanings. \"Fiscal Year\" and \"FSCL_YR\" both seem to refer to the same concept, which is a period of time used for accounting and budgeting purposes. \n\nSince '\u00c3\u0083\u00c2\u00af\u00c3\u0082\u00c2\u00bb\u00c3\u0082\u00c2\u00bf' appears to be a character encoding issue and does not add meaning to 'FSCL_YR', we can consider 'FSCL_YR' as an abbreviation for 'Fiscal Year'. \n\nTherefore, the two columns do refer to a similar feature. \n\n1"}
+{"key": "36ccd0f942fd5cef", "role": "operator", "t": 1790978656.358, "seconds": 3.744, "output": "1"}
+{"key": "ab1d2f405f91f016", "role": "operator", "t": 1790978656.358, "seconds": 3.745, "output": "0"}
+{"key": "e43db81e53e54a31", "role": "operator", "t": 1790978656.356, "seconds": 3.747, "output": "0"}
+{"key": "f115146735564b03", "role": "operator", "t": 1790978656.359, "seconds": 3.745, "output": "0"}
+{"key": "8fa7fdb48f1b0c17", "role": "operator", "t": 1790978658.004, "seconds": 2.1, "output": "0"}
+{"key": "9632eb8c07aee2dc", "role": "operator", "t": 1790978658.027, "seconds": 2.078, "output": "0"}
+{"key": "ba6d1c830290e94e", "role": "operator", "t": 1790978657.986, "seconds": 2.119, "output": "0"}
+{"key": "d25dae80193c60c1", "role": "operator", "t": 1790978657.991, "seconds": 2.114, "output": "0"}
+{"key": "dbce3730e7293368", "role": "operator", "t": 1790978658.016, "seconds": 2.09, "output": "0"}

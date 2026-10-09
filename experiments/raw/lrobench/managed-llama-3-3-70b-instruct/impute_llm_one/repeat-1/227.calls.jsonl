@@ -1,0 +1,8 @@
+{"key": "22fc5acd3d7afeee", "role": "operator", "t": 1790968989.983, "seconds": 1.857, "output": "{\"Name\": \"Baja California Desert\", \"Continent\": \"North America\"}"}
+{"key": "8205b3a3d48e8ed4", "role": "operator", "t": 1790968989.982, "seconds": 1.877, "output": "{\"Name\": \"Arabian Desert\", \"Continent\": \"Asia\"}"}
+{"key": "8668790d38e22782", "role": "operator", "t": 1790968989.986, "seconds": 1.934, "output": "[{\"Name\": \"Dascht-e-Margoh\", \"Continent\": \"Asia\"}]"}
+{"key": "db32ab67ca9356ab", "role": "operator", "t": 1790968989.985, "seconds": 1.939, "output": "{\"Name\": \"Dascht-e-Kavir\", \"Continent\": \"Asia\"}"}
+{"key": "c71fc129f906a00c", "role": "operator", "t": 1790968989.984, "seconds": 2.031, "output": "{\"Name\": \"Colorado Plateau\", \"Continent\": \"North America\"}"}
+{"key": "da8af3769aac2023", "role": "operator", "t": 1790968989.984, "seconds": 2.036, "output": "{\"Name\": \"Darfur\", \"Continent\": \"Africa\"}"}
+{"key": "2ade5256bbe1013e", "role": "operator", "t": 1790968989.985, "seconds": 2.038, "output": "{\"Name\": \"Dascht-e-Lut\", \"Continent\": \"Asia\"}"}
+{"key": "f4ef07d79395d2f3", "role": "operator", "t": 1790968989.984, "seconds": 2.146, "output": "{\"Name\": \"Chihuahua\", \"Continent\": \"North America\"}"}

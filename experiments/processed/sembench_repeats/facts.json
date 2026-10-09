@@ -1,0 +1,1605 @@
+{
+  "models": {
+    "managed-gpt-oss-120b": {
+      "label": "gpt-oss-120B",
+      "items": 8336,
+      "repeats": 10,
+      "flipped": 849,
+      "flip_rate": 0.10185740563019834,
+      "flip_ci": [
+        0.09553698695468979,
+        0.1085246345514069
+      ],
+      "flip_rate_all_runs": 0.13027831094049905,
+      "flip_rate_macro": 0.08394343998015873,
+      "pair_disagreement": 0.05190605672851354,
+      "queries_with_any_flip": 10,
+      "queries": 10,
+      "mean_answer_reproduction": 0.20666666666666664,
+      "queries_not_reproduced": 10,
+      "margin_auc": NaN,
+      "margin_auc_ci": [
+        NaN,
+        NaN
+      ],
+      "margin_flipped": 0,
+      "margin_items": 0,
+      "reasoning_chars_flipped": 1096.7952117863722,
+      "reasoning_chars_stable": 564.4234344827586,
+      "reasoning_auc": 0.8449051151281736,
+      "reasoning_auc_ci": [
+        0.8328071591232694,
+        0.8562221930793773
+      ],
+      "reasoning_auc_within": 0.7934551368295104,
+      "reasoning_auc_within_min": 0.7294784067309228,
+      "reasoning_auc_within_max": 0.9979356219894487,
+      "reasoning_auc_queries": 6,
+      "reasoning_flipped": 1057
+    },
+    "managed-llama-3-3-70b-instruct": {
+      "label": "Llama-70B (M)",
+      "items": 8336,
+      "repeats": 5,
+      "flipped": 115,
+      "flip_rate": 0.013795585412667946,
+      "flip_ci": [
+        0.011506146046170153,
+        0.016532947645969038
+      ],
+      "flip_rate_all_runs": 0.013795585412667946,
+      "flip_rate_macro": 0.009049999999999999,
+      "pair_disagreement": 0.006693857965451055,
+      "queries_with_any_flip": 5,
+      "queries": 10,
+      "mean_answer_reproduction": 0.67,
+      "queries_not_reproduced": 4,
+      "margin_auc": NaN,
+      "margin_auc_ci": [
+        NaN,
+        NaN
+      ],
+      "margin_flipped": 0,
+      "margin_items": 0
+    },
+    "vllm-llama-3-3-70b-instruct": {
+      "label": "Llama-70B (V)",
+      "items": 8336,
+      "repeats": 5,
+      "flipped": 26,
+      "flip_rate": 0.0031190019193857964,
+      "flip_ci": [
+        0.0021294325033906205,
+        0.004566330159535735
+      ],
+      "flip_rate_all_runs": 0.0031190019193857964,
+      "flip_rate_macro": 0.00228125,
+      "pair_disagreement": 0.001583493282149712,
+      "queries_with_any_flip": 5,
+      "queries": 10,
+      "mean_answer_reproduction": 0.6599999999999999,
+      "queries_not_reproduced": 4,
+      "margin_auc": 0.9985953083298216,
+      "margin_auc_ci": [
+        0.9976326813911405,
+        0.9993265742875321
+      ],
+      "margin_flipped": 17,
+      "margin_items": 7136
+    },
+    "vllm-qwen2-5-72b-instruct": {
+      "label": "Qwen-72B",
+      "items": 8336,
+      "repeats": 5,
+      "flipped": 6,
+      "flip_rate": 0.0007197696737044146,
+      "flip_ci": [
+        0.00032991282600288395,
+        0.0015695956730554196
+      ],
+      "flip_rate_all_runs": 0.0007197696737044146,
+      "flip_rate_macro": 0.0006739583333333334,
+      "pair_disagreement": 0.0003598848368522073,
+      "queries_with_any_flip": 4,
+      "queries": 10,
+      "mean_answer_reproduction": 0.9,
+      "queries_not_reproduced": 2,
+      "margin_auc": 0.999691487869864,
+      "margin_auc_ci": [
+        0.9992707895105876,
+        0.999971953442715
+      ],
+      "margin_flipped": 5,
+      "margin_items": 7136
+    },
+    "managed-mistral-small-3-1-24b-2503": {
+      "label": "Mistral-24B",
+      "items": 8336,
+      "repeats": 5,
+      "flipped": 6,
+      "flip_rate": 0.0007197696737044146,
+      "flip_ci": [
+        0.00032991282600288395,
+        0.0015695956730554196
+      ],
+      "flip_rate_all_runs": 0.0007197696737044146,
+      "flip_rate_macro": 0.0003333333333333334,
+      "pair_disagreement": 0.0002879078694817659,
+      "queries_with_any_flip": 3,
+      "queries": 10,
+      "mean_answer_reproduction": 0.89,
+      "queries_not_reproduced": 2,
+      "margin_auc": NaN,
+      "margin_auc_ci": [
+        NaN,
+        NaN
+      ],
+      "margin_flipped": 0,
+      "margin_items": 0
+    },
+    "vllm-granite-3-3-8b-instruct": {
+      "label": "Granite-8B",
+      "items": 8336,
+      "repeats": 5,
+      "flipped": 227,
+      "flip_rate": 0.027231285988483685,
+      "flip_ci": [
+        0.02394913639003549,
+        0.030948980619764793
+      ],
+      "flip_rate_all_runs": 0.027231285988483685,
+      "flip_rate_macro": 0.02764166666666667,
+      "pair_disagreement": 0.013771593090211132,
+      "queries_with_any_flip": 10,
+      "queries": 10,
+      "mean_answer_reproduction": 0.32,
+      "queries_not_reproduced": 8,
+      "margin_auc": 0.9339139344262295,
+      "margin_auc_ci": [
+        0.9041943349242582,
+        0.9612886490973231
+      ],
+      "margin_flipped": 80,
+      "margin_items": 4899
+    }
+  },
+  "queries": 10,
+  "cross_model": {
+    "flipped_items": 1229.0833333333358,
+    "stable_items": 48786.916666666475,
+    "flipped_items_cross_model_disagree": 944.5674603174624,
+    "stable_items_cross_model_disagree": 16416.432539682595
+  },
+  "independence": [
+    {
+      "scenario": "medical",
+      "query": 1,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 0.0,
+      "independent": 0.0,
+      "flip": 0.02666666666666667
+    },
+    {
+      "scenario": "medical",
+      "query": 4,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 0.4,
+      "independent": 0.537,
+      "flip": 0.0008333333333333334
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 0.0,
+      "independent": 0.0,
+      "flip": 0.0375
+    },
+    {
+      "scenario": "medical",
+      "query": 1,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "medical",
+      "query": 4,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 0.4,
+      "independent": 0.52,
+      "flip": 0.0008333333333333334
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 0.0,
+      "independent": 0.0225,
+      "flip": 0.006666666666666667
+    },
+    {
+      "scenario": "medical",
+      "query": 1,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "medical",
+      "query": 4,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 0.6,
+      "independent": 0.671,
+      "flip": 0.0008333333333333334
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "medical",
+      "query": 1,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.0,
+      "independent": 0.0,
+      "flip": 0.04524140211640212
+    },
+    {
+      "scenario": "medical",
+      "query": 4,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.0,
+      "independent": 0.006,
+      "flip": 0.007671957671957671
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.0,
+      "independent": 0.0,
+      "flip": 0.24042328042328043
+    },
+    {
+      "scenario": "medical",
+      "query": 1,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 0.0,
+      "independent": 0.111,
+      "flip": 0.004166666666666667
+    },
+    {
+      "scenario": "medical",
+      "query": 4,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 0.6,
+      "independent": 0.6765,
+      "flip": 0.0008333333333333334
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 0.0,
+      "independent": 0.0,
+      "flip": 0.0775
+    },
+    {
+      "scenario": "medical",
+      "query": 1,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "medical",
+      "query": 4,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 0.6,
+      "independent": 0.6855,
+      "flip": 0.0008333333333333334
+    },
+    {
+      "scenario": "movie",
+      "query": 1,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.032
+    },
+    {
+      "scenario": "movie",
+      "query": 2,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.025
+    },
+    {
+      "scenario": "movie",
+      "query": 3,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 0.3,
+      "independent": 0.3235,
+      "flip": 0.025
+    },
+    {
+      "scenario": "movie",
+      "query": 4,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 0.1,
+      "independent": 0.25,
+      "flip": 0.05
+    },
+    {
+      "scenario": "movie",
+      "query": 8,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 0.4,
+      "independent": 0.5125,
+      "flip": 0.016666666666666666
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 0.0,
+      "independent": 0.0155,
+      "flip": 0.03125
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "measured": 0.0,
+      "independent": 0.0,
+      "flip": 0.0315
+    },
+    {
+      "scenario": "movie",
+      "query": 1,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0015
+    },
+    {
+      "scenario": "movie",
+      "query": 2,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 3,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 4,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 8,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 0.2,
+      "independent": 0.3465,
+      "flip": 0.0078125
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "measured": 0.0,
+      "independent": 0.0255,
+      "flip": 0.006
+    },
+    {
+      "scenario": "movie",
+      "query": 1,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.001
+    },
+    {
+      "scenario": "movie",
+      "query": 2,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 3,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 4,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 8,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 0.4,
+      "independent": 0.517,
+      "flip": 0.00390625
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "vllm-qwen2-5-72b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.001
+    },
+    {
+      "scenario": "movie",
+      "query": 1,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.5333333333333333,
+      "independent": 0.5915,
+      "flip": 0.04239285714285715
+    },
+    {
+      "scenario": "movie",
+      "query": 2,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.6222222222222222,
+      "independent": 0.374,
+      "flip": 0.043683862433862436
+    },
+    {
+      "scenario": "movie",
+      "query": 3,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.35555555555555557,
+      "independent": 0.3585,
+      "flip": 0.02847222222222222
+    },
+    {
+      "scenario": "movie",
+      "query": 4,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.26666666666666666,
+      "independent": 0.32,
+      "flip": 0.03141534391534392
+    },
+    {
+      "scenario": "movie",
+      "query": 8,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.28888888888888886,
+      "independent": 0.304,
+      "flip": 0.03290343915343916
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.0,
+      "independent": 0.0,
+      "flip": 0.1941189236111111
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "managed-gpt-oss-120b",
+      "measured": 0.0,
+      "independent": 0.0,
+      "flip": 0.1731111111111111
+    },
+    {
+      "scenario": "movie",
+      "query": 1,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0015
+    },
+    {
+      "scenario": "movie",
+      "query": 2,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 3,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 4,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 8,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "managed-llama-3-3-70b-instruct",
+      "measured": 0.1,
+      "independent": 0.144,
+      "flip": 0.0065
+    },
+    {
+      "scenario": "movie",
+      "query": 1,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0005
+    },
+    {
+      "scenario": "movie",
+      "query": 2,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 3,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 4,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 8,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 1.0,
+      "independent": 1.0,
+      "flip": 0.0
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "measured": 0.3,
+      "independent": 0.305,
+      "flip": 0.002
+    }
+  ],
+  "heldout": [
+    {
+      "query": "Medical Q1 filter, set",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.0,
+      "measured": 0.0
+    },
+    {
+      "query": "Medical Q4 filter, AVG(age)",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.007,
+      "measured": 0.0
+    },
+    {
+      "query": "Medical Q10 24-way extract",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.0,
+      "measured": 0.0
+    },
+    {
+      "query": "Movie Q1 filter, LIMIT 5",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.521,
+      "measured": 0.6
+    },
+    {
+      "query": "Movie Q2 filter, LIMIT 5",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 1.0,
+      "measured": 0.3
+    },
+    {
+      "query": "Movie Q3 filter, COUNT",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.286,
+      "measured": 0.6
+    },
+    {
+      "query": "Movie Q4 filter, ratio",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.323,
+      "measured": 0.2
+    },
+    {
+      "query": "Movie Q8 label, GROUP BY",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.318,
+      "measured": 0.2
+    },
+    {
+      "query": "Movie Q9 score per review",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.0,
+      "measured": 0.0
+    },
+    {
+      "query": "Movie Q10 score, AVG, rank",
+      "model": "managed-gpt-oss-120b",
+      "predicted": 0.0,
+      "measured": 0.0
+    }
+  ],
+  "heldout_mean_abs_error": 0.1341,
+  "heldout_max_abs_error": 0.7,
+  "flip_by_k": {
+    "model": "managed-gpt-oss-120b",
+    "rates": {
+      "2": 0.05190605672851354,
+      "3": 0.07622660748560461,
+      "4": 0.09125536971026416,
+      "5": 0.10185740563019834,
+      "6": 0.10994424641257654,
+      "7": 0.11642974248240562,
+      "8": 0.12180368948603114,
+      "9": 0.12635556621880997,
+      "10": 0.13027831094049905
+    }
+  },
+  "correlated_cells": [],
+  "stacks": {
+    "items": 8336,
+    "majority_differs": 160,
+    "flipped_either": 135,
+    "flipped_w": 115,
+    "flipped_r": 26,
+    "by_scenario": {
+      "medical": {
+        "items": 3600,
+        "majority_differs": 77,
+        "flipped_either": 104,
+        "flipped_w": 99,
+        "flipped_r": 9
+      },
+      "movie": {
+        "items": 4736,
+        "majority_differs": 83,
+        "flipped_either": 31,
+        "flipped_w": 16,
+        "flipped_r": 17
+      }
+    },
+    "queries": [
+      {
+        "query": "Movie Q1 filter, LIMIT 5",
+        "quality_w": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "quality_r": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "query": "Movie Q2 filter, LIMIT 5",
+        "quality_w": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "quality_r": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "query": "Movie Q3 filter, COUNT",
+        "quality_w": [
+          0.4286,
+          0.4286,
+          0.4286,
+          0.4286,
+          0.4286
+        ],
+        "quality_r": [
+          0.3571,
+          0.3571,
+          0.3571,
+          0.3571,
+          0.3571
+        ]
+      },
+      {
+        "query": "Movie Q4 filter, ratio",
+        "quality_w": [
+          0.4286,
+          0.4286,
+          0.4286,
+          0.4286,
+          0.4286
+        ],
+        "quality_r": [
+          0.3571,
+          0.3571,
+          0.3571,
+          0.3571,
+          0.3571
+        ]
+      },
+      {
+        "query": "Movie Q8 label, GROUP BY",
+        "quality_w": [
+          0.9596,
+          0.9596,
+          0.9596,
+          0.9596,
+          0.9596
+        ],
+        "quality_r": [
+          0.9191,
+          0.9191,
+          0.9191,
+          0.9191,
+          0.9191
+        ]
+      },
+      {
+        "query": "Movie Q9 score per review",
+        "quality_w": [
+          0.768,
+          0.768,
+          0.768,
+          0.768,
+          0.768
+        ],
+        "quality_r": [
+          0.7662,
+          0.7626,
+          0.7662,
+          0.7662,
+          0.7662
+        ]
+      },
+      {
+        "query": "Movie Q10 score, AVG, rank",
+        "quality_w": [
+          0.3814,
+          0.3814,
+          0.382,
+          0.3831,
+          0.3823
+        ],
+        "quality_r": [
+          0.3833,
+          0.3811,
+          0.3905,
+          0.3838,
+          0.3902
+        ]
+      },
+      {
+        "query": "Medical Q1 filter, set",
+        "quality_w": [
+          0.2605,
+          0.2629,
+          0.2593,
+          0.2698,
+          0.2617
+        ],
+        "quality_r": [
+          0.2844,
+          0.2844,
+          0.2844,
+          0.2844,
+          0.2844
+        ]
+      },
+      {
+        "query": "Medical Q4 filter, AVG(age)",
+        "quality_w": [
+          0.9907,
+          0.9907,
+          0.9907,
+          0.9907,
+          0.985
+        ],
+        "quality_r": [
+          0.9806,
+          0.9806,
+          0.985,
+          0.985,
+          0.9806
+        ]
+      },
+      {
+        "query": "Medical Q10 24-way extract",
+        "quality_w": [
+          0.3755,
+          0.3496,
+          0.3744,
+          0.3391,
+          0.3373
+        ],
+        "quality_r": [
+          0.3582,
+          0.3592,
+          0.3591,
+          0.359,
+          0.3592
+        ]
+      }
+    ]
+  },
+  "concentration": [
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "managed-llama-3-3-70b-instruct",
+      "repeats": 5,
+      "deviations": 15,
+      "top_run_share": 0.4
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "repeats": 5,
+      "deviations": 13,
+      "top_run_share": 0.38461538461538464
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "repeats": 5,
+      "deviations": 11,
+      "top_run_share": 0.36363636363636365
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "vllm-llama-3-3-70b-instruct",
+      "repeats": 5,
+      "deviations": 19,
+      "top_run_share": 0.3157894736842105
+    },
+    {
+      "scenario": "movie",
+      "query": 2,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 16,
+      "top_run_share": 0.3125
+    },
+    {
+      "scenario": "medical",
+      "query": 1,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "repeats": 5,
+      "deviations": 47,
+      "top_run_share": 0.2765957446808511
+    },
+    {
+      "scenario": "movie",
+      "query": 4,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 11,
+      "top_run_share": 0.2727272727272727
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "repeats": 5,
+      "deviations": 101,
+      "top_run_share": 0.25742574257425743
+    },
+    {
+      "scenario": "movie",
+      "query": 8,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 12,
+      "top_run_share": 0.25
+    },
+    {
+      "scenario": "movie",
+      "query": 1,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "repeats": 5,
+      "deviations": 92,
+      "top_run_share": 0.2391304347826087
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "managed-llama-3-3-70b-instruct",
+      "repeats": 5,
+      "deviations": 137,
+      "top_run_share": 0.23357664233576642
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "vllm-granite-3-3-8b-instruct",
+      "repeats": 5,
+      "deviations": 69,
+      "top_run_share": 0.2318840579710145
+    },
+    {
+      "scenario": "medical",
+      "query": 4,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 33,
+      "top_run_share": 0.15151515151515152
+    },
+    {
+      "scenario": "movie",
+      "query": 1,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 274,
+      "top_run_share": 0.13503649635036497
+    },
+    {
+      "scenario": "medical",
+      "query": 1,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 181,
+      "top_run_share": 0.1270718232044199
+    },
+    {
+      "scenario": "movie",
+      "query": 9,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 169,
+      "top_run_share": 0.1242603550295858
+    },
+    {
+      "scenario": "medical",
+      "query": 10,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 1027,
+      "top_run_share": 0.12171372930866602
+    },
+    {
+      "scenario": "movie",
+      "query": 10,
+      "model": "managed-gpt-oss-120b",
+      "repeats": 10,
+      "deviations": 1161,
+      "top_run_share": 0.1119724375538329
+    }
+  ],
+  "model_reversals": {
+    "pairs": 126,
+    "pairs_reversed": 22,
+    "draws": 4275,
+    "draws_reversed": 219,
+    "per_query": [
+      {
+        "query": "Movie Q1 filter, LIMIT 5",
+        "pairs": 0,
+        "reversed": 0
+      },
+      {
+        "query": "Movie Q2 filter, LIMIT 5",
+        "pairs": 9,
+        "reversed": 0
+      },
+      {
+        "query": "Movie Q3 filter, COUNT",
+        "pairs": 14,
+        "reversed": 1
+      },
+      {
+        "query": "Movie Q4 filter, ratio",
+        "pairs": 14,
+        "reversed": 1
+      },
+      {
+        "query": "Movie Q8 label, GROUP BY",
+        "pairs": 14,
+        "reversed": 2
+      },
+      {
+        "query": "Movie Q9 score per review",
+        "pairs": 15,
+        "reversed": 3
+      },
+      {
+        "query": "Movie Q10 score, AVG, rank",
+        "pairs": 15,
+        "reversed": 4
+      },
+      {
+        "query": "Medical Q1 filter, set",
+        "pairs": 15,
+        "reversed": 1
+      },
+      {
+        "query": "Medical Q4 filter, AVG(age)",
+        "pairs": 15,
+        "reversed": 9
+      },
+      {
+        "query": "Medical Q10 24-way extract",
+        "pairs": 15,
+        "reversed": 1
+      }
+    ]
+  },
+  "groups": [
+    {
+      "by": "kind",
+      "group": "bool",
+      "model": "vllm-granite-3-3-8b-instruct",
+      "flipped": 109.0,
+      "items": 4760,
+      "flip_rate": 0.022899159663865545
+    },
+    {
+      "by": "kind",
+      "group": "bool",
+      "model": "vllm-llama-3-3-70b-instruct",
+      "flipped": 4.0,
+      "items": 4760,
+      "flip_rate": 0.0008403361344537816
+    },
+    {
+      "by": "kind",
+      "group": "bool",
+      "model": "vllm-qwen2-5-72b-instruct",
+      "flipped": 3.0,
+      "items": 4760,
+      "flip_rate": 0.0006302521008403362
+    },
+    {
+      "by": "kind",
+      "group": "bool",
+      "model": "managed-gpt-oss-120b",
+      "flipped": 160.71031746031744,
+      "items": 4760,
+      "flip_rate": 0.03376267173536081
+    },
+    {
+      "by": "kind",
+      "group": "bool",
+      "model": "managed-llama-3-3-70b-instruct",
+      "flipped": 9.0,
+      "items": 4760,
+      "flip_rate": 0.0018907563025210084
+    },
+    {
+      "by": "kind",
+      "group": "bool",
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "flipped": 1.0,
+      "items": 4760,
+      "flip_rate": 0.0002100840336134454
+    },
+    {
+      "by": "kind",
+      "group": "extract",
+      "model": "vllm-granite-3-3-8b-instruct",
+      "flipped": 45.0,
+      "items": 1200,
+      "flip_rate": 0.0375
+    },
+    {
+      "by": "kind",
+      "group": "extract",
+      "model": "vllm-llama-3-3-70b-instruct",
+      "flipped": 8.0,
+      "items": 1200,
+      "flip_rate": 0.006666666666666667
+    },
+    {
+      "by": "kind",
+      "group": "extract",
+      "model": "vllm-qwen2-5-72b-instruct",
+      "flipped": 0.0,
+      "items": 1200,
+      "flip_rate": 0.0
+    },
+    {
+      "by": "kind",
+      "group": "extract",
+      "model": "managed-gpt-oss-120b",
+      "flipped": 288.5079365079362,
+      "items": 1200,
+      "flip_rate": 0.24042328042328018
+    },
+    {
+      "by": "kind",
+      "group": "extract",
+      "model": "managed-llama-3-3-70b-instruct",
+      "flipped": 93.0,
+      "items": 1200,
+      "flip_rate": 0.0775
+    },
+    {
+      "by": "kind",
+      "group": "extract",
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "flipped": 1.0,
+      "items": 1200,
+      "flip_rate": 0.0008333333333333334
+    },
+    {
+      "by": "kind",
+      "group": "label",
+      "model": "vllm-granite-3-3-8b-instruct",
+      "flipped": 2.0,
+      "items": 120,
+      "flip_rate": 0.016666666666666666
+    },
+    {
+      "by": "kind",
+      "group": "label",
+      "model": "vllm-llama-3-3-70b-instruct",
+      "flipped": 0.0,
+      "items": 120,
+      "flip_rate": 0.0
+    },
+    {
+      "by": "kind",
+      "group": "label",
+      "model": "vllm-qwen2-5-72b-instruct",
+      "flipped": 0.0,
+      "items": 120,
+      "flip_rate": 0.0
+    },
+    {
+      "by": "kind",
+      "group": "label",
+      "model": "managed-gpt-oss-120b",
+      "flipped": 3.948412698412698,
+      "items": 120,
+      "flip_rate": 0.03290343915343915
+    },
+    {
+      "by": "kind",
+      "group": "label",
+      "model": "managed-llama-3-3-70b-instruct",
+      "flipped": 0.0,
+      "items": 120,
+      "flip_rate": 0.0
+    },
+    {
+      "by": "kind",
+      "group": "label",
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "flipped": 0.0,
+      "items": 120,
+      "flip_rate": 0.0
+    },
+    {
+      "by": "kind",
+      "group": "score",
+      "model": "vllm-granite-3-3-8b-instruct",
+      "flipped": 71.0,
+      "items": 2256,
+      "flip_rate": 0.031471631205673756
+    },
+    {
+      "by": "kind",
+      "group": "score",
+      "model": "vllm-llama-3-3-70b-instruct",
+      "flipped": 14.0,
+      "items": 2256,
+      "flip_rate": 0.0062056737588652485
+    },
+    {
+      "by": "kind",
+      "group": "score",
+      "model": "vllm-qwen2-5-72b-instruct",
+      "flipped": 3.0,
+      "items": 2256,
+      "flip_rate": 0.0013297872340425532
+    },
+    {
+      "by": "kind",
+      "group": "score",
+      "model": "managed-gpt-oss-120b",
+      "flipped": 395.916666666667,
+      "items": 2256,
+      "flip_rate": 0.17549497635933822
+    },
+    {
+      "by": "kind",
+      "group": "score",
+      "model": "managed-llama-3-3-70b-instruct",
+      "flipped": 13.0,
+      "items": 2256,
+      "flip_rate": 0.00576241134751773
+    },
+    {
+      "by": "kind",
+      "group": "score",
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "flipped": 4.0,
+      "items": 2256,
+      "flip_rate": 0.0017730496453900709
+    },
+    {
+      "by": "scenario",
+      "group": "medical",
+      "model": "vllm-granite-3-3-8b-instruct",
+      "flipped": 78.0,
+      "items": 3600,
+      "flip_rate": 0.021666666666666667
+    },
+    {
+      "by": "scenario",
+      "group": "medical",
+      "model": "vllm-llama-3-3-70b-instruct",
+      "flipped": 9.0,
+      "items": 3600,
+      "flip_rate": 0.0025
+    },
+    {
+      "by": "scenario",
+      "group": "medical",
+      "model": "vllm-qwen2-5-72b-instruct",
+      "flipped": 1.0,
+      "items": 3600,
+      "flip_rate": 0.0002777777777777778
+    },
+    {
+      "by": "scenario",
+      "group": "medical",
+      "model": "managed-gpt-oss-120b",
+      "flipped": 352.00396825396837,
+      "items": 3600,
+      "flip_rate": 0.09777888007054678
+    },
+    {
+      "by": "scenario",
+      "group": "medical",
+      "model": "managed-llama-3-3-70b-instruct",
+      "flipped": 99.0,
+      "items": 3600,
+      "flip_rate": 0.0275
+    },
+    {
+      "by": "scenario",
+      "group": "medical",
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "flipped": 1.0,
+      "items": 3600,
+      "flip_rate": 0.0002777777777777778
+    },
+    {
+      "by": "scenario",
+      "group": "movie",
+      "model": "vllm-granite-3-3-8b-instruct",
+      "flipped": 149.0,
+      "items": 4736,
+      "flip_rate": 0.03146114864864865
+    },
+    {
+      "by": "scenario",
+      "group": "movie",
+      "model": "vllm-llama-3-3-70b-instruct",
+      "flipped": 17.0,
+      "items": 4736,
+      "flip_rate": 0.0035895270270270272
+    },
+    {
+      "by": "scenario",
+      "group": "movie",
+      "model": "vllm-qwen2-5-72b-instruct",
+      "flipped": 5.0,
+      "items": 4736,
+      "flip_rate": 0.0010557432432432433
+    },
+    {
+      "by": "scenario",
+      "group": "movie",
+      "model": "managed-gpt-oss-120b",
+      "flipped": 497.07936507936574,
+      "items": 4736,
+      "flip_rate": 0.10495763620763635
+    },
+    {
+      "by": "scenario",
+      "group": "movie",
+      "model": "managed-llama-3-3-70b-instruct",
+      "flipped": 16.0,
+      "items": 4736,
+      "flip_rate": 0.0033783783783783786
+    },
+    {
+      "by": "scenario",
+      "group": "movie",
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "flipped": 5.0,
+      "items": 4736,
+      "flip_rate": 0.0010557432432432433
+    }
+  ],
+  "dissent": [
+    {
+      "model": "vllm-granite-3-3-8b-instruct",
+      "dissent": 0,
+      "flipped": 96.0,
+      "items": 5766
+    },
+    {
+      "model": "vllm-granite-3-3-8b-instruct",
+      "dissent": 1,
+      "flipped": 59.0,
+      "items": 1039
+    },
+    {
+      "model": "vllm-granite-3-3-8b-instruct",
+      "dissent": 2,
+      "flipped": 64.0,
+      "items": 1332
+    },
+    {
+      "model": "vllm-granite-3-3-8b-instruct",
+      "dissent": 3,
+      "flipped": 7.0,
+      "items": 197
+    },
+    {
+      "model": "vllm-granite-3-3-8b-instruct",
+      "dissent": 4,
+      "flipped": 1.0,
+      "items": 2
+    },
+    {
+      "model": "vllm-llama-3-3-70b-instruct",
+      "dissent": 0,
+      "flipped": 2.0,
+      "items": 5280
+    },
+    {
+      "model": "vllm-llama-3-3-70b-instruct",
+      "dissent": 1,
+      "flipped": 7.0,
+      "items": 1500
+    },
+    {
+      "model": "vllm-llama-3-3-70b-instruct",
+      "dissent": 2,
+      "flipped": 11.0,
+      "items": 1287
+    },
+    {
+      "model": "vllm-llama-3-3-70b-instruct",
+      "dissent": 3,
+      "flipped": 4.0,
+      "items": 260
+    },
+    {
+      "model": "vllm-llama-3-3-70b-instruct",
+      "dissent": 4,
+      "flipped": 2.0,
+      "items": 9
+    },
+    {
+      "model": "vllm-qwen2-5-72b-instruct",
+      "dissent": 0,
+      "flipped": 1.0,
+      "items": 5314
+    },
+    {
+      "model": "vllm-qwen2-5-72b-instruct",
+      "dissent": 1,
+      "flipped": 5.0,
+      "items": 1260
+    },
+    {
+      "model": "vllm-qwen2-5-72b-instruct",
+      "dissent": 2,
+      "flipped": 0.0,
+      "items": 1485
+    },
+    {
+      "model": "vllm-qwen2-5-72b-instruct",
+      "dissent": 3,
+      "flipped": 0.0,
+      "items": 274
+    },
+    {
+      "model": "vllm-qwen2-5-72b-instruct",
+      "dissent": 4,
+      "flipped": 0.0,
+      "items": 3
+    },
+    {
+      "model": "managed-gpt-oss-120b",
+      "dissent": 0,
+      "flipped": 172.51587301587296,
+      "items": 5382
+    },
+    {
+      "model": "managed-gpt-oss-120b",
+      "dissent": 1,
+      "flipped": 180.27777777777771,
+      "items": 1179
+    },
+    {
+      "model": "managed-gpt-oss-120b",
+      "dissent": 2,
+      "flipped": 411.4603174603178,
+      "items": 1546
+    },
+    {
+      "model": "managed-gpt-oss-120b",
+      "dissent": 3,
+      "flipped": 84.82936507936508,
+      "items": 226
+    },
+    {
+      "model": "managed-gpt-oss-120b",
+      "dissent": 4,
+      "flipped": 0.0,
+      "items": 3
+    },
+    {
+      "model": "managed-llama-3-3-70b-instruct",
+      "dissent": 0,
+      "flipped": 10.0,
+      "items": 5296
+    },
+    {
+      "model": "managed-llama-3-3-70b-instruct",
+      "dissent": 1,
+      "flipped": 40.0,
+      "items": 1493
+    },
+    {
+      "model": "managed-llama-3-3-70b-instruct",
+      "dissent": 2,
+      "flipped": 36.0,
+      "items": 1294
+    },
+    {
+      "model": "managed-llama-3-3-70b-instruct",
+      "dissent": 3,
+      "flipped": 26.0,
+      "items": 244
+    },
+    {
+      "model": "managed-llama-3-3-70b-instruct",
+      "dissent": 4,
+      "flipped": 3.0,
+      "items": 9
+    },
+    {
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "dissent": 0,
+      "flipped": 3.0,
+      "items": 5617
+    },
+    {
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "dissent": 1,
+      "flipped": 1.0,
+      "items": 1156
+    },
+    {
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "dissent": 2,
+      "flipped": 1.0,
+      "items": 1326
+    },
+    {
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "dissent": 3,
+      "flipped": 1.0,
+      "items": 233
+    },
+    {
+      "model": "managed-mistral-small-3-1-24b-2503",
+      "dissent": 4,
+      "flipped": 0.0,
+      "items": 4
+    }
+  ]
+}

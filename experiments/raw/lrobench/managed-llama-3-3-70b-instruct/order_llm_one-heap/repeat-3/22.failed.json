@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 22,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 3.701,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 498, in pipeline_order22\n    language = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To compare the general difficulty of the languages, I need to use external knowledge. According to various sources, Italian is generally considered to be more difficult for English speakers to learn \n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To compare the general difficulty of the languages, I need to use external knowledge. According to various sources, Italian is generally considered to be more difficult to learn than English, especia",
+      "operator_calls": 1
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To compare the general difficulty of the languages, I need to use external knowledge. According to various sources, Italian is generally considered to be more difficult to learn for English speakers",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 314,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 3.676,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.1111,
+    0.3333,
+    0.1667
+  ],
+  "tokens": [
+    552,
+    375,
+    177
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1111,
+        0.3333,
+        0.1667
+      ],
+      "prediction": [
+        "['CoAppOrgID' 'Post Unique Reference']",
+        "['CoAppOrgNm' 'Organisation']",
+        "['CoAppRoleEN' 'Job Title']",
+        "['CoAppRoleFR' 'Job Title']",
+        "['CountryEN' 'Name']",
+        "['FiscalYear-Ann\u00c3\\x83\u00c2\u00a9eFinanci\u00c3\\x83\u00c2\u00a8re' 'Unnamed: 15']",
+        "['PaysFR' 'Name']",
+        "['ProvinceEN' 'Name']",
+        "['ProvinceFR' 'Name']"
+      ],
+      "truth": [
+        "['CoAppNm' 'Name']",
+        "['CoAppOrgNm' 'Organisation']",
+        "['ProvinceEN' 'Unit']"
+      ]
+    }
+  ]
+}

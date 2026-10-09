@@ -1,0 +1,8 @@
+{"key": "852f129fbdcdd13b", "role": "operator", "t": 1790980096.487, "seconds": 2.64, "output": "[\n  { \"customers\": [\"1\", \"People\"] }\n]"}
+{"key": "c677676487aa6e43", "role": "operator", "t": 1790980099.128, "seconds": 2.058, "output": "[{\"products\": [\"2\", \"Product\"]}]"}
+{"key": "3bd364020030c430", "role": "operator", "t": 1790980101.186, "seconds": 1.419, "output": "[\n  { \"orders\": [\"3\", \"Order\"] }\n]"}
+{"key": "ccd961d1d9e6309d", "role": "operator", "t": 1790980102.605, "seconds": 1.237, "output": "[\n  { \"productlines\": [\"2\", \"Product\"] }\n]"}
+{"key": "f9e443acf33084c1", "role": "operator", "t": 1790980103.841, "seconds": 1.529, "output": "[\n  { \"payments\": [\"3\", \"Order\"] }\n]"}
+{"key": "7123c9735fda42e7", "role": "operator", "t": 1790980105.371, "seconds": 1.603, "output": "[{\"orderdetails\": [\"3\", \"Order\"]}]"}
+{"key": "822f4d961cf0d0f9", "role": "operator", "t": 1790980106.974, "seconds": 4.232, "output": "[{\"employees\": [\"1\", \"People\"]}]"}
+{"key": "a5ccbd4b708bbfd2", "role": "operator", "t": 1790980111.206, "seconds": 7.449, "output": "[\n  { \"offices\": [\"1\", \"People\"] }\n]"}

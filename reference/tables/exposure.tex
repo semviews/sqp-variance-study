@@ -1,0 +1,18 @@
+\begin{table}[t]
+\caption{Which items decide the answer under each plan operator, and how often the possible-worlds prediction is within 0.15 of measured reproduction: the closed form $e^{-x}$ (C) or the simulation through the plan (S). SemBench rows count query--deployment cells; the last row counts UDA-Bench query--deployment pairs.}
+\label{tab:exposure}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llcr@{}}
+\toprule
+Plan operator & Items deciding the answer & & Within \\
+\midrule
+Full output (map, set, join) & all $n$ items & C & 23/24 \\
+\texttt{LIMIT} $k$ & prefix up to the $k$-th match & S & 22/24 \\
+\texttt{COUNT}, ratio, counts & spread of the count & S & 18/18 \\
+\texttt{AVG} & spread of the mean & S & 6/6 \\
+Rank by group mean & groups near a tie & S & 6/6 \\
+SQL over extractions & values the SQL reads & C & 202/369 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+city.city_name,city.population,team.founded_year,team.location,team.id,city.id
+San Francisco,"The population of San Francisco, as of the 2020 United States census, is 873,965.",1946,San Francisco,10,11
+Houston,"Population: 2,304,580",1967,Houston,11,21
+Indianapolis,887642,1967,Indianapolis,12,3
+Los Angeles,"Population: 3,820,914 || 12.8 million (metropolitan area)",1970,Los Angeles,13,6
+Los Angeles,"Population: 3,820,914 || 12.8 million (metropolitan area)",1946,Los Angeles,14,6
+Memphis,Population: 633104,1995,Memphis,15,24
+Miami,442241,1988,Miami,16,8
+Milwaukee,577222,1968,Milwaukee,17,28
+Minneapolis,429954,1989,Minneapolis,18,7
+Boston,675647,1946,Boston,2,2
+Oklahoma City,"The population of Oklahoma City, as given in the context, is 681,054 according to the 2020 census.",1967,Oklahoma City,21,27
+Orlando,307573,1989,Orlando,22,15
+Phoenix,"Population: 1,608,139 || 1,445,632 (2010) || 1,512,986 (2006)",1968,Phoenix,24,18
+Sacramento,"The population of Sacramento, as reported in the 2020 United States Census, is 524,943.",1923,Sacramento,26,22
+San Antonio,"The population of San Antonio, according to the 2020 U.S. Census, is 1,434,625.",1967,San Antonio,27,5
+Salt Lake City,**Population:** 200133,1974,Salt Lake City,29,16
+Cleveland,372624,1970,Cleveland,6,20
+Dallas,"The population of Dallas, as provided in the context, is 1,304,379 according to the 2020 United States census.",1980,Dallas,7,4

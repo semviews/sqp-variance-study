@@ -1,0 +1,280 @@
+[
+  {
+    "model": "vllm-granite-3-3-8b-instruct",
+    "setting": "w1_lp_probe",
+    "label": "Concurrency 1",
+    "queries": {
+      "3": {
+        "repeats": 10,
+        "flip_rate": 0.05,
+        "pair_disagreement": 0.01648148148148148,
+        "majority_moved": 0.0,
+        "quality_mean": 0.70716,
+        "answer_reproduction": 0.4
+      },
+      "8": {
+        "repeats": 10,
+        "flip_rate": 0.008333333333333333,
+        "pair_disagreement": 0.0016666666666666663,
+        "majority_moved": 0.008333333333333333,
+        "quality_mean": 0.8342500000000002,
+        "answer_reproduction": 0.8
+      },
+      "9": {
+        "repeats": 10,
+        "flip_rate": 0.0390625,
+        "pair_disagreement": 0.01675347222222222,
+        "majority_moved": 0.00390625,
+        "quality_mean": 0.70699,
+        "answer_reproduction": 0.022222222222222223
+      }
+    },
+    "difference": -0.00228494623655914,
+    "difference_ci": [
+      -0.006630824372759856,
+      0.0018369175627240147
+    ]
+  },
+  {
+    "model": "vllm-granite-3-3-8b-instruct",
+    "setting": "w8_lp_probe",
+    "label": "Concurrency 8",
+    "queries": {
+      "3": {
+        "repeats": 10,
+        "flip_rate": 0.041666666666666664,
+        "pair_disagreement": 0.017407407407407406,
+        "majority_moved": 0.008333333333333333,
+        "quality_mean": 0.6857300000000001,
+        "answer_reproduction": 0.2222222222222222
+      },
+      "8": {
+        "repeats": 10,
+        "flip_rate": 0.008333333333333333,
+        "pair_disagreement": 0.00462962962962963,
+        "majority_moved": 0.008333333333333333,
+        "quality_mean": 0.81805,
+        "answer_reproduction": 0.4444444444444444
+      },
+      "9": {
+        "repeats": 10,
+        "flip_rate": 0.0390625,
+        "pair_disagreement": 0.015451388888888888,
+        "majority_moved": 0.00390625,
+        "quality_mean": 0.7105,
+        "answer_reproduction": 0.022222222222222223
+      }
+    },
+    "difference": -0.002016129032258064,
+    "difference_ci": [
+      -0.0064516129032258064,
+      0.0020609318996415776
+    ]
+  },
+  {
+    "model": "vllm-granite-3-3-8b-instruct",
+    "setting": "w20_lp_probe",
+    "label": "Concurrency 20 (ref.)",
+    "queries": {
+      "3": {
+        "repeats": 10,
+        "flip_rate": 0.058333333333333334,
+        "pair_disagreement": 0.025555555555555554,
+        "majority_moved": 0.0,
+        "quality_mean": 0.70001,
+        "answer_reproduction": 0.2
+      },
+      "8": {
+        "repeats": 10,
+        "flip_rate": 0.016666666666666666,
+        "pair_disagreement": 0.0061111111111111106,
+        "majority_moved": 0.0,
+        "quality_mean": 0.80995,
+        "answer_reproduction": 0.5333333333333333
+      },
+      "9": {
+        "repeats": 10,
+        "flip_rate": 0.04296875,
+        "pair_disagreement": 0.01484375,
+        "majority_moved": 0.0,
+        "quality_mean": 0.7057,
+        "answer_reproduction": 0.022222222222222223
+      }
+    }
+  },
+  {
+    "model": "vllm-granite-3-3-8b-instruct",
+    "setting": "w64_lp_probe",
+    "label": "Concurrency 64",
+    "queries": {
+      "3": {
+        "repeats": 10,
+        "flip_rate": 0.05,
+        "pair_disagreement": 0.01851851851851852,
+        "majority_moved": 0.0,
+        "quality_mean": 0.70001,
+        "answer_reproduction": 0.4666666666666667
+      },
+      "8": {
+        "repeats": 10,
+        "flip_rate": 0.008333333333333333,
+        "pair_disagreement": 0.0016666666666666663,
+        "majority_moved": 0.008333333333333333,
+        "quality_mean": 0.8342500000000002,
+        "answer_reproduction": 0.8
+      },
+      "9": {
+        "repeats": 10,
+        "flip_rate": 0.04296875,
+        "pair_disagreement": 0.01519097222222222,
+        "majority_moved": 0.0,
+        "quality_mean": 0.70735,
+        "answer_reproduction": 0.022222222222222223
+      }
+    },
+    "difference": -0.0025985663082437275,
+    "difference_ci": [
+      -0.006182795698924732,
+      0.0006720430107526882
+    ]
+  },
+  {
+    "model": "vllm-granite-3-3-8b-instruct",
+    "setting": "w20_shuffle_lp_probe",
+    "label": "Shuffled input order",
+    "queries": {
+      "3": {
+        "repeats": 10,
+        "flip_rate": 0.058333333333333334,
+        "pair_disagreement": 0.026481481481481484,
+        "majority_moved": 0.008333333333333333,
+        "quality_mean": 0.70716,
+        "answer_reproduction": 0.3111111111111111
+      },
+      "8": {
+        "repeats": 10,
+        "flip_rate": 0.008333333333333333,
+        "pair_disagreement": 0.00462962962962963,
+        "majority_moved": 0.008333333333333333,
+        "quality_mean": 0.81805,
+        "answer_reproduction": 0.4444444444444444
+      },
+      "9": {
+        "repeats": 10,
+        "flip_rate": 0.046875,
+        "pair_disagreement": 0.013975694444444443,
+        "majority_moved": 0.00390625,
+        "quality_mean": 0.70627,
+        "answer_reproduction": 0.022222222222222223
+      }
+    },
+    "difference": -0.0005824372759856628,
+    "difference_ci": [
+      -0.0038082437275985667,
+      0.0026433691756272406
+    ]
+  },
+  {
+    "model": "managed-gpt-oss-120b",
+    "setting": "w20_r-low_probe",
+    "label": "Reasoning effort low",
+    "queries": {
+      "3": {
+        "repeats": 10,
+        "flip_rate": 0.041666666666666664,
+        "pair_disagreement": 0.015555555555555555,
+        "majority_moved": 0.05,
+        "quality_mean": 0.8285499999999999,
+        "answer_reproduction": 0.35555555555555557
+      },
+      "8": {
+        "repeats": 10,
+        "flip_rate": 0.0,
+        "pair_disagreement": 0.0,
+        "majority_moved": 0.016666666666666666,
+        "quality_mean": 1.0,
+        "answer_reproduction": 1.0
+      },
+      "9": {
+        "repeats": 10,
+        "flip_rate": 0.1953125,
+        "pair_disagreement": 0.07387152777777778,
+        "majority_moved": 0.140625,
+        "quality_mean": 0.7307,
+        "answer_reproduction": 0.0
+      }
+    },
+    "difference": -0.00967741935483871,
+    "difference_ci": [
+      -0.022849462365591395,
+      0.005107526881720431
+    ]
+  },
+  {
+    "model": "managed-gpt-oss-120b",
+    "setting": "w20_r-medium_probe",
+    "label": "Reasoning effort medium (ref.)",
+    "queries": {
+      "3": {
+        "repeats": 10,
+        "flip_rate": 0.025,
+        "pair_disagreement": 0.0062962962962962955,
+        "majority_moved": 0.0,
+        "quality_mean": 0.7428600000000001,
+        "answer_reproduction": 0.4666666666666667
+      },
+      "8": {
+        "repeats": 10,
+        "flip_rate": 0.05,
+        "pair_disagreement": 0.018703703703703705,
+        "majority_moved": 0.0,
+        "quality_mean": 0.9636100000000001,
+        "answer_reproduction": 0.2222222222222222
+      },
+      "9": {
+        "repeats": 10,
+        "flip_rate": 0.22265625,
+        "pair_disagreement": 0.08819444444444444,
+        "majority_moved": 0.0,
+        "quality_mean": 0.7506999999999999,
+        "answer_reproduction": 0.0
+      }
+    }
+  },
+  {
+    "model": "managed-gpt-oss-120b",
+    "setting": "w20_r-high_probe",
+    "label": "Reasoning effort high",
+    "queries": {
+      "3": {
+        "repeats": 10,
+        "flip_rate": 0.03333333333333333,
+        "pair_disagreement": 0.01740740740740741,
+        "majority_moved": 0.008333333333333333,
+        "quality_mean": 0.60002,
+        "answer_reproduction": 0.37777777777777777
+      },
+      "8": {
+        "repeats": 10,
+        "flip_rate": 0.03333333333333333,
+        "pair_disagreement": 0.01740740740740741,
+        "majority_moved": 0.016666666666666666,
+        "quality_mean": 0.96767,
+        "answer_reproduction": 0.2222222222222222
+      },
+      "9": {
+        "repeats": 10,
+        "flip_rate": 0.18359375,
+        "pair_disagreement": 0.07404513888888889,
+        "majority_moved": 0.109375,
+        "quality_mean": 0.73203,
+        "answer_reproduction": 0.0
+      }
+    },
+    "difference": -0.004928315412186379,
+    "difference_ci": [
+      -0.017338709677419354,
+      0.006496415770609321
+    ]
+  }
+]

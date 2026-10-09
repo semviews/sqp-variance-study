@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 44,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 19.286,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 44,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Lake Victoria"
+    ],
+    [
+      "Lake Tanganjika"
+    ],
+    [
+      "Lake Bangweulu"
+    ],
+    [
+      "Lake Titicaca"
+    ],
+    [
+      "Salar de Uyuni"
+    ]
+  ],
+  "tokens": 10872,
+  "metrics": [],
+  "prediction": [
+    [
+      "Lake Victoria"
+    ],
+    [
+      "Lake Tanganjika"
+    ],
+    [
+      "Lake Bangweulu"
+    ],
+    [
+      "Lake Titicaca"
+    ],
+    [
+      "Salar de Uyuni"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 4.204,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 989, in pipeline_select309\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine whether the 'geo_island' table satisfies the condition 'This table is not related to terrain', we need to assess if the table contains any information related to terrain. \\n\\nGiven that \n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the 'geo_sea' table satisfies the condition 'This table is not related to terrain', we need to analyze the name and potential content of the table. The name 'geo_sea' suggests a",
+      "operator_calls": 9
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the 'geo_sea' table satisfies the condition 'This table is not related to terrain', we need to analyze the name and potential content of the table. The name 'geo_sea' suggests a",
+      "operator_calls": 9
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

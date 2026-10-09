@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "olympic_gold_medals": {
+      "precision": 0.16363636363636364,
+      "recall": 0.2903225806451613,
+      "f1": 0.20930232558139533
+    },
+    "fiba_world_cup": {
+      "precision": 0.05454545454545454,
+      "recall": 0.0967741935483871,
+      "f1": 0.06976744186046512
+    },
+    "birth_date": {
+      "precision": 0.5636363636363636,
+      "recall": 1.0,
+      "f1": 0.7209302325581396
+    }
+  },
+  "macro_precision": 0.26060606060606056,
+  "macro_recall": 0.4623655913978495,
+  "macro_f1": 0.3333333333333333,
+  "rows": {
+    "len_gold": 31,
+    "len_pred": 55,
+    "matched_rows": 31
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "olympic_gold_medals",
+    "fiba_world_cup",
+    "birth_date"
+  ],
+  "skipped_columns": []
+}

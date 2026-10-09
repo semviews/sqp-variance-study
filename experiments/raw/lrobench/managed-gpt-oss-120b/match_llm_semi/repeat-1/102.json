@@ -1,0 +1,79 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 102,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 5.207,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 23,
+  "judge_calls": 0,
+  "returned": [
+    0.9412,
+    0.8,
+    0.8649
+  ],
+  "tokens": [
+    3119,
+    3087,
+    32
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.9412,
+        0.8,
+        0.8649
+      ],
+      "prediction": [
+        "['114' 'APAC']",
+        "['119' 'EMEA']",
+        "['141' 'EMEA']",
+        "['146' 'EMEA']",
+        "['148' 'APAC']",
+        "['187' 'EMEA']",
+        "['227' 'EMEA']",
+        "['249' 'EMEA']",
+        "['259' 'EMEA']",
+        "['276' 'APAC']",
+        "['278' 'EMEA']",
+        "['286' 'EMEA']",
+        "['298' 'EMEA']",
+        "['386' 'EMEA']",
+        "['448' 'EMEA']",
+        "['458' 'EMEA']",
+        "['496' 'APAC']"
+      ],
+      "truth": [
+        "['114' 'APAC']",
+        "['119' 'EMEA']",
+        "['141' 'EMEA']",
+        "['146' 'EMEA']",
+        "['148' 'APAC']",
+        "['157' 'NA']",
+        "['187' 'EMEA']",
+        "['227' 'EMEA']",
+        "['249' 'EMEA']",
+        "['259' 'EMEA']",
+        "['276' 'APAC']",
+        "['278' 'EMEA']",
+        "['286' 'NA']",
+        "['298' 'EMEA']",
+        "['319' 'NA']",
+        "['363' 'NA']",
+        "['386' 'EMEA']",
+        "['448' 'EMEA']",
+        "['458' 'EMEA']",
+        "['496' 'APAC']"
+      ]
+    }
+  ]
+}

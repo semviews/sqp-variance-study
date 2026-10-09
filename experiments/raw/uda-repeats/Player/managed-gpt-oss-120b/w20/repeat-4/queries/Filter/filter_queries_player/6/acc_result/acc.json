@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "college": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "birth_date": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "draft_year": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "rows": {
+    "len_gold": 1,
+    "len_pred": 1,
+    "matched_rows": 1
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "college",
+    "birth_date",
+    "draft_year"
+  ],
+  "skipped_columns": []
+}

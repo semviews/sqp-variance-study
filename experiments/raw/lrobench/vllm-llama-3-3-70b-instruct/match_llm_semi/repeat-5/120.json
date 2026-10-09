@@ -1,0 +1,80 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 120,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 6.047,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 27,
+  "judge_calls": 0,
+  "returned": [
+    0.0588,
+    0.5,
+    0.1053
+  ],
+  "tokens": [
+    12971,
+    12390,
+    581
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0588,
+        0.5,
+        0.1053
+      ],
+      "prediction": [
+        "['Britannia' 'Rogers Arena']",
+        "['Carnegie Centre' 'St Andrews-Wesley United Church']",
+        "['Carnegie Centre' 'St. Andrews-Wesley United Church']",
+        "['Champlain Heights' 'PNE Pacific Coliseum']",
+        "['Coal Harbour' 'St Andrews-Wesley United Church']",
+        "['Coal Harbour' 'St. Andrews-Wesley United Church']",
+        "['Creekside' 'Rogers Arena']",
+        "['Douglas Park' 'Vogue Theatre']",
+        "['Dunbar' 'Orpheum Theatre']",
+        "['Evelyne Saller Centre' 'PNE Pacific Coliseum']",
+        "['False Creek' 'St Andrews-Wesley United Church']",
+        "['False Creek' 'St. Andrews-Wesley United Church']",
+        "['Gathering Place Community Centre' 'Orpheum Theatre']",
+        "['Hastings' 'PNE Forum']",
+        "['Hillcrest' 'Rogers Arena']",
+        "['Kensington' 'Orpheum Theatre']",
+        "['Kerrisdale' 'St Andrews-Wesley United Church']",
+        "['Kerrisdale' 'St. Andrews-Wesley United Church']",
+        "['Killarney' 'PNE Pacific Coliseum']",
+        "['Kitsilano War Memorial' 'Orpheum Theatre']",
+        "['Marpole-Oakridge' 'St Andrews-Wesley United Church']",
+        "['Marpole-Oakridge' 'St. Andrews-Wesley United Church']",
+        "['Mount Pleasant' 'Queen Elizabeth Theatre']",
+        "['Ray-Cam Co-Operative Center' 'Orpheum Theatre']",
+        "['Renfrew Park' 'PNE Forum']",
+        "['Roundhouse' 'Vogue Theatre']",
+        "['Strathcona' 'Orpheum Theatre']",
+        "['Sunset' 'Rogers Arena']",
+        "['Thunderbird' 'PNE Pacific Coliseum']",
+        "['Trout Lake' 'PNE Pacific Coliseum']",
+        "['West End' 'Malkin Bowl']",
+        "['West End' 'Malkin Bowl, The']",
+        "['West Point Grey' 'Chan Centre for The Performing Art - Concert Hall']",
+        "['West Point Grey' 'Chan Centre for The Performing Art, The- Concert Hall']"
+      ],
+      "truth": [
+        "['Gathering Place Community Centre' 'Orpheum Theatre']",
+        "['Gathering Place Community Centre' 'Vogue Theatre']",
+        "['Hastings' 'PNE Amphitheatre']",
+        "['Hastings' 'PNE Forum']"
+      ]
+    }
+  ]
+}

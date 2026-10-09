@@ -1,0 +1,13 @@
+{
+  "sql": "/* Query 5: select (player) */ SELECT olympic_gold_medals, birth_date FROM player",
+  "player": {
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  }
+}

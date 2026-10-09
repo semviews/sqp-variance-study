@@ -1,0 +1,14 @@
+{"key": "2463d7cf766e2076", "role": "operator", "t": 1790973577.474, "seconds": 1.925, "output": "[ \n  { \"circuits\": [\"3\", \"other info\"]}\n]"}
+{"key": "3b4a2b6190684eae", "role": "operator", "t": 1790973579.399, "seconds": 1.072, "output": "[{\"status\": [\"1\", \"person-related info\"]}]"}
+{"key": "57648c258d433c61", "role": "operator", "t": 1790973580.471, "seconds": 1.016, "output": "[{\"drivers\": [\"4\", \"other info\"]}]"}
+{"key": "9c40891e1b9e1909", "role": "operator", "t": 1790973581.487, "seconds": 1.631, "output": "[{\"driverStandings\": [\"2\", \"race-related info\"]}]"}
+{"key": "0ff5a0cdf68551bb", "role": "operator", "t": 1790973583.118, "seconds": 2.637, "output": "[ \n  { \"races\": [\"2\", \"race-related info\"]}\n]"}
+{"key": "f52ad75fba80352f", "role": "operator", "t": 1790973585.755, "seconds": 1.012, "output": "[{\"constructors\": [\"5\", \"other info\"]}]"}
+{"key": "66ccd68f124d2c1a", "role": "operator", "t": 1790973586.768, "seconds": 1.017, "output": "[\n  { \"constructorResults\": [\"6\", \"other info\"]}\n]"}
+{"key": "8c3a6fd5f5d2488b", "role": "operator", "t": 1790973587.785, "seconds": 1.83, "output": "[ \n  { \"lapTimes\": [\"2\", \"race-related info\"]} \n]"}
+{"key": "472fed8c9a6f1821", "role": "operator", "t": 1790973589.615, "seconds": 1.052, "output": "[{\"qualifying\": [\"7\", \"other info\"]}]"}
+{"key": "363928a5a1ebba8a", "role": "operator", "t": 1790973590.667, "seconds": 1.17, "output": "[ \n  { \"sqlite_sequence\": [\"8\", \"other info\"]}\n]"}
+{"key": "47503e27d67fa8cb", "role": "operator", "t": 1790973591.837, "seconds": 1.107, "output": "[ \n  { \"pitStops\": [\"2\", \"race-related info\"]}\n]"}
+{"key": "5c106e3c019d9560", "role": "operator", "t": 1790973592.944, "seconds": 1.063, "output": "[{\"seasons\": [\"9\", \"other info\"]}]"}
+{"key": "0bfe9e1a102c0c22", "role": "operator", "t": 1790973594.007, "seconds": 1.181, "output": "[\n  { \"constructorStandings\": [\"2\", \"race-related info\"]}\n]"}
+{"key": "c3d5292e3df9cc8c", "role": "operator", "t": 1790973595.188, "seconds": 0.916, "output": "[\n  { \"results\": [\"10\", \"other info\"]}\n]"}

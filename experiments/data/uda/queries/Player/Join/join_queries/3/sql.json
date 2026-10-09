@@ -1,0 +1,19 @@
+{
+  "sql": "/* Query 3: binary_join (player, team) */ SELECT team.ownership, player.name, player.mvp_awards, team.championships FROM player JOIN team ON player.team = team.team_name",
+  "team": {
+    "ownership": {
+      "value_type": "str",
+      "description": "ownership is the name of the team's owner (e.g. Jeanie Buss)."
+    }
+  },
+  "player": {
+    "mvp_awards": {
+      "value_type": "int",
+      "description": "number of NBA MVP awards the player has won; use 0 if none (e.g., 2)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "full name of the NBA player (e.g., LeBron James)."
+    }
+  }
+}

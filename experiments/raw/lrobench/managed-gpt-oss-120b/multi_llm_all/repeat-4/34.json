@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 34,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 84.871,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 253,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Baked",
+      4
+    ],
+    [
+      "Fried",
+      2
+    ],
+    [
+      "Grilled",
+      3
+    ],
+    [
+      "Others",
+      10
+    ],
+    [
+      "Raw",
+      6
+    ],
+    [
+      "Steamed",
+      2
+    ]
+  ],
+  "tokens": 63667,
+  "metrics": [],
+  "prediction": [
+    [
+      "Baked",
+      4
+    ],
+    [
+      "Fried",
+      2
+    ],
+    [
+      "Grilled",
+      3
+    ],
+    [
+      "Others",
+      10
+    ],
+    [
+      "Raw",
+      6
+    ],
+    [
+      "Steamed",
+      2
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "city",
+  "attributes": [
+    "area",
+    "city_name",
+    "gdp",
+    "population",
+    "state_name"
+  ],
+  "model": "openai/vllm-granite-3-3-8b-instruct",
+  "workers": 20,
+  "repeat": 1,
+  "calls": 147,
+  "documents": 29,
+  "transient_retries": 2,
+  "failed_calls": 0,
+  "seconds": 195.903,
+  "prompt_tokens": 2486392
+}

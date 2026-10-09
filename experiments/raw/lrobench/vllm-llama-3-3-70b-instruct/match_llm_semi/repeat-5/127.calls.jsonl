@@ -1,0 +1,21 @@
+{"key": "da4fdd363c0ff0e8", "role": "operator", "t": 1790996206.422, "seconds": 1.689, "output": "St. James's"}
+{"key": "01af961fcc8edfee", "role": "operator", "t": 1790996206.423, "seconds": 1.692, "output": "Grange"}
+{"key": "ddef31b464fff4cb", "role": "operator", "t": 1790996206.423, "seconds": 4.005, "output": "Stanley is not found in the list of available values, however, based on the UK ward names, a possible match for Stanley could be in the area of \"Stanley\" in the London Borough of Hammersmith and Fulham or other areas, one of the adjacent wards to Stanley in the UK is likely to be in the Hammersmith area, so the matched value is Hammersmith Broadway"}
+{"key": "e507fd5122668136", "role": "operator", "t": 1790996206.422, "seconds": 4.007, "output": "New Cross"}
+{"key": "aa59dfb5a57cd182", "role": "operator", "t": 1790996206.422, "seconds": 4.013, "output": "East Acton is adjacent to Shepherd's Bush which is not in the list, however East Acton is also adjacent to Hammersmith Broadway"}
+{"key": "e60a71a6191b64ca", "role": "operator", "t": 1790996206.424, "seconds": 4.015, "output": "Noel Park is adjacent to Tottenham Green and other wards but based on the given list the matched value is Tottenham Green"}
+{"key": "3854f49e68db372c", "role": "operator", "t": 1790996206.425, "seconds": 4.015, "output": "West Hampstead"}
+{"key": "9d8fd2896e6260ce", "role": "operator", "t": 1790996206.421, "seconds": 5.338, "output": "East Putney is adjacent to Southfields, however since it is not in the list, the next closest match would be in the same borough, so the answer is not directly available, but one of the closest matches in the same borough would be in the Mortlake and Barnes Common area, since Southfields is in the Wandsworth borough and so is East Putney, but the closest match in the list would be Mortlake and Barnes Common which is in the same borough as Southfields and also adjacent to it, however since it is not a direct match and there is no direct match available, the closest match would be an area in the same borough, so the answer is Mortlake and Barnes Common"}
+{"key": "9985ea528574d5f7", "role": "operator", "t": 1790996206.424, "seconds": 5.341, "output": "Redcliffe is adjacent to Shaftesbury"}
+{"key": "281af8c0443ceae1", "role": "operator", "t": 1790996206.423, "seconds": 5.344, "output": "Hammersmith Broadway"}
+{"key": "7fab109b69db97af", "role": "operator", "t": 1790996208.111, "seconds": 3.663, "output": "West Hampstead"}
+{"key": "8aa70e267ad9834e", "role": "operator", "t": 1790996211.769, "seconds": 0.944, "output": "St. James's"}
+{"key": "774f43e125783934", "role": "operator", "t": 1790996211.768, "seconds": 0.947, "output": "Barnehurst"}
+{"key": "7487f7bc5e09354b", "role": "operator", "t": 1790996211.768, "seconds": 0.952, "output": "Streatham Hill"}
+{"key": "9aa73a6eea6a825d", "role": "operator", "t": 1790996211.774, "seconds": 0.947, "output": "Woodhouse"}
+{"key": "87404616fa965243", "role": "operator", "t": 1790996211.767, "seconds": 0.956, "output": "Hatch End"}
+{"key": "7ae86a9ba246fef4", "role": "operator", "t": 1790996211.767, "seconds": 0.958, "output": "West Hampstead"}
+{"key": "d5d17641c5438b9f", "role": "operator", "t": 1790996211.768, "seconds": 1.106, "output": "Copers Cope is adjacent to Churchfields"}
+{"key": "c67d145c5ee1870e", "role": "operator", "t": 1790996211.768, "seconds": 1.109, "output": "Fairfield"}
+{"key": "43b9b85948a918c1", "role": "operator", "t": 1790996211.768, "seconds": 1.11, "output": "St. James's"}
+{"key": "9a41703b04304ae8", "role": "operator", "t": 1790996211.769, "seconds": 1.112, "output": "Holborn and Covent Garden"}

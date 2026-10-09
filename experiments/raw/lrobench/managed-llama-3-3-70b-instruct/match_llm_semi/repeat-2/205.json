@@ -1,0 +1,58 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 205,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 48.745,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0,
+  "returned": [
+    0.1538,
+    0.6667,
+    0.25
+  ],
+  "tokens": [
+    121046,
+    112317,
+    8729
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1538,
+        0.6667,
+        0.25
+      ],
+      "prediction": [
+        "['155' '888']",
+        "['156' '888']",
+        "['2162' '1177']",
+        "['2448' '888']",
+        "['2507' '372']",
+        "['2743' '1698']",
+        "['2755' '682']",
+        "['3068' '888']",
+        "['3420' '1095']",
+        "['3458' '888']",
+        "['4004' '682']",
+        "['539' '1095']",
+        "['687' '1180']"
+      ],
+      "truth": [
+        "['2755' '108']",
+        "['2755' '682']",
+        "['3420' '1095']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 306,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 19.142,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 1374, in pipeline_match306\n    pred = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine whether the two provided values or JSON tuples for \\'ID\\' and \\'Description\\' satisfy the condition \"The two columns refer to the same feature,\" I need the actual input values for \\'ID\\'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the two inputs, `ID` and `Features`, satisfy the condition \"The two columns refer to the same feature,\" I need to understand the context of what these inputs represent. However,",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To determine whether the given `ID` and `Description` refer to the same feature, I would need the actual values of `ID` and `Description` to analyze. However, since the inputs are not provided in you",
+      "operator_calls": 15
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 20,
+  "judge_calls": 0
+}

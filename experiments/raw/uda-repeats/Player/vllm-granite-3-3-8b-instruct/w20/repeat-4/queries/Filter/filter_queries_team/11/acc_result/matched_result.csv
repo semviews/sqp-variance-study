@@ -1,0 +1,29 @@
+location,founded_year,team_name,id
+Atlanta ||,1946,Atlanta Hawks,1
+San Francisco,1946,Golden State Warriors,10
+Houston,1967,Houston Rockets,11
+Indianapolis,1967,Indiana Pacers,12
+Los Angeles,1970,Los Angeles Clippers,13
+Los Angeles,1946,Los Angeles Lakers,14
+Memphis,1995,Memphis Grizzlies,15
+Miami,1988,Miami Heat,16
+Milwaukee,1968,Milwaukee Bucks,17
+Minneapolis,1989,Minnesota Timberwolves,18
+New Orleans,2002,New Orleans Pelicans || New Orleans Hornets,19
+Boston,1946,Boston Celtics,2
+New York,1946,team_name is New York Knicks.,20
+Orlando,1989,Orlando Magic,22
+Philadelphia ||,1946,Philadelphia 76ers,23
+Phoenix,1968,Phoenix Suns,24
+Portland,1970,Portland Trail Blazers,25
+Sacramento,1923,Sacramento Kings,26
+San Antonio,1967,San Antonio Spurs,27
+Toronto,1995,team_name is Toronto Raptors,28
+Salt Lake City,1974,Utah Jazz,29
+Brooklyn,1967,Brooklyn Nets || New Jersey Nets || New York Nets || New Jersey Americans,3
+Charlotte ||,1988,team_name is Charlotte Hornets,4
+Chicago ||,1966,Chicago Bulls,5
+Cleveland,1970,Cleveland Cavaliers,6
+Dallas,1980,Dallas Mavericks,7
+Denver ||,1967,Denver Nuggets,8
+"Detroit || Auburn Hills || Little Caesars Arena, Detroit",1937,Detroit Pistons,9

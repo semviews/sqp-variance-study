@@ -1,0 +1,13 @@
+{"key": "d29c7b5fe1d12357", "role": "operator", "t": 1790961951.053, "seconds": 2.768, "output": "[{\"ward_no\": [\"0\", \"basic_info\"]}]"}
+{"key": "5adeb4e186c166f8", "role": "operator", "t": 1790961953.822, "seconds": 1.73, "output": "[\n  { \"alderman_first_name\": [\"0\", \"basic_info\"] }\n]"}
+{"key": "2e8142c78626ce6a", "role": "operator", "t": 1790961955.551, "seconds": 1.368, "output": "[\n  { \"alderman_last_name\": [\"0\", \"basic_info\"] }\n]"}
+{"key": "c44bcdd064507dc5", "role": "operator", "t": 1790961956.92, "seconds": 1.739, "output": "[\n  { \"alderman_name_suffix\": [\"0\", \"basic_info\"] }\n]"}
+{"key": "3af6a137958defdb", "role": "operator", "t": 1790961958.659, "seconds": 1.702, "output": "[\n  {\"ward_office_address\": [\"1\", \"contact_info\"]}\n]"}
+{"key": "ffe7527ef043dbaf", "role": "operator", "t": 1790961960.361, "seconds": 1.911, "output": "[\n  { \"ward_office_zip\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "0e1a68019e53cff7", "role": "operator", "t": 1790961962.272, "seconds": 1.948, "output": "[\n  { \"ward_email\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "2368ca52c238c6a1", "role": "operator", "t": 1790961964.22, "seconds": 2.629, "output": "[\n  { \"ward_office_phone\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "d7aa2d0b1b64da0a", "role": "operator", "t": 1790961966.85, "seconds": 1.809, "output": "[{\"ward_office_fax\": [\"1\", \"contact_info\"]}]"}
+{"key": "30e8f3e5cc4cf1b9", "role": "operator", "t": 1790961968.659, "seconds": 1.637, "output": "[\n  { \"city_hall_office_room\": [\"0\", \"basic_info\"] }\n]"}
+{"key": "ab46daec2b4294a2", "role": "operator", "t": 1790961970.295, "seconds": 1.544, "output": "[\n  { \"city_hall_office_phone\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "011e15b56af61f2d", "role": "operator", "t": 1790961971.84, "seconds": 2.519, "output": "[\n  { \"city_hall_office_fax\": [\"1\", \"contact_info\"] }\n]"}
+{"key": "66067828074a49b1", "role": "operator", "t": 1790961974.358, "seconds": 1.856, "output": "[\n  { \"Population\": [\"2\", \"other_info\"] }\n]"}

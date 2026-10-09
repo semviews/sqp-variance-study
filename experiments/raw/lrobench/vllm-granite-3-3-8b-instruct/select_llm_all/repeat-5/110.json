@@ -1,0 +1,63 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 110,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 5.07,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.25,
+    0.8,
+    0.381
+  ],
+  "tokens": [
+    1123,
+    853,
+    270
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.25,
+        0.8,
+        0.381
+      ],
+      "prediction": [
+        "[\"Gary's Performance Ski-Doo\"]",
+        "[\"Kirby's Hitch & Wiring\"]",
+        "['Alert Muffler & Brake Service']",
+        "['Eppies Discount Tire & Auto Centers']",
+        "['Great Dane Trailers Inc']",
+        "['HYD Products']",
+        "['I P D CO']",
+        "['Kenner Welding Inc']",
+        "['Midas Auto Service Experts']",
+        "['Pacific Service Center Inc']",
+        "['Parkway Distributors']",
+        "['R V City']",
+        "['Spillar Custom Hitches Inc']",
+        "['Star Equipment Limited']",
+        "['Superior Trailer Sales CO']",
+        "['U-Haul CO - Moving Centers, Athens']"
+      ],
+      "truth": [
+        "['Eppies Discount Tire & Auto Centers']",
+        "['Great Dane Trailers Inc']",
+        "['Kenner Welding Inc']",
+        "['R V City']",
+        "['Sunguard Window Tinting & Truck Accessories']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{"key": "3b820db7a7bc323e", "role": "operator", "t": 1790983627.659, "seconds": 1.538, "output": "CDSCode"}
+{"key": "105482bf3e33e1aa", "role": "operator", "t": 1790983629.197, "seconds": 1.701, "output": "OpenDate"}
+{"key": "73c86cacadd4c0df", "role": "operator", "t": 1790983630.898, "seconds": 0.526, "output": "County"}
+{"key": "a4d980bf401d9010", "role": "operator", "t": 1790983631.424, "seconds": 0.546, "output": "CDSCode"}
+{"key": "ba42d186d4c7c5cd", "role": "operator", "t": 1790983631.97, "seconds": 0.524, "output": "NCESSchool"}
+{"key": "7ba86b46d90ae36c", "role": "operator", "t": 1790983632.494, "seconds": 0.617, "output": "County"}
+{"key": "2128f25974204ca0", "role": "operator", "t": 1790983633.111, "seconds": 0.478, "output": "District"}
+{"key": "e98c234e610fa6e5", "role": "operator", "t": 1790983633.589, "seconds": 0.465, "output": "School"}
+{"key": "1580d16d2d13c93f", "role": "operator", "t": 1790983634.054, "seconds": 0.521, "output": "District"}
+{"key": "8ffa923787e72701", "role": "operator", "t": 1790983634.575, "seconds": 0.52, "output": "School"}
+{"key": "50ab7a97ca8f9c49", "role": "operator", "t": 1790983635.094, "seconds": 0.531, "output": "StatusType"}
+{"key": "5b8bf9f57274275b", "role": "operator", "t": 1790983635.625, "seconds": 0.852, "output": "StatusType"}
+{"key": "6e94939c682d098f", "role": "operator", "t": 1790983636.478, "seconds": 0.833, "output": "Charter"}
+{"key": "e5d667c0567b7446", "role": "operator", "t": 1790983637.311, "seconds": 0.518, "output": "CharterNum"}
+{"key": "169f59d1bc10195f", "role": "operator", "t": 1790983637.829, "seconds": 0.62, "output": "FundingType"}
+{"key": "3d89971064d1257a", "role": "operator", "t": 1790983638.449, "seconds": 0.472, "output": "IRC"}
+{"key": "628fe6066534ac15", "role": "operator", "t": 1790983638.921, "seconds": 0.756, "output": "LowGrade"}
+{"key": "b570b1bf95b370d1", "role": "operator", "t": 1790983639.676, "seconds": 0.754, "output": "GSoffered"}
+{"key": "0a46fc48ee1c1a1f", "role": "operator", "t": 1790983640.43, "seconds": 0.769, "output": "GSserved"}
+{"key": "dfe5d19467e3144e", "role": "operator", "t": 1790983641.199, "seconds": 0.524, "output": "GSserved"}
+{"key": "a8abecfed94724c8", "role": "operator", "t": 1790983641.723, "seconds": 0.565, "output": "GSserved"}
+{"key": "0ab050d035ba3bb0", "role": "operator", "t": 1790983642.288, "seconds": 0.684, "output": "FRPM Count (K-12)"}
+{"key": "4917ca0ae8160712", "role": "operator", "t": 1790983642.972, "seconds": 0.514, "output": "FRPM"}
+{"key": "c23d53c1045c662c", "role": "operator", "t": 1790983643.486, "seconds": 0.851, "output": "GSserved"}
+{"key": "7dc85cb6162fb804", "role": "operator", "t": 1790983644.337, "seconds": 0.726, "output": "GSserved"}
+{"key": "4cb1eaf1b3df4ea3", "role": "operator", "t": 1790983645.064, "seconds": 0.527, "output": "GSserved"}
+{"key": "f749fc72de9e91f6", "role": "operator", "t": 1790983645.591, "seconds": 0.707, "output": "FRPM Count (Ages 5-17)"}
+{"key": "d25b712d2ea5882a", "role": "operator", "t": 1790983646.298, "seconds": 0.512, "output": "FRPM"}
+{"key": "187d93e68fedbfa9", "role": "operator", "t": 1790983646.81, "seconds": 0.488, "output": "StatusType"}

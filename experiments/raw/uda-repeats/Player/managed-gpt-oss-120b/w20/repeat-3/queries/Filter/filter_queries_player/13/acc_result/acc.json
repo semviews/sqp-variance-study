@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "team": {
+      "precision": 0.5954198473282443,
+      "recall": 0.6290322580645161,
+      "f1": 0.6117647058823529
+    },
+    "nationality": {
+      "precision": 0.022900763358778626,
+      "recall": 0.024193548387096774,
+      "f1": 0.02352941176470588
+    },
+    "mvp_awards": {
+      "precision": 0.9465648854961832,
+      "recall": 1.0,
+      "f1": 0.9725490196078431
+    }
+  },
+  "macro_precision": 0.5216284987277354,
+  "macro_recall": 0.5510752688172044,
+  "macro_f1": 0.5359477124183006,
+  "rows": {
+    "len_gold": 124,
+    "len_pred": 131,
+    "matched_rows": 124
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "team",
+    "nationality",
+    "mvp_awards"
+  ],
+  "skipped_columns": []
+}

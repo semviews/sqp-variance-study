@@ -1,0 +1,67 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 100,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 2.089,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 22,
+  "judge_calls": 0,
+  "returned": [
+    0.1364,
+    1.0,
+    0.24
+  ],
+  "tokens": [
+    4128,
+    4106,
+    22
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.1364,
+        1.0,
+        0.24
+      ],
+      "prediction": [
+        "['Alexander' 'Rossi']",
+        "['Antonio' 'Giovinazzi']",
+        "['Carlos' 'Sainz']",
+        "['Charles' 'Pic']",
+        "['Daniil' 'Kvyat']",
+        "['Esteban' 'Guti\u00e9rrez']",
+        "['Esteban' 'Ocon']",
+        "['Felipe' 'Nasr']",
+        "['Jaime' 'Alguersuari']",
+        "['Jean-\u00c9ric' 'Vergne']",
+        "['Jolyon' 'Palmer']",
+        "['Kevin' 'Magnussen']",
+        "['Lance' 'Stroll']",
+        "['Marcus' 'Ericsson']",
+        "['Max' 'Chilton']",
+        "['Max' 'Verstappen']",
+        "['Pascal' 'Wehrlein']",
+        "['Rio' 'Haryanto']",
+        "['Roberto' 'Merhi']",
+        "['Sergio' 'P\u00e9rez']",
+        "['Stoffel' 'Vandoorne']",
+        "['Will' 'Stevens']"
+      ],
+      "truth": [
+        "['Esteban' 'Ocon']",
+        "['Lance' 'Stroll']",
+        "['Max' 'Verstappen']"
+      ]
+    }
+  ]
+}

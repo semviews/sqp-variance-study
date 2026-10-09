@@ -1,0 +1,10 @@
+{"key": "65d4308bbd6afea9", "role": "operator", "t": 1790975297.645, "seconds": 1.892, "output": "{\"City\": \"Fresno\", \"Country\": \"United States\", \"TimeZone\": \"UTC-8\"}"}
+{"key": "266bb182d063e799", "role": "operator", "t": 1790975297.643, "seconds": 1.99, "output": "{\"City\": \"Lodi\", \"Country\": \"United States\", \"TimeZone\": \"UTC-8\"}"}
+{"key": "a031090974c63f87", "role": "operator", "t": 1790975297.645, "seconds": 1.998, "output": "{\"City\": \"Port Angeles\", \"Country\": \"United States\", \"TimeZone\": \"UTC-8\"}"}
+{"key": "e5fb95c8876276db", "role": "operator", "t": 1790975297.645, "seconds": 2.002, "output": "{\"City\": \"New Orleans\", \"Country\": \"United States\", \"TimeZone\": \"-6\"}"}
+{"key": "6815b03039f79d63", "role": "operator", "t": 1790975297.644, "seconds": 2.006, "output": "{\"City\": \"Covington\", \"Country\": \"United States\", \"TimeZone\": \"-5\"}"}
+{"key": "6457ddfd3d8f78d1", "role": "operator", "t": 1790975297.646, "seconds": 2.067, "output": "{\"City\": \"Bundaberg\", \"Country\": \"Australia\", \"TimeZone\": \"Australia/Brisbane\"}"}
+{"key": "a6eb5fb470ce97f1", "role": "operator", "t": 1790975297.647, "seconds": 2.07, "output": "{\"City\": \"Chicago\", \"Country\": \"United States\", \"TimeZone\": \"UTC-6\"}"}
+{"key": "a6eb5fb470ce97f1", "role": "operator", "t": 1790975297.647, "seconds": 2.071, "output": "{\"City\": \"Chicago\", \"Country\": \"United States\", \"TimeZone\": \"UTC-6\"}"}
+{"key": "4e1d28283f476739", "role": "operator", "t": 1790975297.646, "seconds": 2.074, "output": "{\"City\": \"Portland\", \"Country\": \"United States\", \"TimeZone\": \"UTC-8\"}"}
+{"key": "bbb5a8335062214e", "role": "operator", "t": 1790975297.644, "seconds": 2.079, "output": "{\"City\": \"Fall River\", \"Country\": \"United States\", \"TimeZone\": \"UTC-5\"}"}

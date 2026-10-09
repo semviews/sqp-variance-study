@@ -1,0 +1,13 @@
+{
+  "sql": "/* Query 11: filter6_agg1_join1 (player, team) */ SELECT player.position, SUM(player.mvp_awards) AS sum_player_mvp_awards FROM player JOIN team ON player.team = team.team_name WHERE (player.team <> 'Houston Rockets' AND player.nba_championships > 2) OR (team.founded_year <> 1949 AND team.championship <> 1) GROUP BY player.position",
+  "player": {
+    "mvp_awards": {
+      "value_type": "int",
+      "description": "number of NBA MVP awards the player has won; use 0 if none (e.g., 2)."
+    },
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  }
+}

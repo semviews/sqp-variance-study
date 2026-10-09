@@ -1,0 +1,28 @@
+team,nationality,fiba_world_cup,id
+Golden State Warriors || Minnesota Timberwolves || Memphis Grizzlies || San Antonio Spurs,USA || China,1.0,120
+Miami Heat,USA,1.0,123
+Golden State Warriors,USA,1.0,124
+Philadelphia 76ers,USA,1.0,127
+Golden State Warriors,USA,1.0,130
+New York Knicks || Dallas Mavericks,USA,1.0,136
+Cleveland Cavaliers || Utah Jazz || Washington Wizards,USA,,15
+Dallas Mavericks || Washington Bullets || Denver Nuggets || San Antonio Spurs || Philadelphia 76ers || Los Angeles Lakers,USA,,2
+New York Knicks,USA,,20
+Philadelphia 76ers || Indiana Pacers,USA,,26
+Denver Nuggets || Detroit Pistons || New York Knicks,Serbian,,3
+San Antonio Spurs || Sacramento Kings || New Jersey Nets || Indiana Pacers || Los Angeles Clippers || Boston Celtics,USA,,34
+Cleveland Cavaliers || Washington Bullets || Golden State Warriors || Orlando Magic,USA,1.0,5
+Memphis Grizzlies || Dallas Mavericks,Greek || USA,0.0,51
+Seattle SuperSonics,USA,,52
+Milwaukee Hawks,USA,,62
+Oklahoma City Thunder || Detroit Pistons || Washington Wizards,USA || Guinea,0.0,67
+Oklahoma City Thunder || Charlotte Bobcats || Boston Celtics || Brooklyn Nets || Chicago Bulls || Cleveland Cavaliers,USA,,68
+Phoenix Suns || Cleveland Cavaliers || Orlando Magic || Chicago Bulls || San Antonio Spurs || Portland Trail Blazers || Golden State Warriors,USA || Lebanese (by birth),1.0,69
+Washington Bullets || Atlanta Hawks || Milwaukee Bucks || Chicago Bulls || Minnesota Timberwolves || Utah Jazz || Seattle SuperSonics || Los Angeles Lakers || Toronto Raptors || Philadelphia 76ers || Indiana Pacers,USA,,70
+Boston Celtics,Croatian || Yugoslavian,1.0,73
+Seattle SuperSonics,USA,,74
+Denver Nuggets || Houston Rockets,Greek,0.0,75
+Portland Trail Blazers,USA,,77
+New Jersey Nets || Atlanta Hawks || Washington Wizards || Boston Celtics || Golden State Warriors || New Orleans Pelicans,USA,,82
+San Antonio Spurs || Houston Rockets,USA,,83
+Golden State Warriors,USA,-18.0,98

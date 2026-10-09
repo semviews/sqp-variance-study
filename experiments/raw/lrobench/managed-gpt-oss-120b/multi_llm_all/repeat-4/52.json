@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 52,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 15.945,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Comedy",
+      1
+    ],
+    [
+      "Others",
+      2
+    ],
+    [
+      "Thriller",
+      1
+    ],
+    [
+      "Tragedy",
+      2
+    ]
+  ],
+  "tokens": 3972,
+  "metrics": [],
+  "prediction": [
+    [
+      "Comedy",
+      1
+    ],
+    [
+      "Others",
+      2
+    ],
+    [
+      "Thriller",
+      1
+    ],
+    [
+      "Tragedy",
+      2
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

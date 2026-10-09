@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "player.position": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    "avg_player_age": {
+      "precision": 0.7243551468832099,
+      "recall": 0.48290343125547325,
+      "f1": 0.5794841175065679
+    }
+  },
+  "macro_precision": 0.862177573441605,
+  "macro_recall": 0.57478504896107,
+  "macro_f1": 0.689742058753284,
+  "rows": {
+    "len_gold": 3,
+    "len_pred": 2,
+    "matched_rows": 2
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.position"
+  ],
+  "evaluated_columns": [
+    "player.position",
+    "avg_player_age"
+  ],
+  "skipped_columns": []
+}

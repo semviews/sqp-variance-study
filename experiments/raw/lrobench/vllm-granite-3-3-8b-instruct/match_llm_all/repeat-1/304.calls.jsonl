@@ -1,0 +1,1 @@
+{"key": "03fabd4f37d98ea1", "role": "operator", "t": 1790960047.546, "seconds": 2.206, "output": "[\n  {\"Table Left\": \"TYPE\", \"Table Right\": \"Type\"},\n  {\"Table Left\": \"LOCAL_AREA\", \"Table Right\": \"Neighbourhood\"},\n  {\"Table Left\": \"OWNERSHIP\", \"Table Right\": \"Ownership\"},\n  {\"Table Left\": \"Geom\", \"Table Right\": \"Geom\"}\n]"}

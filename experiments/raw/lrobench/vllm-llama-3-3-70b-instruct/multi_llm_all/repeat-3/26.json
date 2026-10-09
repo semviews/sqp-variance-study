@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 26,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 25.71,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 54,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "High Density Developed",
+      4
+    ],
+    [
+      "Low Density Emerging",
+      1
+    ],
+    [
+      "Medium Density Developing",
+      2
+    ]
+  ],
+  "tokens": 15225,
+  "metrics": [],
+  "prediction": [
+    [
+      "High Density Developed",
+      4
+    ],
+    [
+      "Low Density Emerging",
+      1
+    ],
+    [
+      "Medium Density Developing",
+      2
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

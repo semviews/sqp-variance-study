@@ -1,0 +1,15 @@
+{"key": "1f30ac202f64ba72", "role": "operator", "t": 1790961354.219, "seconds": 1.851, "output": "[ \n  { \"report_no\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "abfb0c148cd1ddd8", "role": "operator", "t": 1790961356.07, "seconds": 1.26, "output": "[{\"case_number\": [\"1\", \"basic_info\"]}]"}
+{"key": "8bc713520954ccdd", "role": "operator", "t": 1790961357.33, "seconds": 1.043, "output": "[{\"date\": [\"1\", \"basic_info\"]}]"}
+{"key": "28b2b022f042489a", "role": "operator", "t": 1790961358.374, "seconds": 1.406, "output": "[{\"block\": [\"2\", \"location_info\"]}]"}
+{"key": "9df94d3a8a4c30b5", "role": "operator", "t": 1790961359.78, "seconds": 1.684, "output": "[{\"iucr_no\": [\"3\", \"detail_info\"]}]"}
+{"key": "58ba19db1e0cfcc5", "role": "operator", "t": 1790961361.464, "seconds": 1.044, "output": "[{\"location_description\": [\"2\", \"location_info\"]}]"}
+{"key": "76039eee1bdd79be", "role": "operator", "t": 1790961362.508, "seconds": 1.206, "output": "[{\"arrest\": [\"3\", \"detail_info\"]}]"}
+{"key": "ff73dc559082ed1c", "role": "operator", "t": 1790961363.714, "seconds": 1.534, "output": "[{\"domestic\": [\"2\", \"location_info\"]}]"}
+{"key": "d0997e1154ba748c", "role": "operator", "t": 1790961365.248, "seconds": 1.276, "output": "[{\"beat\": [\"4\", \"rhythm_info\"]}]"}
+{"key": "332d3121574fac3f", "role": "operator", "t": 1790961366.524, "seconds": 2.167, "output": "[{\"district_no\": [\"2\", \"location_info\"]}]"}
+{"key": "54135473a1b90e3c", "role": "operator", "t": 1790961368.691, "seconds": 10.281, "output": "[ \n  { \"ward_no\": [\"2\", \"location_info\"]}\n]"}
+{"key": "9fa5ba321c205c68", "role": "operator", "t": 1790961378.978, "seconds": 1.007, "output": "[ \n  { \"community_area_no\": [\"2\", \"location_info\"]}\n]"}
+{"key": "094d0c744578c337", "role": "operator", "t": 1790961379.984, "seconds": 1.153, "output": "[\n  { \"fbi_code_no\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "ba446365155edee7", "role": "operator", "t": 1790961381.137, "seconds": 1.053, "output": "[{\"latitude\": [\"2\", \"location_info\"]}]"}
+{"key": "9a8c74869f6c9021", "role": "operator", "t": 1790961382.191, "seconds": 0.891, "output": "[{\"longitude\": [\"2\", \"location_info\"]}]"}

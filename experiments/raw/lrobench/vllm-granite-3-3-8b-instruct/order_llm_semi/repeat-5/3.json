@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 3,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 1.35,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0
+  ],
+  "tokens": [
+    1623,
+    1600,
+    23
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "Paris",
+        "Sydney",
+        "Tokyo"
+      ],
+      "truth": [
+        "Boston",
+        "NYC",
+        "San Francisco"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0,
+      "prediction": [
+        "Paris",
+        "Tokyo",
+        "Sydney"
+      ],
+      "truth": [
+        "San Francisco",
+        "NYC",
+        "Boston"
+      ]
+    }
+  ]
+}

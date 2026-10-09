@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 6,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 5.38,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 153, in pipeline_order6\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To determine the score for the alphabetical order of the last name \"Freyre,\" we consider its position in the alphabet relative to all possible last names. The alphabetical order is determined by the position of the first letter of the last name in the alphabet, with \"A\" being the lowest and \"Z\" being the highest.\\n\\n1. **Identify the first letter**: The first letter of \"Freyre\" is \"F.\"\\n2. **Determine its position in the alphabet**: \"F\" is the 6th letter of the alphabet.\\n3. **Calculate the score**: Since the score ranges from 0 to 100 and there are 26 letters in the alphabet, we map the position to this range:\\n   \\\\[\\n   \\\\text{Score} = \\\\left(\\\\frac{\\\\text{Position of \\'F\\'} - 1}{25}\\\\right) \\\\times 100 = \\\\left(\\\\frac{6 - 1}{25}\\\\right) \\\\times 100 = \\\\left(\\\\frac{5}{25}\\\\right) \\\\times 100 = 20\\n   \\\\]\\n\\nThus, the score reflecting the alphabetical order of the last name \"Freyre\" is **20**.\\n\\n**Output**: \"20'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Nelson\" within the context of all possible last names, we consider its position in the alphabet relative to all other last names. Assuming a uniform distribution of last names across the alphabet, we can estimate its position:\\n\\n1. **Alphabet Position**: The alphabet has 26 letters. \"Nelson\" starts with the letter \"N\".\\n2. **Letter Position**: \"N\" is the 14th letter in the alphabet.\\n3. **Score ",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score for the alphabetical order of the last name \"Nelson,\" we consider its position in the English alphabet relative to all possible last names. The alphabetical order metric can be interpreted as how far a name is from the beginning of the alphabet, with \"A\" being the lowest and \"Z\" being the highest.\\n\\n1. **Identify the position of \"Nelson\" in the alphabet:**\\n   - The first letter of \"Nelson\" is \"N.\"\\n   - \"N\" is the 14th lett",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

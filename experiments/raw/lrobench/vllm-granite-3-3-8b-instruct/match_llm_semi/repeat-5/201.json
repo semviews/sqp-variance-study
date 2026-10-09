@@ -1,0 +1,68 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 201,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 2,
+  "seconds": 12.11,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "TypeError: object of type 'NoneType' has no len()",
+      "operator_calls": 17
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 17,
+  "judge_calls": 0,
+  "returned": [
+    0.4,
+    1.0,
+    0.5714
+  ],
+  "tokens": [
+    37759,
+    35115,
+    2644
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4,
+        1.0,
+        0.5714
+      ],
+      "prediction": [
+        "['192' '899']",
+        "['300' '1272']",
+        "['322' '890']",
+        "['36' '1109']",
+        "['395' '845']",
+        "['404' '1303']",
+        "['470' '849']",
+        "['531' '998']",
+        "['546' '929']",
+        "['564' '570']",
+        "['589' '1272']",
+        "['650' '163']",
+        "['701' '998']",
+        "['83' '845']",
+        "['86' '763']"
+      ],
+      "truth": [
+        "['36' '1109']",
+        "['404' '1303']",
+        "['546' '929']",
+        "['589' '1272']",
+        "['650' '163']",
+        "['86' '763']"
+      ]
+    }
+  ]
+}

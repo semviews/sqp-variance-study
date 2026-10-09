@@ -1,0 +1,44 @@
+{
+  "columns": {
+    "manager.nba_team": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    },
+    "team.location": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    },
+    "manager.name": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    },
+    "team.team_name": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    }
+  },
+  "macro_precision": 0.5,
+  "macro_recall": 0.5,
+  "macro_f1": 0.5,
+  "rows": {
+    "len_gold": 2,
+    "len_pred": 2,
+    "matched_rows": 1
+  },
+  "warnings": [],
+  "used_keys": [
+    "team.id",
+    "manager.id"
+  ],
+  "evaluated_columns": [
+    "manager.nba_team",
+    "team.location",
+    "manager.name",
+    "team.team_name"
+  ],
+  "skipped_columns": []
+}

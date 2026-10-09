@@ -1,0 +1,9 @@
+{"key": "281ba7223ab210e4", "role": "operator", "t": 1790980225.32, "seconds": 2.729, "output": "[\n  { \"player_allstar\": [\"1\", \"award_tables\"]}\n]"}
+{"key": "e2190ed51600a9f2", "role": "operator", "t": 1790980228.048, "seconds": 1.799, "output": "[\n  { \"draft\": [\"2\", \"other_tables\"]}\n]"}
+{"key": "b77ea107cd1eaa84", "role": "operator", "t": 1790980229.847, "seconds": 1.345, "output": "[\n  { \"teams\": [\"3\", \"match_tables\"]}\n]"}
+{"key": "90982ca22d5256c2", "role": "operator", "t": 1790980231.192, "seconds": 1.249, "output": "[\n  { \"series_post\": [\"4\", \"match_tables\"]}\n]"}
+{"key": "4dc28a86da2153f5", "role": "operator", "t": 1790980232.441, "seconds": 1.703, "output": "[\n  { \"coaches\": [\"5\", \"people_tables\"]}\n]"}
+{"key": "804419ad61d93a55", "role": "operator", "t": 1790980234.144, "seconds": 2.509, "output": "[\n  { \"awards_coaches\": [\"1\", \"award_tables\"]}\n]"}
+{"key": "c0c3721a75ac103e", "role": "operator", "t": 1790980236.653, "seconds": 1.879, "output": "[\n  { \"players\": [\"5\", \"people_tables\"]}\n]"}
+{"key": "adb3e032e92134c0", "role": "operator", "t": 1790980238.532, "seconds": 2.202, "output": "[\n  { \"awards_players\": [\"1\", \"award_tables\"]}\n]"}
+{"key": "3c5f6fc6078045a5", "role": "operator", "t": 1790980240.734, "seconds": 2.006, "output": "[\n  { \"players_teams\": [\"3\", \"match_tables\"]}\n]"}

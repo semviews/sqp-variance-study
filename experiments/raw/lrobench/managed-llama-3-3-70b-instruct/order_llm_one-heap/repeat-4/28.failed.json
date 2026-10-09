@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 28,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 6.318,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 628, in pipeline_order28\n    tags = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine the relevance to K-Means, we need to understand the relationship between the tag names and K-Means clustering. K-Means is a type of unsupervised learning algorithm used for clustering da\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine the relevance to K-Means of the given tags, we need to understand the relationship between the tags and the K-Means algorithm. K-Means is a clustering algorithm used in machine learning.",
+      "operator_calls": 1
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine the relevance to K-Means, we need to assess how closely related the terms 'bayesian' and 'distributions' are to the K-Means algorithm. K-Means is a type of unsupervised learning algorith",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0
+}

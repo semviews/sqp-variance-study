@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 23,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 49.754,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 94,
+  "judge_calls": 0,
+  "returned": [
+    0.3333,
+    0
+  ],
+  "tokens": [
+    22086,
+    21992,
+    94
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "prediction": [
+        "Barents Sea",
+        "Pacific Ocean",
+        "Yellow Sea"
+      ],
+      "truth": [
+        "Caribbean Sea",
+        "Indian Ocean",
+        "Pacific Ocean"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0,
+      "prediction": [
+        "Barents Sea",
+        "Pacific Ocean",
+        "Yellow Sea"
+      ],
+      "truth": [
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Caribbean Sea"
+      ]
+    }
+  ]
+}

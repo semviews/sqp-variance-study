@@ -1,0 +1,87 @@
+{"key": "78626d77535a49d3", "role": "operator", "t": 1790966674.393, "seconds": 1.54, "output": "[\n  { \"id\": [\"0\", \"id_info\"] }\n]"}
+{"key": "6f963e5926f91f56", "role": "operator", "t": 1790966675.932, "seconds": 0.688, "output": "[\n  { \"country_id\": [\"0\", \"id_info\"] }\n]"}
+{"key": "09de109a1d97e3ac", "role": "operator", "t": 1790966676.62, "seconds": 0.657, "output": "[\n  { \"league_id\": [\"0\", \"id_info\"] }\n]"}
+{"key": "f6417a8964797b35", "role": "operator", "t": 1790966677.277, "seconds": 0.634, "output": "[\n  { \"season\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "08b6df99fdd328af", "role": "operator", "t": 1790966677.912, "seconds": 0.886, "output": "[\n  { \"stage\": [\"other_info\", \"stage information\"] }\n]"}
+{"key": "d371d1841a456edd", "role": "operator", "t": 1790966678.797, "seconds": 0.706, "output": "[\n  { \"date\": [\"other_info\", \"date-related attributes\"] }\n]"}
+{"key": "68c6390c59318cdf", "role": "operator", "t": 1790966679.503, "seconds": 22.621, "output": "[\n  { \"match_api_id\": [\"0\", \"id_info\"] }\n]"}
+{"key": "be463af4b6b77b5e", "role": "operator", "t": 1790966702.124, "seconds": 0.743, "output": "[\n  { \"home_team_api_id\": [\"0\", \"id_info\"] }\n]"}
+{"key": "c7750aa4e8096a93", "role": "operator", "t": 1790966702.867, "seconds": 0.851, "output": "[\n  { \"away_team_api_id\": [\"id_info\", \"team identifier\"] }\n]"}
+{"key": "a3efd8b1608654f3", "role": "operator", "t": 1790966703.719, "seconds": 0.787, "output": "[\n  { \"home_team_goal\": [\"score_info\", \"home team goals\"] }\n]"}
+{"key": "ced503567b693acd", "role": "operator", "t": 1790966704.506, "seconds": 0.884, "output": "[\n  { \"away_team_goal\": [\"score_info\", \"away team goals\"] }\n]"}
+{"key": "de7a5ae1c336ed7d", "role": "operator", "t": 1790966705.39, "seconds": 0.881, "output": "[\n  { \"home_player_X1\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "f0f1acfd11f5cb75", "role": "operator", "t": 1790966706.271, "seconds": 0.971, "output": "[\n  { \"home_player_X2\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "06ffe1a70d1ab3be", "role": "operator", "t": 1790966707.242, "seconds": 0.735, "output": "[\n  { \"home_player_X3\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "66c44969b8e5d2b9", "role": "operator", "t": 1790966707.976, "seconds": 0.682, "output": "[\n  { \"home_player_X4\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "1cda9f0b9307d41d", "role": "operator", "t": 1790966708.659, "seconds": 0.885, "output": "[\n  { \"home_player_X5\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "5590b5dbc49e1fc6", "role": "operator", "t": 1790966709.544, "seconds": 0.932, "output": "[\n  { \"home_player_X6\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "da09943e03b596fe", "role": "operator", "t": 1790966710.476, "seconds": 0.817, "output": "[\n  { \"home_player_X7\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "77ee9053fe00b4c1", "role": "operator", "t": 1790966711.293, "seconds": 0.813, "output": "[\n  { \"home_player_X8\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "f985a2911db05795", "role": "operator", "t": 1790966712.106, "seconds": 0.842, "output": "[\n  { \"home_player_X9\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "1d8e513a2831d9f1", "role": "operator", "t": 1790966712.948, "seconds": 0.958, "output": "[\n  { \"home_player_X10\": [\"other_info\", \"seasonal attributes\"] }\n]"}
+{"key": "c83f72bc4c0c1b5e", "role": "operator", "t": 1790966713.906, "seconds": 1.073, "output": "[\n  { \"home_player_X11\": [\"id_info\", \"team identifier\"] }\n]"}
+{"key": "fa439ae713d77dc5", "role": "operator", "t": 1790966714.979, "seconds": 0.747, "output": "[\n  { \"away_player_X1\": [\"other_info\", \"player attributes\"] }\n]"}
+{"key": "e6709b46719f3f7b", "role": "operator", "t": 1790966715.726, "seconds": 0.693, "output": "[\n  { \"away_player_X2\": [\"other_info\", \"player attributes\"] }\n]"}
+{"key": "d8938584277f8de9", "role": "operator", "t": 1790966716.419, "seconds": 0.727, "output": "[\n  { \"away_player_X3\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "c6c81c6fd58d5e04", "role": "operator", "t": 1790966717.146, "seconds": 0.76, "output": "[\n  { \"away_player_X4\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "4cf1ffadad83d575", "role": "operator", "t": 1790966717.906, "seconds": 0.778, "output": "[\n  { \"away_player_X5\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "ea13c687f79e626b", "role": "operator", "t": 1790966718.685, "seconds": 0.742, "output": "[\n  { \"away_player_X6\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "394eb7bdb7f3a684", "role": "operator", "t": 1790966719.427, "seconds": 0.766, "output": "[\n  { \"away_player_X7\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "d8019edc2308599b", "role": "operator", "t": 1790966720.193, "seconds": 0.729, "output": "[\n  { \"away_player_X8\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "2f0c4c06799109c5", "role": "operator", "t": 1790966720.921, "seconds": 0.987, "output": "[\n  { \"away_player_X9\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "377fb31033894362", "role": "operator", "t": 1790966721.909, "seconds": 0.858, "output": "[\n  { \"away_player_X10\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "0e87fda67ecbce9c", "role": "operator", "t": 1790966722.766, "seconds": 0.824, "output": "[\n  { \"away_player_X11\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "19c2366305e1652d", "role": "operator", "t": 1790966723.59, "seconds": 0.84, "output": "[\n  { \"home_player_Y1\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "4ffbab7f51d83289", "role": "operator", "t": 1790966724.43, "seconds": 0.835, "output": "[\n  { \"home_player_Y2\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "54af6a14b498152f", "role": "operator", "t": 1790966725.265, "seconds": 0.938, "output": "[\n  { \"home_player_Y3\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "9b9f5f0adb92c18b", "role": "operator", "t": 1790966726.203, "seconds": 0.709, "output": "[\n  { \"home_player_Y4\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "d7e270ec0646655b", "role": "operator", "t": 1790966726.913, "seconds": 0.713, "output": "[\n  { \"home_player_Y5\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "9aef98c995bfb456", "role": "operator", "t": 1790966727.626, "seconds": 1.017, "output": "[\n  { \"home_player_Y6\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "eeb061eb6a584bbc", "role": "operator", "t": 1790966728.644, "seconds": 0.726, "output": "[\n  { \"home_player_Y7\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "ed3fd1d04738ae3d", "role": "operator", "t": 1790966729.37, "seconds": 1.007, "output": "[\n  { \"home_player_Y8\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "608941c1fda0dd73", "role": "operator", "t": 1790966730.377, "seconds": 1.159, "output": "[\n  { \"home_player_Y9\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "5f13cecaf79567e8", "role": "operator", "t": 1790966731.536, "seconds": 30.328, "output": "[\n  { \"home_player_Y10\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "87753a81f7992187", "role": "operator", "t": 1790966761.865, "seconds": 2.28, "output": "[\n  { \"home_player_Y11\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "8fab9b3fe8e8bd27", "role": "operator", "t": 1790966764.145, "seconds": 0.712, "output": "[\n  { \"away_player_Y1\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "cec5649ab18b4cbf", "role": "operator", "t": 1790966764.858, "seconds": 0.68, "output": "[\n  { \"away_player_Y2\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "36b4d1465b8bdfca", "role": "operator", "t": 1790966765.538, "seconds": 0.889, "output": "[\n  { \"away_player_Y3\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "0310485cbd5421db", "role": "operator", "t": 1790966766.427, "seconds": 0.776, "output": "[\n  { \"away_player_Y4\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "8d593ad2c5a1946f", "role": "operator", "t": 1790966767.203, "seconds": 0.727, "output": "[\n  { \"away_player_Y5\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "75994e3db5f4bbc6", "role": "operator", "t": 1790966767.93, "seconds": 0.701, "output": "[\n  { \"away_player_Y6\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "5d89e2bdb82827c3", "role": "operator", "t": 1790966768.631, "seconds": 0.645, "output": "[\n  { \"away_player_Y7\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "6b08757d4b5873c5", "role": "operator", "t": 1790966769.276, "seconds": 0.95, "output": "[\n  { \"away_player_Y8\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "abaf3d24adc519bb", "role": "operator", "t": 1790966770.226, "seconds": 0.875, "output": "[\n  { \"away_player_Y9\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "e52197bb75853368", "role": "operator", "t": 1790966771.101, "seconds": 0.808, "output": "[\n  { \"away_player_Y10\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "3e5f046293e13e3e", "role": "operator", "t": 1790966771.909, "seconds": 0.746, "output": "[\n  { \"away_player_Y11\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "24ac0e5ce78a190d", "role": "operator", "t": 1790966772.655, "seconds": 0.705, "output": "[\n  { \"home_player_1\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "9cae50a28125c57a", "role": "operator", "t": 1790966773.361, "seconds": 0.715, "output": "[\n  { \"home_player_2\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "de649fd9d0acfa33", "role": "operator", "t": 1790966774.075, "seconds": 0.769, "output": "[\n  { \"home_player_3\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "db68b3803ebe64b0", "role": "operator", "t": 1790966774.845, "seconds": 0.729, "output": "[\n  { \"home_player_4\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "90f8b2b78d6067f7", "role": "operator", "t": 1790966775.574, "seconds": 0.788, "output": "[\n  { \"home_player_5\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "ecf2738d39a95401", "role": "operator", "t": 1790966776.362, "seconds": 1.037, "output": "[\n  { \"home_player_6\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "a1e887048b367e52", "role": "operator", "t": 1790966777.399, "seconds": 0.754, "output": "[\n  { \"home_player_7\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "9ff8f39d5e1fbde6", "role": "operator", "t": 1790966778.153, "seconds": 0.774, "output": "[\n  { \"home_player_8\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "699e2cf14962ac56", "role": "operator", "t": 1790966778.927, "seconds": 0.66, "output": "[\n  { \"home_player_9\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "b8b7655e7418ba8e", "role": "operator", "t": 1790966779.587, "seconds": 0.938, "output": "[\n  { \"home_player_10\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "4b3a125e0c8278b2", "role": "operator", "t": 1790966780.525, "seconds": 0.729, "output": "[\n  { \"home_player_11\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "79fdb74722d61e80", "role": "operator", "t": 1790966781.254, "seconds": 0.716, "output": "[\n  { \"away_player_1\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "69a36a98270dc426", "role": "operator", "t": 1790966781.97, "seconds": 1.211, "output": "[\n  { \"away_player_2\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "8daaad38bcb275bb", "role": "operator", "t": 1790966783.18, "seconds": 0.791, "output": "[\n  { \"away_player_3\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "3203e21c0128eedb", "role": "operator", "t": 1790966783.971, "seconds": 0.694, "output": "[\n  { \"away_player_4\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "bef9928152d52b27", "role": "operator", "t": 1790966784.665, "seconds": 0.646, "output": "[\n  { \"away_player_5\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "c8066037def4b131", "role": "operator", "t": 1790966785.312, "seconds": 0.65, "output": "[\n  { \"away_player_6\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "b9fee358c0f8b978", "role": "operator", "t": 1790966785.962, "seconds": 0.79, "output": "[\n  { \"away_player_7\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "c2b0faa9ebb7f940", "role": "operator", "t": 1790966786.751, "seconds": 0.753, "output": "[\n  { \"away_player_8\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "b93914879366d44c", "role": "operator", "t": 1790966787.504, "seconds": 0.725, "output": "[\n  { \"away_player_9\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "3bc7af7070428d01", "role": "operator", "t": 1790966788.229, "seconds": 0.91, "output": "[\n  { \"away_player_10\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "1b5466e2717bc744", "role": "operator", "t": 1790966789.139, "seconds": 0.916, "output": "[\n  { \"away_player_11\": [\"player_info\", \"player information\"] }\n]"}
+{"key": "a0167b3794049dd6", "role": "operator", "t": 1790966790.054, "seconds": 0.728, "output": "[\n  { \"goal\": [\"score_info\", \"goals scored\"] }\n]"}
+{"key": "bbb1459e42094765", "role": "operator", "t": 1790966790.783, "seconds": 0.768, "output": "[\n  { \"shoton\": [\"other_info\", \"shot on statistics\"] }\n]"}
+{"key": "3a84d37638d39130", "role": "operator", "t": 1790966791.55, "seconds": 0.649, "output": "[\n  { \"shotoff\": [\"other_info\", \"miscellaneous data\"] }\n]"}
+{"key": "04f666d1b16b8125", "role": "operator", "t": 1790966792.199, "seconds": 0.653, "output": "[\n  { \"foulcommit\": [\"other_info\", \"foul-related attributes\"] }\n]"}
+{"key": "e2c6415e68cea8f0", "role": "operator", "t": 1790966792.852, "seconds": 0.693, "output": "[\n  { \"card\": [\"other_info\", \"miscellaneous attributes\"] }\n]"}
+{"key": "ddce5ee7ec3fa347", "role": "operator", "t": 1790966793.545, "seconds": 0.945, "output": "[\n  { \"cross\": [\"other_info\", \"other attributes\"] }\n]"}
+{"key": "de054ba665095e81", "role": "operator", "t": 1790966794.49, "seconds": 0.643, "output": "[\n  { \"corner\": [\"other_info\", \"miscellaneous attributes\"] }\n]"}
+{"key": "ce60d9f6d58b2e08", "role": "operator", "t": 1790966795.133, "seconds": 0.632, "output": "[\n  { \"possession\": [\"other_info\", \"possession statistics\"] }\n]"}
+{"key": "13c8117849047182", "role": "operator", "t": 1790966795.765, "seconds": 25.607, "output": "[\n  { \"B365H\": [\"bet_info\", \"betting data\"] }\n]"}
+{"key": "b0abcc39519bab39", "role": "operator", "t": 1790966821.373, "seconds": 4.779, "output": "To determine the appropriate cluster for the column or table named **B365D**, we need to consider the grouping condition provided: **Group all the columns into 'player_info', 'score_info', 'team_info', 'id_info', 'bet_info', and 'other_info'**.\n\nGiven the existing cluster labels and names:\n- `\"0\": \"id_info\"` (team identifier)\n- `\"other_info\": \"seasonal attributes\"`\n- `\"id_info\": \"team identifier\"`\n- `\"score_info\": \"home team goals\"`\n- `\"player_info\": \"player information\"`\n- `\"bet_info\": \"betting data\"`\n\nWe need to infer which category **B365D** most likely belongs to based on its name and the context of the grouping condition. Since **B365D** is not explicitly described, we assume it could relate to any of the categories. However, without additional context, we must choose the most plausible category.\n\nGiven the typical naming conventions and the absence of specific details about **B365D**, it is reasonable to assume that **B365D** might be related to **betting data**, as it is a common naming pattern for betting-related tables or columns (e.g., odds, probabilities, or related metrics).\n\nTherefore, **B365D** should be assigned to the **bet_info** cluster.\n\nThe cluster label for **bet_info** is `\"bet_info\"` (as per the existing cluster labels), and the concise cluster name is **\"betting data\"**.\n\nOutput in the specified JSON format:\n\n```json\n[\n  { \"B365D\": [\"bet_info\", \"betting data\"] }\n]\n```"}

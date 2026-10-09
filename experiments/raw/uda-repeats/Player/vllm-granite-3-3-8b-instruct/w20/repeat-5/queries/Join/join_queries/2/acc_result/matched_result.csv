@@ -1,0 +1,53 @@
+team.founded_year,team.team_name,player.name,player.team,player.id,team.id
+1946,Golden State Warriors,Buddy Hield,Golden State Warriors,100,10
+1946,Los Angeles Lakers,D'Angelo Russell,Los Angeles Lakers,101,14
+1946,Philadelphia 76ers,Joel Hans Embiid,Philadelphia 76ers,102,23
+1946,Philadelphia 76ers,Paul George,Philadelphia 76ers,103,23
+1980,Dallas Mavericks,Kyrie Irving,Dallas Mavericks,104,7
+1946,Boston Celtics,Jayson Christopher Tatum,Boston Celtics,105,2
+1946,Philadelphia 76ers,Caleb Martin,Philadelphia 76ers,106,23
+1946,Golden State Warriors,Andrew Christian Wiggins,Golden State Warriors,107,10
+1946,Philadelphia 76ers,Max Berning Fiedler,Philadelphia 76ers,108,23
+1923,Sacramento Kings,William Derek Grimm,Sacramento Kings,11,26
+1946,Boston Celtics,Jaylen Brown,Boston Celtics,110,2
+1967,San Antonio Spurs,Victor Wembanyama,San Antonio Spurs,111,27
+1946,Boston Celtics,Jrue Holiday,Boston Celtics,112,2
+1946,Los Angeles Lakers,Austin Reaves,Los Angeles Lakers,113,14
+1988,Miami Heat,Kevin Love,Miami Heat,114,16
+1968,Milwaukee Bucks,Giannis Sina Ugo Antetokounmpo,Milwaukee Bucks,115,17
+1946,Golden State Warriors,Stephen Curry,Golden State Warriors,116,10
+1946,Boston Celtics,Al Horford,Boston Celtics,117,2
+1988,Miami Heat,Tyler Christopher Herro,Miami Heat,118,16
+1988,Miami Heat,Duncan Robinson,Miami Heat,119,16
+1946,Los Angeles Lakers,Anthony Davis,Los Angeles Lakers,12,14
+1946,Golden State Warriors,Kyle Anderson,Golden State Warriors,120,10
+1937,Detroit Pistons,Cade Cunningham,Detroit Pistons,121,9
+1946,Los Angeles Lakers,LeBron James,Los Angeles Lakers,122,14
+1988,Miami Heat,Jimmy Butler,Miami Heat,123,16
+1946,Golden State Warriors,Kevon Grant Looney,Golden State Warriors,124,10
+1966,Chicago Bulls,Zach LaVine,Chicago Bulls,125,5
+1937,Detroit Pistons,Jaden Ivey,Detroit Pistons,126,9
+1946,Philadelphia 76ers,Kyle Lowry,Philadelphia 76ers,127,23
+1968,Phoenix Suns,Devin Booker,Phoenix Suns,129,24
+1946,Golden State Warriors,Draymond Green,Golden State Warriors,130,10
+1967,San Antonio Spurs,Zach Collins,San Antonio Spurs,131,27
+1946,Golden State Warriors,Jonathan Malangu Kuminga,Golden State Warriors,132,10
+1966,Chicago Bulls,Lonzo Ball,Chicago Bulls,133,5
+1988,Miami Heat,Jaime Jaquez Jr.,Miami Heat,134,16
+1937,Detroit Pistons,Ausar Thompson,Detroit Pistons,135,9
+1967,San Antonio Spurs,Chris Paul,San Antonio Spurs,139,27
+1967,San Antonio Spurs,Harrison Bryce Jordan Barnes,San Antonio Spurs,140,27
+1988,Miami Heat,"Edrice Femi ""Bam"" Adebayo",Miami Heat,141,16
+1937,Detroit Pistons,Jarrett Matthew Jack,Detroit Pistons,24,9
+1937,Detroit Pistons,Isiah Thomas,Detroit Pistons,30,9
+1970,Portland Trail Blazers,Daniel Edward Anderson,Portland Trail Blazers,31,25
+1967,San Antonio Spurs,Tim Duncan,San Antonio Spurs,38,27
+1967,Indiana Pacers,Rik Smits,Indiana Pacers,45,12
+1989,Minnesota Timberwolves,Anthony Edwards,Minnesota Timberwolves,46,18
+1968,Phoenix Suns,Kevin Durant,Phoenix Suns,54,24
+1995,Memphis Grizzlies,Lamar Brandon Stevens,Memphis Grizzlies,63,15
+1967,Indiana Pacers,Gregory Clinton Foster,Indiana Pacers,70,12
+1970,Portland Trail Blazers,Jabari Dominic Walker,Portland Trail Blazers,77,25
+1974,Utah Jazz,Eric Johnson Jones,Utah Jazz,96,29
+1946,Golden State Warriors,Trayce Jackson-Davis,Golden State Warriors,98,10
+1946,Philadelphia 76ers,Andre Jamal Drummond,Philadelphia 76ers,99,23

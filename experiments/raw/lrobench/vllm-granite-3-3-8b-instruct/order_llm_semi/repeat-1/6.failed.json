@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 6,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 7.203,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 153, in pipeline_order6\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the alphabetical order of the last name \"Nelson\" within the context of all possible last names, we consider its position in the alphabet relative to all other last names. Assuming a uniform distribution of last names across the alphabet, we can estimate its position:\\n\\n1. **Alphabet Position**: The alphabet has 26 letters. \"Nelson\" starts with the letter \"N,\" which is the 14th letter in the alphabet.\\n2. **Score Calculation**: To convert this position to a score between 0 and 100, we map the 1st letter (A) to 0 and the 26th letter (Z) to 100. The formula for the score is:\\n   \\\\[\\n   \\\\text{Score} = \\\\left(\\\\frac{\\\\text{Alphabet Position} - 1}{25}\\\\right) \\\\times 100\\n   \\\\]\\n   Substituting the position of \"N\" (14):\\n   \\\\[\\n   \\\\text{Score} = \\\\left(\\\\frac{14 - 1}{25}\\\\right) \\\\times 100 = \\\\left(\\\\frac{13}{25}\\\\right) \\\\times 100 \\\\approx 52\\n   \\\\]\\n\\nThus, the score reflecting the alphabetical order of the last name \"Nelson\" is approximately 52.\\n\\n**Output**: \"52'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score for the alphabetical order of the last name \"Ibsen,\" we need to consider its position relative to all possible last names in alphabetical order.\\n\\n1. **Alphabetical Position**: The English alphabet has 26 letters. The last name \"Ibsen\" starts with the letter \"I,\" which is the 9th letter in the alphabet.\\n2. **Scoring Method**: We can assign a score based on the position of the first letter in the alphabet. A simple linear ma",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score for the alphabetical order of the last name \"Freyre,\" we need to consider its position relative to all possible last names in alphabetical order.\\n\\n1. **Alphabetical Position**: The English alphabet has 26 letters. The last name \"Freyre\" starts with the letter \"F.\"\\n2. **Calculate Position**: \\n   - The position of \"F\" in the alphabet is 6.\\n   - To convert this to a score between 0 and 100, we can use the formula: \\n     \\\\",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

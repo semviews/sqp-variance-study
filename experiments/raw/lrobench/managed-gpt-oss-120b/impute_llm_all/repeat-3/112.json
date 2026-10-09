@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 112,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 12.05,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.6,
+    0.8
+  ],
+  "tokens": [
+    1711,
+    927,
+    784
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.6,
+      "prediction": [
+        "New Delhi",
+        "Kyiv",
+        "Hanoi",
+        "Washington, D.C.",
+        "Abuja"
+      ],
+      "truth": [
+        "New Delhi",
+        "Kiev",
+        "Hanoi",
+        "Washington",
+        "Abuja"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.8,
+      "prediction": [
+        "New Delhi",
+        "Kyiv",
+        "Hanoi",
+        "Washington, D.C.",
+        "Abuja"
+      ],
+      "truth": [
+        "New Delhi",
+        "Kiev",
+        "Hanoi",
+        "Washington",
+        "Abuja"
+      ]
+    }
+  ]
+}

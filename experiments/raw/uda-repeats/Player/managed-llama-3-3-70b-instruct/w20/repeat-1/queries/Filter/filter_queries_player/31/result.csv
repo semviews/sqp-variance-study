@@ -1,0 +1,35 @@
+team,nationality,fiba_world_cup,id
+Dallas Mavericks || Washington Bullets || Denver Nuggets || San Antonio Spurs || Philadelphia 76ers || Los Angeles Lakers,USA,,2
+Denver Nuggets || Detroit Pistons || New York Knicks,Serbian,,3
+Cleveland Cavaliers || Washington Bullets || Golden State Warriors || Orlando Magic,USA,1.0,5
+New Orleans Pelicans || Los Angeles Clippers || Sacramento Kings || Brooklyn Nets,French,,6
+Sacramento Kings,USA,,11
+Cleveland Cavaliers || Utah Jazz || Washington Wizards,USA,,15
+New York Knicks || Denver Nuggets || Portland Trail Blazers,USA,,18
+New York Knicks,USA,,20
+New York Knicks || New Jersey Nets || Chicago Bulls || Los Angeles Lakers,USA,0.0,21
+Philadelphia 76ers || Indiana Pacers,USA,,26
+Philadelphia Warriors,USA,,27
+San Antonio Spurs || Sacramento Kings || New Jersey Nets || Indiana Pacers || Los Angeles Clippers || Boston Celtics,USA,,34
+Denver Nuggets || San Antonio Spurs || Houston Rockets || Seattle SuperSonics,USA,,37
+Memphis Grizzlies,Greek || USA,0.0,51
+Seattle SuperSonics,USA,,52
+Milwaukee Hawks,USA,,62
+San Antonio Spurs,Slovenian,,65
+Oklahoma City Thunder || Detroit Pistons || Washington Wizards,USA || Guinea,0.0,67
+Oklahoma City Thunder || Charlotte Bobcats || Boston Celtics || Brooklyn Nets || Chicago Bulls,USA,,68
+Phoenix Suns || Cleveland Cavaliers || Orlando Magic || Chicago Bulls || San Antonio Spurs || Portland Trail Blazers || Golden State Warriors,USA,1.0,69
+Washington Bullets || Atlanta Hawks || Milwaukee Bucks || Chicago Bulls || Minnesota Timberwolves || Utah Jazz || Seattle SuperSonics || Los Angeles Lakers || Toronto Raptors || Philadelphia 76ers || Indiana Pacers,USA,,70
+Boston Celtics,Croatian || Yugoslavian,1.0,73
+Seattle SuperSonics,USA,,74
+Denver Nuggets || Houston Rockets,Greek,0.0,75
+Portland Trail Blazers,USA,,77
+New Jersey Nets || Atlanta Hawks || Washington Wizards || Boston Celtics || Golden State Warriors || New Orleans Pelicans,USA,,82
+San Antonio Spurs || Houston Rockets,USA,,83
+Golden State Warriors,USA,2018.0,98
+Golden State Warriors || Minnesota Timberwolves || Memphis Grizzlies || San Antonio Spurs,USA || China,1.0,120
+Miami Heat,USA,1.0,123
+Golden State Warriors,USA,1.0,124
+Philadelphia 76ers,USA,1.0,127
+Golden State Warriors,USA,1.0,130
+New York Knicks || Dallas Mavericks,USA,1.0,136

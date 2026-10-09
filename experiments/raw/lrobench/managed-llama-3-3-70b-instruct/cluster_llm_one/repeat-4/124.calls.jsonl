@@ -1,0 +1,2 @@
+{"key": "57ff3fe441841e4b", "role": "operator", "t": 1790975717.005, "seconds": 1.791, "output": "[{\"index\":\"1\", \"cluster_name\": \"Freshwater\", \"cluster_label\": \"1\"}]"}
+{"key": "243d9d0c864a2c59", "role": "operator", "t": 1790975718.795, "seconds": 1.393, "output": "{\"function\": \"assign_cluster\", \"params\": {\"row\": {\"index\": 2, \"Name\": \"Atlin Lake\"}, \"existing_clusters\": {\"1\": \"Freshwater\"}}}"}

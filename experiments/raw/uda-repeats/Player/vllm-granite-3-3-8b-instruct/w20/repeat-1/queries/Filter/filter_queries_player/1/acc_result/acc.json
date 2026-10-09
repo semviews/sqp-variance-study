@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "mvp_awards": {
+      "precision": 0.7285714285714285,
+      "recall": 0.36428571428571427,
+      "f1": 0.4857142857142857
+    },
+    "draft_pick": {
+      "precision": 0.8857142857142857,
+      "recall": 0.44285714285714284,
+      "f1": 0.5904761904761905
+    },
+    "fiba_world_cup": {
+      "precision": 0.42857142857142855,
+      "recall": 0.21428571428571427,
+      "f1": 0.2857142857142857
+    }
+  },
+  "macro_precision": 0.6809523809523809,
+  "macro_recall": 0.34047619047619043,
+  "macro_f1": 0.45396825396825397,
+  "rows": {
+    "len_gold": 140,
+    "len_pred": 70,
+    "matched_rows": 70
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "mvp_awards",
+    "draft_pick",
+    "fiba_world_cup"
+  ],
+  "skipped_columns": []
+}

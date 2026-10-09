@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 110,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 50.664,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.5714,
+    0.8,
+    0.6667
+  ],
+  "tokens": [
+    986,
+    853,
+    133
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5714,
+        0.8,
+        0.6667
+      ],
+      "prediction": [
+        "[\"Bazzell's Truck & Camper\"]",
+        "['Classic Truck']",
+        "['Eppies Discount Tire & Auto Centers']",
+        "['Kenner Welding Inc']",
+        "['R V City']",
+        "['Star Equipment Limited']",
+        "['Sunguard Window Tinting & Truck Accessories']"
+      ],
+      "truth": [
+        "['Eppies Discount Tire & Auto Centers']",
+        "['Great Dane Trailers Inc']",
+        "['Kenner Welding Inc']",
+        "['R V City']",
+        "['Sunguard Window Tinting & Truck Accessories']"
+      ]
+    }
+  ]
+}

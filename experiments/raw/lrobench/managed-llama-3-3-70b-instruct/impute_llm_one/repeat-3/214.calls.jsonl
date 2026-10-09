@@ -1,0 +1,10 @@
+{"key": "57c88801b7e97701", "role": "operator", "t": 1790980951.473, "seconds": 2.04, "output": "{\"name\": \"Nivelles-Baulers\", \"location\": \"Brussels\", \"alt\": 100}"}
+{"key": "29b0c562157b766a", "role": "operator", "t": 1790980951.471, "seconds": 2.057, "output": "{\"name\": \"Donington Park\", \"location\": \"Castle Donington\", \"alt\": \"110\"}"}
+{"key": "6204f8a77fa46bbb", "role": "operator", "t": 1790980951.469, "seconds": 2.427, "output": "{\"name\": \"Silverstone Circuit\", \"location\": \"Silverstone\", \"alt\": 102}"}
+{"key": "596a6a280d70265d", "role": "operator", "t": 1790980951.472, "seconds": 2.429, "output": "{\"name\": \"Zolder\", \"location\": \"Heusden-Zolder\", \"alt\": 30}"}
+{"key": "e920e844538bef0d", "role": "operator", "t": 1790980951.472, "seconds": 2.432, "output": "{\"name\": \"Circuit Park Zandvoort\", \"location\": \"Zandvoort\", \"alt\": 0}"}
+{"key": "0ec87e84d5bfbffe", "role": "operator", "t": 1790980951.475, "seconds": 2.43, "output": "{\"name\": \"Aintree\", \"location\": \"Liverpool\", \"alt\": \"55\"}"}
+{"key": "2c3263d4de4d0781", "role": "operator", "t": 1790980951.47, "seconds": 2.437, "output": "{\"name\": \"N\u00fcrburgring\", \"location\": \"N\u00fcrburg\", \"alt\": 470}"}
+{"key": "b38374008a6179f5", "role": "operator", "t": 1790980951.47, "seconds": 2.44, "output": "{\"name\": \"Circuit de Spa-Francorchamps\", \"location\": \"Spa\", \"alt\": 422}"}
+{"key": "9673f8743e4a49d6", "role": "operator", "t": 1790980951.471, "seconds": 2.44, "output": "{\"name\": \"Brands Hatch\", \"location\": \"Kent\", \"alt\": 110}"}
+{"key": "5b150d54c0aac3f8", "role": "operator", "t": 1790980951.473, "seconds": 2.769, "output": "{\"name\": \"Scandinavian Raceway\", \"location\": \"Anderstorp\", \"alt\": 143}"}

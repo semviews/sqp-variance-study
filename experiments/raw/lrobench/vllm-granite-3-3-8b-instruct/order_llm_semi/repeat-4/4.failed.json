@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 4,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 3,
+  "seconds": 3.857,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 108, in pipeline_order4\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To determine the score for the movie \"Treasure Planet\" based on its duration, I will use external knowledge about the film\\'s runtime.\\n\\n**External Knowledge:**\\n- \"Treasure Planet\" is an animated science fiction film released in 2002.\\n- The typical runtime for \"Treasure Planet\" is approximately 100 minutes (1 hour and 40 minutes).\\n\\n**Evaluation:**\\n- A standard feature-length animated film usually ranges from 90 to 120 minutes.\\n- At 100 minutes, \"Treasure Planet\" falls within the mid-range of typical feature-length films.\\n\\n**Scoring:**\\n- Since the duration is moderate compared to the range of possible movie lengths (e.g., very short (<60 min) to very long (>150 min)), a score around the midpoint of the scale is appropriate.\\n- Assigning a score of 60 reflects a moderate duration, neither particularly short nor exceptionally long.\\n\\n**Output:**\\n```\\n60\\n```'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'The 1992 Disney animated film \"Aladdin\" has a runtime of approximately 88 minutes. To evaluate this duration on a scale from 0 to 100, where higher scores indicate longer movie durations, we can consider the typical range of animated feature film lengths, which often span from about 70 to 120 minutes. An 88-minute runtime is relatively moderate within this range.\\n\\nGiven that many animated films exceed 90 minutes and some are shorter, an 88-minute",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To determine the score for the movie \"Treasure Planet\" based on its duration, I will use external knowledge about the film\\'s runtime.\\n\\n**External Knowledge:**\\n- \"Treasure Planet\" is an animated science fiction film released in 2002.\\n- The typical runtime for \"Treasure Planet\" is approximately 100 minutes (1 hour and 40 minutes).\\n\\n**Evaluation:**\\n- The duration of 100 minutes is relatively standard for a feature-length animated film.\\n- Cons",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

@@ -1,0 +1,9 @@
+{"key": "8022619c6ccf479e", "role": "operator", "t": 1790975277.59, "seconds": 2.092, "output": "{\"spent\": \"0.0\", \"remaining\": \"10.0\", \"amount\": \"10\", \"propotion\": \"0.0\"}"}
+{"key": "8e686ce92ef0bc45", "role": "operator", "t": 1790975277.587, "seconds": 2.108, "output": "{\"spent\": \"121.14\", \"remaining\": \"28.86\", \"amount\": \"150\", \"propotion\": \"0.8076\"}"}
+{"key": "27787e20b94e26ab", "role": "operator", "t": 1790975277.591, "seconds": 2.15, "output": "{\"spent\": \"173.06\", \"remaining\": \"-23.06\", \"amount\": \"150\", \"propotion\": \"1.155\"}"}
+{"key": "0f3365c2fe0df76c", "role": "operator", "t": 1790975277.589, "seconds": 2.159, "output": "{\"spent\": \"0.0\", \"remaining\": \"150.0\", \"amount\": \"150\", \"propotion\": \"0.0\"}"}
+{"key": "778260998b8cb2b4", "role": "operator", "t": 1790975277.593, "seconds": 2.157, "output": "{\"spent\": \"0.0\", \"remaining\": \"25.0\", \"amount\": \"25\", \"propotion\": \"0.0\"}"}
+{"key": "8ee728e3a11c28c6", "role": "operator", "t": 1790975277.592, "seconds": 2.165, "output": "{\"spent\": \"0.0\", \"remaining\": \"75.0\", \"amount\": \"75\", \"propotion\": \"0.0\"}"}
+{"key": "eaebc5accdcc7ec2", "role": "operator", "t": 1790975277.587, "seconds": 2.206, "output": "{\"spent\": \"67.81\", \"remaining\": \"7.19\", \"amount\": \"75\", \"propotion\": \"0.90547\"}"}
+{"key": "778260998b8cb2b4", "role": "operator", "t": 1790975277.589, "seconds": 2.279, "output": "{\"spent\": \"0.0\", \"remaining\": \"25.0\", \"amount\": \"25\", \"propotion\": \"0.0\"}"}
+{"key": "0ba14af306e266e6", "role": "operator", "t": 1790975277.59, "seconds": 2.553, "output": "{\"spent\": \"0.0\", \"remaining\": \"55.0\", \"amount\": \"55\", \"propotion\": \"0.0\"}"}

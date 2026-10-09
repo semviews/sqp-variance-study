@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 24: 4 (player) */ SELECT nationality, draft_pick, team FROM player WHERE nationality <> 'German' AND olympic_gold_medals > 0 AND olympic_gold_medals <> 0 AND mvp_awards = 0",
+  "player": {
+    "draft_pick": {
+      "value_type": "int",
+      "description": "the pick number at which the player was selected in the NBA draft (e.g., 1)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    },
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  }
+}

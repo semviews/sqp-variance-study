@@ -1,0 +1,102 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 106,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 120.94,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 57 elements",
+      "operator_calls": 1
+    },
+    {
+      "error": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 57 elements",
+      "operator_calls": 1
+    }
+  ],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 12,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    11609,
+    5203,
+    6406
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 1.0,
+      "prediction": [
+        "608.33",
+        "542.33",
+        "491.33",
+        "513.33",
+        "495.0",
+        "489.0",
+        "623.33",
+        "593.67",
+        "491.33",
+        "550.33",
+        "526.0",
+        "571.0"
+      ],
+      "truth": [
+        "608.33",
+        "542.33",
+        "491.33",
+        "513.33",
+        "495.0",
+        "489.0",
+        "623.33",
+        "593.67",
+        "491.33",
+        "550.33",
+        "526.0",
+        "571.0"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 1.0,
+      "prediction": [
+        "608.33",
+        "542.33",
+        "491.33",
+        "513.33",
+        "495.0",
+        "489.0",
+        "623.33",
+        "593.67",
+        "491.33",
+        "550.33",
+        "526.0",
+        "571.0"
+      ],
+      "truth": [
+        "608.33",
+        "542.33",
+        "491.33",
+        "513.33",
+        "495.0",
+        "489.0",
+        "623.33",
+        "593.67",
+        "491.33",
+        "550.33",
+        "526.0",
+        "571.0"
+      ]
+    }
+  ]
+}

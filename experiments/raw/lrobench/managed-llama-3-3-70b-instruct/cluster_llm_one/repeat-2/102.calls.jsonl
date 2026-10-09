@@ -1,0 +1,7 @@
+{"key": "13ad95d0652289ae", "role": "operator", "t": 1790967089.025, "seconds": 1.976, "output": "[{\"index\":\"0\", \"cluster_name\": \"Europe\", \"cluster_label\": \"0\"}]"}
+{"key": "4b5a79e1ea5bc2b6", "role": "operator", "t": 1790967091.001, "seconds": 1.168, "output": "[\n  {\"index\":\"2\", \"cluster_name\": \"Europe\", \"cluster_label\": \"0\"}\n]"}
+{"key": "e6a80a4d8e64db12", "role": "operator", "t": 1790967092.169, "seconds": 1.208, "output": "[\n  {\"index\":\"3\", \"cluster_name\": \"Europe\", \"cluster_label\": \"0\"}\n]"}
+{"key": "2e90a5dd05307058", "role": "operator", "t": 1790967093.378, "seconds": 1.851, "output": "[\n  {\"index\":\"12\", \"cluster_name\": \"South America\", \"cluster_label\": \"1\"}\n]"}
+{"key": "b7f7f36639889f7e", "role": "operator", "t": 1790967095.229, "seconds": 1.239, "output": "[\n  {\"index\":\"15\", \"cluster_name\": \"Europe\", \"cluster_label\": \"0\"}\n]"}
+{"key": "13cdfe7874f4cb14", "role": "operator", "t": 1790967096.468, "seconds": 1.411, "output": "[{\"index\":\"19\", \"cluster_name\": \"Europe\", \"cluster_label\": \"0\"}]"}
+{"key": "5e4a172fdd0f7d99", "role": "operator", "t": 1790967097.879, "seconds": 1.524, "output": "{\"function\": \"assign_to_cluster\", \"args\": [\"{'index': 153, 'nationality': 'French'}\", \"{\\\"0\\\": \\\"Europe\\\", \\\"1\\\": \\\"South America\\\"}\"]}"}

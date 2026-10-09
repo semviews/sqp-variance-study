@@ -1,0 +1,93 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 30,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 56.267,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 25,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "CA - Csa",
+      2
+    ],
+    [
+      "IL - Dfa",
+      2
+    ],
+    [
+      "LA - Cfa",
+      1
+    ],
+    [
+      "MA - Dfb",
+      1
+    ],
+    [
+      "MI - Dfa",
+      1
+    ],
+    [
+      "MN - Dfa",
+      1
+    ],
+    [
+      "MO - Cfa",
+      2
+    ],
+    [
+      "OR - Csb",
+      1
+    ]
+  ],
+  "tokens": 7469,
+  "metrics": [],
+  "prediction": [
+    [
+      "CA - Csa",
+      2
+    ],
+    [
+      "IL - Dfa",
+      2
+    ],
+    [
+      "LA - Cfa",
+      1
+    ],
+    [
+      "MA - Dfb",
+      1
+    ],
+    [
+      "MI - Dfa",
+      1
+    ],
+    [
+      "MN - Dfa",
+      1
+    ],
+    [
+      "MO - Cfa",
+      2
+    ],
+    [
+      "OR - Csb",
+      1
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

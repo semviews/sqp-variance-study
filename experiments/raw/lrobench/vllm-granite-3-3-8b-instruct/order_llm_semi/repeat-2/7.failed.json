@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 7,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 3.988,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 176, in pipeline_order7\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'The last name in the `contactLastName` field is \"de Castro\". The length of this string is 10 characters (including the space). To assign a score between 0 and 100 based on the length of the last name, we can consider the maximum possible length for a last name in typical datasets. Assuming a reasonable upper bound (e.g., 50 characters for very long last names), we can scale the observed length to this range.\\n\\nScore calculation:\\n- Observed length: 10 characters\\n- Maximum assumed length: 50 characters\\n- Score = (Observed length / Maximum length) * 100 = (10 / 50) * 100 = 20\\n\\nTherefore, the score reflecting the string length of the last name is:\\n\\n\"20'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'The last name in the `contactLastName` field is \"de Castro\". The length of this string is 10 characters (including the space). To assign a score between 0 and 100 based on the length of the last name, we can consider the maximum possible length for a last name in typical datasets. Assuming a reasonable upper bound of around 30 characters for a last name, we can scale the length proportionally:\\n\\n\\\\[\\n\\\\text{Score} = \\\\left(\\\\frac{\\\\text{Length of ",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'The last name \"Piestrzeniewicz\" has 16 characters. To assign a score between 0 and 100 based on the string length of the last name, we can consider the maximum possible length for a last name in typical datasets (e.g., 50 characters) and scale the score accordingly.\\n\\nScore = (Length of \"Piestrzeniewicz\" / Maximum assumed length) * 100  \\nScore = (16 / 50) * 100 = 32\\n\\nTherefore, the score reflecting the string length of the last name is:\\n\\n32'",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

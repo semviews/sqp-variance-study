@@ -1,0 +1,55 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 305,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 9.088,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    911,
+    537,
+    374
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['function' 'match_columns'\n '[{CDSCode},{Academic Year},{County Code},{District Code},{School Code},{County Name},{District Name},{School Name},{District Type},{School Type},{Educational Option Type},{NSLP Provision Status},{Charter School (Y/N)},{Charter School Number},{Charter Funding Type},{IRC},{Low Grade},{High Grade},{Enrollment (K-12)},{Free Meal Count (K-12)},{Percent (%) Eligible Free (K-12)},{FRPM Count (K-12)},{Percent (%) Eligible FRPM (K-12)},{Enrollment (Ages 5-17)},{Free Meal Count (Ages 5-17)},{Percent (%) Eligible Free (Ages 5-17)},{FRPM Count (Ages 5-17)},{Percent (%) Eligible FRPM (Ages 5-17)},{2013-14 CALPADS Fall 1 Certification Status}]']",
+        "['function' 'match_columns'\n '[{CDSCode},{NCESDist},{NCESSchool},{StatusType},{County},{District},{School},{Street},{StreetAbr},{City},{Zip},{State},{MailStreet},{MailStrAbr},{MailCity},{MailZip},{MailState},{Phone},{Ext},{Website},{OpenDate},{ClosedDate},{Charter},{CharterNum},{FundingType},{DOC},{DOCType},{SOC},{SOCType},{EdOpsCode},{EdOpsName},{EILCode},{EILName},{GSoffered},{GSserved},{Virtual},{Magnet},{Latitude},{Longitude},{AdmFName1},{AdmLName1},{AdmEmail1},{AdmFName2},{AdmLName2},{AdmEmail2},{AdmFName3},{AdmLName3},{AdmEmail3},{LastUpdate}]']"
+      ],
+      "truth": [
+        "['CDSCode' 'CDSCode']",
+        "['Charter Funding Type' 'FundingType']",
+        "['Charter School (Y/N)' 'Charter']",
+        "['Charter School Number' 'CharterNum']",
+        "['County Code' 'County']",
+        "['District Code' 'NCESDist']",
+        "['District Name' 'District']",
+        "['District Type ' 'DOCType']",
+        "['Educational Option Type' 'EdOpsName']",
+        "['School Name' 'School']",
+        "['School Type' 'SOCType']"
+      ]
+    }
+  ]
+}

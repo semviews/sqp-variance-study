@@ -1,0 +1,73 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 27,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 54.098,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 240,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    53070,
+    52830,
+    240
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "classification",
+        "distributions",
+        "hypothesis-testing",
+        "machine-learning",
+        "normal-distribution",
+        "statistical-significance"
+      ],
+      "truth": [
+        "classification",
+        "distributions",
+        "hypothesis-testing",
+        "machine-learning",
+        "normal-distribution",
+        "statistical-significance"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "statistical-significance",
+        "normal-distribution",
+        "hypothesis-testing",
+        "machine-learning",
+        "classification",
+        "distributions"
+      ],
+      "truth": [
+        "statistical-significance",
+        "normal-distribution",
+        "hypothesis-testing",
+        "machine-learning",
+        "classification",
+        "distributions"
+      ]
+    }
+  ]
+}

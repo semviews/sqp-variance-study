@@ -1,0 +1,6 @@
+{"key": "f5fe4de4201957a8", "role": "operator", "t": 1790972158.794, "seconds": 2.125, "output": "[{\"index\":\"0\", \"cluster_name\": \"com\", \"cluster_label\": \"0\"}]"}
+{"key": "d416f45d0d1dddb1", "role": "operator", "t": 1790972160.919, "seconds": 1.319, "output": "[{\"index\":\"1\", \"cluster_name\": \"org\", \"cluster_label\": \"0\"}]"}
+{"key": "f2fa096b1b8a16c1", "role": "operator", "t": 1790972162.238, "seconds": 1.192, "output": "[{\"index\":\"2\", \"cluster_name\": \"org\", \"cluster_label\": \"0\"}]"}
+{"key": "28660497fbda43a1", "role": "operator", "t": 1790972163.43, "seconds": 1.052, "output": "[{\"index\":\"3\", \"cluster_name\": \"org\", \"cluster_label\": \"0\"}]"}
+{"key": "aa16c195bf1ad2e4", "role": "operator", "t": 1790972164.482, "seconds": 1.194, "output": "[{\"index\":\"4\", \"cluster_name\": \"org\", \"cluster_label\": \"0\"}]"}
+{"key": "59dbe140aeae0274", "role": "operator", "t": 1790972165.676, "seconds": 1.542, "output": "{\"function\": \"assign_cluster\", \"args\": [\"{\\'index\\': 5, \\'ward_email\\': \\'ward06@cityofchicago.org\\'}\", \"{\\\"0\\\": \\\"com\\\"}\"]}"}

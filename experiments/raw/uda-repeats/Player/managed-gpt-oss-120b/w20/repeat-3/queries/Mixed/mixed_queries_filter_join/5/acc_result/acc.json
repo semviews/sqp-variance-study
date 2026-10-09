@@ -1,0 +1,44 @@
+{
+  "columns": {
+    "player.mvp_awards": {
+      "precision": 0.6483516483516484,
+      "recall": 0.6629213483146067,
+      "f1": 0.6555555555555556
+    },
+    "team.championship": {
+      "precision": 0.7142857142857143,
+      "recall": 0.7303370786516854,
+      "f1": 0.7222222222222223
+    },
+    "player.draft_year": {
+      "precision": 0.7032967032967034,
+      "recall": 0.7191011235955056,
+      "f1": 0.7111111111111111
+    },
+    "team.team_name": {
+      "precision": 0.7252747252747253,
+      "recall": 0.7415730337078652,
+      "f1": 0.7333333333333333
+    }
+  },
+  "macro_precision": 0.6978021978021979,
+  "macro_recall": 0.7134831460674157,
+  "macro_f1": 0.7055555555555556,
+  "rows": {
+    "len_gold": 89,
+    "len_pred": 91,
+    "matched_rows": 66
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.id",
+    "team.id"
+  ],
+  "evaluated_columns": [
+    "player.mvp_awards",
+    "team.championship",
+    "player.draft_year",
+    "team.team_name"
+  ],
+  "skipped_columns": []
+}

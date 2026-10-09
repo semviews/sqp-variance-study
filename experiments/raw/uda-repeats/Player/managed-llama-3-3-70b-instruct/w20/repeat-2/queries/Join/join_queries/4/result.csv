@@ -1,0 +1,55 @@
+player.nationality,player.age,team.location,team.team_name,player.id,team.id
+USA,50,Sacramento,Sacramento Kings,11,26
+USA,30,Los Angeles,Los Angeles Lakers,12,14
+USA || Venezuela,53,Minneapolis,Minnesota Timberwolves,14,18
+USA || Bahamas,36,Cleveland,Cleveland Cavaliers,16,6
+USA,41,Detroit,Detroit Pistons,24,9
+USA,69,Los Angeles,Los Angeles Lakers,28,14
+USA,71,Boston,Boston Celtics,29,2
+USA,63,Detroit,Detroit Pistons,30,9
+USA,74,Portland,Portland Trail Blazers,31,25
+American,31,San Antonio,San Antonio Spurs,38,27
+Dutch,58,Indianapolis,Indiana Pacers,45,12
+USA,23,Minneapolis,Minnesota Timberwolves,46,18
+Greek || USA,36,Memphis,Memphis Grizzlies,51,15
+USA,35,Phoenix,Phoenix Suns,54,24
+Slovenian,41,San Antonio,San Antonio Spurs,65,27
+Croatian || Yugoslavian,58,Boston,Boston Celtics,73,2
+USA,22,Portland,Portland Trail Blazers,77,25
+USA,79,Boston,Boston Celtics,90,2
+USA || Spain,58,Salt Lake City,Utah Jazz,96,29
+USA,23,San Francisco,Golden State Warriors,98,10
+Bahamian,31,San Francisco,Golden State Warriors,100,10
+USA,28,Los Angeles,Los Angeles Lakers,101,14
+Cameroonian || American || French,29,Philadelphia,Philadelphia 76ers,102,23
+USA,30,Philadelphia,Philadelphia 76ers,103,23
+American || Australian,31,Dallas,Dallas Mavericks,104,7
+USA,29,Boston,Boston Celtics,105,2
+Canadian || American,29,San Francisco,Golden State Warriors,107,10
+USA,24,Philadelphia,Philadelphia 76ers,108,23
+USA,28,Boston,Boston Celtics,110,2
+French,20,San Antonio,San Antonio Spurs,111,27
+USA,33,Boston,Boston Celtics,112,2
+USA || Germany,25,Los Angeles,Los Angeles Lakers,113,14
+USA,38,Miami,Miami Heat,114,16
+Greek || Nigerian,29,Milwaukee,Milwaukee Bucks,115,17
+USA,35,San Francisco,Golden State Warriors,116,10
+Dominican Republic || USA,38,Boston,Boston Celtics,117,2
+USA,24,Miami,Miami Heat,118,16
+American || Hawaiian,31,Miami,Miami Heat,119,16
+USA,22,Detroit,Detroit Pistons,121,9
+USA,39,Los Angeles,Los Angeles Lakers,122,14
+USA,33,Miami,Miami Heat,123,16
+USA,29,San Francisco,Golden State Warriors,124,10
+USA,29,Chicago,Chicago Bulls,125,5
+USA,23,Detroit,Detroit Pistons,126,9
+USA,38,Philadelphia,Philadelphia 76ers,127,23
+USA || Mexico,29,Phoenix,Phoenix Suns,129,24
+USA,33,San Francisco,Golden State Warriors,130,10
+Congolese,22,San Francisco,Golden State Warriors,132,10
+USA || Mexico,23,Miami,Miami Heat,134,16
+USA || Jamaica,21,Detroit,Detroit Pistons,135,9
+USA,51,Boston,Boston Celtics,137,2
+USA || Italy,41,Los Angeles,Los Angeles Lakers,138,14
+USA,39,San Antonio,San Antonio Spurs,139,27
+USA || Nigeria,27,Miami,Miami Heat,141,16

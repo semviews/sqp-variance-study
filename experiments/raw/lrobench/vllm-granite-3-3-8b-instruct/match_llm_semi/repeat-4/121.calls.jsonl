@@ -1,0 +1,31 @@
+{"key": "234455549b1d4c0f", "role": "operator", "t": 1790981113.154, "seconds": 1.27, "output": "\"\""}
+{"key": "475421cffea8836d", "role": "operator", "t": 1790981113.158, "seconds": 1.502, "output": "\"\""}
+{"key": "9ab38de1d58b5ed2", "role": "operator", "t": 1790981113.156, "seconds": 1.508, "output": "\"\""}
+{"key": "c9e123fbd1965ee7", "role": "operator", "t": 1790981113.157, "seconds": 3.117, "output": "Alliance Medical Ltd does not match any of the values listed in the 'right_Supplier' column. Therefore, the result is:\n\n```plaintext\n```\n\n(An empty string, indicating no match was found.)"}
+{"key": "bc8a19663ca14c29", "role": "operator", "t": 1790981113.155, "seconds": 3.122, "output": "ALCURA UK LTD"}
+{"key": "b3be7d88df58407f", "role": "operator", "t": 1790981113.154, "seconds": 3.125, "output": "NHS SUPPLY CHAIN"}
+{"key": "0b025de055b6e544", "role": "operator", "t": 1790981113.154, "seconds": 3.127, "output": "NHS SUPPLY CHAIN"}
+{"key": "141568723285df0b", "role": "operator", "t": 1790981113.157, "seconds": 3.128, "output": "\"\""}
+{"key": "14aa6ec6ea22158a", "role": "operator", "t": 1790981114.659, "seconds": 1.629, "output": "ROYAL DEVON AND EXETER NHS FOUNDATION TRUST"}
+{"key": "d065ef2dba553e15", "role": "operator", "t": 1790981113.153, "seconds": 3.136, "output": "NHS SUPPLY CHAIN"}
+{"key": "a125825108354816", "role": "operator", "t": 1790981113.158, "seconds": 3.133, "output": "\"\""}
+{"key": "3e8832285d5be724", "role": "operator", "t": 1790981114.425, "seconds": 2.356, "output": "Npower does not appear in the provided list of values for the 'right_Supplier' column. Therefore, there is no match satisfying the condition \"The two suppliers are the same supplier.\"\n\nEmpty string:"}
+{"key": "dac446aa13ada20d", "role": "operator", "t": 1790981116.281, "seconds": 0.669, "output": "NOVARTIS PHARMACEUTICALS UK LTD"}
+{"key": "8559892a3b0cb285", "role": "operator", "t": 1790981116.281, "seconds": 0.673, "output": "CSC COMPUTER SCIENCES LTD"}
+{"key": "f436e5eba1b08bdb", "role": "operator", "t": 1790981116.281, "seconds": 0.674, "output": "\"\""}
+{"key": "eb4b15c00ef50ba9", "role": "operator", "t": 1790981116.281, "seconds": 0.676, "output": "\"\""}
+{"key": "1e6b6b74653c1d8b", "role": "operator", "t": 1790981116.281, "seconds": 0.676, "output": "ROCHE PRODUCTS LTD"}
+{"key": "406fbfba133b7f81", "role": "operator", "t": 1790981116.78, "seconds": 0.515, "output": "EMERSON NETWORK POWER LTD"}
+{"key": "2320baa74b38c701", "role": "operator", "t": 1790981116.78, "seconds": 0.517, "output": "\"\""}
+{"key": "63c7d790a997c089", "role": "operator", "t": 1790981116.78, "seconds": 0.518, "output": "\"\""}
+{"key": "6e5b4b98e60c5e61", "role": "operator", "t": 1790981116.78, "seconds": 0.518, "output": "\"\""}
+{"key": "e9a175a270c5e228", "role": "operator", "t": 1790981116.78, "seconds": 0.695, "output": "PHILIPS HEALTHCARE"}
+{"key": "fb9f5873c81cc53e", "role": "operator", "t": 1790981116.955, "seconds": 0.526, "output": "\"\""}
+{"key": "436d55c219d7c13b", "role": "operator", "t": 1790981116.955, "seconds": 0.571, "output": "NHS LITIGATION AUTHORITY"}
+{"key": "f8a39359a208e3f5", "role": "operator", "t": 1790981116.955, "seconds": 0.58, "output": "NHS BLOOD & TRANSPLANT"}
+{"key": "d1e8e83c4db46113", "role": "operator", "t": 1790981116.957, "seconds": 0.579, "output": "\"\""}
+{"key": "c814e8eb19f339af", "role": "operator", "t": 1790981116.957, "seconds": 0.581, "output": "\"\""}
+{"key": "1ddbe7cc7727b5b0", "role": "operator", "t": 1790981117.296, "seconds": 0.513, "output": "TOPSCAN (UK) LTD"}
+{"key": "a7bb3f3732eed8f8", "role": "operator", "t": 1790981117.475, "seconds": 0.87, "output": "Nhs Coventry& Rugby Ccg does not appear to match any of the listed values in the 'right_Supplier' column. Therefore, the result is an empty string.\n\n\"\""}
+{"key": "b8a189dbd72d5324", "role": "operator", "t": 1790981117.476, "seconds": 0.872, "output": "\"\""}
+{"key": "44fd97ecb2499374", "role": "operator", "t": 1790981117.476, "seconds": 0.873, "output": "\"\""}

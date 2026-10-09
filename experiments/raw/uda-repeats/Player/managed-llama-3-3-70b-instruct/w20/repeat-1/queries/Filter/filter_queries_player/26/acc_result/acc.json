@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "olympic_gold_medals": {
+      "precision": 0.2198581560283688,
+      "recall": 0.2198581560283688,
+      "f1": 0.2198581560283688
+    },
+    "college": {
+      "precision": 0.6028368794326241,
+      "recall": 0.6028368794326241,
+      "f1": 0.6028368794326241
+    },
+    "age": {
+      "precision": 0.22695035460992907,
+      "recall": 0.22695035460992907,
+      "f1": 0.22695035460992907
+    }
+  },
+  "macro_precision": 0.34988179669030733,
+  "macro_recall": 0.34988179669030733,
+  "macro_f1": 0.34988179669030733,
+  "rows": {
+    "len_gold": 141,
+    "len_pred": 141,
+    "matched_rows": 141
+  },
+  "warnings": [],
+  "used_keys": [
+    "id"
+  ],
+  "evaluated_columns": [
+    "olympic_gold_medals",
+    "college",
+    "age"
+  ],
+  "skipped_columns": []
+}

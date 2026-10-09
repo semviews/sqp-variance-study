@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 6,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 21.604,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 19,
+  "judge_calls": 0,
+  "returned": [
+    0.25,
+    0
+  ],
+  "tokens": [
+    5809,
+    5790,
+    19
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "prediction": [
+        "Freyre",
+        "Nelson",
+        "Pfalzheim",
+        "Saveley"
+      ],
+      "truth": [
+        "Ashworth",
+        "Freyre",
+        "Hernandez",
+        "Holz"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0,
+      "prediction": [
+        "Saveley",
+        "Nelson",
+        "Freyre",
+        "Pfalzheim"
+      ],
+      "truth": [
+        "Ashworth",
+        "Freyre",
+        "Hernandez",
+        "Holz"
+      ]
+    }
+  ]
+}

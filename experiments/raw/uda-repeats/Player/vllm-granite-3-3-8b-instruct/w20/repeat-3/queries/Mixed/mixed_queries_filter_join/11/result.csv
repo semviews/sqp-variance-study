@@ -1,0 +1,36 @@
+team.location,player.draft_year,team.ownership,player.name,player.id,team.id
+Boston,2007.0,Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca,Al Horford,117,2
+Chicago ||,2017.0,ownership: Jerry Reinsdorf || Dick Klein (original owner),Lonzo Ball,133,5
+Dallas,2011.0,ownership is Mark Cuban || Ross Perot Jr. (historical),Kyrie Irving,104,7
+Detroit ||,2021.0,ownership is || Bill Davidson || Karen Davidson || Tom Gores ||,Cade Cunningham,121,9
+San Francisco,2012.0,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,Draymond Green,130,10
+Indianapolis,1988.0,Herb Simon ||,Rik Smits,45,12
+Los Angeles,2003.0,"ownership: Jeanie Buss || Jerry Buss (deceased, ownership transferred to his six children via trust) || Jack Kent Cooke (until 1979) || Bob Short (until 1965)",LeBron James,122,14
+Miami,2017.0,**Ownership:** Micky Arison ||,"Edrice Femi ""Bam"" Adebayo",141,16
+Minneapolis,2020.0,ownership is Glen Taylor ||,Anthony Edwards,46,18
+Philadelphia ||,2006.0,ownership is || Ed Snider ||,Kyle Lowry,127,23
+Phoenix,2007.0,Robert Sarver || Mat Ishbia,Kevin Durant,54,24
+San Antonio,2012.0,**Ownership:** Red McCombs || Angelo Drossos || John Schaefer || Peter M. Holt,Harrison Barnes,140,27
+Boston,2009.0,Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca,Jrue Holiday,112,2
+Chicago ||,2014.0,ownership: Jerry Reinsdorf || Dick Klein (original owner),Zach LaVine,125,5
+Detroit ||,1981.0,ownership is || Bill Davidson || Karen Davidson || Tom Gores ||,Isiah Thomas,30,9
+San Francisco,2015.0,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,Kevon Grant Looney,124,10
+Los Angeles,2021.0,"ownership: Jeanie Buss || Jerry Buss (deceased, ownership transferred to his six children via trust) || Jack Kent Cooke (until 1979) || Bob Short (until 1965)",Austin Reaves,113,14
+Miami,2023.0,**Ownership:** Micky Arison ||,Jaime Jaquez Jr.,134,16
+Philadelphia ||,2010.0,ownership is || Ed Snider ||,Paul George,103,23
+San Antonio,2005.0,**Ownership:** Red McCombs || Angelo Drossos || John Schaefer || Peter M. Holt,Chris Paul,139,27
+Boston,2016.0,Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca,Jaylen Brown,110,2
+Detroit ||,2005.0,ownership is || Bill Davidson || Karen Davidson || Tom Gores ||,Jarrett Matthew Jack,24,9
+San Francisco,2014.0,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,Kyle Anderson,120,10
+Los Angeles,2015.0,"ownership: Jeanie Buss || Jerry Buss (deceased, ownership transferred to his six children via trust) || Jack Kent Cooke (until 1979) || Bob Short (until 1965)",D'Angelo Russell,101,14
+Miami,2011.0,**Ownership:** Micky Arison ||,Jimmy Butler,123,16
+Philadelphia ||,2014.0,ownership is || Ed Snider ||,Joel Hans Embiid,102,23
+San Antonio,1997.0,**Ownership:** Red McCombs || Angelo Drossos || John Schaefer || Peter M. Holt,Tim Duncan,38,27
+Boston,2017.0,Irving Grousbeck || Wycliffe Grousbeck || Steve Pagliuca,Jayson Christopher Tatum,105,2
+San Francisco,2009.0,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,Stephen Curry,116,10
+Los Angeles,2012.0,"ownership: Jeanie Buss || Jerry Buss (deceased, ownership transferred to his six children via trust) || Jack Kent Cooke (until 1979) || Bob Short (until 1965)",Anthony Davis,12,14
+Miami,2019.0,**Ownership:** Micky Arison ||,Tyler Christopher Herro,118,16
+Philadelphia ||,2012.0,ownership is || Ed Snider ||,Andre Jamal Drummond,99,23
+San Francisco,2014.0,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,Andrew Christian Wiggins,107,10
+Miami,2008.0,**Ownership:** Micky Arison ||,Kevin Love,114,16
+San Francisco,2016.0,ownership is || Chris Cohan || || Peter Guber || || Joe Lacob || || Vivek Ranadivé || || Erika Glazer || || Fred Harman || || Bob Piccinini || || Larry Bowman || || Danny German || || Marty Glick || || Chad Hurley || || Craig R. Johnson || || Bruce Karsh || || Jeffrey A. Miller || || Paul Schaeffer || || David Scially || || Nick Swinmurn || || Harry Tsao || || John Walecka || || Dennis Wong || || Chamath Palihapitiya ||,Buddy Hield,100,10

@@ -1,0 +1,48 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 307,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 2.625,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    381,
+    314,
+    67
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        1.0,
+        0.6667
+      ],
+      "prediction": [
+        "['ADDRESS' 'STREET']",
+        "['Geo Local Area' 'STATE']",
+        "['Geom' 'CITY']",
+        "['SCHOOL_NAME' 'NAME']"
+      ],
+      "truth": [
+        "['ADDRESS' 'STREET']",
+        "['SCHOOL_NAME' 'NAME']"
+      ]
+    }
+  ]
+}

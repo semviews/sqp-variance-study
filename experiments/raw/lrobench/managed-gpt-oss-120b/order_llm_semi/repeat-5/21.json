@@ -1,0 +1,100 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 21,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 22.957,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 30,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.2857
+  ],
+  "tokens": [
+    6636,
+    6606,
+    30
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Asus",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Micro-Star International",
+        "Microsoft",
+        "Toshiba"
+      ],
+      "truth": [
+        "Asus",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Micro-Star International",
+        "Microsoft",
+        "Toshiba"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.2857,
+      "prediction": [
+        "Dell",
+        "Dell",
+        "Dell",
+        "Dell",
+        "Dell",
+        "Lenovo",
+        "Lenovo",
+        "Asus",
+        "Asus",
+        "Dell",
+        "Dell",
+        "Lenovo",
+        "Toshiba",
+        "Toshiba",
+        "Micro-Star International",
+        "Lenovo",
+        "Dell",
+        "Micro-Star International",
+        "Toshiba",
+        "Microsoft",
+        "Dell",
+        "Dell",
+        "Dell",
+        "HP",
+        "HP",
+        "HP",
+        "HP",
+        "HP",
+        "HP",
+        "HP"
+      ],
+      "truth": [
+        "Toshiba",
+        "HP",
+        "Microsoft",
+        "Lenovo",
+        "Dell",
+        "Micro-Star International",
+        "Asus"
+      ]
+    }
+  ]
+}

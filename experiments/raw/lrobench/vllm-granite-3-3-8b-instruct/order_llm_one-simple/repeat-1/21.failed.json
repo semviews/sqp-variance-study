@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 21,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 43.104,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 478, in pipeline_order21\n    amazon = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: '0\\n\\nThe founding time of Lenovo is the same for both items since they are identical (Lenovo). Therefore, Item 1 does not have a higher founding time than Item 2, and vice versa. Hence, the output is\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"1\\n\\n**Explanation of the reasoning process (for the assistant's internal use only and not part of the final response):**\\n\\n1. **Identify the brands**:  \\n   - Item 1 brand: **Lenovo**  \\n   - Item",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '0\\n\\nThe founding time of Lenovo is the same for both items since they are identical (Lenovo). Therefore, Item 1 does not have a higher founding time than Item 2, and vice versa. Hence, the output is",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

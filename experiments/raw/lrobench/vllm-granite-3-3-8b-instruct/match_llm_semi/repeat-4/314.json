@@ -1,0 +1,57 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 314,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 22.297,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    3942,
+    2672,
+    1270
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [
+        "['CoAppNm'\n 'To provide an accurate response, I need the specific content of the \\'CoAppNm\\' column from Table Left and the relevant columns from Table Right. Since the prompt does not include these details, I am unable to perform the matching as requested.\\n\\nPlease provide the necessary data for Table Left\\'s \\'CoAppNm\\' column and the columns in Table Right, and I will then identify the column that best matches based on the condition that \"The two columns refer to the similar feature.\"']",
+        "['CoAppOrgID'\n 'To provide an accurate response, I need to know the specific content or context of the \"CoAppOrgID\" column in Table Left and how it relates to the columns listed in Table Right. Since the description mentions \"The two columns refer to the similar feature,\" I would need to understand what that \"similar feature\" is to determine which column in Table Right matches the \"CoAppOrgID\" from Table Left.\\n\\nHowever, based on the information provided, I can infer that the \"CoAppOrgID\" likely represents an identifier for an organization or a similar entity. Among the optional columns in Table Right, the most plausible match for an organizational identifier would be:\\n\\n**Organisation**\\n\\nThis column directly refers to the organization, which aligns with the idea that \"CoAppOrgID\" is an identifier for a similar organizational feature.\\n\\nTherefore, the matched column, strictly returning it in pure string format as requested, is:\\n\\nOrganisation']",
+        "['CoAppOrgNm'\n 'To provide an accurate response, I need the specific data from the \"Left\" table and the \"Right\" table, including the values in the \\'CoAppOrgNm\\' column of the Left table and the potential matching columns in the Right table. Could you please provide the relevant data or a sample of the tables so I can perform the matching as requested?']",
+        "['CoAppRoleCD'\n 'To provide an accurate response, I need to know the specific content or description of the \\'CoAppRoleCD\\' column in Table Left and the context or description of the columns in Table Right. Since the details of these tables are not provided in your query, I am unable to determine which column in Table Right matches the \\'CoAppRoleCD\\' column based on the condition \"The two columns refer to the similar feature.\"\\n\\nPlease provide the relevant details or descriptions of the columns in both tables, and I will be happy to assist you in identifying the matched column. If no such information is available, the answer would be an empty string as per your instructions. \\n\\nFor now, I will return an empty string due to the lack of necessary context:\\n\\n\"\"']",
+        "['CoAppRoleEN'\n 'To provide an accurate response, I need the specific content of the \\'CoAppRoleEN\\' column from Table Left and the relevant data from Table Right. Since the prompt does not include these details, I am unable to determine which column in Table Right matches the \\'CoAppRoleEN\\' column based on the condition that \"The two columns refer to the similar feature.\"\\n\\nIf you can provide the data or a more detailed description of the content in both tables, I will be able to identify the matching column and return it as requested. Otherwise, based on the information given, the answer is:\\n\\n\"\"']",
+        "['CoAppRoleFR'\n 'To provide an accurate response, I need to know the specific content or description of the column \\'CoAppRoleFR\\' in Table Left and the context or description of the columns in Table Right. Since the details of these tables are not provided in your query, I am unable to determine which column in Table Right matches \\'CoAppRoleFR\\' based on the condition \"The two columns refer to the similar feature.\"\\n\\nPlease provide the relevant details or descriptions for \\'CoAppRoleFR\\' and the columns in Table Right so I can assist you in identifying the matching column. If you have already shared this information elsewhere, please include it here. If no such information exists, the answer would be an empty string as per your instructions. \\n\\nFor now, I will return an empty string as no matching information has been provided:\\n\\n\"\"']",
+        "['CountryEN'\n 'To provide an accurate response, I need the specific data from Table Left and Table Right, including the content of the \\'CountryEN\\' column in Table Left and the list of columns in Table Right. Please provide the relevant data so I can match the columns based on the condition that \"The two columns refer to the similar feature.\" \\n\\nIf you can share the data or describe the similarity between the columns, I will be able to identify the matched column and return it as a pure string without any additional text or formatting. If no match is found, I will return an empty string. \\n\\nPlease provide the necessary information.']",
+        "['FiscalYear-Ann\u00c3\\x83\u00c2\u00a9eFinanci\u00c3\\x83\u00c2\u00a8re'\n 'FiscalYear-Ann\u00c3\\x83\u00c2\u00a9eFinanci\u00c3\\x83\u00c2\u00a8re']",
+        "['Key-Cl\u00c3\\x83\u00c2\u00a9'\n 'To provide an accurate response, I need to know the specific content of the \\'Key-Cl\u00c3\\x83\u00c2\u00a9\\' column in Table Left and the relevant columns in Table Right. Could you please provide the data or a description of the columns you mentioned? This will allow me to match the columns based on the condition that \"The two columns refer to the similar feature.\"']",
+        "['PaysFR'\n 'To provide an accurate response, I need to know the specific content or description of the \\'PaysFR\\' column in Table Left and the context or description of the columns in Table Right. Could you please provide the details or a sample of the data in \\'PaysFR\\' and describe what feature it represents? This will allow me to match it to the appropriate column in Table Right based on the condition that \"The two columns refer to the similar feature.\"']",
+        "['ProvinceEN'\n 'To provide an accurate response, I need to know the specific content of the \\'ProvinceEN\\' column in Table Left and the contents of the columns in Table Right. Could you please provide the data or a description of the data in both tables? This will allow me to match the columns based on the condition that \"The two columns refer to the similar feature.\"']",
+        "['ProvinceFR'\n 'To provide an accurate response, I need to know the specific content or context of the \"ProvinceFR\" column in Table Left and the corresponding columns in Table Right. Could you please provide the relevant data or a description of the columns involved? This will allow me to match the columns based on the condition that \"The two columns refer to the similar feature.\" \\n\\nIf you can share the data or a brief description of the columns, I\\'ll be able to give you the matched column name in pure string format as requested.']"
+      ],
+      "truth": [
+        "['CoAppNm' 'Name']",
+        "['CoAppOrgNm' 'Organisation']",
+        "['ProvinceEN' 'Unit']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"key": "15939856dcb8c5ed", "role": "operator", "t": 1790975074.171, "seconds": 2.007, "output": "{\"Amount\": \"43\", \"Price\": \"1122.27\", \"UnitPrice\": \"26.07\"}"}
+{"key": "b5fc383d749d524d", "role": "operator", "t": 1790975074.17, "seconds": 2.013, "output": "{\"Amount\": \"65\", \"Price\": \"1486.38\", \"UnitPrice\": \"22.86\"}"}
+{"key": "000082eae6eba13b", "role": "operator", "t": 1790975074.171, "seconds": 2.117, "output": "${calculate_unit_price '{\"Amount\": \"126\", \"Price\": \"2841.16\", \"UnitPrice\": null}'}"}
+{"key": "1973ccf5abe35cb6", "role": "operator", "t": 1790975074.172, "seconds": 2.322, "output": "{\"Amount\": \"46\", \"Price\": \"1040.87\", \"UnitPrice\": \"22.63\"}"}

@@ -1,0 +1,7 @@
+{
+  "macro_f1": 0.3277777777777778,
+  "len_gold": 140,
+  "len_pred": 100,
+  "matched_rows": 100,
+  "error": ""
+}

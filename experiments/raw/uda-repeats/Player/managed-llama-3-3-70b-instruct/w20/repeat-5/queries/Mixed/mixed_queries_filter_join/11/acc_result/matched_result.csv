@@ -1,0 +1,10 @@
+team.location,player.draft_year,team.ownership,player.name,player.id,team.id
+Dallas,2011.0,Mark Cuban || Miriam Adelson || Patrick Dumont || Mary Stanton,Kyrie Andrew Irving,104,7
+Los Angeles,2021.0,Jeanie Buss || Jerry Buss || Bob Short || Jack Kent Cooke || Benjamin Berger || Morris Chalfen,Austin Tyler Reaves,113,14
+Miami,2008.0,Micky Arison,Kevin Wesley Love || LeBron James || Kevin Love || Kyrie Irving || Russell Westbrook || Dwight Howard || Deron Williams || Klay Thompson || Stephen Curry || Stan Love || Wes Unseld || O. J. Mayo || Andrew Wiggins || Anthony Bennett || Thaddeus Young || Luc Mbah a Moute || Alexey Shved || Yao Ming || Kelly Olynyk || Moses Malone || Hakeem Olajuwon || Elvin Hayes || Wilt Chamberlain || Brian Cardinal || Jason Collins || Antoine Walker || Marko Jarić || Greg Buckner || Al Jefferson || Oleksiy Pecherov || Luis Scola || Carl Landry || Kyle Singler || Rashad McCants || Zydrunas Ilgauskas || Tristan Thompson || Andre Drummond,114,16
+San Francisco,2009.0,Joe Lacob || Peter Guber,Stephen Curry,116,10
+Los Angeles,2012.0,Jeanie Buss || Jerry Buss || Bob Short || Jack Kent Cooke || Benjamin Berger || Morris Chalfen,Anthony Marshon Davis Jr.,12,14
+Detroit,2021.0,Tom Gores,Cade Parker Cunningham,121,9
+Detroit,2022.0,Tom Gores,Jaden Edward Dhananjay Ivey,126,9
+Boston,1992.0,Boston Basketball Partners L.L.C.,Shaquille O'Neal,137,2
+Phoenix,2007.0,Mat Ishbia || Justin Ishbia,Kevin Durant,54,24

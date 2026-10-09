@@ -1,0 +1,15 @@
+{
+  "sql": "/* Query 12: filter6_agg1_join2 (player, team, city, manager) */ SELECT manager.nationality, MIN(player.olympic_gold_medals) AS min_player_olympic_gold_medals FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name WHERE (team.location = 'Brooklyn' AND player.nba_championships < 0) OR (player.team <> 'Detroit Pistons' AND player.draft_pick <> 41) GROUP BY manager.nationality",
+  "manager": {
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality is the nationality of the team owner (e.g. American)."
+    }
+  },
+  "player": {
+    "olympic_gold_medals": {
+      "value_type": "int",
+      "description": "number of Olympic gold medals the player has won (e.g., 3)."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 12,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 6.168,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    3152,
+    3140,
+    12
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Bad Blood",
+        "Blank Space",
+        "Shake It Off"
+      ],
+      "truth": [
+        "Bad Blood",
+        "Blank Space",
+        "Shake It Off"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.6667,
+      "prediction": [
+        "Shake It Off",
+        "Blank Space",
+        "Bad Blood"
+      ],
+      "truth": [
+        "Blank Space",
+        "Shake It Off",
+        "Bad Blood"
+      ]
+    }
+  ]
+}

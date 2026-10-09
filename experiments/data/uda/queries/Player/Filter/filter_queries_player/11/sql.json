@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 11: 2 (player) */ SELECT fiba_world_cup, birth_date, nba_championships FROM player WHERE birth_date <> '1959/6/10' AND birth_date <> '1964/2/15'",
+  "player": {
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "fiba_world_cup": {
+      "value_type": "int",
+      "description": "number of FIBA World Cup titles the player has won (e.g., 1)."
+    },
+    "nba_championships": {
+      "value_type": "int",
+      "description": "number of NBA championships the player has won (e.g., 4)."
+    }
+  }
+}

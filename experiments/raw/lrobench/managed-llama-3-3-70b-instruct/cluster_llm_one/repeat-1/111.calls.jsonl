@@ -1,0 +1,3 @@
+{"key": "6620b4ecd2f7668d", "role": "operator", "t": 1790960100.734, "seconds": 2.19, "output": "[{\"index\":\"0\", \"cluster_name\": \"suitable for children\", \"cluster_label\": \"0\"}]"}
+{"key": "59b86319654ae670", "role": "operator", "t": 1790960102.924, "seconds": 1.419, "output": "[{\"index\":\"11\", \"cluster_name\": \"not suitable for children\", \"cluster_label\": \"1\"}]"}
+{"key": "37eac447b29be14a", "role": "operator", "t": 1790960104.343, "seconds": 3.648, "output": "{\"function\": \"assign_cluster\", \"args\": [{\"index\": 37, \"MPAA_rating\": \"PG\"}, {\"0\": \"suitable for children\", \"1\": \"not suitable for children\"}]}"}

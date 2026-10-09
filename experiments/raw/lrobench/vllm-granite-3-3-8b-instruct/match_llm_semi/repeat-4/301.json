@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 301,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 6.156,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 5,
+  "judge_calls": 0,
+  "returned": [
+    0.4,
+    0.4,
+    0.4
+  ],
+  "tokens": [
+    1222,
+    963,
+    259
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "prediction": [
+        "['ADDRESS'\n 'To determine which column in Table Right corresponds to the \\'ADDRESS\\' column in Table Left, we need to identify the column that most closely matches the concept of an address. Given the list of optional columns in Table Right, the column that best represents an address is **MERGED_ADDRESS**. This column is specifically designed to hold a combined or merged version of address components, making it the most suitable match for the \\'ADDRESS\\' column in Table Left under the condition that \"The two columns refer to the same feature.\"\\n\\nTherefore, the matched column is:\\n\\nMERGED_ADDRESS']",
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'NAME']",
+        "['URLLINK'\n 'To provide an accurate response, I need the specific content or context of the \\'URLLINK\\' column in Table Left and the relevant columns in Table Right. Since the details of these tables are not provided in your query, I am unable to determine which column in Table Right corresponds to \\'URLLINK\\' based on the condition \"The two columns refer to the same feature.\"\\n\\nPlease provide the necessary data or a more detailed description of the tables and the relationship between the columns, so I can assist you in matching the columns correctly. If no such match exists, the answer would be an empty string as per your instructions. \\n\\nFor now, I will return an empty string due to the lack of information:\\n\\n\"\"']"
+      ],
+      "truth": [
+        "['ADDRESS' 'MERGED_ADDRESS']",
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'STREET_NAME']",
+        "['URLLINK' 'WEBSITE']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 214,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 46.675,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 19,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    2513,
+    2494,
+    19
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        1.0,
+        0.6667
+      ],
+      "prediction": [
+        "BRCMonthName",
+        "BRCQuarter",
+        "BRCWeek",
+        "BRCYear",
+        "BusinessInCount",
+        "BusinessOutCount",
+        "BusinessTotalCount",
+        "FactoredInCount",
+        "FactoredOutCount",
+        "FactoredTotalCount",
+        "InCount",
+        "LocationGroup",
+        "OutCount",
+        "Sitename"
+      ],
+      "truth": [
+        "BRCMonthName",
+        "BRCQuarter",
+        "BRCWeek",
+        "BRCYear",
+        "BusinessInCount",
+        "BusinessOutCount",
+        "BusinessTotalCount"
+      ]
+    }
+  ]
+}

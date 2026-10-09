@@ -1,0 +1,100 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 21,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 2.977,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 30,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.8095
+  ],
+  "tokens": [
+    6726,
+    6606,
+    120
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Asus",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Micro-Star International",
+        "Microsoft",
+        "Toshiba"
+      ],
+      "truth": [
+        "Asus",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Micro-Star International",
+        "Microsoft",
+        "Toshiba"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.8095,
+      "prediction": [
+        "Toshiba",
+        "Toshiba",
+        "Toshiba",
+        "Lenovo",
+        "Dell",
+        "Lenovo",
+        "Dell",
+        "Lenovo",
+        "Lenovo",
+        "HP",
+        "HP",
+        "HP",
+        "HP",
+        "HP",
+        "HP",
+        "HP",
+        "Microsoft",
+        "Asus",
+        "Dell",
+        "Dell",
+        "Dell",
+        "Dell",
+        "Dell",
+        "Dell",
+        "Dell",
+        "Asus",
+        "Dell",
+        "Dell",
+        "Micro-Star International",
+        "Micro-Star International"
+      ],
+      "truth": [
+        "Toshiba",
+        "HP",
+        "Microsoft",
+        "Lenovo",
+        "Dell",
+        "Micro-Star International",
+        "Asus"
+      ]
+    }
+  ]
+}

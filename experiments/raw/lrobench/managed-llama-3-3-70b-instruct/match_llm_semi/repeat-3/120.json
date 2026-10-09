@@ -1,0 +1,45 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 120,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 70.411,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 27,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    22166,
+    12390,
+    9776
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [],
+      "truth": [
+        "['Gathering Place Community Centre' 'Orpheum Theatre']",
+        "['Gathering Place Community Centre' 'Vogue Theatre']",
+        "['Hastings' 'PNE Amphitheatre']",
+        "['Hastings' 'PNE Forum']"
+      ]
+    }
+  ]
+}

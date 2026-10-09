@@ -1,0 +1,56 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 202,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 4.164,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.5556,
+    1.0,
+    0.7143
+  ],
+  "tokens": [
+    237,
+    204,
+    33
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5556,
+        1.0,
+        0.7143
+      ],
+      "prediction": [
+        "eye_colour_id",
+        "full_name",
+        "gender_id",
+        "hair_colour_id",
+        "height_cm",
+        "race_id",
+        "skin_colour_id",
+        "superhero_name",
+        "weight_kg"
+      ],
+      "truth": [
+        "eye_colour_id",
+        "full_name",
+        "hair_colour_id",
+        "skin_colour_id",
+        "superhero_name"
+      ]
+    }
+  ]
+}

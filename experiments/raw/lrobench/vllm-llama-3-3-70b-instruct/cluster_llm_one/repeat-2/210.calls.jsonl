@@ -1,0 +1,13 @@
+{"key": "d29c7b5fe1d12357", "role": "operator", "t": 1790970045.032, "seconds": 1.788, "output": "[\n  { \"ward_no\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "7c42eedfe1022e7e", "role": "operator", "t": 1790970046.82, "seconds": 1.126, "output": "[\n  { \"alderman_first_name\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "84167dced077eadc", "role": "operator", "t": 1790970047.947, "seconds": 1.262, "output": "[\n  { \"alderman_last_name\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "613ac6b2a94d1e2c", "role": "operator", "t": 1790970049.209, "seconds": 0.905, "output": "[\n  { \"alderman_name_suffix\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "7c7f42e282f27207", "role": "operator", "t": 1790970050.114, "seconds": 1.517, "output": "[\n  { \"ward_office_address\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "8488982f8b66bae2", "role": "operator", "t": 1790970051.631, "seconds": 2.289, "output": "[\n  { \"ward_office_zip\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "165073963d52d73c", "role": "operator", "t": 1790970053.92, "seconds": 1.866, "output": "[\n  { \"ward_email\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "ecfa8389b230c163", "role": "operator", "t": 1790970055.786, "seconds": 3.669, "output": "[\n  { \"ward_office_phone\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "9a834f5e7515f9db", "role": "operator", "t": 1790970059.456, "seconds": 2.311, "output": "[\n  { \"ward_office_fax\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "3945d3e3a0f9c8d0", "role": "operator", "t": 1790970061.767, "seconds": 4.166, "output": "[\n  { \"city_hall_office_room\": [\"3\", \"other_info\"]}\n]"}
+{"key": "e15f8d78bb814621", "role": "operator", "t": 1790970065.933, "seconds": 1.812, "output": "[\n  { \"city_hall_office_phone\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "b38604e6bc8bfbc9", "role": "operator", "t": 1790970067.745, "seconds": 2.36, "output": "[\n  { \"city_hall_office_fax\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "29cddcb90b239dc2", "role": "operator", "t": 1790970070.106, "seconds": 1.256, "output": "[\n  { \"Population\": [\"1\", \"basic_info\"]}\n]"}

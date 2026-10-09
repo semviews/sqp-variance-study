@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 46,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 163.77,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 281,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Africa",
+      2
+    ],
+    [
+      "Asia",
+      10
+    ],
+    [
+      "Australia",
+      1
+    ],
+    [
+      "Europe",
+      7
+    ],
+    [
+      "North America",
+      7
+    ],
+    [
+      "South America",
+      1
+    ]
+  ],
+  "tokens": 86589,
+  "metrics": [],
+  "prediction": [
+    [
+      "Africa",
+      2
+    ],
+    [
+      "Asia",
+      10
+    ],
+    [
+      "Australia",
+      1
+    ],
+    [
+      "Europe",
+      7
+    ],
+    [
+      "North America",
+      7
+    ],
+    [
+      "South America",
+      1
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

@@ -1,0 +1,5 @@
+{"key": "65dfd45ef54e06da", "role": "operator", "t": 1790968883.24, "seconds": 1.846, "output": "{\"FirstPurchaseDate\": \"10/26/2012\", \"newDate\": \"10/26/2012\"}"}
+{"key": "d263586f25fc6919", "role": "operator", "t": 1790968883.243, "seconds": 2.052, "output": "{\"FirstPurchaseDate\": \"11/03/2012\", \"newDate\": \"11/03/2012\"}"}
+{"key": "9bbe449210991c0a", "role": "operator", "t": 1790968883.245, "seconds": 2.056, "output": "{\"FirstPurchaseDate\": \"01/08/2013\", \"newDate\": \"01/08/2013\"}"}
+{"key": "f96c87758acc0a62", "role": "operator", "t": 1790968883.243, "seconds": 2.06, "output": "{\"FirstPurchaseDate\": \"07/27/2013\", \"newDate\": \"07/27/2013\"}"}
+{"key": "f0e581903a62778c", "role": "operator", "t": 1790968883.244, "seconds": 2.069, "output": "{\"FirstPurchaseDate\": \"01/14/2013\", \"newDate\": \"01/14/2013\"}"}

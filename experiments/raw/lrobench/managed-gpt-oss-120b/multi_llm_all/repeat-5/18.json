@@ -1,0 +1,45 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 18,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 16.011,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 2,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Billet Road / Rose Lane",
+      "Rose Lane"
+    ],
+    [
+      "109 Bastable Avenue / Charlton Crescent",
+      "Bastable Avenue"
+    ]
+  ],
+  "tokens": 1054,
+  "metrics": [],
+  "prediction": [
+    [
+      "Billet Road / Rose Lane",
+      "Rose Lane"
+    ],
+    [
+      "109 Bastable Avenue / Charlton Crescent",
+      "Bastable Avenue"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

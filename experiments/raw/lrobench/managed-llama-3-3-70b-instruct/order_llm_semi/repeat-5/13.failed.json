@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 13,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 7.495,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 304, in pipeline_order13\n    music = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"Aura\", I need to use the Billboard chart tool.'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To provide an accurate score, I need to look up the Billboard chart performance of the song \"MANiCURE\".'",
+      "operator_calls": 9
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To evaluate the \\'The highest rank and the duration in weeks on the Billboard chart.\\' metric of the song \"Venus\", I need to use external knowledge. \"Venus\" is a song by Shocking Blue, released in 1969, and it reached number one on the Billboard Hot 100 chart. It stayed on the chart for 12 weeks. Another song with the same name by Bananarama, released in 1986, also reached number one on the Billboard Hot 100 chart and stayed for 10 weeks and 2 days",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 8,
+  "judge_calls": 0
+}

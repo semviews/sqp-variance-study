@@ -1,0 +1,13 @@
+city.state_name,player.olympic_gold_medals,team.team_name,player.college,manager.own_year,player.id,team.id,manager.id,city.id
+Michigan,0.0,Detroit Pistons,Georgia Tech,2011.0,24,9,1,23
+Michigan,0.0,Detroit Pistons,Indiana Hoosiers,2011.0,30,9,1,23
+Michigan,0.0,Detroit Pistons,Northeast Missouri State Teachers' College,2011.0,47,9,1,23
+Florida,1.0,Miami Heat,UCLA,1995.0,114,16,15,8
+Florida,0.0,Miami Heat,University of Kentucky,1995.0,118,16,15,8
+Florida,0.0,Miami Heat,"Williams College, University of Michigan",1995.0,119,16,15,8
+Michigan,0.0,Detroit Pistons,Oklahoma State,2011.0,121,9,1,23
+Florida,1.0,Miami Heat,Marquette University,1995.0,123,16,15,8
+Michigan,0.0,Detroit Pistons,Purdue,2011.0,126,9,1,23
+Florida,0.0,Miami Heat,UCLA,1995.0,134,16,15,8
+Michigan,0.0,Detroit Pistons,,2011.0,135,9,1,23
+Florida,2.0,Miami Heat,University of Kentucky,1995.0,141,16,15,8

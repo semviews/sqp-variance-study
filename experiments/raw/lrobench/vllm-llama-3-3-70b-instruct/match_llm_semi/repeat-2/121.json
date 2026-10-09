@@ -1,0 +1,63 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 121,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 663.738,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 31,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    1.0,
+    0.6667
+  ],
+  "tokens": [
+    36052,
+    14937,
+    21115
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        1.0,
+        0.6667
+      ],
+      "prediction": [
+        "['Alloga Uk Ltd' 'ALCURA UK LTD']",
+        "['Csc' 'CSC COMPUTER SCIENCES LTD']",
+        "['Medica Reporting Ltd (Medica Group)' 'MEDISOFT LTD']",
+        "['Medicspro Ltd' 'MEDISOFT LTD']",
+        "['NHS Litigation Authority' 'NHS LITIGATION AUTHORITY']",
+        "['Nhs Blood And Transplant' 'NHS BLOOD & TRANSPLANT']",
+        "['Nhs Business Services Authority' 'NHS SUPPLY CHAIN']",
+        "['Nhs Supply Chain' 'NHS SUPPLY CHAIN']",
+        "['Novartis Pharmaceuticals Uk Ltd' 'NOVARTIS PHARMACEUTICALS UK LTD']",
+        "['Philips Healthcare' 'PHILIPS HEALTHCARE']",
+        "['Roche Diagnostics Limited' 'ROCHE PRODUCTS LTD']",
+        "['St Helen & Knowsley Hospitals Nhs Trust' 'NHS SUPPLY CHAIN']",
+        "['Swft Clinical Services Ltd' 'CARE UK CLINICAL SERVICES LTD']",
+        "['Topcon (Great Britain) Ltd' 'TOPSCAN (UK) LTD']"
+      ],
+      "truth": [
+        "['Csc' 'CSC COMPUTER SCIENCES LTD']",
+        "['NHS Litigation Authority' 'NHS LITIGATION AUTHORITY']",
+        "['Nhs Blood And Transplant' 'NHS BLOOD & TRANSPLANT']",
+        "['Nhs Supply Chain' 'NHS SUPPLY CHAIN']",
+        "['Novartis Pharmaceuticals Uk Ltd' 'NOVARTIS PHARMACEUTICALS UK LTD']",
+        "['Philips Healthcare' 'PHILIPS HEALTHCARE']",
+        "['Roche Diagnostics Limited' 'ROCHE PRODUCTS LTD']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 126,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 13.952,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.619,
+    0.619,
+    0.619
+  ],
+  "tokens": [
+    1349,
+    642,
+    707
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.619,
+        0.619,
+        0.619
+      ],
+      "prediction": [
+        "['BIS Solicitors' 'Legal Services  ']",
+        "['Computer Capital' 'Information Communication Technology  ']",
+        "['Computer Hardware' 'Information Communication Technology  ']",
+        "['Computer hardware and software' 'Information Communication Technology  ']",
+        "['Courier service' 'Mail Services\u00c3\\x82\u00c2\\xa0  ']",
+        "['Fuel &Utilities' 'Vehicle Management Fuel ']",
+        "['Furniture & Fittings' 'Furniture & Soft Furnishings  ']",
+        "['IT Contractors' 'Information Communication Technology  ']",
+        "['Mainframe System Charges' 'Information Communication Technology  ']",
+        "['Maintenance of computers' 'Information Communication Technology  ']",
+        "['Minor Building Works & Maintenance'\n 'Works - Construction, Repair & Maintenance  ']",
+        "['Office Supplies' 'Stationery    ']",
+        "['Online Bureau Charges' 'Information Communication Technology  ']",
+        "['Other Stationery & General Supplies' 'Stationery    ']",
+        "['Paper' 'Stationery    ']",
+        "['Postage' 'Mail Services\u00c3\\x82\u00c2\\xa0  ']",
+        "['Seminars and Conferences' 'Human Resources Training & Conferences ']",
+        "['Training' 'Human Resources Training & Conferences ']",
+        "['Travel and subsistence Overseas' 'Human Resources Travel & Subsistence ']",
+        "['Travel and subsistence UK' 'Human Resources Travel & Subsistence ']",
+        "['Treasury Solicitors' 'Legal Services  ']"
+      ],
+      "truth": [
+        "['BIS Solicitors' 'Legal Services  ']",
+        "['Books  Newspapers & Publications' 'Education Library Books ']",
+        "['Books Newspapers & Publications' 'Education Library Books ']",
+        "['Computer Capital' 'Information Communication Technology  ']",
+        "['Courier service' 'Mail Services\u00c3\\x82\u00c2\\xa0  ']",
+        "['Fuel &Utilities' 'Vehicle Management Fuel ']",
+        "['Furniture & Fittings' 'Furniture & Soft Furnishings  ']",
+        "['Law Reporting' 'Legal Services  ']",
+        "['Minor Building Works & Maintenance'\n 'Works - Construction, Repair & Maintenance  ']",
+        "['Office Cleaning' 'Facilities & Management Services  ']",
+        "['Other Stationery & General Supplies' 'Stationery    ']",
+        "['Payroll Costs' 'Human Resources  ']",
+        "['Postage' 'Mail Services\u00c3\\x82\u00c2\\xa0  ']",
+        "['Recruitment Advertising' 'Human Resources  ']",
+        "['Security Guards' 'Facilities & Management Services  ']",
+        "['Seminars and Conferences' 'Human Resources Training & Conferences ']",
+        "['Training' 'Human Resources Training & Conferences ']",
+        "['Travel and subsistence Overseas' 'Human Resources Travel & Subsistence ']",
+        "['Travel and subsistence UK' 'Human Resources Travel & Subsistence ']",
+        "['Treasury Solicitors' 'Legal Services  ']",
+        "['Van Delivery Service' 'Mail Services\u00c3\\x82\u00c2\\xa0  ']"
+      ]
+    }
+  ]
+}

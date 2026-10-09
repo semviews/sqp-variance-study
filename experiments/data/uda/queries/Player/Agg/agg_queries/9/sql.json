@@ -1,0 +1,9 @@
+{
+  "sql": "/* Query 9: aggregation (manager) */ SELECT nationality, COUNT(*) AS count_all FROM manager GROUP BY nationality",
+  "manager": {
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality is the nationality of the team owner (e.g. American)."
+    }
+  }
+}

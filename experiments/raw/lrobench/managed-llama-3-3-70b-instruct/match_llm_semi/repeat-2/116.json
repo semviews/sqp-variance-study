@@ -1,0 +1,81 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 116,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 3.432,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 18,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.7727,
+    0.8718
+  ],
+  "tokens": [
+    2278,
+    2253,
+    25
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.7727,
+        0.8718
+      ],
+      "prediction": [
+        "['Baffin Island' 'America']",
+        "['Banks Island' 'America']",
+        "['Borneo' 'Asia']",
+        "['Cuba' 'America']",
+        "['Great Britain' 'Europe']",
+        "['Hispaniola' 'America']",
+        "['Hokkaido' 'Asia']",
+        "['Honshu' 'Asia']",
+        "['Ireland' 'Europe']",
+        "['Java' 'Asia']",
+        "['Luzon' 'Asia']",
+        "['Mindanao' 'Asia']",
+        "['Sulawesi' 'Asia']",
+        "['Sumatra' 'Asia']",
+        "['Te Ika-a-Maui (North Island)' 'Australia/Oceania']",
+        "['Te Waka-a-Maui (South Island)' 'Australia/Oceania']",
+        "['Victoria Island' 'Africa']"
+      ],
+      "truth": [
+        "['Baffin Island' 'America']",
+        "['Banks Island' 'America']",
+        "['Borneo' 'Asia']",
+        "['Cuba' 'America']",
+        "['Cuba' 'Australia/Oceania']",
+        "['Ellesmere Island' 'America']",
+        "['Great Britain' 'Australia/Oceania']",
+        "['Great Britain' 'Europe']",
+        "['Hispaniola' 'America']",
+        "['Hokkaido' 'Asia']",
+        "['Honshu' 'Asia']",
+        "['Ireland' 'Europe']",
+        "['Java' 'America']",
+        "['Java' 'Asia']",
+        "['Luzon' 'Asia']",
+        "['Mindanao' 'Asia']",
+        "['Sulawesi' 'Asia']",
+        "['Sumatra' 'Asia']",
+        "['Te Ika-a-Maui (North Island)' 'Australia/Oceania']",
+        "['Te Waka-a-Maui (South Island)' 'Australia/Oceania']",
+        "['Victoria Island' 'Africa']",
+        "['Victoria Island' 'America']"
+      ]
+    }
+  ]
+}

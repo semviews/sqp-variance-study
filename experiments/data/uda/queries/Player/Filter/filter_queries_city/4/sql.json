@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 4: 4 (city) */ SELECT gdp, area, state_name FROM city WHERE area >= 976.15 AND state_name <> 'Oregon' AND area = 375.78 AND population = '808988'",
+  "city": {
+    "area": {
+      "value_type": "float",
+      "description": "area is the area of the city in square kilometers (e.g. 89.64)."
+    },
+    "gdp": {
+      "value_type": "str",
+      "description": "gdp is the gross domestic product of the city in millions (e.g. 7.2)."
+    },
+    "state_name": {
+      "value_type": "str",
+      "description": "state_name is the name of the state the city is located in (e.g. California)."
+    }
+  }
+}

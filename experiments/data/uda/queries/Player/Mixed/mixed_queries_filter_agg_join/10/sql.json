@@ -1,0 +1,15 @@
+{
+  "sql": "/* Query 10: filter5_agg1_join2 (player, team, city, manager) */ SELECT player.team, SUM(city.area) AS sum_city_area FROM player JOIN team ON player.team = team.team_name JOIN manager ON team.ownership = manager.name JOIN city ON team.location = city.city_name WHERE player.draft_year <= 2005 OR player.position = 'Backcourt' OR player.draft_pick <= 41 GROUP BY player.team",
+  "player": {
+    "team": {
+      "value_type": "str",
+      "description": "the current NBA team the player belongs to, or the last NBA team the player joined if not currently active (e.g., Los Angeles Lakers)."
+    }
+  },
+  "city": {
+    "area": {
+      "value_type": "float",
+      "description": "area is the area of the city in square kilometers (e.g. 89.64)."
+    }
+  }
+}

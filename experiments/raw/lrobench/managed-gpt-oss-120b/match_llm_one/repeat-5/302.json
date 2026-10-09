@@ -1,0 +1,54 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 302,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 2,
+  "seconds": 20.655,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '**Solution (Python\\xa03)**\\n\\n```python\\nimport sys, json, re\\n\\ndef read_input():\\n    data = [line.rstrip(\\'\\\\n\\') for line in sys.stdin if line.strip()!=\\'\\']\\n    if len(data) < 2:\\n        retur",
+      "operator_calls": 82
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 95,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    0.5,
+    0.5714
+  ],
+  "tokens": [
+    8579,
+    8484,
+    95
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        0.5,
+        0.5714
+      ],
+      "prediction": [
+        "['Geo Local Area' 'GeoLocalArea']",
+        "['Geo Local Area' 'LocationOnsite']",
+        "['Geom' 'Geom']"
+      ],
+      "truth": [
+        "['ADDRESS' 'SiteAddress']",
+        "['Geo Local Area' 'GeoLocalArea']",
+        "['Geom' 'Geom']",
+        "['URLLINK' 'URL']"
+      ]
+    }
+  ]
+}

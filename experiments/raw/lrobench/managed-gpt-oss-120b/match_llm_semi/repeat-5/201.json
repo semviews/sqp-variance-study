@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 201,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 2,
+  "seconds": 27.806,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "TypeError: object of type 'NoneType' has no len()",
+      "operator_calls": 17
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 17,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    36207,
+    35115,
+    1092
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['36' '1109']",
+        "['404' '1303']",
+        "['546' '929']",
+        "['589' '1272']",
+        "['650' '163']",
+        "['86' '763']"
+      ],
+      "truth": [
+        "['36' '1109']",
+        "['404' '1303']",
+        "['546' '929']",
+        "['589' '1272']",
+        "['650' '163']",
+        "['86' '763']"
+      ]
+    }
+  ]
+}

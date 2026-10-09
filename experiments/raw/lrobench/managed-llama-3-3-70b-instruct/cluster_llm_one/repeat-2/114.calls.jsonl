@@ -1,0 +1,5 @@
+{"key": "2ba28a1b28698434", "role": "operator", "t": 1790968664.726, "seconds": 1.951, "output": "[\n  {\"index\":\"31505\", \"cluster_name\": \"French\", \"cluster_label\": \"1\"}\n]"}
+{"key": "e0bde1b9cbdba979", "role": "operator", "t": 1790968666.677, "seconds": 1.145, "output": "[{\"index\":\"61\", \"cluster_name\": \"Other\", \"cluster_label\": \"2\"}]"}
+{"key": "84b3bc59dfc01922", "role": "operator", "t": 1790968667.822, "seconds": 1.192, "output": "[{\"index\":\"100452\", \"cluster_name\": \"French\", \"cluster_label\": \"1\"}]"}
+{"key": "87293b351367ac0f", "role": "operator", "t": 1790968669.014, "seconds": 1.174, "output": "[{\"index\":\"21814\", \"cluster_name\": \"French\", \"cluster_label\": \"1\"}]"}
+{"key": "162112fb1790ea71", "role": "operator", "t": 1790968670.188, "seconds": 1.541, "output": "{\"function\": \"assign_cluster\", \"params\": {\"row\": {\"index\": 199194, \"name\": \"luso\"}, \"existing_clusters\": {\"1\": \"French\", \"2\": \"Other\"}}}"}

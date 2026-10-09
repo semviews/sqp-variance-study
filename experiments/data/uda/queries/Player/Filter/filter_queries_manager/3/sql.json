@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 3: 3 (manager) */ SELECT age, name, nationality FROM manager WHERE age < 65 OR nationality <> 'Israeli-American'",
+  "manager": {
+    "age": {
+      "value_type": "int",
+      "description": "age is the age of the team owner, a integer (e.g. 45)."
+    },
+    "name": {
+      "value_type": "str",
+      "description": "name is the full name of the team owner (e.g. Jeanie Buss)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality is the nationality of the team owner (e.g. American)."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 111,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 4.839,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 22,
+  "judge_calls": 0,
+  "returned": [
+    0.5556,
+    0.625,
+    0.5882
+  ],
+  "tokens": [
+    3102,
+    3080,
+    22
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5556,
+        0.625,
+        0.5882
+      ],
+      "prediction": [
+        "['Eataly NYC']",
+        "['Grimaldi\u00e2\\x80\\x99s']",
+        "['Ippudo NY']",
+        "['Joe\u00e2\\x80\\x99s Shanghai']",
+        "['Katz\u00e2\\x80\\x99s Delicatessen']",
+        "['Lombardi\u00e2\\x80\\x99s Pizza']",
+        "['Peter Luger Steak House']",
+        "['The Halal Guys']",
+        "['Totto Ramen']"
+      ],
+      "truth": [
+        "['Eataly NYC']",
+        "['Ippudo NY']",
+        "['Joe\u2019s Shanghai']",
+        "['Katz\u2019s Delicatessen']",
+        "['Lombardi\u2019s Pizza']",
+        "['Peter Luger Steak House']",
+        "['The Halal Guys']",
+        "['Totto Ramen']"
+      ]
+    }
+  ]
+}

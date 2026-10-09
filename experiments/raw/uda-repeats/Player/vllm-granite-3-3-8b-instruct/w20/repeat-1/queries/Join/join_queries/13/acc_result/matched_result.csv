@@ -1,0 +1,38 @@
+city.population,player.position,city.city_name,team.founded_year,player.name,player.id,team.id,city.id
+"The population of San Francisco, as of the 2020 United States census, is 873,965.",Backcourt,San Francisco,1946,Buddy Hield,100,10,11
+"Population: 3,820,914 || 12.8 million (metropolitan area)",Backcourt,Los Angeles,1946,D'Angelo Russell,101,14,6
+"The population of Dallas, as provided in the context, is 1,304,379 according to the 2020 United States census.",Frontcourt,Dallas,1980,Kyrie Irving,104,7,4
+675647,Frontcourt,Boston,1946,Jayson Christopher Tatum,105,2,2
+"The population of San Francisco, as of the 2020 United States census, is 873,965.",Frontcourt,San Francisco,1946,Andrew Christian Wiggins,107,10,11
+"The population of Sacramento, as reported in the 2020 United States Census, is 524,943.",Frontcourt,Sacramento,1923,William Derek Grimm,11,26,22
+675647,Frontcourt,Boston,1946,Jaylen Brown,110,2,2
+"The population of San Antonio, according to the 2020 U.S. Census, is 1,434,625.",Frontcourt,San Antonio,1967,Victor Wembanyama,111,27,5
+675647,Backcourt,Boston,1946,Jrue Holiday,112,2,2
+"Population: 3,820,914 || 12.8 million (metropolitan area)",Frontcourt,Los Angeles,1946,Austin Reaves,113,14,6
+442241,Frontcourt,Miami,1988,Kevin Love,114,16,8
+577222,Frontcourt,Milwaukee,1968,Giannis Sina Ugo Antetokounmpo,115,17,28
+"The population of San Francisco, as of the 2020 United States census, is 873,965.",Backcourt,San Francisco,1946,Stephen Curry,116,10,11
+675647,Frontcourt,Boston,1946,Al Horford,117,2,2
+442241,Frontcourt,Miami,1988,Tyler Christopher Herro,118,16,8
+442241,Frontcourt,Miami,1988,Duncan Robinson,119,16,8
+"Population: 3,820,914 || 12.8 million (metropolitan area)",Frontcourt,Los Angeles,1946,Anthony Davis,12,14,6
+"The population of San Francisco, as of the 2020 United States census, is 873,965.",Frontcourt,San Francisco,1946,Kyle Anderson,120,10,11
+"Population: 3,820,914 || 12.8 million (metropolitan area)",Frontcourt,Los Angeles,1946,LeBron James,122,14,6
+442241,Frontcourt,Miami,1988,Jimmy Butler,123,16,8
+"The population of San Francisco, as of the 2020 United States census, is 873,965.",Frontcourt,San Francisco,1946,Kevon Grant Looney,124,10,11
+"Population: 1,608,139 || 1,445,632 (2010) || 1,512,986 (2006)",Frontcourt,Phoenix,1968,Devin Booker,129,24,18
+"The population of San Francisco, as of the 2020 United States census, is 873,965.",Frontcourt,San Francisco,1946,Draymond Green,130,10,11
+"The population of San Antonio, according to the 2020 U.S. Census, is 1,434,625.",Frontcourt,San Antonio,1967,Zach Collins,131,27,5
+"The population of San Francisco, as of the 2020 United States census, is 873,965.",Frontcourt,San Francisco,1946,Jonathan Malangu Kuminga,132,10,11
+442241,Frontcourt,Miami,1988,Jaime Jaquez Jr.,134,16,8
+"The population of San Antonio, according to the 2020 U.S. Census, is 1,434,625.",Backcourt,San Antonio,1967,Chris Paul,139,27,5
+"The population of San Antonio, according to the 2020 U.S. Census, is 1,434,625.",Frontcourt,San Antonio,1967,Harrison Barnes,140,27,5
+442241,Frontcourt,Miami,1988,"Edrice Femi ""Bam"" Adebayo",141,16,8
+"The population of San Antonio, according to the 2020 U.S. Census, is 1,434,625.",Frontcourt,San Antonio,1967,Tim Duncan,38,27,5
+887642,Frontcourt,Indianapolis,1967,Rik Smits,45,12,3
+"The population of Minneapolis, as of the 2020 census, is 429,954.",Backcourt,Minneapolis,1989,Anthony Edwards,46,18,7
+"Population: 1,608,139 || 1,445,632 (2010) || 1,512,986 (2006)",Frontcourt,Phoenix,1968,Kevin Durant,54,24,18
+Population: 633104 || 1316100,Frontcourt,Memphis,1995,Lamar Brandon Stevens,63,15,24
+887642,Frontcourt,Indianapolis,1967,Gregory Clinton Foster,70,12,3
+**Population:** 200133,Backcourt,Salt Lake City,1974,Eric Johnson Jones,96,29,16
+"The population of San Francisco, as of the 2020 United States census, is 873,965.",Frontcourt,San Francisco,1946,Trayce Jackson-Davis,98,10,11

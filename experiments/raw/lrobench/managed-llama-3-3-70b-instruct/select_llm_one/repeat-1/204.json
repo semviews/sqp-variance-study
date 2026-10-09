@@ -1,0 +1,59 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 204,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 2,
+  "seconds": 36.057,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the 'Tags' column might have a date field, we should ideally inspect the values within this column for any date patterns or formats. However, without specific examples or values",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 21,
+  "judge_calls": 0,
+  "returned": [
+    0.7143,
+    1.0,
+    0.8333
+  ],
+  "tokens": [
+    2809,
+    2788,
+    21
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.7143,
+        1.0,
+        0.8333
+      ],
+      "prediction": [
+        "Body",
+        "ClosedDate",
+        "CommunityOwnedDate",
+        "CreaionDate",
+        "LasActivityDate",
+        "LastEditDate",
+        "Title"
+      ],
+      "truth": [
+        "ClosedDate",
+        "CommunityOwnedDate",
+        "CreaionDate",
+        "LasActivityDate",
+        "LastEditDate"
+      ]
+    }
+  ]
+}

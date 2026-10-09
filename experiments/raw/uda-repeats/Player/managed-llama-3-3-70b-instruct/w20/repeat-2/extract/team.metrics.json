@@ -1,0 +1,21 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "team",
+  "attributes": [
+    "championship",
+    "founded_year",
+    "location",
+    "ownership",
+    "team_name"
+  ],
+  "model": "openai/managed-llama-3-3-70b-instruct",
+  "workers": 20,
+  "repeat": 2,
+  "calls": 150,
+  "documents": 30,
+  "transient_retries": 0,
+  "failed_calls": 0,
+  "seconds": 122.382,
+  "prompt_tokens": 2104850
+}

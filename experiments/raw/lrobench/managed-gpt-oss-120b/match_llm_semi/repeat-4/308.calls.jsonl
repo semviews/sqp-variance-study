@@ -1,0 +1,6 @@
+{"key": "8b2526db7fa33876", "role": "operator", "t": 1790985872.463, "seconds": 2.242, "output": "ArtistID"}
+{"key": "dc3458733e721b3d", "role": "operator", "t": 1790985874.706, "seconds": 2.032, "output": "FirstName"}
+{"key": "a3a3c44949748004", "role": "operator", "t": 1790985876.738, "seconds": 6.615, "output": "Biography"}
+{"key": "f428e63b9d3d6416", "role": "operator", "t": 1790985883.353, "seconds": 1.44, "output": ""}
+{"key": "42ef0d1ecdc2ea24", "role": "operator", "t": 1790985884.793, "seconds": 1.706, "output": "ArtistID"}
+{"key": "aab3dd9e77e70270", "role": "operator", "t": 1790985886.499, "seconds": 1.772, "output": "Biography"}

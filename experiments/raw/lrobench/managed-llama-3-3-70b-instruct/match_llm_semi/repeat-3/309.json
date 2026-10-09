@@ -1,0 +1,67 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 17.587,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 19,
+  "judge_calls": 0,
+  "returned": [
+    0.2105,
+    0.6667,
+    0.32
+  ],
+  "tokens": [
+    2675,
+    2631,
+    44
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.2105,
+        0.6667,
+        0.32
+      ],
+      "prediction": [
+        "['FOOD_TREE_VARIETIES' 'DetailURL']",
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['JURISDICTION' 'Geo Local Area']",
+        "['MAPID' 'Geom']",
+        "['MERGED_ADDRESS' 'Street']",
+        "['NAME' 'BUSINESSOPERATOR']",
+        "['NOTES' 'DetailURL']",
+        "['NUMBER_OF_FOOD_TREES' 'TOTALOUTSTANDING']",
+        "['NUMBER_OF_PLOTS' 'TotalUnits']",
+        "['OTHER_FOOD_ASSETS' 'TOTALOUTSTANDING']",
+        "['PUBLIC_E_MAIL' 'DetailURL']",
+        "['STEWARD_OR_MANAGING_ORGANIZATION' 'BUSINESSOPERATOR']",
+        "['STREET_DIRECTION' 'Street']",
+        "['STREET_NAME' 'Street']",
+        "['STREET_NUMBER' 'StreetNumber']",
+        "['STREET_TYPE' 'Street']",
+        "['WEBSITE' 'DetailURL']",
+        "['YEAR_CREATED' 'TOTALOUTSTANDING']"
+      ],
+      "truth": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'BUSINESSOPERATOR']",
+        "['STREET_NAME' 'StreetNumber']",
+        "['STREET_NUMBER' 'Street']",
+        "['WEBSITE' 'DetailURL']"
+      ]
+    }
+  ]
+}

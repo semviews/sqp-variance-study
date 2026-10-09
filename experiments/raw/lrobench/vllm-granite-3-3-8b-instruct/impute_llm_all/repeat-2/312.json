@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 312,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 7.994,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.2,
+    0.4
+  ],
+  "tokens": [
+    234,
+    188,
+    46
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.2,
+      "prediction": [
+        "unknown",
+        "Wang Chuqin",
+        "male",
+        "unknown",
+        "unknown"
+      ],
+      "truth": [
+        "135572",
+        "Wang Chuqin",
+        "M",
+        "182",
+        "67"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.4,
+      "prediction": [
+        "unknown",
+        "Wang Chuqin",
+        "male",
+        "unknown",
+        "unknown"
+      ],
+      "truth": [
+        "135572",
+        "Wang Chuqin",
+        "M",
+        "182",
+        "67"
+      ]
+    }
+  ]
+}

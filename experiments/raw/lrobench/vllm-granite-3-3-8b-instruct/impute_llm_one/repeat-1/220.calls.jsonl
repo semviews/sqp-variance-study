@@ -1,0 +1,18 @@
+{"key": "3bd1f2eda305b7aa", "role": "operator", "t": 1790964748.152, "seconds": 1.451, "output": "[\n  {\"sport_name\": \"Athletics\", \"year\": 1896}\n]"}
+{"key": "09a6b53f0e42baf3", "role": "operator", "t": 1790964748.151, "seconds": 1.466, "output": "[\n  {\"sport_name\": \"Alpinism\", \"year\": 1924}\n]"}
+{"key": "42c8db8e0d38c2de", "role": "operator", "t": 1790964748.151, "seconds": 1.468, "output": "[\n  {\"sport_name\": \"Archery\", \"year\": 1900}\n]"}
+{"key": "75cda647a54a52c6", "role": "operator", "t": 1790964748.154, "seconds": 1.476, "output": "[\n  {\"sport_name\": \"Basketball\", \"year\": 1936}\n]"}
+{"key": "7a396877c05febe7", "role": "operator", "t": 1790964748.153, "seconds": 1.479, "output": "[\n  {\"sport_name\": \"Baseball\", \"year\": 1992}\n]"}
+{"key": "03ec147c3410c599", "role": "operator", "t": 1790964748.155, "seconds": 1.557, "output": "[\n  {\n    \"sport_name\": \"Basque Pelota\",\n    \"year\": 1920\n  }\n]"}
+{"key": "c20d7fd69918e71b", "role": "operator", "t": 1790964748.152, "seconds": 2.132, "output": "[\n  {\n    \"sport_name\": \"Art Competitions\",\n    \"year\": 1912\n  }\n]"}
+{"key": "f834d7fbc8c9cec7", "role": "operator", "t": 1790964748.153, "seconds": 2.135, "output": "[\n  {\n    \"sport_name\": \"Badminton\",\n    \"year\": 1992\n  }\n]"}
+{"key": "74a56e0cae087a31", "role": "operator", "t": 1790964748.15, "seconds": 2.151, "output": "[\n  {\n    \"sport_name\": \"Alpine Skiing\",\n    \"year\": 1936\n  }\n]"}
+{"key": "326689d362dd0374", "role": "operator", "t": 1790964748.15, "seconds": 4.356, "output": "The sport \"Aeronautics\" was never an official Olympic sport. However, for the purpose of this task, we can infer the first year it might have been considered or included based on historical context. Aeronautics-related events, such as early aviation competitions, began appearing in international sports events around the early 20th century. The first modern Olympic Games were held in 1896, and aviation-related events started being featured in the early 1900s, notably in the 1900 Paris Olympics with ballooning and gliding events. Therefore, we can reasonably impute the year 1900 as the first year a form of aeronautics was included in the Olympics, even if it was not a standalone sport.\n\n```json\n[\n  {\"sport_name\": \"Aeronautics\", \"year\": 1900}\n]\n```"}
+{"key": "2d7c5e53790a6b94", "role": "operator", "t": 1790964749.712, "seconds": 2.795, "output": "[\n  {\"sport_name\": \"Biathlon\", \"year\": 1960}\n]"}
+{"key": "4888d8b90b694306", "role": "operator", "t": 1790964749.712, "seconds": 2.797, "output": "[\n  {\"sport_name\": \"Boxing\", \"year\": 1904}\n]"}
+{"key": "14759b7f60a96827", "role": "operator", "t": 1790964749.712, "seconds": 2.799, "output": "[\n  {\"sport_name\": \"Cricket\", \"year\": 1900}\n]"}
+{"key": "f201004124a0a5f1", "role": "operator", "t": 1790964749.712, "seconds": 2.801, "output": "[\n  {\n    \"sport_name\": \"Bobsleigh\",\n    \"year\": 1924\n  }\n]"}
+{"key": "a84cbbe57c10d79f", "role": "operator", "t": 1790964749.712, "seconds": 2.803, "output": "[\n  {\"sport_name\": \"Canoeing\", \"year\": 1936}\n]"}
+{"key": "6d103a256e883734", "role": "operator", "t": 1790964750.288, "seconds": 2.234, "output": "[\n  {\n    \"sport_name\": \"Cross Country Skiing\",\n    \"year\": 1924\n  }\n]"}
+{"key": "54143996529fcefe", "role": "operator", "t": 1790964750.288, "seconds": 2.236, "output": "[\n  {\n    \"sport_name\": \"Croquet\",\n    \"year\": 1900\n  }\n]"}
+{"key": "42a15b2d4342a6e8", "role": "operator", "t": 1790964749.605, "seconds": 2.921, "output": "[\n  {\n    \"sport_name\": \"Beach Volleyball\",\n    \"year\": 1996\n  }\n]"}

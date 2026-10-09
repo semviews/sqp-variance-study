@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 126,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 23.147,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    0.1905,
+    0.2963
+  ],
+  "tokens": [
+    1466,
+    642,
+    824
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        0.1905,
+        0.2963
+      ],
+      "prediction": [
+        "['Seminars and Conferences' 'Human Resources Training & Conferences ']",
+        "['Training' 'Human Resources Training & Conferences ']",
+        "['Travel and subsistence Overseas'\n 'Human Resources Travel & Subsistence Taxi Fares']",
+        "['Travel and subsistence Overseas' 'Human Resources Travel & Subsistence ']",
+        "['Travel and subsistence UK'\n 'Human Resources Travel & Subsistence Taxi Fares']",
+        "['Travel and subsistence UK' 'Human Resources Travel & Subsistence ']"
+      ],
+      "truth": [
+        "['BIS Solicitors' 'Legal Services  ']",
+        "['Books  Newspapers & Publications' 'Education Library Books ']",
+        "['Books Newspapers & Publications' 'Education Library Books ']",
+        "['Computer Capital' 'Information Communication Technology  ']",
+        "['Courier service' 'Mail Services\u00c3\\x82\u00c2\\xa0  ']",
+        "['Fuel &Utilities' 'Vehicle Management Fuel ']",
+        "['Furniture & Fittings' 'Furniture & Soft Furnishings  ']",
+        "['Law Reporting' 'Legal Services  ']",
+        "['Minor Building Works & Maintenance'\n 'Works - Construction, Repair & Maintenance  ']",
+        "['Office Cleaning' 'Facilities & Management Services  ']",
+        "['Other Stationery & General Supplies' 'Stationery    ']",
+        "['Payroll Costs' 'Human Resources  ']",
+        "['Postage' 'Mail Services\u00c3\\x82\u00c2\\xa0  ']",
+        "['Recruitment Advertising' 'Human Resources  ']",
+        "['Security Guards' 'Facilities & Management Services  ']",
+        "['Seminars and Conferences' 'Human Resources Training & Conferences ']",
+        "['Training' 'Human Resources Training & Conferences ']",
+        "['Travel and subsistence Overseas' 'Human Resources Travel & Subsistence ']",
+        "['Travel and subsistence UK' 'Human Resources Travel & Subsistence ']",
+        "['Treasury Solicitors' 'Legal Services  ']",
+        "['Van Delivery Service' 'Mail Services\u00c3\\x82\u00c2\\xa0  ']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 1,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 17.026,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 110,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    24850,
+    24740,
+    110
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "England",
+        "France",
+        "Germany",
+        "Italy",
+        "Spain"
+      ],
+      "truth": [
+        "England",
+        "France",
+        "Germany",
+        "Italy",
+        "Spain"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "Germany",
+        "France",
+        "Italy",
+        "England",
+        "Spain"
+      ],
+      "truth": [
+        "Germany",
+        "France",
+        "Italy",
+        "England",
+        "Spain"
+      ]
+    }
+  ]
+}

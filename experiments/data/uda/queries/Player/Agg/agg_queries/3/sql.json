@@ -1,0 +1,13 @@
+{
+  "sql": "/* Query 3: aggregation (player) */ SELECT position, AVG(age) AS avg_age FROM player GROUP BY position",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "position": {
+      "value_type": "str",
+      "description": "player's primary position on the team; choose one from ['Frontcourt', 'Backcourt']."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 119,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 8.947,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tokens": [
+    4191,
+    2437,
+    1754
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "prediction": [],
+      "truth": [
+        "['Chan Centre for The Performing Art - Concert Hall' '127']",
+        "['Chan Centre for The Performing Art - Concert Hall' '132']",
+        "['Chan Centre for The Performing Art - Concert Hall' '133']",
+        "['Chan Centre for The Performing Art, The- Concert Hall' '127']",
+        "['Chan Centre for The Performing Art, The- Concert Hall' '132']",
+        "['Chan Centre for The Performing Art, The- Concert Hall' '133']",
+        "['Orpheum Theatre' '113']",
+        "['Queen Elizabeth Theatre' '113']",
+        "['Rogers Arena' '113']",
+        "['St Andrews-Wesley United Church' '113']",
+        "['St. Andrews-Wesley United Church' '113']",
+        "['UBC Thunderbird Arena' '127']",
+        "['UBC Thunderbird Arena' '132']",
+        "['UBC Thunderbird Arena' '133']",
+        "['Vogue Theatre' '113']"
+      ]
+    }
+  ]
+}

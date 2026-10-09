@@ -1,0 +1,51 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 314,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 2.178,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.8,
+    1.0,
+    0.8889
+  ],
+  "tokens": [
+    1380,
+    1353,
+    27
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8,
+        1.0,
+        0.8889
+      ],
+      "prediction": [
+        "AwardsCoaches",
+        "AwardsPlayers",
+        "Coaches",
+        "Goalies",
+        "Master"
+      ],
+      "truth": [
+        "AwardsCoaches",
+        "AwardsPlayers",
+        "Coaches",
+        "Master"
+      ]
+    }
+  ]
+}

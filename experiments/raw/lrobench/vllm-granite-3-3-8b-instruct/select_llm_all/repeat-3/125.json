@@ -1,0 +1,57 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 125,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 2.868,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.625,
+    0.7143,
+    0.6667
+  ],
+  "tokens": [
+    844,
+    725,
+    119
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.625,
+        0.7143,
+        0.6667
+      ],
+      "prediction": [
+        "['Beagle']",
+        "['Cat - DLH Tabby']",
+        "['Cat - DMH Tortie/Tabby']",
+        "['Cat - DSH American']",
+        "['Cat - DSH Bengal']",
+        "['Cat - DSH Tabby']",
+        "['Eng. Bulldog']",
+        "['Terrier']"
+      ],
+      "truth": [
+        "['Cat - DLH Tabby']",
+        "['Cat - DMH Tortie/Tabby']",
+        "['Cat - DSH Abyssinian']",
+        "['Cat - DSH Tabby']",
+        "['Eng. Bulldog']",
+        "['Shepherd X']",
+        "['Terrier']"
+      ]
+    }
+  ]
+}

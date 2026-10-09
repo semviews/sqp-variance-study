@@ -1,0 +1,5 @@
+{"key": "be224ce839d9d880", "role": "operator", "t": 1790991620.365, "seconds": 1.365, "output": "STREET"}
+{"key": "ad985d80d6d550cb", "role": "operator", "t": 1790991621.73, "seconds": 0.523, "output": "CLASSIFICATION"}
+{"key": "06df2f507aca5d6c", "role": "operator", "t": 1790991622.253, "seconds": 0.423, "output": "NAME"}
+{"key": "bca63c23ee6aa507", "role": "operator", "t": 1790991622.676, "seconds": 2.733, "output": "Geom does not seem to match any of the provided column names in Table Right. However, considering the context of \"Geom\" which could be short for \"Geometry\", it might be related to location. Among the provided options, the closest match to location-based information would be columns like STREET, CITY, STATE, ZIP, or possibly others that could indirectly relate to geometry in a broader sense, such as coordinates or spatial data. But since none directly say \"Geom\" or explicitly refer to geometric data, and given the constraint to choose the most similar type of information, one might consider location-based columns. \n\nSTREET"}
+{"key": "b4f7ae0aaa1f2772", "role": "operator", "t": 1790991625.409, "seconds": 0.527, "output": "CITY"}

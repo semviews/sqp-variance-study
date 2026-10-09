@@ -1,0 +1,9 @@
+{"key": "4148686dbf6432dd", "role": "operator", "t": 1790980874.548, "seconds": 1.801, "output": "{\"Amount\": \"68\", \"Price\": \"1560.0\", \"UnitPrice\": \"23.0\"}"}
+{"key": "15939856dcb8c5ed", "role": "operator", "t": 1790980874.548, "seconds": 1.936, "output": "{\"Amount\": \"43\", \"Price\": \"1122.27\", \"UnitPrice\": \"26.07\"}"}
+{"key": "bddc87d53d82dfe1", "role": "operator", "t": 1790980874.55, "seconds": 1.937, "output": "{\"Amount\": \"47\", \"Price\": \"1090.42\", \"UnitPrice\": \"23.23\"}"}
+{"key": "0ab034a64c33dfb2", "role": "operator", "t": 1790980874.549, "seconds": 1.943, "output": "{\"Amount\": \"91\", \"Price\": \"2146.3\", \"UnitPrice\": \"23.55\"}"}
+{"key": "1973ccf5abe35cb6", "role": "operator", "t": 1790980874.55, "seconds": 2.102, "output": "{\"Amount\": \"46\", \"Price\": \"1040.87\", \"UnitPrice\": \"22.63\"}"}
+{"key": "b5fc383d749d524d", "role": "operator", "t": 1790980874.548, "seconds": 2.179, "output": "{\"Amount\": \"65\", \"Price\": \"1486.38\", \"UnitPrice\": \"22.86\"}"}
+{"key": "000082eae6eba13b", "role": "operator", "t": 1790980874.549, "seconds": 2.184, "output": "${calculate_unit_price '{\"Amount\": \"126\", \"Price\": \"2841.16\", \"UnitPrice\": null}'}"}
+{"key": "2074a16118cc9c34", "role": "operator", "t": 1790980874.547, "seconds": 2.19, "output": "{\"Amount\": \"48\", \"Price\": \"1103.64\", \"UnitPrice\": \"23.00\"}"}
+{"key": "6555654937b891e9", "role": "operator", "t": 1790980874.546, "seconds": 2.278, "output": "{\"Amount\": \"264\", \"Price\": \"5762.49\", \"UnitPrice\": \"21.8\"}"}

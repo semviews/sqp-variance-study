@@ -1,0 +1,13 @@
+{"key": "f33eb0dceb60964a", "role": "operator", "t": 1790991166.632, "seconds": 1.551, "output": "Bastable Avenue"}
+{"key": "56cbfe87ee95a20e", "role": "operator", "t": 1790991166.633, "seconds": 1.578, "output": "Bastable Avenue"}
+{"key": "ff8d72bb20fca1f1", "role": "operator", "t": 1790991166.634, "seconds": 2.271, "output": "None of the values in 'right_address1' match '48-50 Crown Street' as they are all different street locations, therefore the matched value is an empty string."}
+{"key": "6a2b7a58b74b469e", "role": "operator", "t": 1790991166.634, "seconds": 2.275, "output": "No matched value exists, return an empty string."}
+{"key": "6237f30426512231", "role": "operator", "t": 1790991166.632, "seconds": 2.278, "output": "255 High Road"}
+{"key": "3c71f500593a2117", "role": "operator", "t": 1790991166.634, "seconds": 2.278, "output": "Collier Row Road"}
+{"key": "983d9f60d5c9f533", "role": "operator", "t": 1790991166.635, "seconds": 2.278, "output": "Becontree Avenue"}
+{"key": "c9c9cb911316304f", "role": "operator", "t": 1790991166.633, "seconds": 2.28, "output": "Rose Lane"}
+{"key": "5e31cc3c74bd177c", "role": "operator", "t": 1790991166.633, "seconds": 2.283, "output": "None of the values in 'right_address1' match '15 Longbridge Road' as they are all different street names, therefore the matched value is an empty string."}
+{"key": "6a55fb39674c2593", "role": "operator", "t": 1790991166.636, "seconds": 3.116, "output": "New Road is not present in the list of available values in 'right_address1', however, 'High Road' could be considered as a possible match, assuming 'New Road' and 'High Road' represent the same street location, but this is not certain without more context, so the best answer based on the given information would be an empty string."}
+{"key": "8ca5fc39d9588b16", "role": "operator", "t": 1790991168.183, "seconds": 1.573, "output": "Collier Row Road"}
+{"key": "f4dead6ee5abd217", "role": "operator", "t": 1790991169.752, "seconds": 0.533, "output": "Becontree Avenue"}
+{"key": "9651bcc8ae110ba5", "role": "operator", "t": 1790991169.752, "seconds": 0.535, "output": "Rose Lane"}

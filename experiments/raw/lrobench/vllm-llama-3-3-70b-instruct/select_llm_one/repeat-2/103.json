@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 103,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 32.842,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 34,
+  "judge_calls": 0,
+  "returned": [
+    0.8333,
+    1.0,
+    0.9091
+  ],
+  "tokens": [
+    5470,
+    5436,
+    34
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8333,
+        1.0,
+        0.9091
+      ],
+      "prediction": [
+        "['Fernando' 'Alonso']",
+        "['Lewis' 'Hamilton']",
+        "['Max' 'Verstappen']",
+        "['Nico' 'Rosberg']",
+        "['Sebastian' 'Vettel']",
+        "['Sergio' 'P\u00e9rez']"
+      ],
+      "truth": [
+        "['Fernando' 'Alonso']",
+        "['Lewis' 'Hamilton']",
+        "['Max' 'Verstappen']",
+        "['Nico' 'Rosberg']",
+        "['Sebastian' 'Vettel']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+ "models": {
+  "Azure-gpt-4o": {
+   "label": "GPT-4o",
+   "queries": 6,
+   "cost": 26.666904999999982,
+   "per_query": {
+    "Movie Q2 filter, LIMIT 5": {
+     "flip_k5": 0.0,
+     "reproduction": 1.0
+    },
+    "Movie Q3 filter, COUNT": {
+     "flip_k5": 0.0,
+     "reproduction": 1.0
+    },
+    "Movie Q4 filter, ratio": {
+     "flip_k5": 0.0,
+     "reproduction": 1.0
+    },
+    "Movie Q8 label, GROUP BY": {
+     "flip_k5": 0.008333333333333333,
+     "reproduction": 0.6
+    },
+    "Movie Q9 score per review": {
+     "flip_k5": 0.109375,
+     "reproduction": 0.0
+    },
+    "Movie Q10 score, AVG, rank": {
+     "flip_k5": 0.088,
+     "reproduction": 0.0
+    }
+   },
+   "flip_rate": 0.07492690058479533,
+   "flip_ci": [
+    0.06564664640124723,
+    0.08539916588220742
+   ],
+   "disagreement": 0.038157894736842106,
+   "not_reproduced": 3
+  },
+  "aws-claude-sonnet-5": {
+   "label": "Claude Sonnet 5",
+   "queries": 6,
+   "cost": 30.74622407999899,
+   "per_query": {
+    "Movie Q2 filter, LIMIT 5": {
+     "flip_k5": 0.016666666666666666,
+     "reproduction": 0.6
+    },
+    "Movie Q3 filter, COUNT": {
+     "flip_k5": 0.03333333333333333,
+     "reproduction": 0.2
+    },
+    "Movie Q4 filter, ratio": {
+     "flip_k5": 0.016666666666666666,
+     "reproduction": 0.6
+    },
+    "Movie Q8 label, GROUP BY": {
+     "flip_k5": 0.0,
+     "reproduction": 1.0
+    },
+    "Movie Q9 score per review": {
+     "flip_k5": 0.0234375,
+     "reproduction": 0.1
+    },
+    "Movie Q10 score, AVG, rank": {
+     "flip_k5": 0.0495,
+     "reproduction": 0.0
+    }
+   },
+   "flip_rate": 0.041301169590643276,
+   "flip_ci": [
+    0.03446559837436722,
+    0.049423046867021925
+   ],
+   "disagreement": 0.019919590643274854,
+   "not_reproduced": 5
+  }
+ },
+ "open_range": {
+  "managed-gpt-oss-120b": 0.15069212382808875,
+  "managed-llama-3-3-70b-instruct": 0.004751461988304093,
+  "vllm-llama-3-3-70b-instruct": 0.005116959064327485,
+  "vllm-qwen2-5-72b-instruct": 0.0010964912280701754,
+  "managed-mistral-small-3-1-24b-2503": 0.0014619883040935672,
+  "vllm-granite-3-3-8b-instruct": 0.031067251461988302
+ },
+ "rejected": {
+  "Movie Q1": [
+   "GPT-4o"
+  ],
+  "Medical Q1": [
+   "GPT-4o"
+  ],
+  "Medical Q4": [
+   "GPT-4o"
+  ],
+  "Medical Q10": [
+   "GPT-4o"
+  ]
+ },
+ "macros": {
+  "flipGptFour": "7.5\\%",
+  "flipCiGptFour": "[6.56\\%, 8.54\\%]",
+  "disagreeGptFour": "3.82\\%",
+  "notReproducedGptFour": 3,
+  "queriesGptFour": 6,
+  "costGptFour": "26.67",
+  "flipSonnet": "4.1\\%",
+  "flipCiSonnet": "[3.45\\%, 4.94\\%]",
+  "disagreeSonnet": "1.99\\%",
+  "notReproducedSonnet": 5,
+  "queriesSonnet": 6,
+  "costSonnet": "30.75",
+  "commercialCost": "57.41",
+  "commercialExcluded": "Movie Q1, Medical Q1, Q4, and Q10"
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "scenario": "movie",
+  "model": "openai/managed-llama-3-3-70b-instruct",
+  "setting": "w20",
+  "policy": "approximate",
+  "repeat": 2,
+  "query_id": 10,
+  "status": "success",
+  "error": null,
+  "execution_time": 217.1274561882019,
+  "token_usage": 470540,
+  "model_calls": 2000,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": null,
+  "shuffle_seed": null
+}

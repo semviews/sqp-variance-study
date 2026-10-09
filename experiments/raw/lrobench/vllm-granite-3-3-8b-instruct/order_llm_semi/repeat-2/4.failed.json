@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 4,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 8.164,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 108, in pipeline_order4\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'The Little Mermaid is a classic animated film released by Walt Disney Pictures in 1989. Its runtime is approximately 83 minutes, which is considered relatively short for a feature-length animated film. Given that the task is to score the duration of the movie listed in the \\'name\\' column, and a higher score indicates a longer duration, we can infer that \"The Little Mermaid\" would receive a moderate score reflecting its shorter-than-average length for an animated feature.\\n\\nConsidering typical animated films range from about 75 to 115 minutes, and \"The Little Mermaid\" is closer to the lower end of this range, a score around 50 would appropriately reflect its duration relative to other animated movies.\\n\\n**Score: 50**'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'The Little Mermaid is a classic animated film released by Walt Disney Pictures in 1989. Its runtime is approximately 83 minutes, which is relatively short compared to many modern feature films, which often exceed 100 minutes. Considering this typical duration for a Disney animated feature, a score reflecting a moderate to slightly above average movie length would be appropriate.\\n\\nScore: \"70'",
+      "operator_calls": 7
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'The Little Mermaid is a classic animated film released by Walt Disney Pictures in 1989. Its runtime is approximately 83 minutes. Given that the typical range for animated feature films is from about 70 to 120 minutes, an 83-minute duration is moderately long but not exceptionally so. Considering this, a reasonable score reflecting the duration metric would be around 65 out of 100, indicating a longer-than-average but not extremely long movie length",
+      "operator_calls": 7
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 8,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 25.14,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 198, in pipeline_order8\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-08-05\") and then assign a score based on that age. \\n\\nAssuming the current year is 2024 (since the cutting knowledge date is December 2023), we calculate the age as follows:\\n\\n- Year of birth: 1991\\n- Current year: 2024\\n- Age = Current year - Year of birth = 2024 - 1991 = 33 years\\n\\nGiven that the maximum age a person can be to have a driver\\'s license varies by country but generally falls within a range where 33 is considered relatively young to middle-aged, we can infer the scoring as follows:\\n\\n- The maximum score (100) could represent the oldest age at which someone might still be driving, which is somewhat subjective but could be around 80-90 years old in many contexts.\\n- The minimum score (0) would represent the minimum legal driving age, which varies by country but is often around 16-18 years old.\\n\\nFor simplicity, let\\'s assume a linear scale where 16 years old corresponds to a score of 0, and 90 years old corresponds to a score of 100. \\n\\nThe formula to calculate the score based on age (A) could be:\\n\\\\[ \\\\text{Score} = \\\\frac{(A - 16) \\\\times 100}{90 - 16} \\\\]\\n\\nPlugging in the age of 33:\\n\\\\[ \\\\text{Score} = \\\\frac{(33 - 16) \\\\times 100}{74} \\\\]\\n\\\\[ \\\\text{Score} = \\\\frac{17 \\\\times 100}{74} \\\\]\\n\\\\[ \\\\text{Score} = \\\\frac{1700}{74} \\\\]\\n\\\\[ \\\\text{Score} \\\\approx 23 \\\\]\\n\\nTherefore, the score, rounded to the nearest whole number, is approximately 23.\\n\\n\"23'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-08-05\") and then assign a score based on that age. \\n\\nAssuming the current year is 2024 (since the cutting knowledge date is December 2023), we calculate the age as follows:\\n\\n- Year of birth: 1991\\n- Current year: 2024\\n- Age = Current year - Year of birth = 2024 - 1991 = 33 years\\n\\nGiven that the maximum age a person can be to ha",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: could not convert string to float: 'To calculate the score, we first need to determine the age of the driver based on the provided date of birth (\"1991-06-28\") and then assign a score based on that age. \\n\\nAssuming the current year is 2024 (since the cutting knowledge date is December 2023), we calculate the age as follows:\\n\\n- Year of birth: 1991\\n- Current year: 2024\\n- Age = Current year - Year of birth = 2024 - 1991 = 33 years\\n\\nGiven that the maximum age a person can be to ha",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0
+}

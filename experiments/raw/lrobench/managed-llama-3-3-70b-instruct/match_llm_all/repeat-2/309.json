@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 309,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 2.768,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.5,
+    0.3333,
+    0.4
+  ],
+  "tokens": [
+    380,
+    309,
+    71
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.5,
+        0.3333,
+        0.4
+      ],
+      "prediction": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['STREET_NAME' 'Street']",
+        "['STREET_NUMBER' 'StreetNumber']"
+      ],
+      "truth": [
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'BUSINESSOPERATOR']",
+        "['STREET_NAME' 'StreetNumber']",
+        "['STREET_NUMBER' 'Street']",
+        "['WEBSITE' 'DetailURL']"
+      ]
+    }
+  ]
+}

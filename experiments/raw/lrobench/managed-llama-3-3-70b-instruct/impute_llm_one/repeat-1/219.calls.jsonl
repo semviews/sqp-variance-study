@@ -1,0 +1,3 @@
+{"key": "9765faa015d53fa0", "role": "operator", "t": 1790968892.206, "seconds": 1.814, "output": "{\"city_name\": \"Los Angeles\", \"country\": \"USA\"}"}
+{"key": "3289123c7de194a7", "role": "operator", "t": 1790968892.206, "seconds": 1.91, "output": "{\"city_name\": \"Lillehammer\", \"country\": \"Norway\"}"}
+{"key": "cdf48804e85dc545", "role": "operator", "t": 1790968892.204, "seconds": 1.933, "output": "{\"city_name\": \"Paris\", \"country\": \"France\"}"}

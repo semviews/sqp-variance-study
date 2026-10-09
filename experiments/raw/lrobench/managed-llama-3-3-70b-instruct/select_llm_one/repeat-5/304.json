@@ -1,0 +1,55 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 304,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 9.808,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0,
+  "returned": [
+    0.4444,
+    1.0,
+    0.6154
+  ],
+  "tokens": [
+    1348,
+    1338,
+    10
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4444,
+        1.0,
+        0.6154
+      ],
+      "prediction": [
+        "alignment",
+        "attribute",
+        "colour",
+        "gender",
+        "hero_attribute",
+        "hero_power",
+        "race",
+        "superhero",
+        "superpower"
+      ],
+      "truth": [
+        "colour",
+        "gender",
+        "race",
+        "superhero"
+      ]
+    }
+  ]
+}

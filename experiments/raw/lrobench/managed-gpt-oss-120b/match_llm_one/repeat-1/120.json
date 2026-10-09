@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 120,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 252.686,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 297,
+  "judge_calls": 0,
+  "returned": [
+    0.6667,
+    1.0,
+    0.8
+  ],
+  "tokens": [
+    49560,
+    49263,
+    297
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6667,
+        1.0,
+        0.8
+      ],
+      "prediction": [
+        "['Gathering Place Community Centre' 'Orpheum Theatre']",
+        "['Gathering Place Community Centre' 'St Andrews-Wesley United Church']",
+        "['Gathering Place Community Centre' 'St. Andrews-Wesley United Church']",
+        "['Gathering Place Community Centre' 'Vogue Theatre']",
+        "['Hastings' 'PNE Amphitheatre']",
+        "['Hastings' 'PNE Forum']"
+      ],
+      "truth": [
+        "['Gathering Place Community Centre' 'Orpheum Theatre']",
+        "['Gathering Place Community Centre' 'Vogue Theatre']",
+        "['Hastings' 'PNE Amphitheatre']",
+        "['Hastings' 'PNE Forum']"
+      ]
+    }
+  ]
+}

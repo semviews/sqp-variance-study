@@ -1,0 +1,24 @@
+{
+  "scenario": "movie",
+  "model": "openai/vllm-granite-3-3-8b-instruct",
+  "setting": "w8_lp_probe",
+  "policy": "approximate",
+  "repeat": 10,
+  "query_id": 3,
+  "status": "success",
+  "error": null,
+  "execution_time": 44.580288887023926,
+  "token_usage": 32398,
+  "model_calls": 120,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 8,
+  "reasoning": null,
+  "shuffle_seed": null,
+  "attempt": 1,
+  "data": {
+    "sf_2000/Movies.csv": "aac26cb7cdbc771a",
+    "sf_2000/Reviews.csv": "df231cfb189c9e16"
+  }
+}

@@ -1,0 +1,24 @@
+{"key": "2127b97d975408f9", "role": "operator", "t": 1791002568.789, "seconds": 2.233, "output": "There is no match for 'ELEMENTARY AND SECONDARY EDUCATION' in the provided list of 'right_DEPT_EN_DESC' values."}
+{"key": "3e5cdce44dd47d61", "role": "operator", "t": 1791002568.792, "seconds": 2.235, "output": "Office of the Superintendent of Financial Institutions"}
+{"key": "b9463e9d50f7836c", "role": "operator", "t": 1791002568.793, "seconds": 2.235, "output": "Finance Department"}
+{"key": "0949a0967d452fc1", "role": "operator", "t": 1791002568.79, "seconds": 2.366, "output": "Financial Transactions and Reports Analysis Centre of Canada"}
+{"key": "d27e35ab44f29d5a", "role": "operator", "t": 1791002568.789, "seconds": 2.388, "output": "Financial Transactions and Reports Analysis Centre of Canada"}
+{"key": "81b624e74090de9f", "role": "operator", "t": 1791002568.788, "seconds": 2.445, "output": "Office of the Superintendent of Financial Institutions"}
+{"key": "6f3d86626f4675b6", "role": "operator", "t": 1791002568.793, "seconds": 2.893, "output": "None of the values in 'right_DEPT_EN_DESC' match 'HEALTH AND SENIOR SERVICES', so the matched value is an empty string."}
+{"key": "b122efba29634246", "role": "operator", "t": 1791002568.791, "seconds": 3.078, "output": "Natural Resources Canada is related to the function of natural resources, however, none of the provided options in 'right_DEPT_EN_DESC' directly match the function of 'NATURAL RESOURCES'."}
+{"key": "0b6116bcc6aab74e", "role": "operator", "t": 1791002568.794, "seconds": 3.08, "output": "Financial Transactions and Reports Analysis Centre of Canada"}
+{"key": "0d95de44a3474635", "role": "operator", "t": 1791002568.791, "seconds": 3.088, "output": "No matched value exists, return an empty string."}
+{"key": "cb79baf6f3c2de59", "role": "operator", "t": 1791002571.023, "seconds": 1.74, "output": "MENTAL HEALTH does not match any of the given options, however, none of the options seem to be related to mental health, but one option seems to be related to health in a broader sense, that is not available in the list, so the closest match would be an empty string."}
+{"key": "d8f034a85c8a24b3", "role": "operator", "t": 1791002571.156, "seconds": 1.613, "output": "Agriculture"}
+{"key": "5bd4263fa7f5a694", "role": "operator", "t": 1791002571.156, "seconds": 1.614, "output": "Finance Department"}
+{"key": "b78700788b218d0e", "role": "operator", "t": 1791002571.233, "seconds": 1.539, "output": "No matched value exists, return an empty string."}
+{"key": "2520ff9eee99d6a4", "role": "operator", "t": 1791002571.156, "seconds": 1.618, "output": "Financial Transactions and Reports Analysis Centre of Canada"}
+{"key": "806bcc25b235ca8d", "role": "operator", "t": 1791002571.233, "seconds": 3.324, "output": "Labor and Industrial Relations does not match any of the given department names, however, one of the given options is related to labor, which is not present, but we can find a match for \"Labor\" in \"Labor and Industrial Relations\" to \"Industrial Relations\" is not present but \"Labor\" is related to \"Industrial Relations\" which can be found in \"Labor and Industrial Relations\" to \"Human Resources and Labor\" is not present but we can find \"Labor\" is related to \"Industrial Relations\" which can be found in \"Labor and Industrial Relations\" to \"Industrial Relations and Labor\" is not present, so the closest match would be none of the given options, so an empty string is returned."}
+{"key": "bad8055d4ed9b4e3", "role": "operator", "t": 1791002571.874, "seconds": 2.687, "output": "No matched value exists, so the result is an empty string."}
+{"key": "06706be18df87adc", "role": "operator", "t": 1791002571.874, "seconds": 2.689, "output": "Auditor General"}
+{"key": "0f4e34fa10f8aa47", "role": "operator", "t": 1791002571.874, "seconds": 2.691, "output": "No matched value exists, return an empty string."}
+{"key": "e119b7bdd491cd37", "role": "operator", "t": 1791002572.763, "seconds": 1.806, "output": "No matched value exists, so the result is an empty string."}
+{"key": "d185ad5ce3f99d5b", "role": "operator", "t": 1791002572.763, "seconds": 1.806, "output": "Auditor General"}
+{"key": "906eefc57e8a3106", "role": "operator", "t": 1791002574.565, "seconds": 0.82, "output": "Office of the Superintendent of Financial Institutions"}
+{"key": "b6e52cdb0a1485bc", "role": "operator", "t": 1791002574.565, "seconds": 0.821, "output": "Finance Department"}
+{"key": "79df45341882d9ed", "role": "operator", "t": 1791002574.565, "seconds": 1.099, "output": "Office of the Superintendent of Financial Institutions"}

@@ -1,0 +1,50 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 36,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 2,
+  "seconds": 9.773,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "KeyError: 'index'",
+      "operator_calls": 13
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 13,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Max",
+      "Verstappen"
+    ],
+    [
+      "Esteban",
+      "Ocon"
+    ]
+  ],
+  "tokens": 3999,
+  "metrics": [],
+  "prediction": [
+    [
+      "Max",
+      "Verstappen"
+    ],
+    [
+      "Esteban",
+      "Ocon"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 1.0,
+    "match": true
+  }
+}

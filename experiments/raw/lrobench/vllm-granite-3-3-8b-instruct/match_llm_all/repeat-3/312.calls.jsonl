@@ -1,0 +1,1 @@
+{"key": "329066099013f022", "role": "operator", "t": 1790973475.193, "seconds": 1.88, "output": "[\n  {\"Table Left\": \"Fiscal Year\", \"Table Right\": \"\u00c3\u0083\u00c2\u00af\u00c3\u0082\u00c2\u00bb\u00c3\u0082\u00c2\u00bfFSCL_YR\"},\n  {\"Table Left\": \"Payments Total\", \"Table Right\": \"AGRG_PYMT_AMT\"}\n]"}

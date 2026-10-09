@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 3: 3 (city) */ SELECT state_name, city_name, population FROM city WHERE state_name <> 'Indiana' OR population >= '372,624'",
+  "city": {
+    "city_name": {
+      "value_type": "str",
+      "description": "city_name is the name of the city (e.g. Boston)"
+    },
+    "population": {
+      "value_type": "int",
+      "description": "population is the population of the city (e.g. 7000000)."
+    },
+    "state_name": {
+      "value_type": "str",
+      "description": "state_name is the name of the state the city is located in (e.g. California)."
+    }
+  }
+}

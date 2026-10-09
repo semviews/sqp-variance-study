@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 1,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 1.664,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    0.4,
+    1.0
+  ],
+  "tokens": [
+    2364,
+    2353,
+    11
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "prediction": [
+        "Belgium",
+        "Germany",
+        "Netherlands",
+        "Poland",
+        "Spain"
+      ],
+      "truth": [
+        "England",
+        "France",
+        "Germany",
+        "Italy",
+        "Spain"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "Belgium",
+        "Germany",
+        "Poland",
+        "Spain",
+        "Netherlands"
+      ],
+      "truth": [
+        "Germany",
+        "France",
+        "Italy",
+        "England",
+        "Spain"
+      ]
+    }
+  ]
+}

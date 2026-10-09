@@ -1,0 +1,12 @@
+{"key": "e9cbd203b16b6029", "role": "operator", "t": 1790966312.169, "seconds": 1.454, "output": "Arizona"}
+{"key": "02309aa89560d37b", "role": "operator", "t": 1790966312.168, "seconds": 3.886, "output": "Idaho is adjacent to Oregon so the matched value is none of the above, however, Oregon is adjacent to Idaho and also to the following states, one of which is in the list, the matched value is Idaho is not in the list but Oregon is adjacent to Idaho and also to other states one of which is in the list, the value is Idaho is not in the list, the value in the list that matches the condition is none, Oregon is adjacent to California among the options in the list, the answer is California"}
+{"key": "f5a8960980159b4a", "role": "operator", "t": 1790966312.17, "seconds": 3.885, "output": "Tennessee"}
+{"key": "b31984adb686106c", "role": "operator", "t": 1790966312.17, "seconds": 3.886, "output": "Pennsylvania"}
+{"key": "769b2f103f71641b", "role": "operator", "t": 1790966312.167, "seconds": 3.897, "output": "Georgia is adjacent to Florida, but Georgia is not in the list, Alabama is also adjacent to Florida, but Alabama is not in the list, the available adjacent state to Florida in the list is none, however, one of the adjacent states to Florida is Georgia and Alabama and also the state of Florida is adjacent to itself in the context of the given list, so the matched value is Florida"}
+{"key": "6d732e2a8d0d1aaa", "role": "operator", "t": 1790966312.168, "seconds": 3.897, "output": "Texas"}
+{"key": "4bd4a7c0b9623ea2", "role": "operator", "t": 1790966312.169, "seconds": 3.896, "output": "Tennessee"}
+{"key": "dd28177d86f8d8e8", "role": "operator", "t": 1790966312.171, "seconds": 3.895, "output": "Arizona"}
+{"key": "b14f75e2f64cbd44", "role": "operator", "t": 1790966312.166, "seconds": 3.9, "output": "Illinois"}
+{"key": "5822ffa8bbe9658f", "role": "operator", "t": 1790966312.172, "seconds": 3.895, "output": "Illinois"}
+{"key": "3ad4074ba80d1439", "role": "operator", "t": 1790966313.622, "seconds": 2.445, "output": "Texas"}
+{"key": "869d7e2bafbc0fbb", "role": "operator", "t": 1790966316.064, "seconds": 0.925, "output": "No adjacent state exists for WA in the given list of right_state values, the matched value is an empty string"}

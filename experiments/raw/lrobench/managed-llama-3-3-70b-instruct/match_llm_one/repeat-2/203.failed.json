@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 203,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 13.008,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 916, in pipeline_match203\n    matched_df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: '{tool_call: check_same_movie({\"left_ID\": \"a-14\", \"left_Title\": \"Alien Origin\", \"left_Year\": \"2012-06-12\", \"left_Rating\": 1.9, \"left_Director\": \"Mark Atkins\", \"left_Creators\": NaN, \"left_Cast\": \"Phili\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '{tool_call check_same_movie(\\'{\"left_ID\": \"a-14\", \"left_Title\": \"Alien Origin\", \"left_Year\": \"2012-06-12\", \"left_Rating\": 1.9, \"left_Director\": \"Mark Atkins\", \"left_Creators\": NaN, \"left_Cast\": \"Phil",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '{tool_call: movie_match_condition(\"{\\'left_ID\\': \\'a-14\\', \\'left_Title\\': \\'Alien Origin\\', \\'left_Year\\': \\'2012-06-12\\', \\'left_Rating\\': 1.9, \\'left_Director\\': \\'Mark Atkins\\', \\'left_Creators\\'",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

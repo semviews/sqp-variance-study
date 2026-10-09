@@ -1,0 +1,58 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 311,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 2,
+  "seconds": 6.895,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To solve this, we would typically compare the two input values for similarity. However, without a specific function or library provided for comparing strings or JSON tuples for similarity, we can't p",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 64,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.8333,
+    0.9091
+  ],
+  "tokens": [
+    6080,
+    6016,
+    64
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.8333,
+        0.9091
+      ],
+      "prediction": [
+        "['AMOUNT (\u00c3\\x82\u00c2\u00a3)' 'Amount']",
+        "['DATE PAID' 'Date']",
+        "['EFFECTIVE DATE' 'Date']",
+        "['SUPPLIER NAME' 'Supplier']",
+        "['TRANSACTION NO.' 'Transaction Number']"
+      ],
+      "truth": [
+        "['AMOUNT (\u00c3\\x82\u00c2\u00a3)' 'Amount']",
+        "['DATE PAID' 'Date']",
+        "['EFFECTIVE DATE' 'Date']",
+        "['ORGANISATION NAME' 'Department Family']",
+        "['SUPPLIER NAME' 'Supplier']",
+        "['TRANSACTION NO.' 'Transaction Number']"
+      ]
+    }
+  ]
+}

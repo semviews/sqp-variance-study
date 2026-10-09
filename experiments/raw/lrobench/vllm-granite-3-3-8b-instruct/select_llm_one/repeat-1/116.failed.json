@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 116,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 3.142,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/select_eval.py\", line 351, in pipeline_select116\n    lake = op.execute(impl_type = args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/select.py\", line 28, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'The area of Shanghai is approximately 6,340 square kilometers. The input area is 4400.0 square kilometers, which is smaller than Shanghai\\'s area. Therefore, the input does not satisfy the condition \n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: '0\\n\\nThe area of Shanghai is approximately 6,340 square kilometers (2,460 square miles). The given area of 800.0 (assuming the same units as Shanghai\\'s area) is significantly smaller than Shanghai\\'",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'The area of Shanghai is approximately 6,340 square kilometers. The given input area is 53.2 (units not specified, but assuming the same unit for comparison). Since 53.2 is much smaller than 6,340, th",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0
+}

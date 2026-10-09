@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 36: 6 (player) */ SELECT nationality, birth_date, age FROM player WHERE (birth_date <> '1994/6/6' AND nationality = 'Slovenian') OR (nba_championships <= 2 AND age > 78)",
+  "player": {
+    "age": {
+      "value_type": "int",
+      "description": "age of the player (if death_date is given, compute as death_date - birth_date; otherwise, compute as 2025/1/1 - birth_date)."
+    },
+    "birth_date": {
+      "value_type": "str",
+      "description": "birth date of the player; use format YYYY/%-m/%-d (e.g., 1984/2/30)."
+    },
+    "nationality": {
+      "value_type": "str",
+      "description": "nationality of the player (e.g., American, France)."
+    }
+  }
+}

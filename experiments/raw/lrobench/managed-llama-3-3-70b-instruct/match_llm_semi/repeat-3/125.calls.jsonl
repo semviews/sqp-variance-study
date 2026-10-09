@@ -1,0 +1,22 @@
+{"key": "c803fefc7e70e18f", "role": "operator", "t": 1790987465.135, "seconds": 1.585, "output": "Transport"}
+{"key": "11f5d0238e5b8e83", "role": "operator", "t": 1790987465.133, "seconds": 1.777, "output": "Human Resources and Skills Development"}
+{"key": "939a1f3ccc9a8e6e", "role": "operator", "t": 1790987465.133, "seconds": 1.779, "output": "Environment"}
+{"key": "a398168f940c5f3c", "role": "operator", "t": 1790987465.135, "seconds": 1.779, "output": "Canadian Heritage"}
+{"key": "4bf5e4b2c70fbe96", "role": "operator", "t": 1790987465.135, "seconds": 1.78, "output": "Human Resources and Skills Development"}
+{"key": "6b58f26cfd8d64c5", "role": "operator", "t": 1790987465.133, "seconds": 1.782, "output": "Human Resources and Skills Development"}
+{"key": "a37a6181f0c10745", "role": "operator", "t": 1790987465.136, "seconds": 1.78, "output": "Health"}
+{"key": "d1c29e020714b7a8", "role": "operator", "t": 1790987465.134, "seconds": 1.915, "output": "Public Works and Government Services"}
+{"key": "c8d2a392bc893a7e", "role": "operator", "t": 1790987465.134, "seconds": 2.49, "output": "Agriculture and Agri-Food"}
+{"key": "98852e048c79ef6d", "role": "operator", "t": 1790987466.916, "seconds": 0.741, "output": "Public Works and Government Services"}
+{"key": "16a336588c78b768", "role": "operator", "t": 1790987466.72, "seconds": 2.169, "output": "Education Library Books does not match any of the values in the right_MINE column, however, some categories seem related to education, such as Canadian Heritage, and Human Resources and Skills Development, but the most similar one would be none since none directly relate to education and library books, so the matched value is an empty string."}
+{"key": "7c6f3b47a7a6f0fe", "role": "operator", "t": 1790987465.137, "seconds": 3.756, "output": "Public Works and Government Services"}
+{"key": "dcfd7291d569eca6", "role": "operator", "t": 1790987466.91, "seconds": 1.984, "output": "Industry"}
+{"key": "ebf42119aa50295e", "role": "operator", "t": 1790987466.916, "seconds": 1.979, "output": "Justice"}
+{"key": "d62c146cfbfc326f", "role": "operator", "t": 1790987467.049, "seconds": 1.847, "output": "Human Resources and Skills Development"}
+{"key": "9074241faa822893", "role": "operator", "t": 1790987466.916, "seconds": 1.981, "output": "Industry"}
+{"key": "396f542f1091ae04", "role": "operator", "t": 1790987466.916, "seconds": 1.982, "output": "Human Resources and Skills Development"}
+{"key": "2686f7712d6d58d3", "role": "operator", "t": 1790987466.916, "seconds": 1.983, "output": "Public Works and Government Services"}
+{"key": "9e3915f3ada9864e", "role": "operator", "t": 1790987467.624, "seconds": 1.275, "output": "Public Works and Government Services"}
+{"key": "3a56817213407855", "role": "operator", "t": 1790987467.657, "seconds": 1.243, "output": "Environment"}
+{"key": "e8e40324bc2cfde4", "role": "operator", "t": 1790987468.889, "seconds": 0.955, "output": "Public Works and Government Services"}
+{"key": "22a0cf6799adb8c2", "role": "operator", "t": 1790987468.9, "seconds": 1.01, "output": "Public Works and Government Services"}

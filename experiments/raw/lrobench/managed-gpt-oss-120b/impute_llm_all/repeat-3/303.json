@@ -1,0 +1,77 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 303,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 9.226,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 8,
+  "returned": [
+    0.5,
+    0.5
+  ],
+  "tokens": [
+    302,
+    214,
+    88
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.5,
+      "prediction": [
+        "1",
+        "Future Nostalgia",
+        "Dua Lipa",
+        "\u00a9 2020 Warner Records UK Ltd.",
+        "Pop",
+        "2020-10-01",
+        "Levitating",
+        "3:23"
+      ],
+      "truth": [
+        "6908",
+        "Future Nostalgia",
+        "Dua Lipa",
+        "\u2117 2020 Warner Records",
+        "Pop,Disco",
+        "27-Mar-20",
+        "Levitating",
+        "3:23"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.5,
+      "prediction": [
+        "1",
+        "Future Nostalgia",
+        "Dua Lipa",
+        "\u00a9 2020 Warner Records UK Ltd.",
+        "Pop",
+        "2020-10-01",
+        "Levitating",
+        "3:23"
+      ],
+      "truth": [
+        "6908",
+        "Future Nostalgia",
+        "Dua Lipa",
+        "\u2117 2020 Warner Records",
+        "Pop,Disco",
+        "27-Mar-20",
+        "Levitating",
+        "3:23"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 11,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 22.348,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 35,
+  "judge_calls": 0,
+  "returned": [
+    0.6,
+    0.6667
+  ],
+  "tokens": [
+    7634,
+    7599,
+    35
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "prediction": [
+        "Atlantic Ocean",
+        "Gulf of Bengal",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "South China Sea"
+      ],
+      "truth": [
+        "Arctic Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Southern Ocean"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.6667,
+      "prediction": [
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Gulf of Bengal",
+        "South China Sea"
+      ],
+      "truth": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Southern Ocean",
+        "Arctic Ocean"
+      ]
+    }
+  ]
+}

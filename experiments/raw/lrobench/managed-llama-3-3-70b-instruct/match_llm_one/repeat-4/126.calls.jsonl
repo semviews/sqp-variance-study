@@ -1,0 +1,24 @@
+{"key": "1c87c0a5bda1d7ff", "role": "operator", "t": 1790993539.496, "seconds": 1.588, "output": "0"}
+{"key": "30dabbb2d9df3ced", "role": "operator", "t": 1790993539.497, "seconds": 1.63, "output": "0"}
+{"key": "310789d8b0dfd1d3", "role": "operator", "t": 1790993539.499, "seconds": 1.652, "output": "0"}
+{"key": "385331e23c224abf", "role": "operator", "t": 1790993539.498, "seconds": 1.682, "output": "0"}
+{"key": "c251bad1d51dd6d1", "role": "operator", "t": 1790993539.497, "seconds": 1.749, "output": "0"}
+{"key": "3b1ba6cf177c6c7b", "role": "operator", "t": 1790993539.496, "seconds": 2.116, "output": "0"}
+{"key": "6a8b557a40a6e345", "role": "operator", "t": 1790993539.495, "seconds": 2.132, "output": "0"}
+{"key": "3b3ad93f07daf95e", "role": "operator", "t": 1790993539.495, "seconds": 2.247, "output": "0"}
+{"key": "27f3b22722b97bfe", "role": "operator", "t": 1790993539.496, "seconds": 2.256, "output": "0"}
+{"key": "b760a24d06c0ffc9", "role": "operator", "t": 1790993539.498, "seconds": 2.273, "output": "0"}
+{"key": "65e4d5eb73ef8044", "role": "operator", "t": 1790993541.181, "seconds": 0.705, "output": "0"}
+{"key": "41010b3e276c4a5f", "role": "operator", "t": 1790993541.151, "seconds": 0.761, "output": "0"}
+{"key": "6c345c32be30e0dc", "role": "operator", "t": 1790993541.127, "seconds": 0.811, "output": "0"}
+{"key": "5070aee44405abc5", "role": "operator", "t": 1790993541.246, "seconds": 0.714, "output": "0"}
+{"key": "1c5c9f01010e97fa", "role": "operator", "t": 1790993541.083, "seconds": 2.454, "output": "To determine if the two categories are highly similar, we need to compare their similarity based on the words they contain. \n\n1 is returned if the categories are highly similar, and 0 otherwise.\n\nComparing 'Books Newspapers & Publications' and 'Education Library Books', we see both contain 'Books', indicating a level of similarity.\n\nSince both categories share a common word 'Books', this suggests they are related, thus we can consider them highly similar.\n\n1"}
+{"key": "8a696687b8820f33", "role": "operator", "t": 1790993541.743, "seconds": 1.798, "output": "0"}
+{"key": "a525245f44e0b4ec", "role": "operator", "t": 1790993541.612, "seconds": 1.929, "output": "0"}
+{"key": "4ad5da06e9ebb451", "role": "operator", "t": 1790993541.912, "seconds": 1.63, "output": "0"}
+{"key": "9fcfb691901e7e4d", "role": "operator", "t": 1790993541.886, "seconds": 1.658, "output": "0"}
+{"key": "52061e346e127f67", "role": "operator", "t": 1790993541.753, "seconds": 1.792, "output": "0"}
+{"key": "5cd692a08f74203c", "role": "operator", "t": 1790993541.938, "seconds": 1.608, "output": "0"}
+{"key": "ec9d28bdb380bec8", "role": "operator", "t": 1790993541.771, "seconds": 1.775, "output": "0"}
+{"key": "73c9319c9dab58b8", "role": "operator", "t": 1790993541.96, "seconds": 1.586, "output": "0"}
+{"key": "2929a9469d0a05ff", "role": "operator", "t": 1790993541.627, "seconds": 1.92, "output": "0"}

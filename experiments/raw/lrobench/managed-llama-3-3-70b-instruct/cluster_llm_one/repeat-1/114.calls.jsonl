@@ -1,0 +1,2 @@
+{"key": "2ba28a1b28698434", "role": "operator", "t": 1790960159.06, "seconds": 1.859, "output": "[\n  {\"index\":\"31505\", \"cluster_name\": \"French\", \"cluster_label\": \"1\"}\n]"}
+{"key": "e0bde1b9cbdba979", "role": "operator", "t": 1790960160.918, "seconds": 1.583, "output": "{\"function\": \"assign_to_cluster\", \"args\": [{\"index\": 61, \"name\": \"Grape fruit\"}, {\"1\": \"French\"}]}"}

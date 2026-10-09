@@ -1,0 +1,31 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 9,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 345.48,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 209,
+  "judge_calls": 0,
+  "returned": [
+    "McLaren"
+  ],
+  "tokens": 51875,
+  "metrics": [],
+  "prediction": [
+    "McLaren"
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

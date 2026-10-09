@@ -1,0 +1,22 @@
+{"key": "6f07a757f9c032eb", "role": "operator", "t": 1790972752.386, "seconds": 1.817, "output": "[{\"BrandID\": [\"1\", \"basic_info\"]}]"}
+{"key": "5a01147ff3b19ed8", "role": "operator", "t": 1790972754.202, "seconds": 1.183, "output": "[{\"BrandName\": [\"1\", \"basic_info\"]}]"}
+{"key": "d43a123df2fe01e6", "role": "operator", "t": 1790972755.386, "seconds": 1.087, "output": "[{\"FirstBrewedYear\": [\"1\", \"basic_info\"]}]"}
+{"key": "15bb3609f64f330d", "role": "operator", "t": 1790972756.472, "seconds": 1.058, "output": "[{\"BreweryName\": [\"1\", \"basic_info\"]}]"}
+{"key": "f492c4041694615a", "role": "operator", "t": 1790972757.53, "seconds": 1.085, "output": "[{\"City\": [\"1\", \"basic_info\"]}]"}
+{"key": "3b7fdb35fdab00f1", "role": "operator", "t": 1790972758.615, "seconds": 1.075, "output": "[{\"State\": [\"2\", \"contact_info\"]}]"}
+{"key": "34b4dcb454483e03", "role": "operator", "t": 1790972759.691, "seconds": 1.001, "output": "[{\"Country\": [\"3\", \"product_info\"]}]"}
+{"key": "f46d39c297c4c057", "role": "operator", "t": 1790972760.692, "seconds": 1.065, "output": "[{\"Description\": [\"1\", \"basic_info\"]}]"}
+{"key": "3c22a8bcdb0b448b", "role": "operator", "t": 1790972761.757, "seconds": 1.112, "output": "[{\"CaneSugar\": [\"3\", \"product_info\"]}]"}
+{"key": "c9830d907a465ed7", "role": "operator", "t": 1790972762.869, "seconds": 1.368, "output": "[\n  { \"CornSyrup\": [\"3\", \"product_info\"]}\n]"}
+{"key": "ac859606e648933a", "role": "operator", "t": 1790972764.237, "seconds": 1.158, "output": "[{\"Honey\": [\"3\", \"product_info\"]}]"}
+{"key": "e0748e6021afbbd2", "role": "operator", "t": 1790972765.395, "seconds": 1.215, "output": "[\n  { \"ArtificialSweetener\": [\"3\", \"product_info\"]}\n]"}
+{"key": "2448270d8b3547ed", "role": "operator", "t": 1790972766.61, "seconds": 1.23, "output": "[ \n  { \"Caffeinated\": [\"3\", \"product_info\"]}\n]"}
+{"key": "9991c82f00cc696a", "role": "operator", "t": 1790972767.84, "seconds": 1.09, "output": "[{\"Alcoholic\": [\"3\", \"product_info\"]}]"}
+{"key": "4e0b5fbf5307ccb9", "role": "operator", "t": 1790972768.931, "seconds": 1.286, "output": "[{\"AvailableInCans\": [\"3\", \"product_info\"]}]"}
+{"key": "d7a3e85a93805fe2", "role": "operator", "t": 1790972770.217, "seconds": 1.152, "output": "[{\"AvailableInBottles\": [\"3\", \"product_info\"]}]"}
+{"key": "ebd81d357d4f827f", "role": "operator", "t": 1790972771.368, "seconds": 1.216, "output": "[ \n  { \"AvailableInKegs\": [\"3\", \"product_info\"]}\n]"}
+{"key": "43f88885e9efdee3", "role": "operator", "t": 1790972772.585, "seconds": 1.111, "output": "[{\"Website\": [\"2\", \"contact_info\"]}]"}
+{"key": "693d5cdc1b80a6f1", "role": "operator", "t": 1790972773.696, "seconds": 1.198, "output": "[\n  { \"FacebookPage\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "4b9f8c03352c149d", "role": "operator", "t": 1790972774.894, "seconds": 1.058, "output": "[{\"Twitter\": [\"2\", \"contact_info\"]}]"}
+{"key": "b7c724bb9ca0e03d", "role": "operator", "t": 1790972775.951, "seconds": 1.125, "output": "[{\"WholesaleCost\": [\"3\", \"product_info\"]}]"}
+{"key": "cc7f714fb8e3632f", "role": "operator", "t": 1790972777.076, "seconds": 1.256, "output": "[ \n  { \"CurrentRetailPrice\": [\"3\", \"product_info\"]}\n]"}

@@ -1,0 +1,2 @@
+{"key": "b238cd0d25863b21", "role": "operator", "t": 1790972137.082, "seconds": 2.301, "output": "[{\"index\":\"0\", \"cluster_name\": \"1960s\", \"cluster_label\": \"0\"}]"}
+{"key": "ca836da86dbc081c", "role": "operator", "t": 1790972139.383, "seconds": 1.682, "output": "{\"function\": \"cluster_row\", \"args\": [\"{'index': 1, 'productName': '1952 Alpine Renault 1300'}\", \"{\\\"0\\\": \\\"1960s\\\"}\"]}"}

@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 30,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 17.211,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 25,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "Cfa",
+      1
+    ],
+    [
+      "Csa",
+      1
+    ],
+    [
+      "Csb",
+      2
+    ],
+    [
+      "Dfa",
+      6
+    ],
+    [
+      "Dfb",
+      1
+    ]
+  ],
+  "tokens": 6831,
+  "metrics": [],
+  "prediction": [
+    [
+      "Cfa",
+      1
+    ],
+    [
+      "Csa",
+      1
+    ],
+    [
+      "Csb",
+      2
+    ],
+    [
+      "Dfa",
+      6
+    ],
+    [
+      "Dfb",
+      1
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

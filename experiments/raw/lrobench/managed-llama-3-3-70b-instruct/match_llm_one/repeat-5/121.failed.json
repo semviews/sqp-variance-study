@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 121,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 3,
+  "seconds": 7.892,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/match_eval.py\", line 618, in pipeline_match121\n    merged_df = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/match.py\", line 29, in execute\n    res = op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine whether the two suppliers are the same, we need to compare the input strings. Since the strings are 'Nhs Business Services Authority' and 'NHS PROFESSIONALS LTD', they are not identical.\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the two suppliers are the same, we need to compare the input strings, ignoring case differences and considering potential minor variations in naming conventions. \\n\\nWe can use a",
+      "operator_calls": 32
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine whether the two suppliers are the same, we need to compare the input strings. Since the comparison is case-sensitive and also considers spaces and punctuation, the two input strings 'Nhs",
+      "operator_calls": 35
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 35,
+  "judge_calls": 0
+}

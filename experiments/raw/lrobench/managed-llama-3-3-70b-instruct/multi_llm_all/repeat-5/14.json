@@ -1,0 +1,45 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 14,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 188.412,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 621,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "NATURAL RESOURCES",
+      "Agriculture and Agri-Food Department"
+    ],
+    [
+      "CONSERVATION",
+      "Agriculture and Agri-Food Department"
+    ]
+  ],
+  "tokens": 186920,
+  "metrics": [],
+  "prediction": [
+    [
+      "NATURAL RESOURCES",
+      "Agriculture and Agri-Food Department"
+    ],
+    [
+      "CONSERVATION",
+      "Agriculture and Agri-Food Department"
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

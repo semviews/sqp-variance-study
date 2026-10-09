@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 300,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 6.729,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 1,
+  "judge_calls": 5,
+  "returned": [
+    0.4,
+    0.6
+  ],
+  "tokens": [
+    242,
+    187,
+    55
+  ],
+  "metrics": [
+    {
+      "metric": "list_em_acc",
+      "value": 0.4,
+      "prediction": [
+        "Coco",
+        "November 22, 2017",
+        "Miguel Rivera",
+        "Hector",
+        "Remember Me"
+      ],
+      "truth": [
+        "Coco",
+        "22-Nov-17",
+        "Miguel",
+        "Ernesto de la Cruz",
+        "Remember Me"
+      ]
+    },
+    {
+      "metric": "list_agent_acc",
+      "value": 0.6,
+      "prediction": [
+        "Coco",
+        "November 22, 2017",
+        "Miguel Rivera",
+        "Hector",
+        "Remember Me"
+      ],
+      "truth": [
+        "Coco",
+        "22-Nov-17",
+        "Miguel",
+        "Ernesto de la Cruz",
+        "Remember Me"
+      ]
+    }
+  ]
+}

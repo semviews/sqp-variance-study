@@ -1,0 +1,21 @@
+{
+  "benchmark": "uda-bench",
+  "dataset": "Player",
+  "table": "manager",
+  "attributes": [
+    "age",
+    "name",
+    "nationality",
+    "nba_team",
+    "own_year"
+  ],
+  "model": "openai/managed-gpt-oss-120b",
+  "workers": 20,
+  "repeat": 1,
+  "calls": 80,
+  "documents": 16,
+  "transient_retries": 0,
+  "failed_calls": 0,
+  "seconds": 45.343,
+  "prompt_tokens": 203505
+}

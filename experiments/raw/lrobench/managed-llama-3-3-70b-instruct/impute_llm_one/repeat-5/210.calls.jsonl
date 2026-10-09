@@ -1,0 +1,5 @@
+{"key": "2fd9830a029bf128", "role": "operator", "t": 1790991769.302, "seconds": 2.062, "output": "{\"Date\": \"201207\", \"YearAttr\": \"Leap Year\"}"}
+{"key": "4903e22834c7cadb", "role": "operator", "t": 1790991769.305, "seconds": 2.068, "output": "{\"Date\": \"201205\", \"YearAttr\": \"Common Year\"}"}
+{"key": "5b4c709fa056c7f7", "role": "operator", "t": 1790991769.303, "seconds": 2.071, "output": "{\"Date\": \"201302\", \"YearAttr\": \"Common Year\"}"}
+{"key": "02008a87cd5c50a9", "role": "operator", "t": 1790991769.306, "seconds": 2.123, "output": "{\"Date\": \"201307\", \"YearAttr\": \"Common Year\"}"}
+{"key": "75ea2c9c4dbfcf5b", "role": "operator", "t": 1790991769.304, "seconds": 2.28, "output": "{\"Date\": \"201203\", \"YearAttr\": \"Common Year\"}"}

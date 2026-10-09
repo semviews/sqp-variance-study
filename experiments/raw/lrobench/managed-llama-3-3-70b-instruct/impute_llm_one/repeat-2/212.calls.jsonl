@@ -1,0 +1,10 @@
+{"key": "961871fb056e76f0", "role": "operator", "t": 1790975146.707, "seconds": 2.566, "output": "{\"Original_Price\": \"999.0\", \"Amazon_Price\": \"994.0\", \"Discount\": \"0.5\"}"}
+{"key": "6e99f57cc201bff3", "role": "operator", "t": 1790975146.706, "seconds": 2.599, "output": "{\"Original_Price\": \"999.99\", \"Amazon_Price\": \"894.8\", \"Discount\": \"10.52\"}"}
+{"key": "7593be29962397da", "role": "operator", "t": 1790975146.704, "seconds": 2.7, "output": "{\"Original_Price\": \"4699.0\", \"Amazon_Price\": \"3599.0\", \"Discount\": \"23.45\"}"}
+{"key": "b162261ad09de07d", "role": "operator", "t": 1790975146.704, "seconds": 2.762, "output": "{ \"Original_Price\": \"2899.0\", \"Amazon_Price\": \"2699.0\", \"Discount\": \"7.27%\" }"}
+{"key": "10f8f69a2e497c24", "role": "operator", "t": 1790975146.705, "seconds": 2.766, "output": "{\"Original_Price\": \"1199.0\", \"Amazon_Price\": \"876.0\", \"Discount\": \"26.77\"}"}
+{"key": "d2fb738c15521460", "role": "operator", "t": 1790975146.706, "seconds": 3.273, "output": "{ \"Impute_Discount\": { \"function_name\": \"impute_discount\", \"args\": [\"{\\\"Original_Price\\\": \\\"1199.0\\\", \\\"Amazon_Price\\\": \\\"799.99\\\", \\\"Discount\\\": null}\"] } }"}
+{"key": "50cca6b0f2fdf46d", "role": "operator", "t": 1790975146.706, "seconds": 3.281, "output": "{ \"impute_discount\": { \"function_name\": \"impute_discount\", \"args\": [\"{ \\\"Original_Price\\\": \\\"1099.99\\\", \\\"Amazon_Price\\\": \\\"929.98\\\", \\\"Discount\\\": null }\"] } }"}
+{"key": "26dda02b37180878", "role": "operator", "t": 1790975146.707, "seconds": 3.282, "output": "{\"Original_Price\": \"999.0\", \"Amazon_Price\": \"927.63\", \"Discount\": \"7.14\"}"}
+{"key": "289e146adec99bf8", "role": "operator", "t": 1790975146.705, "seconds": 3.286, "output": "{\"Original_Price\": \"1599.0\", \"Amazon_Price\": \"1499.99\", \"Discount\": \"6.25\"}"}
+{"key": "6019d43e3d5ac726", "role": "operator", "t": 1790975146.705, "seconds": 3.289, "output": "{\"Original_Price\": \"1599.0\", \"Amazon_Price\": \"1194.0\", \"Discount\": \"25.21\"}"}

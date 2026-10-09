@@ -1,0 +1,51 @@
+{
+  "columns": {
+    "city.state_name": {
+      "precision": 0.9512195121951219,
+      "recall": 0.4431818181818182,
+      "f1": 0.6046511627906976
+    },
+    "player.name": {
+      "precision": 0.4634146341463415,
+      "recall": 0.2159090909090909,
+      "f1": 0.29457364341085274
+    },
+    "player.college": {
+      "precision": 0.5121951219512195,
+      "recall": 0.23863636363636365,
+      "f1": 0.32558139534883723
+    },
+    "team.founded_year": {
+      "precision": 0.9512195121951219,
+      "recall": 0.4431818181818182,
+      "f1": 0.6046511627906976
+    },
+    "team.team_name": {
+      "precision": 0.9512195121951219,
+      "recall": 0.4431818181818182,
+      "f1": 0.6046511627906976
+    }
+  },
+  "macro_precision": 0.7658536585365854,
+  "macro_recall": 0.3568181818181818,
+  "macro_f1": 0.48682170542635655,
+  "rows": {
+    "len_gold": 88,
+    "len_pred": 41,
+    "matched_rows": 39
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.id",
+    "team.id",
+    "city.id"
+  ],
+  "evaluated_columns": [
+    "city.state_name",
+    "player.name",
+    "player.college",
+    "team.founded_year",
+    "team.team_name"
+  ],
+  "skipped_columns": []
+}

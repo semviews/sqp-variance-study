@@ -1,0 +1,6 @@
+{"key": "adcc7e5af6503acc", "role": "operator", "t": 1790975035.263, "seconds": 2.459, "output": "{GET_DISTANCE_SCORE: {\"city\": \"Tokyo\", \"target_city\": \"Los Angeles\"}}"}
+{"key": "506d0cdc762d5e26", "role": "operator", "t": 1790975035.262, "seconds": 2.473, "output": "To calculate the score, I need to use a tool to get the distance from Paris to Los Angeles."}
+{"key": "507cda27cad5fc0d", "role": "operator", "t": 1790975035.261, "seconds": 2.476, "output": "{Tool: distance_to_la, args: [\"San Francisco\"]}"}
+{"key": "ddf2a06f45d3bf1e", "role": "operator", "t": 1790975035.263, "seconds": 2.642, "output": "{GET_DISTANCE_SCORE: {\"city\": \"Sydney\", \"target_city\": \"Los Angeles\"}}"}
+{"key": "aca9fb993826cbed", "role": "operator", "t": 1790975035.261, "seconds": 2.655, "output": "To calculate the score, I need to use a tool to get the distance from Boston to Los Angeles."}
+{"key": "6e10b230f5f20644", "role": "operator", "t": 1790975035.263, "seconds": 2.656, "output": "{ToolCall: distance_to_los_angeles(city=\"London\")}"}

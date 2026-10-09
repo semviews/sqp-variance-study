@@ -1,0 +1,61 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 28,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 1,
+  "attempt": 1,
+  "seconds": 3.315,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.3333,
+    0
+  ],
+  "tokens": [
+    602,
+    563,
+    39
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "prediction": [
+        "clustering",
+        "logistic",
+        "normal-distribution"
+      ],
+      "truth": [
+        "classification",
+        "clustering",
+        "machine-learning"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0,
+      "prediction": [
+        "clustering",
+        "normal-distribution",
+        "logistic"
+      ],
+      "truth": [
+        "clustering",
+        "classification",
+        "machine-learning"
+      ]
+    }
+  ]
+}

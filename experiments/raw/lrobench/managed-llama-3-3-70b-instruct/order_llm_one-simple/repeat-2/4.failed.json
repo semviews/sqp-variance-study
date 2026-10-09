@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 4,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 3,
+  "seconds": 4.135,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 108, in pipeline_order4\n    result = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: 'To determine the duration of the movies, I need to call the external knowledge tool.'\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'To compare the duration of the movies, I need to look up the duration of each movie.'",
+      "operator_calls": 5
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To compare the duration of the movies, I need to look up the duration of 'The Little Mermaid' and 'Aladdin'. \\n\\nThe Little Mermaid (1989) has a duration of 83 minutes, and Aladdin (1992) has a durat",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 7,
+  "judge_calls": 0
+}

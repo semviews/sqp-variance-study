@@ -1,0 +1,35 @@
+{"key": "d6bc19537323af6a", "role": "operator", "t": 1790994859.49, "seconds": 2.021, "output": "Europe"}
+{"key": "b0e2b078c5f2cd04", "role": "operator", "t": 1790994859.49, "seconds": 2.022, "output": "Asia"}
+{"key": "036feca2a8dde8f0", "role": "operator", "t": 1790994859.488, "seconds": 2.026, "output": "America Africa Europe"}
+{"key": "2435f530adabf9ef", "role": "operator", "t": 1790994859.487, "seconds": 2.027, "output": "Asia"}
+{"key": "074207bd5d8c9042", "role": "operator", "t": 1790994859.489, "seconds": 2.025, "output": "Asia"}
+{"key": "cbc170a2087d8e28", "role": "operator", "t": 1790994859.487, "seconds": 2.027, "output": "Asia"}
+{"key": "1da6bf15abb61024", "role": "operator", "t": 1790994859.488, "seconds": 2.548, "output": "The Arctic Ocean adjoins the continents of America, Asia, and Europe, but based on the given condition, the matched value is Europe"}
+{"key": "9e3e066e1be73a4b", "role": "operator", "t": 1790994859.489, "seconds": 2.549, "output": "Europe"}
+{"key": "e6cd66ac085276b3", "role": "operator", "t": 1790994859.489, "seconds": 2.55, "output": "Europe"}
+{"key": "1b26be88276eccba", "role": "operator", "t": 1790994859.491, "seconds": 2.554, "output": "America"}
+{"key": "94430182525c0f9b", "role": "operator", "t": 1790994861.512, "seconds": 0.769, "output": "Asia"}
+{"key": "cb27c75aa83ab8be", "role": "operator", "t": 1790994861.512, "seconds": 1.115, "output": "Asia"}
+{"key": "855f39a6ca62db2c", "role": "operator", "t": 1790994862.039, "seconds": 0.691, "output": "America"}
+{"key": "b4ad414f599b6321", "role": "operator", "t": 1790994862.039, "seconds": 0.784, "output": "Asia"}
+{"key": "deb7f10f469e5b8e", "role": "operator", "t": 1790994862.045, "seconds": 1.324, "output": "The Mediterranean Sea adjoins the continents of Africa, Asia, and Europe, but since only one matched value is required, the matched value is Africa"}
+{"key": "f2815a7af027c204", "role": "operator", "t": 1790994862.039, "seconds": 1.331, "output": "Asia"}
+{"key": "3e36ef7bf1557aa1", "role": "operator", "t": 1790994862.039, "seconds": 1.332, "output": "Europe"}
+{"key": "f39b5fae63b5e8b1", "role": "operator", "t": 1790994862.039, "seconds": 1.336, "output": "Asia"}
+{"key": "de4eb5a2d73f656f", "role": "operator", "t": 1790994862.039, "seconds": 1.337, "output": "Europe"}
+{"key": "c00c842747015bc9", "role": "operator", "t": 1790994862.039, "seconds": 1.338, "output": "Asia Africa Australia/Oceania"}
+{"key": "294ecf79c6ac9dcd", "role": "operator", "t": 1790994862.281, "seconds": 1.097, "output": "Europe"}
+{"key": "c124abcde60cb552", "role": "operator", "t": 1790994862.73, "seconds": 0.935, "output": "Australia/Oceania"}
+{"key": "1bf626024767471b", "role": "operator", "t": 1790994862.627, "seconds": 1.505, "output": "Europe"}
+{"key": "f870d0e182c37fd2", "role": "operator", "t": 1790994863.378, "seconds": 0.757, "output": "Asia"}
+{"key": "864fcfefcc84eb64", "role": "operator", "t": 1790994863.665, "seconds": 0.693, "output": "Asia"}
+{"key": "e6ea915ac8ce4fe4", "role": "operator", "t": 1790994862.823, "seconds": 2.105, "output": "Asia"}
+{"key": "e3038d7773823089", "role": "operator", "t": 1790994863.371, "seconds": 1.769, "output": "Asia"}
+{"key": "5b9e6ac871398a35", "role": "operator", "t": 1790994864.132, "seconds": 1.009, "output": "Asia"}
+{"key": "7e63eb67c4a6c538", "role": "operator", "t": 1790994864.357, "seconds": 0.785, "output": "Asia"}
+{"key": "eb3f8d6a57d47ab8", "role": "operator", "t": 1790994864.135, "seconds": 1.008, "output": "Europe"}
+{"key": "01810c9b2c65a0ec", "role": "operator", "t": 1790994863.378, "seconds": 3.223, "output": "Europe"}
+{"key": "14835016ff2a7385", "role": "operator", "t": 1790994863.378, "seconds": 3.229, "output": "Asia"}
+{"key": "5d4c5182f4f947a8", "role": "operator", "t": 1790994863.378, "seconds": 3.231, "output": "Asia"}
+{"key": "2eb9187f4f57a5c0", "role": "operator", "t": 1790994863.371, "seconds": 3.242, "output": "Africa"}
+{"key": "269a700cbc617a73", "role": "operator", "t": 1790994863.371, "seconds": 3.346, "output": "Europe"}

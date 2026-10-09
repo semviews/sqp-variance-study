@@ -1,0 +1,19 @@
+{
+  "scenario": "movie",
+  "model": "openai/managed-gpt-oss-120b",
+  "setting": "w20",
+  "policy": "approximate",
+  "repeat": 5,
+  "query_id": 1,
+  "status": "success",
+  "error": null,
+  "execution_time": 212.8883101940155,
+  "token_usage": 623132,
+  "model_calls": 2000,
+  "call_errors": 0,
+  "scale_factor": 2000,
+  "temperature": 0.0,
+  "workers": 20,
+  "reasoning": null,
+  "shuffle_seed": null
+}

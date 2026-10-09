@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 19,
+  "model": "vllm-llama-3-3-70b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 3.888,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 434, in pipeline_order19\n    country = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To compare the 'The length of the country's coastline' criteria, we need to know the coastline lengths of Bangladesh and Pakistan.\\n\\nBangladesh has a coastline of approximately 580 km.\\nPakistan has\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"Brazil has a coastline of approximately 7,491 km, while Japan has a coastline of approximately 29,751 km. Since 7,491 km is less than 29,751 km, Brazil's coastline is shorter than Japan's.\\n\\n0\"",
+      "operator_calls": 21
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: 'India has a coastline of approximately 7,517 kilometers, while Japan has a coastline of approximately 29,751 kilometers. Since 7,517 kilometers is less than 29,751 kilometers, Item 2 (Japan) has a hi",
+      "operator_calls": 30
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0
+}

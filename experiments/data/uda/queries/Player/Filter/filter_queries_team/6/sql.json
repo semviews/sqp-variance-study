@@ -1,0 +1,17 @@
+{
+  "sql": "/* Query 6: 3 (team) */ SELECT ownership, founded_year, championship FROM team WHERE ownership <> 'Herb Simon' OR championship = 3",
+  "team": {
+    "championship": {
+      "value_type": "int",
+      "description": "championships is the number of this team getting championships (e.g. 5)."
+    },
+    "founded_year": {
+      "value_type": "int",
+      "description": "founded_year is the year of this team team founded (e.g. 1947)."
+    },
+    "ownership": {
+      "value_type": "str",
+      "description": "ownership is the name of the team's owner (e.g. Jeanie Buss)."
+    }
+  }
+}

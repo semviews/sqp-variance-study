@@ -1,0 +1,64 @@
+{
+ "failures": {
+  "vllm-granite-3-3-8b-instruct": {
+   "failed_executions": 1347,
+   "envelope": 0,
+   "leading text": 807,
+   "valid JSON": 437,
+   "no JSON": 103
+  },
+  "vllm-llama-3-3-70b-instruct": {
+   "failed_executions": 304,
+   "envelope": 0,
+   "leading text": 99,
+   "valid JSON": 195,
+   "no JSON": 10
+  },
+  "managed-gpt-oss-120b": {
+   "failed_executions": 59,
+   "envelope": 0,
+   "leading text": 5,
+   "valid JSON": 54,
+   "no JSON": 0
+  },
+  "managed-llama-3-3-70b-instruct": {
+   "failed_executions": 2094,
+   "envelope": 33,
+   "leading text": 821,
+   "valid JSON": 888,
+   "no JSON": 352
+  }
+ },
+ "judge": {
+  "identical_answer_pairs": 2506,
+  "different_scores": 0
+ },
+ "macros": {
+  "lroFailedExecGranite": 1347,
+  "lroFailEnvelopePctGranite": "0\\%",
+  "lroFailTextPctGranite": "60\\%",
+  "lroFailJsonPctGranite": "32\\%",
+  "lroFailNoJsonPctGranite": "8\\%",
+  "lroFailRescuablePctGranite": "60\\%",
+  "lroFailedExecLlamaR": 304,
+  "lroFailEnvelopePctLlamaR": "0\\%",
+  "lroFailTextPctLlamaR": "33\\%",
+  "lroFailJsonPctLlamaR": "64\\%",
+  "lroFailNoJsonPctLlamaR": "3\\%",
+  "lroFailRescuablePctLlamaR": "33\\%",
+  "lroFailedExecGptoss": 59,
+  "lroFailEnvelopePctGptoss": "0\\%",
+  "lroFailTextPctGptoss": "8\\%",
+  "lroFailJsonPctGptoss": "92\\%",
+  "lroFailNoJsonPctGptoss": "0\\%",
+  "lroFailRescuablePctGptoss": "8\\%",
+  "lroFailedExecLlamaW": 2094,
+  "lroFailEnvelopePctLlamaW": "2\\%",
+  "lroFailTextPctLlamaW": "39\\%",
+  "lroFailJsonPctLlamaW": "42\\%",
+  "lroFailNoJsonPctLlamaW": "17\\%",
+  "lroFailRescuablePctLlamaW": "41\\%",
+  "lroJudgeSamePairs": "2{,}506",
+  "lroJudgeDifferPairs": 0
+ }
+}

@@ -1,0 +1,7 @@
+{"key": "04ad68c26f1e3f6e", "role": "operator", "t": 1790968149.527, "seconds": 1.892, "output": "[{\"Date\": \"201308\", \"YearAttr\": \"Leap Year\"}]"}
+{"key": "2fd9830a029bf128", "role": "operator", "t": 1790968149.523, "seconds": 1.904, "output": "{\"Date\": \"201207\", \"YearAttr\": \"Leap Year\"}"}
+{"key": "5b4c709fa056c7f7", "role": "operator", "t": 1790968149.523, "seconds": 1.921, "output": "{\"Date\": \"201302\", \"YearAttr\": \"Common Year\"}"}
+{"key": "c038e97f0e1fc014", "role": "operator", "t": 1790968149.524, "seconds": 1.932, "output": "{\"Date\": \"201304\", \"YearAttr\": \"Common Year\"}"}
+{"key": "4903e22834c7cadb", "role": "operator", "t": 1790968149.525, "seconds": 2.065, "output": "{\"Date\": \"201205\", \"YearAttr\": \"Common Year\"}"}
+{"key": "3e1361add079d6c4", "role": "operator", "t": 1790968149.526, "seconds": 2.07, "output": "{\"Date\": \"201305\", \"YearAttr\": \"Common Year\"}"}
+{"key": "e653d79651c59e9f", "role": "operator", "t": 1790968149.524, "seconds": 2.074, "output": "{\"Date\": \"201303\", \"YearAttr\": \"Common Year\"}"}

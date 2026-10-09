@@ -1,0 +1,13 @@
+{"key": "56cbfe87ee95a20e", "role": "operator", "t": 1790982396.041, "seconds": 1.395, "output": "Becontree Avenue"}
+{"key": "6237f30426512231", "role": "operator", "t": 1790982396.04, "seconds": 1.399, "output": "255 High Road"}
+{"key": "5e31cc3c74bd177c", "role": "operator", "t": 1790982396.041, "seconds": 2.27, "output": "None of the values in 'right_address1' match '15 Longbridge Road' as they are all different street names, therefore the matched value is an empty string."}
+{"key": "ff8d72bb20fca1f1", "role": "operator", "t": 1790982396.044, "seconds": 2.272, "output": "None of the values in 'right_address1' match '48-50 Crown Street' as they are all different street locations, therefore the matched value is an empty string."}
+{"key": "c9c9cb911316304f", "role": "operator", "t": 1790982396.042, "seconds": 2.274, "output": "Rose Lane"}
+{"key": "3c71f500593a2117", "role": "operator", "t": 1790982396.043, "seconds": 5.229, "output": "Collier Row Road is likely a match for one of the values containing 'Road' in the list, the closest match would be 'Collier' is not present but 'Row' is present in none, however 'Road' is present in multiple values, one of the values is 'Collier' is not present but 'Collier Row Road' likely matches 'Collier' is not present but one of the 'Road' values, the closest match would be 'Becontree Avenue' is not a match, 'Morrison Road' is not a match, 'Bastable Avenue' is not a match, 'High Road' is the closest match as 'High' can be considered as a description of the location and 'Road' matches 'Collier Row Road', hence the matched value would be '255 High Road'"}
+{"key": "6a55fb39674c2593", "role": "operator", "t": 1790982396.047, "seconds": 5.233, "output": "New Road is not present in the list of available values in 'right_address1', however, High Road is, which could potentially represent the same street location, considering 'New' and 'High' could be referring to different parts of the same road, but without more information, this is speculative, therefore, the closest match would be \n255 High Road"}
+{"key": "983d9f60d5c9f533", "role": "operator", "t": 1790982396.045, "seconds": 5.236, "output": "Becontree Avenue"}
+{"key": "6a2b7a58b74b469e", "role": "operator", "t": 1790982396.043, "seconds": 5.238, "output": "Bastable Avenue"}
+{"key": "f33eb0dceb60964a", "role": "operator", "t": 1790982396.04, "seconds": 5.242, "output": "Bastable Avenue"}
+{"key": "8ca5fc39d9588b16", "role": "operator", "t": 1790982397.438, "seconds": 3.845, "output": "Collier Row Road"}
+{"key": "f4dead6ee5abd217", "role": "operator", "t": 1790982397.439, "seconds": 3.845, "output": "Becontree Avenue"}
+{"key": "9651bcc8ae110ba5", "role": "operator", "t": 1790982401.272, "seconds": 0.518, "output": "Rose Lane"}

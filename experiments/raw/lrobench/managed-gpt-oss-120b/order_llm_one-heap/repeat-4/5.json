@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 5,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 18.519,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    3067,
+    3056,
+    11
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "101 Dalmatians",
+        "The Aristocats",
+        "The Jungle Book",
+        "The Sword in the Stone"
+      ],
+      "truth": [
+        "101 Dalmatians",
+        "The Aristocats",
+        "The Jungle Book",
+        "The Sword in the Stone"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "101 Dalmatians",
+        "The Sword in the Stone",
+        "The Jungle Book",
+        "The Aristocats"
+      ],
+      "truth": [
+        "101 Dalmatians",
+        "The Sword in the Stone",
+        "The Jungle Book",
+        "The Aristocats"
+      ]
+    }
+  ]
+}

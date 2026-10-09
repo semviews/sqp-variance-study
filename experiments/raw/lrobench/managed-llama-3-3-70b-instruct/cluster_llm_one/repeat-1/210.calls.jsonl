@@ -1,0 +1,13 @@
+{"key": "d29c7b5fe1d12357", "role": "operator", "t": 1790961655.386, "seconds": 2.226, "output": "[ \n  { \"ward_no\": [\"1\", \"basic_info\"]}\n]"}
+{"key": "7c42eedfe1022e7e", "role": "operator", "t": 1790961657.612, "seconds": 1.177, "output": "[{\"alderman_first_name\": [\"1\", \"basic_info\"]}]"}
+{"key": "84167dced077eadc", "role": "operator", "t": 1790961658.788, "seconds": 603.364, "output": "[{\"alderman_last_name\": [\"1\", \"basic_info\"]}]"}
+{"key": "613ac6b2a94d1e2c", "role": "operator", "t": 1790962262.152, "seconds": 2.217, "output": "[{\"alderman_name_suffix\": [\"1\", \"basic_info\"]}]"}
+{"key": "7c7f42e282f27207", "role": "operator", "t": 1790962264.37, "seconds": 3.831, "output": "[ \n  { \"ward_office_address\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "8488982f8b66bae2", "role": "operator", "t": 1790962268.201, "seconds": 6.604, "output": "[{\"ward_office_zip\": [\"2\", \"contact_info\"]}]"}
+{"key": "165073963d52d73c", "role": "operator", "t": 1790962274.805, "seconds": 7.642, "output": "[{\"ward_email\": [\"2\", \"contact_info\"]}]"}
+{"key": "ecfa8389b230c163", "role": "operator", "t": 1790962282.448, "seconds": 1.976, "output": "[{\"ward_office_phone\": [\"2\", \"contact_info\"]}]"}
+{"key": "9a834f5e7515f9db", "role": "operator", "t": 1790962284.424, "seconds": 1.671, "output": "[{\"ward_office_fax\": [\"2\", \"contact_info\"]}]"}
+{"key": "3945d3e3a0f9c8d0", "role": "operator", "t": 1790962286.095, "seconds": 5.05, "output": "[{\"city_hall_office_room\": [\"3\", \"other_info\"]}]"}
+{"key": "e15f8d78bb814621", "role": "operator", "t": 1790962291.145, "seconds": 1.235, "output": "[{\"city_hall_office_phone\": [\"2\", \"contact_info\"]}]"}
+{"key": "b38604e6bc8bfbc9", "role": "operator", "t": 1790962292.38, "seconds": 1.433, "output": "[ \n  { \"city_hall_office_fax\": [\"2\", \"contact_info\"]}\n]"}
+{"key": "29cddcb90b239dc2", "role": "operator", "t": 1790962293.813, "seconds": 1.12, "output": "[ \n  { \"Population\": [\"1\", \"basic_info\"]}\n]"}

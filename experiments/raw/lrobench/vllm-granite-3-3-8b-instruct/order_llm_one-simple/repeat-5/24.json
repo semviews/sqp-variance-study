@@ -1,0 +1,65 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 24,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 1.71,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 12,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    2754,
+    2742,
+    12
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Christopher Nolan",
+        "Janek Ambros",
+        "John Cook",
+        "Peter Jackson"
+      ],
+      "truth": [
+        "Christopher Nolan",
+        "Janek Ambros",
+        "John Cook",
+        "Peter Jackson"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 1.0,
+      "prediction": [
+        "Christopher Nolan",
+        "Peter Jackson",
+        "Janek Ambros",
+        "John Cook"
+      ],
+      "truth": [
+        "Christopher Nolan",
+        "Peter Jackson",
+        "Janek Ambros",
+        "John Cook"
+      ]
+    }
+  ]
+}

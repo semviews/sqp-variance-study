@@ -1,0 +1,49 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 307,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 5,
+  "attempt": 1,
+  "seconds": 2.162,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.4,
+    1.0,
+    0.5714
+  ],
+  "tokens": [
+    394,
+    314,
+    80
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.4,
+        1.0,
+        0.5714
+      ],
+      "prediction": [
+        "['ADDRESS' 'CITY']",
+        "['ADDRESS' 'STATE']",
+        "['ADDRESS' 'STREET']",
+        "['ADDRESS' 'ZIP']",
+        "['SCHOOL_NAME' 'NAME']"
+      ],
+      "truth": [
+        "['ADDRESS' 'STREET']",
+        "['SCHOOL_NAME' 'NAME']"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_semi",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 1,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 3,
+  "seconds": 1.576,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: could not convert string to float: '56010000\" is not a valid score between 0 and 100. The task requires returning a score as a string within that range. \\n\\nTo evaluate the population of England, we consider its actual population. As of the latest estimates, England\\'s population is approximately 56.5 million. To convert this into a score between 0 and 100, we can use a relative comparison to the largest populations in the world.\\n\\nFor context, the world\\'s most populous country, Ch",
+      "operator_calls": 11
+    },
+    {
+      "error": "ValueError: could not convert string to float: '56010000\" is not a valid score between 0 and 100. The task requires returning a score as a string within that range. Based on the population of England, which is approximately 56.5 million, and considering the scale from 0 (least populous) to 100 (most populous among comparable countries), a reasonable score would be around 70, reflecting a relatively high population among European countries.\\n\\nTherefore, the output is:\\n\\n\"70'",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0,
+  "returned": [
+    0.6,
+    0.6667
+  ],
+  "tokens": [
+    2368,
+    2353,
+    15
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "prediction": [
+        "Belgium",
+        "France",
+        "Germany",
+        "Poland",
+        "Spain"
+      ],
+      "truth": [
+        "England",
+        "France",
+        "Germany",
+        "Italy",
+        "Spain"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.6667,
+      "prediction": [
+        "Germany",
+        "Belgium",
+        "Poland",
+        "Spain",
+        "France"
+      ],
+      "truth": [
+        "Germany",
+        "France",
+        "Italy",
+        "England",
+        "Spain"
+      ]
+    }
+  ]
+}

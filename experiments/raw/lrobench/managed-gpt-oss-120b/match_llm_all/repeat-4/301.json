@@ -1,0 +1,52 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 301,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 1,
+  "seconds": 3.463,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 1,
+  "judge_calls": 0,
+  "returned": [
+    0.8,
+    0.8,
+    0.8
+  ],
+  "tokens": [
+    377,
+    292,
+    85
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "prediction": [
+        "['ADDRESS' 'MERGED_ADDRESS']",
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'NAME']",
+        "['URLLINK' 'WEBSITE']"
+      ],
+      "truth": [
+        "['ADDRESS' 'MERGED_ADDRESS']",
+        "['Geo Local Area' 'Geo Local Area']",
+        "['Geom' 'Geom']",
+        "['NAME' 'STREET_NAME']",
+        "['URLLINK' 'WEBSITE']"
+      ]
+    }
+  ]
+}

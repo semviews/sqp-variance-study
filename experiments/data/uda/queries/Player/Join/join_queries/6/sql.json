@@ -1,0 +1,19 @@
+{
+  "sql": "/* Query 6: binary_join (team, city) */ SELECT city.state_name, city.area, team.founded_year, team.championships FROM team JOIN city ON team.location = city.city_name",
+  "city": {
+    "area": {
+      "value_type": "float",
+      "description": "area is the area of the city in square kilometers (e.g. 89.64)."
+    },
+    "state_name": {
+      "value_type": "str",
+      "description": "state_name is the name of the state the city is located in (e.g. California)."
+    }
+  },
+  "team": {
+    "founded_year": {
+      "value_type": "int",
+      "description": "founded_year is the year of this team team founded (e.g. 1947)."
+    }
+  }
+}

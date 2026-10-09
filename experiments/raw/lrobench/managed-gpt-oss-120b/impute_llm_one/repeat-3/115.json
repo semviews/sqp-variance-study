@@ -1,0 +1,69 @@
+{
+  "benchmark": "lrobench",
+  "operator": "impute",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 115,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 7.926,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": "managed-gpt-oss-120b",
+  "operator_calls": 6,
+  "judge_calls": 6,
+  "returned": [
+    0.8333,
+    0.8333
+  ],
+  "tokens": [
+    1524,
+    1372,
+    152
+  ],
+  "metrics": [
+    {
+      "metric": "df_em_acc",
+      "value": 0.8333,
+      "prediction": [
+        "Swedish",
+        "German",
+        "Norwegian",
+        "Aleut",
+        "Scottish Gaelic",
+        "Turkish"
+      ],
+      "truth": [
+        "Swedish",
+        "German",
+        "Norwegian",
+        "Aleut",
+        "Gaelic",
+        "Turkish"
+      ]
+    },
+    {
+      "metric": "df_agent_acc",
+      "value": 0.8333,
+      "prediction": [
+        "Swedish",
+        "German",
+        "Norwegian",
+        "Aleut",
+        "Scottish Gaelic",
+        "Turkish"
+      ],
+      "truth": [
+        "Swedish",
+        "German",
+        "Norwegian",
+        "Aleut",
+        "Gaelic",
+        "Turkish"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "player.team": {
+      "precision": 0.8571428571428571,
+      "recall": 0.46153846153846156,
+      "f1": 0.6
+    },
+    "avg_player_fiba_world_cup": {
+      "precision": 0.47619047619047616,
+      "recall": 0.2564102564102564,
+      "f1": 0.3333333333333333
+    }
+  },
+  "macro_precision": 0.6666666666666666,
+  "macro_recall": 0.358974358974359,
+  "macro_f1": 0.4666666666666667,
+  "rows": {
+    "len_gold": 13,
+    "len_pred": 7,
+    "matched_rows": 6
+  },
+  "warnings": [],
+  "used_keys": [
+    "player.team"
+  ],
+  "evaluated_columns": [
+    "player.team",
+    "avg_player_fiba_world_cup"
+  ],
+  "skipped_columns": []
+}

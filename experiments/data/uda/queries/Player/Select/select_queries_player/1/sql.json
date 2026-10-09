@@ -1,0 +1,9 @@
+{
+  "sql": "/* Query 1: select (player) */ SELECT draft_pick FROM player",
+  "player": {
+    "draft_pick": {
+      "value_type": "int",
+      "description": "the pick number at which the player was selected in the NBA draft (e.g., 1)."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{"key": "7b0beb97c6b7d139", "role": "operator", "t": 1790963608.292, "seconds": 1.172, "output": "0"}
+{"key": "e2b2c0b4c9767c06", "role": "operator", "t": 1790963608.293, "seconds": 1.172, "output": "1"}
+{"key": "de632979336dd730", "role": "operator", "t": 1790963608.294, "seconds": 1.184, "output": "0"}
+{"key": "20a39a60f9c4c0d4", "role": "operator", "t": 1790963608.295, "seconds": 2.549, "output": "To determine whether the two inputs, `MAPID` and `Geom`, satisfy the condition \"The two columns refer to the similar feature,\" I would need to understand the context and content of these columns. However, based on the information provided, there is no explicit description of what `MAPID` and `Geom` represent or how they relate to each other.\n\nGiven the lack of context, I cannot definitively assess whether they refer to similar features. Therefore, without additional information, I must assume that the condition cannot be verified.\n\n**Output:** 0"}
+{"key": "c1e6149241de8219", "role": "operator", "t": 1790963608.296, "seconds": 2.55, "output": "0"}
+{"key": "9cbd961b1f4595bc", "role": "operator", "t": 1790963608.294, "seconds": 2.553, "output": "0"}
+{"key": "3317e1f088942fea", "role": "operator", "t": 1790963608.293, "seconds": 2.554, "output": "0"}
+{"key": "67e87547cb5d7584", "role": "operator", "t": 1790963608.295, "seconds": 2.552, "output": "1"}
+{"key": "777b0bbf21c7b4d5", "role": "operator", "t": 1790963608.293, "seconds": 2.555, "output": "0"}
+{"key": "ef89b17810697a5e", "role": "operator", "t": 1790963608.296, "seconds": 2.553, "output": "0"}
+{"key": "144c4fa5f2bb4873", "role": "operator", "t": 1790963609.465, "seconds": 1.384, "output": "0"}
+{"key": "c653075bbd89a679", "role": "operator", "t": 1790963609.478, "seconds": 1.371, "output": "0"}
+{"key": "17380cc5d11f1265", "role": "operator", "t": 1790963609.464, "seconds": 1.386, "output": "0"}

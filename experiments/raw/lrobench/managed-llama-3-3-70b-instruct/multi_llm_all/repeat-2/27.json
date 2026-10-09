@@ -1,0 +1,53 @@
+{
+  "benchmark": "lrobench",
+  "operator": "multi",
+  "impl": "llm_all",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 27,
+  "model": "managed-llama-3-3-70b-instruct",
+  "repeat": 2,
+  "attempt": 1,
+  "seconds": 117.851,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 226,
+  "judge_calls": 0,
+  "returned": [
+    [
+      "2000s",
+      60
+    ],
+    [
+      "2010s",
+      40
+    ],
+    [
+      "2020s",
+      7
+    ]
+  ],
+  "tokens": 67304,
+  "metrics": [],
+  "prediction": [
+    [
+      "2000s",
+      60
+    ],
+    [
+      "2010s",
+      40
+    ],
+    [
+      "2020s",
+      7
+    ]
+  ],
+  "score": {
+    "metric": "exact_table",
+    "exact_table": 0.0,
+    "match": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "simple",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 20,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 3,
+  "attempt": 3,
+  "seconds": 35.894,
+  "error": "Traceback (most recent call last):\n  File \"/home/user/code/sqpe-r/scripts/lrobench_repeats.py\", line 261, in main\n    returned = pipeline(namespace)\n  File \"/home/user/code/LROBench/eval/order_eval.py\", line 455, in pipeline_order20\n    country = op.execute(impl_type=args.impl,\n  File \"/home/user/code/LROBench/src/operators/logical/order.py\", line 24, in execute\n    res =  op.execute(condition = condition,\nValueError: invalid literal for int() with base 10: \"To determine the comparison of the 2020 GDP of Bangladesh and Nigeria, we can refer to external economic data:\\n\\n- **Bangladesh's 2020 GDP**: Approximately $292 billion (in current US dollars).\\n- *\n",
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine the comparison of the 2020 GDP of Bangladesh and Pakistan, we can use external knowledge:\\n\\n- **Bangladesh's 2020 GDP**: Approximately $292 billion (in current US dollars).\\n- **Pakista",
+      "operator_calls": 10
+    },
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"0\\n\\nThe 2020 GDP of Bangladesh was approximately $274 billion, while Brazil's 2020 GDP was significantly higher, around $1.43 trillion. Therefore, Brazil has a higher GDP than Bangladesh.\"",
+      "operator_calls": 10
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 11,
+  "judge_calls": 0
+}

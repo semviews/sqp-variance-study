@@ -1,0 +1,51 @@
+{
+  "benchmark": "lrobench",
+  "operator": "match",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": null,
+  "thinking": false,
+  "query_id": 203,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 4,
+  "attempt": 2,
+  "seconds": 76.354,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: ''",
+      "operator_calls": 279
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 304,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tokens": [
+    263678,
+    263374,
+    304
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "['a-1775' 'b-1553']",
+        "['a-708' 'b-662']"
+      ],
+      "truth": [
+        "['a-1775' 'b-1553']",
+        "['a-708' 'b-662']"
+      ]
+    }
+  ]
+}

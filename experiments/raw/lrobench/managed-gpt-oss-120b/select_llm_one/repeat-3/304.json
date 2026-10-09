@@ -1,0 +1,47 @@
+{
+  "benchmark": "lrobench",
+  "operator": "select",
+  "impl": "llm_one",
+  "sort_algo": null,
+  "example_num": 0,
+  "thinking": false,
+  "query_id": 304,
+  "model": "managed-gpt-oss-120b",
+  "repeat": 3,
+  "attempt": 1,
+  "seconds": 48.113,
+  "error": null,
+  "failed_attempts": [],
+  "judge_model": null,
+  "operator_calls": 10,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.25,
+    0.4
+  ],
+  "tokens": [
+    1348,
+    1338,
+    10
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        0.25,
+        0.4
+      ],
+      "prediction": [
+        "colour"
+      ],
+      "truth": [
+        "colour",
+        "gender",
+        "race",
+        "superhero"
+      ]
+    }
+  ]
+}

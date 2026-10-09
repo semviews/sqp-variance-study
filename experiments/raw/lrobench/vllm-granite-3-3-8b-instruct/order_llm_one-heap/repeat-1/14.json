@@ -1,0 +1,82 @@
+{
+  "benchmark": "lrobench",
+  "operator": "order",
+  "impl": "llm_one",
+  "sort_algo": "heap",
+  "example_num": null,
+  "thinking": false,
+  "query_id": 14,
+  "model": "vllm-granite-3-3-8b-instruct",
+  "repeat": 1,
+  "attempt": 2,
+  "seconds": 11.658,
+  "error": null,
+  "failed_attempts": [
+    {
+      "error": "ValueError: invalid literal for int() with base 10: \"To determine the 'The vehicle volume' criteria for each product line, we can use external knowledge about the typical volume associated with each type of vehicle:\\n\\n1. **Trucks and Buses** (Item 1):",
+      "operator_calls": 11
+    }
+  ],
+  "judge_model": null,
+  "operator_calls": 22,
+  "judge_calls": 0,
+  "returned": [
+    1.0,
+    0.8095
+  ],
+  "tokens": [
+    4853,
+    4831,
+    22
+  ],
+  "metrics": [
+    {
+      "metric": "f1_score",
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "prediction": [
+        "Classic Cars",
+        "Motorcycles",
+        "Planes",
+        "Ships",
+        "Trains",
+        "Trucks and Buses",
+        "Vintage Cars"
+      ],
+      "truth": [
+        "Classic Cars",
+        "Motorcycles",
+        "Planes",
+        "Ships",
+        "Trains",
+        "Trucks and Buses",
+        "Vintage Cars"
+      ]
+    },
+    {
+      "metric": "kendall_tau_at_k",
+      "value": 0.8095,
+      "prediction": [
+        "Trucks and Buses",
+        "Ships",
+        "Planes",
+        "Trains",
+        "Classic Cars",
+        "Vintage Cars",
+        "Motorcycles"
+      ],
+      "truth": [
+        "Ships",
+        "Planes",
+        "Trains",
+        "Trucks and Buses",
+        "Vintage Cars",
+        "Classic Cars",
+        "Motorcycles"
+      ]
+    }
+  ]
+}

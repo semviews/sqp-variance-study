@@ -1,0 +1,23 @@
+{
+  "sql": "/* Query 5: filter3_join1 (player, team) */ SELECT player.mvp_awards, team.championship, player.draft_year, team.team_name FROM player JOIN team ON player.team = team.team_name WHERE team.location <> 'Los Angeles' OR team.founded_year < 1967",
+  "player": {
+    "draft_year": {
+      "value_type": "int",
+      "description": "the year the player was selected in the NBA draft; use format YYYY (e.g., 2003)."
+    },
+    "mvp_awards": {
+      "value_type": "int",
+      "description": "number of NBA MVP awards the player has won; use 0 if none (e.g., 2)."
+    }
+  },
+  "team": {
+    "championship": {
+      "value_type": "int",
+      "description": "championships is the number of this team getting championships (e.g. 5)."
+    },
+    "team_name": {
+      "value_type": "str",
+      "description": "team_name is the full name of the team (e.g. Los Angeles Lakers)."
+    }
+  }
+}

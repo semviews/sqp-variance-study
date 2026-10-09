@@ -1,0 +1,34 @@
+{"key": "9408b7cd73eaeb70", "role": "operator", "t": 1790979522.052, "seconds": 1.965, "output": "[ \n  { \"geo_island\": [\"1\", \"Land\"]}\n]"}
+{"key": "af262210963473c5", "role": "operator", "t": 1790979524.017, "seconds": 1.068, "output": "[{\"politics\": [\"2\", \"Other\"]}]"}
+{"key": "e8e160e646e0ecb3", "role": "operator", "t": 1790979525.085, "seconds": 1.135, "output": "[ \n  { \"borders\": [\"1\", \"Land\"]} \n]"}
+{"key": "ea2a6377cd4eeb03", "role": "operator", "t": 1790979526.221, "seconds": 1.182, "output": "[ \n  { \"organization\": [\"3\", \"Water\"]}\n]"}
+{"key": "1ab83e9137faec05", "role": "operator", "t": 1790979527.402, "seconds": 0.969, "output": "[{\"economy\": [\"2\", \"Other\"]}]"}
+{"key": "e8452efce3276c84", "role": "operator", "t": 1790979528.371, "seconds": 1.063, "output": "[{\"religion\": [\"2\", \"Other\"]}]"}
+{"key": "404d8ec4d58a04e4", "role": "operator", "t": 1790979529.434, "seconds": 1.004, "output": "[ \n  { \"geo_desert\": [\"1\", \"Land\"]}\n]"}
+{"key": "938c3c6e3af8a137", "role": "operator", "t": 1790979530.438, "seconds": 1.18, "output": "[ \n  { \"geo_mountain\": [\"1\", \"Land\"]}\n]"}
+{"key": "dc39e66f20a25e23", "role": "operator", "t": 1790979531.618, "seconds": 1.761, "output": "[{\"geo_sea\": [\"3\", \"Water\"]}]"}
+{"key": "29b305ebb7566ead", "role": "operator", "t": 1790979533.379, "seconds": 0.905, "output": "[ \n  { \"sea\": [\"3\", \"Water\"]}\n]"}
+{"key": "b782f7abf37b504e", "role": "operator", "t": 1790979534.285, "seconds": 0.92, "output": "[{\"geo_estuary\": [\"3\", \"Water\"]}]"}
+{"key": "0df59d8c031d09b6", "role": "operator", "t": 1790979535.205, "seconds": 1.127, "output": "[ \n  { \"mergesWith\": [\"3\", \"Water\"]} \n]"}
+{"key": "5b4c83e7917dc012", "role": "operator", "t": 1790979536.332, "seconds": 1.085, "output": "[ \n  { \"ethnicGroup\": [\"2\", \"Other\"]}\n]"}
+{"key": "1592bd37d2d2973e", "role": "operator", "t": 1790979537.417, "seconds": 0.871, "output": "[{\"language\": [\"2\", \"Other\"]}]"}
+{"key": "f89184a2c95e537f", "role": "operator", "t": 1790979538.288, "seconds": 0.869, "output": "[{\"lake\": [\"3\", \"Water\"]}]"}
+{"key": "93788ee14fb503c4", "role": "operator", "t": 1790979539.157, "seconds": 1.03, "output": "[{\"isMember\": [\"2\", \"Other\"]}]"}
+{"key": "14277b81f8855262", "role": "operator", "t": 1790979540.188, "seconds": 0.922, "output": "[ \n  { \"mountain\": [\"1\", \"Land\"]}\n]"}
+{"key": "652967dbcc07c0fe", "role": "operator", "t": 1790979541.11, "seconds": 0.89, "output": "[{\"population\": [\"2\", \"Other\"]}]"}
+{"key": "c25f8dad3991078f", "role": "operator", "t": 1790979542.0, "seconds": 1.337, "output": "[ \n  { \"province\": [\"1\", \"Land\"]}\n]"}
+{"key": "36a1665102d2f495", "role": "operator", "t": 1790979543.337, "seconds": 1.233, "output": "[\n  { \"geo_source\": [\"3\", \"Water\"]}\n]"}
+{"key": "73f658149c7e12ab", "role": "operator", "t": 1790979544.57, "seconds": 1.157, "output": "[{\"island\": [\"1\", \"Land\"]}]"}
+{"key": "85b17bd50071e129", "role": "operator", "t": 1790979545.727, "seconds": 0.942, "output": "[ \n  { \"city\": [\"2\", \"Other\"]}\n]"}
+{"key": "242828b36fa0edbf", "role": "operator", "t": 1790979546.669, "seconds": 1.686, "output": "[ \n  { \"country\": [\"1\", \"Land\"]}\n]"}
+{"key": "44991e5018a440a0", "role": "operator", "t": 1790979548.356, "seconds": 2.516, "output": "To accomplish this task, I would need a specific column or table name to evaluate against the given conditions. However, since the problem statement lacks a specific 'target' name, I'll demonstrate the process with a hypothetical 'target' named \"river_data\".\n\nGiven \"river_data\" as the target, it falls under \"water-related information\". The existing cluster for water-related information is labeled as \"3\" with the name \"Water\". \n\n[\n  { \"river_data\": [\"3\", \"Water\"]}\n]"}
+{"key": "44ffd17b28c9915e", "role": "operator", "t": 1790979550.872, "seconds": 1.259, "output": "[ \n  { \"mountainOnIsland\": [\"1\", \"Land\"]}\n]"}
+{"key": "708b90da8dc5cb07", "role": "operator", "t": 1790979552.131, "seconds": 0.95, "output": "[ \n  { \"geo_lake\": [\"3\", \"Water\"]}\n]"}
+{"key": "22e68ff073c8a55e", "role": "operator", "t": 1790979553.081, "seconds": 0.935, "output": "[\n  { \"encompasses\": [\"3\", \"Water\"]}\n]"}
+{"key": "d25fff4d73ad48f4", "role": "operator", "t": 1790979554.017, "seconds": 1.102, "output": "[ \n  { \"geo_river\": [\"3\", \"Water\"]}\n]"}
+{"key": "be5fd699e7b137fb", "role": "operator", "t": 1790979555.118, "seconds": 1.049, "output": "[{\"desert\": [\"1\", \"Land\"]}]"}
+{"key": "1f49c046ad63df98", "role": "operator", "t": 1790979556.168, "seconds": 1.117, "output": "[ \n  { \"islandIn\": [\"1\", \"Land\"]} \n]"}
+{"key": "d88688f7a67c2f7d", "role": "operator", "t": 1790979557.284, "seconds": 0.945, "output": "[ \n  { \"locatedOn\": [\"2\", \"Other\"]}\n]"}
+{"key": "c632f9dec1a909d9", "role": "operator", "t": 1790979558.229, "seconds": 1.039, "output": "[ \n  { \"located\": [\"3\", \"Water\"]}\n]"}
+{"key": "0677b2ea00b89d90", "role": "operator", "t": 1790979559.268, "seconds": 1.04, "output": "[ \n  { \"river\": [\"3\", \"Water\"]}\n]"}
+{"key": "66e9239dc47b1e62", "role": "operator", "t": 1790979560.308, "seconds": 0.847, "output": "[{\"continent\": [\"1\", \"Land\"]}]"}
