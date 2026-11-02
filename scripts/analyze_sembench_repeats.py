@@ -379,15 +379,24 @@ def main() -> None:
         answer_pairs = list(combinations(answers, 2))
         reproduced = sum(a == b for a, b in answer_pairs) / len(answer_pairs)
 
-        # Independence model: draw each item's output from its own empirical
-        # distribution across repeats, independently, and ask how often two
-        # simulated answers coincide.
+        # Independence model: for each item, independently, draw the outputs
+        # of two distinct recorded executions, and ask how often two simulated
+        # answers coincide. Distinct executions make each item's simulated
+        # disagreement equal its pairwise disagreement; drawing with
+        # replacement would understate it by a factor (k-1)/k.
         empirical = {key: values for key, values in complete.items()}
         rng = random.Random(f"{SEED}:{scenario}:{seed_name(model)}:{setting}:{query}")
+
+        def simulated_pair(distributions: dict) -> tuple[dict, dict]:
+            left, right = {}, {}
+            for key, values in distributions.items():
+                first, second = rng.sample(range(len(values)), 2)
+                left[key], right[key] = values[first], values[second]
+            return left, right
+
         simulated_same = 0
         for _ in range(SIMULATIONS):
-            left = {key: rng.choice(values) for key, values in empirical.items()}
-            right = {key: rng.choice(values) for key, values in empirical.items()}
+            left, right = simulated_pair(empirical)
             simulated_same += answer_from_items(plan, order, left, groups) == answer_from_items(plan, order, right, groups)
         # Held-out check of the same model: fit item distributions on the first
         # half of the runs and predict reproduction among the second half.
@@ -396,8 +405,7 @@ def main() -> None:
             fit = {key: values[:COMMON_K] for key, values in complete.items()}
             same = 0
             for _ in range(SIMULATIONS):
-                left = {key: rng.choice(values) for key, values in fit.items()}
-                right = {key: rng.choice(values) for key, values in fit.items()}
+                left, right = simulated_pair(fit)
                 same += answer_from_items(plan, order, left, groups) == answer_from_items(plan, order, right, groups)
             heldout_predicted = same / SIMULATIONS
             later = list(combinations(answers[COMMON_K:], 2))

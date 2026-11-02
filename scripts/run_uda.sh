@@ -18,4 +18,4 @@ run player-gptoss --model openai/managed-gpt-oss-120b --repeats 5 &
 run player-llama-managed --model openai/managed-llama-3-3-70b-instruct --repeats 5 &
 run player-granite --model openai/vllm-granite-3-3-8b-instruct --repeats 5 &
 wait
-"${UDA_PY:-${UDABENCH:-$HOME/code/UDA-Bench}/.venv/bin/python}" scripts/score_uda_repeats.py >> "$LOGS/score.log" 2>&1
+"${UDA_PY:-${UDABENCH:-$HOME/code/sqpe-research/UDA-Bench}/.venv/bin/python}" scripts/score_uda_repeats.py >> "$LOGS/score.log" 2>&1

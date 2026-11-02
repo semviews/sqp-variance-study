@@ -114,6 +114,8 @@ def main() -> None:
         if mine:
             open_rates[model] = sum(float(row["flip_k5"]) for row in mine) / len(mine)
     result["open_range"] = open_rates
+    macros["commercialOpenMin"] = pct(min(open_rates.values()), 2)
+    macros["commercialOpenMax"] = pct(max(open_rates.values()))
     macros["commercialCost"] = f"{sum(e['cost'] for e in result['models'].values()):.2f}"
     macros["commercialExcluded"] = series(list(result["rejected"])) if result["rejected"] else "none"
     OUT.write_text(json.dumps({**result, "macros": macros}, indent=1) + "\n")

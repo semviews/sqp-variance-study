@@ -130,7 +130,7 @@ def main() -> None:
         "mean quality difference over queries is above zero and every execution agrees; $\\sim$: the interval contains zero; "
         "--: fewer than three queries.}",
         "\\label{tab:claims}",
-        "\\footnotesize",
+        "\\scriptsize",
         "\\setlength{\\tabcolsep}{2.5pt}",
         "\\begin{tabular}{@{}l" + "c" * len(DEPLOYMENTS) + "@{}}",
         "\\toprule",

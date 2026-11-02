@@ -6,8 +6,10 @@ extracted (document, attribute) value of those attributes, over all
 documents of the table: the expected number of read values on which two
 executions differ. A filter reads its attribute on every document, so this
 is exact for filters and an upper bound for projected attributes and
-aggregates. The possible-worlds model predicts reproduction e^{-x_q} for
-answers that expose every value read.
+aggregates. The possible-worlds model predicts reproduction
+prod(1 - delta) over the values read, about e^{-x_q}, for answers that
+expose every value read; for other answers it is a lower bound, because a
+filter or aggregate may absorb a change.
 
 Writes experiments/processed/uda_lineage.json with a "macros" map.
 """
@@ -47,17 +49,21 @@ def main() -> None:
         key = (row["dataset"], row["model"], row["setting"])
         delta[key][(row["table"], row["attribute"], row["doc"])] = disagreement(json.loads(row["values"]))
     by_attribute: dict[tuple, dict[tuple, float]] = defaultdict(lambda: defaultdict(float))
+    log_same: dict[tuple, dict[tuple, float]] = defaultdict(lambda: defaultdict(float))
     for key, values in delta.items():
         for (table, attribute, _), value in values.items():
             by_attribute[key][(table, attribute)] += value
+            log_same[key][(table, attribute)] += math.log(1 - value) if value < 1 else -math.inf
 
     points, macros, summary = [], {}, {}
     for row in csv.DictReader((PROCESSED / "uda_repeats" / "queries.csv").open()):
         key = (row["dataset"], row["model"], row["setting"])
-        exposure = sum(by_attribute[key].get(item, 0.0) for item in reads(row["dataset"], row["query"]))
+        read = reads(row["dataset"], row["query"])
+        exposure = sum(by_attribute[key].get(item, 0.0) for item in read)
+        predicted = math.exp(sum(log_same[key].get(item, 0.0) for item in read))
         measured = float(row["answer_reproduction"])
         points.append({"model": row["model"], "query": row["query"], "task": row["task"],
-                       "exposure": exposure, "predicted": math.exp(-exposure), "measured": measured})
+                       "exposure": exposure, "predicted": predicted, "measured": measured})
 
     for model, suffix in MACRO.items():
         rows = [point for point in points if point["model"] == model]
@@ -73,7 +79,11 @@ def main() -> None:
                 "within": sum(abs(point["predicted"] - point["measured"]) <= TOLERANCE for point in members),
                 "mean_error": sum(abs(point["predicted"] - point["measured"]) for point in members) / len(members),
             }
+        informative = [point for point in rows if 0.05 < point["predicted"] < 0.95]
         summary[model] = {"queries": len(rows), "within": within, "above": above,
+                          "bound_holds": within + above, "informative": len(informative),
+                          "informative_bound_holds": sum(point["measured"] >= point["predicted"] - TOLERANCE
+                                                         for point in informative),
                           "median_exposure": sorted(point["exposure"] for point in rows)[len(rows) // 2],
                           "tasks": tasks}
         macros[f"udaLinQueries{suffix}"] = len(rows)
@@ -81,6 +91,7 @@ def main() -> None:
         macros[f"udaLinWithinPct{suffix}"] = f"{100 * within / len(rows):.0f}\\%"
         macros[f"udaLinAbove{suffix}"] = above
         macros[f"udaLinBelow{suffix}"] = len(rows) - within - above
+        macros[f"udaLinHolds{suffix}"] = within + above
         macros[f"udaLinMedExposure{suffix}"] = f"{summary[model]['median_exposure']:.1f}"
         for task, values in tasks.items():
             macros[f"udaLinWithin{task}{suffix}"] = f"{values['within']} of {values['queries']}"

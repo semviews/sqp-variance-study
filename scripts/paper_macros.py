@@ -240,6 +240,8 @@ def main() -> None:
         define("ampEveryCells", amplification["every_item_cells"])
         define("ampEveryWithin", amplification["every_item_within_015"])
         define("ampEveryMae", f"{amplification['every_item_mean_abs_error']:.2f}")
+        define("ampEveryExpMae", f"{amplification['every_item_exp_mean_abs_error']:.2f}")
+        define("ampEveryInformative", amplification["every_item_informative"])
         define("ampOtherCells", amplification["other_cells"])
         define("ampOtherAbove", amplification["other_above_curve"])
         curves = amplification["flip_by_k_by_kind"]

@@ -13,7 +13,7 @@ whose ground-truth answer is empty, or that score below 1 on the ground truth
 (lexical comparison of numbers and names), are kept for answer comparison and
 flagged so quality summaries can leave them out.
 
-Run with UDA-Bench's environment, e.g. ~/code/UDA-Bench/.venv/bin/python.
+Run with UDA-Bench's environment, e.g. ~/code/sqpe-research/UDA-Bench/.venv/bin/python.
 """
 
 from __future__ import annotations

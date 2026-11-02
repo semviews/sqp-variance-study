@@ -5,16 +5,26 @@
    "decides": "all $n$ items",
    "prediction": "closed",
    "cells": 24,
-   "within": 23,
-   "mean_error": 0.026466561233669767
+   "within": 24,
+   "within_strict": 23,
+   "informative": 6,
+   "informative_within": 6,
+   "informative_within_strict": 5,
+   "mean_error": 0.010359531562839188,
+   "informative_mean_error": 0.04024
   },
   {
    "rule": "\\texttt{LIMIT} $k$",
-   "decides": "prefix up to the $k$-th match",
+   "decides": "prefix to the $k$-th match",
    "prediction": "simulated",
    "cells": 24,
-   "within": 22,
-   "mean_error": 0.021620370370370373
+   "within": 23,
+   "within_strict": 23,
+   "informative": 3,
+   "informative_within": 2,
+   "informative_within_strict": 2,
+   "mean_error": 0.01762037037037037,
+   "informative_mean_error": 0.11546296296296295
   },
   {
    "rule": "\\texttt{COUNT}, ratio, counts",
@@ -22,7 +32,12 @@
    "prediction": "simulated",
    "cells": 18,
    "within": 18,
-   "mean_error": 0.019854938271604936
+   "within_strict": 17,
+   "informative": 6,
+   "informative_within": 6,
+   "informative_within_strict": 5,
+   "mean_error": 0.013015432098765427,
+   "informative_mean_error": 0.03904629629629628
   },
   {
    "rule": "\\texttt{AVG}",
@@ -30,7 +45,12 @@
    "prediction": "simulated",
    "cells": 6,
    "within": 6,
-   "mean_error": 0.06841666666666668
+   "within_strict": 6,
+   "informative": 4,
+   "informative_within": 4,
+   "informative_within_strict": 4,
+   "mean_error": 0.004333333333333328,
+   "informative_mean_error": 0.0059999999999999915
   },
   {
    "rule": "Rank by group mean",
@@ -38,22 +58,500 @@
    "prediction": "simulated",
    "cells": 6,
    "within": 6,
-   "mean_error": 0.012416666666666664
+   "within_strict": 6,
+   "informative": 2,
+   "informative_within": 2,
+   "informative_within_strict": 2,
+   "mean_error": 0.02016666666666667,
+   "informative_mean_error": 0.05825
   },
   {
    "rule": "SQL over extractions",
-   "decides": "values the SQL reads",
-   "prediction": "closed",
+   "decides": "values read",
+   "prediction": "bound",
    "cells": 369,
-   "within": 202,
-   "mean_error": null
+   "within": 368,
+   "informative": 55,
+   "informative_within": 54,
+   "mean_error": null,
+   "informative_mean_error": null
+  }
+ ],
+ "points": [
+  {
+   "cell": "medical/vllm-granite-3-3-8b-instruct/w20_lp/1",
+   "plan": "set",
+   "predicted": 1.8174862186417667e-10,
+   "measured": 0.0
+  },
+  {
+   "cell": "medical/vllm-granite-3-3-8b-instruct/w20_lp/10",
+   "plan": "vector",
+   "predicted": 1.9537145168705335e-15,
+   "measured": 0.0
+  },
+  {
+   "cell": "medical/vllm-llama-3-3-70b-instruct/w20_lp/1",
+   "plan": "set",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "medical/vllm-llama-3-3-70b-instruct/w20_lp/10",
+   "plan": "vector",
+   "predicted": 0.00497664,
+   "measured": 0.0
+  },
+  {
+   "cell": "medical/vllm-qwen2-5-72b-instruct/w20_lp/1",
+   "plan": "set",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "medical/vllm-qwen2-5-72b-instruct/w20_lp/10",
+   "plan": "vector",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "medical/managed-gpt-oss-120b/w20/1",
+   "plan": "set",
+   "predicted": 5.496444780864176e-16,
+   "measured": 0.0
+  },
+  {
+   "cell": "medical/managed-gpt-oss-120b/w20/10",
+   "plan": "vector",
+   "predicted": 4.3761249743820785e-96,
+   "measured": 0.0
+  },
+  {
+   "cell": "medical/managed-llama-3-3-70b-instruct/w20/1",
+   "plan": "set",
+   "predicted": 0.05183999999999999,
+   "measured": 0.0
+  },
+  {
+   "cell": "medical/managed-llama-3-3-70b-instruct/w20/10",
+   "plan": "vector",
+   "predicted": 0.0,
+   "measured": 0.0
+  },
+  {
+   "cell": "medical/managed-mistral-small-3-1-24b-2503/w20/1",
+   "plan": "set",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "medical/managed-mistral-small-3-1-24b-2503/w20/10",
+   "plan": "vector",
+   "predicted": 0.6,
+   "measured": 0.6
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp/9",
+   "plan": "vector",
+   "predicted": 0.0022118400000000005,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp_exact_join40/7",
+   "plan": "pairs",
+   "predicted": 8.981609324039428e-73,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp/9",
+   "plan": "vector",
+   "predicted": 0.24,
+   "measured": 0.2
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp_exact_join40/7",
+   "plan": "pairs",
+   "predicted": 0.06400000000000002,
+   "measured": 0.2
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp/9",
+   "plan": "vector",
+   "predicted": 0.4,
+   "measured": 0.4
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp_exact_join40/7",
+   "plan": "pairs",
+   "predicted": 0.0864,
+   "measured": 0.1
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20/9",
+   "plan": "vector",
+   "predicted": 1.0634435543525867e-15,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20_exact_join40/7",
+   "plan": "pairs",
+   "predicted": 6.321583056562771e-67,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20/9",
+   "plan": "vector",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20_exact_join40/7",
+   "plan": "pairs",
+   "predicted": 2.7732638834255456e-07,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20/9",
+   "plan": "vector",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20_exact_join40/7",
+   "plan": "pairs",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp/1",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp/2",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp_exact_join40/5",
+   "plan": "pairs_limit10",
+   "predicted": 0.0,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp_exact_join40/6",
+   "plan": "pairs_limit10",
+   "predicted": 0.0095,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp/1",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp/2",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp_exact_join40/5",
+   "plan": "pairs_limit10",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp_exact_join40/6",
+   "plan": "pairs_limit10",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp/1",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp/2",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp_exact_join40/5",
+   "plan": "pairs_limit10",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp_exact_join40/6",
+   "plan": "pairs_limit10",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20/1",
+   "plan": "limit5",
+   "predicted": 0.5455,
+   "measured": 0.5333333333333333
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20/2",
+   "plan": "limit5",
+   "predicted": 0.341,
+   "measured": 0.6222222222222222
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20_exact_join40/5",
+   "plan": "pairs_limit10",
+   "predicted": 0.0,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20_exact_join40/6",
+   "plan": "pairs_limit10",
+   "predicted": 0.007,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20/1",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20/2",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20_exact_join40/5",
+   "plan": "pairs_limit10",
+   "predicted": 0.04,
+   "measured": 0.1
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20_exact_join40/6",
+   "plan": "pairs_limit10",
+   "predicted": 0.353,
+   "measured": 0.3
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20/1",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20/2",
+   "plan": "limit5",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20_exact_join40/5",
+   "plan": "pairs_limit10",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20_exact_join40/6",
+   "plan": "pairs_limit10",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp/3",
+   "plan": "count",
+   "predicted": 0.3025,
+   "measured": 0.3
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp/4",
+   "plan": "ratio",
+   "predicted": 0.2355,
+   "measured": 0.1
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp/8",
+   "plan": "label_counts",
+   "predicted": 0.428,
+   "measured": 0.4
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp/3",
+   "plan": "count",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp/4",
+   "plan": "ratio",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp/8",
+   "plan": "label_counts",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp/3",
+   "plan": "count",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp/4",
+   "plan": "ratio",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp/8",
+   "plan": "label_counts",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20/3",
+   "plan": "count",
+   "predicted": 0.3285,
+   "measured": 0.35555555555555557
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20/4",
+   "plan": "ratio",
+   "predicted": 0.291,
+   "measured": 0.26666666666666666
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20/8",
+   "plan": "label_counts",
+   "predicted": 0.272,
+   "measured": 0.28888888888888886
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20/3",
+   "plan": "count",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20/4",
+   "plan": "ratio",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20/8",
+   "plan": "label_counts",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20/3",
+   "plan": "count",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20/4",
+   "plan": "ratio",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20/8",
+   "plan": "label_counts",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "medical/vllm-granite-3-3-8b-instruct/w20_lp/4",
+   "plan": "mean_of_attribute",
+   "predicted": 0.407,
+   "measured": 0.4
+  },
+  {
+   "cell": "medical/vllm-llama-3-3-70b-instruct/w20_lp/4",
+   "plan": "mean_of_attribute",
+   "predicted": 0.39,
+   "measured": 0.4
+  },
+  {
+   "cell": "medical/vllm-qwen2-5-72b-instruct/w20_lp/4",
+   "plan": "mean_of_attribute",
+   "predicted": 0.602,
+   "measured": 0.6
+  },
+  {
+   "cell": "medical/managed-gpt-oss-120b/w20/4",
+   "plan": "mean_of_attribute",
+   "predicted": 0.002,
+   "measured": 0.0
+  },
+  {
+   "cell": "medical/managed-llama-3-3-70b-instruct/w20/4",
+   "plan": "mean_of_attribute",
+   "predicted": 0.605,
+   "measured": 0.6
+  },
+  {
+   "cell": "medical/managed-mistral-small-3-1-24b-2503/w20/4",
+   "plan": "mean_of_attribute",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/vllm-granite-3-3-8b-instruct/w20_lp/10",
+   "plan": "group_mean_rank",
+   "predicted": 0.0,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/vllm-llama-3-3-70b-instruct/w20_lp/10",
+   "plan": "group_mean_rank",
+   "predicted": 0.0045,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/vllm-qwen2-5-72b-instruct/w20_lp/10",
+   "plan": "group_mean_rank",
+   "predicted": 1.0,
+   "measured": 1.0
+  },
+  {
+   "cell": "movie/managed-gpt-oss-120b/w20/10",
+   "plan": "group_mean_rank",
+   "predicted": 0.0,
+   "measured": 0.0
+  },
+  {
+   "cell": "movie/managed-llama-3-3-70b-instruct/w20/10",
+   "plan": "group_mean_rank",
+   "predicted": 0.0745,
+   "measured": 0.1
+  },
+  {
+   "cell": "movie/managed-mistral-small-3-1-24b-2503/w20/10",
+   "plan": "group_mean_rank",
+   "predicted": 0.209,
+   "measured": 0.3
   }
  ],
  "macros": {
   "expoCellsA": 24,
-  "expoWithinA": 23,
+  "expoWithinA": 24,
   "expoCellsB": 24,
-  "expoWithinB": 22,
+  "expoWithinB": 23,
   "expoCellsC": 18,
   "expoWithinC": 18,
   "expoCellsD": 6,
@@ -61,6 +559,17 @@
   "expoCellsE": 6,
   "expoWithinE": 6,
   "expoCellsF": 369,
-  "expoWithinF": 202
+  "expoWithinF": 368,
+  "expoSemCells": 78,
+  "expoSemWithin": 77,
+  "expoSemInformative": 21,
+  "expoSemInformativeWithin": 20,
+  "expoSemInformativeStrict": 18,
+  "expoSemInformativeMae": "0.05",
+  "expoSemOverPredicted": 11,
+  "expoUdaHolds": 368,
+  "expoUdaCells": 369,
+  "expoUdaInformative": 55,
+  "expoUdaInformativeHolds": 54
  }
 }

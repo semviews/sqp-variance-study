@@ -222,7 +222,7 @@ Each output file has a counterpart with the same name under `reference/`.
 
 | Display in the paper | Script | Output |
 | --- | --- | --- |
-| Figure 1 (Movie Q3 counts) | `plot_teaser.py` | `outputs/figures/teaser_q3.pdf` |
+| Figure 1 (SemBench Movie Q3 counts) | `plot_teaser.py` | `outputs/figures/teaser_q3.pdf` |
 | Exposure rules per plan operator | `exposure_rules.py` | `outputs/tables/exposure.tex` |
 | Queries | `report_sembench_repeats.py` | `outputs/tables/queries.tex` |
 | Model deployments | written in the paper; its counts are macros from `paper_macros.py` | — |

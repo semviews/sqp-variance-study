@@ -146,7 +146,7 @@
 \newcommand{\flipKFive}{10.2\%}
 \newcommand{\flipKTen}{13.0\%}
 \newcommand{\heldoutQueries}{10}
-\newcommand{\heldoutWithin}{8}
+\newcommand{\heldoutWithin}{7}
 \newcommand{\heldoutMaxErr}{0.7}
 \newcommand{\heldoutWorstPred}{1.00}
 \newcommand{\heldoutWorstMeas}{0.30}
@@ -311,8 +311,10 @@
 \newcommand{\casDisMedFourLlamaW}{0.0\%}
 \newcommand{\casItems}{1200}
 \newcommand{\ampEveryCells}{17}
-\newcommand{\ampEveryWithin}{16}
-\newcommand{\ampEveryMae}{0.04}
+\newcommand{\ampEveryWithin}{17}
+\newcommand{\ampEveryMae}{0.01}
+\newcommand{\ampEveryExpMae}{0.04}
+\newcommand{\ampEveryInformative}{6}
 \newcommand{\ampOtherCells}{36}
 \newcommand{\ampOtherAbove}{32}
 \newcommand{\flipKTwoScore}{8.8\%}
@@ -561,7 +563,7 @@
 \expandafter\def\csname cell@medical@4@Granite@items\endcsname{1200}
 \expandafter\def\csname cell@medical@4@Granite@flip\endcsname{0.1\%}
 \expandafter\def\csname cell@medical@4@Granite@repro\endcsname{0.40}
-\expandafter\def\csname cell@medical@4@Granite@indep\endcsname{0.54}
+\expandafter\def\csname cell@medical@4@Granite@indep\endcsname{0.41}
 \expandafter\def\csname cell@medical@4@Granite@distinct\endcsname{2}
 \expandafter\def\csname cell@medical@4@Granite@qmin\endcsname{1.00}
 \expandafter\def\csname cell@medical@4@Granite@qmax\endcsname{1.00}
@@ -588,7 +590,7 @@
 \expandafter\def\csname cell@medical@4@LlamaR@items\endcsname{1200}
 \expandafter\def\csname cell@medical@4@LlamaR@flip\endcsname{0.1\%}
 \expandafter\def\csname cell@medical@4@LlamaR@repro\endcsname{0.40}
-\expandafter\def\csname cell@medical@4@LlamaR@indep\endcsname{0.52}
+\expandafter\def\csname cell@medical@4@LlamaR@indep\endcsname{0.39}
 \expandafter\def\csname cell@medical@4@LlamaR@distinct\endcsname{2}
 \expandafter\def\csname cell@medical@4@LlamaR@qmin\endcsname{0.98}
 \expandafter\def\csname cell@medical@4@LlamaR@qmax\endcsname{0.98}
@@ -597,7 +599,7 @@
 \expandafter\def\csname cell@medical@10@LlamaR@items\endcsname{1200}
 \expandafter\def\csname cell@medical@10@LlamaR@flip\endcsname{0.7\%}
 \expandafter\def\csname cell@medical@10@LlamaR@repro\endcsname{0.00}
-\expandafter\def\csname cell@medical@10@LlamaR@indep\endcsname{0.02}
+\expandafter\def\csname cell@medical@10@LlamaR@indep\endcsname{0.00}
 \expandafter\def\csname cell@medical@10@LlamaR@distinct\endcsname{5}
 \expandafter\def\csname cell@medical@10@LlamaR@qmin\endcsname{0.36}
 \expandafter\def\csname cell@medical@10@LlamaR@qmax\endcsname{0.36}
@@ -615,7 +617,7 @@
 \expandafter\def\csname cell@medical@4@Qwen@items\endcsname{1200}
 \expandafter\def\csname cell@medical@4@Qwen@flip\endcsname{0.1\%}
 \expandafter\def\csname cell@medical@4@Qwen@repro\endcsname{0.60}
-\expandafter\def\csname cell@medical@4@Qwen@indep\endcsname{0.67}
+\expandafter\def\csname cell@medical@4@Qwen@indep\endcsname{0.60}
 \expandafter\def\csname cell@medical@4@Qwen@distinct\endcsname{2}
 \expandafter\def\csname cell@medical@4@Qwen@qmin\endcsname{0.99}
 \expandafter\def\csname cell@medical@4@Qwen@qmax\endcsname{1.00}
@@ -642,7 +644,7 @@
 \expandafter\def\csname cell@medical@4@Gptoss@items\endcsname{1200}
 \expandafter\def\csname cell@medical@4@Gptoss@flip\endcsname{0.8\%}
 \expandafter\def\csname cell@medical@4@Gptoss@repro\endcsname{0.00}
-\expandafter\def\csname cell@medical@4@Gptoss@indep\endcsname{0.01}
+\expandafter\def\csname cell@medical@4@Gptoss@indep\endcsname{0.00}
 \expandafter\def\csname cell@medical@4@Gptoss@distinct\endcsname{10}
 \expandafter\def\csname cell@medical@4@Gptoss@qmin\endcsname{0.98}
 \expandafter\def\csname cell@medical@4@Gptoss@qmax\endcsname{1.00}
@@ -660,7 +662,7 @@
 \expandafter\def\csname cell@medical@1@LlamaW@items\endcsname{1200}
 \expandafter\def\csname cell@medical@1@LlamaW@flip\endcsname{0.4\%}
 \expandafter\def\csname cell@medical@1@LlamaW@repro\endcsname{0.00}
-\expandafter\def\csname cell@medical@1@LlamaW@indep\endcsname{0.11}
+\expandafter\def\csname cell@medical@1@LlamaW@indep\endcsname{0.05}
 \expandafter\def\csname cell@medical@1@LlamaW@distinct\endcsname{5}
 \expandafter\def\csname cell@medical@1@LlamaW@qmin\endcsname{0.26}
 \expandafter\def\csname cell@medical@1@LlamaW@qmax\endcsname{0.27}
@@ -669,7 +671,7 @@
 \expandafter\def\csname cell@medical@4@LlamaW@items\endcsname{1200}
 \expandafter\def\csname cell@medical@4@LlamaW@flip\endcsname{0.1\%}
 \expandafter\def\csname cell@medical@4@LlamaW@repro\endcsname{0.60}
-\expandafter\def\csname cell@medical@4@LlamaW@indep\endcsname{0.68}
+\expandafter\def\csname cell@medical@4@LlamaW@indep\endcsname{0.60}
 \expandafter\def\csname cell@medical@4@LlamaW@distinct\endcsname{2}
 \expandafter\def\csname cell@medical@4@LlamaW@qmin\endcsname{0.98}
 \expandafter\def\csname cell@medical@4@LlamaW@qmax\endcsname{0.99}
@@ -705,7 +707,7 @@
 \expandafter\def\csname cell@medical@10@Mistral@items\endcsname{1200}
 \expandafter\def\csname cell@medical@10@Mistral@flip\endcsname{0.1\%}
 \expandafter\def\csname cell@medical@10@Mistral@repro\endcsname{0.60}
-\expandafter\def\csname cell@medical@10@Mistral@indep\endcsname{0.69}
+\expandafter\def\csname cell@medical@10@Mistral@indep\endcsname{0.59}
 \expandafter\def\csname cell@medical@10@Mistral@distinct\endcsname{2}
 \expandafter\def\csname cell@medical@10@Mistral@qmin\endcsname{0.44}
 \expandafter\def\csname cell@medical@10@Mistral@qmax\endcsname{0.44}
@@ -732,7 +734,7 @@
 \expandafter\def\csname cell@movie@3@Granite@items\endcsname{120}
 \expandafter\def\csname cell@movie@3@Granite@flip\endcsname{2.5\%}
 \expandafter\def\csname cell@movie@3@Granite@repro\endcsname{0.30}
-\expandafter\def\csname cell@movie@3@Granite@indep\endcsname{0.32}
+\expandafter\def\csname cell@movie@3@Granite@indep\endcsname{0.30}
 \expandafter\def\csname cell@movie@3@Granite@distinct\endcsname{3}
 \expandafter\def\csname cell@movie@3@Granite@qmin\endcsname{0.64}
 \expandafter\def\csname cell@movie@3@Granite@qmax\endcsname{0.79}
@@ -741,7 +743,7 @@
 \expandafter\def\csname cell@movie@4@Granite@items\endcsname{120}
 \expandafter\def\csname cell@movie@4@Granite@flip\endcsname{5.0\%}
 \expandafter\def\csname cell@movie@4@Granite@repro\endcsname{0.10}
-\expandafter\def\csname cell@movie@4@Granite@indep\endcsname{0.25}
+\expandafter\def\csname cell@movie@4@Granite@indep\endcsname{0.24}
 \expandafter\def\csname cell@movie@4@Granite@distinct\endcsname{4}
 \expandafter\def\csname cell@movie@4@Granite@qmin\endcsname{0.64}
 \expandafter\def\csname cell@movie@4@Granite@qmax\endcsname{0.86}
@@ -750,7 +752,7 @@
 \expandafter\def\csname cell@movie@8@Granite@items\endcsname{120}
 \expandafter\def\csname cell@movie@8@Granite@flip\endcsname{1.7\%}
 \expandafter\def\csname cell@movie@8@Granite@repro\endcsname{0.40}
-\expandafter\def\csname cell@movie@8@Granite@indep\endcsname{0.51}
+\expandafter\def\csname cell@movie@8@Granite@indep\endcsname{0.43}
 \expandafter\def\csname cell@movie@8@Granite@distinct\endcsname{2}
 \expandafter\def\csname cell@movie@8@Granite@qmin\endcsname{0.80}
 \expandafter\def\csname cell@movie@8@Granite@qmax\endcsname{0.84}
@@ -759,7 +761,7 @@
 \expandafter\def\csname cell@movie@9@Granite@items\endcsname{256}
 \expandafter\def\csname cell@movie@9@Granite@flip\endcsname{3.1\%}
 \expandafter\def\csname cell@movie@9@Granite@repro\endcsname{0.00}
-\expandafter\def\csname cell@movie@9@Granite@indep\endcsname{0.02}
+\expandafter\def\csname cell@movie@9@Granite@indep\endcsname{0.00}
 \expandafter\def\csname cell@movie@9@Granite@distinct\endcsname{5}
 \expandafter\def\csname cell@movie@9@Granite@qmin\endcsname{0.70}
 \expandafter\def\csname cell@movie@9@Granite@qmax\endcsname{0.72}
@@ -786,7 +788,7 @@
 \expandafter\def\csname cell@movie@6@Granite@items\endcsname{1560}
 \expandafter\def\csname cell@movie@6@Granite@flip\endcsname{14.8\%}
 \expandafter\def\csname cell@movie@6@Granite@repro\endcsname{0.00}
-\expandafter\def\csname cell@movie@6@Granite@indep\endcsname{0.03}
+\expandafter\def\csname cell@movie@6@Granite@indep\endcsname{0.01}
 \expandafter\def\csname cell@movie@6@Granite@distinct\endcsname{5}
 \expandafter\def\csname cell@movie@6@Granite@qmin\endcsname{0.95}
 \expandafter\def\csname cell@movie@6@Granite@qmax\endcsname{1.00}
@@ -849,7 +851,7 @@
 \expandafter\def\csname cell@movie@9@LlamaR@items\endcsname{256}
 \expandafter\def\csname cell@movie@9@LlamaR@flip\endcsname{0.8\%}
 \expandafter\def\csname cell@movie@9@LlamaR@repro\endcsname{0.20}
-\expandafter\def\csname cell@movie@9@LlamaR@indep\endcsname{0.35}
+\expandafter\def\csname cell@movie@9@LlamaR@indep\endcsname{0.24}
 \expandafter\def\csname cell@movie@9@LlamaR@distinct\endcsname{3}
 \expandafter\def\csname cell@movie@9@LlamaR@qmin\endcsname{0.76}
 \expandafter\def\csname cell@movie@9@LlamaR@qmax\endcsname{0.77}
@@ -858,7 +860,7 @@
 \expandafter\def\csname cell@movie@10@LlamaR@items\endcsname{2000}
 \expandafter\def\csname cell@movie@10@LlamaR@flip\endcsname{0.6\%}
 \expandafter\def\csname cell@movie@10@LlamaR@repro\endcsname{0.00}
-\expandafter\def\csname cell@movie@10@LlamaR@indep\endcsname{0.03}
+\expandafter\def\csname cell@movie@10@LlamaR@indep\endcsname{0.00}
 \expandafter\def\csname cell@movie@10@LlamaR@distinct\endcsname{5}
 \expandafter\def\csname cell@movie@10@LlamaR@qmin\endcsname{0.38}
 \expandafter\def\csname cell@movie@10@LlamaR@qmax\endcsname{0.39}
@@ -885,7 +887,7 @@
 \expandafter\def\csname cell@movie@7@LlamaR@items\endcsname{1560}
 \expandafter\def\csname cell@movie@7@LlamaR@flip\endcsname{0.2\%}
 \expandafter\def\csname cell@movie@7@LlamaR@repro\endcsname{0.20}
-\expandafter\def\csname cell@movie@7@LlamaR@indep\endcsname{0.15}
+\expandafter\def\csname cell@movie@7@LlamaR@indep\endcsname{0.07}
 \expandafter\def\csname cell@movie@7@LlamaR@distinct\endcsname{3}
 \expandafter\def\csname cell@movie@7@LlamaR@qmin\endcsname{0.63}
 \expandafter\def\csname cell@movie@7@LlamaR@qmax\endcsname{0.63}
@@ -939,7 +941,7 @@
 \expandafter\def\csname cell@movie@9@Qwen@items\endcsname{256}
 \expandafter\def\csname cell@movie@9@Qwen@flip\endcsname{0.4\%}
 \expandafter\def\csname cell@movie@9@Qwen@repro\endcsname{0.40}
-\expandafter\def\csname cell@movie@9@Qwen@indep\endcsname{0.52}
+\expandafter\def\csname cell@movie@9@Qwen@indep\endcsname{0.40}
 \expandafter\def\csname cell@movie@9@Qwen@distinct\endcsname{2}
 \expandafter\def\csname cell@movie@9@Qwen@qmin\endcsname{0.75}
 \expandafter\def\csname cell@movie@9@Qwen@qmax\endcsname{0.76}
@@ -975,7 +977,7 @@
 \expandafter\def\csname cell@movie@7@Qwen@items\endcsname{1560}
 \expandafter\def\csname cell@movie@7@Qwen@flip\endcsname{0.3\%}
 \expandafter\def\csname cell@movie@7@Qwen@repro\endcsname{0.10}
-\expandafter\def\csname cell@movie@7@Qwen@indep\endcsname{0.16}
+\expandafter\def\csname cell@movie@7@Qwen@indep\endcsname{0.08}
 \expandafter\def\csname cell@movie@7@Qwen@distinct\endcsname{4}
 \expandafter\def\csname cell@movie@7@Qwen@qmin\endcsname{0.72}
 \expandafter\def\csname cell@movie@7@Qwen@qmax\endcsname{0.72}
@@ -984,7 +986,7 @@
 \expandafter\def\csname cell@movie@1@Gptoss@items\endcsname{2000}
 \expandafter\def\csname cell@movie@1@Gptoss@flip\endcsname{4.2\%}
 \expandafter\def\csname cell@movie@1@Gptoss@repro\endcsname{0.53}
-\expandafter\def\csname cell@movie@1@Gptoss@indep\endcsname{0.59}
+\expandafter\def\csname cell@movie@1@Gptoss@indep\endcsname{0.55}
 \expandafter\def\csname cell@movie@1@Gptoss@distinct\endcsname{2}
 \expandafter\def\csname cell@movie@1@Gptoss@qmin\endcsname{1.00}
 \expandafter\def\csname cell@movie@1@Gptoss@qmax\endcsname{1.00}
@@ -993,7 +995,7 @@
 \expandafter\def\csname cell@movie@2@Gptoss@items\endcsname{120}
 \expandafter\def\csname cell@movie@2@Gptoss@flip\endcsname{4.4\%}
 \expandafter\def\csname cell@movie@2@Gptoss@repro\endcsname{0.62}
-\expandafter\def\csname cell@movie@2@Gptoss@indep\endcsname{0.37}
+\expandafter\def\csname cell@movie@2@Gptoss@indep\endcsname{0.34}
 \expandafter\def\csname cell@movie@2@Gptoss@distinct\endcsname{3}
 \expandafter\def\csname cell@movie@2@Gptoss@qmin\endcsname{0.40}
 \expandafter\def\csname cell@movie@2@Gptoss@qmax\endcsname{0.60}
@@ -1002,7 +1004,7 @@
 \expandafter\def\csname cell@movie@3@Gptoss@items\endcsname{120}
 \expandafter\def\csname cell@movie@3@Gptoss@flip\endcsname{2.8\%}
 \expandafter\def\csname cell@movie@3@Gptoss@repro\endcsname{0.36}
-\expandafter\def\csname cell@movie@3@Gptoss@indep\endcsname{0.36}
+\expandafter\def\csname cell@movie@3@Gptoss@indep\endcsname{0.33}
 \expandafter\def\csname cell@movie@3@Gptoss@distinct\endcsname{4}
 \expandafter\def\csname cell@movie@3@Gptoss@qmin\endcsname{0.64}
 \expandafter\def\csname cell@movie@3@Gptoss@qmax\endcsname{0.93}
@@ -1011,7 +1013,7 @@
 \expandafter\def\csname cell@movie@4@Gptoss@items\endcsname{120}
 \expandafter\def\csname cell@movie@4@Gptoss@flip\endcsname{3.1\%}
 \expandafter\def\csname cell@movie@4@Gptoss@repro\endcsname{0.27}
-\expandafter\def\csname cell@movie@4@Gptoss@indep\endcsname{0.32}
+\expandafter\def\csname cell@movie@4@Gptoss@indep\endcsname{0.29}
 \expandafter\def\csname cell@movie@4@Gptoss@distinct\endcsname{4}
 \expandafter\def\csname cell@movie@4@Gptoss@qmin\endcsname{0.64}
 \expandafter\def\csname cell@movie@4@Gptoss@qmax\endcsname{0.86}
@@ -1020,7 +1022,7 @@
 \expandafter\def\csname cell@movie@8@Gptoss@items\endcsname{120}
 \expandafter\def\csname cell@movie@8@Gptoss@flip\endcsname{3.3\%}
 \expandafter\def\csname cell@movie@8@Gptoss@repro\endcsname{0.29}
-\expandafter\def\csname cell@movie@8@Gptoss@indep\endcsname{0.30}
+\expandafter\def\csname cell@movie@8@Gptoss@indep\endcsname{0.27}
 \expandafter\def\csname cell@movie@8@Gptoss@distinct\endcsname{4}
 \expandafter\def\csname cell@movie@8@Gptoss@qmin\endcsname{0.92}
 \expandafter\def\csname cell@movie@8@Gptoss@qmax\endcsname{1.00}
@@ -1128,7 +1130,7 @@
 \expandafter\def\csname cell@movie@10@LlamaW@items\endcsname{2000}
 \expandafter\def\csname cell@movie@10@LlamaW@flip\endcsname{0.7\%}
 \expandafter\def\csname cell@movie@10@LlamaW@repro\endcsname{0.10}
-\expandafter\def\csname cell@movie@10@LlamaW@indep\endcsname{0.14}
+\expandafter\def\csname cell@movie@10@LlamaW@indep\endcsname{0.07}
 \expandafter\def\csname cell@movie@10@LlamaW@distinct\endcsname{4}
 \expandafter\def\csname cell@movie@10@LlamaW@qmin\endcsname{0.38}
 \expandafter\def\csname cell@movie@10@LlamaW@qmax\endcsname{0.38}
@@ -1137,7 +1139,7 @@
 \expandafter\def\csname cell@movie@5@LlamaW@items\endcsname{1560}
 \expandafter\def\csname cell@movie@5@LlamaW@flip\endcsname{2.7\%}
 \expandafter\def\csname cell@movie@5@LlamaW@repro\endcsname{0.10}
-\expandafter\def\csname cell@movie@5@LlamaW@indep\endcsname{0.09}
+\expandafter\def\csname cell@movie@5@LlamaW@indep\endcsname{0.04}
 \expandafter\def\csname cell@movie@5@LlamaW@distinct\endcsname{4}
 \expandafter\def\csname cell@movie@5@LlamaW@qmin\endcsname{0.90}
 \expandafter\def\csname cell@movie@5@LlamaW@qmax\endcsname{0.90}
@@ -1146,7 +1148,7 @@
 \expandafter\def\csname cell@movie@6@LlamaW@items\endcsname{1560}
 \expandafter\def\csname cell@movie@6@LlamaW@flip\endcsname{1.4\%}
 \expandafter\def\csname cell@movie@6@LlamaW@repro\endcsname{0.30}
-\expandafter\def\csname cell@movie@6@LlamaW@indep\endcsname{0.47}
+\expandafter\def\csname cell@movie@6@LlamaW@indep\endcsname{0.35}
 \expandafter\def\csname cell@movie@6@LlamaW@distinct\endcsname{3}
 \expandafter\def\csname cell@movie@6@LlamaW@qmin\endcsname{0.90}
 \expandafter\def\csname cell@movie@6@LlamaW@qmax\endcsname{0.90}
@@ -1218,7 +1220,7 @@
 \expandafter\def\csname cell@movie@10@Mistral@items\endcsname{2000}
 \expandafter\def\csname cell@movie@10@Mistral@flip\endcsname{0.2\%}
 \expandafter\def\csname cell@movie@10@Mistral@repro\endcsname{0.30}
-\expandafter\def\csname cell@movie@10@Mistral@indep\endcsname{0.30}
+\expandafter\def\csname cell@movie@10@Mistral@indep\endcsname{0.21}
 \expandafter\def\csname cell@movie@10@Mistral@distinct\endcsname{3}
 \expandafter\def\csname cell@movie@10@Mistral@qmin\endcsname{0.43}
 \expandafter\def\csname cell@movie@10@Mistral@qmax\endcsname{0.43}
@@ -1653,6 +1655,8 @@
 \newcommand{\notReproducedSonnet}{5}
 \newcommand{\queriesSonnet}{6}
 \newcommand{\costSonnet}{30.75}
+\newcommand{\commercialOpenMin}{0.11\%}
+\newcommand{\commercialOpenMax}{15.1\%}
 \newcommand{\commercialCost}{57.41}
 \newcommand{\commercialExcluded}{Movie Q1, Medical Q1, Q4, and Q10}
 \newcommand{\claimCount}{9}
@@ -1664,42 +1668,45 @@
 \newcommand{\claimSplit}{6}
 \newcommand{\claimHoldAll}{1}
 \newcommand{\udaLinQueriesGptoss}{123}
-\newcommand{\udaLinWithinGptoss}{70}
-\newcommand{\udaLinWithinPctGptoss}{57\%}
-\newcommand{\udaLinAboveGptoss}{51}
-\newcommand{\udaLinBelowGptoss}{2}
+\newcommand{\udaLinWithinGptoss}{69}
+\newcommand{\udaLinWithinPctGptoss}{56\%}
+\newcommand{\udaLinAboveGptoss}{53}
+\newcommand{\udaLinBelowGptoss}{1}
+\newcommand{\udaLinHoldsGptoss}{122}
 \newcommand{\udaLinMedExposureGptoss}{7.0}
 \newcommand{\udaLinWithinAggGptoss}{8 of 10}
-\newcommand{\udaLinWithinFilterGptoss}{39 of 60}
+\newcommand{\udaLinWithinFilterGptoss}{38 of 60}
 \newcommand{\udaLinWithinJoinGptoss}{6 of 13}
 \newcommand{\udaLinWithinMixedGptoss}{9 of 32}
 \newcommand{\udaLinWithinSelectGptoss}{8 of 8}
 \newcommand{\udaLinQueriesLlamaW}{123}
-\newcommand{\udaLinWithinLlamaW}{65}
-\newcommand{\udaLinWithinPctLlamaW}{53\%}
-\newcommand{\udaLinAboveLlamaW}{56}
-\newcommand{\udaLinBelowLlamaW}{2}
+\newcommand{\udaLinWithinLlamaW}{66}
+\newcommand{\udaLinWithinPctLlamaW}{54\%}
+\newcommand{\udaLinAboveLlamaW}{57}
+\newcommand{\udaLinBelowLlamaW}{0}
+\newcommand{\udaLinHoldsLlamaW}{123}
 \newcommand{\udaLinMedExposureLlamaW}{4.2}
 \newcommand{\udaLinWithinAggLlamaW}{10 of 10}
-\newcommand{\udaLinWithinFilterLlamaW}{35 of 60}
+\newcommand{\udaLinWithinFilterLlamaW}{36 of 60}
 \newcommand{\udaLinWithinJoinLlamaW}{6 of 13}
-\newcommand{\udaLinWithinMixedLlamaW}{7 of 32}
-\newcommand{\udaLinWithinSelectLlamaW}{7 of 8}
+\newcommand{\udaLinWithinMixedLlamaW}{6 of 32}
+\newcommand{\udaLinWithinSelectLlamaW}{8 of 8}
 \newcommand{\udaLinQueriesGranite}{123}
-\newcommand{\udaLinWithinGranite}{67}
-\newcommand{\udaLinWithinPctGranite}{54\%}
-\newcommand{\udaLinAboveGranite}{56}
+\newcommand{\udaLinWithinGranite}{65}
+\newcommand{\udaLinWithinPctGranite}{53\%}
+\newcommand{\udaLinAboveGranite}{58}
 \newcommand{\udaLinBelowGranite}{0}
+\newcommand{\udaLinHoldsGranite}{123}
 \newcommand{\udaLinMedExposureGranite}{6.8}
 \newcommand{\udaLinWithinAggGranite}{4 of 10}
-\newcommand{\udaLinWithinFilterGranite}{40 of 60}
+\newcommand{\udaLinWithinFilterGranite}{39 of 60}
 \newcommand{\udaLinWithinJoinGranite}{6 of 13}
 \newcommand{\udaLinWithinMixedGranite}{9 of 32}
-\newcommand{\udaLinWithinSelectGranite}{8 of 8}
+\newcommand{\udaLinWithinSelectGranite}{7 of 8}
 \newcommand{\expoCellsA}{24}
-\newcommand{\expoWithinA}{23}
+\newcommand{\expoWithinA}{24}
 \newcommand{\expoCellsB}{24}
-\newcommand{\expoWithinB}{22}
+\newcommand{\expoWithinB}{23}
 \newcommand{\expoCellsC}{18}
 \newcommand{\expoWithinC}{18}
 \newcommand{\expoCellsD}{6}
@@ -1707,7 +1714,18 @@
 \newcommand{\expoCellsE}{6}
 \newcommand{\expoWithinE}{6}
 \newcommand{\expoCellsF}{369}
-\newcommand{\expoWithinF}{202}
+\newcommand{\expoWithinF}{368}
+\newcommand{\expoSemCells}{78}
+\newcommand{\expoSemWithin}{77}
+\newcommand{\expoSemInformative}{21}
+\newcommand{\expoSemInformativeWithin}{20}
+\newcommand{\expoSemInformativeStrict}{18}
+\newcommand{\expoSemInformativeMae}{0.05}
+\newcommand{\expoSemOverPredicted}{11}
+\newcommand{\expoUdaHolds}{368}
+\newcommand{\expoUdaCells}{369}
+\newcommand{\expoUdaInformative}{55}
+\newcommand{\expoUdaInformativeHolds}{54}
 \newcommand{\pubPlanBigqueryCells}{27}
 \newcommand{\pubPlanBigqueryMoving}{8}
 \newcommand{\pubPlanBigqueryMovingPct}{30\%}

@@ -184,7 +184,7 @@
       "query": 4,
       "model": "vllm-granite-3-3-8b-instruct",
       "measured": 0.4,
-      "independent": 0.537,
+      "independent": 0.407,
       "flip": 0.0008333333333333334
     },
     {
@@ -208,7 +208,7 @@
       "query": 4,
       "model": "vllm-llama-3-3-70b-instruct",
       "measured": 0.4,
-      "independent": 0.52,
+      "independent": 0.39,
       "flip": 0.0008333333333333334
     },
     {
@@ -216,7 +216,7 @@
       "query": 10,
       "model": "vllm-llama-3-3-70b-instruct",
       "measured": 0.0,
-      "independent": 0.0225,
+      "independent": 0.004,
       "flip": 0.006666666666666667
     },
     {
@@ -232,7 +232,7 @@
       "query": 4,
       "model": "vllm-qwen2-5-72b-instruct",
       "measured": 0.6,
-      "independent": 0.671,
+      "independent": 0.602,
       "flip": 0.0008333333333333334
     },
     {
@@ -256,7 +256,7 @@
       "query": 4,
       "model": "managed-gpt-oss-120b",
       "measured": 0.0,
-      "independent": 0.006,
+      "independent": 0.002,
       "flip": 0.007671957671957671
     },
     {
@@ -272,7 +272,7 @@
       "query": 1,
       "model": "managed-llama-3-3-70b-instruct",
       "measured": 0.0,
-      "independent": 0.111,
+      "independent": 0.054,
       "flip": 0.004166666666666667
     },
     {
@@ -280,7 +280,7 @@
       "query": 4,
       "model": "managed-llama-3-3-70b-instruct",
       "measured": 0.6,
-      "independent": 0.6765,
+      "independent": 0.605,
       "flip": 0.0008333333333333334
     },
     {
@@ -312,7 +312,7 @@
       "query": 10,
       "model": "managed-mistral-small-3-1-24b-2503",
       "measured": 0.6,
-      "independent": 0.6855,
+      "independent": 0.589,
       "flip": 0.0008333333333333334
     },
     {
@@ -336,7 +336,7 @@
       "query": 3,
       "model": "vllm-granite-3-3-8b-instruct",
       "measured": 0.3,
-      "independent": 0.3235,
+      "independent": 0.3025,
       "flip": 0.025
     },
     {
@@ -344,7 +344,7 @@
       "query": 4,
       "model": "vllm-granite-3-3-8b-instruct",
       "measured": 0.1,
-      "independent": 0.25,
+      "independent": 0.2355,
       "flip": 0.05
     },
     {
@@ -352,7 +352,7 @@
       "query": 8,
       "model": "vllm-granite-3-3-8b-instruct",
       "measured": 0.4,
-      "independent": 0.5125,
+      "independent": 0.428,
       "flip": 0.016666666666666666
     },
     {
@@ -360,7 +360,7 @@
       "query": 9,
       "model": "vllm-granite-3-3-8b-instruct",
       "measured": 0.0,
-      "independent": 0.0155,
+      "independent": 0.003,
       "flip": 0.03125
     },
     {
@@ -416,7 +416,7 @@
       "query": 9,
       "model": "vllm-llama-3-3-70b-instruct",
       "measured": 0.2,
-      "independent": 0.3465,
+      "independent": 0.241,
       "flip": 0.0078125
     },
     {
@@ -424,7 +424,7 @@
       "query": 10,
       "model": "vllm-llama-3-3-70b-instruct",
       "measured": 0.0,
-      "independent": 0.0255,
+      "independent": 0.0045,
       "flip": 0.006
     },
     {
@@ -472,7 +472,7 @@
       "query": 9,
       "model": "vllm-qwen2-5-72b-instruct",
       "measured": 0.4,
-      "independent": 0.517,
+      "independent": 0.4005,
       "flip": 0.00390625
     },
     {
@@ -488,7 +488,7 @@
       "query": 1,
       "model": "managed-gpt-oss-120b",
       "measured": 0.5333333333333333,
-      "independent": 0.5915,
+      "independent": 0.5455,
       "flip": 0.04239285714285715
     },
     {
@@ -496,7 +496,7 @@
       "query": 2,
       "model": "managed-gpt-oss-120b",
       "measured": 0.6222222222222222,
-      "independent": 0.374,
+      "independent": 0.341,
       "flip": 0.043683862433862436
     },
     {
@@ -504,7 +504,7 @@
       "query": 3,
       "model": "managed-gpt-oss-120b",
       "measured": 0.35555555555555557,
-      "independent": 0.3585,
+      "independent": 0.3285,
       "flip": 0.02847222222222222
     },
     {
@@ -512,7 +512,7 @@
       "query": 4,
       "model": "managed-gpt-oss-120b",
       "measured": 0.26666666666666666,
-      "independent": 0.32,
+      "independent": 0.291,
       "flip": 0.03141534391534392
     },
     {
@@ -520,7 +520,7 @@
       "query": 8,
       "model": "managed-gpt-oss-120b",
       "measured": 0.28888888888888886,
-      "independent": 0.304,
+      "independent": 0.272,
       "flip": 0.03290343915343916
     },
     {
@@ -592,7 +592,7 @@
       "query": 10,
       "model": "managed-llama-3-3-70b-instruct",
       "measured": 0.1,
-      "independent": 0.144,
+      "independent": 0.0745,
       "flip": 0.0065
     },
     {
@@ -648,7 +648,7 @@
       "query": 10,
       "model": "managed-mistral-small-3-1-24b-2503",
       "measured": 0.3,
-      "independent": 0.305,
+      "independent": 0.209,
       "flip": 0.002
     }
   ],
@@ -662,7 +662,7 @@
     {
       "query": "Medical Q4 filter, AVG(age)",
       "model": "managed-gpt-oss-120b",
-      "predicted": 0.007,
+      "predicted": 0.0015,
       "measured": 0.0
     },
     {
@@ -674,7 +674,7 @@
     {
       "query": "Movie Q1 filter, LIMIT 5",
       "model": "managed-gpt-oss-120b",
-      "predicted": 0.521,
+      "predicted": 0.404,
       "measured": 0.6
     },
     {
@@ -686,19 +686,19 @@
     {
       "query": "Movie Q3 filter, COUNT",
       "model": "managed-gpt-oss-120b",
-      "predicted": 0.286,
+      "predicted": 0.2515,
       "measured": 0.6
     },
     {
       "query": "Movie Q4 filter, ratio",
       "model": "managed-gpt-oss-120b",
-      "predicted": 0.323,
+      "predicted": 0.2855,
       "measured": 0.2
     },
     {
       "query": "Movie Q8 label, GROUP BY",
       "model": "managed-gpt-oss-120b",
-      "predicted": 0.318,
+      "predicted": 0.279,
       "measured": 0.2
     },
     {
@@ -714,7 +714,7 @@
       "measured": 0.0
     }
   ],
-  "heldout_mean_abs_error": 0.1341,
+  "heldout_mean_abs_error": 0.14104999999999998,
   "heldout_max_abs_error": 0.7,
   "flip_by_k": {
     "model": "managed-gpt-oss-120b",

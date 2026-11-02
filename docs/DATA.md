@@ -158,7 +158,6 @@ map macro names directly to the strings that appear in the paper.
 
 ## 5. What was removed from the logs
 
-To keep the review anonymous, this release renames the two hosted services
-to `managed` and `vllm` in every path and file, removes provider response
+This release renames the two hosted services to `managed` and `vllm` in every path and file, removes provider response
 headers, replaces URLs inside error text with `<url>`, and replaces home
 directory paths in tracebacks with `/home/user`. No model output was edited.

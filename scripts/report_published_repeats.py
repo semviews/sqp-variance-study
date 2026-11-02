@@ -59,7 +59,7 @@ def main() -> None:
         "difference between two runs of a cell. Best $-$ mean is how far the luckiest run sits above "
         "the published mean.}",
         "\\label{tab:published}",
-        "\\small",
+        "\\footnotesize",
         "\\setlength{\\tabcolsep}{4pt}",
         "\\begin{tabular}{@{}lrrrrr@{}}",
         "\\toprule",

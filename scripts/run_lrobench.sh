@@ -6,7 +6,7 @@
 # LRO-Bench cannot parse, the vllm deployment of the same weights does not.
 set -u
 cd "$(dirname "$0")/.."
-PY=${LROBENCH:-$HOME/code/LROBench}/.venv/bin/python
+PY=${LROBENCH:-$HOME/code/sqpe-research/LROBench}/.venv/bin/python
 LOGS=experiments/logs/lrobench
 mkdir -p "$LOGS"
 

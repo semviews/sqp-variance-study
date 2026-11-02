@@ -112,6 +112,8 @@
   "notReproducedSonnet": 5,
   "queriesSonnet": 6,
   "costSonnet": "30.75",
+  "commercialOpenMin": "0.11\\%",
+  "commercialOpenMax": "15.1\\%",
   "commercialCost": "57.41",
   "commercialExcluded": "Movie Q1, Medical Q1, Q4, and Q10"
  }

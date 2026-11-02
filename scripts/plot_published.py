@@ -22,6 +22,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+import plot_style
+
 ROOT = Path(__file__).resolve().parents[1]
 CELLS = ROOT / "experiments" / "processed" / "published_repeats" / "cells.csv"
 NEEDED = ROOT / "experiments" / "processed" / "runs_needed.json"
@@ -42,16 +44,17 @@ def main() -> None:
                 ranges[row["system"]].append(float(row["range"]))
     needed = json.loads(NEEDED.read_text())
 
-    figure, (left, right) = plt.subplots(1, 2, figsize=(3.4, 1.75))
+    plot_style.apply()
+    figure, (left, right) = plt.subplots(1, 2, figsize=(plot_style.COLUMN, 1.6))
     xs = [index / 400 for index in range(201)]
     for system, name in NAMES.items():
         if ranges.get(system):
             left.step(xs, exceed(ranges[system], xs), where="post", linewidth=1.0, label=name)
     left.set_xlim(0, 0.5)
     left.set_ylim(0, None)
-    left.set_xlabel("Quality range $x$", fontsize=7)
-    left.set_ylabel("Share of cells, range $> x$", fontsize=7)
-    left.legend(fontsize=5.5, frameon=False, loc="upper right")
+    left.set_xlabel("Quality range $x$")
+    left.set_ylabel("Share of cells, range $> x$")
+    left.legend(loc="upper right", handlelength=1.2)
 
     ns = list(range(1, 101))
     for key, name, style in (("published_text", "SemBench systems", "-"), ("deployments", "our deployments", "--")):
@@ -62,11 +65,9 @@ def main() -> None:
     right.set_xscale("log")
     right.set_xlim(1, 100)
     right.set_ylim(0, 0.3)
-    right.set_xlabel("Executions per system $n$", fontsize=7)
-    right.set_ylabel("Share of pairs, need $> n$", fontsize=7)
-    right.legend(fontsize=5.5, frameon=False, loc="upper right")
-    for axis in (left, right):
-        axis.tick_params(labelsize=6)
+    right.set_xlabel("Executions per system $n$")
+    right.set_ylabel("Share of pairs, need $> n$")
+    right.legend(loc="upper right", handlelength=1.6)
     figure.tight_layout(pad=0.3, w_pad=0.8)
     figure.savefig(OUT)
 

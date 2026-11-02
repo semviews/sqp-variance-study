@@ -1,17 +1,18 @@
 # Use of AI tools
 
-The SIGMOD 2027 call for papers requires compliance with the ACM Policy on
-Authorship, including its section on the use of artificial intelligence.
-That policy asks authors to describe in detail any use of AI tools in
-conducting the research: designing experiments, collecting data, coding,
-analysing data, validating results, and archiving code and data. AI used
-only to assist with writing need not be disclosed. We describe both.
+The ICDE 2027 call for papers follows the IEEE guidelines on AI-generated
+content: the use of AI-generated text, figures, images, and code is disclosed
+in the paper's acknowledgment, which names the AI system, the sections
+concerned, and the level of use. The tools used for data processing,
+filtering, visualisation, and running experiments are named as well. AI used
+only for editing and grammar is outside that policy. This document gives the
+details behind the paper's acknowledgment.
 
 ## Tools
 
-We used an AI coding agent in the Cursor editor, backed by Anthropic Claude
-models (including Claude Opus 5.5), under the authors' direction. The agent
-worked in this repository: it read and wrote files, ran commands, and
+We used an AI coding agent, in the Cursor editor and in Claude Code, backed
+by Anthropic Claude models (including Claude Opus 5.5), under the authors'
+direction. The agent worked in this repository: it read and wrote files, ran commands, and
 launched and monitored experiment scripts.
 
 The language models that the experiments execute (gpt-oss-120B,
@@ -51,8 +52,9 @@ and Claude Sonnet 5) are the subjects of the study, not authoring tools.
 
 ## Use in writing
 
-The agent drafted and revised parts of the paper's text and gave feedback
-on drafts. The authors revised and approved all text.
+The agent drafted and revised parts of the text of every section of the
+paper, gave feedback on drafts, and ported the paper to the IEEE conference
+template. The authors revised and approved all text.
 
 ## Safeguards
 

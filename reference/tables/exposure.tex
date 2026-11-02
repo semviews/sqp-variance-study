@@ -1,18 +1,19 @@
 \begin{table}[t]
-\caption{Which items decide the answer under each plan operator, and how often the possible-worlds prediction is within 0.15 of measured reproduction: the closed form $e^{-x}$ (C) or the simulation through the plan (S). SemBench rows count query--deployment cells; the last row counts UDA-Bench query--deployment pairs.}
+\caption{Which items decide the answer under each plan operator, and how often the possible-worlds prediction is within 0.15 of measured answer reproduction, over all cells and over the informative ones (prediction between 0.05 and 0.95). P: the exact product $\prod_i(1-\delta_i)$, about $e^{-x}$; S: simulation through the plan; B: the product as a lower bound, counting where the bound holds. SemBench rows count query--deployment cells of the open-weight deployments; the last row counts UDA-Bench query--deployment pairs. MAE: mean absolute error over informative cells.}
 \label{tab:exposure}
-\small
+\scriptsize
 \setlength{\tabcolsep}{3pt}
-\begin{tabular}{@{}llcr@{}}
+\begin{tabular}{@{}llcrrr@{}}
 \toprule
-Plan operator & Items deciding the answer & & Within \\
+Plan operator & Deciding items & & All & Inform. & MAE \\
 \midrule
-Full output (map, set, join) & all $n$ items & C & 23/24 \\
-\texttt{LIMIT} $k$ & prefix up to the $k$-th match & S & 22/24 \\
-\texttt{COUNT}, ratio, counts & spread of the count & S & 18/18 \\
-\texttt{AVG} & spread of the mean & S & 6/6 \\
-Rank by group mean & groups near a tie & S & 6/6 \\
-SQL over extractions & values the SQL reads & C & 202/369 \\
+Full output (map, set, join) & all $n$ items & P & 24/24 & 6/6 & 0.04 \\
+\texttt{LIMIT} $k$ & prefix to the $k$-th match & S & 23/24 & 2/3 & 0.12 \\
+\texttt{COUNT}, ratio, counts & spread of the count & S & 18/18 & 6/6 & 0.04 \\
+\texttt{AVG} & spread of the mean & S & 6/6 & 4/4 & 0.01 \\
+Rank by group mean & groups near a tie & S & 6/6 & 2/2 & 0.06 \\
+\midrule
+SQL over extractions & values read & B & 368/369 & 54/55 & -- \\
 \bottomrule
 \end{tabular}
 \end{table}

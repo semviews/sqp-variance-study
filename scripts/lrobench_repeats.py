@@ -18,7 +18,7 @@ LRO-Bench's impute judge uses the model under test; here it is one fixed
 model for every run, so a judge failure or drift cannot change the score of
 an unchanged prediction.
 
-Run with LRO-Bench's own environment, e.g. ~/code/LROBench/.venv/bin/python.
+Run with LRO-Bench's own environment, e.g. ~/code/sqpe-research/LROBench/.venv/bin/python.
 """
 
 from __future__ import annotations

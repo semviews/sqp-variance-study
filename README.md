@@ -1,7 +1,8 @@
 # Same Query, Different Answer: artifact
 
 This repository accompanies the paper *Same Query, Different Answer:
-Run-to-Run Variance in Semantic Query Processing [Experiments & Analysis]*.
+Run-to-Run Variance in Semantic Query Processing*, submitted to ICDE 2027 as
+an Experiment, Analysis, and Benchmark paper.
 It contains the drivers that executed three benchmarks (SemBench, LRO-Bench,
 and UDA-Bench) repeatedly at temperature 0, the per-call logs of those
 executions, and the analysis that turns the logs into every number, table,
@@ -42,7 +43,7 @@ make test
 | [docs/REPRODUCE.md](docs/REPRODUCE.md) | Setup, the two levels of reproduction, the command for every campaign, and a map from each display in the paper to the script that makes it |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How the code works: the drivers and their logging, the analysis pipeline, the measures, and the statistics |
 | [docs/DATA.md](docs/DATA.md) | Benchmarks, deployments, the raw directory layout, the schema of every log and processed file |
-| [docs/AI_USE.md](docs/AI_USE.md) | Use of AI tools in this work (ACM policy disclosure) |
+| [docs/AI_USE.md](docs/AI_USE.md) | Use of AI tools in this work (IEEE policy disclosure) |
 
 ## Repository layout
 

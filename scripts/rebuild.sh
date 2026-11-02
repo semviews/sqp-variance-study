@@ -4,7 +4,7 @@ set -eu
 cd "$(dirname "$0")/.."
 mkdir -p outputs/tables outputs/figures
 PY=${PY:-SemBench/.venvs/sembench/bin/python}
-UDA_PY=${UDA_PY:-${UDABENCH:-$HOME/code/UDA-Bench}/.venv/bin/python}
+UDA_PY=${UDA_PY:-${UDABENCH:-$HOME/code/sqpe-research/UDA-Bench}/.venv/bin/python}
 export MPLCONFIGDIR=${MPLCONFIGDIR:-/tmp/mpl}
 "$PY" scripts/analyze_published_repeats.py > /dev/null
 "$PY" scripts/report_published_repeats.py > /dev/null

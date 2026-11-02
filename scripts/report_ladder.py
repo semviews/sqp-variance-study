@@ -19,12 +19,12 @@ ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "experiments" / "processed"
 TABLES = ROOT / "outputs" / "tables"
 NAMES = {
-    "managed-gpt-oss-120b": "gpt-oss-120B (M)",
+    "managed-gpt-oss-120b": "gpt-oss-120B",
     "managed-llama-3-3-70b-instruct": "Llama-70B (M)",
     "vllm-llama-3-3-70b-instruct": "Llama-70B (V)",
-    "vllm-qwen2-5-72b-instruct": "Qwen-72B (V)",
-    "managed-mistral-small-3-1-24b-2503": "Mistral-24B (M)",
-    "vllm-granite-3-3-8b-instruct": "Granite-8B (V)",
+    "vllm-qwen2-5-72b-instruct": "Qwen-72B",
+    "managed-mistral-small-3-1-24b-2503": "Mistral-24B",
+    "vllm-granite-3-3-8b-instruct": "Granite-8B",
 }
 SEMBENCH_SETTINGS = {"w20", "w20_lp", "w20_exact_join40", "w20_lp_exact_join40"}
 LEVELS = ("outputs", "answer", "quality")
@@ -97,27 +97,30 @@ def plot(suites: dict) -> None:
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
+    import plot_style
+
+    plot_style.apply()
     titles = {"sembench": "SemBench", "lrobench": "LRO-Bench", "udabench": "UDA-Bench"}
-    markers = dict(zip(NAMES, "osD^vP"))
-    fig, axes = plt.subplots(1, 3, figsize=(3.4, 1.9), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(plot_style.COLUMN, 1.6), sharey=True)
     for axis, (suite, title) in zip(axes, titles.items()):
         for model, name in NAMES.items():
             entry = suites[suite].get(model)
             if not entry:
                 continue
             values = [100 * entry[level] for level in LEVELS]
-            axis.plot(range(3), values, marker=markers[model], color="0.25", linewidth=0.9, markersize=4,
-                      label=name)
+            # A slope chart: thin lines join the three levels of one deployment.
+            axis.plot(range(3), values, marker=plot_style.marker(model), color=plot_style.color(model),
+                      linewidth=0.7, label=name)
         axis.set_xticks(range(3), ["Out.", "Ans.", "Qual."])
         axis.set_xlim(-0.3, 2.3)
-        axis.set_title(title, fontsize=8)
+        axis.set_title(title)
         axis.set_ylim(-3, 103)
-        axis.grid(axis="y", linewidth=0.3)
-        axis.tick_params(labelsize=7)
-    axes[0].set_ylabel("Identical (% of queries)", fontsize=7)
+        axis.grid(axis="y", linewidth=0.3, alpha=0.5)
+    axes[0].set_ylabel("Identical (% of queries)")
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper center", ncol=3, fontsize=6.5, frameon=False, bbox_to_anchor=(0.5, 1.17))
-    fig.tight_layout()
+    fig.legend(handles, labels, loc="upper center", ncol=3, frameon=False, bbox_to_anchor=(0.5, 1.2),
+               handlelength=1.2, columnspacing=0.8)
+    fig.tight_layout(w_pad=0.4)
     fig.savefig(ROOT / "outputs" / "figures" / "ladder.pdf", bbox_inches="tight")
 
 
