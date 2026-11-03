@@ -115,7 +115,7 @@ def main() -> None:
         "\\label{tab:probes}",
         "\\scriptsize",
         "\\setlength{\\tabcolsep}{3pt}",
-        "\\begin{tabular}{@{}l" + "r" * len(QUERIES) + "r@{}}",
+        "\\begin{tabular*}{\\linewidth}{@{\\extracolsep{\\fill}}l" + "r" * len(QUERIES) + "r@{}}",
         "\\toprule",
         "Setting & " + " & ".join(f"Q{query}" for query in QUERIES) + " & $\\Delta$ [95\\% CI] \\\\",
         "\\midrule",
@@ -139,7 +139,7 @@ def main() -> None:
             cells.append("--")
         label = entry["label"].replace("Reasoning effort ", "").replace("Shuffled input order", "Shuffled input")
         lines.append(f"\\quad {label} & " + " & ".join(cells) + " \\\\")
-    lines += ["\\bottomrule", "\\end{tabular}", "\\end{table}", ""]
+    lines += ["\\bottomrule", "\\end{tabular*}", "\\end{table}", ""]
     TABLE.write_text("\n".join(lines), encoding="utf-8")
     (DATA / "probes.json").write_text(json.dumps(results, indent=2) + "\n", encoding="utf-8")
     for entry in results:

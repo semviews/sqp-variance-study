@@ -53,7 +53,7 @@ def joins(facts: dict) -> None:
              "reproduction. Q5 and Q6 return the first ten same- and opposite-sentiment pairs, Q7 all opposite-sentiment pairs. "
              "Flip rates are over five executions; for gpt-oss-120B, the expected rate over five of its ten.}",
              "\\label{tab:joins}", "\\footnotesize", "\\setlength{\\tabcolsep}{3.5pt}",
-             "\\begin{tabular}{@{}lrrrrrrr@{}}", "\\toprule",
+             "\\begin{tabular*}{\\linewidth}{@{\\extracolsep{\\fill}}lrrrrrrr@{}}", "\\toprule",
              "& \\multicolumn{2}{c}{Q5} & \\multicolumn{2}{c}{Q6} & \\multicolumn{3}{c}{Q7} \\\\",
              "\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}\\cmidrule(l){6-8}",
              "Deployment & Flip & Repro & Flip & Repro & Flip & Repro & F1 range \\\\", "\\midrule"]
@@ -70,7 +70,7 @@ def joins(facts: dict) -> None:
         cells.append(f"{entry[7]['qmax'] - entry[7]['qmin']:.3f}")
         facts["joins"][model] = entry
         lines.append(f"{NAMES[model]} & " + " & ".join(cells) + " \\\\")
-    lines += ["\\bottomrule", "\\end{tabular}", "\\end{table}"]
+    lines += ["\\bottomrule", "\\end{tabular*}", "\\end{table}"]
     (TABLES / "joins.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -90,14 +90,16 @@ def lrobench(facts: dict) -> None:
     data = json.loads((PROCESSED / "lrobench_repeats" / "facts.json").read_text())
     settings = sorted({key.split("|")[1] for key in data["by_setting"]},
                       key=lambda name: (LRO_OPERATORS.index(name.split("_", 1)[0]), name))
+    # Spare page width goes between deployments, so that each one's four columns stay together.
+    group = "@{\\extracolsep{\\fill}}r@{\\extracolsep{0pt}\\hspace{7pt}}r" + "@{\\hspace{7pt}}r" * 2
     lines = [HEADER, "\\begin{table*}[t]",
              "\\caption{LRO-Bench, five executions of every scored query in each implementation. Per deployment: "
              "Fail, queries with at least one failed execution; Ans., queries answered in at least two executions; "
              "Diff., the share of answered queries whose answer differs between executions (\\%); Range, the "
              "mean range of LRO-Bench's quality metric over answered queries. ALL issues one call for the "
              "operand, ONE one call per element, SEMI a hybrid.}",
-             "\\label{tab:lro}", "\\scriptsize", "\\setlength{\\tabcolsep}{2.6pt}",
-             "\\begin{tabular}{@{}ll" + "rrrr" * len(LRO_MODELS) + "@{}}", "\\toprule",
+             "\\label{tab:lro}", "\\footnotesize", "\\setlength{\\tabcolsep}{2.6pt}", "\\renewcommand{\\arraystretch}{0.93}",
+             "\\begin{tabular*}{\\linewidth}{@{}ll" + group * len(LRO_MODELS) + "@{}}", "\\toprule",
              "& & " + " & ".join(f"\\multicolumn{{4}}{{c}}{{{NAMES[model]}}}" for model in LRO_MODELS) + " \\\\",
              "".join(f"\\cmidrule(lr){{{3 + 4 * index}-{6 + 4 * index}}}" for index in range(len(LRO_MODELS))),
              "Operator & Impl. & " + " & ".join(["Fail", "Ans.", "Diff.", "Range"] * len(LRO_MODELS)) + " \\\\",
@@ -124,7 +126,7 @@ def lrobench(facts: dict) -> None:
     for model in LRO_MODELS:
         value = data["by_model"][model]
         cells += [str(value["queries_any_failure"])] + lro_answers(value) + [f"{value['mean_quality_range']:.3f}"]
-    lines += ["All & & " + " & ".join(cells) + " \\\\", "\\bottomrule", "\\end{tabular}", "\\end{table*}"]
+    lines += ["All & & " + " & ".join(cells) + " \\\\", "\\bottomrule", "\\end{tabular*}", "\\end{table*}"]
     (TABLES / "lro_repeats.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     facts["lro"] = {model: data["by_model"][model] for model in LRO_MODELS}
@@ -151,13 +153,15 @@ UDA_MODELS = ["managed-gpt-oss-120b", "managed-llama-3-3-70b-instruct", "vllm-gr
 def uda(facts: dict) -> None:
     data = json.loads((PROCESSED / "uda_repeats" / "facts.json").read_text())
     queries = read(PROCESSED / "uda_repeats" / "queries.csv")
+    # Spare column width goes between the groups of columns.
+    fill, inner = "@{\\extracolsep{\\fill}}r", "@{\\extracolsep{0pt}\\hspace{4.4pt}}r"
     lines = [HEADER, "\\begin{table}[t]",
              "\\caption{UDA-Bench Player, five executions of 123 queries. Values is the share of extracted "
              "(document, attribute) values that change (\\%). Per query class, the number of queries whose "
              "result table differs between executions, out of the number in parentheses. F1 is UDA-Bench's quality, mean over queries with a "
              "non-empty ground truth, with the mean range across executions.}",
              "\\label{tab:uda}", "\\footnotesize", "\\setlength{\\tabcolsep}{2.2pt}",
-             "\\begin{tabular}{@{}lr" + "r" * (len(UDA_TASKS) + 1) + "rr@{}}", "\\toprule",
+             "\\begin{tabular*}{\\linewidth}{@{}l" + fill * 2 + inner * len(UDA_TASKS) + fill + inner + "@{}}", "\\toprule",
              "& & \\multicolumn{" + str(len(UDA_TASKS) + 1) + "}{c}{Answers differ} & & \\\\",
              f"\\cmidrule(lr){{3-{3 + len(UDA_TASKS)}}}",
              "Deployment & Values & " + " & ".join(UDA_SHORT[task] for task in UDA_TASKS) + " & All & F1 & Range \\\\"]
@@ -188,7 +192,7 @@ def uda(facts: dict) -> None:
         facts["uda"][model] = {**{key: item for key, item in value.items() if key != "attributes"},
                                **null_facts, "mean_f1": mean_f1, "scored_queries": len(scored),
                                "differ_by_task": dict(differ)}
-    lines += ["\\bottomrule", "\\end{tabular}", "\\end{table}"]
+    lines += ["\\bottomrule", "\\end{tabular*}", "\\end{table}"]
     (TABLES / "uda.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
     facts["uda_tasks"] = dict(counts)
     facts["uda_gold_empty"] = sum(row["gold_empty"] == "1" for row in queries if row["model"] == UDA_MODELS[0])

@@ -3,7 +3,7 @@
 \label{tab:claims}
 \scriptsize
 \setlength{\tabcolsep}{2.5pt}
-\begin{tabular}{@{}lcccc@{}}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccc@{}}
 \toprule
 Recommendation & gpt-oss & Llama (M) & Llama (V) & Granite \\
 \midrule
@@ -17,5 +17,5 @@ Cluster: ALL $>$ ONE & $\checkmark$ & $\checkmark$ & $\sim$ & $\sim$ \\
 Order: ALL $>$ SEMI & $\checkmark$ & -- & $\sim$ & -- \\
 Order: ALL $>$ ONE (heap) & $\sim$ & -- & $\sim$ & -- \\
 \bottomrule
-\end{tabular}
+\end{tabular*}
 \end{table}

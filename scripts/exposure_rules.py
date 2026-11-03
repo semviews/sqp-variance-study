@@ -117,7 +117,7 @@ def main() -> None:
         "\\label{tab:exposure}",
         "\\scriptsize",
         "\\setlength{\\tabcolsep}{3pt}",
-        "\\begin{tabular}{@{}llcrrr@{}}",
+        "\\begin{tabular*}{\\linewidth}{@{\\extracolsep{\\fill}}llcrrr@{}}",
         "\\toprule",
         "Plan operator & Deciding items & & All & Inform. & MAE \\\\",
         "\\midrule",
@@ -128,7 +128,7 @@ def main() -> None:
             lines.append("\\midrule")
         lines.append(f"{row['rule']} & {row['decides']} & {mark} & {row['within']}/{row['cells']} & "
                      f"{row['informative_within']}/{row['informative']} & {mae(row['informative_mean_error'])} \\\\")
-    lines += ["\\bottomrule", "\\end{tabular}", "\\end{table}", ""]
+    lines += ["\\bottomrule", "\\end{tabular*}", "\\end{table}", ""]
     TABLE.write_text("\n".join(lines))
     for row in rows:
         print(row)

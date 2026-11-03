@@ -132,7 +132,7 @@ def main() -> None:
         "\\label{tab:claims}",
         "\\scriptsize",
         "\\setlength{\\tabcolsep}{2.5pt}",
-        "\\begin{tabular}{@{}l" + "c" * len(DEPLOYMENTS) + "@{}}",
+        "\\begin{tabular*}{\\linewidth}{@{\\extracolsep{\\fill}}l" + "c" * len(DEPLOYMENTS) + "@{}}",
         "\\toprule",
         "Recommendation & " + " & ".join(label for _, label in DEPLOYMENTS) + " \\\\",
         "\\midrule",
@@ -140,7 +140,7 @@ def main() -> None:
     for row in rows:
         cells = [SYMBOL[row["results"][model]["verdict"]] for model, _ in DEPLOYMENTS]
         lines.append(f"{row['claim']} & " + " & ".join(cells) + " \\\\")
-    lines += ["\\bottomrule", "\\end{tabular}", "\\end{table}", ""]
+    lines += ["\\bottomrule", "\\end{tabular*}", "\\end{table}", ""]
     TABLE.write_text("\n".join(lines))
     for row in rows:
         print(row["claim"])

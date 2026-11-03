@@ -88,7 +88,7 @@ def judge_check() -> tuple[int, int]:
 
 def main() -> None:
     result, macros = {}, {}
-    for model_dir in sorted(RAW.iterdir()):
+    for model_dir in sorted(path for path in RAW.iterdir() if path.is_dir()):
         counts = Counter()
         for failed in model_dir.glob("*/repeat-*/*.failed.json"):
             calls = failed.with_name(failed.name.replace(".failed.json", ".calls.jsonl"))

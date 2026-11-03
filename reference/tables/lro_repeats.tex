@@ -2,9 +2,10 @@
 \begin{table*}[t]
 \caption{LRO-Bench, five executions of every scored query in each implementation. Per deployment: Fail, queries with at least one failed execution; Ans., queries answered in at least two executions; Diff., the share of answered queries whose answer differs between executions (\%); Range, the mean range of LRO-Bench's quality metric over answered queries. ALL issues one call for the operand, ONE one call per element, SEMI a hybrid.}
 \label{tab:lro}
-\scriptsize
+\footnotesize
 \setlength{\tabcolsep}{2.6pt}
-\begin{tabular}{@{}llrrrrrrrrrrrrrrrr@{}}
+\renewcommand{\arraystretch}{0.93}
+\begin{tabular*}{\linewidth}{@{}ll@{\extracolsep{\fill}}r@{\extracolsep{0pt}\hspace{7pt}}r@{\hspace{7pt}}r@{\hspace{7pt}}r@{\extracolsep{\fill}}r@{\extracolsep{0pt}\hspace{7pt}}r@{\hspace{7pt}}r@{\hspace{7pt}}r@{\extracolsep{\fill}}r@{\extracolsep{0pt}\hspace{7pt}}r@{\hspace{7pt}}r@{\hspace{7pt}}r@{\extracolsep{\fill}}r@{\extracolsep{0pt}\hspace{7pt}}r@{\hspace{7pt}}r@{\hspace{7pt}}r@{}}
 \toprule
 & & \multicolumn{4}{c}{gpt-oss-120B} & \multicolumn{4}{c}{Llama-70B (V)} & \multicolumn{4}{c}{Llama-70B (M)} & \multicolumn{4}{c}{Granite-8B} \\
 \cmidrule(lr){3-6}\cmidrule(lr){7-10}\cmidrule(lr){11-14}\cmidrule(lr){15-18}
@@ -32,5 +33,5 @@ Multi & ALL & 1 & 59 & 37 & 0.220 & 7 & 54 & 52 & 0.130 & 11 & 51 & 47 & 0.115 &
 \midrule
 All & & 16 & 726 & 57 & 0.107 & 64 & 677 & 25 & 0.026 & 437 & 323 & 45 & 0.061 & 277 & 468 & 37 & 0.029 \\
 \bottomrule
-\end{tabular}
+\end{tabular*}
 \end{table*}

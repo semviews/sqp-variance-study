@@ -1,12 +1,5 @@
 {
  "failures": {
-  ".DS_Store": {
-   "failed_executions": 0,
-   "envelope": 0,
-   "leading text": 0,
-   "valid JSON": 0,
-   "no JSON": 0
-  },
   "vllm-granite-3-3-8b-instruct": {
    "failed_executions": 1347,
    "envelope": 0,

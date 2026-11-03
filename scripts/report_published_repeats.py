@@ -61,7 +61,7 @@ def main() -> None:
         "\\label{tab:published}",
         "\\footnotesize",
         "\\setlength{\\tabcolsep}{4pt}",
-        "\\begin{tabular}{@{}lrrrrr@{}}",
+        "\\begin{tabular*}{\\linewidth}{@{\\extracolsep{\\fill}}lrrrrr@{}}",
         "\\toprule",
         "System & Cells & Moves & Range $\\ge 0.1$ & Max range & Best $-$ mean \\\\",
         "\\midrule",
@@ -86,7 +86,7 @@ def main() -> None:
         f"Text queries & {summary(text_rows)} \\\\",
         f"All queries & {summary(cells)} \\\\",
         "\\bottomrule",
-        "\\end{tabular}",
+        "\\end{tabular*}",
         "\\end{table}",
         "",
     ]

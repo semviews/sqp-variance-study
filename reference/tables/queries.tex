@@ -3,7 +3,7 @@
 \caption{SemBench queries executed repeatedly. Items is the number of semantic-operator outputs analysed per execution; for the joins, on a 40-review sample, it excludes each review paired with itself.}
 \label{tab:queries}
 \footnotesize
-\begin{tabular}{@{}lllr@{}}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllr@{}}
 \toprule
 Query & Output & Answer & Items \\
 \midrule
@@ -22,5 +22,5 @@ Movie Q5 & pair & first 10 same-sentiment pairs & 1{,}560 \\
 Movie Q6 & pair & first 10 opposite-sentiment pairs & 1{,}560 \\
 Movie Q7 & pair & all opposite-sentiment pairs & 1{,}560 \\
 \bottomrule
-\end{tabular}
+\end{tabular*}
 \end{table}
